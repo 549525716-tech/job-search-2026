@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "version": "2026-09-10-policy-discovery-v1",
+  "cadence": "weekly",
+  "scheduler_active": false,
+  "origins": [
+    {"authority": "中国政府网/国务院", "url": "https://www.gov.cn/", "purpose": "National plans and formal government policies"},
+    {"authority": "国家发展和改革委员会", "url": "https://www.ndrc.gov.cn/", "purpose": "Industrial direction and implementation measures"},
+    {"authority": "工业和信息化部", "url": "https://www.miit.gov.cn/", "purpose": "Industry, manufacturing, enterprise and software policies"},
+    {"authority": "科学技术部", "url": "https://www.most.gov.cn/", "purpose": "Technology programs and innovation policy"},
+    {"authority": "国家数据局", "url": "https://www.nda.gov.cn/", "purpose": "Data, AI application and digital-economy policy"}
+  ],
+  "document_contract": ["authority", "document_number", "document_status", "national_or_local", "published_at", "issued_at", "effective_at", "deadline", "target_activities", "eligible_entities", "support_mechanism", "commercial_demand_hypothesis", "counterevidence", "source_url", "observed_at", "evidence_level"],
+  "statuses": ["formal_plan", "formal_policy", "implementation_measure", "application_notice", "draft_for_comment", "interpretation", "expired_or_repealed"],
+  "seed_documents": [
+    {"title": "国务院关于深入实施人工智能+行动的意见", "document_number": "国发〔2025〕11号", "issued_at": "2025-08-21", "published_at": "2025-08-26", "source_url": "https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html", "observed_on": "2026-09-10", "evidence_level": "official_republication_full_text_read_with_web_tool", "capture_mode": "web_tool_not_careers_collector", "raw_body_sha256": null, "note": "Original gov.cn tool fetch returned403; not retried. Public NDA republication read separately. Historical policy baseline, not new this week."},
+    {"title": "中华人民共和国国民经济和社会发展第十五个五年规划纲要", "source_url": "https://www.cppcc.gov.cn/zxww/2026/03/16/ARTI1773644951646391.shtml", "observed_on": "2026-09-10", "evidence_level": "official_search_result_full_text_fetch_timed_out", "raw_body_sha256": null, "note": "Discovery seed only; no full-text verification or industry eligibility claims yet."}
+  ],
+  "no_new_policy_is_not_failure": true,
+  "reposts_are_not_new_policy": true,
+  "policy_support_is_not_company_revenue_or_job_guarantee": true
+}

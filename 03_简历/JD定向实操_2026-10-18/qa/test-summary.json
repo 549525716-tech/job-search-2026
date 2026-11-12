@@ -1,0 +1,32 @@
+{
+  "node": {
+    "runtime": "Node v24.19.0 bundled workspace runtime",
+    "files": [
+      "careers/tests/application-pipeline.test.mjs",
+      "careers/tests/application-history.test.mjs",
+      "careers/tests/login-checkpoint.test.mjs",
+      "careers/tests/resume-tailor.test.mjs",
+      "careers/tests/matching.test.mjs",
+      "careers/tests/personal-match-report.test.mjs",
+      "careers/tests/capability-scoring.test.mjs",
+      "careers/tests/role-policy.test.mjs",
+      "careers/tests/config.test.mjs"
+    ],
+    "passed": 89,
+    "failed": 0,
+    "skipped": 0,
+    "exit_code": 0
+  },
+  "python": {
+    "file": "careers/tests/test_resume_tailor.py",
+    "passed": 9,
+    "failed": 0,
+    "note": "Main-thread deterministic builder tests; includes fixture generation, not live submissions."
+  },
+  "browser": "qa/comparison-visual.json",
+  "visual": "qa/main-visual-review.json",
+  "delivery_integrity": "qa/delivery-check.json",
+  "independent_review": "careers/docs/qa/resume-tailoring-2026-10-18-independent.md",
+  "counts_note": "Each final suite counted once. Earlier overlapping executor/QA runs are not added to these totals.",
+  "live_submission_tested": false
+}

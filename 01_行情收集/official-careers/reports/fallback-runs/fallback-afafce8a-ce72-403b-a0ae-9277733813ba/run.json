@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "fallback_run_id": "fallback-afafce8a-ce72-403b-a0ae-9277733813ba",
+  "started_at": "2026-11-02T09:30:56.667Z",
+  "finished_at": "2026-11-02T09:31:48.460Z",
+  "status": "partial",
+  "complete": false,
+  "sources": [
+    {
+      "company_id": "bailian-ai",
+      "run_id": "bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485",
+      "status": "failed",
+      "complete": false,
+      "jobs": 0,
+      "errors": [
+        {
+          "code": "NETWORK_FAILED",
+          "message": "EAI_AGAIN",
+          "evidence": "01_行情收集/official-careers/raw/bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485/001.response.json"
+        }
+      ],
+      "started_at": "2026-11-02T09:30:56.675Z",
+      "finished_at": "2026-11-02T09:31:17.068Z",
+      "report_paths": {
+        "database": "01_行情收集/official-careers/careers.sqlite",
+        "report_json": "01_行情收集/official-careers/reports/bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485.json",
+        "report_markdown": "01_行情收集/official-careers/reports/bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485.md",
+        "fallback_run_json": "/workspace/projects/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-afafce8a-ce72-403b-a0ae-9277733813ba/run.json",
+        "fallback_summary_markdown": "/workspace/projects/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-afafce8a-ce72-403b-a0ae-9277733813ba/summary.md"
+      }
+    },
+    {
+      "company_id": "deepseek",
+      "run_id": "deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451",
+      "status": "failed",
+      "complete": false,
+      "jobs": 0,
+      "errors": [
+        {
+          "code": "NETWORK_FAILED",
+          "message": "EAI_AGAIN",
+          "evidence": "01_行情收集/official-careers/raw/deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451/001.response.json"
+        }
+      ],
+      "started_at": "2026-11-02T09:31:17.085Z",
+      "finished_at": "2026-11-02T09:31:48.448Z",
+      "report_paths": {
+        "database": "01_行情收集/official-careers/careers.sqlite",
+        "report_json": "01_行情收集/official-careers/reports/deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451.json",
+        "report_markdown": "01_行情收集/official-careers/reports/deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451.md",
+        "fallback_run_json": "/workspace/projects/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-afafce8a-ce72-403b-a0ae-9277733813ba/run.json",
+        "fallback_summary_markdown": "/workspace/projects/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-afafce8a-ce72-403b-a0ae-9277733813ba/summary.md"
+      }
+    }
+  ],
+  "backlog": [
+    "BOSS browser automation quarantined, no webpage reads.",
+    "Liepin browser automation quarantined, no webpage reads."
+  ],
+  "artifacts": {
+    "run_json": "/workspace/projects/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-afafce8a-ce72-403b-a0ae-9277733813ba/run.json",
+    "summary_markdown": "/workspace/projects/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-afafce8a-ce72-403b-a0ae-9277733813ba/summary.md"
+  }
+}

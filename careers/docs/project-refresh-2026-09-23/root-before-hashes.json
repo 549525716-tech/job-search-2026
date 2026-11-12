@@ -1,0 +1,9 @@
+{
+  "captured_at": "2026-09-22T17:36:32.526708+00:00",
+  "sha256": {
+    "README.md": "268d973a50d32b441dc7a3e9d288ee586a380505ea04df3b591a106fb8ade7f6",
+    "careers/README.md": "2b9fa8b3ff5ee80a026f783cbe5d2564f9bd8d3adf17d7c505c6ebb640898578",
+    "careers/config/career-strategy.json": "31d6cc0cc5abb7579d3f538bff11db0e1663e280a81fb86272fe453e17dabb6a",
+    "careers/progress.json": "0b4a2bf2529c91ee9d61dacfb3dd35dadb166289a6e5f6f0c5f3f471988f09d3"
+  }
+}

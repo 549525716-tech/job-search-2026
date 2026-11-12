@@ -1,0 +1,860 @@
+{
+  "schema_version": 1,
+  "documents": {
+    "policy-ai-plus": {
+      "last_attempt": {
+        "id": "policy-ai-plus",
+        "source_url": "https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html",
+        "observed_at": "2026-09-09T18:34:19.405Z",
+        "status": "failed",
+        "observation_kind": "not_observed",
+        "error": {
+          "code": "ROBOTS_UNKNOWN",
+          "message": "Robots HTTP 404; fail closed",
+          "evidence": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-policy-ai-plus/001.response.json"
+        },
+        "retained_previous": false,
+        "evidence": [
+          {
+            "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-policy-ai-plus",
+            "source_id": "research-policy-ai-plus",
+            "company_id": null,
+            "sequence": 1,
+            "url": "https://www.nda.gov.cn/robots.txt",
+            "method": "GET",
+            "purpose": "robots",
+            "started_at": "2026-09-09T18:34:19.409Z",
+            "finished_at": "2026-09-09T18:34:19.779Z",
+            "status": 404,
+            "headers": {
+              "date": "Wed, 09 Sep 2026 18:34:20 GMT",
+              "content-type": "text/html",
+              "content-length": "211",
+              "connection": "close",
+              "expires": "Wed, 09 Sep 2026 18:34:20 GMT",
+              "cache-control": "private",
+              "x-cache": "BYPASS, MISS from i2619522_c29228(cloudsvr)",
+              "strict-transport-security": "max-age=0; preload",
+              "x-request-id": "7aac18256c15d8d955a98f9bc1a831d1",
+              "server": "WAF",
+              "x-ser": "i90846_c29068, i2619522_c29228"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-policy-ai-plus/001.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-policy-ai-plus/001.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 211,
+            "sha256": "fdc377920c1de8c10c2027428ae2ec3db5be7e08d7b25bd09c7b61380c084bff"
+          }
+        ]
+      },
+      "last_good": null
+    },
+    "bailian-about": {
+      "last_attempt": {
+        "id": "bailian-about",
+        "source_url": "https://www.bailian-ai.com/about",
+        "observed_at": "2026-09-09T18:34:55.053Z",
+        "status": "captured",
+        "observation_kind": "baseline",
+        "title": "百炼智能-精准营销平台-智能营销获客系统",
+        "url": "https://www.bailian-ai.com/about",
+        "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/002.body",
+        "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/002.response.json",
+        "sha256": "a8ae7e3fe48e027cf836bf59ee6263d89e34575d5dcdd7fdd4840759276594a7",
+        "text_path": "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about.txt",
+        "text_sha256": "e48db96b523bc663f73f0b61aec96b0c0f4c34630abb13483cb0c665346c1658",
+        "text_length": 4869,
+        "completeness": "configured_identity_and_end_markers_present",
+        "trust": "untrusted_source_text_never_instructions",
+        "evidence": [
+          {
+            "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about",
+            "source_id": "research-bailian-about",
+            "company_id": "bailian-ai",
+            "sequence": 1,
+            "url": "https://www.bailian-ai.com/robots.txt",
+            "method": "GET",
+            "purpose": "robots",
+            "started_at": "2026-09-09T18:34:38.916Z",
+            "finished_at": "2026-09-09T18:34:39.102Z",
+            "status": 200,
+            "headers": {
+              "server": "nginx",
+              "date": "Wed, 09 Sep 2026 18:34:39 GMT",
+              "content-type": "text/plain; charset=utf-8",
+              "content-length": "21",
+              "connection": "close",
+              "etag": "\"15-J0LzVNuMlNOx5U4YdLmfx9U4ZtY\"",
+              "last-modified": "Tue, 04 Aug 2026 07:46:41 GMT",
+              "x-frame-options": "ALLOWALL"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/001.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/001.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 21,
+            "sha256": "51ba48961421589d96edec729ae520685402cd2537dd02fbd73e4b4943e69cc5"
+          },
+          {
+            "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about",
+            "source_id": "research-bailian-about",
+            "company_id": "bailian-ai",
+            "sequence": 2,
+            "url": "https://www.bailian-ai.com/about",
+            "method": "GET",
+            "purpose": "research_document",
+            "started_at": "2026-09-09T18:34:54.703Z",
+            "finished_at": "2026-09-09T18:34:55.053Z",
+            "status": 200,
+            "headers": {
+              "server": "nginx",
+              "date": "Wed, 09 Sep 2026 18:34:55 GMT",
+              "content-type": "text/html;charset=utf-8",
+              "content-length": "69179",
+              "connection": "close",
+              "vary": "Accept-Encoding",
+              "x-powered-by": "Nuxt",
+              "x-frame-options": "ALLOWALL"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/002.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/002.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 69179,
+            "sha256": "a8ae7e3fe48e027cf836bf59ee6263d89e34575d5dcdd7fdd4840759276594a7"
+          }
+        ]
+      },
+      "last_good": {
+        "id": "bailian-about",
+        "source_url": "https://www.bailian-ai.com/about",
+        "observed_at": "2026-09-09T18:34:55.053Z",
+        "status": "captured",
+        "observation_kind": "baseline",
+        "title": "百炼智能-精准营销平台-智能营销获客系统",
+        "url": "https://www.bailian-ai.com/about",
+        "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/002.body",
+        "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/002.response.json",
+        "sha256": "a8ae7e3fe48e027cf836bf59ee6263d89e34575d5dcdd7fdd4840759276594a7",
+        "text_path": "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about.txt",
+        "text_sha256": "e48db96b523bc663f73f0b61aec96b0c0f4c34630abb13483cb0c665346c1658",
+        "text_length": 4869,
+        "completeness": "configured_identity_and_end_markers_present",
+        "trust": "untrusted_source_text_never_instructions",
+        "evidence": [
+          {
+            "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about",
+            "source_id": "research-bailian-about",
+            "company_id": "bailian-ai",
+            "sequence": 1,
+            "url": "https://www.bailian-ai.com/robots.txt",
+            "method": "GET",
+            "purpose": "robots",
+            "started_at": "2026-09-09T18:34:38.916Z",
+            "finished_at": "2026-09-09T18:34:39.102Z",
+            "status": 200,
+            "headers": {
+              "server": "nginx",
+              "date": "Wed, 09 Sep 2026 18:34:39 GMT",
+              "content-type": "text/plain; charset=utf-8",
+              "content-length": "21",
+              "connection": "close",
+              "etag": "\"15-J0LzVNuMlNOx5U4YdLmfx9U4ZtY\"",
+              "last-modified": "Tue, 04 Aug 2026 07:46:41 GMT",
+              "x-frame-options": "ALLOWALL"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/001.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/001.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 21,
+            "sha256": "51ba48961421589d96edec729ae520685402cd2537dd02fbd73e4b4943e69cc5"
+          },
+          {
+            "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about",
+            "source_id": "research-bailian-about",
+            "company_id": "bailian-ai",
+            "sequence": 2,
+            "url": "https://www.bailian-ai.com/about",
+            "method": "GET",
+            "purpose": "research_document",
+            "started_at": "2026-09-09T18:34:54.703Z",
+            "finished_at": "2026-09-09T18:34:55.053Z",
+            "status": 200,
+            "headers": {
+              "server": "nginx",
+              "date": "Wed, 09 Sep 2026 18:34:55 GMT",
+              "content-type": "text/html;charset=utf-8",
+              "content-length": "69179",
+              "connection": "close",
+              "vary": "Accept-Encoding",
+              "x-powered-by": "Nuxt",
+              "x-frame-options": "ALLOWALL"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/002.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/002.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 69179,
+            "sha256": "a8ae7e3fe48e027cf836bf59ee6263d89e34575d5dcdd7fdd4840759276594a7"
+          }
+        ]
+      }
+    },
+    "bailian-home": {
+      "last_attempt": {
+        "id": "bailian-home",
+        "source_url": "https://www.bailian-ai.com/",
+        "observed_at": "2026-09-09T18:35:27.589Z",
+        "status": "captured",
+        "observation_kind": "baseline",
+        "title": "百炼智能-大数据精准营销-B2B智能获客服务商",
+        "url": "https://www.bailian-ai.com/",
+        "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.body",
+        "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.response.json",
+        "sha256": "78724121882680e1168e27928b2db95f47ca208d091791f60a288383a46b66b9",
+        "text_path": "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home.txt",
+        "text_sha256": "56ee74c5fc9a0db1e784807ef66c004fcd7cd6daef8912a7b1ef901cfc15adae",
+        "text_length": 3035,
+        "completeness": "configured_identity_and_end_markers_present",
+        "trust": "untrusted_source_text_never_instructions",
+        "evidence": [
+          {
+            "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home",
+            "source_id": "research-bailian-home",
+            "company_id": "bailian-ai",
+            "sequence": 1,
+            "url": "https://www.bailian-ai.com/robots.txt",
+            "method": "GET",
+            "purpose": "robots",
+            "started_at": "2026-09-09T18:35:10.395Z",
+            "finished_at": "2026-09-09T18:35:10.574Z",
+            "status": 200,
+            "headers": {
+              "server": "nginx",
+              "date": "Wed, 09 Sep 2026 18:35:10 GMT",
+              "content-type": "text/plain; charset=utf-8",
+              "content-length": "21",
+              "connection": "close",
+              "etag": "\"15-J0LzVNuMlNOx5U4YdLmfx9U4ZtY\"",
+              "last-modified": "Tue, 04 Aug 2026 07:46:41 GMT",
+              "x-frame-options": "ALLOWALL"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/001.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/001.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 21,
+            "sha256": "51ba48961421589d96edec729ae520685402cd2537dd02fbd73e4b4943e69cc5"
+          },
+          {
+            "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home",
+            "source_id": "research-bailian-home",
+            "company_id": "bailian-ai",
+            "sequence": 2,
+            "url": "https://www.bailian-ai.com/",
+            "method": "GET",
+            "purpose": "research_document",
+            "started_at": "2026-09-09T18:35:27.007Z",
+            "finished_at": "2026-09-09T18:35:27.589Z",
+            "status": 200,
+            "headers": {
+              "server": "nginx",
+              "date": "Wed, 09 Sep 2026 18:35:27 GMT",
+              "content-type": "text/html;charset=utf-8",
+              "content-length": "111709",
+              "connection": "close",
+              "vary": "Accept-Encoding",
+              "x-powered-by": "Nuxt",
+              "x-frame-options": "ALLOWALL"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 111709,
+            "sha256": "78724121882680e1168e27928b2db95f47ca208d091791f60a288383a46b66b9"
+          }
+        ]
+      },
+      "last_good": {
+        "id": "bailian-home",
+        "source_url": "https://www.bailian-ai.com/",
+        "observed_at": "2026-09-09T18:35:27.589Z",
+        "status": "captured",
+        "observation_kind": "baseline",
+        "title": "百炼智能-大数据精准营销-B2B智能获客服务商",
+        "url": "https://www.bailian-ai.com/",
+        "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.body",
+        "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.response.json",
+        "sha256": "78724121882680e1168e27928b2db95f47ca208d091791f60a288383a46b66b9",
+        "text_path": "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home.txt",
+        "text_sha256": "56ee74c5fc9a0db1e784807ef66c004fcd7cd6daef8912a7b1ef901cfc15adae",
+        "text_length": 3035,
+        "completeness": "configured_identity_and_end_markers_present",
+        "trust": "untrusted_source_text_never_instructions",
+        "evidence": [
+          {
+            "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home",
+            "source_id": "research-bailian-home",
+            "company_id": "bailian-ai",
+            "sequence": 1,
+            "url": "https://www.bailian-ai.com/robots.txt",
+            "method": "GET",
+            "purpose": "robots",
+            "started_at": "2026-09-09T18:35:10.395Z",
+            "finished_at": "2026-09-09T18:35:10.574Z",
+            "status": 200,
+            "headers": {
+              "server": "nginx",
+              "date": "Wed, 09 Sep 2026 18:35:10 GMT",
+              "content-type": "text/plain; charset=utf-8",
+              "content-length": "21",
+              "connection": "close",
+              "etag": "\"15-J0LzVNuMlNOx5U4YdLmfx9U4ZtY\"",
+              "last-modified": "Tue, 04 Aug 2026 07:46:41 GMT",
+              "x-frame-options": "ALLOWALL"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/001.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/001.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 21,
+            "sha256": "51ba48961421589d96edec729ae520685402cd2537dd02fbd73e4b4943e69cc5"
+          },
+          {
+            "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home",
+            "source_id": "research-bailian-home",
+            "company_id": "bailian-ai",
+            "sequence": 2,
+            "url": "https://www.bailian-ai.com/",
+            "method": "GET",
+            "purpose": "research_document",
+            "started_at": "2026-09-09T18:35:27.007Z",
+            "finished_at": "2026-09-09T18:35:27.589Z",
+            "status": 200,
+            "headers": {
+              "server": "nginx",
+              "date": "Wed, 09 Sep 2026 18:35:27 GMT",
+              "content-type": "text/html;charset=utf-8",
+              "content-length": "111709",
+              "connection": "close",
+              "vary": "Accept-Encoding",
+              "x-powered-by": "Nuxt",
+              "x-frame-options": "ALLOWALL"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 111709,
+            "sha256": "78724121882680e1168e27928b2db95f47ca208d091791f60a288383a46b66b9"
+          }
+        ]
+      }
+    },
+    "policy-ai-plus-cac": {
+      "last_attempt": {
+        "id": "policy-ai-plus-cac",
+        "source_url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+        "observed_at": "2026-09-09T18:36:51.084Z",
+        "status": "captured",
+        "observation_kind": "baseline",
+        "title": "国务院关于深入实施“人工智能+”行动的意见_中央网络安全和信息化委员会办公室",
+        "url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+        "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.body",
+        "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.response.json",
+        "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244",
+        "text_path": "01_行情收集/official-careers/research/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac.txt",
+        "text_sha256": "9e6886c8a74e9fb96de9ad2d9f52a02febc062490f04a195efbc353c4e1e9938",
+        "text_length": 5412,
+        "completeness": "configured_identity_and_end_markers_present",
+        "trust": "untrusted_source_text_never_instructions",
+        "evidence": [
+          {
+            "run_id": "research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac",
+            "source_id": "research-policy-ai-plus-cac",
+            "company_id": null,
+            "sequence": 1,
+            "url": "https://www.cac.gov.cn/robots.txt",
+            "method": "GET",
+            "purpose": "robots",
+            "started_at": "2026-09-09T18:36:31.296Z",
+            "finished_at": "2026-09-09T18:36:31.539Z",
+            "status": 200,
+            "headers": {
+              "date": "Wed, 09 Sep 2026 18:36:31 GMT",
+              "content-type": "text/plain; charset=utf-8",
+              "content-length": "106",
+              "connection": "close",
+              "x-frame-options": "SAMEORIGIN",
+              "content-security-policy": "frame-ancestors http://*.cac.gov.cn https://*.cac.gov.cn http://search.cac.gov.cn http://www.cac.gov.cn http://wap.cac.gov.cn",
+              "accept-ranges": "bytes",
+              "x-via-jsl": "b92ecb0,-",
+              "strict-transport-security": "max-age=86400",
+              "x-cache": "bypass"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/001.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/001.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 106,
+            "sha256": "e59e36f55fdc744014ac903ba4ef473b69dd0864f0ba0cc9f1613ab445602a40"
+          },
+          {
+            "run_id": "research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac",
+            "source_id": "research-policy-ai-plus-cac",
+            "company_id": null,
+            "sequence": 2,
+            "url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+            "method": "GET",
+            "purpose": "research_document",
+            "started_at": "2026-09-09T18:36:50.966Z",
+            "finished_at": "2026-09-09T18:36:51.084Z",
+            "status": 200,
+            "headers": {
+              "date": "Wed, 09 Sep 2026 18:36:51 GMT",
+              "content-type": "text/html; charset=utf-8",
+              "transfer-encoding": "chunked",
+              "connection": "close",
+              "vary": "Accept-Encoding",
+              "x-frame-options": "SAMEORIGIN",
+              "content-security-policy": "frame-ancestors http://*.cac.gov.cn https://*.cac.gov.cn http://search.cac.gov.cn http://www.cac.gov.cn http://wap.cac.gov.cn",
+              "x-via-jsl": "b92ecb0,cache 2.4.8 mem",
+              "strict-transport-security": "max-age=86400",
+              "x-cache": "hit"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 32448,
+            "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244"
+          }
+        ]
+      },
+      "last_good": {
+        "id": "policy-ai-plus-cac",
+        "source_url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+        "observed_at": "2026-09-09T18:36:51.084Z",
+        "status": "captured",
+        "observation_kind": "baseline",
+        "title": "国务院关于深入实施“人工智能+”行动的意见_中央网络安全和信息化委员会办公室",
+        "url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+        "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.body",
+        "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.response.json",
+        "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244",
+        "text_path": "01_行情收集/official-careers/research/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac.txt",
+        "text_sha256": "9e6886c8a74e9fb96de9ad2d9f52a02febc062490f04a195efbc353c4e1e9938",
+        "text_length": 5412,
+        "completeness": "configured_identity_and_end_markers_present",
+        "trust": "untrusted_source_text_never_instructions",
+        "evidence": [
+          {
+            "run_id": "research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac",
+            "source_id": "research-policy-ai-plus-cac",
+            "company_id": null,
+            "sequence": 1,
+            "url": "https://www.cac.gov.cn/robots.txt",
+            "method": "GET",
+            "purpose": "robots",
+            "started_at": "2026-09-09T18:36:31.296Z",
+            "finished_at": "2026-09-09T18:36:31.539Z",
+            "status": 200,
+            "headers": {
+              "date": "Wed, 09 Sep 2026 18:36:31 GMT",
+              "content-type": "text/plain; charset=utf-8",
+              "content-length": "106",
+              "connection": "close",
+              "x-frame-options": "SAMEORIGIN",
+              "content-security-policy": "frame-ancestors http://*.cac.gov.cn https://*.cac.gov.cn http://search.cac.gov.cn http://www.cac.gov.cn http://wap.cac.gov.cn",
+              "accept-ranges": "bytes",
+              "x-via-jsl": "b92ecb0,-",
+              "strict-transport-security": "max-age=86400",
+              "x-cache": "bypass"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/001.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/001.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 106,
+            "sha256": "e59e36f55fdc744014ac903ba4ef473b69dd0864f0ba0cc9f1613ab445602a40"
+          },
+          {
+            "run_id": "research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac",
+            "source_id": "research-policy-ai-plus-cac",
+            "company_id": null,
+            "sequence": 2,
+            "url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+            "method": "GET",
+            "purpose": "research_document",
+            "started_at": "2026-09-09T18:36:50.966Z",
+            "finished_at": "2026-09-09T18:36:51.084Z",
+            "status": 200,
+            "headers": {
+              "date": "Wed, 09 Sep 2026 18:36:51 GMT",
+              "content-type": "text/html; charset=utf-8",
+              "transfer-encoding": "chunked",
+              "connection": "close",
+              "vary": "Accept-Encoding",
+              "x-frame-options": "SAMEORIGIN",
+              "content-security-policy": "frame-ancestors http://*.cac.gov.cn https://*.cac.gov.cn http://search.cac.gov.cn http://www.cac.gov.cn http://wap.cac.gov.cn",
+              "x-via-jsl": "b92ecb0,cache 2.4.8 mem",
+              "strict-transport-security": "max-age=86400",
+              "x-cache": "hit"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 32448,
+            "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244"
+          }
+        ]
+      }
+    },
+    "policy-ai-bidding": {
+      "last_attempt": {
+        "id": "policy-ai-bidding",
+        "source_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202602/t20260210_1403681_ext.html",
+        "observed_at": "2026-09-09T18:36:51.106Z",
+        "status": "failed",
+        "observation_kind": "not_observed",
+        "error": {
+          "code": "HTTP_ACCESS_STOP",
+          "message": "HTTP 403; no retries",
+          "evidence": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-bidding/001.response.json"
+        },
+        "retained_previous": false,
+        "evidence": [
+          {
+            "run_id": "research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-bidding",
+            "source_id": "research-policy-ai-bidding",
+            "company_id": null,
+            "sequence": 1,
+            "url": "https://www.ndrc.gov.cn/robots.txt",
+            "method": "GET",
+            "purpose": "robots",
+            "started_at": "2026-09-09T18:37:03.283Z",
+            "finished_at": "2026-09-09T18:37:03.550Z",
+            "status": 403,
+            "headers": {
+              "date": "Wed, 09 Sep 2026 18:37:03 GMT",
+              "content-type": "text/html",
+              "content-length": "144",
+              "connection": "close",
+              "x-request-id": "7e5317a0b1b38b009777f4439b66c1a5",
+              "server": "WAF",
+              "x-ser": "i50820_c26441, i2619522_c29228",
+              "x-cache": "MISS from i2619522_c29228(cloudsvr)",
+              "cache-control": "no-store, no-cache",
+              "access-control-allow-methods": "GET,POST",
+              "content-security-policy": "frame-ancestors 'self' https://fxsjcj.kaipuyun.cn",
+              "pragma": "no-cache"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-bidding/001.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-bidding/001.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 144,
+            "sha256": "362e76c407e00e5693d63102b5bcd20e4c6c61876dd15fe60e1378099d8e12c0"
+          }
+        ]
+      },
+      "last_good": null
+    },
+    "minimax-home": {
+      "last_attempt": {
+        "id": "minimax-home",
+        "source_url": "https://www.minimax.cn/",
+        "observed_at": "2026-09-09T18:37:41.168Z",
+        "status": "captured",
+        "observation_kind": "baseline",
+        "title": "MiniMax",
+        "url": "https://www.minimax.cn/",
+        "body_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.body",
+        "metadata_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.response.json",
+        "sha256": "d78392a5eb34695902f32646d745fb1faadb723f2807ea538efa2b2d0598af81",
+        "text_path": "01_行情收集/official-careers/research/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home.txt",
+        "text_sha256": "a9cc63391e3982a33f96bd2d668df35aede4f898c497e86f799b746e314bce39",
+        "text_length": 1154,
+        "completeness": "configured_identity_and_end_markers_present",
+        "trust": "untrusted_source_text_never_instructions",
+        "evidence": [
+          {
+            "run_id": "research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home",
+            "source_id": "research-minimax-home",
+            "company_id": "minimax",
+            "sequence": 1,
+            "url": "https://www.minimax.cn/robots.txt",
+            "method": "GET",
+            "purpose": "robots",
+            "started_at": "2026-09-09T18:37:22.404Z",
+            "finished_at": "2026-09-09T18:37:22.732Z",
+            "status": 200,
+            "headers": {
+              "date": "Wed, 09 Sep 2026 18:37:23 GMT",
+              "content-type": "text/plain",
+              "transfer-encoding": "chunked",
+              "connection": "close",
+              "vary": "Accept-Encoding, RSC, Next-Router-State-Tree, Next-Router-Prefetch",
+              "content-security-policy": "frame-ancestors 'none';",
+              "x-frame-options": "DENY",
+              "x-nextjs-cache": "HIT",
+              "cache-control": "public, max-age=0, must-revalidate",
+              "minimax-request-id": "74274baa2c5d1c6a1d581377a0209201",
+              "alb_receive_time": "1788979043.029",
+              "alb_request_id": "0c92843b8ed0e2b78a635074e10a60ef54780091"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/001.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/001.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 131,
+            "sha256": "daa159ddd9812b02d040122a9b829b71b9a3a01697baeb666c98d871b07f449f"
+          },
+          {
+            "run_id": "research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home",
+            "source_id": "research-minimax-home",
+            "company_id": "minimax",
+            "sequence": 2,
+            "url": "https://www.minimax.cn/",
+            "method": "GET",
+            "purpose": "research_document",
+            "started_at": "2026-09-09T18:37:40.677Z",
+            "finished_at": "2026-09-09T18:37:41.168Z",
+            "status": 200,
+            "headers": {
+              "date": "Wed, 09 Sep 2026 18:37:41 GMT",
+              "content-type": "text/html; charset=utf-8",
+              "transfer-encoding": "chunked",
+              "connection": "close",
+              "vary": "Accept-Encoding, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding",
+              "content-security-policy": "frame-ancestors 'none';",
+              "x-frame-options": "DENY",
+              "x-powered-by": "Next.js",
+              "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+              "minimax-request-id": "034f6c04cd652ec585ba2185ea2e3f01",
+              "alb_receive_time": "1788979061.222",
+              "alb_request_id": "8788dfcab490ae912bec4c82efadbb4aff855336"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 346168,
+            "sha256": "d78392a5eb34695902f32646d745fb1faadb723f2807ea538efa2b2d0598af81"
+          }
+        ]
+      },
+      "last_good": {
+        "id": "minimax-home",
+        "source_url": "https://www.minimax.cn/",
+        "observed_at": "2026-09-09T18:37:41.168Z",
+        "status": "captured",
+        "observation_kind": "baseline",
+        "title": "MiniMax",
+        "url": "https://www.minimax.cn/",
+        "body_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.body",
+        "metadata_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.response.json",
+        "sha256": "d78392a5eb34695902f32646d745fb1faadb723f2807ea538efa2b2d0598af81",
+        "text_path": "01_行情收集/official-careers/research/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home.txt",
+        "text_sha256": "a9cc63391e3982a33f96bd2d668df35aede4f898c497e86f799b746e314bce39",
+        "text_length": 1154,
+        "completeness": "configured_identity_and_end_markers_present",
+        "trust": "untrusted_source_text_never_instructions",
+        "evidence": [
+          {
+            "run_id": "research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home",
+            "source_id": "research-minimax-home",
+            "company_id": "minimax",
+            "sequence": 1,
+            "url": "https://www.minimax.cn/robots.txt",
+            "method": "GET",
+            "purpose": "robots",
+            "started_at": "2026-09-09T18:37:22.404Z",
+            "finished_at": "2026-09-09T18:37:22.732Z",
+            "status": 200,
+            "headers": {
+              "date": "Wed, 09 Sep 2026 18:37:23 GMT",
+              "content-type": "text/plain",
+              "transfer-encoding": "chunked",
+              "connection": "close",
+              "vary": "Accept-Encoding, RSC, Next-Router-State-Tree, Next-Router-Prefetch",
+              "content-security-policy": "frame-ancestors 'none';",
+              "x-frame-options": "DENY",
+              "x-nextjs-cache": "HIT",
+              "cache-control": "public, max-age=0, must-revalidate",
+              "minimax-request-id": "74274baa2c5d1c6a1d581377a0209201",
+              "alb_receive_time": "1788979043.029",
+              "alb_request_id": "0c92843b8ed0e2b78a635074e10a60ef54780091"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/001.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/001.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 131,
+            "sha256": "daa159ddd9812b02d040122a9b829b71b9a3a01697baeb666c98d871b07f449f"
+          },
+          {
+            "run_id": "research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home",
+            "source_id": "research-minimax-home",
+            "company_id": "minimax",
+            "sequence": 2,
+            "url": "https://www.minimax.cn/",
+            "method": "GET",
+            "purpose": "research_document",
+            "started_at": "2026-09-09T18:37:40.677Z",
+            "finished_at": "2026-09-09T18:37:41.168Z",
+            "status": 200,
+            "headers": {
+              "date": "Wed, 09 Sep 2026 18:37:41 GMT",
+              "content-type": "text/html; charset=utf-8",
+              "transfer-encoding": "chunked",
+              "connection": "close",
+              "vary": "Accept-Encoding, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding",
+              "content-security-policy": "frame-ancestors 'none';",
+              "x-frame-options": "DENY",
+              "x-powered-by": "Next.js",
+              "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+              "minimax-request-id": "034f6c04cd652ec585ba2185ea2e3f01",
+              "alb_receive_time": "1788979061.222",
+              "alb_request_id": "8788dfcab490ae912bec4c82efadbb4aff855336"
+            },
+            "body_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.body",
+            "metadata_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.response.json",
+            "request_headers": {
+              "user-agent": "OfficialCareersEvidence/0.1",
+              "accept-encoding": "identity"
+            },
+            "cookie_policy": "never_sent; set-cookie response headers not retained",
+            "transport": "node:https; DNS pinned public address; no proxy; no retries",
+            "complete": true,
+            "error": null,
+            "bytes": 346168,
+            "sha256": "d78392a5eb34695902f32646d745fb1faadb723f2807ea538efa2b2d0598af81"
+          }
+        ]
+      }
+    }
+  },
+  "halted_origins": {
+    "https://www.nda.gov.cn": {
+      "code": "ROBOTS_UNKNOWN",
+      "message": "Robots HTTP 404; fail closed",
+      "evidence": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-policy-ai-plus/001.response.json",
+      "observed_at": "2026-09-09T18:34:19.405Z",
+      "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e"
+    },
+    "https://www.ndrc.gov.cn": {
+      "code": "HTTP_ACCESS_STOP",
+      "message": "HTTP 403; no retries",
+      "evidence": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-bidding/001.response.json",
+      "observed_at": "2026-09-09T18:36:51.106Z",
+      "run_id": "research-79bdf6dc-8c81-484e-ab7e-8419e3847c77"
+    }
+  }
+}

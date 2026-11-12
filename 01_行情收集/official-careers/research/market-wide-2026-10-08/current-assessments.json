@@ -1,0 +1,599 @@
+[
+  {
+    "profile": "sales_operations",
+    "mission": "把大模型销售从个人跟单转为规则、指标、资源和风险可管理的经营体系；这比技术售前更接近当前经历。",
+    "weight_reason": "采用销售运营权重20/15/25/20/10/10，重视指标诊断与机制执行；财务及跨部门治理缺证单独扣分。第三方转载尚待原厂核验。",
+    "dimensions": [
+      {
+        "id": "commercial",
+        "criteria": [
+          {
+            "capability": "销售规则与业绩机制",
+            "jd_quote": "设计并优化销售管理规则",
+            "anchor": "transfer_strong",
+            "fact_ids": [
+              "F-management",
+              "F-target"
+            ],
+            "reason": "招聘、绩效与激励决策和区域复盘可迁移；没有证明建立过大模型厂商的企业级销售制度。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "customer",
+        "criteria": [
+          {
+            "capability": "客户分层与资源覆盖",
+            "jd_quote": "客户分层及业务团队分工",
+            "anchor": "direct_partial",
+            "fact_ids": [
+              "F-target",
+              "F-map"
+            ],
+            "reason": "有客户优先级工具与同事分工督办；资源流转权限及组织级覆盖增量还未量化。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "solution",
+        "criteria": [
+          {
+            "capability": "指标问题诊断",
+            "jd_quote": "针对核心数据和指标链路，能准确、快速定位问题并反馈",
+            "anchor": "direct_partial",
+            "fact_ids": [
+              "F-analysis",
+              "F-map"
+            ],
+            "reason": "CTR/CVR分析与经营诊断直接相关，尚需展示一次从诊断到经营动作验证的完整闭环。",
+            "weight": 60
+          },
+          {
+            "capability": "财务和销售指标关联",
+            "jd_quote": "有基本的财务分析能力",
+            "anchor": "unknown",
+            "fact_ids": [],
+            "reason": "现有材料没有毛利、费用、收入确认或回款预测分析案例，不能用商业消耗替代。",
+            "weight": 40
+          }
+        ]
+      },
+      {
+        "id": "execution",
+        "criteria": [
+          {
+            "capability": "跨部门经营规则执行",
+            "jd_quote": "联动财务、产品、研发等团队",
+            "anchor": "transfer_partial",
+            "fact_ids": [
+              "F-target"
+            ],
+            "reason": "已确认跨区域协作及政策参与，但未确认与财务、产品、研发共同落地的规则变化。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "technical",
+        "criteria": [
+          {
+            "capability": "数据系统化",
+            "jd_quote": "推动数据看板线上化",
+            "anchor": "transfer_strong",
+            "fact_ids": [
+              "F-map",
+              "F-analysis"
+            ],
+            "reason": "能用内部AI工具证明业务数据转决策；不能写成企业级数据治理或正式销售系统建设。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "replication",
+        "criteria": [
+          {
+            "capability": "组织采用和反馈闭环",
+            "jd_quote": "提升组织效能与产能",
+            "anchor": "transfer_strong",
+            "fact_ids": [
+              "F-map",
+              "F-target"
+            ],
+            "reason": "团队全员使用与周期复盘有证据；150%是个人测量，不代表团队或企业产能提升。",
+            "weight": 100
+          }
+        ]
+      }
+    ],
+    "hard_gates": [
+      {
+        "label": "本科学历",
+        "jd_quote": "本科及以上学历",
+        "status": "met",
+        "fact_ids": [
+          "F-degree"
+        ],
+        "reason": "有本科学历材料；未做背景调查。"
+      },
+      {
+        "label": "三年以上相关经历",
+        "jd_quote": "3年以上销售管理、销售运营或相关岗位工作经验",
+        "status": "met",
+        "fact_ids": [
+          "F-tenure",
+          "F-management",
+          "F-target"
+        ],
+        "reason": "汽车销售管理及平台经营属于相关经历，不能据此称三年以上大模型销售运营。"
+      },
+      {
+        "label": "财务分析能力",
+        "jd_quote": "有基本的财务分析能力",
+        "status": "unknown",
+        "fact_ids": [],
+        "reason": "需要一个真实的财务指标与销售指标联动案例。"
+      }
+    ],
+    "hard_gate_review_complete": true,
+    "translation": {
+      "capability": "把区域经营经验转成销售运营机制能力",
+      "example": "主导目标拆解、客户分层和周月复盘，用经营数据判断资源优先级，再以AI客户地图把客户选择、拜访动作与复盘形成可复用工作流。",
+      "boundary": "不宣称已建立AI厂商收入、合同、财务或风险管理体系；薪资周期和原厂在招状态均待核。",
+      "proof_needed": "脱敏展示一份目标拆解表、客户优先级规则和复盘行动闭环；补充真实财务分析样例，明确你参与政策调整的决策边界。"
+    },
+    "job_ids": [
+      "market-wide-2026-10-08:p31:l16"
+    ],
+    "jd_hashes": [
+      "272cfc2081856616088390e9ddda6c4101fb4c813647209a3022217bde1d92e8"
+    ],
+    "execution": {
+      "type": "current_conversation_review",
+      "model": "current conversation per user; model not independently verified",
+      "independent_qa": false
+    }
+  },
+  {
+    "profile": "technical_sales",
+    "mission": "面向头部客户完成从AI场景识别、技术演示到POC和规模化商业落地的技术销售闭环，当前不是高匹配主攻岗。",
+    "weight_reason": "技术销售权重15/20/20/15/25/5；技术Demo、客户POC及云/MaaS经历是核心要求，不用零售业绩抵消。",
+    "dimensions": [
+      {
+        "id": "commercial",
+        "criteria": [
+          {
+            "capability": "KA开拓与深耕",
+            "jd_quote": "头部 KA 开拓与深耕",
+            "anchor": "transfer_partial",
+            "fact_ids": [
+              "F-customers",
+              "F-recovery"
+            ],
+            "reason": "个人商户开拓经营可以迁移，但不等于集团级AI采购与百万级合同闭环。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "customer",
+        "criteria": [
+          {
+            "capability": "多层次客户决策关系",
+            "jd_quote": "建立并维护产品、技术、业务、高管等多层次客户关系",
+            "anchor": "transfer_partial",
+            "fact_ids": [
+              "F-contact"
+            ],
+            "reason": "已接触业务负责人；缺少企业产品技术高管多方共同采购的证据。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "solution",
+        "criteria": [
+          {
+            "capability": "AI场景与业务价值",
+            "jd_quote": "能快速识别客户最具 ROI 价值的 AI 落地场景",
+            "anchor": "transfer_strong",
+            "fact_ids": [
+              "F-map",
+              "F-analysis"
+            ],
+            "reason": "内部AI项目说明业务问题识别能力；客户购买与收益验收尚未验证。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "execution",
+        "criteria": [
+          {
+            "capability": "跨职能项目落地",
+            "jd_quote": "能高效整合研发、产品、交付等内部资源",
+            "anchor": "transfer_partial",
+            "fact_ids": [
+              "F-target"
+            ],
+            "reason": "区域分工督办有相邻能力，但缺外部客户工程项目资源整合。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "technical",
+        "criteria": [
+          {
+            "capability": "独立技术Demo",
+            "jd_quote": "独立制作并演示技术 Demo",
+            "anchor": "unknown",
+            "fact_ids": [],
+            "reason": "内部地图不等于独立制作模型API Demo；未读取可运行演示和技术方案证据。",
+            "weight": 50
+          },
+          {
+            "capability": "客户级POC",
+            "jd_quote": "推动 POC 快速推进",
+            "anchor": "gap",
+            "fact_ids": [
+              "F-ai-gap"
+            ],
+            "reason": "本人事实画像明确尚无客户级POC。",
+            "weight": 50
+          }
+        ]
+      },
+      {
+        "id": "replication",
+        "criteria": [
+          {
+            "capability": "客户内部规模化",
+            "jd_quote": "推动 AI 应用在客户内部规模化复制",
+            "anchor": "transfer_partial",
+            "fact_ids": [
+              "F-map"
+            ],
+            "reason": "内部团队采用可作迁移案例，不是客户侧AI产品上线及扩容合同。",
+            "weight": 100
+          }
+        ]
+      }
+    ],
+    "hard_gates": [
+      {
+        "label": "本科学历",
+        "jd_quote": "本科及以上学历",
+        "status": "met",
+        "fact_ids": [
+          "F-degree"
+        ],
+        "reason": "有本科材料。"
+      },
+      {
+        "label": "云厂商/MaaS ToB年限",
+        "jd_quote": "3 年以上云厂商或MaaS 平台ToB 销售经验",
+        "status": "unmet",
+        "fact_ids": [
+          "F-tenure",
+          "F-ai-gap"
+        ],
+        "reason": "已知经历为汽车零售管理与广告平台商户经营，不符合明确的三年云/MaaS销售年限。"
+      },
+      {
+        "label": "独立技术演示",
+        "jd_quote": "独立制作并演示技术 Demo",
+        "status": "unknown",
+        "fact_ids": [],
+        "reason": "需技术演示作品和实操验证。"
+      }
+    ],
+    "hard_gate_review_complete": true,
+    "translation": {
+      "capability": "业务场景诊断是切入点，技术销售闭环仍有明显缺口",
+      "example": "展示如何将分散的商业消耗、客户位置和线索表现转成可执行客户优先级规则，说明问题定义、工具验证与团队采用过程。",
+      "boundary": "不把内部工具称为客户级POC，不补造云厂商年限、API签约和AI回款。",
+      "proof_needed": "先补一个可运行API Demo与评价指标，并形成客户试点设计；即使补作品，也不能消除三年行业年限门槛。"
+    },
+    "job_ids": [
+      "market-wide-2026-10-08:p32:l16"
+    ],
+    "jd_hashes": [
+      "2deec7e292f8ff0af3a485340a035ab19779b55751cc0090bde53e61c066ac0f"
+    ],
+    "execution": {
+      "type": "current_conversation_review",
+      "model": "current conversation per user; model not independently verified",
+      "independent_qa": false
+    }
+  },
+  {
+    "profile": "business_builder",
+    "mission": "理解客户业务并把AI变为可执行的改造方案和项目成果，而不只是介绍AI工具；适合以真实行业案例探索转型。",
+    "weight_reason": "采用商业探索20/15/20/15/15/15，关注场景判断、方案落地和可复用验证；不能把内部实践当咨询交付业绩。",
+    "dimensions": [
+      {
+        "id": "commercial",
+        "criteria": [
+          {
+            "capability": "方案交付导向",
+            "jd_quote": "推动方案真正落地",
+            "anchor": "transfer_strong",
+            "fact_ids": [
+              "F-map",
+              "F-target"
+            ],
+            "reason": "工作流有团队采用与督办，外部付费咨询交付及验收未证明。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "customer",
+        "criteria": [
+          {
+            "capability": "理解客户业务",
+            "jd_quote": "快速理解客户业务场景",
+            "anchor": "direct_partial",
+            "fact_ids": [
+              "F-customers",
+              "F-contact"
+            ],
+            "reason": "深耕汽车商户经营有直接证据；不外推为跨行业专家。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "solution",
+        "criteria": [
+          {
+            "capability": "结构化业务诊断",
+            "jd_quote": "拆解复杂问题，形成清晰、可执行的解决方案",
+            "anchor": "direct_partial",
+            "fact_ids": [
+              "F-analysis",
+              "F-map"
+            ],
+            "reason": "车型诊断与优先级工具是直接案例；需要具体改善回查。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "execution",
+        "criteria": [
+          {
+            "capability": "沟通与项目推进",
+            "jd_quote": "参与客户沟通、方案汇报与项目推进",
+            "anchor": "transfer_strong",
+            "fact_ids": [
+              "F-contact",
+              "F-target"
+            ],
+            "reason": "客户沟通和跨区域督办可迁移，咨询项目预算、周期和验收经验未知。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "technical",
+        "criteria": [
+          {
+            "capability": "AI与真实流程结合",
+            "jd_quote": "判断 AI 如何进入客户的真实业务场景",
+            "anchor": "transfer_strong",
+            "fact_ids": [
+              "F-map",
+              "F-analysis"
+            ],
+            "reason": "能说明AI在本人业务中的实际用途；还需模型局限、数据安全与效果评价。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "replication",
+        "criteria": [
+          {
+            "capability": "把方案转为结果",
+            "jd_quote": "能推动项目，而不只是产出材料",
+            "anchor": "transfer_strong",
+            "fact_ids": [
+              "F-map",
+              "F-target"
+            ],
+            "reason": "全员使用和复盘机制证明采用，但缺外部客户的持续收益证据。",
+            "weight": 100
+          }
+        ]
+      }
+    ],
+    "hard_gates": [
+      {
+        "label": "相关业务经验",
+        "jd_quote": "有咨询、品牌策略、营销增长、平台解决方案、数字化转型或 AI 商业化相关经验",
+        "status": "met",
+        "fact_ids": [
+          "F-customers",
+          "F-analysis"
+        ],
+        "reason": "平台商业化经营与营销增长具有相关证据，不等同已做AI咨询签约。"
+      },
+      {
+        "label": "结构化表达与协作",
+        "jd_quote": "具备较强的结构化思考、表达与跨团队协作能力",
+        "status": "met",
+        "fact_ids": [
+          "F-target",
+          "F-map"
+        ],
+        "reason": "有跨区域督办和业务工具落地，需用案例展示质量。"
+      }
+    ],
+    "hard_gate_review_complete": true,
+    "translation": {
+      "capability": "行业知识驱动的AI业务改造",
+      "example": "从汽车商户经营中的信息分散和客户优先级判断出发，设计客户地图与车型分析流程，把诊断转换为每日客户选择、拜访动作和商户经营建议，推动团队采用。",
+      "boundary": "个人测量的效率提升不推广为团队或客户ROI；不宣称外部AI付费交付、合同或财务收益。",
+      "proof_needed": "一份脱敏案例：业务问题、原流程、AI介入点、人工校验、使用记录和前后对比；明确上海工作意愿、薪资与项目职责。"
+    },
+    "job_ids": [
+      "market-wide-2026-10-08:o03:l43"
+    ],
+    "jd_hashes": [
+      "d328ec8166e7a0e48a95e76373e1d4d69cac7cd294b81b16ada57636faed85a4"
+    ],
+    "execution": {
+      "type": "current_conversation_review",
+      "model": "current conversation per user; model not independently verified",
+      "independent_qa": false
+    }
+  },
+  {
+    "profile": "industry_ka",
+    "mission": "在AI数据中心及网络产品市场开拓区域客户，联动售前与渠道，完成方案推进、回款和行业标杆。",
+    "weight_reason": "行业KA20/25/20/15/10/10；客户推进经验可迁移，但技术理解与IT产品交易链路不能默认具备。",
+    "dimensions": [
+      {
+        "id": "commercial",
+        "criteria": [
+          {
+            "capability": "独立开发",
+            "jd_quote": "独立开拓新客户",
+            "anchor": "direct_partial",
+            "fact_ids": [
+              "F-recovery",
+              "F-customers"
+            ],
+            "reason": "有独立新增客户及存量经营结果；产品客单和决策链复杂度不同。",
+            "weight": 50
+          },
+          {
+            "capability": "回款与库存流转",
+            "jd_quote": "协调收取客户货款及产品存货流转",
+            "anchor": "transfer_partial",
+            "fact_ids": [
+              "F-tenure"
+            ],
+            "reason": "汽车销售经验相邻，未证实IT设备回款及库存财务管理。",
+            "weight": 50
+          }
+        ]
+      },
+      {
+        "id": "customer",
+        "criteria": [
+          {
+            "capability": "行业重点客户覆盖",
+            "jd_quote": "聚焦所负责区域中的行业头部客户",
+            "anchor": "transfer_strong",
+            "fact_ids": [
+              "F-customers",
+              "F-map"
+            ],
+            "reason": "客户分层和区域经营可迁移；教科研或数据中心头部资源待补。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "solution",
+        "criteria": [
+          {
+            "capability": "客户需求转产品方案",
+            "jd_quote": "根据客户需求制订产品方案",
+            "anchor": "transfer_strong",
+            "fact_ids": [
+              "F-analysis",
+              "F-contact"
+            ],
+            "reason": "业务诊断到方案建议可迁移，但网络/GPU配置与招投标未证实。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "execution",
+        "criteria": [
+          {
+            "capability": "售前与渠道协作",
+            "jd_quote": "与总代理紧密配合",
+            "anchor": "transfer_partial",
+            "fact_ids": [
+              "F-target",
+              "F-channel"
+            ],
+            "reason": "有渠道增长与资源协作，缺IT总代理联合商机和渠道规则案例。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "technical",
+        "criteria": [
+          {
+            "capability": "技术与行业理解",
+            "jd_quote": "对于光通信、数据中心技术和人工智能未来发展有深入理解",
+            "anchor": "unknown",
+            "fact_ids": [],
+            "reason": "内部AI工具使用不证明光通信或数据中心技术能力。",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "id": "replication",
+        "criteria": [
+          {
+            "capability": "行业标杆复制",
+            "jd_quote": "建立行业标杆",
+            "anchor": "transfer_partial",
+            "fact_ids": [
+              "F-map",
+              "F-target"
+            ],
+            "reason": "可展示流程沉淀，尚无数据中心客户标杆或横向复制订单。",
+            "weight": 100
+          }
+        ]
+      }
+    ],
+    "hard_gates": [
+      {
+        "label": "技术行业理解",
+        "jd_quote": "对于光通信、数据中心技术和人工智能未来发展有深入理解",
+        "status": "unknown",
+        "fact_ids": [],
+        "reason": "需要产品与行业知识验证。"
+      },
+      {
+        "label": "优先项：IT产品销售年限",
+        "jd_quote": "具有2年以上IT产品、网络产品、GPU或数据中心相关产品销售经验优先",
+        "status": "unknown",
+        "fact_ids": [],
+        "reason": "此项写明优先，不当作必需淘汰门槛；当前履历也不证明已有该经验。"
+      }
+    ],
+    "hard_gate_review_complete": true,
+    "translation": {
+      "capability": "区域客户经营和售前协同",
+      "example": "用客户分层、优先级地图及经营复盘证明能管理区域客户覆盖和行动节奏，再解释如何与售前共同把需求变成方案。",
+      "boundary": "不声称已有GPU销售、数据中心投标、教科研资源或设备回款经验。",
+      "proof_needed": "准备区域拓客案例、客户决策链和跟进计划；补产品线与典型客户场景学习，确认薪资构成。"
+    },
+    "job_ids": [
+      "market-wide-2026-10-08:p05:l566"
+    ],
+    "jd_hashes": [
+      "214c93359742a08c9803e34685d801d3bad2119233a91a2db7ef66f4516581b8"
+    ],
+    "execution": {
+      "type": "current_conversation_review",
+      "model": "current conversation per user; model not independently verified",
+      "independent_qa": false
+    }
+  }
+]

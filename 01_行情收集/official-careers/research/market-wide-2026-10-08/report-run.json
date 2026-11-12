@@ -1,0 +1,1267 @@
+{
+  "schema_version": 1,
+  "run_id": "market-wide-2026-10-08",
+  "started_at": "2026-10-08T15:42:02.903Z",
+  "finished_at": "2026-10-08T16:58:39.264Z",
+  "status": "partial_checkpoint",
+  "scope": "先宽度后深度：126次公司/行业/岗位词检索、39次公开页面读取及2家官网适配采集。来源部分取得；不是全市场或所有公司招聘页穷尽。",
+  "counts": {
+    "searches": 126,
+    "search_result_entries": 2045,
+    "distinct_search_urls": 1812,
+    "page_read_attempts": 39,
+    "page_read_failures": 4,
+    "page_read_with_records": 29,
+    "page_observations": 255,
+    "structured_search_leads": 437,
+    "observations": 692,
+    "complete_jd": 91,
+    "full_source_not_split": 34,
+    "company_display_names": 183,
+    "new_company_display_names": 68,
+    "page_company_display_names": 29,
+    "salary_raw_observations": 110,
+    "salary_headers_from_search": 88,
+    "structured_new_scores": 4,
+    "policy_documents_refreshed": 0
+  },
+  "request_count": {
+    "web_tool_actual_calls": 165,
+    "admission_timing_status": "verified_from_capture_and_ledger",
+    "minimum_actual_gap_ms": 11699,
+    "collector_requests_counted_separately": true
+  },
+  "queries": [
+    {
+      "query": "MiniMax 招聘 销售 商务 商业化 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-refresh"
+    },
+    {
+      "query": "月之暗面 招聘 销售 商务 商业化 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-refresh"
+    },
+    {
+      "query": "智谱 招聘 销售 商务 商业化 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-refresh"
+    },
+    {
+      "query": "第四范式 招聘 销售 商务 商业化 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-refresh"
+    },
+    {
+      "query": "科大讯飞 招聘 销售 商务 商业化 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-refresh"
+    },
+    {
+      "query": "火山引擎 招聘 销售 商务 商业化 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-refresh"
+    },
+    {
+      "query": "阿里云 招聘 销售 商务 商业化 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-refresh"
+    },
+    {
+      "query": "腾讯云 招聘 销售 商务 商业化 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-refresh"
+    },
+    {
+      "query": "商汤科技 招聘 销售 商务 商业化 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-refresh"
+    },
+    {
+      "query": "百度智能云 招聘 销售 商务 商业化 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-refresh"
+    },
+    {
+      "query": "（株）利真 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "安得智联供应链科技股份有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "安利中国 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "百代（上海）数据技术有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "百融云创 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "柏美智慧科技(上海)股份有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北大医疗管理有限责任公司北京分公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北斗智联科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北京玻尔智能技术有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北京汇元网科技股份有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北京开运联合信息技术集团股份有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北京睿纳智融科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北京天拓四方科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北京天易数聚科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北京威特空间科技有限公司银川分公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北京舞吉教育科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北京长远佳信息 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北京智网易联科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "北京智芯微电子科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "重庆复迪脉数字科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "大国工匠设计院(安徽)有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "大连东软 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "东信软件 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "广东朝阳全网通科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "广东汇成真空科技股份有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "广东锐捷数智供应链有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "国能日新科技股份有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "国网数字科技控股有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "杭州每刻科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "杭州一知智能科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "航天宏图 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "航天科工(北京)空间信息应用股份有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "航天信息(山东)科技有限公司济南分公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "航天信息(山东)科技有限公司淄博分公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "合肥上雅电子科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "合肥业王商贸有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "河南信安世纪科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "恒为科技(上海)股份有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "辉瑞 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "辉瑞制药有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "济南万联易达信息科技发展有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "江苏曼尼金电子科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "江苏用友网络科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "江西金融发展集团股份有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "捷通达 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "解放时代新能源科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "金蝶软件(中国)有限公司沈阳分公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "金蝶软件（中国）有限公司郑州分公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "科大智能物联技术有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "揽阁信息科技（上海）有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "浪潮企业云科技(山东)有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "乐言科技 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "零零柒网络科技 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "麻辣空间 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "美林数据 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "明珞 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "南京诺尔曼生物技术股份有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "南京天加环境科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "南京移宝网络科技有限责任公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "麒麟信安 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "青岛国测海遥信息技术有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "青岛拓境国际贸易有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "热数科技 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "上海星图金融服务集团有限公司南京分公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "上海中升仕豪汽车销售服务有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "上海中升之界汽车销售服务有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "上海中升之奕汽车销售服务有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "深圳市深信网络科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "深圳市深云智安科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "深圳市永达电子信息股份有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "沈阳大众企业集团有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "盛天 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "时空道宇航天信息科技(江苏)有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "数势科技 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "硕软软件贸易 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "苏州通合新能源集团有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "万宝盛华企业管理咨询（上海）有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "武汉市益为达科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "鑫蜂维 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "亚信安全 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "亚信科技 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "语言桥 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "圆方计算机软件工程 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "云祺科技 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "长江协同创新科技(苏州)集团有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "浙江正导技术股份有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "郑州桔橙数字科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "智联招聘 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "中安云天(天津)科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "中电科(天津)网络信息安全有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "中科西瑞 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "中科遥数 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "中科智芯(北京)科技有限公司 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "中升集团 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "Arm 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "Dongfeng Honda Automobile Co., Ltd. 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "Naddod 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "NXON.ai 招聘 销售 商务 运营 售前",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A-backfill"
+    },
+    {
+      "query": "大模型 AI Agent 公司 招聘 商业化 销售 生态合作",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A"
+    },
+    {
+      "query": "企业软件 SaaS 招聘 大客户 渠道 销售运营",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A"
+    },
+    {
+      "query": "具身智能 机器人 智能硬件 招聘 销售 商务 渠道",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A"
+    },
+    {
+      "query": "工业软件 制造业 数字化 招聘 解决方案 销售",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A"
+    },
+    {
+      "query": "汽车 数字化 商业化 招聘 大客户 运营 管理",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A"
+    },
+    {
+      "query": "营销科技 广告 招聘 商业化 销售运营 区域经理",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A"
+    },
+    {
+      "query": "云计算 算力 招聘 行业销售 生态合作 渠道",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A"
+    },
+    {
+      "query": "数据安全 网络安全 招聘 销售 售前 渠道",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A"
+    },
+    {
+      "query": "能源 物流 科技 招聘 商务拓展 大客户",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A"
+    },
+    {
+      "query": "医疗 教育 AI 招聘 商务 市场 销售",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "A"
+    },
+    {
+      "query": "Business Builder Ecosystem AI 招聘 商业化",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "B"
+    },
+    {
+      "query": "大模型 行业KA 客户经理 招聘 20 40",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "B"
+    },
+    {
+      "query": "AI 招聘 Partner Development 生态 合作伙伴",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "B"
+    },
+    {
+      "query": "销售运营 经营分析 目标拆解 招聘 20 30",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "B"
+    },
+    {
+      "query": "企业服务 区域负责人 销售经理 招聘 团队管理",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "B"
+    },
+    {
+      "query": "产品市场经理 AI B2B 招聘 营销",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "B"
+    },
+    {
+      "query": "AI 解决方案顾问 售前 招聘 客户 ROI",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "B"
+    },
+    {
+      "query": "China AI GTM revenue operations business development careers",
+      "status": "search_response_saved_not_company_scan_complete",
+      "route": "B"
+    }
+  ],
+  "source_results": [
+    {
+      "capture_id": "o01",
+      "requested_url": "https://careers.tencent.com/jobdesc.html?postId=1955828766274113536",
+      "source_url": "https://careers.tencent.com/jobdesc.html?postId=1955828766274113536",
+      "status": "empty_representation_not_zero_jobs",
+      "observations": 0,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/o01.json",
+      "observed_at": "2026-10-08T16:18:03.201Z"
+    },
+    {
+      "capture_id": "o02",
+      "requested_url": "https://careers.kimi.com/social",
+      "source_url": "https://careers.kimi.com/social",
+      "status": "entry_or_empty_state_requires_detail",
+      "observations": 0,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/o02.json",
+      "observed_at": "2026-10-08T16:18:17.679Z"
+    },
+    {
+      "capture_id": "o03",
+      "requested_url": "https://www.noumena.com.cn/career/",
+      "source_url": "https://www.noumena.com.cn/career/",
+      "status": "partial_observed_records",
+      "observations": 9,
+      "full_jd": 9,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/o03.json",
+      "observed_at": "2026-10-08T16:18:37.770Z"
+    },
+    {
+      "capture_id": "p01",
+      "requested_url": "https://www.bohr-tec.com/index/lists?catname=jrwm&lang=zh-cn",
+      "source_url": "https://www.bohr-tec.com/index/lists?catname=jrwm&lang=zh-cn",
+      "status": "partial_observed_records",
+      "observations": 6,
+      "full_jd": 6,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p01.json",
+      "observed_at": "2026-10-08T16:39:49.194Z"
+    },
+    {
+      "capture_id": "p02",
+      "requested_url": "https://www.bicv.com/join/zpxx/",
+      "source_url": null,
+      "status": "read_failed",
+      "observations": 0,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": "Internal Error ()\nciteturn967view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.bicv.com/join/zpxx/\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www.bicv.com/join/zpxx/: (400) Timeout fetching\n",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p02.json",
+      "observed_at": "2026-10-08T16:40:14.175Z"
+    },
+    {
+      "capture_id": "p03",
+      "requested_url": "https://www.leyantech.com/joinUS.html",
+      "source_url": null,
+      "status": "read_failed",
+      "observations": 0,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": "Internal Error ()\nciteturn968view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.leyantech.com/joinUS.html\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www.leyantech.com/joinUS.html: (400) Timeout fetching\n",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p03.json",
+      "observed_at": "2026-10-08T16:40:34.441Z"
+    },
+    {
+      "capture_id": "p04",
+      "requested_url": "https://www.forwe.vip/join",
+      "source_url": "https://www.forwe.vip/join",
+      "status": "partial_observed_records",
+      "observations": 10,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p04.json",
+      "observed_at": "2026-10-08T16:40:54.830Z"
+    },
+    {
+      "capture_id": "p05",
+      "requested_url": "https://cn.naddod.com/about-us/talent-recruitment",
+      "source_url": "https://cn.naddod.com/about-us/talent-recruitment",
+      "status": "partial_observed_records",
+      "observations": 5,
+      "full_jd": 5,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p05.json",
+      "observed_at": "2026-10-08T16:41:15.768Z"
+    },
+    {
+      "capture_id": "p06",
+      "requested_url": "https://www.osstor.com/talents/",
+      "source_url": "https://www.osstor.com/talents/",
+      "status": "partial_observed_records",
+      "observations": 6,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p06.json",
+      "observed_at": "2026-10-08T16:41:35.886Z"
+    },
+    {
+      "capture_id": "p07",
+      "requested_url": "https://www.kylinsec.com.cn/recruit/18/0/0/2.html",
+      "source_url": "https://www.kylinsec.com.cn/recruit/18/0/0/2.html",
+      "status": "partial_observed_records",
+      "observations": 10,
+      "full_jd": 10,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p07.json",
+      "observed_at": "2026-10-08T16:41:51.000Z"
+    },
+    {
+      "capture_id": "p08",
+      "requested_url": "https://www.line-gate.com/About/Jobs/",
+      "source_url": "https://www.line-gate.com/About/Jobs/",
+      "status": "partial_observed_records",
+      "observations": 2,
+      "full_jd": 2,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p08.json",
+      "observed_at": "2026-10-08T16:42:11.095Z"
+    },
+    {
+      "capture_id": "p09",
+      "requested_url": "https://secdriver.com/careers.html",
+      "source_url": "https://secdriver.com/careers.html",
+      "status": "partial_observed_records",
+      "observations": 11,
+      "full_jd": 11,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p09.json",
+      "observed_at": "2026-10-08T16:42:35.991Z"
+    },
+    {
+      "capture_id": "p10",
+      "requested_url": "https://www.sieri.cn/about/78.html",
+      "source_url": "https://www.sieri.cn/about/78.html",
+      "status": "partial_observed_records",
+      "observations": 2,
+      "full_jd": 2,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p10.json",
+      "observed_at": "2026-10-08T16:43:01.648Z"
+    },
+    {
+      "capture_id": "p11",
+      "requested_url": "https://tne.net.cn/index-recruit-index.html",
+      "source_url": "https://tne.net.cn/index-recruit-index.html",
+      "status": "partial_observed_records",
+      "observations": 10,
+      "full_jd": 10,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p11.json",
+      "observed_at": "2026-10-08T16:43:22.155Z"
+    },
+    {
+      "capture_id": "p12",
+      "requested_url": "https://nxon.ai/career",
+      "source_url": "https://nxon.ai/career",
+      "status": "partial_observed_records",
+      "observations": 5,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p12.json",
+      "observed_at": "2026-10-08T16:43:42.036Z"
+    },
+    {
+      "capture_id": "p13",
+      "requested_url": "https://www.lan-bridge.com/zhcn/aboutItems/join/",
+      "source_url": "https://www.lan-bridge.com/zhcn/aboutItems/join/",
+      "status": "partial_observed_records",
+      "observations": 14,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p13.json",
+      "observed_at": "2026-10-08T16:45:52.469Z"
+    },
+    {
+      "capture_id": "p14",
+      "requested_url": "https://thermalai.cn/jobsDetail?id=19",
+      "source_url": "https://thermalai.cn/jobsDetail?id=19",
+      "status": "partial_observed_records",
+      "observations": 1,
+      "full_jd": 1,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p14.json",
+      "observed_at": "2026-10-08T16:46:12.410Z"
+    },
+    {
+      "capture_id": "p15",
+      "requested_url": "https://www.udesk.cn/v1/joinus.html",
+      "source_url": "https://www.udesk.cn/v1/joinus.html",
+      "status": "partial_observed_records",
+      "observations": 10,
+      "full_jd": 10,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p15.json",
+      "observed_at": "2026-10-08T16:46:27.574Z"
+    },
+    {
+      "capture_id": "p16",
+      "requested_url": "https://www2.maycur.com/recruit/",
+      "source_url": "https://www2.maycur.com/recruit/",
+      "status": "partial_observed_records",
+      "observations": 34,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p16.json",
+      "observed_at": "2026-10-08T16:46:43.202Z"
+    },
+    {
+      "capture_id": "p17",
+      "requested_url": "https://digitforce.com/jobinfo/11",
+      "source_url": "https://digitforce.com/jobinfo/11",
+      "status": "partial_observed_records",
+      "observations": 1,
+      "full_jd": 1,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p17.json",
+      "observed_at": "2026-10-08T16:47:03.079Z"
+    },
+    {
+      "capture_id": "p18",
+      "requested_url": "https://www.embedway.com/jobs",
+      "source_url": "https://www.embedway.com/jobs",
+      "status": "partial_observed_records",
+      "observations": 23,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p18.json",
+      "observed_at": "2026-10-08T16:47:22.851Z"
+    },
+    {
+      "capture_id": "p19",
+      "requested_url": "https://www.hoteamsoft.com/join-us?slid=1",
+      "source_url": "https://www.hoteamsoft.com/join-us?slid=1",
+      "status": "partial_observed_records",
+      "observations": 7,
+      "full_jd": 7,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p19.json",
+      "observed_at": "2026-10-08T16:47:43.043Z"
+    },
+    {
+      "capture_id": "p20",
+      "requested_url": "https://www.kmsoft.com.cn/join-us.html",
+      "source_url": "https://www.kmsoft.com.cn/join-us.html",
+      "status": "entry_or_empty_state_requires_detail",
+      "observations": 0,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p20.json",
+      "observed_at": "2026-10-08T16:48:02.967Z"
+    },
+    {
+      "capture_id": "p21",
+      "requested_url": "https://www.sunteng.com/join-us",
+      "source_url": "https://www.sunteng.com/join-us",
+      "status": "partial_observed_records",
+      "observations": 8,
+      "full_jd": 8,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p21.json",
+      "observed_at": "2026-10-08T16:48:23.274Z"
+    },
+    {
+      "capture_id": "p22",
+      "requested_url": "https://www.vinchin.cn/vinchin-employment-details.html?id=31",
+      "source_url": "https://www.vinchin.cn/vinchin-employment-details.html?id=31",
+      "status": "partial_observed_records",
+      "observations": 1,
+      "full_jd": 1,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p22.json",
+      "observed_at": "2026-10-08T16:48:44.986Z"
+    },
+    {
+      "capture_id": "p23",
+      "requested_url": "https://www.nxai.com/zh/join-us/",
+      "source_url": "https://www.nxai.com/zh/join-us/",
+      "status": "partial_observed_records",
+      "observations": 5,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p23.json",
+      "observed_at": "2026-10-08T16:49:06.106Z"
+    },
+    {
+      "capture_id": "p24",
+      "requested_url": "https://www.ztccloud.com.cn/careers/social.html",
+      "source_url": "https://www.ztccloud.com.cn/careers/social.html",
+      "status": "partial_observed_records",
+      "observations": 16,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p24.json",
+      "observed_at": "2026-10-08T16:49:31.046Z"
+    },
+    {
+      "capture_id": "p25",
+      "requested_url": "https://www.doodod.com/careers/",
+      "source_url": "https://www.doodod.com/careers/",
+      "status": "partial_observed_records",
+      "observations": 6,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p25.json",
+      "observed_at": "2026-10-08T16:50:35.959Z"
+    },
+    {
+      "capture_id": "p26",
+      "requested_url": "https://www.zhipuai.cn/zh/joinus",
+      "source_url": "https://www.zhipuai.cn/zh/joinus",
+      "status": "entry_or_empty_state_requires_detail",
+      "observations": 0,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p26.json",
+      "observed_at": "2026-10-08T16:50:55.803Z"
+    },
+    {
+      "capture_id": "p27",
+      "requested_url": "https://www.4paradigm.com/about/hr.html",
+      "source_url": null,
+      "status": "read_failed",
+      "observations": 0,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": "Internal Error ()\nciteturn992view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.4paradigm.com/about/hr.html\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www.4paradigm.com/about/hr.html: (400) Timeout fetching\n",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p27.json",
+      "observed_at": "2026-10-08T16:51:21.195Z"
+    },
+    {
+      "capture_id": "p28",
+      "requested_url": "https://hr.sensetime.com/",
+      "source_url": "https://hr.sensetime.com/",
+      "status": "entry_or_empty_state_requires_detail",
+      "observations": 0,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p28.json",
+      "observed_at": "2026-10-08T16:51:41.799Z"
+    },
+    {
+      "capture_id": "p29",
+      "requested_url": "https://www.zhaopin.com/jobdetail/CCL1514313160J40887713909.htm",
+      "source_url": null,
+      "status": "read_failed",
+      "observations": 0,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": "Internal Error ()\nciteturn994view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.zhaopin.com/jobdetail/CCL1514313160J40887713909.htm\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www.zhaopin.com/jobdetail/CCL1514313160J40887713909.htm: TimeoutError\n",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p29.json",
+      "observed_at": "2026-10-08T16:52:03.554Z"
+    },
+    {
+      "capture_id": "p30",
+      "requested_url": "https://www.nowcoder.com/jobs/hr/78458?jobId=274793&pageSource=5011",
+      "source_url": "https://www.nowcoder.com/jobs/hr/78458?jobId=274793&pageSource=5011",
+      "status": "entry_or_empty_state_requires_detail",
+      "observations": 0,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p30.json",
+      "observed_at": "2026-10-08T16:52:24.662Z"
+    },
+    {
+      "capture_id": "p31",
+      "requested_url": "https://hireportal.us.com/cn/job/wbxgpj9xdbvv/job",
+      "source_url": "https://hireportal.us.com/cn/job/wbxgpj9xdbvv/job",
+      "status": "partial_observed_records",
+      "observations": 1,
+      "full_jd": 1,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p31.json",
+      "observed_at": "2026-10-08T16:52:39.595Z"
+    },
+    {
+      "capture_id": "p32",
+      "requested_url": "https://hireportal.us.com/cn/job/zddnmgv1wk6f/job",
+      "source_url": "https://hireportal.us.com/cn/job/zddnmgv1wk6f/job",
+      "status": "partial_observed_records",
+      "observations": 1,
+      "full_jd": 1,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p32.json",
+      "observed_at": "2026-10-08T16:53:01.298Z"
+    },
+    {
+      "capture_id": "p33",
+      "requested_url": "https://watchjobs.net/zh/explore/job/7e79b93b-25ec-4545-88b4-09754ec9bb79/Business-Development-%26-Ecosystem-%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2",
+      "source_url": "https://watchjobs.net/zh/explore/job/7e79b93b-25ec-4545-88b4-09754ec9bb79/Business-Development-%26-Ecosystem-%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2",
+      "status": "partial_observed_records",
+      "observations": 1,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p33.json",
+      "observed_at": "2026-10-08T16:53:26.586Z"
+    },
+    {
+      "capture_id": "p34",
+      "requested_url": "https://talent.hikvision.com/home/socity/position?postId=180B1F97E9523075E1281F184BEB1010",
+      "source_url": "https://talent.hikvision.com/home/socity/position?postId=180B1F97E9523075E1281F184BEB1010",
+      "status": "partial_observed_records",
+      "observations": 1,
+      "full_jd": 1,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p34.json",
+      "observed_at": "2026-10-08T16:53:46.481Z"
+    },
+    {
+      "capture_id": "p35",
+      "requested_url": "https://careers.arm.com/category/sales-jobs/33099/8081680/1/1",
+      "source_url": "https://careers.arm.com/category/sales-jobs/33099/8081680/1/1",
+      "status": "partial_observed_records",
+      "observations": 10,
+      "full_jd": 0,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p35.json",
+      "observed_at": "2026-10-08T16:54:06.296Z"
+    },
+    {
+      "capture_id": "d01",
+      "requested_url": null,
+      "source_url": "https://www.ztccloud.com.cn/careers/sales-manager.html",
+      "status": "partial_observed_records",
+      "observations": 1,
+      "full_jd": 1,
+      "source_complete": false,
+      "error": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/d01.json",
+      "observed_at": "2026-10-08T16:58:39.264Z"
+    }
+  ],
+  "official_adapter_results": [
+    {
+      "company_id": "bailian-ai",
+      "run_id": "bailian-ai-52901d1d-b3bb-4f55-9957-d7efac4268a5",
+      "status": "success",
+      "complete": true,
+      "jobs": 4,
+      "errors": [],
+      "started_at": "2026-10-08T15:42:02.923Z",
+      "finished_at": "2026-10-08T15:42:49.374Z",
+      "report_paths": {
+        "database": "01_行情收集/official-careers/careers.sqlite",
+        "report_json": "01_行情收集/official-careers/reports/bailian-ai-52901d1d-b3bb-4f55-9957-d7efac4268a5.json",
+        "report_markdown": "01_行情收集/official-careers/reports/bailian-ai-52901d1d-b3bb-4f55-9957-d7efac4268a5.md",
+        "fallback_run_json": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-24a4deb3-5484-4eba-a3c2-25bc5fb016d2/run.json",
+        "fallback_summary_markdown": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-24a4deb3-5484-4eba-a3c2-25bc5fb016d2/summary.md"
+      }
+    },
+    {
+      "company_id": "deepseek",
+      "run_id": "deepseek-73f5ba27-882a-4c59-87f3-87685b4d1944",
+      "status": "success",
+      "complete": true,
+      "jobs": 34,
+      "errors": [],
+      "started_at": "2026-10-08T15:42:49.397Z",
+      "finished_at": "2026-10-08T15:43:55.414Z",
+      "report_paths": {
+        "database": "01_行情收集/official-careers/careers.sqlite",
+        "report_json": "01_行情收集/official-careers/reports/deepseek-73f5ba27-882a-4c59-87f3-87685b4d1944.json",
+        "report_markdown": "01_行情收集/official-careers/reports/deepseek-73f5ba27-882a-4c59-87f3-87685b4d1944.md",
+        "fallback_run_json": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-24a4deb3-5484-4eba-a3c2-25bc5fb016d2/run.json",
+        "fallback_summary_markdown": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-24a4deb3-5484-4eba-a3c2-25bc5fb016d2/summary.md"
+      }
+    },
+    {
+      "company_id": "minimax",
+      "run_id": null,
+      "status": "blocked",
+      "complete": false,
+      "jobs": 0,
+      "errors": [
+        {
+          "code": "BROWSER_ADAPTER_QUARANTINED",
+          "message": "Public-browser redirect-hop boundary pending independent verification; existing evidence remains available; no navigation or automatic retry."
+        }
+      ],
+      "started_at": "2026-10-08T15:43:55.451Z",
+      "finished_at": "2026-10-08T15:43:55.452Z",
+      "report_paths": {
+        "fallback_run_json": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-24a4deb3-5484-4eba-a3c2-25bc5fb016d2/run.json",
+        "fallback_summary_markdown": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-24a4deb3-5484-4eba-a3c2-25bc5fb016d2/summary.md"
+      }
+    }
+  ],
+  "queued_urls": [
+    {
+      "url": "https://careers.tencent.com/jobdesc.html?postId=1955828766274113536",
+      "reason": "empty_representation_not_zero_jobs"
+    },
+    {
+      "url": "https://careers.kimi.com/social",
+      "reason": "entry_or_empty_state_requires_detail"
+    },
+    {
+      "url": "https://www.bicv.com/join/zpxx/",
+      "reason": "read_failed"
+    },
+    {
+      "url": "https://www.leyantech.com/joinUS.html",
+      "reason": "read_failed"
+    },
+    {
+      "url": "https://www.kmsoft.com.cn/join-us.html",
+      "reason": "entry_or_empty_state_requires_detail"
+    },
+    {
+      "url": "https://www.zhipuai.cn/zh/joinus",
+      "reason": "entry_or_empty_state_requires_detail"
+    },
+    {
+      "url": "https://www.4paradigm.com/about/hr.html",
+      "reason": "read_failed"
+    },
+    {
+      "url": "https://hr.sensetime.com/",
+      "reason": "entry_or_empty_state_requires_detail"
+    },
+    {
+      "url": "https://www.zhaopin.com/jobdetail/CCL1514313160J40887713909.htm",
+      "reason": "read_failed"
+    },
+    {
+      "url": "https://www.nowcoder.com/jobs/hr/78458?jobId=274793&pageSource=5011",
+      "reason": "entry_or_empty_state_requires_detail"
+    },
+    {
+      "url": "https://careers.kimi.com/social",
+      "reason": "普通社招入口可读，具体Moka职位待准入与读取"
+    },
+    {
+      "url": "https://www.zhipuai.cn/zh/joinus",
+      "reason": "有销售类别，但尚未获得具体岗位正文"
+    }
+  ],
+  "remaining_scope": [
+    "BOSS/猎聘登录后自动读取隔离未解除，保持用户标签不动",
+    "MiniMax原厂适配器仍隔离；第三方转载不算恢复",
+    "新发现公司与独立来源继续核验和扫描，动态ATS及分页待补",
+    "没有完整JD的线索不评分；薪资固定构成及当前HC普遍待确认",
+    "本轮未更新国家政策周报；政策不能据此标为最新"
+  ],
+  "execution": {
+    "type": "single_current_conversation",
+    "model": "current conversation per user instruction; model/effort not independently verified",
+    "subagents": 0,
+    "independent_qa": false,
+    "external_llm_api_calls": 0
+  },
+  "market_scan_complete": false,
+  "company_wide_scan_complete": false,
+  "external_actions": 0,
+  "scheduler_enabled": false,
+  "artifacts": {
+    "jobs": "01_行情收集/official-careers/research/market-wide-2026-10-08/enriched-report-jobs.json",
+    "index": "01_行情收集/official-careers/research/market-wide-2026-10-08/search-index.json",
+    "queue": "01_行情收集/official-careers/research/market-wide-2026-10-08/next-wave-queue.json",
+    "company_frontier": "01_行情收集/official-careers/research/market-wide-2026-10-08/new-company-frontier.json",
+    "matches": "01_行情收集/official-careers/research/market-wide-2026-10-08/current-match-summary.json",
+    "ledger": "01_行情收集/official-careers/research/market-wide-2026-10-08/web-session.jsonl"
+  }
+}

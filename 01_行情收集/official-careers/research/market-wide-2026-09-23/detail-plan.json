@@ -1,0 +1,254 @@
+{
+  "frozen_at": "2026-09-22T17:49:31.264Z",
+  "tasks": [
+    {
+      "id": "o06tail",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "北京涡控科技有限公司",
+      "source_result_id": "c013-r012",
+      "source_title": "加入我们_加入每刻科技",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www2.maycur.com/recruit/",
+            "lineno": 710
+          }
+        ],
+        "response_length": "long"
+      },
+      "reason": "Complete truncated page; not a retry of failed access"
+    },
+    {
+      "id": "o14tail",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "广州明珞装备股份有限公司",
+      "source_result_id": "c032-r001",
+      "source_title": "职位检索 - 加入我们 广州明珞股份有限公司",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.minotech.cn/Joinus/job.html",
+            "lineno": 345
+          }
+        ],
+        "response_length": "long"
+      },
+      "reason": "Complete truncated page; not a retry of failed access"
+    },
+    {
+      "id": "o15tail",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "杭州百炼泰然科技有限公司",
+      "source_result_id": "c033-r012",
+      "source_title": "人才招聘|乐言科技〖官网〗",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.leyantech.com/joinUS.html",
+            "lineno": 540
+          }
+        ],
+        "response_length": "long"
+      },
+      "reason": "Complete truncated page; not a retry of failed access"
+    },
+    {
+      "id": "o32tail",
+      "operation": "open",
+      "route": "A",
+      "company": null,
+      "source_result_id": "k01-r002",
+      "source_title": "加入我们--麒麟信安",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.kylinsec.com.cn/recruit/18/0/0/2.html",
+            "lineno": 300
+          }
+        ],
+        "response_length": "long"
+      },
+      "reason": "Complete truncated page; not a retry of failed access"
+    },
+    {
+      "id": "d01",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "安利智科技",
+      "source_result_id": "c002-r004",
+      "source_title": "销售副总VP招聘_安利智科技招聘 - 智联招聘",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhaopin.com/jobdetail/CC644719630J40839028215.htm"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d02",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "北京曙光信息",
+      "source_result_id": "c009-r004",
+      "source_title": "中小金融机构销售经理（北京）(J13637)招聘_北京曙光信息招聘 - 智联招聘",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhaopin.com/jobdetail/CC120205180J40868975913.htm"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d03",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "河北网盾网络科技有限公司",
+      "source_result_id": "c039-r005",
+      "source_title": "电力行业销售经理招聘_河北网盾网络科技有限公司招聘 - 智联招聘",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhaopin.com/jobdetail/CCL1241385590J40851155909.htm"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d04",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "上海利真汽车服务咨询有限公司成都分公司",
+      "source_result_id": "c071-r003",
+      "source_title": "大客户销售经理招聘_上海利真招聘 - 智联招聘",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhaopin.com/jobdetail/CC619331620J40767922303.htm"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d05",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "万国数据服务有限公司",
+      "source_result_id": "c098-r005",
+      "source_title": "销售经理（AI/泛互/企业客户）招聘_万国数据服务有限公司招聘 - 智联招聘",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhaopin.com/jobdetail/CC136753050J40841108501.htm"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d06",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "武汉远鸣科技信息有限公司",
+      "source_result_id": "c100-r002",
+      "source_title": "大数据AI 销售 （To B端，单休，快速发展期）招聘_武汉远鸣科技信息有限公司招聘 - 智联招聘",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhaopin.com/jobdetail/CCL1521073310J40843229101.htm"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d07",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "山东新松工业软件研究院股份有限公司",
+      "source_result_id": "c066-r003",
+      "source_title": "售前解决方案招聘_山东新松工业软件研究院股份有限公司招聘 - 智联招聘",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhaopin.com/jobdetail/CCL1240483180J40157041903.htm"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d08",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "中科创达软件股份有限公司",
+      "source_result_id": "c109-r012",
+      "source_title": "集团销售运营负责人_中科创达招聘集团销售运营负责人",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.haolietou.com/j_301608"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d09",
+      "operation": "open",
+      "route": "B",
+      "company": null,
+      "source_result_id": "k12-r012",
+      "source_title": "腾讯云-经营分析经理｜腾讯招聘 - 深圳市",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://watchjobs.net/zh/explore/job/c253-92f8768e3003b7a0/%E8%85%BE%E8%AE%AF%E4%BA%91-%E7%BB%8F%E8%90%A5%E5%88%86%E6%9E%90%E7%BB%8F%E7%90%86-%E8%85%BE%E8%AE%AF"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d10",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "深圳联想懂的通信有限公司",
+      "source_result_id": "c074-r003",
+      "source_title": "职位详情-联想懂的通信",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.lenovoconnect.com/cn/contactus/recruit/detail?id=42"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d11",
+      "operation": "open",
+      "route": "B",
+      "company": null,
+      "source_result_id": "k15-r006",
+      "source_title": "Strategic Partnership Manager at Arm",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://careers.arm.com/job/shenzhen/strategic-partnership-manager/33099/100749234624"
+          }
+        ],
+        "response_length": "long"
+      }
+    }
+  ],
+  "note": "Four continuations of readable but truncated pages, then eleven observed role-detail URLs. Failures stop the source; remaining tasks stay pending."
+}

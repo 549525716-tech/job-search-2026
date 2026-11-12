@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "scope_type": "bounded_market_sample",
+  "batch_id": "d8807b60-e4d5-46ed-8529-94c19effed5b",
+  "canonical_task": "job_scout_market_evidence_2026-09-13",
+  "frozen_at": "2026-09-13T02:15:00+08:00",
+  "route_A": {
+    "companies": [
+      {"name": "Tesla", "segment": "新能源汽车/直营销售与培训", "status": "seed"},
+      {"name": "蔚来/乐道", "segment": "新能源汽车/用户运营与销售管理", "status": "seed"},
+      {"name": "纷享销客", "segment": "企业软件/CRM与营销数字化", "status": "seed"},
+      {"name": "销售易", "segment": "企业软件/CRM与销售运营", "status": "seed"},
+      {"name": "飞书/字节跳动", "segment": "协同办公/企业服务与工作流", "status": "seed"},
+      {"name": "汽车营销数字化代表", "segment": "汽车与智能出行数字化", "status": "seed_pending_entity_verification"}
+    ],
+    "goal": "从公司与商业场景入口取得可回查的完整官网JD，记录招聘归属、地点、职责、硬门槛、薪资原文、发布时间语义与申请入口。"
+  },
+  "route_B": {
+    "queries": [
+      "销售赋能/销售培训",
+      "销售运营/商业运营",
+      "汽车行业客户成功",
+      "伙伴赋能/渠道运营",
+      "AI业务应用顾问",
+      "新能源销售职业辅导或飞书工作流交付付费需求"
+    ],
+    "term_state": "bootstrap_hypothesis_until_full_jd",
+    "goal": "以职责与业务结果词发现跨雇主岗位及公开服务需求；新雇主进入下一波队列，不扩写本批分母。"
+  },
+  "in_scope": ["official company career pages", "official ATS pages linked to employer", "search index as lead only", "official public service/pricing/project demand pages"],
+  "excluded": ["BOSS直聘", "猎聘", "MiniMax", "captcha/401/403/429 restricted source", "applications", "messages", "resume edits", "database changes"],
+  "network_budget": {"max_web_requests": 26, "serial_only": true, "min_interval_seconds": 10, "max_interval_seconds": 20, "deadline_minutes": 10},
+  "evidence_standard": {"preferred_full_jd_count": "4-6", "salary_policy": "unknown_or_undisclosed_kept_separate; no inference to fixed CNY20K", "snippet_is_not_full_jd": true, "payment_evidence_labels": ["listed_price", "project_budget", "payment_unverified"]},
+  "frozen_inputs": ["careers/config/preferences.json", "careers/config/discovery-policy.json", "careers/config/agent-team.json", "careers/config/source-catalog.json", "careers/docs/dual-route-discovery.md", "careers/docs/industry-tiers-and-sources.md", "careers/agent-outputs/batches/d8807b60-e4d5-46ed-8529-94c19effed5b.json"]
+}

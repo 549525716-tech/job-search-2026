@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "run_id": "market-wide-2026-09-22",
+  "frozen_at": "2026-09-21T17:16:57.378Z",
+  "goal": "All project industries, every known company display name, all commercial role families; open new-employer frontier, not a five-company validation sample",
+  "industry_and_keyword_queries": [
+    {
+      "id": "a01",
+      "route": "A",
+      "industry": "基础大模型与开放平台",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "中国 大模型 开放平台 企业 招聘 (销售 OR 商务 OR 生态 OR 运营)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "a02",
+      "route": "A",
+      "industry": "云、算力与AI基础设施",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "云计算 算力 AI基础设施 公司 招聘 (销售 OR 渠道 OR 售前)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "a03",
+      "route": "A",
+      "industry": "数据与AI开发平台",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "数据库 数据智能 AI开发平台 招聘 (销售 OR 商务 OR 解决方案)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "a04",
+      "route": "A",
+      "industry": "企业软件与营销数字化",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "企业软件 营销数字化 SaaS 招聘 (销售 OR 运营 OR 市场)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "a05",
+      "route": "A",
+      "industry": "AI企业应用",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "AI Agent 企业应用 公司 招聘 (商务 OR 销售 OR 运营)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "a06",
+      "route": "A",
+      "industry": "汽车与智能出行数字化",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "汽车 智能出行 数字化 公司 招聘 (销售管理 OR 商业化 OR 商务)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "a07",
+      "route": "A",
+      "industry": "制造与工业智能化",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "工业软件 智能制造 公司 招聘 (销售 OR 售前 OR 渠道)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "a08",
+      "route": "A",
+      "industry": "机器人与智能硬件",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "机器人 智能硬件 公司 招聘 (销售 OR 商务 OR 市场)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "b01",
+      "route": "B",
+      "industry": "销售与KA",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"大客户销售\" \"招聘\" \"薪资\" \"AI\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "b02",
+      "route": "B",
+      "industry": "商务渠道生态",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" (\"Business Builder\" OR \"生态合作\" OR \"渠道总监\")"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "b03",
+      "route": "B",
+      "industry": "市场营销",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" (\"GTM\" OR \"市场总监\" OR \"产品营销\") 企业服务"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "b04",
+      "route": "B",
+      "industry": "销售及商业运营",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" (\"销售运营\" OR \"商业运营\" OR \"商业化运营\")"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "b05",
+      "route": "B",
+      "industry": "管理",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" (\"区域总经理\" OR \"销售总监\" OR \"区域负责人\") 数字化"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "b06",
+      "route": "B",
+      "industry": "业务型售前",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" (\"售前咨询\" OR \"解决方案顾问\" OR \"企业AI落地\")"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "b07",
+      "route": "B",
+      "industry": "正文商业职责",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" \"客户决策\" \"回款\" \"解决方案\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "b08",
+      "route": "B",
+      "industry": "正文经营方法",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" \"经营分析\" \"目标拆解\" \"客户\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "b09",
+      "route": "B",
+      "industry": "新增赛道发现",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "网络安全 跨境支付 新能源 招聘 销售 商务"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "b10",
+      "route": "B",
+      "industry": "新增场景发现",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "医疗 教育 物流 AI 招聘 商务 运营"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "pending"
+    }
+  ],
+  "company_scope": "Every named company from catalog-plan.json; planned and executed coverage must be separate",
+  "company_plan_pending": true,
+  "detail_expansion": "Follow real current results into public official and permitted other pages; retain pagination and missing details",
+  "network": "Shared serial 10-20 second queue, first access denial stops source, no login-page interactions",
+  "fresh_prior_evidence": "fallback-2026-09-22 retained with original timestamps, never called newly collected",
+  "excluded_controls": [
+    "BOSS browser automation",
+    "Liepin browser automation",
+    "MiniMax quarantined adapter"
+  ],
+  "external_actions": 0,
+  "scheduler_enabled": false,
+  "market_complete": false
+}

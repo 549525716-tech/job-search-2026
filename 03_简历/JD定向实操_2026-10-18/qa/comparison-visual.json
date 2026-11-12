@@ -1,0 +1,26 @@
+[
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "jobs": 10,
+    "edits": 133,
+    "all_expand_collapse": true,
+    "no_horizontal_overflow": true,
+    "external_requests": [],
+    "errors": []
+  },
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "jobs": 10,
+    "edits": 133,
+    "all_expand_collapse": true,
+    "no_horizontal_overflow": true,
+    "external_requests": [],
+    "errors": []
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "selection": "All current commercial-family QingCloud board entries plus all relevant solution/sales/delivery DigitForce board entries. Other board roles retained as list-only, not filtered from raw.",
+  "reads": [
+    {
+      "id": "d01",
+      "company": "青云科技",
+      "title": "智算售前技术顾问",
+      "operation": "click",
+      "route": "A",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn331view0",
+            "id": 152
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d02",
+      "company": "青云科技",
+      "title": "渠道经理",
+      "operation": "click",
+      "route": "A",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn331view0",
+            "id": 154
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d03",
+      "company": "青云科技",
+      "title": "AI产品内容运营",
+      "operation": "click",
+      "route": "A",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn331view0",
+            "id": 158
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d04",
+      "company": "青云科技",
+      "title": "客户经理",
+      "operation": "click",
+      "route": "A",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn331view0",
+            "id": 159
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d05",
+      "company": "青云科技",
+      "title": "金融云计算销售",
+      "operation": "click",
+      "route": "A",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn331view0",
+            "id": 160
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d06",
+      "company": "青云科技",
+      "title": "智算销售总监",
+      "operation": "click",
+      "route": "A",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn331view0",
+            "id": 161
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d07",
+      "company": "数势科技",
+      "title": "产品交付经理",
+      "operation": "click",
+      "route": "A",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn332view0",
+            "id": 27
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d08",
+      "company": "数势科技",
+      "title": "销售顾问",
+      "operation": "click",
+      "route": "A",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn332view0",
+            "id": 28
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "d09",
+      "company": "数势科技",
+      "title": "数据解决方案顾问",
+      "operation": "click",
+      "route": "A",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn332view0",
+            "id": 36
+          }
+        ],
+        "response_length": "long"
+      }
+    }
+  ]
+}

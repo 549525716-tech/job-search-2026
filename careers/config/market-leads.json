@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "notice": "公开招聘索引线索，与完整官网JD隔离。薪资区间不等于固定底薪；详情受限后停止，不虚构JD或职位直链。",
+  "halted_sources": [
+    {
+      "domain": "liepin.com",
+      "reason": "captcha",
+      "evidence_path": "01_行情收集/official-careers/research/headhunter-search-04.json"
+    }
+  ],
+  "leads": [
+    {
+      "lead_id": "baidu-cloud-ops",
+      "company_name": "Baidu",
+      "title": "销售运营-云和大模型业务泛互联网方向",
+      "salary_raw": "15-25k·16薪",
+      "location_raw": "北京-海淀区",
+      "experience_raw": "1-3年",
+      "education_raw": "本科",
+      "source_update_raw": "8月27日更新",
+      "source_url": "https://www.liepin.com/job/1985206063.shtml",
+      "job_url": "https://www.liepin.com/job/1985206063.shtml",
+      "description_summary": "搭建云和大模型业务的销售流程，管理线索、商机转化与运营分析，协同销售策略和资源配置。要求数据分析、Excel/SQL/BI及跨部门沟通；云和大模型经验优先。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-02.json",
+        "quote": "销售运营-云和大模型业务泛互联网方向招聘〗-Baidu北京招聘信息-猎聘 (https://www.liepin.com/job/1985206063.shtml)\nciteturn39search5 [wordlim: 200] Published: last week; Crawled: last week; 销售运营-云和大模型业务泛互联网方向 15-25k·16薪 ...     工"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "360-ai-sales",
+      "company_name": "360集团",
+      "title": "AI产品销售",
+      "salary_raw": "25-30k",
+      "location_raw": "北京-朝阳区",
+      "experience_raw": "3年以上",
+      "education_raw": "本科",
+      "source_update_raw": "2026-08-27",
+      "source_url": "https://m.liepin.com/company/6429309/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "quote": "AI产品销售 25-30k 北京-朝阳区 3年以上 本科 2026-08-27 AI创新产品管理岗位 80-110k·15薪 北京 5年以上 本科 2026-08-26 GEO广告销售 13-25k 北京-朝阳区 3-5年 统招本科 2026-08-26 高级产品技术管理岗 45-70k·15薪 北京 8年以上 统招本科 2026-08-26 生态渠道经理-办公智能体/纳米work 20-30k·"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "360-agent-channel-gz",
+      "company_name": "360集团",
+      "title": "生态渠道经理-办公智能体/纳米work",
+      "salary_raw": "20-30k·15薪",
+      "location_raw": "广州-天河区",
+      "experience_raw": "5年以上",
+      "education_raw": "本科",
+      "source_update_raw": "2026-08-25",
+      "source_url": "https://m.liepin.com/company/6429309/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "quote": "生态渠道经理-办公智能体/纳米work 20-30k·15薪 广州-天河区 5年以上 本科 2026-08-25 智能体生态渠道经理-纳米work 20-30k·15薪 上海-普陀区 5年以上 本科 2026-08-25 HRBP 15-25k·15薪 北京-朝阳区 3年以上 统招本科 2026-08-25 网络安全交付实施项目经理 13-18k·15薪 天津-西青区 3年以上 大专 2026-0"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "360-agent-channel-sh",
+      "company_name": "360集团",
+      "title": "智能体生态渠道经理-纳米work",
+      "salary_raw": "20-30k·15薪",
+      "location_raw": "上海-普陀区",
+      "experience_raw": "5年以上",
+      "education_raw": "本科",
+      "source_update_raw": "2026-08-25",
+      "source_url": "https://m.liepin.com/company/6429309/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "quote": "智能体生态渠道经理-纳米work 20-30k·15薪 上海-普陀区 5年以上 本科 2026-08-25 HRBP 15-25k·15薪 北京-朝阳区 3年以上 统招本科 2026-08-25 网络安全交付实施项目经理 13-18k·15薪 天津-西青区 3年以上 大专 2026-08-25 3C产品结构工程师（儿童手表） 20-40k·15薪 深圳-南山区 5-10年 本科 2026-08-2"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "360-geo-sales",
+      "company_name": "360集团",
+      "title": "GEO广告销售",
+      "salary_raw": "13-25k",
+      "location_raw": "北京-朝阳区",
+      "experience_raw": "3-5年",
+      "education_raw": "统招本科",
+      "source_update_raw": "2026-08-26",
+      "source_url": "https://m.liepin.com/company/6429309/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "quote": "GEO广告销售 13-25k 北京-朝阳区 3-5年 统招本科 2026-08-26 高级产品技术管理岗 45-70k·15薪 北京 8年以上 统招本科 2026-08-26 生态渠道经理-办公智能体/纳米work 20-30k·15薪 广州-天河区 5年以上 本科 2026-08-25 智能体生态渠道经理-纳米work 20-30k·15薪 上海-普陀区 5年以上 本科 2026-08-25 H"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "360-overseas-channel",
+      "company_name": "360集团",
+      "title": "海外渠道销售",
+      "salary_raw": "20-40k·13薪",
+      "location_raw": "深圳-南山区",
+      "experience_raw": "3-8年",
+      "education_raw": "统招本科",
+      "source_update_raw": "2026-08-27",
+      "source_url": "https://m.liepin.com/company/6429309/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "quote": "海外渠道销售 20-40k·13薪 深圳-南山区 3-8年 统招本科 2026-08-27 证券事务专员（非拟上市公司） 13-25k·15薪 北京-朝阳区 2年以上 统招本科 2026-08-27 AI产品销售 25-30k 北京-朝阳区 3年以上 本科 2026-08-27 AI创新产品管理岗位 80-110k·15薪 北京 5年以上 本科 2026-08-26 GEO广告销售 13-25k "
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "360-product-marketing",
+      "company_name": "360集团",
+      "title": "海外产品营销（3C消费电子）",
+      "salary_raw": "20-35k·15薪",
+      "location_raw": "深圳-南山区",
+      "experience_raw": "5年以上",
+      "education_raw": "统招本科",
+      "source_update_raw": "2026-08-24",
+      "source_url": "https://m.liepin.com/company/6429309/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "quote": "海外产品营销（3C消费电子） 20-35k·15薪 深圳-南山区5年以上统招本科 2026-08-24 海外社媒运营 20-30k·15薪 深圳-南山区5年以上本科 2026-08-24 AI产品负责人 45-75k·15薪 北京-朝阳区8年以上本科 2026-08-24 全栈工程师（需golang+react全会，偏后端） 29-50k·15薪 北京-朝阳区3-5年统招本科 2026-08-20"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "360-social-ops",
+      "company_name": "360集团",
+      "title": "海外社媒运营",
+      "salary_raw": "20-30k·15薪",
+      "location_raw": "深圳-南山区",
+      "experience_raw": "5年以上",
+      "education_raw": "本科",
+      "source_update_raw": "2026-08-24",
+      "source_url": "https://m.liepin.com/company/6429309/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "quote": "海外社媒运营 20-30k·15薪 深圳-南山区5年以上本科 2026-08-24 AI产品负责人 45-75k·15薪 北京-朝阳区8年以上本科 2026-08-24 全栈工程师（需golang+react全会，偏后端） 29-50k·15薪 北京-朝阳区3-5年统招本科 2026-08-20 舆情产品负责人 35-45k·15薪 北京-朝阳区5-10年本科 2026-08-20 游戏视觉设计师"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "meituan-model-sales",
+      "company_name": "美团",
+      "title": "大模型商务销售专家",
+      "salary_raw": "25-40k·15薪",
+      "location_raw": "北京",
+      "experience_raw": "3-5年",
+      "education_raw": "本科",
+      "source_update_raw": null,
+      "source_url": "https://www.liepin.com/s/423eedba164c62829cf9d61b2908baf0/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-02.json",
+        "quote": "大模型商务销售专家 〖 北京 〗 25-40k·15薪 3-5年 本科 0-1 美团 生活服务,互联网,生活服务O2O 已上市 10000人以上 ...   * 大模型业务运营 〖 上海-长白新村 〗 25-35k·15薪 3-5年 本科 大模型 美团 生活服务,互联网,生活服务O2O 已上市 10000人以上\n"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "meituan-model-ops",
+      "company_name": "美团",
+      "title": "大模型业务运营",
+      "salary_raw": "25-35k·15薪",
+      "location_raw": "上海-长白新村",
+      "experience_raw": "3-5年",
+      "education_raw": "本科",
+      "source_update_raw": null,
+      "source_url": "https://www.liepin.com/s/423eedba164c62829cf9d61b2908baf0/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-02.json",
+        "quote": "大模型业务运营 〖 上海-长白新村 〗 25-35k·15薪 3-5年 本科 大模型 美团 生活服务,互联网,生活服务O2O 已上市 10000人以上\n"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "tungee-sales-manager",
+      "company_name": "探迹科技",
+      "title": "B2B销售主管/经理（AI人工智能软件）",
+      "salary_raw": "20-45k",
+      "location_raw": "佛山-同济路",
+      "experience_raw": "5年以上",
+      "education_raw": "大专",
+      "source_update_raw": null,
+      "source_url": "https://m.liepin.com/zprgznxs5w6n/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "quote": "B2B销售主管/经理（AI人工智能软件） 20-45k 探迹科技 C轮融资 佛山-同济路 5年以上 大专 唐女士 · 招聘经理 军工人工智能-销售工程师 18-30k 某北京网络/信息安全公司 战略融资 北京 3年以上 本科 李女士 · 高级猎头顾问 销售副总裁（人工智能公司+股权激励+团队管理） 30-40k 某深圳人工智能公司 广州 5-10年 学历不限 莫女士 · 猎头顾问 项目/商务/销售"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "lianyou-solutions",
+      "company_name": "联友科技",
+      "title": "AI业务解决方案顾问",
+      "salary_raw": "18-30k·14薪",
+      "location_raw": "武汉-沌口",
+      "experience_raw": "3年以上",
+      "education_raw": "本科",
+      "source_update_raw": null,
+      "source_url": "https://m.liepin.com/s/aikjplbjab60y8p9/pn3/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "quote": "AI业务解决方案顾问 18-30k·14薪 联友科技 融资未公开 武汉-沌口 3年以上 本科 唐女士 · 人才招聘管理 AI & 区块链解决方案顾问 20-25k·15薪 上海万向区块链股份公司 战略融资 浦东新区 3-5年 本科 徐女士 · HR AI解决方案销售顾问 8-12k 华夏鲲鹏 深圳-光明 经验不限 大专 侯女士 · 人力资源经理/主管 AI产品解决方案专家/售前顾问 20-30k·"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "talkingdata-solutions",
+      "company_name": "TalkingData",
+      "title": "AI 组织转型与解决方案顾问(J10791)",
+      "salary_raw": "15-25k",
+      "location_raw": "北京-国贸",
+      "experience_raw": "3-5年",
+      "education_raw": "本科",
+      "source_update_raw": null,
+      "source_url": "https://m.liepin.com/s/aikjplbjab60y8p9/pn3/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "quote": "AI 组织转型与解决方案顾问(J10791) 15-25k TalkingData C轮融资 北京-国贸 3-5年 本科 季女士 AI业务解决方案顾问 18-30k·14薪 联友科技 融资未公开 武汉-沌口 3年以上 本科 唐女士 · 人才招聘管理 AI & 区块链解决方案顾问 20-25k·15薪 上海万向区块链股份公司 战略融资 浦东新区 3-5年 本科 徐女士 · HR AI解决方案销售顾问"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "wanxiang-solutions",
+      "company_name": "上海万向区块链股份公司",
+      "title": "AI & 区块链解决方案顾问",
+      "salary_raw": "20-25k·15薪",
+      "location_raw": "浦东新区",
+      "experience_raw": "3-5年",
+      "education_raw": "本科",
+      "source_update_raw": null,
+      "source_url": "https://m.liepin.com/s/aikjplbjab60y8p9/pn3/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "quote": "AI & 区块链解决方案顾问 20-25k·15薪 上海万向区块链股份公司 战略融资 浦东新区 3-5年 本科 徐女士 · HR AI解决方案销售顾问 8-12k 华夏鲲鹏 深圳-光明 经验不限 大专 侯女士 · 人力资源经理/主管 AI产品解决方案专家/售前顾问 20-30k·15薪 某知名公司 余杭区 3-5年 本科 王先生 · 招聘顾问 AI解决方案高级顾问 35-55k 某大型货运/物流/"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    },
+    {
+      "lead_id": "ruijie-channel-ops",
+      "company_name": "锐捷网络",
+      "title": "销售运营专家（渠道 分销）",
+      "salary_raw": "20-30k·14薪",
+      "location_raw": "北京-公主坟",
+      "experience_raw": "3年以上",
+      "education_raw": "本科",
+      "source_update_raw": null,
+      "source_url": "https://www.liepin.com/s/itdnqdxs6s6gnaqp/pn3/",
+      "job_url": null,
+      "description_summary": "仅取得岗位标题及招聘列表摘要，职责、管理权限和技术要求待完整JD核验。",
+      "description_complete": false,
+      "evidence_status": "search_index_only",
+      "evidence": {
+        "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "quote": "销售运营专家（渠道 分销） 〖 北京-公主坟 〗 20-30k·14薪 3年以上 本科 锐捷网络 计算机硬件 已上市 5000-10000人\n"
+      },
+      "risks": [
+        "搜索索引不代表当前在招；猎聘详情触发验证码，本轮未继续访问。",
+        "招聘区间未明确固定底薪，不能判定固定月薪20K达标。"
+      ]
+    }
+  ]
+}

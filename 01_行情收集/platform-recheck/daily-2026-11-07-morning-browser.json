@@ -1,0 +1,52 @@
+{
+  "captured_at": "2026-11-07T09:13:39+08:00",
+  "timezone": "Asia/Shanghai",
+  "boss_status": "已登录：贺文杰",
+  "boss_risk_encountered": false,
+  "boss_messages_count": 20,
+  "boss_message_summary": {
+    "索要简历": 2,
+    "约面": 0,
+    "拒绝": 1,
+    "其他新回复": 5,
+    "沟通中/本人消息已送达或已读": 12
+  },
+  "key_message_dynamics": [
+    "XTransfer刘女士索要详细简历",
+    "深圳信银黄正广索要详细简历",
+    "智宏集团涂女士明确表示技能组合与项目需求不匹配",
+    "前20条未见明确约面邀请"
+  ],
+  "boss_applications_count": 12,
+  "application_status_changes": [
+    "已投递列表中5条明确显示“职位已关闭”",
+    "其余7条可见条目未显示新的已读/不合适状态；列表显示累计投递简历数量12，最近一年数据"
+  ],
+  "new_jobs_count": 5,
+  "new_jobs_file": "/workspace/projects/职场/01_行情收集/platform-recheck/boss-2026-11-07-morning.json",
+  "messages_applications_file": "/workspace/projects/职场/04_投递迭代/沟通记录_2026-11-07-morning.json",
+  "search_keywords": [
+    "大客户销售",
+    "KA经理",
+    "销售总监",
+    "渠道经理",
+    "销售运营"
+  ],
+  "search_result": "每词各查广州1页；筛得5条，销售运营页未找到符合口径且薪资上界≥20K的岗位",
+  "read_only_actions": true,
+  "messages_sent": 0,
+  "applications_submitted": 0,
+  "note": "未点击立即沟通/打招呼、未投递、未回复；所有岗位详情仅打开查看。",
+  "liepin_checked_at": "2026-11-07T09:15:00+08:00",
+  "liepin_status": "页面空白，登录状态无法确认；需本人登录后再检查",
+  "liepin_url": "https://c.liepin.com/?time=1794014121129",
+  "liepin_screenshot": "file:///cursor/stores/user/grok-bot/agents/5dd377e3-781a-44ec-af11-8a7ba559eabe/assets/2d8f5e1824042331af327b57f921e7903226b7094cece49af0c2c072f2ddad60.png",
+  "liepin_messages": [],
+  "liepin_messages_count": 0,
+  "liepin_jobs": [],
+  "liepin_jobs_count": 0,
+  "liepin_read_only_actions": true,
+  "liepin_messages_sent": 0,
+  "liepin_applications_submitted": 0,
+  "liepin_note": "只访问首页一次；跳转至 c.liepin.com 后主页面白屏、无法确认登录态。按要求停止，未刷新、未查看消息或搜索岗位。"
+}

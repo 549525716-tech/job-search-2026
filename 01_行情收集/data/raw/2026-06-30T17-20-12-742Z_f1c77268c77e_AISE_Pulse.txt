@@ -1,0 +1,30 @@
+Salesforce AI Sales Engineer
+Company: Salesforce
+Category: Enterprise AI
+OTE: $160K to $240K
+Work model: Hybrid (San Francisco / Multiple)
+Estimated SE team size: 150+ SEs (AI focused)
+
+Company positioning
+Salesforce has built its AI strategy around Einstein, the AI layer embedded across the entire Salesforce platform (Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud). The company launched Einstein GPT (now Einstein Copilot) to bring generative AI into CRM workflows, and Data Cloud to provide the unified data foundation that AI features require. Salesforce SEs who specialize in AI help customers activate Einstein capabilities on their existing Salesforce data, which is a natural expansion play on one of the world's largest enterprise software installed bases.
+
+AI products and platform
+The AI product suite includes Einstein Copilot (generative AI assistant embedded across Salesforce clouds), Einstein Prediction Builder for custom ML models, Einstein Discovery for automated analytics, Data Cloud for unified customer data, Prompt Builder for creating custom AI prompts, and Einstein Trust Layer for grounding, masking, and auditing AI outputs. The platform supports both built-in AI features that work out of the box and custom AI development using Apex, Salesforce Functions, and third-party model integration.
+
+Role details
+AI-focused Sales Engineers at Salesforce help customers activate Einstein features across their Salesforce deployment. A typical engagement involves assessing which Einstein capabilities are available based on the customer's current license, configuring Einstein Copilot for their specific CRM workflows, demoing how Prediction Builder can forecast deal close rates or case escalation risk, and setting up the Data Cloud foundation needed for AI features to work effectively. You would demo Einstein Copilot generating emails, summarizing account histories, and recommending next-best actions. You would also walk through the Einstein Trust Layer to address data privacy concerns and help architects design integrations between Data Cloud and external data sources. The role requires deep Salesforce platform knowledge alongside AI/ML understanding.
+
+Technical skills and requirements
+- Deep Salesforce platform knowledge (Sales Cloud, Service Cloud, Data Cloud)
+- Understanding of Einstein AI features and configuration
+- Familiarity with Apex, Salesforce APIs, and platform customization
+- Knowledge of data modeling, ETL, and integration patterns
+- Ability to explain AI concepts to business users, not just technical teams
+
+Interview process
+Salesforce interviews for AI SE roles run three to five weeks. The process includes a recruiter screen, hiring manager call, a technical assessment on Salesforce platform capabilities, a customer scenario exercise where you present an Einstein AI solution, and a final round with leadership. Salesforce evaluates candidates on both technical depth and the ability to communicate with business stakeholders. The customer scenario exercise tests whether you can connect AI features to CRM outcomes that sales, service, and marketing leaders care about. Salesforce certifications (AI Associate, Data Cloud Consultant) strengthen your candidacy significantly.
+
+Salary and compensation
+OTE for Salesforce AI SEs ranges from $160,000 to $240,000, with base salaries between $120,000 and $160,000. Salesforce stock (CRM) provides liquid equity through RSU grants vesting over four years. Performance bonuses and equity refreshers are available for top performers. Total compensation for senior SEs can exceed $350,000 including stock appreciation. Benefits include comprehensive health coverage, generous parental leave, wellness reimbursements, and volunteer time off.
+
+Source URL: https://aisepulse.com/companies/salesforce/

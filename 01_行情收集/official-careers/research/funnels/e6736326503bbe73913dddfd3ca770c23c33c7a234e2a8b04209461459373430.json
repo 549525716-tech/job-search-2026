@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-09T18:47:06.738Z",
+  "scope": "人工审核的小范围漏斗样本：1份历史政策、2家候选厂商、3条已取得完整JD；不是本周政策全量扫描或公司排名。",
+  "reporting_window": {
+    "from": "2026-09-09",
+    "to": "2026-09-09",
+    "semantics": "manual_generation_UTC_day_not_policy_publication_window"
+  },
+  "policies": [
+    {
+      "id": "ai-plus-2025",
+      "document_id": "policy-ai-plus-cac",
+      "title": "国务院关于深入实施“人工智能+”行动的意见",
+      "authority": "国务院",
+      "document_kind": "国发〔2025〕11号；中央网信办官方转载原文，非草案或解读",
+      "issued_at": "2025-08-21",
+      "published_at": "2025-08-27",
+      "effective_at": null,
+      "excerpt": "培育人工智能应用服务商，发展“模型即服务”、“智能体即服务”等，打造人工智能应用服务链。",
+      "risk_notes": [
+        "发布日期是转载页日期；成文日期是文件落款。页面CMS生成日期不作为政策修订日期。",
+        "首次纳入研究基线，不是本周新发布政策；政策支持不证明公司已有订单或职位收入稳定。"
+      ],
+      "source_url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+      "evidence_status": "原文与回执已核验",
+      "evidence_verified": true,
+      "observation_kind": "baseline",
+      "evidence": [
+        {
+          "url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+          "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.response.json",
+          "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244",
+          "captured_at": "2026-09-09T18:36:51.084Z"
+        }
+      ]
+    }
+  ],
+  "industries": [
+    {
+      "id": "enterprise-ai-growth",
+      "name": "企业AI应用与B2B获客",
+      "policy_ids": [
+        "ai-plus-2025"
+      ],
+      "demand_hypothesis": "商业假设：企业可能为客户优先级识别、线索拓展、销售协同和获客效率付费；须通过客户预算、付费与续约进一步验证。",
+      "limitations": [
+        "这是研究判断，不是政策直接点名某家公司，也不是已验证客户采购需求。"
+      ]
+    },
+    {
+      "id": "model-platform-commercialization",
+      "name": "模型平台商业化与销售运营",
+      "policy_ids": [
+        "ai-plus-2025"
+      ],
+      "demand_hypothesis": "商业假设：模型服务商需要把企业需求转化为可持续使用、销售经营机制与交付协同，技术销售和销售运营分别承担不同环节。",
+      "limitations": [
+        "行业前景不能代替固定底薪、人员权限、收入结构和具体JD门槛的核验。"
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": "bailian-ai",
+      "name": "百炼智能",
+      "document_id": "bailian-home",
+      "industry_ids": [
+        "enterprise-ai-growth"
+      ],
+      "business_excerpt": "拜访路线智能规划与销售协同",
+      "tier": "候选厂商，头腰部层级未验证",
+      "tier_basis": "只核验官网业务与招聘归属，未取得可比市场份额、收入或独立排名证据。",
+      "notes": [
+        "客户地图、路线规划与B2B经营场景具有可迁移交集；不能据此声称用户有该公司产品销售经历。"
+      ],
+      "source_url": "https://www.bailian-ai.com/",
+      "evidence_status": "原文与回执已核验",
+      "evidence_verified": true,
+      "observation_kind": "baseline",
+      "evidence": [
+        {
+          "url": "https://www.bailian-ai.com/",
+          "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.response.json",
+          "sha256": "78724121882680e1168e27928b2db95f47ca208d091791f60a288383a46b66b9",
+          "captured_at": "2026-09-09T18:35:27.589Z"
+        }
+      ],
+      "careers_url": "https://www.bailian-ai.com/joinus",
+      "job_keys": [
+        "bailian-official-joinus:www.bailian-ai.com:79"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "document_id": "minimax-home",
+      "industry_ids": [
+        "model-platform-commercialization"
+      ],
+      "business_excerpt": "以及面向企业和开发者的开放平台",
+      "tier": "候选厂商，头腰部层级未验证",
+      "tier_basis": "官网自述证明产品与企业开发者平台方向；不将自称领先当作独立排名或薪酬稳定性证据。",
+      "notes": [
+        "本轮仅更新官网业务证据。岗位使用此前完整采集记录；招聘浏览器适配器仍隔离，未重新访问。"
+      ],
+      "source_url": "https://www.minimax.cn/",
+      "evidence_status": "原文与回执已核验",
+      "evidence_verified": true,
+      "observation_kind": "baseline",
+      "evidence": [
+        {
+          "url": "https://www.minimax.cn/",
+          "body_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.response.json",
+          "sha256": "d78392a5eb34695902f32646d745fb1faadb723f2807ea538efa2b2d0598af81",
+          "captured_at": "2026-09-09T18:37:41.168Z"
+        }
+      ],
+      "careers_url": "https://www.minimax.cn/careers",
+      "job_keys": [
+        "minimax-public-browser:vrfi1sk8a0:7612560574200023323",
+        "minimax-public-browser:vrfi1sk8a0:7208019802982598968"
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7612560574200023323",
+      "company_name": "MiniMax",
+      "title": "大模型销售运营",
+      "location_raw": "北京 / 上海",
+      "salary_raw": null,
+      "job_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7612560574200023323/detail",
+      "application_url": null,
+      "source_job_id": "7612560574200023323",
+      "description_text": "一、销售管理规则设计与落地\n1、承接公司战略导向，结合产品策略及风险控制要求，设计并优化销售管理规则，包括但不限于客户管理规则、业绩管理规则、销售激励规则等；\n2、协调和推动团队内销售相关管理规则的落地执行，涵盖商机管理、客户管理、签约模式、项目流程管理及项目回款等。\n二、数据体系建设与分析\n1、负责商业管理、客户管理、业绩管理等方向的数据体系建设与分析，具备构建销售指标底层逻辑及配套在线化系统的能力；\n2、针对核心数据和指标链路，能准确、快速定位问题并反馈，协同团队进行深度专题分析；\n3、确保决策前后数据可追踪，推动数据看板线上化。\n三、销售资源管理与优化\n1、根据内外部基础信息、客户分层及业务团队分工，梳理、制定和优化销售资源流转规则，并根据不同时期业务特点进行动态修订，提高销售资源渗透率及覆盖率；\n2、负责跨部门沟通协调，合理分配和判定资源冲突，促进各业务线资源合理配置，提升组织效能与产能。\n四、业务支持与风险管控\n1、联动财务、产品、研发等团队，基于数据分析结果进行业务支持；\n2、针对不同行业的客户/商机信息进行深度挖掘，跟踪一线运营现状，识别潜在风险点，推动业务系统优化；\n3、了解一线业务诉求，结合经营管理规则和系统流程，为新合作模式提供可行的解决方案，协助商机项目落地。\n\n1、本科及以上学历，3年以上销售管理、销售运营或相关岗位工作经验；\n2、具备扎实的数据分析能力和跨部门沟通协调能力，能有效推动多方协作和项目落地；\n3、有基本的财务分析能力，理解财务指标与销售业绩指标之间的关联逻辑；\n4、较强的学习能力和自驱力，能适应快节奏、多变的业务环境。",
+      "description_complete": true,
+      "published_at": null,
+      "published_at_raw": 1772437604969,
+      "published_at_semantics": "Source publish_time preserved verbatim; unit and original versus republication semantics unconfirmed; not first observation",
+      "first_seen_at": "2026-09-09T15:13:54.798Z",
+      "source_checked_at": "2026-09-09T15:13:54.798Z",
+      "source_latest_attempt_at": "2026-09-09T15:39:59.276Z",
+      "source_health": "blocked",
+      "hiring_active": "unknown",
+      "policy_ids": [
+        "ai-plus-2025"
+      ],
+      "industry_ids": [
+        "model-platform-commercialization"
+      ],
+      "evidence": [
+        {
+          "url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7612560574200023323/detail",
+          "body_path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-public-079.body",
+          "metadata_path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-public-079.response.json",
+          "sha256": "3d637689d9b663e1c82134505541312b2fa8720bc793de8ec3d12b8a16222aa3",
+          "captured_at": "2026-09-09T15:13:54.798Z"
+        },
+        {
+          "url": "https://www.minimax.cn/careers",
+          "body_path": "01_行情收集/official-careers/raw/preflight-minimax-approved-b60d22e6-233c-4a08-b247-8e750cf20e16/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/preflight-minimax-approved-b60d22e6-233c-4a08-b247-8e750cf20e16/002.response.json",
+          "sha256": "2420fe4a3fe7e63f9ec69550d526fd27bf7ac896d4f7a73f1b77acd12fc59712",
+          "captured_at": "2026-09-09T14:25:02.568Z"
+        }
+      ],
+      "traceable": true,
+      "salary_target": {
+        "eligible": false,
+        "pending": true,
+        "status": "insufficient_evidence",
+        "reason": "salary_is_not_parsed_or_not_disclosed"
+      },
+      "selected_application_authorized": false,
+      "recommendation_status": "exploratory_or_pending",
+      "career_fit": {
+        "path": "待个人事实评估",
+        "reason": "尚无当前偏好下有效评估。 来源受限或岗位状态异常，须重新确认在招状态。 固定月薪、人员管理权限和收入稳定性需要单独核实。",
+        "score": null,
+        "score_semantics": "证据覆盖判断，不是面试概率或管理适任概率",
+        "assessment_review_status": "not_assessed",
+        "direct_evidence": [],
+        "transferable_evidence": [],
+        "gaps": [],
+        "questions": [
+          "固定月薪是否至少人民币20,000元，不含提成、奖金和OTE？",
+          "岗位实际带队人数、招聘绩效权限与浮动收入比例是什么？"
+        ],
+        "hard_gates": [],
+        "resume_reuse_eligible": false
+      }
+    },
+    {
+      "job_key": "bailian-official-joinus:www.bailian-ai.com:79",
+      "company_name": "百炼智能",
+      "title": "项目经理",
+      "location_raw": "北京",
+      "salary_raw": null,
+      "job_url": "https://www.bailian-ai.com/joinus",
+      "application_url": "mailto:hr@bailian.ai",
+      "source_job_id": "79",
+      "description_text": "岗位职责\n1、负责项目需求分析和梳理，确定项目需求范围并主导成本评估，主导功能设计并进行原型设计；\n2、负责实施项目管理工作，包括对项目整体上的监督、管理和指导，包括项目启动、项目计划、项目验收及项目的总结评审及相关工作，并对项目全流程的质量、进度和成本进行把控；\n3、负责项目实施过程的文档编制及配合客户进行的汇报工作；\n4、参与项目的现场实施，维持与客户的良好关系，保证项目顺利验收交付；\n5、负责客户需求深挖，持续服务并引导客户新需求拓展，可支持销售促成新老客户项目机会。\n\n任职要求\n1、统招大专及以上学历，3年及以上TOB/TOG项目管理工作经验；\n2、具有良好的文档撰写能力；\n3、思路清晰、理解能力强，并有出色的沟通能力、业务推进和资源协调能力，有高度的责任心、快速学习能力和很好的抗压性，有很强的执行力；\n4、有数据中台、知识图谱、NLP相关项目经验加分；\n5、有PMP项目管理认证\n\n发送简历\nhr@bailian.ai",
+      "description_complete": true,
+      "published_at": "2023-08-23",
+      "published_at_raw": "2023-08-23 00:00:00",
+      "published_at_semantics": "Official card calendar date agrees with source publishTime; full original string retained; not first observation",
+      "first_seen_at": "2026-09-09T14:13:03.609Z",
+      "source_checked_at": "2026-09-09T18:43:04.840Z",
+      "source_latest_attempt_at": "2026-09-09T18:43:10.065Z",
+      "source_health": "success",
+      "hiring_active": "unknown",
+      "policy_ids": [
+        "ai-plus-2025"
+      ],
+      "industry_ids": [
+        "enterprise-ai-growth"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.bailian-ai.com/joinus",
+          "body_path": "01_行情收集/official-careers/raw/bailian-ai-6abf6279-4c75-458d-bfd5-5c9f4eeb8313/003.body",
+          "metadata_path": "01_行情收集/official-careers/raw/bailian-ai-6abf6279-4c75-458d-bfd5-5c9f4eeb8313/003.response.json",
+          "sha256": "f82ac7357a749750948744a7ee29649f41c87435be01edd89aea1b7a1449b804",
+          "captured_at": "2026-09-09T18:43:04.840Z"
+        },
+        {
+          "url": "https://www.bailian-ai.com/about",
+          "body_path": "01_行情收集/official-careers/raw/bailian-ai-6abf6279-4c75-458d-bfd5-5c9f4eeb8313/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/bailian-ai-6abf6279-4c75-458d-bfd5-5c9f4eeb8313/002.response.json",
+          "sha256": "a8ae7e3fe48e027cf836bf59ee6263d89e34575d5dcdd7fdd4840759276594a7",
+          "captured_at": "2026-09-09T18:42:46.345Z"
+        }
+      ],
+      "traceable": true,
+      "salary_target": {
+        "eligible": false,
+        "pending": true,
+        "status": "insufficient_evidence",
+        "reason": "salary_is_not_parsed_or_not_disclosed"
+      },
+      "selected_application_authorized": false,
+      "recommendation_status": "exploratory_or_pending",
+      "career_fit": {
+        "path": "待个人事实评估",
+        "reason": "尚无当前偏好下有效评估。 固定月薪、人员管理权限和收入稳定性需要单独核实。",
+        "score": null,
+        "score_semantics": "证据覆盖判断，不是面试概率或管理适任概率",
+        "assessment_review_status": "not_assessed",
+        "direct_evidence": [],
+        "transferable_evidence": [],
+        "gaps": [],
+        "questions": [
+          "固定月薪是否至少人民币20,000元，不含提成、奖金和OTE？",
+          "岗位实际带队人数、招聘绩效权限与浮动收入比例是什么？"
+        ],
+        "hard_gates": [],
+        "resume_reuse_eligible": false
+      }
+    },
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7208019802982598968",
+      "company_name": "MiniMax",
+      "title": "大模型技术销售工程师",
+      "location_raw": "深圳 / 北京 / 上海 / 广州 / 中国香港",
+      "salary_raw": null,
+      "job_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7208019802982598968/detail",
+      "application_url": null,
+      "source_job_id": "7208019802982598968",
+      "description_text": "1、负责泛互联网、智能硬件、文娱游戏、广告媒体等行业的头部 KA 开拓与深耕，建立并维护产品、技术、业务、高管等多层次客户关系；\n2、系统掌握客户业务现状、战略规划、技术架构及 AI 应用成熟度，绘制完整的决策地图；\n3、具备技术方案能力，独立制作并演示技术 Demo，将模型能力直观呈现给客户，推动 POC 快速推进；\n4、持续跟踪客户上线效果，推动 AI 应用在客户内部规模化复制，挖掘增量商机。\n\n1、本科及以上学历，3 年以上云厂商或MaaS 平台ToB 销售经验；\n2、技术理解力：具备一定的 AI 技术认知，能将模型能力有效转化为业务价值主张，在与客户研发、产品团队的沟通中清晰传递公司技术方案和模型的差异化优势；\n3、场景洞察力：能快速识别客户最具 ROI 价值的 AI 落地场景，制定清晰可执行的切入路径；\n4、项目推进力：具备强跨团队协调能力，能高效整合研发、产品、交付等内部资源，推动复杂项目按时落地。",
+      "description_complete": true,
+      "published_at": null,
+      "published_at_raw": 1678247935304,
+      "published_at_semantics": "Source publish_time preserved verbatim; unit and original versus republication semantics unconfirmed; not first observation",
+      "first_seen_at": "2026-09-09T15:13:54.798Z",
+      "source_checked_at": "2026-09-09T15:13:54.798Z",
+      "source_latest_attempt_at": "2026-09-09T15:39:59.276Z",
+      "source_health": "blocked",
+      "hiring_active": "unknown",
+      "policy_ids": [
+        "ai-plus-2025"
+      ],
+      "industry_ids": [
+        "model-platform-commercialization"
+      ],
+      "evidence": [
+        {
+          "url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7208019802982598968/detail",
+          "body_path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-public-079.body",
+          "metadata_path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-public-079.response.json",
+          "sha256": "3d637689d9b663e1c82134505541312b2fa8720bc793de8ec3d12b8a16222aa3",
+          "captured_at": "2026-09-09T15:13:54.798Z"
+        },
+        {
+          "url": "https://www.minimax.cn/careers",
+          "body_path": "01_行情收集/official-careers/raw/preflight-minimax-approved-b60d22e6-233c-4a08-b247-8e750cf20e16/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/preflight-minimax-approved-b60d22e6-233c-4a08-b247-8e750cf20e16/002.response.json",
+          "sha256": "2420fe4a3fe7e63f9ec69550d526fd27bf7ac896d4f7a73f1b77acd12fc59712",
+          "captured_at": "2026-09-09T14:25:02.568Z"
+        }
+      ],
+      "traceable": true,
+      "salary_target": {
+        "eligible": false,
+        "pending": true,
+        "status": "insufficient_evidence",
+        "reason": "salary_is_not_parsed_or_not_disclosed"
+      },
+      "selected_application_authorized": false,
+      "recommendation_status": "exploratory_or_pending",
+      "career_fit": {
+        "path": "待个人事实评估",
+        "reason": "尚无当前偏好下有效评估。 来源受限或岗位状态异常，须重新确认在招状态。 固定月薪、人员管理权限和收入稳定性需要单独核实。",
+        "score": null,
+        "score_semantics": "证据覆盖判断，不是面试概率或管理适任概率",
+        "assessment_review_status": "not_assessed",
+        "direct_evidence": [],
+        "transferable_evidence": [],
+        "gaps": [],
+        "questions": [
+          "固定月薪是否至少人民币20,000元，不含提成、奖金和OTE？",
+          "岗位实际带队人数、招聘绩效权限与浮动收入比例是什么？"
+        ],
+        "hard_gates": [],
+        "resume_reuse_eligible": false
+      }
+    }
+  ],
+  "issues": [
+    {
+      "id": "https://www.nda.gov.cn",
+      "status": "source_halted",
+      "reason": "ROBOTS_UNKNOWN: Robots HTTP 404; fail closed；已停止该源，无自动重试。"
+    },
+    {
+      "id": "https://www.ndrc.gov.cn",
+      "status": "source_halted",
+      "reason": "HTTP_ACCESS_STOP: HTTP 403; no retries；已停止该源，无自动重试。"
+    }
+  ],
+  "summary": {
+    "policies_verified": 1,
+    "industries": 2,
+    "companies": 2,
+    "traceable_jobs": 3,
+    "salary_eligible": 0,
+    "assessment_pending": 3
+  },
+  "boundaries": [
+    "这是可追溯样本，不是全量公司发现、排名或本周新增政策清单。",
+    "需求假设与个人路径判断不是官网原文；JD原文单独保留。",
+    "本页全部岗位均未获得投递授权；没有发送简历、消息或注册账号。",
+    "未启用每日采集或政策周报定时任务。"
+  ],
+  "input_digest": "e6736326503bbe73913dddfd3ca770c23c33c7a234e2a8b04209461459373430"
+}

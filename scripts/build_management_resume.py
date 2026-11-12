@@ -1,0 +1,160 @@
+"""Update the retained resume's management narrative without rebuilding its package."""
+
+from copy import deepcopy
+from hashlib import sha256
+from pathlib import Path
+from zipfile import ZipFile
+
+from lxml import etree
+
+
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE = ROOT / "03_简历/贺文杰_商业化运营.docx"
+OUTPUT = ROOT / "03_简历/贺文杰_销售与商业化管理.docx"
+SOURCE_SHA = "c577fd3554e1ea182762e1fc9ae7bc2e0dfd2d6e23fbf91b0da9a29f7f4f3407"
+NS = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
+
+
+REPLACEMENTS = {
+    2: "4年汽车行业销售管理与互联网平台商业化经营经验，曾任店长、销售主管，能够将经营目标转化为团队分工、过程管理和可复制方法。",
+    3: ("团队管理：", "同期直接管理10人，覆盖主管、业务主管及一线销售；负责招聘、绩效评价与激励分配决策，参与晋升推荐。"),
+    4: ("管理成果：", "乐道团队季度目标完成率超200%，累计带教21人、培养10人晋升；当前个人经营210家商户，并承担大区跨区域目标拆解、分工与督办。"),
+    5: ("经营提效：", "设计团队全员使用的AI客户地图，将经营数据转化为商户优先级、拜访路线和行动建议；个人测得拜访效率提升150%，每天减少约2小时规划与复盘时间。"),
+    7: ("目标与结果管理：", "目标拆解、过程指标、经营复盘、偏差诊断与执行跟踪"),
+    8: ("人员管理与培养：", "招聘、绩效评价、激励分配、分层带教与晋升推荐参与"),
+    9: ("客户经营与策略：", "汽车行业洞察、客户分层、商业消耗、线索成交漏斗与经营方案"),
+    10: ("跨区域经营协同：", "跨区域任务分工、后续督办、客户政策与资源配置建议"),
+    11: ("AI经营方法复用：", "客户地图、车型分析、诊断建议及团队可共享工作流"),
+    14: "个人客户经营｜大区跨区域协同｜AI经营提效｜广州",
+    16: "年度综合业务目标达成130%，岗位职级全国前30%。",
+    17: "个人客户规模增长16.7%（180→210家）；所负责区域商业消耗环比稳定增长2%–2.5%，年增长约30%。",
+    18: "区域头部二手车商户线索量增长约122%（270→约600条/月），成交量增长150%，连续稳定经营6个月。",
+    21: "主导大区跨区域目标拆解与周/月经营复盘，组织其他区域同事开展任务分工，负责后续督办和执行跟踪。",
+    22: "建立个人客户分层与经营档案，以消耗、线索、成交和商机阶段提出经营方案；参与推广包、客户政策、资源配置和运营策略调整。",
+    24: "设计AI客户地图并在团队内全员应用；个人测得拜访效率提升150%，每天减少约2小时规划与复盘时间。",
+    25: "将分散报表整合为商户优先级、到店动作与路线，减少客户筛选和拜访规划中的人工判断，为同事提供可复用的经营依据。",
+    27: "沉淀客户分层、经营档案、业务决策链、方案建议与复盘流程，将行业客户经营方法转化为可共享工作流。",
+    28: "构建车型数据诊断方法，将CTR/CVR漏斗问题转化为曝光、首图、价格、详情承接及库存调整建议，支持商户经营方案落地。",
+    33: "10人团队直接管理｜门店经营｜下沉市场开拓｜人才培养",
+    36: "累计带教21人，培养10人晋升。",
+    37: "自媒体订单占比0%→10%；企业员工订单占比6%→10%，置换订单占比8%→14%。",
+    39: "直接管理10人，涵盖主管、业务主管及一线销售；负责招聘、绩效评价与激励分配决策，参与晋升推荐。",
+    40: "主导广东湛江、安徽芜湖下沉市场开拓，拆解经营目标，组织异业、自媒体、入企品宣和置换等增量项目。",
+    42: "建立周/月经营看板及复盘机制，管理目标、渠道、线索、成交与人效，识别落后环节并组织改进。",
+    43: "统筹门店人员、场地与车辆资源，协调项目推进和日常运营，为团队目标达成提供执行保障。",
+    45: "沉淀渠道开发、销售动作与项目复盘方法，将下沉市场开拓经验转化为可复用打法。",
+    46: "建立业务带教与项目带教机制，辅导员工识别销售机会、承担增量项目，并参与晋升推荐。",
+    49: "10人团队直接管理｜员工绩效改善｜销售过程管理｜服务商协同",
+    51: "被辅导员工排名由华南后10%提升至前30%；任期内培养5名员工顺利转正。",
+    52: "置换线索转化率提升5个百分点（5%→10%），置换订单占比提升6个百分点（8%→14%）。",
+    53: "个人在华南约600名销售中连续两个季度保持销冠（前1%），核心销售期9个月交付超过600台。",
+    55: "直接管理10人，负责招聘、绩效评价和激励分配决策，参与晋升推荐；将销售目标拆解为员工过程指标。",
+    56: "实施差异化绩效辅导，帮助落后员工改善销售动作，培养业务骨干承担置换、金融等专项职能。",
+    58: "建立日/周/月转化复盘机制，跟踪留资、电联、试驾和成交，结合客户分层与重点商机跟进优化转化。",
+    59: "建立置换服务商合作流程与KPI考核，联合销售和服务商复盘线索承接问题，推进改进措施。",
+    61: "沉淀置换开口话术、员工辅导和服务商联合复盘方法，将个人销售经验转化为团队可执行标准。",
+    62: "积累客户池经营与内容获客经验，维护约5000名微信客户、4个500人意向群，并开展直播获客与转化复盘。",
+}
+
+
+def tag(local):
+    return f"{{{NS['w']}}}{local}"
+
+
+def text_of(node):
+    return "".join(node.itertext()) if node.tag == tag("t") else "".join(node.xpath(".//w:t/text()", namespaces=NS))
+
+
+def replace_text(paragraph, value):
+    runs = paragraph.findall("w:r", NS)
+    if not runs:
+        raise ValueError("Expected an existing text run")
+    values = value if isinstance(value, tuple) else (value,)
+    templates = [deepcopy(run) for run in runs]
+    for run in runs:
+        paragraph.remove(run)
+    for index, text in enumerate(values):
+        run = deepcopy(templates[min(index, len(templates) - 1)])
+        for child in list(run):
+            if child.tag != tag("rPr"):
+                run.remove(child)
+        node = etree.SubElement(run, tag("t"))
+        node.text = text
+        paragraph.append(run)
+
+
+def child(parent, name):
+    node = parent.find(f"w:{name}", NS)
+    if node is None:
+        node = etree.SubElement(parent, tag(name))
+    return node
+
+
+def build():
+    if sha256(SOURCE.read_bytes()).hexdigest() != SOURCE_SHA:
+        raise ValueError("Source changed: inspect the latest resume before applying index-based edits")
+    with ZipFile(SOURCE) as original:
+        document = etree.fromstring(original.read("word/document.xml"))
+        body = document.find("w:body", NS)
+        paragraphs = body.findall("w:p", NS)
+        assert len(paragraphs) == 67
+        assert text_of(paragraphs[13]).startswith("懂车帝｜储备区域经理")
+        assert text_of(paragraphs[32]).startswith("乐道汽车｜店长")
+        assert text_of(paragraphs[48]).startswith("特斯拉｜销售主管")
+        for index, value in REPLACEMENTS.items():
+            replace_text(paragraphs[index], value)
+        header = body.find("w:tbl/w:tr/w:tc", NS).findall("w:p", NS)
+        replace_text(header[1], "求职方向：销售团队管理 / 区域商业化运营管理")
+
+        # Explicit leading prevents CJK font metrics from doubling automatic line heights.
+        for paragraph in paragraphs:
+            properties = child(paragraph, "pPr")
+            child(properties, "snapToGrid").set(tag("val"), "0")
+            spacing = child(properties, "spacing")
+            spacing.set(tag("lineRule"), "exact")
+            style = properties.find("w:pStyle", NS)
+            is_heading = style is not None and style.get(tag("val")) in ("Heading1", "Heading2")
+            spacing.set(tag("line"), "340" if is_heading else "280")
+            if not text_of(paragraph) and paragraph.find(".//w:br", NS) is None:
+                spacing.set(tag("line"), "60")
+            if text_of(paragraph):
+                child(properties, "keepLines")
+            numbering = properties.find("w:numPr/w:numId", NS)
+            if numbering is not None and numbering.get(tag("val")) != "77":
+                indent = child(properties, "ind")
+                indent.set(tag("left"), "520")
+                indent.set(tag("hanging"), "390")
+                tabs = child(properties, "tabs")
+                for existing in list(tabs):
+                    tabs.remove(existing)
+                stop = etree.SubElement(tabs, tag("tab"))
+                stop.set(tag("val"), "num")
+                stop.set(tag("pos"), "520")
+
+        for grid in document.findall(".//w:docGrid", NS):
+            grid.set(tag("type"), "default")
+        xml = etree.tostring(document, encoding="UTF-8", xml_declaration=True, standalone=True)
+        with ZipFile(OUTPUT, "w") as output:
+            for info in original.infolist():
+                output.writestr(info, xml if info.filename == "word/document.xml" else original.read(info.filename))
+
+    with ZipFile(SOURCE) as original, ZipFile(OUTPUT) as output:
+        assert original.namelist() == output.namelist()
+        changed = [name for name in original.namelist() if original.read(name) != output.read(name)]
+        assert changed == ["word/document.xml"], changed
+        assert not document.findall(".//w:footerReference", NS)
+        assert not document.findall(".//w:instrText", NS)
+        assert document.findall(".//w:drawing", NS)
+        full_text = "".join(document.xpath(".//w:t/text()", namespaces=NS))
+        for label in ("业绩结果", "关键动作", "经营提效", "方法沉淀"):
+            assert sum(text_of(p) == label for p in paragraphs) == 3, label
+        assert "团队排名由" not in full_text
+        assert "被辅导员工排名" in full_text
+        assert "个人测得拜访效率提升150%" in full_text
+        assert "4→10台/月" not in full_text
+    print(OUTPUT)
+    print("Verified: source retained, photo/styles/numbering preserved, no footer, scoped metrics")
+
+
+if __name__ == "__main__":
+    build()

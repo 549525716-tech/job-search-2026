@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-18T12:56:05.726Z",
+  "node": "v24.19.0",
+  "command": [
+    "/Users/MR/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "--test",
+    "careers/tests/application-pipeline.test.mjs",
+    "careers/tests/config.test.mjs",
+    "careers/tests/opportunity-identity.test.mjs",
+    "careers/tests/role-policy.test.mjs",
+    "careers/tests/capability-scoring.test.mjs",
+    "careers/tests/matching.test.mjs",
+    "careers/tests/persistence.test.mjs",
+    "careers/tests/industry-sources-policy.test.mjs",
+    "careers/tests/discovery-policy.test.mjs",
+    "careers/tests/open-source-policy.test.mjs",
+    "careers/tests/salary-target.test.mjs",
+    "careers/tests/sweep-cli.test.mjs",
+    "careers/tests/report-preview.test.mjs"
+  ],
+  "source_sha256": {
+    "careers/application-identity.mjs": "7db3bb05afe7c343eea1c45faf4e2266d1aa7aec9b78c4660910929cae45ea9d",
+    "careers/application-ledger.mjs": "2c572e0397c49058f4649de2ae63c63182e9908d414f71e3f08feb327785c3e3",
+    "careers/application-planner.mjs": "8df1923f48d762d559e54e999abbbde112cf63de49134df8f33f5ce681be8482",
+    "careers/resume-task.mjs": "36ba284a8e02dc0e88f8513deef24f06a5f58353013997a67315ef6fc2fe4784",
+    "careers/config/application-policy.json": "769c0fa8732cd7b78f7c24d5d3334030c28c16120801736dc6e8eeda5b399c26",
+    "careers/config/resume-quality-policy.json": "03a450b3aa855c1a68f24096da225defcae6ac3ff143a5e5976825bdbb445dbb",
+    "careers/tests/application-pipeline.test.mjs": "9b6c58075c130d1d71d506057459af2194f81f56affedc9282810b3da15b3270"
+  },
+  "exit_code": 0,
+  "test_log": "careers/docs/qa/autonomous-headhunter-2026-10-18/tests.txt",
+  "tests": 93,
+  "passed": 93,
+  "failed": 0,
+  "offline_plan": "01_行情收集/official-careers/applications/plan-2026-10-18.json",
+  "plan_input": {
+    "path": "/Users/MR/Documents/职场/01_行情收集/official-careers/research/market-wide-2026-10-08/jobs.json",
+    "sha256": "9279511e98d451a22ca5167b2a1441925dbdbecf2fd4cbb17755aba8e1df8bd2",
+    "profile_path": null,
+    "profile_sha256": "0eed86722305a32c1165366a5e6b032dced2b2d0319d9a8d3e8d4ac60362025f",
+    "upstream_profile_sha256": "99d2425a07da183c04393c570ccef69081c90f3229acb1dc1cff674d0c0c2542"
+  },
+  "observations": 255,
+  "complete_jd": 91,
+  "queue_counts": {
+    "identity_pending": 255
+  },
+  "output_mode": "600",
+  "ledger_status": "not_loaded",
+  "new_market_scan": false,
+  "live_submission": false,
+  "cloud_deployed": false
+}

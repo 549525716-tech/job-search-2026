@@ -1,0 +1,69 @@
+{
+  "runId": "2026-06-29T17-28-55-301Z",
+  "createdAt": "2026-06-29T17:28:56.669Z",
+  "cdpUrl": "http://127.0.0.1:9333",
+  "args": {
+    "source": "BOSS直聘",
+    "city": "广州",
+    "maxSearches": 1,
+    "maxJobs": 30,
+    "cardsPerSearch": 1,
+    "detailLimit": 0,
+    "delayMs": 0,
+    "dryRun": false,
+    "roles": [
+      "AI销售"
+    ],
+    "companies": [
+      "智谱AI"
+    ],
+    "keywords": [],
+    "industries": []
+  },
+  "searchPlan": [
+    {
+      "query": "智谱AI AI销售",
+      "queryKind": "company",
+      "company": "智谱AI",
+      "role": "AI销售",
+      "roleFamily": "销售/商务",
+      "source": "BOSS直聘",
+      "city": "广州",
+      "url": "https://www.zhipin.com/web/geek/jobs?query=%E6%99%BA%E8%B0%B1AI%20AI%E9%94%80%E5%94%AE&city=101280100"
+    }
+  ],
+  "savedCount": 0,
+  "pageStats": [
+    {
+      "query": "智谱AI AI销售",
+      "url": "https://www.zhipin.com/web/passport/zp/verify.html?callbackUrl=https%3A%2F%2Fwww.zhipin.com%2Fweb%2Fgeek%2Fjobs%3Fquery%3D%25E6%2599%25BA%25E8%25B0%25B1AI%2520AI%25E9%2594%2580%25E5%2594%25AE%26city%3D101280100&appName=zhipin_geek_spa_web&code=36",
+      "title": "安全验证 - BOSS直聘",
+      "rawCards": 0,
+      "cards": 0,
+      "fallbackTextLength": 97,
+      "needsLogin": false,
+      "needsVerification": true
+    }
+  ],
+  "blocked": [
+    {
+      "planItem": {
+        "query": "智谱AI AI销售",
+        "queryKind": "company",
+        "company": "智谱AI",
+        "role": "AI销售",
+        "roleFamily": "销售/商务",
+        "source": "BOSS直聘",
+        "city": "广州",
+        "url": "https://www.zhipin.com/web/geek/jobs?query=%E6%99%BA%E8%B0%B1AI%20AI%E9%94%80%E5%94%AE&city=101280100"
+      },
+      "pageStatus": {
+        "title": "安全验证 - BOSS直聘",
+        "url": "https://www.zhipin.com/web/passport/zp/verify.html?callbackUrl=https%3A%2F%2Fwww.zhipin.com%2Fweb%2Fgeek%2Fjobs%3Fquery%3D%25E6%2599%25BA%25E8%25B0%25B1AI%2520AI%25E9%2594%2580%25E5%2594%25AE%26city%3D101280100&appName=zhipin_geek_spa_web&code=36",
+        "needsLogin": false,
+        "needsVerification": true
+      }
+    }
+  ],
+  "savedIds": []
+}

@@ -1,0 +1,477 @@
+[
+  {
+    "company": "火山引擎",
+    "attempted": true,
+    "status": "search_index_only",
+    "queries": [
+      "site:jobs.bytedance.com 火山引擎 销售 商务 渠道 客户成功 岗位"
+    ],
+    "urls": [],
+    "job_count": 0,
+    "reason": "仅搜索线索；时间戳占位，不计完整JD。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/001-search-volcengine.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "Salesforce",
+    "attempted": true,
+    "status": "public_index_body_unavailable",
+    "queries": [
+      "site:careers.salesforce.com/en/jobs China Account Executive sales"
+    ],
+    "urls": [
+      "https://careers.salesforce.com/en/jobs/jr317761/named-account-executive/"
+    ],
+    "job_count": 1,
+    "reason": "两次官方打开重定向且正文不可读，停止追踪。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/002-search-salesforce.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/003-open-salesforce.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/004-open-salesforce-ref.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 1,
+    "full_jd_count": 0,
+    "index_count": 1
+  },
+  {
+    "company": "探迹科技",
+    "attempted": true,
+    "status": "captured_filtered",
+    "queries": [
+      "探迹科技 官方 招聘 销售 商务 客户成功 社招"
+    ],
+    "urls": [
+      "https://tungeegroup-dev.tangees.com/join-us/",
+      "https://m.tungee.com/about/join-us/"
+    ],
+    "job_count": 7,
+    "reason": "读取8个职位块，候选过滤后保留7条；电销专员应届岗排除。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/005-search-tungee.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/006-open-tungee-join-us.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/007-open-tungee-mobile.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 7,
+    "full_jd_count": 7,
+    "index_count": 0
+  },
+  {
+    "company": "神策数据",
+    "attempted": true,
+    "status": "public_index_body_unavailable",
+    "queries": [
+      "神策数据 加入我们 招聘 销售"
+    ],
+    "urls": [],
+    "job_count": 0,
+    "reason": "搜索有岗位线索；官方页超时，搜索摘要不计完整JD。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/008-search-shence.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/009-open-shence.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "GrowingIO",
+    "attempted": true,
+    "status": "public_page_read_no_jd",
+    "queries": [
+      "GrowingIO 加入我们 招聘 销售 客户成功 官网"
+    ],
+    "urls": [
+      "https://www.growingio.com/presentation"
+    ],
+    "job_count": 0,
+    "reason": "官方页可读但未发现可读取销售JD。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/010-search-growingio.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/011-open-growingio.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "纷享销客",
+    "attempted": true,
+    "status": "captured_filtered",
+    "queries": [
+      "纷享销客 招聘 加入我们 销售 官网"
+    ],
+    "urls": [
+      "https://www.fxiaoke.com/crm/about-join/"
+    ],
+    "job_count": 6,
+    "reason": "读取多个商业岗位，候选过滤后保留6条。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/012-search-fxiaoke.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/013-open-fxiaoke.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 6,
+    "full_jd_count": 6,
+    "index_count": 0
+  },
+  {
+    "company": "商汤",
+    "attempted": true,
+    "status": "public_index_body_unavailable",
+    "queries": [
+      "商汤 招聘 社会招聘 销售 官网"
+    ],
+    "urls": [
+      "https://hr.sensetime.com/"
+    ],
+    "job_count": 0,
+    "reason": "招聘入口可读，岗位正文未展开。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/014-search-sensetime.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/015-open-sensetime.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "华为云",
+    "attempted": true,
+    "status": "excluded_historical_or_campus",
+    "queries": [
+      "华为云 招聘 销售 客户经理 解决方案 官网"
+    ],
+    "urls": [
+      "https://www.huaweicloud.com/intl/zh-cn/careers/20181224100340901.html"
+    ],
+    "job_count": 0,
+    "reason": "官网读到2018年发布的历史岗位，不能作为当前招聘机会；原文保留，不纳入本轮正式岗位。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/016-search-huaweicloud.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/017-open-huaweicloud.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "科大讯飞",
+    "attempted": true,
+    "status": "excluded_historical_or_campus",
+    "queries": [
+      "科大讯飞 招聘 销售 商务 售前 官网 社会招聘"
+    ],
+    "urls": [
+      "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=4DD3EABC4933FD0BE0653A68DD0E9B18"
+    ],
+    "job_count": 0,
+    "reason": "高校承载的营销类校招信息，页面含2026-06-30和campus邮箱；非已核实社招，不纳入正式岗位。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/018-search-iflytek.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/019-open-iflytek.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "联友",
+    "attempted": true,
+    "status": "public_index_body_unavailable",
+    "queries": [
+      "联友科技 加入我们 招聘 销售 商务 官网"
+    ],
+    "urls": [],
+    "job_count": 0,
+    "reason": "官方详情页超时，未计完整JD。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/020-search-lianyou.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/021-open-lianyou.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "Microsoft",
+    "attempted": true,
+    "status": "raw_read_extraction_pending",
+    "queries": [
+      "site:careers.microsoft.com China sales account executive commercial Microsoft 招聘"
+    ],
+    "urls": [
+      "https://careers.microsoft.com/professionals/us/en/l-shenzhen"
+    ],
+    "job_count": 0,
+    "reason": "已读深圳聚合招聘页，商业与技术岗位混合；独立链接及逐岗证据尚未完成提取，本轮仅保留原文。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/022-search-microsoft.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/023-open-microsoft.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "Amazon Web Services",
+    "attempted": true,
+    "status": "jd_read",
+    "queries": [
+      "site:amazon.jobs China sales account manager AWS commercial jobs"
+    ],
+    "urls": [
+      "https://www.amazon.jobs/jobs/10464449"
+    ],
+    "job_count": 1,
+    "reason": "官方页读取1条BD详情，薪资未知。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/024-search-aws.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/025-open-aws.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 1,
+    "full_jd_count": 1,
+    "index_count": 0
+  },
+  {
+    "company": "360",
+    "attempted": true,
+    "status": "public_index_body_unavailable",
+    "queries": [
+      "360公司 招聘 销售 商务 BD AI 官网 社会招聘"
+    ],
+    "urls": [
+      "https://hr.360.cn/hr/list"
+    ],
+    "job_count": 0,
+    "reason": "官方打开仅返回JavaScript壳，未计完整JD。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/026-search-360.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/027-open-360.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "销售易",
+    "attempted": true,
+    "status": "captured_filtered",
+    "queries": [
+      "销售易 加入我们 招聘 销售 客户成功 官网"
+    ],
+    "urls": [
+      "https://www.xiaoshouyi.com/about-us/career"
+    ],
+    "job_count": 3,
+    "reason": "提取CBG社会招聘块3条；同页校招不混入，单个岗位无发布日期和独立详情链接，仍在招待核。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/028-search-salesyi.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/029-open-salesyi.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 3,
+    "full_jd_count": 3,
+    "index_count": 0
+  },
+  {
+    "company": "腾讯云",
+    "attempted": true,
+    "status": "public_index_body_unavailable",
+    "queries": [
+      "site:careers.tencent.com 销售 运营 腾讯云 -实习"
+    ],
+    "urls": [],
+    "job_count": 0,
+    "reason": "仅完成搜索索引检索，未取得可确认的销售完整JD；不能据此判定官网没有岗位。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-001-tencent.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "百度智能云",
+    "attempted": true,
+    "status": "partial_login_required",
+    "queries": [
+      "site:talent.baidu.com \"销售\" \"智能云\""
+    ],
+    "urls": [
+      "https://talent.baidu.com/jobs/detail/SOCIAL/031a8cb6-36b7-42c9-8f9e-bbafd8b71194",
+      "https://talent.baidu.com/jobs/detail/SOCIAL/91fc2cef-4b6d-4127-b9cb-2e1266b9670f",
+      "https://talent.baidu.com/jobs/detail/SOCIAL/108d7efe-441e-48b0-b5e4-a2434a806d3f"
+    ],
+    "job_count": 7,
+    "reason": "主控保留2条详情；后续触发L0登录，停止百度源。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-002-baidu.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-open-baidu-j100045.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-open-baidu-j101343.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-open-baidu-j98717.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 7,
+    "full_jd_count": 2,
+    "index_count": 5
+  },
+  {
+    "company": "阿里云",
+    "attempted": true,
+    "status": "controller_search_only",
+    "queries": [
+      "site:careers.aliyun.com 销售 社会招聘"
+    ],
+    "urls": [],
+    "job_count": 0,
+    "reason": "搜索返回开发、财经或校园相关结果，未核实可纳入本轮的社招销售JD。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-003-aliyun.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "美团",
+    "attempted": true,
+    "status": "controller_search_only",
+    "queries": [
+      "site:zhaopin.meituan.com \"大模型\" \"销售\""
+    ],
+    "urls": [],
+    "job_count": 0,
+    "reason": "本次搜索以校园招聘结果为主，未核实可纳入本轮的社招商业岗位。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-004-meituan.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "金蝶",
+    "attempted": true,
+    "status": "controller_search_only",
+    "queries": [
+      "site:kingdee.com \"招聘\" \"销售经理\""
+    ],
+    "urls": [],
+    "job_count": 0,
+    "reason": "搜索含营销文章与海外招聘入口，未核实国内销售完整JD。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-005-kingdee.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "用友",
+    "attempted": true,
+    "status": "controller_search_only",
+    "queries": [
+      "site:yonyou.com \"加入我们\" \"销售\""
+    ],
+    "urls": [],
+    "job_count": 0,
+    "reason": "本次结果包含伙伴招募，不能当作员工招聘；未取得可纳入的完整JD。",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-006-yonyou.json"
+    ],
+    "entity_kind": "company",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "BOSS直聘",
+    "attempted": false,
+    "status": "known_restricted_source_not_retried",
+    "queries": [],
+    "urls": [],
+    "job_count": 0,
+    "reason": "已知受限源，本轮未访问。",
+    "evidence_files": [],
+    "entity_kind": "paused_source_group",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "Liepin",
+    "attempted": false,
+    "status": "known_restricted_source_not_retried",
+    "queries": [],
+    "urls": [],
+    "job_count": 0,
+    "reason": "已知受限源，本轮未访问。",
+    "evidence_files": [],
+    "entity_kind": "paused_source_group",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "MiniMax ATS",
+    "attempted": false,
+    "status": "known_restricted_source_not_retried",
+    "queries": [],
+    "urls": [],
+    "job_count": 0,
+    "reason": "已知受限源，本轮未访问。",
+    "evidence_files": [],
+    "entity_kind": "paused_source_group",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "月之暗面/智谱 Moka",
+    "attempted": false,
+    "status": "known_restricted_source_not_retried",
+    "queries": [],
+    "urls": [],
+    "job_count": 0,
+    "reason": "已知受限源，本轮未访问。",
+    "evidence_files": [],
+    "entity_kind": "paused_source_group",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  },
+  {
+    "company": "第四范式",
+    "attempted": false,
+    "status": "known_restricted_source_not_retried",
+    "queries": [],
+    "urls": [],
+    "job_count": 0,
+    "reason": "已知受限源，本轮未访问。",
+    "evidence_files": [],
+    "entity_kind": "paused_source_group",
+    "formal_job_count": 0,
+    "full_jd_count": 0,
+    "index_count": 0
+  }
+]

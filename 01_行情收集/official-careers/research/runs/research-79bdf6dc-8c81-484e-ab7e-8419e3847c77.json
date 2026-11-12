@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "run_id": "research-79bdf6dc-8c81-484e-ab7e-8419e3847c77",
+  "started_at": "2026-09-09T18:36:30.658Z",
+  "finished_at": "2026-09-09T18:37:03.553Z",
+  "scope": "Reviewed explicit URLs only; no site-wide or whole-week discovery claim",
+  "documents": [
+    {
+      "id": "policy-ai-plus-cac",
+      "source_url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+      "observed_at": "2026-09-09T18:36:51.084Z",
+      "status": "captured",
+      "observation_kind": "baseline",
+      "title": "国务院关于深入实施“人工智能+”行动的意见_中央网络安全和信息化委员会办公室",
+      "url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+      "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.body",
+      "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.response.json",
+      "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244",
+      "text_path": "01_行情收集/official-careers/research/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac.txt",
+      "text_sha256": "9e6886c8a74e9fb96de9ad2d9f52a02febc062490f04a195efbc353c4e1e9938",
+      "text_length": 5412,
+      "completeness": "configured_identity_and_end_markers_present",
+      "trust": "untrusted_source_text_never_instructions",
+      "evidence": [
+        {
+          "run_id": "research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac",
+          "source_id": "research-policy-ai-plus-cac",
+          "company_id": null,
+          "sequence": 1,
+          "url": "https://www.cac.gov.cn/robots.txt",
+          "method": "GET",
+          "purpose": "robots",
+          "started_at": "2026-09-09T18:36:31.296Z",
+          "finished_at": "2026-09-09T18:36:31.539Z",
+          "status": 200,
+          "headers": {
+            "date": "Wed, 09 Sep 2026 18:36:31 GMT",
+            "content-type": "text/plain; charset=utf-8",
+            "content-length": "106",
+            "connection": "close",
+            "x-frame-options": "SAMEORIGIN",
+            "content-security-policy": "frame-ancestors http://*.cac.gov.cn https://*.cac.gov.cn http://search.cac.gov.cn http://www.cac.gov.cn http://wap.cac.gov.cn",
+            "accept-ranges": "bytes",
+            "x-via-jsl": "b92ecb0,-",
+            "strict-transport-security": "max-age=86400",
+            "x-cache": "bypass"
+          },
+          "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/001.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/001.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 106,
+          "sha256": "e59e36f55fdc744014ac903ba4ef473b69dd0864f0ba0cc9f1613ab445602a40"
+        },
+        {
+          "run_id": "research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac",
+          "source_id": "research-policy-ai-plus-cac",
+          "company_id": null,
+          "sequence": 2,
+          "url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+          "method": "GET",
+          "purpose": "research_document",
+          "started_at": "2026-09-09T18:36:50.966Z",
+          "finished_at": "2026-09-09T18:36:51.084Z",
+          "status": 200,
+          "headers": {
+            "date": "Wed, 09 Sep 2026 18:36:51 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "close",
+            "vary": "Accept-Encoding",
+            "x-frame-options": "SAMEORIGIN",
+            "content-security-policy": "frame-ancestors http://*.cac.gov.cn https://*.cac.gov.cn http://search.cac.gov.cn http://www.cac.gov.cn http://wap.cac.gov.cn",
+            "x-via-jsl": "b92ecb0,cache 2.4.8 mem",
+            "strict-transport-security": "max-age=86400",
+            "x-cache": "hit"
+          },
+          "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 32448,
+          "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244"
+        }
+      ]
+    },
+    {
+      "id": "policy-ai-bidding",
+      "source_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202602/t20260210_1403681_ext.html",
+      "observed_at": "2026-09-09T18:36:51.106Z",
+      "status": "failed",
+      "observation_kind": "not_observed",
+      "error": {
+        "code": "HTTP_ACCESS_STOP",
+        "message": "HTTP 403; no retries",
+        "evidence": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-bidding/001.response.json"
+      },
+      "retained_previous": false,
+      "evidence": [
+        {
+          "run_id": "research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-bidding",
+          "source_id": "research-policy-ai-bidding",
+          "company_id": null,
+          "sequence": 1,
+          "url": "https://www.ndrc.gov.cn/robots.txt",
+          "method": "GET",
+          "purpose": "robots",
+          "started_at": "2026-09-09T18:37:03.283Z",
+          "finished_at": "2026-09-09T18:37:03.550Z",
+          "status": 403,
+          "headers": {
+            "date": "Wed, 09 Sep 2026 18:37:03 GMT",
+            "content-type": "text/html",
+            "content-length": "144",
+            "connection": "close",
+            "x-request-id": "7e5317a0b1b38b009777f4439b66c1a5",
+            "server": "WAF",
+            "x-ser": "i50820_c26441, i2619522_c29228",
+            "x-cache": "MISS from i2619522_c29228(cloudsvr)",
+            "cache-control": "no-store, no-cache",
+            "access-control-allow-methods": "GET,POST",
+            "content-security-policy": "frame-ancestors 'self' https://fxsjcj.kaipuyun.cn",
+            "pragma": "no-cache"
+          },
+          "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-bidding/001.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-bidding/001.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 144,
+          "sha256": "362e76c407e00e5693d63102b5bcd20e4c6c61876dd15fe60e1378099d8e12c0"
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "id": "policy-ai-bidding",
+      "code": "HTTP_ACCESS_STOP",
+      "message": "HTTP 403; no retries",
+      "evidence": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-bidding/001.response.json"
+    }
+  ],
+  "model_calls": 0,
+  "external_actions": 0,
+  "status": "partial"
+}

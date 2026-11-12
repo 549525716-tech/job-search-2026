@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "scope": "Offline rendering only; no platform session access or source completeness claim",
+  "checked_at": "2026-09-22T18:21:21.890Z",
+  "html_sha256": "f4987629649778c577eb5f096053565b1a9ece093e5f28db574bed5f8bfa9660",
+  "search_captures": 136,
+  "search_results": 2120,
+  "checks": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "all_queries_retained": true,
+      "all_results_retained": true,
+      "overflow": false,
+      "collapse_expand": true,
+      "filter_reset": true,
+      "errors": [],
+      "externalRequests": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "all_queries_retained": true,
+      "all_results_retained": true,
+      "overflow": false,
+      "collapse_expand": true,
+      "filter_reset": true,
+      "errors": [],
+      "externalRequests": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "status": "open_campaign_technical_slice_not_market_completion",
+  "authorized_request": "Expand from a 25-target sample to industry company discovery and each company's jobs across all channels",
+  "date": "2026-09-14",
+  "industry_groups": ["基础大模型与开放平台", "云、算力与AI基础设施", "数据与AI开发平台", "企业软件与营销数字化", "AI企业应用", "汽车与智能出行数字化", "制造与工业智能化", "机器人与智能硬件"],
+  "company_global_cap": null,
+  "job_global_cap": null,
+  "sources_are_not_whitelist": true,
+  "per_company_required_discovery": ["official", "boss", "liepin", "other_platform", "announcement", "open_web"],
+  "one_source_found_satisfies_company": false,
+  "network_execution_slice": {"initial_discovery_queries": 12, "followup_directory_or_job_reads": 11, "extension_reason": "Two additional public JD reads plus one continuation of a truncated Firmior page; no failed-source retries", "budget_end_state": "checkpoint_with_explicit_backlog_not_completed"},
+  "network": {"shared_serial_queue": true, "minimum_interval_ms": 10000, "maximum_interval_ms": 20000, "access_denial_stops_source_immediately": true, "old_halts_preserved": true},
+  "hiring_freshness_verified": false,
+  "applications_authorized": false,
+  "scheduling_authorized": false,
+  "market_total_known": false,
+  "market_scan_complete": false
+}

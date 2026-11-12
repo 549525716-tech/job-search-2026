@@ -1,0 +1,71 @@
+{
+  "source": "AISE Pulse",
+  "createdAt": "2026-06-30T17:34:30.103Z",
+  "delayMs": 15000,
+  "jitterMs": 10000,
+  "selected": [
+    {
+      "slug": "jasper",
+      "company": "Jasper",
+      "category": "AI-Native Startups",
+      "route": "AI软件落地路线",
+      "segment": "智能客服/营销/销售AI",
+      "priority": "P1"
+    },
+    {
+      "slug": "abnormal-ai",
+      "company": "Abnormal AI",
+      "category": "AI-Native Startups",
+      "route": "AI软件落地路线",
+      "segment": "AI安全/私有化/信创",
+      "priority": "P1"
+    },
+    {
+      "slug": "superhuman",
+      "company": "Superhuman",
+      "category": "AI-Native Startups",
+      "route": "AI软件落地路线",
+      "segment": "企业协同/AI办公",
+      "priority": "P2"
+    },
+    {
+      "slug": "lockheed-martin",
+      "company": "Lockheed Martin",
+      "category": "Defense and Government AI",
+      "route": "行业解决方案路线",
+      "segment": "AI安全/私有化/信创",
+      "priority": "P2"
+    }
+  ],
+  "importedCount": 4,
+  "skippedCount": 0,
+  "errorCount": 0,
+  "imported": [
+    {
+      "id": "349d4e1198eb",
+      "company": "Jasper",
+      "salary": "$145K to $220K",
+      "url": "https://aisepulse.com/companies/jasper/"
+    },
+    {
+      "id": "2e94ce4f8937",
+      "company": "Abnormal AI",
+      "salary": "$124K to $250K",
+      "url": "https://aisepulse.com/companies/abnormal-ai/"
+    },
+    {
+      "id": "a3b7258564ab",
+      "company": "Superhuman",
+      "salary": "$150K to $230K",
+      "url": "https://aisepulse.com/companies/superhuman/"
+    },
+    {
+      "id": "b21f45f985b9",
+      "company": "Lockheed Martin",
+      "salary": "$140K to $210K",
+      "url": "https://aisepulse.com/companies/lockheed-martin/"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

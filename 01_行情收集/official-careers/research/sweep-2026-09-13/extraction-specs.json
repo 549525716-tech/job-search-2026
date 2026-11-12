@@ -1,0 +1,553 @@
+{
+  "schema_version": 1,
+  "scope": "Reviewed contiguous original spans; additional roles retained in raw sources pending extraction",
+  "sources": [
+    {
+      "key": "adxj",
+      "company": "ADXJ 蓝鲸出海",
+      "file": "115-open-B-adxj-channel.json",
+      "url": "https://adxj.com/join/",
+      "industry": "互联网商业服务",
+      "segment": "出海广告与增长服务",
+      "route": "B",
+      "ownership_note": "品牌自述招聘页，法律雇主主体、用工实体及公司行业地位未独立核验；不得当成已核验大厂或AI厂商。",
+      "jobs": [
+        {"title_line":35,"location_line":55,"responsibilities":[45,47],"requirements":[51,53]},
+        {"title_line":60,"location_line":80,"responsibilities":[70,72],"requirements":[76,78]},
+        {"title_line":85,"location_line":105,"responsibilities":[95,97],"requirements":[101,103]},
+        {"title_line":110,"location_line":130,"responsibilities":[120,122],"requirements":[126,128]},
+        {"title_line":135,"location_line":155,"responsibilities":[145,147],"requirements":[151,153]},
+        {"title_line":160,"location_line":180,"responsibilities":[170,172],"requirements":[176,178]},
+        {"title_line":185,"location_line":205,"responsibilities":[195,197],"requirements":[201,203]},
+        {"title_line":210,"location_line":230,"responsibilities":[220,222],"requirements":[226,228]},
+        {"title_line":235,"location_line":255,"responsibilities":[245,247],"requirements":[251,253]},
+        {"title_line":260,"location_line":280,"responsibilities":[270,272],"requirements":[276,278]},
+        {"title_line":285,"location_line":305,"responsibilities":[295,297],"requirements":[301,303]},
+        {"title_line":310,"location_line":330,"responsibilities":[320,322],"requirements":[326,328]},
+        {"title_line":335,"location_line":355,"responsibilities":[345,347],"requirements":[351,353],"attention":"雇主法律主体、底薪和岗位是否带队均待核；广告商务相关，不等于AI大模型销售。"},
+        {"title_line":360,"location_line":380,"responsibilities":[370,372],"requirements":[376,378],"attention":"雇主法律主体、底薪和代理管理权限待核；先保留为渠道转型线索。"},
+        {"title_line":385,"location_line":405,"responsibilities":[395,397],"requirements":[401,403],"attention":"雇主法律主体、固定底薪与团队管理职责待核。"}
+      ]
+    },
+    {
+      "key": "tungee",
+      "company": "探迹科技",
+      "file": "017-open-A-tungee.json",
+      "url": "https://m.tungee.com/about/join-us/",
+      "industry": "AI企业应用",
+      "segment": "AI销售与营销软件",
+      "ownership_note": "探迹官网招聘页，页脚公司主体广州探迹科技有限公司，原文列示AI拓客/CRM等产品。",
+      "jobs": [
+        {
+          "title_line": 85,
+          "location_line": 87,
+          "responsibilities": [
+            90,
+            95
+          ],
+          "requirements": [
+            99,
+            100
+          ]
+        },
+        {
+          "title_line": 104,
+          "location_line": 106,
+          "responsibilities": [
+            109,
+            112
+          ],
+          "requirements": [
+            116,
+            120
+          ]
+        },
+        {
+          "title_line": 124,
+          "location_line": 126,
+          "responsibilities": [
+            130,
+            133
+          ],
+          "requirements": [
+            136,
+            140
+          ]
+        },
+        {
+          "title_line": 144,
+          "location_line": 146,
+          "responsibilities": [
+            150,
+            152
+          ],
+          "requirements": [
+            156,
+            158
+          ]
+        },
+        {
+          "title_line": 162,
+          "location_line": 164,
+          "responsibilities": [
+            167,
+            170
+          ],
+          "requirements": [
+            174,
+            178
+          ],
+          "hiring_type": "campus_eligible"
+        },
+        {
+          "title_line": 182,
+          "location_line": 184,
+          "responsibilities": [
+            187,
+            192
+          ],
+          "requirements": [
+            195,
+            202
+          ]
+        },
+        {
+          "title_line": 206,
+          "location_line": 208,
+          "responsibilities": [
+            211,
+            214
+          ],
+          "requirements": [
+            218,
+            220
+          ]
+        },
+        {
+          "title_line": 224,
+          "location_line": 226,
+          "responsibilities": [
+            229,
+            233
+          ],
+          "requirements": [
+            237,
+            242
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fxiaoke",
+      "company": "纷享销客",
+      "file": "018-open-A-fxiaoke-official.json",
+      "url": "https://www.fxiaoke.com/crm/about-join/",
+      "industry": "企业软件与营销数字化",
+      "segment": "CRM与销售管理",
+      "ownership_note": "纷享销客官网加入我们页面；每岗列出fxiaoke.com招聘邮箱，未发送邮件。工作地后原文标记研发中心，不推定其他业务线。",
+      "jobs": [
+        {
+          "title_line": 384,
+          "location_line": 386,
+          "responsibilities": [
+            390,
+            396
+          ],
+          "requirements": [
+            400,
+            406
+          ],
+          "city": "深圳、厦门、广州"
+        },
+        {
+          "title_line": 410,
+          "location_line": 412,
+          "responsibilities": [
+            416,
+            424
+          ],
+          "requirements": [
+            427,
+            437
+          ],
+          "city": "深圳、厦门、广州、武汉、郑州"
+        },
+        {
+          "title_line": 441,
+          "location_line": 443,
+          "responsibilities": [
+            447,
+            455
+          ],
+          "requirements": [
+            458,
+            470
+          ],
+          "city": "深圳、厦门、广州、武汉、郑州"
+        },
+        {
+          "title_line": 474,
+          "location_line": 476,
+          "responsibilities": [
+            480,
+            488
+          ],
+          "requirements": [
+            491,
+            497
+          ],
+          "city": "深圳、厦门"
+        },
+        {
+          "title_line": 501,
+          "location_line": 503,
+          "responsibilities": [
+            507,
+            515
+          ],
+          "requirements": [
+            518,
+            526
+          ],
+          "city": "济南、青岛、西安、贵阳、重庆、成都",
+          "scope_note": "渠道合伙人不能由标题推定劳动雇佣关系或有固定底薪，需核查代理合作、出资义务与人员权限。"
+        },
+        {
+          "title_line": 530,
+          "location_line": 532,
+          "responsibilities": [
+            536,
+            544
+          ],
+          "requirements": [
+            547,
+            555
+          ],
+          "city": "北京、上海、广州、深圳、杭州"
+        },
+        {
+          "title_line": 559,
+          "location_line": 561,
+          "responsibilities": [
+            565,
+            575
+          ],
+          "requirements": [
+            578,
+            588
+          ],
+          "city": "北京、上海、广州、深圳、杭州"
+        },
+        {
+          "title_line": 592,
+          "location_line": 594,
+          "responsibilities": [
+            598,
+            600
+          ],
+          "requirements": [
+            603,
+            609
+          ],
+          "city": "北京"
+        }
+      ]
+    },
+    {
+      "key": "sensorsdata",
+      "company": "神策数据",
+      "file": "006-open-A-sensorsdata.json",
+      "url": "https://www.sensorsdata.cn/about/joinus.html",
+      "apply_url": "https://app.mokahr.com/apply/sensorsdata/2912",
+      "industry": "企业软件与营销数字化",
+      "segment": "数据分析与营销科技",
+      "ownership_note": "神策数据官网招聘页；官网指向Moka申请入口，未读取登录后内容。",
+      "jobs": [
+        {
+          "title_line": 465,
+          "location_line": 465,
+          "responsibilities": [
+            467,
+            473
+          ],
+          "requirements": [
+            475,
+            480
+          ],
+          "title": "数据分析师",
+          "city": "北京、上海、深圳"
+        },
+        {
+          "title_line": 509,
+          "location_line": 509,
+          "responsibilities": [
+            511,
+            513
+          ],
+          "requirements": [
+            516,
+            522
+          ],
+          "title": "大客户咨询顾问",
+          "city": "北京、上海、深圳"
+        },
+        {
+          "title_line": 715,
+          "location_line": 715,
+          "responsibilities": [
+            718,
+            721
+          ],
+          "requirements": [
+            724,
+            728
+          ],
+          "title": "客户经理",
+          "city": "北京、上海、深圳"
+        }
+      ]
+    },
+    {
+      "key": "sensorsdata",
+      "company": "神策数据",
+      "file": "027-open-A-sensorsdata-400.json",
+      "url": "https://www.sensorsdata.cn/about/joinus.html",
+      "apply_url": "https://app.mokahr.com/apply/sensorsdata/2912",
+      "industry": "企业软件与营销数字化",
+      "segment": "数据分析与营销科技",
+      "ownership_note": "神策数据官网招聘页；官网指向Moka申请入口，未读取登录后内容。",
+      "jobs": [
+        {
+          "title_line": 404,
+          "title": "数据咨询顾问",
+          "city": "北京、上海、深圳",
+          "responsibilities": [
+            407,
+            409
+          ],
+          "requirements": [
+            412,
+            415
+          ]
+        },
+        {
+          "title_line": 417,
+          "title": "客户成功经理",
+          "city": "北京、上海、深圳",
+          "responsibilities": [
+            419,
+            422
+          ],
+          "requirements": [
+            425,
+            431
+          ]
+        },
+        {
+          "title_line": 433,
+          "title": "售前工程师",
+          "city": "北京、上海、深圳",
+          "responsibilities": [
+            435,
+            439
+          ],
+          "requirements": [
+            442,
+            447
+          ]
+        },
+        {
+          "title_line": 644,
+          "title": "交付实施项目经理",
+          "city": "北京、上海、深圳",
+          "responsibilities": [
+            647,
+            650
+          ],
+          "requirements": [
+            652,
+            657
+          ]
+        }
+      ]
+    },
+    {
+      "key": "netease-ultraai",
+      "company": "网易智企",
+      "file": "033-open-B-ultraai-netease.json",
+      "url": "https://jobs.ultraai.site/jobs/netease/73335",
+      "kind": "recruitment_platform",
+      "industry": "AI企业应用",
+      "segment": "智能客服与企业服务",
+      "route": "B",
+      "ownership_note": "职先机聚合站原文显示网易智企并提供hr.163.com链接；本条不是网易官网原文，雇主岗位有效性须原站复核。",
+      "jobs": [
+        {
+          "title_line": 6,
+          "title": "云商-客户成功专员（深圳）",
+          "location_line": 12,
+          "city": "广州市",
+          "responsibilities": [
+            29,
+            32
+          ],
+          "requirements": [
+            35,
+            39
+          ],
+          "job_url": "https://jobs.ultraai.site/jobs/netease/73335",
+          "attention": "地区冲突：岗位标题为深圳，聚合页地区为广州市。专员不等于管理岗；固定底薪和官网招聘状态待核。",
+          "time_note": "聚合站收录时间为2026-08-03 15:56，不是岗位官方发布日期；本次读取不代表仍在招。"
+        }
+      ]
+    },
+    {
+      "key": "zhongxiang-bebee",
+      "company": "湖南中项网科技有限公司",
+      "file": "034-open-B-bebee-zhongxiang.json",
+      "url": "https://bebee.com/cn/jobs/base--techmap_cn_CCL1247354440J40854760510",
+      "kind": "recruitment_platform",
+      "industry": "互联网与企业服务",
+      "segment": "客户成功与信息服务",
+      "route": "B",
+      "ownership_note": "BeBee聚合页标题显示转载智联招聘的湖南中项网职位，正文可回查，但未核验原始智联/企业官网招聘状态。",
+      "jobs": [
+        {
+          "title_line": 7,
+          "title": "客户成功总监（base长沙-擅长体系搭建）",
+          "location_line": 66,
+          "city": "长沙",
+          "responsibilities": [
+            20,
+            46
+          ],
+          "requirements": [
+            50,
+            66
+          ],
+          "salary_raw": "年薪区间25-40万（无上限）",
+          "job_url": "https://bebee.com/cn/jobs/base--techmap_cn_CCL1247354440J40854760510",
+          "attention": "年薪25–40万不是固定月薪20K证明；硬性要求5年客户成功、3年SaaS团队管理及20–30人带队，目前证据不满足。",
+          "time_note": "页面显示截至2026/9/17；其相对发布时间、采集时间与官方招聘有效性需分别核实。"
+        }
+      ]
+    }
+  ],
+  "lead_sources": [
+    {
+      "file": "009-search-B-customer-success.json",
+      "jobs": [
+        {
+          "company": "沃丰科技",
+          "title": "上海客户成功总监",
+          "salary_raw": "23-35k·14薪",
+          "city": "上海-长征",
+          "recruiter_name": "邵女士",
+          "source_url": "https://m.liepin.com/zpqykhcgzj5i2q/",
+          "industry": "AI企业应用",
+          "segment": "客户服务与经营",
+          "quote": "上海客户成功总监 23-35k·14薪 沃丰科技 D轮及以上融资 上海-长征 3年以上 本科 邵女士 · 集团招聘总监"
+        },
+        {
+          "company": "慧策|旺店通(掌上先机)",
+          "title": "客户成功负责人 -J14848",
+          "salary_raw": "30-50k",
+          "city": "北京-公主坟",
+          "recruiter_name": "李女士",
+          "source_url": "https://m.liepin.com/zpkhcgfzr4e3l/",
+          "industry": "企业软件与营销数字化",
+          "segment": "电商ERP",
+          "quote": "客户成功负责人 -J14848 30-50k 慧策|旺店通(掌上先机) D轮及以上融资 北京-公主坟 经验不限 本科 李女士 · 招聘专员"
+        },
+        {
+          "company": "慧策|旺店通(掌上先机)",
+          "title": "客户成功负责人（J14848）",
+          "salary_raw": "30-50k",
+          "city": "北京-公主坟",
+          "recruiter_name": "冯女士",
+          "source_url": "https://m.liepin.com/zpkhcgfzr4e3l/",
+          "industry": "企业软件与营销数字化",
+          "segment": "电商ERP",
+          "quote": "客户成功负责人（J14848） 30-50k 慧策|旺店通(掌上先机) D轮及以上融资 北京-公主坟 经验不限 本科 冯女士"
+        },
+        {
+          "company": "猎豹移动",
+          "title": "WhatsApp 客户成功负责人",
+          "salary_raw": "20-40k·15薪",
+          "city": "北京-定福庄",
+          "recruiter_name": "王女士",
+          "source_url": "https://m.liepin.com/zpkhcgfzr4e3l/",
+          "industry": "互联网与企业服务",
+          "segment": "海外客户运营",
+          "quote": "WhatsApp 客户成功负责人 20-40k·15薪 猎豹移动 已上市 北京-定福庄 3年以上 大专 王女士 · 招聘经理"
+        },
+        {
+          "company": "SparkX 邑炎科技",
+          "title": "客户成功负责人",
+          "salary_raw": "30-50k",
+          "city": "深圳-南油",
+          "recruiter_name": "余先生",
+          "source_url": "https://m.liepin.com/zpkhcgfzr4e3l/",
+          "industry": "企业软件与营销数字化",
+          "segment": "细分赛道待核",
+          "quote": "客户成功负责人 30-50k SparkX 邑炎科技 深圳-南油 5-10年 本科 余先生 · 招聘专家"
+        },
+        {
+          "company": "杭州正马软件科技有限公司",
+          "title": "客户成功负责人",
+          "salary_raw": "30-50k·13薪",
+          "city": "余杭区",
+          "recruiter_name": "蒋女士",
+          "source_url": "https://m.liepin.com/zpkhcgfzr4e3l/",
+          "industry": "企业软件与营销数字化",
+          "segment": "细分赛道待核",
+          "quote": "客户成功负责人 30-50k·13薪 杭州正马软件科技有限公司 A轮融资 余杭区 5-10年 本科 蒋女士 · 招聘经理"
+        },
+        {
+          "company": "深圳胖柴点书科技有限公司广州分公司",
+          "title": "飞书客户成功负责人",
+          "salary_raw": "25-35k",
+          "city": "深圳-大冲",
+          "recruiter_name": "罗女士",
+          "source_url": "https://m.liepin.com/zpkhcgfzr4e3l/",
+          "industry": "企业软件与营销数字化",
+          "segment": "协同办公服务",
+          "quote": "飞书客户成功负责人 25-35k 深圳胖柴点书科技有限公司广州分公司 深圳-大冲 5年以上 本科 罗女士 · HRBP"
+        },
+        {
+          "company": "金千枝(深圳)软件技术有限公司",
+          "title": "客户成功区域负责人（管理岗）",
+          "salary_raw": "15-25k",
+          "city": "深圳-翠竹",
+          "recruiter_name": "陈女士",
+          "source_url": "https://m.liepin.com/zpkhcgfzr4e3l/",
+          "industry": "企业软件与营销数字化",
+          "segment": "细分赛道待核",
+          "quote": "客户成功区域负责人（管理岗） 15-25k 金千枝(深圳)软件技术有限公司 不需要融资 深圳-翠竹 10年以上 大专 陈女士 · 招聘经理"
+        },
+        {
+          "company": "中企动力",
+          "title": "客户成功总监",
+          "salary_raw": "25-30k",
+          "city": "北京-亦庄",
+          "recruiter_name": "何先生",
+          "source_url": "https://m.liepin.com/zpqykhcgzj5i2q/",
+          "industry": "企业软件与营销数字化",
+          "segment": "企业数字化服务",
+          "quote": "客户成功总监 25-30k 中企动力 融资未公开 北京-亦庄 5-10年 本科 何先生 · 招聘hr"
+        },
+        {
+          "company": "领充新能源",
+          "title": "高级大客户销售总监（华东区域）",
+          "salary_raw": "20-30k",
+          "city": "上海-赵巷",
+          "recruiter_name": "杨女士",
+          "source_url": "https://m.liepin.com/zpqykhcgzj5i2q/",
+          "industry": "智能硬件与汽车数字化",
+          "segment": "新能源汽车能源服务",
+          "quote": "高级大客户销售总监（华东区域） 20-30k 领充新能源 B轮融资 上海-赵巷 8年以上 本科 杨女士 · HRBP"
+        }
+      ]
+    }
+  ]
+}

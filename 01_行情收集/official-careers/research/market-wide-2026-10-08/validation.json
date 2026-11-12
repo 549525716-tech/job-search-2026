@@ -1,0 +1,17 @@
+{
+  "status": "passed_deterministic_checks_not_business_acceptance",
+  "capture_files": 165,
+  "finish_receipts": 165,
+  "raw_job_evidence_files": 130,
+  "field_and_block_quote_checks": 1122,
+  "minimum_actual_web_gap_ms": 11699,
+  "matching_scores": 4,
+  "source_failures": [
+    "p02",
+    "p03",
+    "p27",
+    "p29"
+  ],
+  "market_complete": false,
+  "independent_qa": false
+}

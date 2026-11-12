@@ -1,0 +1,36 @@
+✔ a board that redirects away is reported as gone, not as 'no ATS found' (2.443291ms)
+✔ the destination of the redirect is carried through, not summarised away (0.265708ms)
+✔ a board that answers normally with no openings is NOT reported as gone (0.76475ms)
+✔ Greenhouse: derives a slug from a domain, a board URL and an embed URL (1.089334ms)
+✔ Ashby and Lever: resolve both a company domain and a hosted board URL (0.13525ms)
+✔ slug derivation is not thrown off by www or a subdomain (0.080083ms)
+✔ Greenhouse: normalises a response into the shared job shape (0.175792ms)
+✔ every provider returns null for a response of the wrong shape (0.304666ms)
+✔ Lever: an empty array means no openings, not a wrong platform (0.736083ms)
+✔ Personio: reads jobs out of XML (1.253416ms)
+✔ stripHtml: turns posting markup into readable text (0.854416ms)
+✔ filterJobs: filters by keyword, location and remote (0.398ms)
+✔ filterJobs: copes with jobs that carry no description (0.207042ms)
+✔ Rippling: normalises its response and is not confused with other bare arrays (0.230292ms)
+✔ Rippling: derives a slug from an ats.rippling.com URL (0.185875ms)
+✔ Lever: does not mistake a Rippling response for its own (0.056542ms)
+✔ SmartRecruiters: returns the next offset when a board exceeds one page (0.052792ms)
+✔ slugVariants: only covers the ways slugs have actually been seen to differ (0.34175ms)
+✔ discover: reads a slug out of an embedded widget attribute (0.694416ms)
+✔ discover: rejects hostname fragments that are not slugs (0.546875ms)
+✔ Workday: extracts host and site name from a URL, ignoring a locale segment (0.149875ms)
+✔ Workday: builds the POST body and pages 20 at a time (0.146666ms)
+✔ Workday: normalises its response and is not confused with other platforms (0.131916ms)
+✔ Workday: fills description, real date and employment type from the detail endpoint (0.121ms)
+✔ discover: builds host::siteName from a Workday link on a careers page (0.084541ms)
+✔ Workable, Recruitee, BambooHR, Breezy and Teamtailor normalise correctly (0.327041ms)
+✔ Teamtailor: works for tenants running on their own domain (0.059291ms)
+✔ Recruitee: keeps the trailing slash on the endpoint (dropping it 404s) (0.071459ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 77.500083

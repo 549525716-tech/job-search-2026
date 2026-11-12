@@ -1,0 +1,253 @@
+{
+  "schema_version": 3,
+  "reviewed_at": "2026-09-21T19:41:40.485Z",
+  "verdict": "passed_scoped_data_qa_all_p2_closed",
+  "open_p1": 0,
+  "open_p2": 0,
+  "resolved_p2": 2,
+  "blocking_findings": 0,
+  "reviewmetadata": {
+    "reviewer": {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "basis": "parent accepted dispatch supplied in task",
+      "billing_verification": "unknown_not_independently_verified"
+    },
+    "specification_author": {
+      "agent_id": "01a0c4f7-d532-7643-a09a-b5530f3ca759",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "basis": "parent accepted dispatch supplied in task and extra-board-specs.json author metadata",
+      "billing_verification": "unknown"
+    },
+    "generic_adapter_author": {
+      "actor": "parent_controller",
+      "scope": "Parent generic adapter, source-link repair and entry-spec three-key guard; not attributed to Luna",
+      "basis": "parent statement in task",
+      "billing_verification": "unknown"
+    }
+  },
+  "scope": {
+    "offline_only": true,
+    "network_requests": 0,
+    "browser_operations": 0,
+    "raw_captures_read": [
+      "o22"
+    ],
+    "old_jd_raw_reaudit": false,
+    "c_series_read": false,
+    "full_batch_retest": false,
+    "implementation_spec_config_writes": 0,
+    "jobs_written": false,
+    "write_allowlist": [
+      "extra-boards-qa.md",
+      "extra-boards-qa.json"
+    ],
+    "retest_scope": "Only original entry-link guard mismatch cases and normal o22 entries; other artifacts compared by SHA, not reaudited."
+  },
+  "counts": {
+    "captures": 42,
+    "observations": 180,
+    "groups": 173,
+    "complete": 109,
+    "incomplete": 64
+  },
+  "retest": {
+    "normal": {
+      "capture": "o22",
+      "ref_id": "turn500view0",
+      "lines": [
+        80,
+        89
+      ],
+      "link_ids": [
+        15,
+        29
+      ],
+      "source_links": 2,
+      "target_type": "recruiting_entry_not_job_detail",
+      "urls_unknown": true,
+      "quote_sha_checked": 2,
+      "retry_allowed": false,
+      "execution_authorized": false,
+      "deterministic": true
+    },
+    "negative_cases": [
+      {
+        "mode": "source_url_mismatch",
+        "status": "pending_format_review",
+        "spec_derived_links": 0,
+        "retry_allowed": false,
+        "execution_authorized": false
+      },
+      {
+        "mode": "raw_sha_mismatch",
+        "status": "field_binding_error",
+        "spec_derived_links": 0,
+        "retry_allowed": false,
+        "execution_authorized": false
+      }
+    ],
+    "fixture_method": "Modified copies of o22 raw JSON in memory only, decoded again before extract; no capture or data file writes.",
+    "only_changed_input": "jd-extract.mjs",
+    "other_recorded_artifact_sha256_unchanged": true,
+    "unchanged_data_conclusions": "The prior 173 groups / 109 complete, old 95 deep equality and preserved identity-key findings remain applicable because jobs.json and supporting data SHA are unchanged.",
+    "full_batch_or_prior_jd_tests_repeated": false
+  },
+  "resolved_findings": [
+    {
+      "id": "P2-EXTRA-01",
+      "status": "closed",
+      "basis": "Three pending items now retain typed source locators and pending verification; 17 title links and two entry links bind to original evidence without URL, identity or access escalation."
+    },
+    {
+      "id": "P2-EXTRA-02",
+      "status": "closed",
+      "file": "jd-extract.mjs",
+      "lines": [
+        574,
+        575
+      ],
+      "basis": "entrySpec now binds capture_id/source_url/evidence_sha256. Both URL and raw-SHA mismatch cases produce zero specification-derived links; normal o22 retains its two source entries with original quote/ref/link evidence.",
+      "access_boundary": "No URL guessed, retry_allowed=false and execution_authorized=false."
+    }
+  ],
+  "findings": [],
+  "prior_checks_not_repeated": {
+    "reviewed_at": "2026-09-21T19:30:51.417Z",
+    "captures": 18,
+    "groups": 78,
+    "complete": 69,
+    "incomplete": 9,
+    "field_evidence_checks": 574,
+    "nested_quote_sha_checks": 652,
+    "closed_boundaries": 69,
+    "fxiaoke_slots": 26,
+    "hoteam_page2_slots": 7,
+    "easemob_available_range": [
+      0,
+      392
+    ],
+    "code_sha256": "36b120029eead80d53e2ac484f268069ca1d0f390dff72d9b3bd79e96ffbde6a",
+    "specs_sha256": "cb0aa11514af84026c980aa354bdf1927f63e039d6e26d2bedb556616f19ce88",
+    "jobs_sha256": "4a3233a7a7f228fe1d2620d06e78ec1e70c0362bfcd1d174dcf67088b64c58fd"
+  },
+  "boundaries": [
+    "Title-link target type remains unknown; entry links are source recruitment entries, not verified job-detail URLs.",
+    "Source restrictions, no retry and no execution authorization remain in force. No link was accessed.",
+    "No full JD/c-series audit, whole-site coverage, current-hiring, legal-identity, billing or all-market acceptance."
+  ],
+  "sha256": [
+    {
+      "file": "jd-extract.mjs",
+      "sha256": "6fdb571c58a444b9d9975bda484a8eea12a2f478770d6bace6114e33267f3a2f"
+    },
+    {
+      "file": "extra-board-specs.json",
+      "sha256": "9820fc02f2433bd03207dc910cbc513824e7991c8c8e430d290ed635faa7154e"
+    },
+    {
+      "file": "extra-board-notes.md",
+      "sha256": "a53e58b65b74f417ebddc73967055ad706ca9965f6fc6d9585a28904d6bfe881"
+    },
+    {
+      "file": "jobs.json",
+      "sha256": "df8c11aa1b0e8f416fb4b39800a63ce24b2481343eb497088694808ec7ada386"
+    },
+    {
+      "file": "extraction-audit.json",
+      "sha256": "ec27fb459e08bf6551f83344fa6a9d1283c94d732f24697685228374c33c6e69"
+    },
+    {
+      "file": "detail-backlog.json",
+      "sha256": "3cbc26e30c18b20ece14476b3f8515c29f6a5c27c5257f0d0ad09ba4bc1f2619"
+    },
+    {
+      "file": "initial-data-snapshot/jobs.json",
+      "sha256": "1400835040ce435f7e5a4345b71c8c528934a1b300007b014ac25402603ef67f"
+    },
+    {
+      "file": "../market-2026-09-21/build.mjs",
+      "sha256": "2ef798282836cae9ced19a4ab042f0d1cf03c08d84e5700516a3135f31152ec6"
+    }
+  ],
+  "raw_sha256": [
+    {
+      "file": "raw/o22.json",
+      "sha256": "39258c823773e4a886fa72e191a8a07e2593ac56d0cb60c59c9efa884f9cab7b"
+    }
+  ],
+  "prior_locator_retest": {
+    "reviewed_at": "2026-09-21T19:37:55.006Z",
+    "script_sha256": "a378d97014ad9882f8e7fc205faa171065140ab25275010624041459240b011e",
+    "deterministic_build": {
+      "selected_files": [
+        "o20.json",
+        "o21.json",
+        "o22.json"
+      ],
+      "checkOnly": true,
+      "passed": true,
+      "jobs": 17,
+      "complete": 14,
+      "incomplete": 3,
+      "field_evidence_checks": 103,
+      "nested_quote_sha_checks": 137
+    },
+    "source_title_links": {
+      "checked": 17,
+      "raw_ref_and_link_ids_match": true,
+      "quote_sha_and_raw_sha_match": true,
+      "target_type": "unknown_source_title_link",
+      "url": null
+    },
+    "source_entries": {
+      "capture": "o22",
+      "lines": [
+        80,
+        89
+      ],
+      "ref_id": "turn500view0",
+      "link_ids": [
+        15,
+        29
+      ],
+      "checked": 2,
+      "target_type": "recruiting_entry_not_job_detail",
+      "url": null,
+      "raw_ref_quote_sha_passed": true
+    },
+    "affected_incomplete": [
+      {
+        "capture": "o20",
+        "line": 0,
+        "ref_id": "turn498view0",
+        "link_id": 0
+      },
+      {
+        "capture": "o21",
+        "line": 292,
+        "ref_id": "turn499view0",
+        "link_id": 69
+      },
+      {
+        "capture": "o21",
+        "line": 384,
+        "ref_id": "turn499view0",
+        "link_id": 75
+      }
+    ],
+    "incomplete_status": "source_link_target_verification_pending",
+    "all_affected_backlog_execution_authorized": false,
+    "all_affected_backlog_retry_allowed": false,
+    "old_95_deep_equal_initial": true,
+    "identity_keys_job_urls_detail_links_preserved": 173,
+    "all_173_fields_unchanged_except_source_links": true,
+    "normalized_jobs_sha256": "4a3233a7a7f228fe1d2620d06e78ec1e70c0362bfcd1d174dcf67088b64c58fd",
+    "normalization": "Recursively remove only source_links, serialize JSON with 2-space indentation and final newline; exact SHA equals the pre-repair jobs.json.",
+    "saved_17_equals_readonly_rebuild": true,
+    "persisted_audit_nested_quote_count": 1527,
+    "persisted_audit_count_note": "Read and checked in saved audit, not independently rerun for the entire batch."
+  },
+  "raw_hash_scope": "Only o22 read and hash-verified this final retest; prior raw evidence was not reread."
+}

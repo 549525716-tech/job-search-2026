@@ -1,0 +1,272 @@
+{
+  "status": "frozen_pending_execution",
+  "scope": "Public pages only; page self-claims require identity checks. Existing halted and platform-isolated sources excluded.",
+  "queries": [
+    {
+      "id": "o11",
+      "operation": "open",
+      "route": "A",
+      "company": "飞轮科技（SelectDB）",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://selectdb.com/join-us"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/c050.json",
+        "sha256": "009236bd965ee0918a165ed485890663e052ac60267b24fd8dd111c9bee87e56"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o12",
+      "operation": "open",
+      "route": "A",
+      "company": "纷享销客",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.fxiaoke.com/crm/about-join/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/c052.json",
+        "sha256": "6a58e124c66468418bb533b1c8782f0e66b578bc1b93d12ecf6ab455e6ad7ee9"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o13",
+      "operation": "open",
+      "route": "A",
+      "company": "法本信息",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.farben.com.cn/join/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/c047.json",
+        "sha256": "121409fbb022a98a0abea28b3fd4bb93a42a532b9d5e28f0a7288f603a53f7b4"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o14",
+      "operation": "open",
+      "route": "A",
+      "company": "高擎动力",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.hightorque.cn/category/jobs"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/c057.json",
+        "sha256": "5f523500dd44bba3eb9a8410b728f4371392a2a1b6cc55b9ea330eaf5e3964f1"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o15",
+      "operation": "open",
+      "route": "A",
+      "company": "谷斗科技",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.goodo-tech.com/ment.html"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/c059.json",
+        "sha256": "25f8260b47f90283e4ef8af75eb50dd7a38d9303ffb5bd30019b9f7d2d3d9225"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o16",
+      "operation": "open",
+      "route": "A",
+      "company": "广州今宏",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.gdcad.com/recruitment"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/c065.json",
+        "sha256": "ef6065d51c96d84d3d328cbce9d2ef0ad1ebcff5e36c904816495733f3d08836"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o17",
+      "operation": "open",
+      "route": "A",
+      "company": "硅云",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.vpsor.cn/work"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/c066.json",
+        "sha256": "616202bde5f65c8811f0eab111c57b215560f5d7b7b531b3645bfc2350cabcc0"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o18",
+      "operation": "open",
+      "route": "A",
+      "company": "华天软件",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.hoteamsoft.com/join-us_2"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/c088.json",
+        "sha256": "cdaf9a08047f88615bc056ff66ef1401a01f589cbe82ecffee86f2389dddd945"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o19",
+      "operation": "open",
+      "route": "A",
+      "company": "金千枝",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.jbfsoft.com/about/recruit"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/c107.json",
+        "sha256": "a2f6a3480fa6cdd194023d290aa72d8628a995a647a3503c8ef12993f43e4f82"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o20",
+      "operation": "open",
+      "route": "A",
+      "company": "极限科技",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://infinilabs.cn/career/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/c099.json",
+        "sha256": "e7d6b14c52659afc7f48bc29fd9035bb5d098ecba0b23f0de26d132edf2f42e7"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o21",
+      "operation": "open",
+      "route": "A",
+      "company": "环信",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.easemob.com/join/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/a04.json",
+        "sha256": "a677412a780154f167699689dc64e0f745e5dce34f3ae5f5b8b99820a231bbfb"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o22",
+      "operation": "open",
+      "route": "A",
+      "company": "第四范式",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.4paradigm.com/about/hr.html"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/c002.json",
+        "sha256": "c947990ca657369d0ca70cffa9af18abc1a1e151b4cb1e3be3dafebbe00557d9"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o23",
+      "operation": "open",
+      "route": "A",
+      "company": "百信AI Agent",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://bxagent.cn/careers/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/b06.json",
+        "sha256": "2884e07d6fd120e68e1e123f62bada3610237ac9171d91c15c9f17f969c92c2c"
+      },
+      "company_is_query_target_not_identity": true
+    },
+    {
+      "id": "o24",
+      "operation": "open",
+      "route": "A",
+      "company": "金蝶国际",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.kingdee.com/sg/zh-hans/careers/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "discovery_evidence": {
+        "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/c106.json",
+        "sha256": "f394565ecc9b23d17f6cd4536540f0ffdc9f880fdd86b2de7ba603a811d39cd1"
+      },
+      "company_is_query_target_not_identity": true
+    }
+  ]
+}

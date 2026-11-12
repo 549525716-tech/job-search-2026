@@ -1,0 +1,61 @@
+{
+  "run_id": "sweep-2026-09-14-coverage",
+  "citation_corrections": [
+    {"file":"102.json","old_url":"https://m.sohu.com/a/1059265374_400678/","new_url":"https://www.nda.gov.cn/sjj/zhuanti/ztdsjblh/ztxwfb/0830/20250830212428486950454_pc.html"},
+    {"file":"103.json","old_url":"https://static.cninfo.com.cn/finalpage/2026-03-31/1225056893.PDF","new_url":"https://pdf.dfcfw.com/pdf/H3_AP202410151640309153_1.pdf?1729027987000.pdf="}
+  ],
+  "sources": [
+    {"file":"203.json","key":"zhisida","company":"杭州智思达科技有限责任公司","kind":"recruitment_platform","industry":"AI企业应用","url":"https://www.zhaopin.com/jobdetail/CCL1489865290J40839403809.htm","detail":true,"ownership_note":"智联招聘原文雇主名称，法律主体未另行核验。","jobs":[
+      {"title_line":23,"location_line":53,"city":"杭州","responsibilities":[37,43],"requirements":[45,48],"salary_lines":[25],"salary_raw":"1.5-2.5万","attention":"招聘区间覆盖20K，但未声明固定底薪；不能按固定20K达标。要求AI项目销售、POC与采购决策链证据。"}
+    ]},
+    {"file":"204.json","key":"chuangyun","company":"广东创云科技有限公司","kind":"recruitment_platform","industry":"基础大模型与开放平台","url":"https://www.zhaopin.com/jobdetail/CC484812680J40913048612.htm","detail":true,"ownership_note":"智联招聘原文雇主名称，法律主体未另行核验。","jobs":[
+      {"title_line":16,"location_line":24,"city":"广州","responsibilities":[52,55],"requirements":[57,61],"salary_lines":[45,66],"attention":"同页底薪原文冲突：福利栏6000元/月，正文试用及转正5k，均另有绩效提成；不取平均，不标固定20K达标。"}
+    ]},
+    {"file":"205.json","key":"noumena","company":"物自体（上海）科技有限公司","kind":"official","industry":"企业软件与营销数字化","url":"https://www.noumena.com.cn/career/","shared_requirements":[13,33],"ownership_note":"公司自发布招聘页面，页脚出现物自体（上海）科技有限公司；行业地位未独立核验。","jobs":[
+      {"title_line":43,"title":"AI 转型专家 / 咨询顾问","location_line":39,"city":"上海","responsibilities":[49,51],"requirements":[55,57]},
+      {"title_line":59,"title":"资深商务拓展经理 / Sales（解决方案方向）","location_line":39,"city":"上海","responsibilities":[64,66],"requirements":[70,72]},
+      {"title_line":76,"title":"AI 产品经理 / AI 产品专家","location_line":39,"city":"上海","responsibilities":[82,84],"requirements":[87,89]},
+      {"title_line":91,"title":"AI Agent 全栈工程师","location_line":39,"city":"上海","responsibilities":[97,99],"requirements":[103,105]},
+      {"title_line":106,"title":"研发实习生（AI Agent 方向）","location_line":39,"city":"上海","responsibilities":[112,113],"requirements":[117,120]},
+      {"title_line":121,"title":"AI 产品运营实习生","location_line":39,"city":"上海","responsibilities":[127,129],"requirements":[132,136]},
+      {"title_line":146,"title":"招聘经理 / TA（社媒营销 & 商业化方向）","location_line":39,"city":"上海","responsibilities":[151,154],"requirements":[158,165]},
+      {"title_line":169,"title":"出海商业化 BD 负责人","location_line":171,"city":"深圳 / 广州 / 上海","responsibilities":[175,178],"requirements":[181,190]},
+      {"title_line":192,"title":"小红书线索广告投放专员","location_line":39,"city":"上海","responsibilities":[197,201],"requirements":[204,213]}
+    ]},
+    {"file":"206.json","key":"firmior","company":"非与智能","kind":"official","industry":"AI企业应用","url":"https://firmior.cn/careers","ownership_note":"公司自发布招聘页面；211续读页脚为深圳非与基智科技有限公司，未凭此判行业头部。","jobs":[
+      {"title_line":47,"location_line":49,"city":"北京 / 上海 / 深圳","responsibilities":[60,64],"requirements":[68,78]},
+      {"title_line":88,"location_line":90,"city":"上海","responsibilities":[101,104],"requirements":[108,117]},
+      {"title_line":127,"location_line":129,"city":"上海","responsibilities":[140,143],"requirements":[147,156]},
+      {"title_line":166,"location_line":168,"city":"上海","responsibilities":[179,181],"requirements":[185,194]},
+      {"title_line":204,"location_line":206,"city":"北京","responsibilities":[218,221],"requirements":[224,234]},
+      {"title_line":243,"location_line":245,"city":"北京 / 上海 / 深圳","responsibilities":[257,261],"requirements":[264,275]},
+      {"title_line":284,"location_line":286,"city":"北京 / 深圳 / 上海","responsibilities":[303,307],"requirements":[310,321]},
+      {"title_line":336,"location_line":338,"city":"北京 / 深圳 / 上海","responsibilities":[354,358],"requirements":[361,373]},
+      {"title_line":388,"location_line":390,"city":"深圳","responsibilities":[401,404],"requirements":[408,416]},
+      {"title_line":426,"location_line":428,"city":"上海","responsibilities":[439,442],"requirements":[444,461]}
+    ]},
+    {"file":"211.json","key":"firmior-compact","company":"非与智能","kind":"official","industry":"AI企业应用","url":"https://firmior.cn/careers","ownership_note":"206同一URL的后半页；八条疑似同页重复展示，保留观察但不冒充独立岗位数。","jobs":[
+      {"title_line":471,"location_line":473,"city":"北京 / 上海 / 深圳","responsibilities":[477,479],"requirements":[482,483],"variant_of":"firmior-l47-20260914"},
+      {"title_line":491,"location_line":493,"city":"上海","responsibilities":[497,499],"requirements":[503,504],"variant_of":"firmior-l88-20260914"},
+      {"title_line":512,"location_line":514,"city":"上海","responsibilities":[517,519],"requirements":[523,524],"variant_of":"firmior-l127-20260914"},
+      {"title_line":532,"location_line":534,"city":"上海","responsibilities":[538,540],"requirements":[543,544],"variant_of":"firmior-l166-20260914"},
+      {"title_line":552,"location_line":554,"city":"上海","responsibilities":[558,561],"requirements":[564,568],"variant_of":"firmior-l204-20260914"},
+      {"title_line":576,"location_line":578,"city":"北京 / 深圳 / 上海","responsibilities":[581,583],"requirements":[587,590],"variant_of":"firmior-l284-20260914"},
+      {"title_line":597,"location_line":599,"city":"北京 / 深圳 / 上海","responsibilities":[603,606],"requirements":[609,613],"variant_of":"firmior-l336-20260914"},
+      {"title_line":621,"location_line":623,"city":"北京 / 上海 / 深圳","responsibilities":[626,630],"requirements":[633,638],"variant_of":"firmior-l243-20260914"}
+    ]},
+    {"file":"207.json","key":"jd219504","company":"京东","kind":"official","industry":"云、算力与AI基础设施","url":"https://zhaopin.jd.com/web/job-info-detail?requementId=219504","detail":true,"ownership_note":"京东官方招聘域名具体职位页，不以集团规模推断该业务线的市场地位。","jobs":[
+      {"title_line":14,"location_line":16,"city":"北京市","responsibilities":[20,20],"requirements":[23,23],"published_at":"2026-06-22","attention":"JD要求至少一年SaaS、AI或数据产品销售经历；个人内部AI工具使用不等于这项直接销售证据。"}
+    ]},
+    {"file":"209.json","key":"huazheng","company":"北京华征科技有限公司","kind":"official","industry":"AI企业应用","url":"https://www.huazheng-ai.com/","ownership_note":"公司自发布官网内的招聘栏目；总部地址不能替代各岗位工作地点。","jobs":[
+      {"title_line":401,"responsibilities":[409,411],"requirements":[415,417],"attention":"招聘条目未单独说明工作城市，未使用总部地址补填。"},
+      {"title_line":419,"responsibilities":[427,429],"requirements":[432,434],"attention":"产品经理保留原始记录，不作为当前主攻岗位推荐。地点未单独披露。"},
+      {"title_line":436,"responsibilities":[444,446],"requirements":[450,452],"attention":"工作地点未单独披露。"},
+      {"title_line":454,"responsibilities":[461,463],"requirements":[467,469],"attention":"客户成功保留原始记录，不作为用户主攻推荐；地点未单独披露。"},
+      {"title_line":471,"responsibilities":[479,481],"requirements":[485,487],"attention":"工作地点和固定薪资未单独披露。"}
+    ]},
+    {"file":"210.json","key":"netease77241","company":"网易智企","kind":"recruitment_platform","industry":"AI企业应用","url":"https://jobs.ultraai.site/jobs/netease/77241","detail":true,"ownership_note":"第三方职位信息站，不是网易官方招聘域名，雇主与当前在招待原站核验。","jobs":[
+      {"title_line":4,"location_line":12,"city":"广州市","responsibilities":[72,75],"requirements":[80,83],"published_at":"2026-07-03","time_note":"发布日期和最近核验日期均为第三方页面声称；本轮只读该第三方页面，未核验网易原站是否仍开放。","attention":"第三方完整JD，不等于官方当前在招核验；薪酬未披露。"}
+    ]}
+  ]
+}

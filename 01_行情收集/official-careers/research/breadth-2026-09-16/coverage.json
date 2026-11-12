@@ -1,0 +1,74 @@
+[
+  {
+    "query_direction": "基础大模型与开放平台",
+    "classification_status": "discovery_buckets_not_verified_company_industry",
+    "observations": 13,
+    "company_names": 7,
+    "full_jd": 0,
+    "company_discoveries": 7,
+    "market_complete": false
+  },
+  {
+    "query_direction": "云、算力与AI基础设施",
+    "classification_status": "discovery_buckets_not_verified_company_industry",
+    "observations": 24,
+    "company_names": 13,
+    "full_jd": 1,
+    "company_discoveries": 52,
+    "market_complete": false
+  },
+  {
+    "query_direction": "数据与AI开发平台",
+    "classification_status": "discovery_buckets_not_verified_company_industry",
+    "observations": 17,
+    "company_names": 9,
+    "full_jd": 6,
+    "company_discoveries": 9,
+    "market_complete": false
+  },
+  {
+    "query_direction": "企业软件与营销数字化",
+    "classification_status": "discovery_buckets_not_verified_company_industry",
+    "observations": 31,
+    "company_names": 11,
+    "full_jd": 20,
+    "company_discoveries": 55,
+    "market_complete": false
+  },
+  {
+    "query_direction": "AI企业应用",
+    "classification_status": "discovery_buckets_not_verified_company_industry",
+    "observations": 7,
+    "company_names": 7,
+    "full_jd": 1,
+    "company_discoveries": 7,
+    "market_complete": false
+  },
+  {
+    "query_direction": "汽车与智能出行数字化",
+    "classification_status": "discovery_buckets_not_verified_company_industry",
+    "observations": 15,
+    "company_names": 12,
+    "full_jd": 0,
+    "company_discoveries": 12,
+    "market_complete": false
+  },
+  {
+    "query_direction": "制造与工业智能化",
+    "classification_status": "discovery_buckets_not_verified_company_industry",
+    "observations": 28,
+    "company_names": 16,
+    "full_jd": 5,
+    "company_discoveries": 59,
+    "market_complete": false
+  },
+  {
+    "query_direction": "机器人与智能硬件",
+    "classification_status": "discovery_buckets_not_verified_company_industry",
+    "observations": 9,
+    "company_names": 7,
+    "full_jd": 1,
+    "company_discoveries": 10,
+    "market_complete": false
+  }
+]

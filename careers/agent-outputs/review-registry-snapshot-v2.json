@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "roles": {
+    "candidate_advisor": {
+      "agent_id": "01a08be2-f427-7713-9fde-883681c35e1b",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "max",
+      "dispatch_source": "Accepted Codex multi_agent_v1 spawn receipt in current turn",
+      "output_sha256": "d7b3691548341d04f6dfbb2715dab6696f1e8e977371400bf60c370a7010d456",
+      "input_sha256": {
+        "02_岗位画像/我的当前情况总结.md": "1a9d9afc5284d364e28098759174e28ca1ef129dba1b694f7a703a152be2da2b",
+        "careers/config/profile-supplement.json": "cf49a7d0cb666cd430a249f94bed251172f9d4a016822baebdebe689d46479ef",
+        "careers/config/preferences.json": "c112867f2f17eb3e36a83a478d6f51fa3c0ca257910ce144949662771d3769b1",
+        "careers/config/career-strategy.json": "71e5050d8fe2b16ebac6909449222802e5a2129f25e23831e9953c8a1d3ac231"
+      },
+      "accepted_at": "2026-09-10T15:32:20.224Z",
+      "binding_semantics": "Inputs and quotes verified at import; not a pre-execution snapshot",
+      "token_usage": null
+    },
+    "compensation_reviewer": {
+      "agent_id": "01a08bec-642c-7f62-967e-41a61f4334b6",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "dispatch_source": "Accepted Codex multi_agent_v1 spawn receipt in current turn",
+      "output_sha256": "42433120ee4ef4e79db3643e5120219cd5fc958c4a9e5aa3553638499685b818",
+      "input_sha256": {
+        "careers/config/market-leads.json": "b4b77e89967f1dbd493225d6764b645443a48343ee086e13dbc7387651e7133d",
+        "careers/config/preferences.json": "c112867f2f17eb3e36a83a478d6f51fa3c0ca257910ce144949662771d3769b1",
+        "careers/salary-target.mjs": "b3b0fed3493fce407850c73813106eb0a9a829a2e68d753eb8317434fb5f0cd8",
+        "01_行情收集/official-careers/research/headhunter-search-02.json": "096970b4306d2d54bee033f90c6d3d3e4c588755ab1afcaf89f4d5692429a78f",
+        "01_行情收集/official-careers/research/headhunter-search-03.json": "cd06c4c70fc7604a6e48ce1fff4270e192cecaf64c55ed22b73d63919f120cca",
+        "01_行情收集/official-careers/research/headhunter-search-04.json": "a4250c4c216ab27a8b6926a5836fafaf4273654e5dc3ba3e31845ad6fd3b31e8"
+      },
+      "accepted_at": "2026-09-10T15:34:56.151Z",
+      "binding_semantics": "Inputs and quotes verified at import; not a pre-execution snapshot",
+      "token_usage": null
+    },
+    "job_scout": {
+      "agent_id": "01a08be4-9c93-7cf3-87b5-65249d1c2c80",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "dispatch_source": "Accepted Codex multi_agent_v1 spawn receipt in current turn; same seven records after English-title regression fix",
+      "output_sha256": "3a1a7887f0346e5ced08c4ff4d3c465399d5a7d17c0739fc68a2dae9b6145709",
+      "input_sha256": {
+        "careers/config/preferences.json": "c112867f2f17eb3e36a83a478d6f51fa3c0ca257910ce144949662771d3769b1",
+        "careers/role-policy.mjs": "ab4e442c06c1df4329b8d2ff3965a4cbb32e2bdf5963c17253c40e99fc7d29a9",
+        "01_行情收集/official-careers/careers.sqlite": "297522170968168db87d3661fdcee9a835a73360130a397efd07b0341df15fae",
+        "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html": "b955d1848b40e95cb9cb036c996143c0bf7af4f6cf5e1f43e009d2e50774a1f4"
+      },
+      "accepted_at": "2026-09-10T15:48:11.647Z",
+      "binding_semantics": "Inputs and quotes verified at import; SQLite uses a read-only logical table snapshot, not physical bytes; not a pre-execution snapshot",
+      "token_usage": null
+    },
+    "industry_company_researcher": {
+      "agent_id": "01a08bef-d2b5-7243-9c59-13639957e2af",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "dispatch_source": "Accepted Codex multi_agent_v1 spawn receipt in current turn",
+      "output_sha256": "893d0a15968c8d0897f1f3e5334b32133cb7bd3ec53998be59d91735597d5296",
+      "input_sha256": {
+        "careers/config/funnel-sample.json": "78ad38a0586c657cfee03e8ab75b7ff822b3b1878977f582f1693bf4279ab0fe",
+        "01_行情收集/official-careers/research/state.json": "643869d54b5d357282f0a85ccea41f97f0405c1a6f92e485eff8da17f0b73d15",
+        "careers/config/market-leads.json": "b4b77e89967f1dbd493225d6764b645443a48343ee086e13dbc7387651e7133d",
+        "01_行情收集/official-careers/research/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac.txt": "9e6886c8a74e9fb96de9ad2d9f52a02febc062490f04a195efbc353c4e1e9938",
+        "01_行情收集/official-careers/research/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home.txt": "a9cc63391e3982a33f96bd2d668df35aede4f898c497e86f799b746e314bce39",
+        "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home.txt": "56ee74c5fc9a0db1e784807ef66c004fcd7cd6daef8912a7b1ef901cfc15adae",
+        "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about.txt": "e48db96b523bc663f73f0b61aec96b0c0f4c34630abb13483cb0c665346c1658",
+        "01_行情收集/official-careers/research/headhunter-search-02.json": "096970b4306d2d54bee033f90c6d3d3e4c588755ab1afcaf89f4d5692429a78f",
+        "01_行情收集/official-careers/research/headhunter-search-03.json": "cd06c4c70fc7604a6e48ce1fff4270e192cecaf64c55ed22b73d63919f120cca",
+        "01_行情收集/official-careers/research/policy-search-2026-09-10.json": "1ee0501a27c5e24b7ea76ede6e9a5ae98127e19bd048b4acfd7e26971fd96603"
+      },
+      "accepted_at": "2026-09-10T15:34:56.164Z",
+      "binding_semantics": "Inputs and quotes verified at import; not a pre-execution snapshot",
+      "token_usage": null
+    }
+  }
+}

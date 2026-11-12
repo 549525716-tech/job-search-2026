@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "fallback_run_id": "fallback-221a2908-0e82-4991-a300-5088f1a6f131",
+  "started_at": "2026-09-21T16:46:19.881Z",
+  "finished_at": "2026-09-21T16:48:04.770Z",
+  "status": "partial",
+  "complete": false,
+  "sources": [
+    {
+      "company_id": "minimax",
+      "run_id": null,
+      "status": "blocked",
+      "complete": false,
+      "jobs": 0,
+      "errors": [
+        {
+          "code": "BROWSER_ADAPTER_QUARANTINED",
+          "message": "Public-browser redirect-hop boundary pending independent verification; existing evidence remains available; no navigation or automatic retry."
+        }
+      ],
+      "started_at": "2026-09-21T16:46:19.885Z",
+      "finished_at": "2026-09-21T16:46:19.886Z",
+      "report_paths": {
+        "fallback_run_json": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/run.json",
+        "fallback_summary_markdown": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/summary.md"
+      }
+    },
+    {
+      "company_id": "bailian-ai",
+      "run_id": "bailian-ai-7fe56bc5-31e4-41de-8dbf-4f648a37c9e7",
+      "status": "success",
+      "complete": true,
+      "jobs": 4,
+      "errors": [],
+      "started_at": "2026-09-21T16:46:19.892Z",
+      "finished_at": "2026-09-21T16:47:05.863Z",
+      "report_paths": {
+        "database": "01_行情收集/official-careers/careers.sqlite",
+        "report_json": "01_行情收集/official-careers/reports/bailian-ai-7fe56bc5-31e4-41de-8dbf-4f648a37c9e7.json",
+        "report_markdown": "01_行情收集/official-careers/reports/bailian-ai-7fe56bc5-31e4-41de-8dbf-4f648a37c9e7.md",
+        "fallback_run_json": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/run.json",
+        "fallback_summary_markdown": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/summary.md"
+      }
+    },
+    {
+      "company_id": "deepseek",
+      "run_id": "deepseek-fc9fd81b-abc4-4800-803e-7492514ed213",
+      "status": "success",
+      "complete": true,
+      "jobs": 34,
+      "errors": [],
+      "started_at": "2026-09-21T16:47:05.883Z",
+      "finished_at": "2026-09-21T16:48:04.715Z",
+      "report_paths": {
+        "database": "01_行情收集/official-careers/careers.sqlite",
+        "report_json": "01_行情收集/official-careers/reports/deepseek-fc9fd81b-abc4-4800-803e-7492514ed213.json",
+        "report_markdown": "01_行情收集/official-careers/reports/deepseek-fc9fd81b-abc4-4800-803e-7492514ed213.md",
+        "fallback_run_json": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/run.json",
+        "fallback_summary_markdown": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/summary.md"
+      }
+    }
+  ],
+  "backlog": [
+    "BOSS browser automation quarantined, no webpage reads.",
+    "Liepin browser automation quarantined, no webpage reads."
+  ],
+  "artifacts": {
+    "run_json": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/run.json",
+    "summary_markdown": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/summary.md"
+  }
+}

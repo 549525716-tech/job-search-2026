@@ -1,0 +1,523 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-09T18:55:10.457Z",
+  "scope": "人工审核的小范围漏斗样本：1份历史政策、2家候选厂商、3条已取得完整JD；不是本周政策全量扫描或公司排名。",
+  "reporting_window": {
+    "from": "2026-09-09",
+    "to": "2026-09-09",
+    "semantics": "manual_generation_UTC_day_not_policy_publication_window"
+  },
+  "policies": [
+    {
+      "id": "ai-plus-2025",
+      "document_id": "policy-ai-plus-cac",
+      "title": "国务院关于深入实施“人工智能+”行动的意见",
+      "authority": "国务院",
+      "document_kind": "国发〔2025〕11号；中央网信办官方转载原文，非草案或解读",
+      "issued_at": "2025-08-21",
+      "published_at": "2025-08-27",
+      "effective_at": null,
+      "excerpt": "培育人工智能应用服务商，发展“模型即服务”、“智能体即服务”等，打造人工智能应用服务链。",
+      "risk_notes": [
+        "发布日期是转载页日期；成文日期是文件落款。页面CMS生成日期不作为政策修订日期。",
+        "首次纳入研究基线，不是本周新发布政策；政策支持不证明公司已有订单或职位收入稳定。"
+      ],
+      "source_url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+      "evidence_status": "原文与回执已核验",
+      "evidence_verified": true,
+      "observation_kind": "baseline",
+      "evidence": [
+        {
+          "url": "https://www.cac.gov.cn/2025-08/27/c_1758018277755538.htm",
+          "body_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac/002.response.json",
+          "sha256": "d75f6d97724e45316f7d9a9ed2fca753ed949a208a12bdacaf9aef0d82f1b244",
+          "captured_at": "2026-09-09T18:36:51.084Z"
+        }
+      ]
+    }
+  ],
+  "industries": [
+    {
+      "id": "enterprise-ai-growth",
+      "name": "企业AI应用与B2B获客",
+      "policy_ids": [
+        "ai-plus-2025"
+      ],
+      "demand_hypothesis": "商业假设：企业可能为客户优先级识别、线索拓展、销售协同和获客效率付费；须通过客户预算、付费与续约进一步验证。",
+      "limitations": [
+        "这是研究判断，不是政策直接点名某家公司，也不是已验证客户采购需求。"
+      ]
+    },
+    {
+      "id": "model-platform-commercialization",
+      "name": "模型平台商业化与销售运营",
+      "policy_ids": [
+        "ai-plus-2025"
+      ],
+      "demand_hypothesis": "商业假设：模型服务商需要把企业需求转化为可持续使用、销售经营机制与交付协同，技术销售和销售运营分别承担不同环节。",
+      "limitations": [
+        "行业前景不能代替固定底薪、人员权限、收入结构和具体JD门槛的核验。"
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": "bailian-ai",
+      "name": "百炼智能",
+      "document_id": "bailian-home",
+      "industry_ids": [
+        "enterprise-ai-growth"
+      ],
+      "business_excerpt": "拜访路线智能规划与销售协同",
+      "tier": "候选厂商，头腰部层级未验证",
+      "tier_basis": "只核验官网业务与招聘归属，未取得可比市场份额、收入或独立排名证据。",
+      "notes": [
+        "客户地图、路线规划与B2B经营场景具有可迁移交集；不能据此声称用户有该公司产品销售经历。"
+      ],
+      "source_url": "https://www.bailian-ai.com/",
+      "evidence_status": "原文与回执已核验",
+      "evidence_verified": true,
+      "observation_kind": "baseline",
+      "evidence": [
+        {
+          "url": "https://www.bailian-ai.com/",
+          "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.response.json",
+          "sha256": "78724121882680e1168e27928b2db95f47ca208d091791f60a288383a46b66b9",
+          "captured_at": "2026-09-09T18:35:27.589Z"
+        }
+      ],
+      "careers_url": "https://www.bailian-ai.com/joinus",
+      "job_keys": [
+        "bailian-official-joinus:www.bailian-ai.com:79"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "document_id": "minimax-home",
+      "industry_ids": [
+        "model-platform-commercialization"
+      ],
+      "business_excerpt": "以及面向企业和开发者的开放平台",
+      "tier": "候选厂商，头腰部层级未验证",
+      "tier_basis": "官网自述证明产品与企业开发者平台方向；不将自称领先当作独立排名或薪酬稳定性证据。",
+      "notes": [
+        "本轮仅更新官网业务证据。岗位使用此前完整采集记录；招聘浏览器适配器仍隔离，未重新访问。"
+      ],
+      "source_url": "https://www.minimax.cn/",
+      "evidence_status": "原文与回执已核验",
+      "evidence_verified": true,
+      "observation_kind": "baseline",
+      "evidence": [
+        {
+          "url": "https://www.minimax.cn/",
+          "body_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.response.json",
+          "sha256": "d78392a5eb34695902f32646d745fb1faadb723f2807ea538efa2b2d0598af81",
+          "captured_at": "2026-09-09T18:37:41.168Z"
+        }
+      ],
+      "careers_url": "https://www.minimax.cn/careers",
+      "job_keys": [
+        "minimax-public-browser:vrfi1sk8a0:7612560574200023323",
+        "minimax-public-browser:vrfi1sk8a0:7208019802982598968"
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7612560574200023323",
+      "company_name": "MiniMax",
+      "title": "大模型销售运营",
+      "location_raw": "北京 / 上海",
+      "salary_raw": null,
+      "job_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7612560574200023323/detail",
+      "application_url": null,
+      "source_job_id": "7612560574200023323",
+      "description_text": "一、销售管理规则设计与落地\n1、承接公司战略导向，结合产品策略及风险控制要求，设计并优化销售管理规则，包括但不限于客户管理规则、业绩管理规则、销售激励规则等；\n2、协调和推动团队内销售相关管理规则的落地执行，涵盖商机管理、客户管理、签约模式、项目流程管理及项目回款等。\n二、数据体系建设与分析\n1、负责商业管理、客户管理、业绩管理等方向的数据体系建设与分析，具备构建销售指标底层逻辑及配套在线化系统的能力；\n2、针对核心数据和指标链路，能准确、快速定位问题并反馈，协同团队进行深度专题分析；\n3、确保决策前后数据可追踪，推动数据看板线上化。\n三、销售资源管理与优化\n1、根据内外部基础信息、客户分层及业务团队分工，梳理、制定和优化销售资源流转规则，并根据不同时期业务特点进行动态修订，提高销售资源渗透率及覆盖率；\n2、负责跨部门沟通协调，合理分配和判定资源冲突，促进各业务线资源合理配置，提升组织效能与产能。\n四、业务支持与风险管控\n1、联动财务、产品、研发等团队，基于数据分析结果进行业务支持；\n2、针对不同行业的客户/商机信息进行深度挖掘，跟踪一线运营现状，识别潜在风险点，推动业务系统优化；\n3、了解一线业务诉求，结合经营管理规则和系统流程，为新合作模式提供可行的解决方案，协助商机项目落地。\n\n1、本科及以上学历，3年以上销售管理、销售运营或相关岗位工作经验；\n2、具备扎实的数据分析能力和跨部门沟通协调能力，能有效推动多方协作和项目落地；\n3、有基本的财务分析能力，理解财务指标与销售业绩指标之间的关联逻辑；\n4、较强的学习能力和自驱力，能适应快节奏、多变的业务环境。",
+      "description_complete": true,
+      "published_at": null,
+      "published_at_raw": 1772437604969,
+      "published_at_semantics": "Source publish_time preserved verbatim; unit and original versus republication semantics unconfirmed; not first observation",
+      "first_seen_at": "2026-09-09T15:13:54.798Z",
+      "source_checked_at": "2026-09-09T15:13:54.798Z",
+      "source_latest_attempt_at": "2026-09-09T15:39:59.276Z",
+      "source_health": "blocked",
+      "hiring_active": "unknown",
+      "policy_ids": [
+        "ai-plus-2025"
+      ],
+      "industry_ids": [
+        "model-platform-commercialization"
+      ],
+      "evidence": [
+        {
+          "url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7612560574200023323/detail",
+          "body_path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-public-079.body",
+          "metadata_path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-public-079.response.json",
+          "sha256": "3d637689d9b663e1c82134505541312b2fa8720bc793de8ec3d12b8a16222aa3",
+          "captured_at": "2026-09-09T15:13:54.798Z"
+        },
+        {
+          "url": "https://www.minimax.cn/careers",
+          "body_path": "01_行情收集/official-careers/raw/preflight-minimax-approved-b60d22e6-233c-4a08-b247-8e750cf20e16/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/preflight-minimax-approved-b60d22e6-233c-4a08-b247-8e750cf20e16/002.response.json",
+          "sha256": "2420fe4a3fe7e63f9ec69550d526fd27bf7ac896d4f7a73f1b77acd12fc59712",
+          "captured_at": "2026-09-09T14:25:02.568Z"
+        }
+      ],
+      "traceable": true,
+      "salary_target": {
+        "eligible": false,
+        "pending": true,
+        "status": "insufficient_evidence",
+        "reason": "salary_is_not_parsed_or_not_disclosed"
+      },
+      "selected_application_authorized": false,
+      "recommendation_status": "exploratory_or_pending",
+      "career_fit": {
+        "path": "草稿待独立复核；有条件探索",
+        "role_mission": "将公司战略、产品策略与风险要求转成可执行的销售规则、指标数据体系和资源分配机制，协调销售及财务、产品、研发等团队，支撑商机、签约、项目和回款链路，提高决策可追踪性与组织经营效率。JD描述的是经营机制和跨部门运营职责，未披露直管团队、招聘权或绩效审批权，不能称为人员管理岗。",
+        "verdict": "有条件主攻，是本次三条JD中进入路径相对可行的一条：本科及3年以上销售管理、销售运营或相关经验有batch直接证据，目标复盘、资源协同和经营分析可以迁移，长期可积累AI商业运营与ToB经营机制能力。但这只是相对优先级，不代表已经具备全部胜任条件。JD未披露直管团队，不认定为人员管理岗；需确认实际规则决策权、汇报线和后续管理发展路径。公司级数据治理、签约回款及财务关联逻辑存在证据缺口。salary_raw为空、salary_target待确认，固定月薪能否达到CNY20,000、浮动占比和收入可预期性均未知，不属于薪酬已达标推荐；hiring_active也为unknown。主攻动作限补证与选岗沟通，不等于授权投递。",
+        "resume_advice": "作为三条中的有条件主攻方向，材料主线应是把一线经营问题转成规则、指标与协同机制，服务长期AI商业运营/ToB能力积累，而非宣称已获人员管理岗位。先确认该岗决策权限、直管情况和管理发展路径，再按用户选岗授权准备定向材料；本轮不改简历或投递。前置销售管理与相关年限、10人同期直管和真实人事权限、目标复盘与资源协调，再用个人210家商户经营和AI地图证明业务分析落地。乐道累计带教21人不能写成同期直管21人，晋升只能写参与推荐；懂车帝跨区域分工督办不是人事管理，跨区增量不能合并归因。最小补证是一个规则设计到执行复盘的完整案例、一份指标字典及决策前后追踪样本、一份销售与财务指标关联分析，以及签约回款或新合作模式的本人责任证据。没有材料的部分写缺口，不编造AI签约回款、ARR或公司级系统交付；AI地图150%提效只保留个人测量口径。固定月薪CNY20,000尚未获披露，需核查固定/浮动构成、试用期、绩效指标与是否承担一线获客配额，收入可预期性不能从ToB标签推断。未读基础docx，base_resume_reviewed为false，不沿用；本分析为待独立语义复核草稿。",
+        "reason": "有条件主攻，是本次三条JD中进入路径相对可行的一条：本科及3年以上销售管理、销售运营或相关经验有batch直接证据，目标复盘、资源协同和经营分析可以迁移，长期可积累AI商业运营与ToB经营机制能力。但这只是相对优先级，不代表已经具备全部胜任条件。JD未披露直管团队，不认定为人员管理岗；需确认实际规则决策权、汇报线和后续管理发展路径。公司级数据治理、签约回款及财务关联逻辑存在证据缺口。salary_raw为空、salary_target待确认，固定月薪能否达到CNY20,000、浮动占比和收入可预期性均未知，不属于薪酬已达标推荐；hiring_active也为unknown。主攻动作限补证与选岗沟通，不等于授权投递。 将公司战略、产品策略与风险要求转成可执行的销售规则、指标数据体系和资源分配机制，协调销售及财务、产品、研发等团队，支撑商机、签约、项目和回款链路，提高决策可追踪性与组织经营效率。JD描述的是经营机制和跨部门运营职责，未披露直管团队、招聘权或绩效审批权，不能称为人员管理岗。 作为三条中的有条件主攻方向，材料主线应是把一线经营问题转成规则、指标与协同机制，服务长期AI商业运营/ToB能力积累，而非宣称已获人员管理岗位。先确认该岗决策权限、直管情况和管理发展路径，再按用户选岗授权准备定向材料；本轮不改简历或投递。前置销售管理与相关年限、10人同期直管和真实人事权限、目标复盘与资源协调，再用个人210家商户经营和AI地图证明业务分析落地。乐道累计带教21人不能写成同期直管21人，晋升只能写参与推荐；懂车帝跨区域分工督办不是人事管理，跨区增量不能合并归因。最小补证是一个规则设计到执行复盘的完整案例、一份指标字典及决策前后追踪样本、一份销售与财务指标关联分析，以及签约回款或新合作模式的本人责任证据。没有材料的部分写缺口，不编造AI签约回款、ARR或公司级系统交付；AI地图150%提效只保留个人测量口径。固定月薪CNY20,000尚未获披露，需核查固定/浮动构成、试用期、绩效指标与是否承担一线获客配额，收入可预期性不能从ToB标签推断。未读基础docx，base_resume_reviewed为false，不沿用；本分析为待独立语义复核草稿。 来源受限或岗位状态异常，须重新确认在招状态。 固定月薪、人员管理权限和收入稳定性需要单独核实。",
+        "score": 60,
+        "score_semantics": "证据覆盖判断，不是面试概率或管理适任概率",
+        "assessment_review_status": "pending",
+        "direct_evidence": [
+          "本科及以上学历：batch的教育摘录直接支持本科层级，JD没有限定计算机专业。只按本项学历条件判断，不据此推定财务、技术或行业能力。",
+          "3年以上销售管理、销售运营或相关岗位工作经验：JD允许销售管理、销售运营或相关岗位经历，batch的4年经历及任职时间线、真实管理权限与商业经营职责直接支持该广义年限要求。两家公司分别同期直管10人，不累计为同期20人；晋升只参与推荐，懂车帝210家为个人客户，跨区协同不是人事管理。这里不主张3年以上大模型销售运营经验。"
+        ],
+        "transferable_evidence": [
+          "承接战略、产品与风险要求设计客户、业绩及激励管理规则：证据支持门店激励分配、目标过程管理、服务商KPI设计和区域策略参与，适合作为经营规则经验迁移。不能把参与区域政策调整写成独立制定公司级销售制度，也缺少产品策略、合规风险与跨业务线激励规则联动的完整案例。",
+          "推动商机、客户、签约、项目与回款管理规则落地：客户阶段管理和跨区督办支持流程执行的迁移，但batch没有签约模式设计、项目回款、授信或应收管理的直接证据。不能把商户消耗和平台运营等同于公司合同至回款的端到端流程所有权。",
+          "构建销售指标底层逻辑及在线数据体系，定位问题并追踪决策效果：批次直接记录经营工具的数据整合、漏斗下钻及团队使用，但公司级销售指标字典、口径治理、源数据校验、权限及决策前后审计链未提供，只判迁移覆盖。150%和约2小时均属个人测量，不能用于证明团队整体提效或公司级系统验收。",
+          "制定销售资源流转规则并协调跨业务线资源冲突：跨区域分工督办和门店资源统筹可迁移至资源协调。batch未证明本人拥有跨业务线客户归属裁决权、资源流转制度的独立审批权，也没有跨区整体增量的独立数据，不能扩大权限或合并归因。",
+          "基本财务分析能力及财务指标与销售业绩指标的关联理解：商户ROI和项目费效比支持经营经济性分析的基础，但不直接证明能区分签约、收入确认、回款、毛利和现金流，也没有财务对账或指标联动案例。不能仅凭金融管理专科学历判定财务实操已满足。",
+          "以数据分析联动财务、产品和研发开展跨部门业务支持：现有事实支持数据沟通、产品与运营协作，但未披露直接与财务、研发共同决策及项目交付的责任分工。可迁移的是业务分析和协调方法，不是已覆盖所有职能接口的证明。",
+          "挖掘客户商机、识别运营风险并支持业务系统和合作模式优化：汽车商户经营和客户反馈闭环支持一线洞察与方案支持的迁移；跨行业新合作模式、合同风险、财务风险及正式系统流程改造仍缺实例，不把单行业经营经验扩展成全行业销售风控能力。",
+          "学习、自驱及适应快节奏变化的能力：经营工具实践及新市场开拓可以支持学习和主动推进的案例，但适应大模型企业快速策略变化的表现还未验证，需以学习过程、迭代和失败复盘补充，而非笼统自评。"
+        ],
+        "gaps": [],
+        "questions": [
+          "向本人补证：选一个实际主导的销售规则或资源调整案例，说明原问题、本人决策与审批边界、执行对象、前后数据和复盘材料；跨区协同与直管团队分别列明。",
+          "向本人补证：能否提供指标字典、数据来源校验、决策前后追踪样本，以及把签约、收入、回款、毛利或现金流与销售业绩关联的真实分析？没有的明确记缺口。",
+          "向招聘方核查：岗位是否仍招，汇报给谁，是否有直管团队及招聘绩效权限，经营规则和资源冲突有何实际裁决权，未来走专家还是管理路径？",
+          "向招聘方核查：固定月薪是否明确至少CNY20,000，浮动、试用期、业务考核及个人获客配额如何设置？主要客户和产品成熟度、可重复业务及跨部门支持资源如何影响工作与收入可预期性？",
+          "固定月薪是否至少人民币20,000元，不含提成、奖金和OTE？",
+          "岗位实际带队人数、招聘绩效权限与浮动收入比例是什么？"
+        ],
+        "hard_gates": [
+          {
+            "requirement_id": "R1",
+            "status": "met",
+            "reason": "EV-EDUCATION直接列明行政管理本科，符合本岗未限定专业的本科及以上条件。",
+            "requirement": "本科及以上学历"
+          },
+          {
+            "requirement_id": "R2",
+            "status": "met",
+            "reason": "EV-CAREER-TENURE的4年销售管理及商业经营时间线，结合EV-TESLA-MANAGEMENT、EV-ONVO-MANAGEMENT及EV-DCD-BIZOPS的实际职责，支持JD允许的销售管理、销售运营或相关岗位年限；不推定为4年大模型经验。",
+            "requirement": "3年以上销售管理、销售运营或相关岗位工作经验"
+          },
+          {
+            "requirement_id": "R5",
+            "status": "unknown",
+            "reason": "岗位明确要求指标底层逻辑及配套在线系统；AI地图仅提供相邻实践，缺公司级指标口径、数据质量、追踪审计及本人系统责任范围证据。",
+            "requirement": "构建销售指标底层逻辑及在线数据体系，定位问题并追踪决策效果"
+          },
+          {
+            "requirement_id": "R7",
+            "status": "unknown",
+            "reason": "商户ROI与费效比仅可迁移，财务指标和销售指标的完整关联逻辑及实际运用尚无直接证据。",
+            "requirement": "基本财务分析能力及财务指标与销售业绩指标的关联理解"
+          }
+        ],
+        "resume_reuse_eligible": false
+      }
+    },
+    {
+      "job_key": "bailian-official-joinus:www.bailian-ai.com:79",
+      "company_name": "百炼智能",
+      "title": "项目经理",
+      "location_raw": "北京",
+      "salary_raw": null,
+      "job_url": "https://www.bailian-ai.com/joinus",
+      "application_url": "mailto:hr@bailian.ai",
+      "source_job_id": "79",
+      "description_text": "岗位职责\n1、负责项目需求分析和梳理，确定项目需求范围并主导成本评估，主导功能设计并进行原型设计；\n2、负责实施项目管理工作，包括对项目整体上的监督、管理和指导，包括项目启动、项目计划、项目验收及项目的总结评审及相关工作，并对项目全流程的质量、进度和成本进行把控；\n3、负责项目实施过程的文档编制及配合客户进行的汇报工作；\n4、参与项目的现场实施，维持与客户的良好关系，保证项目顺利验收交付；\n5、负责客户需求深挖，持续服务并引导客户新需求拓展，可支持销售促成新老客户项目机会。\n\n任职要求\n1、统招大专及以上学历，3年及以上TOB/TOG项目管理工作经验；\n2、具有良好的文档撰写能力；\n3、思路清晰、理解能力强，并有出色的沟通能力、业务推进和资源协调能力，有高度的责任心、快速学习能力和很好的抗压性，有很强的执行力；\n4、有数据中台、知识图谱、NLP相关项目经验加分；\n5、有PMP项目管理认证\n\n发送简历\nhr@bailian.ai",
+      "description_complete": true,
+      "published_at": "2023-08-23",
+      "published_at_raw": "2023-08-23 00:00:00",
+      "published_at_semantics": "Official card calendar date agrees with source publishTime; full original string retained; not first observation",
+      "first_seen_at": "2026-09-09T14:13:03.609Z",
+      "source_checked_at": "2026-09-09T18:43:04.840Z",
+      "source_latest_attempt_at": "2026-09-09T18:43:10.065Z",
+      "source_health": "success",
+      "hiring_active": "unknown",
+      "policy_ids": [
+        "ai-plus-2025"
+      ],
+      "industry_ids": [
+        "enterprise-ai-growth"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.bailian-ai.com/joinus",
+          "body_path": "01_行情收集/official-careers/raw/bailian-ai-6abf6279-4c75-458d-bfd5-5c9f4eeb8313/003.body",
+          "metadata_path": "01_行情收集/official-careers/raw/bailian-ai-6abf6279-4c75-458d-bfd5-5c9f4eeb8313/003.response.json",
+          "sha256": "f82ac7357a749750948744a7ee29649f41c87435be01edd89aea1b7a1449b804",
+          "captured_at": "2026-09-09T18:43:04.840Z"
+        },
+        {
+          "url": "https://www.bailian-ai.com/about",
+          "body_path": "01_行情收集/official-careers/raw/bailian-ai-6abf6279-4c75-458d-bfd5-5c9f4eeb8313/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/bailian-ai-6abf6279-4c75-458d-bfd5-5c9f4eeb8313/002.response.json",
+          "sha256": "a8ae7e3fe48e027cf836bf59ee6263d89e34575d5dcdd7fdd4840759276594a7",
+          "captured_at": "2026-09-09T18:42:46.345Z"
+        }
+      ],
+      "traceable": true,
+      "salary_target": {
+        "eligible": false,
+        "pending": true,
+        "status": "insufficient_evidence",
+        "reason": "salary_is_not_parsed_or_not_disclosed"
+      },
+      "selected_application_authorized": false,
+      "recommendation_status": "exploratory_or_pending",
+      "career_fit": {
+        "path": "草稿待独立复核；暂缓该岗位",
+        "role_mission": "把客户需求转成有明确范围、成本、功能设计和验收标准的项目，统筹启动、计划、现场实施、验收及总结评审，控制全流程质量、进度和成本，并从持续服务中发现追加项目机会。岗位的核心组织价值是可验收的客户交付及后续合作；项目管理职责不能直接等同于直管团队或人事管理权限。",
+        "verdict": "暂缓本条具体岗位，保留客户交付及持续经营方向的探索价值。岗位有长期ToB/ToG需求理解、交付和增量服务的积累空间，但进入路径被3年项目管理经验、PMP及实际交付证据的未知状态限制；JD没有披露直管团队或人事权限，不能据项目经理头衔认定为人员管理岗。历史官网JD留存不等于当前开放：batch的hiring_active为unknown，且没有可核验2023年旧JD发布日期的字段，需确认旧文日期与是否仍招。salary_raw为空、salary_target为待确认，固定月薪是否达到CNY20,000及浮动占比、收入可预期性均未知，不能进入薪酬达标池。现有可迁移证据不等于硬门槛已通过，也不构成投递授权。",
+        "resume_advice": "先暂缓这条项目经理JD的材料定向与投递，优先补统招性质、PMP、3年TOB/TOG项目时间线及验收责任证据，并确认2023年旧JD的日期与是否仍招；batch本身未提供发布日期，不能把官网留存当当前开放。长期价值在需求、交付和客户持续经营，不在经理头衔；直管团队、资源审批及发展路径须向招聘方确认。固定月薪CNY20,000是目标而非已满足条件，本岗固定薪、浮动薪、项目考核和收入可预期性均未知。若门槛获得直接证明，再以客户需求闭环、资源统筹和文档汇报为主线准备材料；否则探索交付协调或客户成功等相邻路径，不将其写成本批次已发现的岗位。10人同期直管与跨区域督办分别归属乐道和懂车帝，不能合并为大区人事管理，不虚构软件实施、项目验收或AI签约回款。本轮只用batch事实，未读取基础docx，不沿用简历，分析为待独立语义复核草稿。",
+        "reason": "暂缓本条具体岗位，保留客户交付及持续经营方向的探索价值。岗位有长期ToB/ToG需求理解、交付和增量服务的积累空间，但进入路径被3年项目管理经验、PMP及实际交付证据的未知状态限制；JD没有披露直管团队或人事权限，不能据项目经理头衔认定为人员管理岗。历史官网JD留存不等于当前开放：batch的hiring_active为unknown，且没有可核验2023年旧JD发布日期的字段，需确认旧文日期与是否仍招。salary_raw为空、salary_target为待确认，固定月薪是否达到CNY20,000及浮动占比、收入可预期性均未知，不能进入薪酬达标池。现有可迁移证据不等于硬门槛已通过，也不构成投递授权。 把客户需求转成有明确范围、成本、功能设计和验收标准的项目，统筹启动、计划、现场实施、验收及总结评审，控制全流程质量、进度和成本，并从持续服务中发现追加项目机会。岗位的核心组织价值是可验收的客户交付及后续合作；项目管理职责不能直接等同于直管团队或人事管理权限。 先暂缓这条项目经理JD的材料定向与投递，优先补统招性质、PMP、3年TOB/TOG项目时间线及验收责任证据，并确认2023年旧JD的日期与是否仍招；batch本身未提供发布日期，不能把官网留存当当前开放。长期价值在需求、交付和客户持续经营，不在经理头衔；直管团队、资源审批及发展路径须向招聘方确认。固定月薪CNY20,000是目标而非已满足条件，本岗固定薪、浮动薪、项目考核和收入可预期性均未知。若门槛获得直接证明，再以客户需求闭环、资源统筹和文档汇报为主线准备材料；否则探索交付协调或客户成功等相邻路径，不将其写成本批次已发现的岗位。10人同期直管与跨区域督办分别归属乐道和懂车帝，不能合并为大区人事管理，不虚构软件实施、项目验收或AI签约回款。本轮只用batch事实，未读取基础docx，不沿用简历，分析为待独立语义复核草稿。 固定月薪、人员管理权限和收入稳定性需要单独核实。",
+        "score": 34,
+        "score_semantics": "证据覆盖判断，不是面试概率或管理适任概率",
+        "assessment_review_status": "pending",
+        "direct_evidence": [
+          "持续挖掘客户需求，支持新老客户增量项目机会：商户需求诊断、决策推进、持续陪跑及开发回捞直接支持这项客户经营能力。直接覆盖仅限需求深挖与机会支持，不据此主张已成交AI项目、取得软件项目回款或拥有ToG采购经验。"
+        ],
+        "transferable_evidence": [
+          "统招大专及以上学历，学历层级与统招性质分开核验：批次简历摘录直接支持大专及本科学历层级，但没有注明统招性质。将学历组合条件记为部分覆盖，不以本科层级反推统招，待补学历类型证明。",
+          "需求范围界定、成本评估与功能及原型设计：客户诊断和经营工具设计可迁移到需求梳理与业务功能定义。尚无对外项目的需求基线、范围变更、工时成本评估及客户确认原型证据，不能声称已主导完整软件项目方案。",
+          "项目启动至评审全过程的质量、进度和成本控制：乐道证据直接说明同期10人直管及招聘、绩效、激励决策，晋升仅为参与推荐；懂车帝证据说明跨区域分工督办，不说明人事管理权。两者支持目标、资源、节奏管理的迁移，但没有企业实施项目的质量基线、预算控制、里程碑与验收评审记录。",
+          "项目实施文档编制与客户汇报：现有事实支持业务文档与面向客户决策者的汇报产出，可迁移至项目沟通；实施计划、需求规格、测试或验收文档尚无样本，不把经营报告直接改名为工程交付文档。",
+          "沟通理解、资源协调、业务推进及学习执行能力：已有跨部门问题推进和门店资源统筹事实，支持协作与执行的迁移。复杂项目冲突、失败复盘及高压交付中的具体表现未提供，不将通用软能力整体判为已验证。"
+        ],
+        "gaps": [
+          "至少3年TOB/TOG项目管理工作经验：现有年限属于汽车销售管理及平台商业化经营，未提供可累计达到3年的TOB/TOG项目管理清单、起止时间、本人职责或验收材料。门店项目和个人商户经营不能直接换算为该专项年限。",
+          "持有PMP项目管理认证：JD将PMP列为任职要求而非加分项；batch没有证书或有效期证据，应标记待核查，不推断已持有，也不把管理经历视为认证替代物。",
+          "现场实施并保证客户验收交付：批次证据是客户问题协调，不是客户现场实施、部署联调或验收签认。关系维护虽有相邻经验，该要求的实质产出是现场验收交付，目前缺直接证据，不以Bug协调判定交付能力已满足。",
+          "数据中台、知识图谱或NLP相关项目经验，属于加分项而非必备条件：车源分析和经营工具不能直接证明数据中台、知识图谱或NLP项目经历。该项按JD原文只作技术加分核查，缺少证据不单独构成淘汰理由。"
+        ],
+        "questions": [
+          "向本人核查：统招学历证明及有效PMP是否具备？能否列出累计至少3年的TOB/TOG项目、起止时间、本人职责、预算及验收材料？",
+          "向本人核查：是否有客户现场实施、范围变更、质量进度成本控制的直接样本？数据中台、知识图谱或NLP经历若无，保留为加分缺口即可。",
+          "向招聘方核查：2023年旧JD的日期及该岗位是否仍开放？汇报对象、直管人数、人事和资源权限、出差强度以及交付后客户经营职责是什么？",
+          "向招聘方核查：税前固定月薪是否明确至少CNY20,000，是否独立于奖金、提成及项目回款？试用期固定薪、项目考核和收入波动机制是什么？",
+          "固定月薪是否至少人民币20,000元，不含提成、奖金和OTE？",
+          "岗位实际带队人数、招聘绩效权限与浮动收入比例是什么？"
+        ],
+        "hard_gates": [
+          {
+            "requirement_id": "R1",
+            "status": "unknown",
+            "reason": "EV-EDUCATION证明学历层级，但统招性质未披露，需补证后判断完整学历门槛。",
+            "requirement": "统招大专及以上学历，学历层级与统招性质分开核验"
+          },
+          {
+            "requirement_id": "R2",
+            "status": "unknown",
+            "reason": "缺至少3年TOB/TOG项目管理的时间线及本人职责、交付材料；4年一般销售管理经历不能替代。",
+            "requirement": "至少3年TOB/TOG项目管理工作经验"
+          },
+          {
+            "requirement_id": "R3",
+            "status": "unknown",
+            "reason": "PMP是JD单列任职要求，batch未提供持证及有效期信息，不能判met。",
+            "requirement": "持有PMP项目管理认证"
+          },
+          {
+            "requirement_id": "R6",
+            "status": "unknown",
+            "reason": "现场实施和客户验收是核心交付要求；缺现场实施方案、上线验收及本人责任范围证据。",
+            "requirement": "现场实施并保证客户验收交付"
+          },
+          {
+            "requirement_id": "R10",
+            "status": "unknown",
+            "reason": "仅核查JD明示的技术加分项，不作为硬性排除条件；尚无数据中台、知识图谱或NLP项目证据。",
+            "requirement": "数据中台、知识图谱或NLP相关项目经验，属于加分项而非必备条件"
+          }
+        ],
+        "resume_reuse_eligible": false
+      }
+    },
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7208019802982598968",
+      "company_name": "MiniMax",
+      "title": "大模型技术销售工程师",
+      "location_raw": "深圳 / 北京 / 上海 / 广州 / 中国香港",
+      "salary_raw": null,
+      "job_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7208019802982598968/detail",
+      "application_url": null,
+      "source_job_id": "7208019802982598968",
+      "description_text": "1、负责泛互联网、智能硬件、文娱游戏、广告媒体等行业的头部 KA 开拓与深耕，建立并维护产品、技术、业务、高管等多层次客户关系；\n2、系统掌握客户业务现状、战略规划、技术架构及 AI 应用成熟度，绘制完整的决策地图；\n3、具备技术方案能力，独立制作并演示技术 Demo，将模型能力直观呈现给客户，推动 POC 快速推进；\n4、持续跟踪客户上线效果，推动 AI 应用在客户内部规模化复制，挖掘增量商机。\n\n1、本科及以上学历，3 年以上云厂商或MaaS 平台ToB 销售经验；\n2、技术理解力：具备一定的 AI 技术认知，能将模型能力有效转化为业务价值主张，在与客户研发、产品团队的沟通中清晰传递公司技术方案和模型的差异化优势；\n3、场景洞察力：能快速识别客户最具 ROI 价值的 AI 落地场景，制定清晰可执行的切入路径；\n4、项目推进力：具备强跨团队协调能力，能高效整合研发、产品、交付等内部资源，推动复杂项目按时落地。",
+      "description_complete": true,
+      "published_at": null,
+      "published_at_raw": 1678247935304,
+      "published_at_semantics": "Source publish_time preserved verbatim; unit and original versus republication semantics unconfirmed; not first observation",
+      "first_seen_at": "2026-09-09T15:13:54.798Z",
+      "source_checked_at": "2026-09-09T15:13:54.798Z",
+      "source_latest_attempt_at": "2026-09-09T15:39:59.276Z",
+      "source_health": "blocked",
+      "hiring_active": "unknown",
+      "policy_ids": [
+        "ai-plus-2025"
+      ],
+      "industry_ids": [
+        "model-platform-commercialization"
+      ],
+      "evidence": [
+        {
+          "url": "https://vrfi1sk8a0.jobs.feishu.cn/index/position/7208019802982598968/detail",
+          "body_path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-public-079.body",
+          "metadata_path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-public-079.response.json",
+          "sha256": "3d637689d9b663e1c82134505541312b2fa8720bc793de8ec3d12b8a16222aa3",
+          "captured_at": "2026-09-09T15:13:54.798Z"
+        },
+        {
+          "url": "https://www.minimax.cn/careers",
+          "body_path": "01_行情收集/official-careers/raw/preflight-minimax-approved-b60d22e6-233c-4a08-b247-8e750cf20e16/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/preflight-minimax-approved-b60d22e6-233c-4a08-b247-8e750cf20e16/002.response.json",
+          "sha256": "2420fe4a3fe7e63f9ec69550d526fd27bf7ac896d4f7a73f1b77acd12fc59712",
+          "captured_at": "2026-09-09T14:25:02.568Z"
+        }
+      ],
+      "traceable": true,
+      "salary_target": {
+        "eligible": false,
+        "pending": true,
+        "status": "insufficient_evidence",
+        "reason": "salary_is_not_parsed_or_not_disclosed"
+      },
+      "selected_application_authorized": false,
+      "recommendation_status": "exploratory_or_pending",
+      "career_fit": {
+        "path": "草稿待独立复核；暂缓该岗位",
+        "role_mission": "在指定行业头部KA中建立业务、产品、技术及高管关系，理解客户战略和技术架构，形成AI价值方案，以独立技术Demo和POC推进应用落地，再跟踪上线效果并扩大复制。组织为技术可信度、复杂客户决策推进和可扩张的客户价值付费，岗位不是普通获客销售，也未披露人员管理职责。",
+        "verdict": "探索长期ToB技术方案与关键客户能力路径，但本条具体岗位暂缓投入定向投递，不作当前主攻。JD的行业头部KA、技术决策地图、独立Demo、POC及规模化上线要求构成实质进入门槛，现有汽车商户经营和个人AI工具只能部分迁移；3年以上云厂商或MaaS平台ToB销售经历没有直接证明，不能判met。长期价值来自解决方案与客户关系积累，不意味着收入稳定，也没有直管团队证据。salary_raw为空、salary_target待确认，固定月薪能否达到CNY20,000及浮动、配额和获客压力均未知，不可称薪酬达标；hiring_active为unknown。先补专项年限及真实技术交付证据，再判断能否进入本岗；否则将其作为能力差距参照，而非用AI标签驱动跨级申请。",
+        "resume_advice": "保留为长期ToB方案销售路径探索，暂缓本条具体申请，不以个人AI实践冲抵云/MaaS专项年限、技术Demo和POC门槛。可前置客户问题诊断、ROI价值沟通、客户持续经营及跨部门推进；内部AI地图只能作为业务工具案例，不能写为客户技术方案、企业级POC或生产交付。最小补证为3年专项销售时间线、一个真实客户技术Demo及POC案例、客户多层决策地图、上线效果与本人研发交付协作责任；若没有，明确为真实缺口，学习作品只能标学习验证，不能回填成职业经验。长期价值需要通过实际客户关系所有权、方案深度、重复交付和发展路径核实；本JD没有披露直管团队，不能把候选人的10人直管经历套成目标岗位人员管理职责。固定月薪是否达到CNY20,000未知，需先核查底薪、浮动、配额、存量与新拓比例及技术支持资源，不能把AI或ToB等同于收入可预期。未读取基础docx，不沿用、不修改简历；本轮仅为待独立语义复核分析，未获任何投递授权。",
+        "reason": "探索长期ToB技术方案与关键客户能力路径，但本条具体岗位暂缓投入定向投递，不作当前主攻。JD的行业头部KA、技术决策地图、独立Demo、POC及规模化上线要求构成实质进入门槛，现有汽车商户经营和个人AI工具只能部分迁移；3年以上云厂商或MaaS平台ToB销售经历没有直接证明，不能判met。长期价值来自解决方案与客户关系积累，不意味着收入稳定，也没有直管团队证据。salary_raw为空、salary_target待确认，固定月薪能否达到CNY20,000及浮动、配额和获客压力均未知，不可称薪酬达标；hiring_active为unknown。先补专项年限及真实技术交付证据，再判断能否进入本岗；否则将其作为能力差距参照，而非用AI标签驱动跨级申请。 在指定行业头部KA中建立业务、产品、技术及高管关系，理解客户战略和技术架构，形成AI价值方案，以独立技术Demo和POC推进应用落地，再跟踪上线效果并扩大复制。组织为技术可信度、复杂客户决策推进和可扩张的客户价值付费，岗位不是普通获客销售，也未披露人员管理职责。 保留为长期ToB方案销售路径探索，暂缓本条具体申请，不以个人AI实践冲抵云/MaaS专项年限、技术Demo和POC门槛。可前置客户问题诊断、ROI价值沟通、客户持续经营及跨部门推进；内部AI地图只能作为业务工具案例，不能写为客户技术方案、企业级POC或生产交付。最小补证为3年专项销售时间线、一个真实客户技术Demo及POC案例、客户多层决策地图、上线效果与本人研发交付协作责任；若没有，明确为真实缺口，学习作品只能标学习验证，不能回填成职业经验。长期价值需要通过实际客户关系所有权、方案深度、重复交付和发展路径核实；本JD没有披露直管团队，不能把候选人的10人直管经历套成目标岗位人员管理职责。固定月薪是否达到CNY20,000未知，需先核查底薪、浮动、配额、存量与新拓比例及技术支持资源，不能把AI或ToB等同于收入可预期。未读取基础docx，不沿用、不修改简历；本轮仅为待独立语义复核分析，未获任何投递授权。 来源受限或岗位状态异常，须重新确认在招状态。 固定月薪、人员管理权限和收入稳定性需要单独核实。",
+        "score": 41,
+        "score_semantics": "证据覆盖判断，不是面试概率或管理适任概率",
+        "assessment_review_status": "pending",
+        "direct_evidence": [
+          "本科及以上学历：batch教育摘录直接支持本科层级；JD未限定计算机专业，因此不额外添加专业门槛，但学历不证明技术销售或工程交付能力。"
+        ],
+        "transferable_evidence": [
+          "指定行业头部KA开拓深耕及产品、技术、业务、高管多层关系经营：汽车行业KA与老板沟通支持客户经营方法迁移，但不能将汽车商户视为JD所列行业头部KA，也没有与客户研发、产品和技术高管同时经营的关系图或资源证据。行业与多层关系能力尚待核查。",
+          "掌握客户业务、战略、技术架构与AI成熟度并绘制完整决策地图：能证明客户业务现状和经营差距诊断，不能证明客户技术架构评估、AI成熟度评估或完整企业IT采购链路。尚无跨产品、研发、业务及高管的决策地图，不能从与商户老板沟通推导复杂企业采购能力。",
+          "向客户研发和产品团队解释AI方案、模型差异及业务价值：业务工具和ROI表达支持价值主张的迁移，但没有模型能力边界、质量评测、延迟成本权衡及与客户研发产品团队沟通差异化的直接证据。使用AI工具不等于能够代表MaaS产品进行技术方案论证。",
+          "识别高ROI的AI落地场景并设计可执行切入路径：商户ROI诊断和内部经营场景优先级选择支持问题识别及行动路径设计。面向外部客户的AI可行性、数据条件、模型成本、基线收益和实施风险尚无完整验证，不能把商户投放ROI等同于已验证的AI项目ROI。",
+          "跟踪客户上线效果并推动AI应用规模化复制和增量机会：内部工具被团队使用与商户持续经营是相邻经验，不等于客户AI应用已上线或规模化复制。缺外部客户上线指标、推广覆盖、运行约束及增量归因证据，个人150%拜访提效不能替代客户生产效果。",
+          "整合研发、产品及交付资源推动复杂项目按时落地：跨职能问题闭环和跨区域督办可迁移到协作推进，但未证明本人统筹研发、产品、交付的完整复杂项目及按期结果；也不能将同事督办写成人事管理或研发资源审批权限。"
+        ],
+        "gaps": [
+          "3年以上云厂商或MaaS平台ToB销售经验：现有任职时间线不提供3年云厂商或MaaS平台ToB销售的直接证明。汽车销售、平台商户运营、AI工具使用及企业员工购车渠道不能折算为该专项销售年限，需补对应雇主、产品、客户和本人销售责任证据。",
+          "独立制作演示技术Demo并推动客户POC：AI地图只证明内部经营工具实践及团队使用，不支持声称已独立制作客户技术Demo或推进企业级POC。缺面向真实客户的模型调用或集成、演示记录、POC范围与成功标准、评估结果及本人技术贡献，不能用个人提效结果判met。"
+        ],
+        "questions": [
+          "向本人核查：是否存在batch以外可提供原始证据的云厂商或MaaS平台ToB销售经历，累计多久，雇主、产品、客户类型和本人责任分别是什么？没有则保留专项年限缺口。",
+          "向本人核查：是否独立做过面向真实客户的技术Demo及POC？请给出集成内容、本人实现部分、范围、成功标准、评估记录和结果；内部AI地图不作为替代。",
+          "向本人核查：是否有目标行业KA的多层决策地图、客户上线后复制及整合研发产品交付的直接样本？没有则不添加到简历。",
+          "向招聘方核查：岗位是否仍开放，云/MaaS年限是否硬性要求、Demo及POC须独立到何种深度、有哪些技术支持资源，客户关系所有权和后续发展路径是什么？",
+          "向招聘方核查：固定月薪是否明确至少CNY20,000，浮动占比、试用期固定薪、配额、新拓与存量比例及考核周期是什么？城市、出差及香港工作许可需求也需单独确认。",
+          "固定月薪是否至少人民币20,000元，不含提成、奖金和OTE？",
+          "岗位实际带队人数、招聘绩效权限与浮动收入比例是什么？"
+        ],
+        "hard_gates": [
+          {
+            "requirement_id": "R1",
+            "status": "met",
+            "reason": "EV-EDUCATION直接支持本科层级，本岗没有计算机专业限定。",
+            "requirement": "本科及以上学历"
+          },
+          {
+            "requirement_id": "R2",
+            "status": "unknown",
+            "reason": "缺3年以上云厂商或MaaS平台ToB销售的专项时间线与责任证据；一般销售管理年限和个人AI工具不能替代。",
+            "requirement": "3年以上云厂商或MaaS平台ToB销售经验"
+          },
+          {
+            "requirement_id": "R3",
+            "status": "unknown",
+            "reason": "汽车KA可迁移但不是指定行业头部KA及多层技术关系的直接证明，需核查对应客户和本人关系覆盖。",
+            "requirement": "指定行业头部KA开拓深耕及产品、技术、业务、高管多层关系经营"
+          },
+          {
+            "requirement_id": "R4",
+            "status": "unknown",
+            "reason": "缺客户技术架构、AI成熟度及完整决策地图的直接样本，现有商户诊断只能部分迁移。",
+            "requirement": "掌握客户业务、战略、技术架构与AI成熟度并绘制完整决策地图"
+          },
+          {
+            "requirement_id": "R5",
+            "status": "unknown",
+            "reason": "未提供独立客户技术Demo及POC的范围、成功指标、过程、结果和本人技术贡献；内部AI工具不能判定此门槛met。",
+            "requirement": "独立制作演示技术Demo并推动客户POC"
+          },
+          {
+            "requirement_id": "R6",
+            "status": "unknown",
+            "reason": "缺面向客户研发、产品团队论证模型差异与技术方案的直接证据，工具使用不能代替模型技术理解验证。",
+            "requirement": "向客户研发和产品团队解释AI方案、模型差异及业务价值"
+          },
+          {
+            "requirement_id": "R8",
+            "status": "unknown",
+            "reason": "缺外部客户AI上线后的效果监测、规模化复制及增量归因证据，团队内部使用不等同于客户生产落地。",
+            "requirement": "跟踪客户上线效果并推动AI应用规模化复制和增量机会"
+          },
+          {
+            "requirement_id": "R9",
+            "status": "unknown",
+            "reason": "缺统筹研发、产品、交付的复杂项目时间计划、资源分工与按期结果，业务协调不能直接证明工程交付。",
+            "requirement": "整合研发、产品及交付资源推动复杂项目按时落地"
+          }
+        ],
+        "resume_reuse_eligible": false
+      }
+    }
+  ],
+  "issues": [
+    {
+      "id": "https://www.nda.gov.cn",
+      "status": "source_halted",
+      "reason": "ROBOTS_UNKNOWN: Robots HTTP 404; fail closed；已停止该源，无自动重试。"
+    },
+    {
+      "id": "https://www.ndrc.gov.cn",
+      "status": "source_halted",
+      "reason": "HTTP_ACCESS_STOP: HTTP 403; no retries；已停止该源，无自动重试。"
+    }
+  ],
+  "summary": {
+    "policies_verified": 1,
+    "industries": 2,
+    "companies": 2,
+    "traceable_jobs": 3,
+    "salary_eligible": 0,
+    "assessment_pending": 3
+  },
+  "boundaries": [
+    "这是可追溯样本，不是全量公司发现、排名或本周新增政策清单。",
+    "需求假设与个人路径判断不是官网原文；JD原文单独保留。",
+    "本页全部岗位均未获得投递授权；没有发送简历、消息或注册账号。",
+    "未启用每日采集或政策周报定时任务。"
+  ],
+  "input_digest": "db845bf4e737944d47503c7d282fec5b9452a9af297dee074268afcaa4875569"
+}

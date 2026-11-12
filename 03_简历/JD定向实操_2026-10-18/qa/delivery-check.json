@@ -1,0 +1,70 @@
+{
+  "original_unchanged": true,
+  "variants": [
+    {
+      "slug": "minimax-sales-operations",
+      "protected_facts_and_photo_unchanged": true,
+      "no_footer_part": true,
+      "source_evidence_file_hash_verified": true
+    },
+    {
+      "slug": "minimax-technical-sales",
+      "protected_facts_and_photo_unchanged": true,
+      "no_footer_part": true,
+      "source_evidence_file_hash_verified": true
+    },
+    {
+      "slug": "noumena-solutions-bd",
+      "protected_facts_and_photo_unchanged": true,
+      "no_footer_part": true,
+      "source_evidence_file_hash_verified": true
+    },
+    {
+      "slug": "udesk-sales-director",
+      "protected_facts_and_photo_unchanged": true,
+      "no_footer_part": true,
+      "source_evidence_file_hash_verified": true
+    },
+    {
+      "slug": "udesk-key-account",
+      "protected_facts_and_photo_unchanged": true,
+      "no_footer_part": true,
+      "source_evidence_file_hash_verified": true
+    },
+    {
+      "slug": "naddod-regional-sales",
+      "protected_facts_and_photo_unchanged": true,
+      "no_footer_part": true,
+      "source_evidence_file_hash_verified": true
+    },
+    {
+      "slug": "digitforce-digital-sales",
+      "protected_facts_and_photo_unchanged": true,
+      "no_footer_part": true,
+      "source_evidence_file_hash_verified": true
+    },
+    {
+      "slug": "hikvision-product-marketing",
+      "protected_facts_and_photo_unchanged": true,
+      "no_footer_part": true,
+      "source_evidence_file_hash_verified": true
+    },
+    {
+      "slug": "bohr-industry-bd",
+      "protected_facts_and_photo_unchanged": true,
+      "no_footer_part": true,
+      "source_evidence_file_hash_verified": true
+    },
+    {
+      "slug": "sunteng-media-bd",
+      "protected_facts_and_photo_unchanged": true,
+      "no_footer_part": true,
+      "source_evidence_file_hash_verified": true
+    }
+  ],
+  "all_local_links_valid": true,
+  "archive": "/Users/MR/Documents/职场/03_简历/JD定向实操_2026-10-18/10份定向简历与前后对比.zip",
+  "archive_sha256": "61603a19d284dc3e93a08f3e9c2e6eb155f8aae09444394880d85c3f8b82f3bd",
+  "archive_verified_against_delivery": true,
+  "ready_to_submit": false
+}

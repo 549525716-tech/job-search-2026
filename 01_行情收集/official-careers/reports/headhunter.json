@@ -1,0 +1,812 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-10T15:52:28.585Z",
+  "status": "综合研判已生成；投递未启用",
+  "summary": "主攻销售运营/商业运营、KA客户经营与真实销售管理，其次商务渠道和贴近转化的市场岗位。AI优先，但不以AI或管理头衔代替能力、底薪和权限证据。完整官网JD与公开薪资索引分池，先补齐信息再定向申请。",
+  "mission": "理解候选人、研究真实需求、判断可行路径、保护收入与事实边界，执行用户授权，并以面试和offer质量复盘。",
+  "principles": [
+    "以候选人长期利益为先",
+    "原文与判断分离",
+    "缺口主动提问而非编造",
+    "固定收入和管理权限单独核验",
+    "材料外发须具体授权",
+    "用真实反馈而非打开网页次数评估"
+  ],
+  "roles": [
+    {
+      "schema_version": 1,
+      "role_id": "candidate_advisor",
+      "execution": {
+        "agent_id": "01a08be2-f427-7713-9fde-883681c35e1b",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max"
+      },
+      "completed_at": "2026-09-10T15:19:35.184Z",
+      "status": "complete",
+      "scope": "当前个人事实与方向判断，非岗位录用预测",
+      "summary": "以汽车零售团队管理、平台客户经营与跨区域复盘为主张；排序为销售运营/商业运营、KA经营与销售管理、商务渠道/生态、邻近市场。AI只作经营提效证据，排除产品经理。属个人侧顾问判断，非独立JD审计或录用预测；固定月薪须明确CNY20K起。",
+      "findings": [
+        {
+          "title": "候选人主张：把商业目标转化为团队动作和经营机制",
+          "conclusion": "建议主张：具备汽车零售10人直管和平台个人客户经营经验，能做目标拆解、人员培养、客户增长与跨区域经营复盘，并用AI辅助业务诊断和方法复用。以经营结果及管理责任为主线，不以AI工具数量为身份，也不转向产品经理。管理直接证据来自乐道店长、特斯拉销售主管；懂车帝提供个人客户经营与跨区域协同证据。",
+          "evidence": [
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "有直接带队经验的销售管理候选人，兼具平台客户经营、跨区域协同与AI经营方法复用能力。"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "乐道/特斯拉任职期间同期直接管理10人，管理对象涵盖主管、业务主管与一线销售。累计带教21人是另一口径，不能写为同期直管21人。"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "招聘、绩效评价、激励分配由本人决定；晋升推荐为参与，不是晋升审批决策权。"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "210家商户全部为个人负责客户，不是团队客户总量。"
+            }
+          ],
+          "risk": "个人事实是本人陈述或简历记录，并非独立HR审计。不能把两段任职的10人相加为20人、累计带教21人写为同期直管，或将晋升参与升级为审批权。210家是个人客户；跨区域分工督办不等于人事直管，也不证明多团队、编制预算或完整P&L责任。",
+          "next_action": "后续材料按证明任务组织：乐道/特斯拉证明带队与人员管理，懂车帝证明客户经营与经营机制，AI项目证明辅助诊断和方法复用；每个结果标明公司、周期、个人或团队归属。"
+        },
+        {
+          "title": "排序1：销售运营/商业运营，主攻区域经营与销售赋能",
+          "conclusion": "第一主攻是贴近销售一线、商户经营和经营复盘的销售运营/商业运营；有真实带队职责的区域销售管理可并行筛选。依据是已有目标拆解、周/月复盘、执行督办和平台商业消耗经营经历。汽车数字化、营销技术及相关企业应用可作为迁移场景假设，但不能据此宣称具备总部级Revenue Operations或成熟AI商业化运营履历。",
+          "evidence": [
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "主导涉及大区其他区域同事的目标拆解与周/月经营复盘，负责分工和后续督办；参与推广包、客户政策、资源配置和运营策略调整"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "所负责区域商业消耗环比增长 2%–2.5%、年增长约 30%；年度综合业务目标达成 130%"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "暂缺活跃率、续投率、留存率、客单消耗、预测准确率和具体产品规则变化证据"
+            }
+          ],
+          "risk": "商业消耗和目标达成属于所负责的个人经营范围，不能当作跨区域团队总成果。参与政策或资源调整不等于拥有最终决策权；独立经营机制改动的结果、收入预测、预算和总部流程治理证据仍不足。现有业绩沿用此前确认值，不是9月刷新。",
+          "next_action": "优先补一例经营复盘推动改进的完整案例，列清基线、目标、周期、本人决策/参与边界、协作对象、指标变化及复用范围；只有补齐后才把机制效果写成已验证组织成果。"
+        },
+        {
+          "title": "排序2：KA客户经营与销售管理，优先客户深化和真实团队责任",
+          "conclusion": "KA客户经营与销售管理排第二，高于纯生态岗位，因为个人商户经营、沉默客户召回、多层级沟通及带队结果更直接。优先考察与汽车、平台营销或相邻企业服务客户场景接近的客户深化、销售赋能和带队机会；AI企业客户销售只能视为行业迁移路径，不是已有成熟软件KA履历。",
+          "evidence": [
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "召回约 20 家沉默客户、直接开发 10 家"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "有老板/店长/运营多层级推进，但企业 IT 型决策链待补"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "平台型营销工具，按线索/客资/流量消耗计费"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "同期直管10人；团队季度目标完成率超 200%，月人效 5-7 台，大区前 3、全国前 10；累计带教 21 人，培养 10 人晋升"
+            }
+          ],
+          "risk": "商户老板沟通不等于企业IT、采购、法务和财务全链路经验；平台消耗型产品不等于软件合同、ARR或续费管理。乐道团队业绩不可挪作懂车帝团队业绩。KA或经理标题也不自动意味着管理岗位，纯新客高提成机会未必符合收入可预期性目标。",
+          "next_action": "后续以一个真实KA案例说明客户场景、关键人、经营诊断、推进过程、商业消耗结果和持续经营动作；筛选具体机会时另核客户规模、合同责任、直管人数及固定薪资。"
+        },
+        {
+          "title": "排序3：商务渠道/生态，渠道型BD先于战略生态负责人",
+          "conclusion": "商务方向应从可连接订单的渠道合作、联合获客和伙伴运营切入。已有企业员工购车、置换和自媒体增量项目，可支持渠道BD的迁移判断；尚不足以主张AI生态伙伴体系建设、平台战略联盟或伙伴收入负责人。因伙伴合同与收入归因证据弱于客户经营，所以排在KA之后。",
+          "evidence": [
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "自媒体订单占比 0% 到 10%；企业大客户员工订单 6% 到 10%；置换订单 8% 到 14%"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "有异业、自媒体、企业活动、置换服务商，但缺 AI 生态伙伴收入"
+            }
+          ],
+          "risk": "员工购车订单不等于向企业销售软件或完成企业采购；订单占比变化不直接证明新增收入、利润或本人独立贡献。零售渠道活动不能升级成成熟AI生态资源、联合解决方案签约或伙伴分成能力。",
+          "next_action": "补一个合作案例，确认伙伴类型、本人洽谈权限、双方投入、合作机制、线索到订单链路及归因；合同、分成、预算或收入数据未提供时保留未知。"
+        },
+        {
+          "title": "排序4：邻近市场方向，限定渠道营销、私域与销售转化",
+          "conclusion": "市场方向作为相邻补充，优先渠道营销、私域/线索运营及市场销售协同，核心价值是把获客动作连接到客户经营和订单。排序依据是既有客户池、社群、直播和自媒体订单贡献，而非用户提到市场就推定品牌专长。品牌策略、品牌传播、PR和大型整合营销负责人不列主攻。",
+          "evidence": [
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "微信累计近 5000 名优质客户，维护 4 个 500 人意向车主群，每周 3-4 场抖音直播"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "自媒体订单占比 0% 到 10%"
+            }
+          ],
+          "risk": "客户池规模和直播频次不是获客成本、品牌心智或整合营销ROI的证明；社群人数也不能直接相加为独立新增客户。现有材料未证明品牌定位、媒体关系、大额投放预算及B2B需求生成体系能力。",
+          "next_action": "后续用一例获客项目补全渠道来源、自然/付费流量、投入、有效线索、到店及订单转化，明确本人贡献；无证据的品牌传播、预算管理或营销归因能力不写成专长。"
+        },
+        {
+          "title": "统一筛选：固定月薪20K、AI边界和事实口径",
+          "conclusion": "所有方向均以明确披露固定CNY月薪且下界不少于20000元为薪资达标条件；未披露或构成未知单列待核，跨门槛区间、奖金、OTE、年包和外币不推算达标。AI仅作为经营提效与方法复用证据，不能包装AI签约、客户POC、回款或ARR。当前本科为简历陈述的行政管理背景；职业年限存在4年与近5年差异，未厘清前不使用更高年限。产品经理明确排除。",
+          "evidence": [
+            {
+              "path": "careers/config/career-strategy.json",
+              "quote": "User confirmed fixed monthly base salary >=CNY20000; a range overlapping20K, undisclosed mix, bonus or OTE is not confirmed eligibility"
+            },
+            {
+              "path": "careers/config/preferences.json",
+              "quote": "\"excluded\": [\"产品经理\", \"Product Manager\", \"研发算法\", \"实习校招\"]"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "团队全员使用；个人测得拜访效率提升150%，个人每天减少约2小时规划和复盘时间；整合经营数据，输出优先商户、到店动作与路线。团队人数及整体提效未测量"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "AI 产品真实签约、客户级 Demo/POC、企业 IT 采购链路、合同回款/ARR/续费、硬件/智算/半导体项目"
+            },
+            {
+              "path": "careers/config/profile-supplement.json",
+              "quote": "2020.09—2022.06 广东培正学院 行政管理 本科；2016.09—2019.06 广东工商学院 金融管理 专科。"
+            },
+            {
+              "path": "careers/config/profile-supplement.json",
+              "quote": "4年汽车行业销售管理与互联网平台商业化经营经验。"
+            },
+            {
+              "path": "02_岗位画像/我的当前情况总结.md",
+              "quote": "近 5 年营销、销售、客户运营和销售管理经验"
+            }
+          ],
+          "risk": "150%及每天节省约2小时均为个人测量，测量基线、周期和样本仍待补；团队全员采用不等于团队提效150%。本科及年限未独立认证，汽车销售管理年限不等于同等年限的AI/软件/ToB KA经验。管理头衔、AI标签及ToB属性均不能替代岗位职责、收入结构或稳定性证据。",
+          "next_action": "把固定薪资、真实管理权限、目标客户链路和产品经验列为后续逐岗核验项；本轮只保留个人侧排序与待核清单，不产生任何具体岗位达标、推荐或录用结论。"
+        }
+      ],
+      "questions": [
+        "能否补一例你主导的跨区域经营复盘或机制调整，提供基线、周期、本人决策边界、协作分工及结果，并区分个人客户盘与团队结果？",
+        "企业员工、置换或自媒体项目中，哪一例有可回查的伙伴合作/渠道投入、有效线索、订单和成本记录，能说明本人贡献及收入归因？",
+        "个人拜访提效150%的指标定义、前后基线、测量周期和样本分别是什么；团队实际使用人数是多少，是否另做过团队效果测量？",
+        "职业概述应采用2026-09-09补充中的4年，还是另有可核验经历支持近5年；请确认统一起算时间及对应任职范围。"
+      ],
+      "input_files": [
+        "02_岗位画像/我的当前情况总结.md",
+        "careers/config/preferences.json",
+        "careers/config/career-strategy.json",
+        "careers/config/profile-supplement.json"
+      ],
+      "not_covered": [
+        "这是个人侧职业顾问判断，不是独立JD审计、当前岗位市场供需结论、录用预测或薪酬保障。",
+        "未联网、未采集岗位、未重评15份JD；画像内历史市场记录不作为当前招聘事实。",
+        "未读取全文对话历史、原始简历或公司HR记录；学历、任职、权限及业绩沿用指定文件的本人陈述/简历证据，未独立认证。",
+        "未核验具体岗位的真实带队权限、预算/P&L、企业采购链、招聘状态或固定薪酬；未知项不按通过处理。",
+        "未把AI内部实践升级为客户签约、客户级POC、生产交付、ARR或团队整体提效；未研究产品经理方向。",
+        "未修改画像、偏好、策略、简历、岗位评估或进度文件；未执行投递、上传、消息、架构扩展或自动化。"
+      ],
+      "name": "个人定位顾问",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "max",
+      "agent_id": "01a08be2-f427-7713-9fde-883681c35e1b",
+      "output_path": "careers/agent-outputs/candidate-strategy.json",
+      "binding_status": "validated_at_import_and_rechecked",
+      "token_usage": null
+    },
+    {
+      "schema_version": 1,
+      "role_id": "industry_company_researcher",
+      "execution": {
+        "agent_id": null,
+        "model": "gpt-5.6-luna",
+        "reasoning_effort": "medium"
+      },
+      "completed_at": "2026-09-10T15:33:16.683Z",
+      "status": "complete",
+      "scope": "本轮基于本地政策原文、公司官网文本和公开招聘索引的有限产业与公司研究摘要；官网公司与公开线索分开，非完整周报、非新增完整JD、非个人匹配或审批。",
+      "summary": "国务院“人工智能+”政策提供了应用、模型服务和应用服务链的方向性信号；由此只能形成企业AI应用、模型平台商业化和销售运营的待验证商业需求假设。官网证据显示MiniMax覆盖多模态模型、AI原生产品及企业和开发者开放平台，百炼聚焦B2B智能获客、商业情报、招投标和线下渠道营销。百度、 美团、360集团、探迹科技等仅有公开招聘索引线索，适合继续核验销售运营、模型商务销售、智能体渠道和B2B AI软件销售方向，不代表当前在招、固定底薪达标或公司市场排名。",
+      "findings": [
+        {
+          "title": "国家“人工智能+”政策到商业需求假设",
+          "conclusion": "推论：政策把智能体应用、模型服务、数据服务和应用服务链列为发展方向，因此可提出企业AI应用落地、模型平台商业化、场景型销售和销售运营可能存在需求的研究假设；政策本身不等于订单、客户预算、岗位收入或稳定就业。",
+          "evidence": [
+            {
+              "path": "01_行情收集/official-careers/research/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac.txt",
+              "quote": "到2027年，率先实现人工智能与6大重点领域广泛深度融合，新一代智能终端、智能体等应用普及率超70%，智能经济核心产业规模快速增长，人工智能在公共治理中的作用明显增强，人工智能开放合作体系不断完善。"
+            },
+            {
+              "path": "01_行情收集/official-careers/research/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac.txt",
+              "quote": "培育人工智能应用服务商，发展“模型即服务”、“智能体即服务”等，打造人工智能应用服务链。"
+            }
+          ],
+          "risk": "政策文件是方向性与建设性证据，不证明任何候选公司已获得订单，也不证明岗位招聘或收入稳定；本轮政策原文是历史基线，不是本周政策全量扫描。",
+          "next_action": "继续核验企业预算、采购/付费、续约、交付案例和对应岗位职责，优先观察模型服务、智能体、企业获客和招投标场景。"
+        },
+        {
+          "title": "官网公司发现：MiniMax",
+          "conclusion": "官网证据显示MiniMax同时具备多模态通用大模型、AI原生产品和面向企业与开发者的开放平台；推论：可继续研究其模型平台商业化、技术销售、KA销售和销售运营链路，但不能据官网自述确认头腰部排名或岗位完整性。",
+          "evidence": [
+            {
+              "path": "01_行情收集/official-careers/research/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home.txt",
+              "quote": "MiniMax 自主研发了一系列多模态通用大模型，具备强大的代码和 Agent 能力，以及超长上下文处理能力，能够理解、生成并整合包括文本、音频、图像、视频和音乐在内的多种模态。基于这些自研模型，我们面向全球推出一系列 AI 原生产品，包括 MiniMax Code、MiniMax Design、MiniMax Audio、星野等，以及面向企业和开发者的开放平台，共同为全球用户提供极致的智能体验。"
+            }
+          ],
+          "risk": "这是官网自述的业务与产品证据，不是独立市场排名、收入、订单或客户续约证据；公开岗位资料与官网招聘入口的完整归属仍需逐条核验。",
+          "next_action": "优先复用 careers/agent-outputs/job-scout.json 中已有的7条MiniMax完整历史JD，先沿用其岗位职责证据，仅补当前是否在招与薪资核验；职责归属仍保持未知，不据历史JD推断当前岗位归属或现行招聘状态。"
+        },
+        {
+          "title": "官网公司发现：百炼智能",
+          "conclusion": "官网证据显示百炼围绕B2B智能获客、商业情报、招投标、线下渠道营销和AI Agent形成较完整的场景化产品组合；推论：适合继续研究B2B销售、渠道/市场拓展、客户成功、解决方案和销售运营岗位，但不能把官网客户数量或荣誉表述直接等同于独立市场排名。",
+          "evidence": [
+            {
+              "path": "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about.txt",
+              "quote": "百炼智能成立于2018年5月4日，是B2B智能获客的先行者。公司以“用AI，让B2B获客更简单！”为使命，为企业及每一位追求获客业绩的业务人员，提供数据驱动、深耕场景的智能获客应用及解决方案，帮助其高效、精准地开拓并转化潜在企业客户，提升从市场洞察、线索开发、商机预测、参与竞标到赢单的效率。"
+            },
+            {
+              "path": "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home.txt",
+              "quote": "市场洞察线索开发商机预测参与竞标赢单商机大师AgentAI找项目、给建议、盯商机AI对话式商机检索智能匹配精准商机科学投标决策分析"
+            }
+          ],
+          "risk": "官网文本属于公司自述；“先行者”、客户数量、奖项和机构投资信息未在本轮与独立可比数据交叉验证，不能据此确认头腰部层级。",
+          "next_action": "继续核验官网招聘归属及岗位原文，重点看B2B销售、渠道拓展、客户成功/交付、解决方案顾问和销售运营的职责边界、客户决策链与业绩口径。"
+        },
+        {
+          "title": "公开招聘线索：百度、美团、360集团、探迹科技",
+          "conclusion": "公开索引提供了可继续研究的市场销售运营岗位方向：百度的云和大模型销售运营、美团的大模型商务销售与业务运营、360集团的AI产品销售和智能体生态渠道、探迹科技的B2B AI软件销售主管/经理。推论：市场需求可能集中在销售流程/线索/商机运营、模型商务拓展、智能体生态渠道和B2B场景销售；这些均为搜索索引线索，不是完整JD或已确认录用需求。",
+          "evidence": [
+            {
+              "path": "01_行情收集/official-careers/research/headhunter-search-02.json",
+              "quote": "销售运营-云和大模型业务泛互联网方向 15-25k·16薪 ...     工作职责 -负责云和大模型业务泛互联网方向的销售流程与运营体系搭建"
+            },
+            {
+              "path": "01_行情收集/official-careers/research/headhunter-search-02.json",
+              "quote": "大模型商务销售专家 〖 北京 〗 25-40k·15薪 3-5年 本科 0-1 美团 生活服务,互联网,生活服务O2O 已上市 10000人以上 ...   * 大模型业务运营 〖 上海-长白新村 〗 25-35k·15薪 3-5年 本科 大模型 美团 生活服务,互联网,生活服务O2O 已上市 10000人以上"
+            },
+            {
+              "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+              "quote": "AI产品销售 25-30k 北京-朝阳区 3年以上 本科 2026-08-27 AI创新产品管理岗位 80-110k·15薪 北京 5年以上 本科 2026-08-26 GEO广告销售 13-25k 北京-朝阳区 3-5年 统招本科 2026-08-26 高级产品技术管理岗 45-70k·15薪 北京 8年以上 统招本科 2026-08-26 生态渠道经理-办公智能体/纳米work 20-30k·"
+            },
+            {
+              "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+              "quote": "B2B销售主管/经理（AI人工智能软件） 20-45k 探迹科技 C轮融资 佛山-同济路 5年以上 大专"
+            }
+          ],
+          "risk": "market-leads.json明确这些证据状态为search_index_only；猎聘详情触发验证码，本轮没有继续访问。薪资区间不等于固定底薪，不能判定固定月薪20K达标；岗位当前有效性、完整职责、管理权限和公司层级均待核验。",
+          "next_action": "按公司分别回到官网招聘页或可合法访问的正式职位页核验：岗位是否仍在招、职责与汇报关系、固定薪资构成、客户类型、业绩口径和销售/运营协作边界；不补写缺失JD。"
+        }
+      ],
+      "questions": [],
+      "input_files": [
+        "careers/config/funnel-sample.json",
+        "01_行情收集/official-careers/research/state.json",
+        "careers/config/market-leads.json",
+        "01_行情收集/official-careers/research/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac.txt",
+        "01_行情收集/official-careers/research/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home.txt",
+        "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home.txt",
+        "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about.txt",
+        "01_行情收集/official-careers/research/headhunter-search-02.json",
+        "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "01_行情收集/official-careers/research/policy-search-2026-09-10.json"
+      ],
+      "not_covered": [
+        "政策全量周报或本周政策新增扫描",
+        "公司头腰部排名、市场份额、收入、订单、客户续约和薪酬稳定性",
+        "公开索引岗位的完整JD、当前有效性、固定底薪和管理权限",
+        "个人经历匹配、简历改写、岗位审批、投递或外发"
+      ],
+      "name": "产业与公司研究员",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "agent_id": "01a08bef-d2b5-7243-9c59-13639957e2af",
+      "output_path": "careers/agent-outputs/industry-company.json",
+      "binding_status": "validated_at_import_and_rechecked",
+      "token_usage": null
+    },
+    {
+      "schema_version": 1,
+      "role_id": "job_scout",
+      "execution": {
+        "agent_id": "01a08be4-9c93-7cf3-87b5-65249d1c2c80",
+        "model": "gpt-5.6-luna",
+        "reasoning_effort": "medium"
+      },
+      "completed_at": "2026-09-10T15:19:17.300Z",
+      "status": "complete",
+      "scope": "已取得7条符合职能方向的历史官网JD，不是新采集",
+      "summary": "离线读取CareersStore并按classifyRole筛出7条MiniMax完整历史JD，覆盖销售运营、生态渠道、华南负责人、KA技术销售、全球KA及电商运营。MiniMax适配器当前隔离，原文真实但不代表本轮新采集；不做个人匹配、分数或在招确认。",
+      "findings": [
+        {
+          "title": "大模型销售运营",
+          "conclusion": "核心产出是把销售规则、指标、资源流转和风险控制变成可追踪的商业运营机制，地点为北京/上海。",
+          "evidence": [
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "负责商业管理、客户管理、业绩管理等方向的数据体系建设与分析，具备构建销售指标底层逻辑及配套在线化系统的能力"
+            },
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "确保决策前后数据可追踪，推动数据看板线上化。"
+            }
+          ],
+          "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；该岗位招聘状态为unknown。岗位强调数据、财务指标和规则落地，不能仅按销售经历视为同类。",
+          "next_action": "后续若进入岗位评估，单独核验销售运营系统、指标口径、资源冲突处理和财务协同案例；不在本产物中做个人匹配。",
+          "job_key": "minimax-public-browser:vrfi1sk8a0:7612560574200023323"
+        },
+        {
+          "title": "大模型生态渠道经理",
+          "conclusion": "核心产出是搭建AI伙伴体系、制定渠道政策、整合云厂资源并承接伙伴收入或Token等漏斗指标，地点为北京/上海/深圳。",
+          "evidence": [
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "从 0 到 1 或从 1 到 N 搭建 AI 伙伴体系（如：ISV 独立软件开发商、咨询实施伙伴、代销/电销渠道）；"
+            },
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "直接背负伙伴贡献的年度收入（ARR/MRR）、消耗量（Token Usage）或活跃开发者数等硬指标；"
+            }
+          ],
+          "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；该岗位的资源、人脉和渠道业绩门槛较强，招聘状态为unknown。标题不等于团队管理权。",
+          "next_action": "后续若进入岗位评估，分别核验伙伴类型、渠道政策设计、云厂商决策链和ARR/Token/开发者指标的实际责任边界。",
+          "job_key": "minimax-public-browser:vrfi1sk8a0:7613358336667830554"
+        },
+        {
+          "title": "大模型销售负责人-华南",
+          "conclusion": "核心产出是华南区域营收、客户数和续约率达成，同时搭建销售团队、主导关键客户技术方案并推动POC商业化，地点为广州/深圳。",
+          "evidence": [
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "全面负责华南区域大模型业务的营收目标，制定并执行区域销售策略与年度作战计划，确保收入、客户数、续约率等核心指标达成"
+            },
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "团队搭建与管理：负责华南销售团队的组建、培养与绩效管理，建立可复制的销售方法论与打法体系，提升团队整体的技术方案能力和客户经营水平；"
+            }
+          ],
+          "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；招聘状态为unknown。团队管理、华南资源和可量化区域业绩是明确门槛，不能由负责人标题单独证明。",
+          "next_action": "后续若进入岗位评估，优先核验区域盘子、直管人数、绩效权限、华南客户资源以及POC到商业化的真实结果。",
+          "job_key": "minimax-public-browser:vrfi1sk8a0:7647795653489527081"
+        },
+        {
+          "title": "大模型技术销售工程师",
+          "conclusion": "核心产出是头部KA深耕、客户决策地图、技术Demo/POC推进和AI应用规模化复制，地点为深圳/北京/上海/广州/中国香港。",
+          "evidence": [
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "负责泛互联网、智能硬件、文娱游戏、广告媒体等行业的头部 KA 开拓与深耕，建立并维护产品、技术、业务、高管等多层次客户关系；"
+            },
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "具备技术方案能力，独立制作并演示技术 Demo，将模型能力直观呈现给客户，推动 POC 快速推进；"
+            }
+          ],
+          "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；招聘状态为unknown。该岗不是默认FDE，而是带KA、Demo、POC和技术沟通门槛的技术销售岗位。",
+          "next_action": "后续若进入岗位评估，单独核验Demo/POC、研发沟通、ROI场景识别和上线复制证据，不把一般销售经历直接替代技术交付证据。",
+          "job_key": "minimax-public-browser:vrfi1sk8a0:7208019802982598968"
+        },
+        {
+          "title": "Global Account Executive",
+          "conclusion": "核心产出是国际客户获取与经营、销售策略、项目执行、端到端谈判签约和全球业务增长，地点覆盖北京、上海、中国香港及多个海外城市。",
+          "evidence": [
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "responsible for developing and executing sales strategies, driving project implementation, and achieving sales targets."
+            },
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "leading end-to-end business negotiations, finalizing contracts, and designing innovative product promotion strategies to expand our global footprint."
+            }
+          ],
+          "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；招聘状态为unknown。海外工作授权、英语实际工作能力和关键客户资源均未由本岗位记录解决。",
+          "next_action": "后续若进入岗位评估，核验目标区域、英语业务沟通、合同谈判和国际KA资源；不做薪资或个人适配推断。",
+          "job_key": "minimax-public-browser:vrfi1sk8a0:7513910355632146698"
+        },
+        {
+          "title": "Regional General Manager",
+          "conclusion": "核心产出是目标区域业务开发与整体运营、区域战略、销售系统、关键客户/伙伴和重大项目推进；地点为旧金山、迪拜、柏林、东京、伦敦、新加坡、中国香港、首尔、墨西哥城。",
+          "evidence": [
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "Oversee business development and overall operations in the target regional market, including but not limited to sales system setup, market expansion, customer relationship management, team building, and daily operations"
+            },
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "Lead, develop, and motivate the sales team, clearly communicate performance objectives, and drive sales breakthroughs and sustainable business growth."
+            }
+          ],
+          "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；招聘状态为unknown。不能按Regional General Manager标题直接判定直管，仍需核验团队规模、汇报线、招聘/绩效权限和区域经营权。",
+          "next_action": "后续若进入岗位评估，优先补充组织权限证据，再区分区域经营负责人和实际直管销售管理岗。",
+          "job_key": "minimax-public-browser:vrfi1sk8a0:7545752001586825515"
+        },
+        {
+          "title": "电商运营经理（天猫/京东/抖音）",
+          "conclusion": "核心产出是AI数字商品在电商平台的店铺经营、流量转化和商业指标提升，目标包括GMV、付费用户、ROI、复购率和LTV，地点为上海。",
+          "evidence": [
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "负责公司AI产品（会员订阅、Token套餐等数字商品）在天猫、京东、抖音等平台的运营工作；"
+            },
+            {
+              "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+              "quote": "通过搜索优化、内容运营、平台活动等方式提升店铺流量和转化率；"
+            }
+          ],
+          "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；招聘状态为unknown。该岗属于商业化运营，但平台电商经验、数字商品和订阅/充值模式是特定门槛。",
+          "next_action": "后续若进入岗位评估，核验店铺从0到1、平台规则、投放/转化数据和数字商品经营闭环；不扩展为产品经理判断。",
+          "job_key": "minimax-public-browser:vrfi1sk8a0:7654858727463913771"
+        }
+      ],
+      "questions": [],
+      "input_files": [
+        "careers/config/preferences.json",
+        "careers/role-policy.mjs",
+        "01_行情收集/official-careers/careers.sqlite"
+      ],
+      "not_covered": [
+        "独立个人匹配",
+        "公开薪资核验",
+        "当前仍在招聘的确认"
+      ],
+      "name": "岗位需求研究员",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "agent_id": "01a08be4-9c93-7cf3-87b5-65249d1c2c80",
+      "output_path": "careers/agent-outputs/job-scout.json",
+      "binding_status": "validated_at_import_and_rechecked",
+      "token_usage": null
+    },
+    {
+      "schema_version": 1,
+      "role_id": "compensation_reviewer",
+      "execution": {
+        "agent_id": null,
+        "model": "gpt-5.6-luna",
+        "reasoning_effort": "medium"
+      },
+      "completed_at": "2026-09-10T15:33:46.155Z",
+      "status": "complete",
+      "scope": "只核验本地 market-leads.json 中的15条公开薪资线索、当前固定月薪至少CNY20000规则及其本地evidence；不联网、不投递、不修改主文件。",
+      "summary": "15条线索均为公开招聘索引或摘要证据，未发现可将公开区间明确认定为固定月薪底薪至少CNY20000的条目。薪资区间、薪数和职位索引不能替代固定底薪或完整JD核验。最值得继续核底薪的是公开区间下限达到20k的AI销售、生态渠道、B2B销售管理、模型商务/业务运营、AI解决方案顾问和销售运营类别，但当前都只能标为待核。",
+      "findings": [
+        {
+          "title": "固定月薪规则需要明确底薪绑定",
+          "conclusion": "当前规则是CNY、按月、固定月薪/底薪至少20000，并要求原文明确识别固定底薪；普通薪资区间、OTE、提成总包或年薪不能直接达标。",
+          "evidence": [
+            {
+              "path": "careers/config/preferences.json",
+              "quote": "\"salary\": {\"mode\": \"fixed_monthly_base_minimum\", \"currency\": \"CNY\", \"period\": \"month\", \"min_fixed_monthly_base\": 20000, \"require_explicit_base_disclosure\": true"
+            },
+            {
+              "path": "careers/salary-target.mjs",
+              "quote": "// Only a complete, simple base-pay statement can bind the amount to fixed pay."
+            }
+          ],
+          "risk": "把25-30k、20-30k·15薪等公开区间当作固定底薪，会把未知薪资构成误判为达标。",
+          "next_action": "后续仅在原始职位材料明确写出固定月薪/底薪金额并绑定月度口径时再复核。"
+        },
+        {
+          "title": "15条公开线索没有一条完成固定底薪达标证明",
+          "conclusion": "15条lead均保留为待核，不判定达标；其中公开区间下限达到20k的候选类别也只代表核验优先级，不代表个人推荐或公司稳定性。",
+          "evidence": [
+            {
+              "path": "careers/config/market-leads.json",
+              "quote": "公开招聘索引线索，与完整官网JD隔离。薪资区间不等于固定底薪；详情受限后停止，不虚构JD或职位直链。"
+            },
+            {
+              "path": "careers/config/market-leads.json",
+              "quote": "\"salary_raw\": \"25-30k\""
+            },
+            {
+              "path": "careers/config/market-leads.json",
+              "quote": "\"salary_raw\": \"20-30k·15薪\""
+            }
+          ],
+          "risk": "区间下限或薪数可能对应总包、浮动或未披露结构；公开索引也不等于当前在招或完整JD。",
+          "next_action": "把所有lead的薪资状态维持为unknown/pending，待有可审计的固定底薪原文后再更新核验结果。"
+        },
+        {
+          "title": "最值得优先核底薪的类别已识别",
+          "conclusion": "优先核验lead_id：360-ai-sales、360-agent-channel-gz、360-agent-channel-sh、360-overseas-channel、360-product-marketing、360-social-ops、meituan-model-sales、meituan-model-ops、tungee-sales-manager、wanxiang-solutions、ruijie-channel-ops；这些条目的公开区间下限为20k或更高，但目前仍不等于固定底薪达标。",
+          "evidence": [
+            {
+              "path": "careers/config/market-leads.json",
+              "quote": "\"lead_id\": \"meituan-model-sales\""
+            },
+            {
+              "path": "careers/config/market-leads.json",
+              "quote": "\"salary_raw\": \"25-40k·15薪\""
+            },
+            {
+              "path": "careers/config/market-leads.json",
+              "quote": "\"lead_id\": \"ruijie-channel-ops\""
+            },
+            {
+              "path": "careers/config/market-leads.json",
+              "quote": "\"salary_raw\": \"20-30k·14薪\""
+            }
+          ],
+          "risk": "这是薪资核验排序，不是匹配分、推荐结论或独立审批JD；完整职责、底薪构成和在招状态仍未核实。",
+          "next_action": "若后续获得合法可读的原始职位材料，按上述类别优先查找固定底薪、绩效条件、提成及年薪/薪数口径。"
+        },
+        {
+          "title": "来源完整性与职位直链边界",
+          "conclusion": "百度条目是本批唯一记录职位级job_url的线索；其余条目只有公司页或搜索结果页，不应冒充职位直链。公开索引证据仍不能替代在招状态核验。",
+          "evidence": [
+            {
+              "path": "careers/config/market-leads.json",
+              "quote": "\"lead_id\": \"baidu-cloud-ops\""
+            },
+            {
+              "path": "careers/config/market-leads.json",
+              "quote": "\"job_url\": \"https://www.liepin.com/job/1985206063.shtml\""
+            },
+            {
+              "path": "careers/config/market-leads.json",
+              "quote": "\"job_url\": null"
+            }
+          ],
+          "risk": "把公司页、关键词搜索页或索引摘要写成职位直链，会造成来源可追溯性错误。",
+          "next_action": "保留非百度条目的job_url为null，除非本地后续证据明确取得对应职位级URL。"
+        },
+        {
+          "title": "猎聘详情已按验证码停源，海外产品营销不作个人推荐",
+          "conclusion": "猎聘详情访问因验证码失败后已停止；360-product-marketing的标题是海外产品营销（3C消费电子），不能改写成产品经理。该条已列中国工作地点深圳-南山区，海外产品营销不代表工作地点在境外。英文/海外市场能力未知，现有证据不足以作个人推荐，也不能据此新增英文或海外经验硬门槛；仅当实际工作地在境外时另核当地工作许可。",
+          "evidence": [
+            {
+              "path": "01_行情收集/official-careers/research/headhunter-search-04.json",
+              "quote": "Direct Liepin page blocked by captcha; source stopped without retry"
+            },
+            {
+              "path": "careers/config/market-leads.json",
+              "quote": "\"title\": \"海外产品营销（3C消费电子）\""
+            },
+            {
+              "path": "careers/config/market-leads.json",
+              "quote": "\"location_raw\": \"深圳-南山区\""
+            }
+          ],
+          "risk": "将海外市场职责误读为境外工作地点，会错误增加工作许可门槛；将未知的英文/海外市场能力写成已具备或不具备，也会导致个人推荐失真。",
+          "next_action": "保持验证码停源；后续取得完整JD时再核岗位职能及其实际列明的要求，并结合个人证据核验英文/海外市场能力；仅当实际工作地在境外时另核当地工作许可，不由岗位标题新增要求。"
+        }
+      ],
+      "questions": [],
+      "input_files": [
+        "careers/config/market-leads.json",
+        "careers/config/preferences.json",
+        "careers/salary-target.mjs",
+        "01_行情收集/official-careers/research/headhunter-search-02.json",
+        "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "01_行情收集/official-careers/research/headhunter-search-04.json"
+      ],
+      "not_covered": [
+        "未联网，未重新访问任何招聘页面。",
+        "未核验完整官网JD、当前在招状态、固定底薪组成、绩效条件、提成或福利。",
+        "未进行个人岗位匹配、匹配分计算、独立审批JD、推荐或投递。",
+        "未对海外产品营销的英文能力、海外行业经验或工作授权作事实判断。"
+      ],
+      "name": "薪酬与信息核验员",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "agent_id": "01a08bec-642c-7f62-967e-41a61f4334b6",
+      "output_path": "careers/agent-outputs/compensation-review.json",
+      "binding_status": "validated_at_import_and_rechecked",
+      "token_usage": null
+    },
+    {
+      "id": "materials_advisor",
+      "name": "匹配与材料顾问",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "max",
+      "depends_on": [
+        "candidate_advisor",
+        "job_scout",
+        "compensation_reviewer"
+      ],
+      "trigger": "重点候选分析或用户选定岗位，外发另需批次授权",
+      "goal": "逐岗自上而下映射已有证据，集中询问关键缺口，保真微调材料",
+      "inputs": [
+        "careers/config/preferences.json",
+        "careers/config/application-policy.json"
+      ],
+      "output": "careers/agent-outputs/materials-advice.json",
+      "acceptance": "事实不增造；沿用简历须完整JD、门槛核查、主线一致及独立复核",
+      "role_id": "materials_advisor",
+      "status": "not_run",
+      "summary": "本轮尚未运行，不以角色配置冒充结果。",
+      "findings": []
+    },
+    {
+      "schema_version": 1,
+      "role_id": "independent_reviewer",
+      "execution": {
+        "agent_id": null,
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max"
+      },
+      "completed_at": "2026-09-10T15:51:41Z",
+      "status": "complete",
+      "scope": "仅复验 independent-review-initial.json 中3项P2的修复区域、原反例及受影响正例：英文销售分类与ROLE_POLICY_VERSION进入matching缓存键、同岗位标题薪资绑定、Liepin职位链接身份约束。运行指定headhunter/market-leads/role-policy的10项定向测试，但不重复四角色语义审核、角色输出复验、历史48条JD研究、全量架构或UI验收。最终登记审计依赖采用 review-registry-snapshot-v2.json；仅核对该快照的新版role-policy输入SHA及原始market-leads配置SHA，不绑定live registry或本审核输出自身。先前广范围结论仅作为已归档历史，不在本次重新背书。反例在内存模块及自动清理的测试临时目录运行；只更新本审核JSON，未联网、未投递、未修改代码。本次通过不构成具体JD推荐、匹配或投递审批。",
+      "summary": "原3项P2全部resolved；本次限定复验未发现新问题，剩余无阻塞。实际运行 node --test careers/tests/headhunter.test.mjs careers/tests/market-leads.test.mjs careers/tests/role-policy.test.mjs，10/10通过；另独立断言12个职称分类正反例及8组真实线索/内存变体，全部符合预期。Sales Manager、Enterprise Sales Director、Head of Sales进入primary；Sales Engineer仍adjacent，Sales Operations保留运营分类，Salesforce Developer排除，Product Marketing保留且Product Manager排除。360相邻岗位80-110k薪资串用、公司页、搜索页及其他职位链接均拒绝；360原始25-30k、百度独立职位页面、带城市标签的美团线索通过。15条原始数据仍通过，固定底薪确认0、完整JD0、职位链接1，全部薪资待核、在招未知、无外发授权。静态核对ROLE_POLICY_VERSION=v2已进入preferences_hash并参与matchCacheKey；该版本源码SHA与v2登记快照一致，原始线索配置SHA未变。本次无需进一步修复。",
+      "findings": [
+        {
+          "title": "[P2] 英文销售管理标题被误排除出主攻方向",
+          "priority": 2,
+          "status": "resolved",
+          "blocking": false,
+          "conclusion": "已解决。直接重放原Sales Manager、Enterprise Sales Director、Head of Sales反例，均为eligible:true、tier:primary；VP of Sales、Sales Executive同样通过。受影响正反例中Sales Engineer仍adjacent，Sales Operations Manager仍属于销售及商业化运营，Salesforce Developer为excluded，Product Marketing Manager为primary，Senior Product Manager为excluded；中文销售经理和Account Executive仍primary。ROLE_POLICY_VERSION为2026-09-10-commercial-functions-v2；代码阅读确认该版本进入preferences_hash，matchCacheKey继续使用此哈希，不沿用旧方向的同键缓存。",
+          "evidence": [
+            {
+              "path": "careers/role-policy.mjs",
+              "quote": "if (/销售|大客户|客户经理|商业化|account executive|account manager|\\bKA\\b|regional general manager|country manager|\\bsales\\s+(?:manager|director|executive|representative|lead|specialist|consultant|supervisor)\\b|\\b(?:head|vp|vice president|director)\\s+(?:of\\s+)?sales\\b/i.test(title)) return result('primary', '销售与大客户', '客户拓展、经营与商业化主线，需区分一线配额岗与实际带队岗。');"
+            },
+            {
+              "path": "careers/role-policy.mjs",
+              "quote": "export const ROLE_POLICY_VERSION = '2026-09-10-commercial-functions-v2';"
+            },
+            {
+              "path": "careers/matching.mjs",
+              "quote": "preferences_hash: hash({ preferences, career_strategy: careerStrategy, salary_target_version: SALARY_TARGET_VERSION, role_policy_version: ROLE_POLICY_VERSION }), rules_hash: hash(rules), base_resume_hash: baseResumeHash };"
+            },
+            {
+              "path": "careers/matching.mjs",
+              "quote": "profile: context.profile_hash, preferences: context.preferences_hash, rules: context.rules_hash,"
+            }
+          ],
+          "risk": "原英文销售漏召回缺陷在本次复验范围内已消除。职能纳入不等于真实带队权限、个人胜任证据或薪酬达标。",
+          "next_action": "关闭此项；保留英文Sales边界、技术销售及产品营销正反例回归测试。"
+        },
+        {
+          "title": "[P2] 同一来源块内仍能串用相邻岗位薪资",
+          "priority": 2,
+          "status": "resolved",
+          "blocking": false,
+          "conclusion": "已解决。使用真实360-ai-sales及其原始长quote，只在内存中把25-30k改成相邻岗位的80-110k·15薪，加载器现抛出Public-lead quote or provenance mismatch。保持原始25-30k则通过；美团大模型业务运营标题与25-35k·15薪之间的〖城市〗标签正例通过，15条原始数据全量加载成功。新检查同时要求来源块与连续quote中的目标标题后只隔空白或可选城市标签便出现该薪资，不再依靠标题和金额分别包含。",
+          "evidence": [
+            {
+              "path": "careers/market-leads.mjs",
+              "quote": "function titleSalaryBound(lead, block) {\n  // List evidence must place the salary directly after this title, with only an optional location label between them.\n  const pattern = new RegExp(`${literal(lead.title)}\\\\s*(?:〖[^〗\\\\n]{0,100}〗\\\\s*)?${literal(lead.salary_raw)}(?=\\\\s|$)`);\n  return pattern.test(block) && pattern.test(lead.evidence.quote);\n}"
+            },
+            {
+              "path": "careers/market-leads.mjs",
+              "quote": "|| !titleSalaryBound(lead, sourceBlock) || !jobLinkBound(lead, sourceBlock)) throw new Error('Public-lead quote or provenance mismatch');"
+            }
+          ],
+          "risk": "原同页相邻岗位串薪反例已拒绝，原始线索金额和固定底薪待核语义未被改写。本次仅验证既定索引格式及原反例，不宣称已核实真实固定底薪。",
+          "next_action": "关闭此项；保留真实360长quote的串薪拒绝测试及城市标签正例。"
+        },
+        {
+          "title": "[P2] 公司来源页仍可被提升为职位直链",
+          "priority": 2,
+          "status": "resolved",
+          "blocking": false,
+          "conclusion": "已解决。真实360-ai-sales内存副本的job_url=source_url公司页原反例现被拒绝；搜索页https://m.liepin.com/s/search/及借用百度https://www.liepin.com/job/1985206063.shtml也均被拒绝。百度原始source_url=job_url且独立取得的该职位结果仍通过，360原始job_url:null也通过。新约束要求Liepin /job/数字.shtml、无query/hash、source_url与job_url一致并出现在该来源块标题链接形式中。15条原始数据仍仅有1个职位级索引链接，其余不被提升为职位直链。",
+          "evidence": [
+            {
+              "path": "careers/market-leads.mjs",
+              "quote": "function jobLinkBound(lead, block) {\n  if (!lead.job_url) return true;\n  const url = new URL(lead.job_url);\n  // This index adapter only accepts a separately observed Liepin job-page result, never a list-page link.\n  return /^(?:www\\.|m\\.)?liepin\\.com$/.test(url.hostname) && /^\\/job\\/\\d+\\.shtml$/.test(url.pathname)\n    && !url.search && !url.hash && lead.source_url === lead.job_url && block.includes(`(${lead.job_url})`);\n}"
+            },
+            {
+              "path": "careers/market-leads.mjs",
+              "quote": "|| !titleSalaryBound(lead, sourceBlock) || !jobLinkBound(lead, sourceBlock)) throw new Error('Public-lead quote or provenance mismatch');"
+            }
+          ],
+          "risk": "原公司页冒充职位直链反例已拒绝，现有百度职位级索引入口未受损。索引职位链接仍不代表完整JD或当前在招已确认。",
+          "next_action": "关闭此项；保留公司页、搜索页、其他职位链接的拒绝测试及百度独立职位页面正例。"
+        }
+      ],
+      "questions": [],
+      "input_files": [
+        "01_行情收集/official-careers/research/headhunter-search-02.json",
+        "01_行情收集/official-careers/research/headhunter-search-03.json",
+        "careers/agent-outputs/independent-review-initial.json",
+        "careers/agent-outputs/review-registry-snapshot-v2.json",
+        "careers/config/market-leads.json",
+        "careers/config/preferences.json",
+        "careers/headhunter.mjs",
+        "careers/market-leads.mjs",
+        "careers/matching.mjs",
+        "careers/paths.mjs",
+        "careers/role-policy.mjs",
+        "careers/salary-target.mjs",
+        "careers/salary.mjs",
+        "careers/tests/headhunter.test.mjs",
+        "careers/tests/market-leads.test.mjs",
+        "careers/tests/role-policy.test.mjs"
+      ],
+      "not_covered": [],
+      "name": "独立质量检核员",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "max",
+      "agent_id": "01a08bf6-3788-78b0-9b15-e94d497afa8e",
+      "output_path": "careers/agent-outputs/independent-review.json",
+      "binding_status": "validated_at_import_and_rechecked",
+      "token_usage": null
+    }
+  ],
+  "decisions": [
+    {
+      "title": "主攻：经营机制与销售管理，不转产品经理",
+      "conclusion": "定位为有10人直接管理、平台个人客户经营和跨区域复盘经验的商业人才。优先销售运营/商业运营，以及有真实带队权限的销售管理与KA经营；渠道/生态和销售转化型市场岗位是迁移路径。产品经理排除，FDE不默认推荐。品牌负责人和全球商业负责人不能仅因高薪或公司知名就视为匹配。",
+      "depends_on": [
+        "candidate_advisor",
+        "job_scout"
+      ],
+      "evidence": [
+        "个人定位顾问：经营机制、10人直管和210家个人客户的不同证明任务。",
+        "岗位研究员：MiniMax7条完整历史JD，不同岗位的技术、渠道和管理门槛不同。"
+      ]
+    },
+    {
+      "title": "先核对这几类机会，再决定是否投递",
+      "conclusion": "第一队列核MiniMax大模型销售运营、百度云和大模型销售运营、美团大模型业务运营的职责与门槛；第二队列核探迹B2B销售主管/经理、360智能体生态渠道和AI产品销售的实际管理权限及客户链路。以上是信息核验顺序，不是已通过匹配或薪酬筛选的推荐；百度15–25k区间跨门槛，仍须确认固定底薪可否达到20K。",
+      "depends_on": [
+        "candidate_advisor",
+        "job_scout",
+        "compensation_reviewer"
+      ],
+      "evidence": [
+        "岗位研究员：销售运营强调指标体系、规则和财务协同，不能只凭销售经历通过。",
+        "薪酬核验员：15条线索均未证明固定月薪达标，百度有职位级索引链接。"
+      ]
+    },
+    {
+      "title": "AI迁移路线：先复用行业经营能力，补真实软件商业证据",
+      "conclusion": "先研究汽车数字化、营销技术、企业AI获客与模型平台商业运营，再向更高技术门槛扩展。AI地图和车型分析证明业务诊断与方法复用，不证明客户级POC、API签约、ARR或软件回款。对要求云厂渠道资源或成熟AI销售战绩的岗位保留探索，不以内部提效项目代替。",
+      "depends_on": [
+        "candidate_advisor",
+        "industry_company_researcher",
+        "job_scout"
+      ],
+      "evidence": [
+        "个人定位顾问：AI提效为个人测量，企业IT采购和真实AI合同证据仍缺。",
+        "产业研究员：政策支持到付费需求仍是待验证假设，公司官网自述不是市场排名。"
+      ]
+    },
+    {
+      "title": "信息量分层，不把22条记录说成22个合格机会",
+      "conclusion": "现有原始库48条完整历史JD保留，新职能方向筛出7条；另补15条招聘索引线索、覆盖8家公司并显示原始薪资。新增线索未取得完整详情，14条暂缺职位直链。固定底薪已确认达标仍是0，不填估算值；海外产品营销工作地为深圳，不凭“海外”二字推断境外工作许可门槛。",
+      "depends_on": [
+        "job_scout",
+        "compensation_reviewer"
+      ],
+      "evidence": [
+        "岗位研究员：7条同为MiniMax历史记录，不能代表全市场覆盖。",
+        "薪酬核验员：15条、唯一百度职位级链接；公司页和搜索页不是职位直链。"
+      ]
+    },
+    {
+      "title": "分歧处理：AI优先不压过收入目标和可证明经历",
+      "conclusion": "产业研究负责拓展可能性，薪资下限较高只用于确定核验顺序；个人顾问负责进入路径。总控不把产业前景、广告薪酬或经理标题直接合成为强推荐。当前优先补完整JD和固定底薪，尤其核11条广告区间下界≥20k的线索，但不排除有机会谈到20K固定薪的跨门槛条目。",
+      "depends_on": [
+        "candidate_advisor",
+        "industry_company_researcher",
+        "compensation_reviewer"
+      ],
+      "evidence": [
+        "个人定位与薪酬核验输出的职责不同；前者判断可迁移证据，后者不报个人匹配分。",
+        "用户已确认固定月薪至少20K，奖金和OTE不代替。"
+      ]
+    },
+    {
+      "title": "执行边界：材料按选岗启动，外发按批次授权",
+      "conclusion": "用户选岗后再做自上而下的定向证据映射与材料差异；缺事实集中提问，不自动补造。当前没有选择具体岗位或外发批次，材料顾问暂未启动。官网投递驱动、每周政策定时和反馈学习尚未验收，本轮不注册、不上传、不聊天、不提交。",
+      "depends_on": [
+        "candidate_advisor",
+        "compensation_reviewer"
+      ],
+      "evidence": [
+        "个人顾问已列少量关键补证问题，非所有问题都在选岗前强制询问。",
+        "项目外发运行开关关闭，角色研判不替代批次授权或逐岗语义审批。"
+      ]
+    }
+  ],
+  "not_run": [
+    "匹配与材料顾问（not_run）"
+  ],
+  "questions": [
+    "能否补一例你主导的跨区域经营复盘或机制调整，提供基线、周期、本人决策边界、协作分工及结果，并区分个人客户盘与团队结果？",
+    "企业员工、置换或自媒体项目中，哪一例有可回查的伙伴合作/渠道投入、有效线索、订单和成本记录，能说明本人贡献及收入归因？",
+    "个人拜访提效150%的指标定义、前后基线、测量周期和样本分别是什么；团队实际使用人数是多少，是否另做过团队效果测量？",
+    "职业概述应采用2026-09-09补充中的4年，还是另有可核验经历支持近5年；请确认统一起算时间及对应任职范围。"
+  ],
+  "report_path": "01_行情收集/official-careers/reports/headhunter.md",
+  "external_actions": 0,
+  "model_calls_by_cli": 0
+}

@@ -1,0 +1,300 @@
+{
+  "run_id": "breadth-2026-09-16",
+  "status": "partial_with_explicit_backlog",
+  "market_scan_complete": false,
+  "industry_query_groups": 8,
+  "started_at": "2026-09-16T15:26:18.971Z",
+  "finished_at": "2026-09-16T16:02:47.204Z",
+  "scope": "8组行业查询的首轮扩展；公司目录、搜索线索及原生JD分别计数，市场宽度仍未通过验收。",
+  "actual_started_calls": 52,
+  "persisted_capture_count": 52,
+  "completed_receipts": 52,
+  "request_count": {
+    "web_tool_actual_calls": 52,
+    "search": 32,
+    "open": 18,
+    "click": 2,
+    "admission_timing_status": "passed_for_recorded_calls"
+  },
+  "counts": {
+    "observations": 144,
+    "company_display_names": 76,
+    "full_jd": 34,
+    "commercial_observations": 102,
+    "salary_disclosed": 25,
+    "source_hosts": 32,
+    "company_discovery_display_names": 203,
+    "unresolved_observations": 8,
+    "complete_jd": 34,
+    "commercial_full_jd": 22,
+    "commercial_company_display_names": 58
+  },
+  "queries": [
+    {
+      "id": "a01",
+      "query": "智谱 招聘 商务 销售 官网",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a01.json"
+    },
+    {
+      "id": "a02",
+      "query": "优刻得 UCloud 招聘 销售 官网",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a02.json"
+    },
+    {
+      "id": "a03",
+      "query": "思迈特 SmartBI 招聘 销售 官网",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a03.json"
+    },
+    {
+      "id": "a04",
+      "query": "原圈科技 招聘 销售 运营",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a04.json"
+    },
+    {
+      "id": "a05",
+      "query": "实在智能 招聘 销售 商务",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a05.json"
+    },
+    {
+      "id": "a06",
+      "query": "翌擎智能 招聘 销售 商务",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a06.json"
+    },
+    {
+      "id": "a07",
+      "query": "兰光创新 招聘 销售",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a07.json"
+    },
+    {
+      "id": "a08",
+      "query": "优必选 招聘 销售 生态",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a08.json"
+    },
+    {
+      "id": "q01",
+      "query": "中国 大模型 开放平台 厂商 公司 名单",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q01.json"
+    },
+    {
+      "id": "q02",
+      "query": "大模型 销售 大客户 商务 生态 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q02.json"
+    },
+    {
+      "id": "q03",
+      "query": "大模型 商业化 客户 拓展 方案 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q03.json"
+    },
+    {
+      "id": "q04",
+      "query": "中国 云计算 算力 服务商 企业 厂商",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q04.json"
+    },
+    {
+      "id": "q05",
+      "query": "云服务 销售经理 渠道经理 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q05.json"
+    },
+    {
+      "id": "q06",
+      "query": "云计算 销售运营 商机 经营分析 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q06.json"
+    },
+    {
+      "id": "q07",
+      "query": "中国 数据智能 数据库 AI 平台 企业 厂商",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q07.json"
+    },
+    {
+      "id": "q08",
+      "query": "数据平台 数据库 销售 售前 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q08.json"
+    },
+    {
+      "id": "q09",
+      "query": "数据治理 解决方案 客户 商务 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q09.json"
+    },
+    {
+      "id": "q10",
+      "query": "中国 企业软件 SaaS 营销科技 公司 厂商",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q10.json"
+    },
+    {
+      "id": "q11",
+      "query": "SaaS 销售运营 商业运营 总监 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q11.json"
+    },
+    {
+      "id": "q12",
+      "query": "营销科技 客户分层 商机 经营分析 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q12.json"
+    },
+    {
+      "id": "q13",
+      "query": "中国 企业级AI 应用 智能体 Agent 厂商 企业",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q13.json"
+    },
+    {
+      "id": "q14",
+      "query": "AI 市场营销 生态 商务 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q14.json"
+    },
+    {
+      "id": "q15",
+      "query": "智能体 企业 客户 解决方案 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q15.json"
+    },
+    {
+      "id": "q16",
+      "query": "中国 汽车数字化 车联网 软件 企业 厂商",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q16.json"
+    },
+    {
+      "id": "q17",
+      "query": "汽车 行业运营 大客户经理 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q17.json"
+    },
+    {
+      "id": "q18",
+      "query": "智能座舱 车联网 商务 渠道 销售 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q18.json"
+    },
+    {
+      "id": "q19",
+      "query": "中国 工业互联网 工业软件 智能制造 厂商 公司",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q19.json"
+    },
+    {
+      "id": "q20",
+      "query": "工业软件 大客户 区域销售 经理 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q20.json"
+    },
+    {
+      "id": "q21",
+      "query": "智能制造 解决方案 销售 售前 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q21.json"
+    },
+    {
+      "id": "q22",
+      "query": "中国 机器人 机器视觉 智能硬件 厂商 名单",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q22.json"
+    },
+    {
+      "id": "q23",
+      "query": "机器人 机器视觉 大客户 渠道 销售 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q23.json"
+    },
+    {
+      "id": "q24",
+      "query": "智能硬件 行业 解决方案 BD 商务 招聘",
+      "status": "executed_index_results_not_exhaustive",
+      "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q24.json"
+    }
+  ],
+  "execution": {
+    "controller": "current main thread; collection, reviewed extraction and deterministic validation",
+    "extraction": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "agent_id": "01a0aada-0474-7c10-b082-a63845bcc9f6",
+      "scope": "offline proposed fields only; company regex output quarantined, not counted"
+    },
+    "independent_qa": {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "agent_id": "01a0aaff-d4a2-7c41-9f41-d17fb889e774",
+      "status": "three_findings_resolved_scoped_retest_passed",
+      "initial_report": "qa-breadth.json",
+      "targeted_retest": "qa-breadth-retest.json",
+      "scope": "Original findings and five APUS recall cases only; not market completeness acceptance"
+    }
+  },
+  "depth_scoring_performed": false,
+  "external_actions": 0,
+  "scheduled": false,
+  "caveats": [
+    "搜索返回可以是缓存，读取成功不保证此刻仍在招。",
+    "公司目录含历史品牌及子公司；不是已核独立雇主数、不是已扫完公司数。",
+    "所有行业仅完成声明查询组合，不能据此宣称市场宽度达标。",
+    "原定24次后续请求增加4次原生页续读；没有扩大自动权限。",
+    "未对未知薪资补造固定底薪；未进行自动投递。"
+  ],
+  "queued_urls": [
+    {
+      "url": "https://join.smartbi.com.cn/beisen_sociology",
+      "reason": "visible_empty_with_error_template_not_verified_empty"
+    },
+    {
+      "url": "https://ucloud.zhiye.com/social?c=&d=&k=&p=1%5E-1&r=",
+      "reason": "dynamic_unreadable"
+    },
+    {
+      "url": "https://www.zhipuai.cn/zh/joinus",
+      "reason": "entry_only"
+    },
+    {
+      "url": "https://zhaopin.ucloud.cn/social/index.html",
+      "reason": "partial_job_list_ats_dynamic"
+    },
+    {
+      "url": "https://apuscn.com/cn/jobs",
+      "reason": "partial_page_continuation_timeout"
+    },
+    {
+      "url": "https://www.ai-indeed.com/apply",
+      "reason": "entry_only"
+    },
+    {
+      "url": "https://www.nx-engine.com/join",
+      "reason": "dynamic_unreadable"
+    },
+    {
+      "url": "https://www.zhaopin.com/companydetail/jobs-CZ494367020/",
+      "reason": "partial_platform_list"
+    },
+    {
+      "url": "https://bxagent.cn/careers/",
+      "reason": "partial_role_summary"
+    },
+    {
+      "url": "https://www.modb.pro/job",
+      "reason": "first_page_only_31_pages_visible"
+    },
+    {
+      "url": "https://www.xreal.com/cn/career",
+      "reason": "entry_only"
+    }
+  ]
+}

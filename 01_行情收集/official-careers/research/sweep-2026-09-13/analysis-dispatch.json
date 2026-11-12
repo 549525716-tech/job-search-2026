@@ -1,0 +1,7 @@
+{
+  "agent_id": "01a09727-7105-7290-9e54-5cb1cc41090b",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "max",
+  "scope": "Frozen jobs.json and context.json, at most 20 complete-JD candidate analyses",
+  "dispatch_evidence": "Controller accepted spawn with these explicit model and reasoning parameters; reused the same agent for final analysis."
+}

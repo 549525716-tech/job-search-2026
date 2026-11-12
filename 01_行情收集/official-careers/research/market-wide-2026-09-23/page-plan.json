@@ -1,0 +1,728 @@
+{
+  "frozen_at": "2026-09-22T17:29:24.219Z",
+  "source_index_sha256": "2512ef22ae60e0fe8905020bedb73fd242678e65e7cb1eac0c71515afa9bc7bd",
+  "tasks": [
+    {
+      "id": "o01",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "北京天华星航科技有限公司",
+      "source_result_id": "c011-r001",
+      "source_title": "北京天华星航科技有限公司|天华星航-天华星航官网-大数据-云计算 数据安全",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.thedatasys.com.cn/recruit/47/5"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o02",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "北京天云融创软件技术有限公司",
+      "source_result_id": "c012-r001",
+      "source_title": "招贤纳士-北京天云融创软件技术有限公司",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.skycloudsoftware.com/newsinfo/2434129.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o03",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "北京涡控科技有限公司",
+      "source_result_id": "c013-r006",
+      "source_title": "图像识别_文字识别_自然语言处理_边缘计算_云计算-加入匠数",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.deepctrl.net/jiarujiangshu.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o04",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "北京涡控科技有限公司",
+      "source_result_id": "c013-r009",
+      "source_title": "加入我们--西云算力",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.west-hpc.com/html/jiaruwomen.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o05",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "北京涡控科技有限公司",
+      "source_result_id": "c013-r011",
+      "source_title": "销售经理招聘详情 - 热数科技",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://thermalai.cn/jobsDetail?id=19"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o06",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "北京涡控科技有限公司",
+      "source_result_id": "c013-r012",
+      "source_title": "加入我们_加入每刻科技",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www2.maycur.com/recruit/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o07",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "北京智芯半导体科技有限公司",
+      "source_result_id": "c016-r001",
+      "source_title": "智芯半导体科技有限公司官方网站",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhixin-semi.com/index/index/careers.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o08",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "北京智芯半导体科技有限公司",
+      "source_result_id": "c016-r008",
+      "source_title": "加入舆芯",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.istarchip.com/job/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o09",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "北京卓识网安技术股份有限公司",
+      "source_result_id": "c017-r005",
+      "source_title": "卓识网安社会招聘 - 北京卓识网安技术股份有限公司",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.enst.org.cn/260.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o10",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "布尔特科技",
+      "source_result_id": "c018-r005",
+      "source_title": "加入我们 - 北京玻尔智能技术有限公司",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.bohr-tec.com/index/lists?catname=jrwm&lang=zh-cn"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o11",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "成都阿加犀智能科技有限公司",
+      "source_result_id": "c019-r005",
+      "source_title": "加入我们-阿加犀智能科技",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://aidlux.com/about/join"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o12",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "成都搏智科技有限公司",
+      "source_result_id": "c020-r006",
+      "source_title": "技术服务工程师（成都售前） - 招聘信息 - 云祺科技",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.vinchin.cn/vinchin-employment-details.html?id=35"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o13",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "重庆持创科技有限公司",
+      "source_result_id": "c022-r011",
+      "source_title": "招聘信息-北斗智联科技有限公司",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.bicv.com/join/zpxx/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o14",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "广州明珞装备股份有限公司",
+      "source_result_id": "c032-r001",
+      "source_title": "职位检索 - 加入我们 广州明珞股份有限公司",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.minotech.cn/Joinus/job.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o15",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "杭州百炼泰然科技有限公司",
+      "source_result_id": "c033-r012",
+      "source_title": "人才招聘|乐言科技〖官网〗",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.leyantech.com/joinUS.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o16",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "合为恒创科技",
+      "source_result_id": "c037-r011",
+      "source_title": "加入我们",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.forwe.vip/join"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o17",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "环信",
+      "source_result_id": "c044-r006",
+      "source_title": "环信2026年招聘职位汇总：销售类 - 环信",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.easemob.com/news/5966"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o18",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "南京捌零零网络科技有限公司",
+      "source_result_id": "c057-r006",
+      "source_title": "Naddod",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://cn.naddod.com/about-us/talent-recruitment"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o19",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "南京捌零零网络科技有限公司",
+      "source_result_id": "c057-r012",
+      "source_title": "社会招聘-中能拾贝科技有限公司-工业智能产品与服务提供商-让资产更安全更经济更智能",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.cyberwing.com/social-recruitment.html?address=&position=%E8%90%A5%E9%94%80%E7%B1%BB&recruitment="
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o20",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "厦门正航软件科技有限公司",
+      "source_result_id": "c064-r004",
+      "source_title": "正航软件官方招聘中心 - 正航软件",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.chixm.com/job/?sort=0&type=1"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o21",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "山东新松工业软件研究院股份有限公司",
+      "source_result_id": "c066-r001",
+      "source_title": "社会招聘 - 山东新松工业软件研究院股份有限公司",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.sd-siasun.com/index.php?a=lists&c=index&catid=31&m=content"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o22",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "深圳联想懂的通信有限公司",
+      "source_result_id": "c074-r001",
+      "source_title": "职位列表-联想懂的通信",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.lenovoconnect.com/cn/contactus/recruit/society"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o23",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "数橙(上海)数字科技有限公司",
+      "source_result_id": "c087-r008",
+      "source_title": "人才招聘-百代（上海）数据技术有限公司",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.osstor.com/talents/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o24",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "数橙(上海)数字科技有限公司",
+      "source_result_id": "c087-r010",
+      "source_title": "数新智能__加入我们",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.datacyber.com/join"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o25",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "腾讯",
+      "source_result_id": "c092-r001",
+      "source_title": "社会招聘 | 腾讯招聘",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://jobs.tencent.com/jobopportunity.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o26",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "万国数据服务有限公司",
+      "source_result_id": "c098-r002",
+      "source_title": "加入我们 - 万国数据服务有限公司",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.gds-services.com/zh_cn/jobs.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o27",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "浙江华企信息科技有限公司",
+      "source_result_id": "c104-r001",
+      "source_title": "加入我们-浙江华企信息科技有限公司",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.hwaq.cc/join/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o28",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "中节能数字科技有限公司",
+      "source_result_id": "c108-r002",
+      "source_title": "中节能数字科技有限公司 > 人力资源 > 人才招聘",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.talroad.cecep.cn/talroad/rlzy/rczp/A106007002Gone1.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o29",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "中企动力科技股份有限公司",
+      "source_result_id": "c112-r001",
+      "source_title": "加入我们_社会招聘_招聘信息-中企高呈",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.cebest.com/jobs.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o30",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "Lan-bridge Group - 语言桥",
+      "source_result_id": "c117-r001",
+      "source_title": "加入我们_语言桥集团",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.lan-bridge.com/zhcn/aboutItems/join/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o31",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "Udesk",
+      "source_result_id": "c119-r001",
+      "source_title": "公司招聘_Udesk[官网]",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.udesk.cn/v1/joinus.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o32",
+      "operation": "open",
+      "route": "A",
+      "company": null,
+      "source_result_id": "k01-r002",
+      "source_title": "加入我们--麒麟信安",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.kylinsec.com.cn/recruit/18/0/0/2.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o33",
+      "operation": "open",
+      "route": "A",
+      "company": null,
+      "source_result_id": "k01-r007",
+      "source_title": "加入我们_揽阁信息科技（上海）有限公司",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.line-gate.com/About/Jobs/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o34",
+      "operation": "open",
+      "route": "A",
+      "company": null,
+      "source_result_id": "k01-r009",
+      "source_title": "诚聘英才 - 信安世纪",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://secdriver.com/careers.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o35",
+      "operation": "open",
+      "route": "A",
+      "company": null,
+      "source_result_id": "k02-r003",
+      "source_title": "加入我们 Join Us - 中科西瑞",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.sieri.cn/about/78.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o36",
+      "operation": "open",
+      "route": "A",
+      "company": null,
+      "source_result_id": "k02-r011",
+      "source_title": "招贤纳士-通合新能源",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://tne.net.cn/index-recruit-index.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o37",
+      "operation": "open",
+      "route": "A",
+      "company": null,
+      "source_result_id": "k03-r004",
+      "source_title": "加入万灵 HealAI｜全国销售代表招募",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://healai.com/careers/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o38",
+      "operation": "open",
+      "route": "A",
+      "company": null,
+      "source_result_id": "k07-r007",
+      "source_title": "加入我们",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.xiopmspace.com/contact-us-join-us-1/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o39",
+      "operation": "open",
+      "route": "A",
+      "company": null,
+      "source_result_id": "k08-r003",
+      "source_title": "加入我们 · 句子互动",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.juzibot.com/careers/index.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o40",
+      "operation": "open",
+      "route": "A",
+      "company": null,
+      "source_result_id": "k08-r010",
+      "source_title": "加入我们 · Noumena",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.noumena.com.cn/career/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o41",
+      "operation": "open",
+      "route": "B",
+      "company": null,
+      "source_result_id": "k15-r005",
+      "source_title": "Careers at NXON.ai - Build Real-World Intelligence | NXON.ai",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://nxon.ai/career"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o42",
+      "operation": "open",
+      "route": "B",
+      "company": null,
+      "source_result_id": "k15-r008",
+      "source_title": "Careers at Aiii | Join an AI-Native Team | Aiii",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.aiii.ai/en/careers"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o43",
+      "operation": "open",
+      "route": "B",
+      "company": null,
+      "source_result_id": "k15-r010",
+      "source_title": "加入我们 · 提壶智能",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://teehuai.com/careers"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o44",
+      "operation": "open",
+      "route": "B",
+      "company": null,
+      "source_result_id": "k15-r011",
+      "source_title": "人才招聘 | 加入iChina AI，共建AI时代基础设施 | iChina AI",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://ichina.cn/careers_en.html"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o45",
+      "operation": "open",
+      "route": "A-backfill",
+      "company": "百信Ai Agent",
+      "source_result_id": "c004-r008",
+      "source_title": "帆软-销售工程师(AI) | 社会招聘",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://join.fanruan.com/social/detail?id=9847"
+          }
+        ],
+        "response_length": "long"
+      }
+    }
+  ],
+  "selection": "Observed public recruitment URLs, cross-industry breadth; query target is NOT employer identity; source ownership checked only after reading.",
+  "source_inventory_complete": false
+}

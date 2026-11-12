@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "生成时间": "2026-11-12 10:57:40 Asia/Shanghai（box `date` 实读 CST=UTC+8）",
+    "范围": "对应 hk-2026-11-12-collect-1 与 collect-2 的公司扫描状态。岗位打分见 hk-scored-2026-11-12.json。阿里巴巴按 Holding / International / Cloud 分列。GenAI BD-Macau 不计入香港岗位数。字节系已扫描但暂缓交打招呼。",
+    "是否登录或外发": "仅离线整理已采集文件与索引说明，未重新打开网站、未登录、未投递。",
+    "更新说明": "collect-2 已更新 Tencent、Alibaba International、Alibaba Cloud、ByteDance 的扫描状态与计数；Alibaba Holding 本轮仍为 not yet scanned。Meta/Google/Apple/Amazon/Microsoft/Jobsdb/CTgoodjobs/香港劳工处计数未改。"
+  },
+  "companies": [
+    {
+      "company": "Meta",
+      "careers_entry_url": "https://www.metacareers.com/jobsearch/?offices=Hong+Kong",
+      "hk_roles_seen": 4,
+      "relevant_roles": 3,
+      "details_collected": 3,
+      "collection_status": "collected",
+      "notes": "香港搜索见到 4 条。3 条销售相关已采详情（Client Solutions Manager、Enterprise Technical Sales Specialist、Enterprise Technical Sales Manager）。Director of Public Policy, Greater China Region 因公共政策主岗未开详情。"
+    },
+    {
+      "company": "Google",
+      "careers_entry_url": "https://www.google.com/about/careers/applications/jobs/results/?location=Hong%20Kong",
+      "hk_roles_seen": 10,
+      "relevant_roles": 4,
+      "details_collected": 4,
+      "collection_status": "collected",
+      "notes": "location=Hong Kong 搜索结果记录 10 条。其中 Measurement Specialist, Large Customer Sales 列表主展示为上海/北京（+1 more），已标待核、未计为相关、未开详情。其余 9 条地点为 Hong Kong。4 条销售相关已采详情（AI Sales Specialist、Account Strategist、YouTube Industry Manager Travel、Workspace Sales Specialist）。其余为实习、公共政策、架构/网络/Customer Engineer 等，未开详情。"
+    },
+    {
+      "company": "Apple",
+      "careers_entry_url": "https://jobs.apple.com/en-us/search?location=hong-kong-HKG",
+      "hk_roles_seen": 7,
+      "relevant_roles": 2,
+      "details_collected": 2,
+      "collection_status": "collected",
+      "notes": "香港搜索见到 7 条。2 条相关已采详情：Business Development Manager - Apple Pay eCommerce（Posted Oct 20, 2026）、Senior Manager, Hong Kong（Posted Mar 09, 2022，列表日期较旧仍在公开结果中）。其余为兼职临时、网络/数据中心工程、零售地产、Corporate Functions Development Manager（未开详情，采集时注明疑为场所开发）。"
+    },
+    {
+      "company": "Amazon",
+      "careers_entry_url": "https://amazon.jobs/content/en/locations/china/hong-kong-sar",
+      "hk_roles_seen": 26,
+      "relevant_roles": 3,
+      "details_collected": 3,
+      "collection_status": "collected",
+      "notes": "地区介绍页内嵌岗位搜索，显示 26 OPEN JOBS。Category 筛 Sales, Advertising, & Account Management (2) + Business & Merchant Development (1) 后得到下列 3 条相关岗。其余主要为数据中心/设施/解决方案架构/安全工程等，未逐条开详情。另有 Project/Program/Product Management--Non-Tech (1) 未核标题。"
+    },
+    {
+      "company": "Microsoft",
+      "careers_entry_url": "https://jobs.careers.microsoft.com/global/en/search",
+      "hk_roles_seen": 34,
+      "relevant_roles": 6,
+      "details_collected": 3,
+      "collection_status": "collected",
+      "notes": "香港地点筛选显示 34 jobs、4 页（索引附注）。索引记录了 21 个标题（第 3–4 页多数主地点在中国内地，因开启 Include eligible remote jobs 出现，已标非香港、未开详情）。相关 6 条：Azure Solution Specialist、GCR Activation GTM Director - Security、Account Executive-Digital Native 已采详情；Activation GTM Manager、Account Technology Strategist、Principal Security Specialists-GCR 因详情配额未开（索引已注明）。客户成功、架构、数据中心、研究、实习等已标非相关。"
+    },
+    {
+      "company": "Tencent",
+      "careers_entry_url": "https://careers.tencent.com/en-us/search.html",
+      "hk_roles_seen": 7,
+      "relevant_roles": 4,
+      "details_collected": 4,
+      "collection_status": "collected",
+      "notes": "本轮 collect-2 已扫描。见到 7 条香港岗：4 条销售/渠道/市场运营已采详情并打分；3 条云/AI 解决方案架构师（Tencent Cloud International -AI & LLM Solution Architect、腾讯云-资深公有云技术咨询解决方案架构师、腾讯云-腾讯云AI解决方案架构师-AI）为技术售前、边缘相关，仅列表未开详情，索引 URL 为「未取」。"
+    },
+    {
+      "company": "Alibaba Holding",
+      "careers_entry_url": "https://talent-holding.alibaba.com/",
+      "hk_roles_seen": 0,
+      "relevant_roles": 0,
+      "details_collected": 0,
+      "collection_status": "not yet scanned",
+      "notes": "本轮 collect-2 未扫描阿里集团/Holding 官网。与阿里国际、阿里云分列。"
+    },
+    {
+      "company": "Alibaba International",
+      "careers_entry_url": "https://aidc-jobs.alibaba.com/",
+      "hk_roles_seen": 3,
+      "relevant_roles": 1,
+      "details_collected": 1,
+      "collection_status": "collected",
+      "notes": "本轮 collect-2 已扫描。见到 3 条香港岗：Alibaba.com-Senior Account Manager / Account Manager - B2B Business-Hong Kong 已采详情并打分；阿里国际站-商家交易运营专家-香港运营中心、阿里国际站-市场营销专员（数字及内容营销）为商家运营/市场营销、边缘相关，仅列表未开详情。"
+    },
+    {
+      "company": "Alibaba Cloud",
+      "careers_entry_url": "https://careers.alibabacloud.com/",
+      "hk_roles_seen": 12,
+      "relevant_roles": 10,
+      "details_collected": 4,
+      "collection_status": "collected",
+      "notes": "本轮 collect-2 已扫描。列表共 13 条，其中 Alibaba Cloud Intelligence-GenAI Business Development Manager-Macau 为澳门岗，已标「非香港」，不计入香港岗位数（香港见到 12 条）。4 条已采详情并打分：GenAI BD-Digital Native Sector、BD Manager-Insurance、BD Manager-GKA Finance、Partner Development Sales-SIs。相关但仅列表未开详情 6 条：Retail and Conglomerates BD 两条（标题近似、日期分别为 2026-11-04 与 2026-11-02，未核是否同一岗位）、Web3 BD、Partner Development Manager-APAC North-HK & Macau、Partner Development Manager-Hong Kong (The Philippines Market)、BD Manager-Public Sector。市场类 Marketing Manager、技术客户经理 TAM-FinTech/Web3 标为边缘，未计相关、未开详情。"
+    },
+    {
+      "company": "ByteDance",
+      "careers_entry_url": "https://joinbytedance.com/search?location=CT_159",
+      "hk_roles_seen": 7,
+      "relevant_roles": 4,
+      "details_collected": 4,
+      "collection_status": "collected",
+      "notes": "本轮 collect-2 已扫描。见到 7 条香港岗，全部标注「字节系暂缓」。4 条销售相关已采详情并打分，但不交打招呼名单：Innovation Tech Solution Sales Specialist-Hong Kong、Partner Sales Manager、Innovation Tech Solution Sales Specialist-Greater China Region、Solution Sales Automotive & Embodied AI。3 条 Solutions Architect / Solution Architect (GenAI/AI) 为售前技术、边缘相关，仅列表未开详情。"
+    },
+    {
+      "company": "Jobsdb",
+      "careers_entry_url": "https://hk.jobsdb.com/",
+      "hk_roles_seen": 0,
+      "relevant_roles": 0,
+      "details_collected": 0,
+      "collection_status": "blocked",
+      "notes": "安全验证拦截，本轮采集受阻。数字为 0 表示未见成功列表，不是确认零岗位。"
+    },
+    {
+      "company": "CTgoodjobs",
+      "careers_entry_url": "https://www.ctgoodjobs.hk/zh",
+      "hk_roles_seen": 0,
+      "relevant_roles": 0,
+      "details_collected": 0,
+      "collection_status": "not yet scanned",
+      "notes": "本轮 collect-1 未扫描。"
+    },
+    {
+      "company": "香港劳工处",
+      "careers_entry_url": "https://www.jobs.gov.hk/",
+      "hk_roles_seen": 0,
+      "relevant_roles": 0,
+      "details_collected": 0,
+      "collection_status": "not yet scanned",
+      "notes": "本轮 collect-1 未扫描。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "version": "2026-09-13-open-source-discovery-v2",
+  "source_scope": {"mode": "open_world", "named_channels_are_examples_not_whitelist": true, "unknown_channels": "retain_lead_then_verify_source_and_capability", "additional_examples": ["行业垂直招聘社区", "行业协会招聘公告", "投资机构被投企业招聘页", "企业认证社交账号", "人才服务商及猎头公开职位", "地方人才网", "其他公开信息网站"], "access_gate_unchanged": true, "unverified_source_is_full_jd": false},
+  "contract": "careers/docs/industry-tiers-and-sources.md",
+  "scope": "source_families_and_admission_contract_not_live_endpoint_allowlist",
+  "policy_origin_ref": "careers/config/policy-sources.json",
+  "company_entry_ref": "careers/config/company-discovery.json",
+  "adapter_ref": "careers/registry.mjs",
+  "access_refs": ["careers/config/access-policy.json", "careers/config/browser-policy.json"],
+  "channels": [
+    {"id": "official_policy", "names": ["中国政府网/国务院", "国家发展改革委", "工信部", "科技部", "国家数据局", "相关地方政府原文"], "purpose": ["policy", "industry_hypotheses"], "entry_ref": "careers/config/policy-sources.json", "capability": "selected_document_collector_not_weekly_discovery", "admission": "per_document_preflight_and_existing_halts", "cannot_prove": ["company_orders", "job_availability", "salary_stability"]},
+    {"id": "market_research", "names": ["中国信通院", "对应行业协会原始报告", "IDC原始市场研究", "Gartner原始市场研究"], "purpose": ["segment_definition", "market_position"], "capability": "candidate_sources_not_integrated", "admission": "verify_original_publisher_method_scope_and_access", "cannot_prove": ["hiring_now", "market_share_from_qualitative_quadrant"]},
+    {"id": "business_disclosure", "names": ["公司官网/投资者关系", "巨潮资讯", "上交所", "深交所", "港交所披露易", "客户方公开案例/采购结果"], "purpose": ["entity_business_line", "commercial_scale", "customer_evidence"], "capability": "selected_document_reading_not_generic_company_discovery", "admission": "verify_filing_or_customer_source_and_period", "cannot_prove": ["segment_leadership_from_group_revenue", "revenue_from_bid_announcement_only"]},
+    {"id": "official_jobs", "names": ["公司官网社会招聘", "官网链接的飞书招聘", "官网链接的Moka", "官网链接的北森", "官网链接的Workday", "官网链接的Greenhouse/Lever"], "purpose": ["job_list", "full_jd", "job_location", "application_link"], "entry_ref": "careers/config/company-discovery.json", "capability": "limited_registered_adapters_and_tool_assisted_reading", "admission": "verified_employer_tenant_and_transport_preflight", "cannot_prove": ["fixed_salary_from_undisclosed_jd", "company_complete_from_filtered_query", "all_ats_supported"]},
+    {"id": "boss", "names": ["BOSS直聘"], "purpose": ["job_discovery", "advertised_pay", "employer_crosscheck"], "capability": "legacy_separate_flow", "admission": "paused_pending_user_verification_and_channel_acceptance", "automatic_use": false, "cannot_prove": ["base_pay_from_total_range", "official_entity_from_same_company_name"]},
+    {"id": "liepin", "names": ["猎聘"], "purpose": ["job_discovery", "advertised_pay", "employer_crosscheck"], "capability": "historical_index_leads_only", "admission": "paused_after_captcha", "automatic_use": false, "cannot_prove": ["full_jd_from_index", "salary_confirmation_from_ote"]},
+    {"id": "additional_job_boards", "names": ["智联招聘", "前程无忧", "拉勾", "LinkedIn Jobs"], "purpose": ["supplementary_discovery", "advertised_pay"], "capability": "candidate_sources_not_integrated", "admission": "verify_access_identity_and_detail_capability_before_use", "automatic_use": false, "cannot_prove": ["coverage_before_execution"]},
+    {"id": "official_announcements", "names": ["公司认证招聘公众号", "公司官方招聘活动公告"], "purpose": ["discovery", "recruitment_announcement"], "capability": "tool_or_user_supplied_evidence_not_bulk_connector", "admission": "verify_account_owner_original_date_and_employer", "cannot_prove": ["current_opening_from_old_event", "full_jd_from_poster"]},
+    {"id": "cross_site_search", "names": ["当前可用web搜索工具"], "purpose": ["route_A_entry_discovery", "route_B_title_and_content_discovery"], "capability": "agent_tool_assisted_not_cli_search_engine", "admission": "declared_queries_shared_queue_and_evidence_capture", "cannot_prove": ["complete_company_inventory", "zero_jobs", "latest_jd_from_snippet", "provider_identity_when_not_reported"]}
+  ],
+  "endpoint_contract": ["source_id", "channel_id", "publisher_or_employer", "origin", "entry_url", "ownership_evidence", "purpose", "route_ids", "title_search_supported", "content_search_supported", "pagination_supported", "transport", "implementation_status", "access_status", "last_checked_at", "last_success_at", "halt_reason", "evidence_refs", "next_action"],
+  "implementation_statuses": ["candidate", "tool_assisted", "adapter_implemented", "quarantined"],
+  "access_statuses": ["not_checked", "historical_success_recheck_due", "preflight_passed_for_run", "login_required", "captcha", "access_denied", "robots_unknown", "technical_failure"],
+  "gates": {"catalog_entry_authorizes_network": false, "static_catalog_clears_halt": false, "prior_success_proves_current_access": false, "search_snippet_is_full_jd": false, "all_active_requests_share_serial_queue": true, "can_bypass_paywall_or_login": false, "restricted_source_fallback_transport_allowed": false, "new_origins_require_ownership_and_access_review": true},
+  "run_source_manifest_required": true,
+  "runtime": {"unified_source_admission_implemented": false, "automatic_discovery_implemented": false, "scan_started_by_this_revision": false, "open_source_lead_import_implemented": true, "generic_static_official_reader_implemented": true}
+}

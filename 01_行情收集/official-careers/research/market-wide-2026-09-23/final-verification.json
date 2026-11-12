@@ -1,0 +1,142 @@
+{
+  "status": "deterministic_delivery_checks_passed",
+  "verified_at": "2026-09-22T18:21:21.905Z",
+  "scope": "Current batch artifacts, source manifests, offline rendering and regression tests; not full market or hiring acceptance",
+  "jobs_sha256": "64e54e11b177a44d7bab038deaf1484c2aee0aa0bd827f8e0d981e44c7cb3658",
+  "counts": {
+    "company_queries_planned": 120,
+    "company_queries_executed": 120,
+    "new_company_queries_planned": 0,
+    "new_company_queries_executed": 0,
+    "carried_frontier_names_searched": 120,
+    "industry_queries_executed": 8,
+    "cross_market_queries_executed": 8,
+    "searches": 136,
+    "page_reads": 54,
+    "failed_page_reads": 15,
+    "empty_extraction_pages": 1,
+    "unscanned_planned_reads": 6,
+    "search_result_entries": 2120,
+    "distinct_discovered_urls": 1957,
+    "page_job_records": 231,
+    "complete_jd": 144,
+    "incomplete_page_jobs": 87,
+    "separate_search_job_leads": 590,
+    "combined_report_records": 821,
+    "page_employer_display_names": 29,
+    "next_company_display_names_pending": 99
+  },
+  "cumulative": {
+    "observations": 2176,
+    "company_names": 434,
+    "company_unknown": 6,
+    "scored": 10,
+    "full_jd": 475,
+    "range_eligible": 75,
+    "fixed_base_confirmed": 0
+  },
+  "tests": {
+    "exit_code": 0,
+    "passed": 36,
+    "failed": 0,
+    "log": "01_行情收集/official-careers/research/market-wide-2026-09-23/targeted-tests.txt"
+  },
+  "main_visual": {
+    "passed": true,
+    "scope": "offline UI; not current recruitment verification",
+    "checked_at": "2026-09-22T18:21:19.586Z",
+    "report_sha256": "69217a711dbdf41e29ba3a14093366e7b498d94c7308f5e1e5236eaefe6159aa",
+    "checks": [
+      {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "overflow": false,
+        "filters": true,
+        "industry_company_funnel": true,
+        "global_collapse_expand": true,
+        "keyboard_toggle": true,
+        "search_restores_fold_state": true,
+        "salary_sort_within_industry": true,
+        "company_group": true,
+        "details": true,
+        "errors": []
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "overflow": false,
+        "filters": true,
+        "industry_company_funnel": true,
+        "global_collapse_expand": true,
+        "keyboard_toggle": true,
+        "search_restores_fold_state": true,
+        "salary_sort_within_industry": true,
+        "company_group": true,
+        "details": true,
+        "errors": []
+      }
+    ]
+  },
+  "explorer_visual": {
+    "passed": true,
+    "scope": "Offline rendering only; no platform session access or source completeness claim",
+    "checked_at": "2026-09-22T18:21:21.890Z",
+    "html_sha256": "f4987629649778c577eb5f096053565b1a9ece093e5f28db574bed5f8bfa9660",
+    "search_captures": 136,
+    "search_results": 2120,
+    "checks": [
+      {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "all_queries_retained": true,
+        "all_results_retained": true,
+        "overflow": false,
+        "collapse_expand": true,
+        "filter_reset": true,
+        "errors": [],
+        "externalRequests": []
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "all_queries_retained": true,
+        "all_results_retained": true,
+        "overflow": false,
+        "collapse_expand": true,
+        "filter_reset": true,
+        "errors": [],
+        "externalRequests": []
+      }
+    ]
+  },
+  "admission": {
+    "status": "passed_for_recorded_calls",
+    "calls": 190,
+    "minimum_queue_cooldown_ms": 10036,
+    "issues": [],
+    "warnings": 190
+  },
+  "independent_qa_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/independent-qa-retest.json",
+  "independent_qa_status": "passed_scoped_retest",
+  "issues": [],
+  "market_complete": false,
+  "background_collection_running": false,
+  "applications": 0,
+  "scheduled": false,
+  "hashes": {
+    "jobs.json": "64e54e11b177a44d7bab038deaf1484c2aee0aa0bd827f8e0d981e44c7cb3658",
+    "report-jobs.json": "fb93775bc75d1c4976c1a9b0165e9d44e276f0a8c57b0b7aaa96a46746e3a326",
+    "report-run.json": "75ab027958ab26f50a5deb4b0759eb5b5824103d2f40be6f47fb5cda05da8a1b",
+    "summary.md": "926bd65d94576e6cd6bbf4e3745b2eb795afe3f735ab7a9fb03f9db3b5ac9bcd",
+    "search-explorer.html": "f4987629649778c577eb5f096053565b1a9ece093e5f28db574bed5f8bfa9660",
+    "independent-qa-retest.json": "4176208a5bbb99ac3a9f9105ba00f08c67a46b1369438948124d456b7d5d4a98"
+  }
+}

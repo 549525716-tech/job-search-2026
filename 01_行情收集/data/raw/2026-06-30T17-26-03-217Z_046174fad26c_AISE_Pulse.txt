@@ -1,0 +1,30 @@
+Microsoft AI Sales Engineer
+Company: Microsoft
+Category: Big Tech AI
+OTE: $165K to $260K
+Work model: Hybrid (Multiple Locations)
+Estimated SE team size: 300+ SEs (AI/ML focused)
+
+Company positioning
+Microsoft's AI strategy spans Azure AI services, the Copilot product family, and its deep partnership with OpenAI. The company sells AI across every segment of the enterprise market, from developer tools (GitHub Copilot) to productivity (Microsoft 365 Copilot) to custom AI solutions (Azure OpenAI Service). The enterprise AI sales organization is one of the largest in the industry, with dedicated SE teams for Azure AI, Copilot, and industry-specific solutions. Microsoft's unique position as both a cloud platform and an OpenAI partner gives its SEs access to GPT-4 and other frontier models through Azure.
+
+AI products and platform
+The AI product surface includes Azure OpenAI Service (enterprise access to GPT-4, GPT-4o, DALL-E, and Whisper), Azure Machine Learning (the managed ML platform), Azure AI Search for retrieval-augmented generation, Microsoft 365 Copilot for productivity, GitHub Copilot for code generation, Dynamics 365 Copilot for CRM and ERP, and Azure AI Studio for building custom AI applications. The Copilot brand extends across virtually every Microsoft product, creating multiple sales motions for SEs to support.
+
+Role details
+AI Sales Engineers at Microsoft can specialize in Azure AI (custom solutions), Copilot (productivity AI), or industry-specific solutions. A typical Azure AI SE engagement involves helping customers set up Azure OpenAI Service, designing RAG architectures using Azure AI Search, building proof-of-concept applications in Azure AI Studio, and presenting total cost of ownership analyses. Copilot-focused SEs run adoption workshops showing how AI integrates into existing Microsoft 365 workflows. You would demo Azure OpenAI Service capabilities, walk through the responsible AI dashboard, explain model selection and fine-tuning options, and help customers navigate the difference between using Azure OpenAI directly versus building on Copilot extensibility. The role requires understanding both the Azure cloud platform and the specific AI services layered on top of it.
+
+Technical skills and requirements
+- Experience with Azure cloud services and the Azure AI platform
+- Understanding of enterprise security, compliance, and data residency requirements
+- Python skills and familiarity with the Azure OpenAI SDK
+- Knowledge of RAG architectures and enterprise search patterns
+- Ability to position Microsoft AI products against competing cloud platforms
+
+Interview process
+Microsoft's SE interview process typically runs three to five weeks. It includes a recruiter screen, a hiring manager conversation, a technical assessment (often a solution design exercise), a customer scenario role-play, and a final round with leadership. Microsoft uses a structured interview framework with specific competency areas, so feedback is calibrated across interviewers. Candidates report that the customer scenario exercise is critical. They evaluate how you handle a complex customer environment with existing Microsoft infrastructure and competing priorities. Demonstrating knowledge of both Azure AI and the broader Microsoft ecosystem is important.
+
+Salary and compensation
+Microsoft uses a leveled system (L59 to L67+ for SE roles). OTE ranges from $165,000 to $260,000, with base salaries between $125,000 and $175,000. RSU grants vest over four years in publicly traded Microsoft stock. Annual stock refreshers and performance bonuses can push total compensation significantly higher. Senior and principal SEs at L65+ can earn total compensation above $350,000. Benefits include comprehensive health coverage, generous parental leave, education reimbursement, and employee stock purchase plan discounts.
+
+Source URL: https://aisepulse.com/companies/microsoft/

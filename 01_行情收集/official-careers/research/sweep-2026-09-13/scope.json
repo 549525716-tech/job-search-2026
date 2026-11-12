@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "frozen_initial_wave",
+  "authorized_request": "Start actual scanning and information collection; deliver the first edition",
+  "date": "2026-09-13",
+  "industries": ["基础大模型与云服务", "企业软件与营销数字化", "AI企业应用", "工业智能化", "智能硬件与汽车数字化"],
+  "route_A_seeds": ["腾讯云", "阿里云", "火山引擎", "华为云", "科大讯飞", "商汤", "百炼智能", "探迹科技", "纷享销客", "销售易", "神策数据", "GrowingIO", "金蝶", "用友", "明源云", "帆软", "简道云", "来也科技", "影刀", "实在智能", "容联云", "七牛云", "声网", "网易数帆", "联友科技", "赛意信息", "鼎捷数智", "汇川技术", "优必选", "海康机器人"],
+  "route_B_bootstrap_queries": ["AI 企业服务 渠道 招聘", "商业化 销售运营 招聘", "客户成功 区域 负责人 招聘", "行业销售 解决方案 招聘", "Revenue Operations China careers", "销售管理 固定底薪 20K", "商机预测 续约 增购 招聘", "生态伙伴 招募 招聘 BD"],
+  "keyword_status": "bootstrap_or_historical_reference_until_current_JD_evidence",
+  "source_families": ["official_company_careers", "official_ATS", "public_job_boards", "industry_and_talent_portals", "official_recruitment_announcements", "cross_site_search"],
+  "named_sources_are_not_whitelist": true,
+  "queue_policy": "All network actions through one collector-owned shared 10-20 second queue; one navigation/query per tool call",
+  "budget": {"initial_web_calls": 48, "reserved_followup_web_calls": 16, "primary_analysis_batch": 20, "job_record_cap": null},
+  "source_restrictions_preserved": ["BOSS and Liepin paused", "MiniMax adapter quarantined", "previously denied ATS sources remain stopped; independent public sources not access workarounds"],
+  "company_tiers": ["leader", "established", "emerging", "unverified"],
+  "tiers_are_capture_filter": false,
+  "geography": "China first; no hard domestic city filter",
+  "salary": "CNY fixed monthly base >=20000; ordinary range, OTE, annual and unknown stay separate",
+  "applications": false,
+  "scheduler": false,
+  "scope_is_not_market_exhaustion": true
+}

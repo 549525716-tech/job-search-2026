@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-09-21T16:52:06.651Z",
+  "source_hashes_validated": 54,
+  "hash_mismatches": [],
+  "actual_request_count": 16,
+  "minimum_finish_to_start_gap_ms": 10729,
+  "all_recorded_gaps_at_least_10000ms": true,
+  "counts": {
+    "observations": 54,
+    "complete_jd": 20,
+    "full_source_descriptions": 54,
+    "full_source_not_split": 34,
+    "companies": 5
+  },
+  "protected_platform_page_requests": 0,
+  "scope": "Recorded requests and local evidence only; no permanent login or whole-market availability claim"
+}

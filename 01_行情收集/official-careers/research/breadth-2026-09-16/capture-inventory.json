@@ -1,0 +1,890 @@
+[
+  {
+    "id": "a01",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "智谱 招聘 商务 销售 官网"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a01.json",
+    "evidence_sha256": "90d3e8e2acb0660a04dd61509a93d5098c92d2cac86bf2ef479653247886d905",
+    "observed_at": "2026-09-16T15:45:22.135Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "a02",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "优刻得 UCloud 招聘 销售 官网"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a02.json",
+    "evidence_sha256": "eaa66e6c9849040c1b9c0f28d08b70b58efbf677586b850c64df8fed908dfdf8",
+    "observed_at": "2026-09-16T15:45:55.382Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "a03",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "思迈特 SmartBI 招聘 销售 官网"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a03.json",
+    "evidence_sha256": "041dc60143dd998e0b634b0ac9540c7d7dad7eb1a4fc7424f35e66a7c6f14f42",
+    "observed_at": "2026-09-16T15:46:29.008Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "a04",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "原圈科技 招聘 销售 运营"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a04.json",
+    "evidence_sha256": "1b5b9495d5bcbfbfc0e1e91bf2ee1b3fa8d79829f4b0959730d4f868a41f6f76",
+    "observed_at": "2026-09-16T15:47:02.026Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "a05",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "实在智能 招聘 销售 商务"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a05.json",
+    "evidence_sha256": "f4f8b9ed7b5d7670f8f1c84d3abd72f9de2a2c4d5984294008e635d8df04fd43",
+    "observed_at": "2026-09-16T15:47:43.358Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "a06",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "翌擎智能 招聘 销售 商务"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a06.json",
+    "evidence_sha256": "c014942edbe7196e9eb6b9823bb2950c8231d497762c472412f9b18aaad02997",
+    "observed_at": "2026-09-16T15:48:17.013Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "a07",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "兰光创新 招聘 销售"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a07.json",
+    "evidence_sha256": "3f494a8e1223b727d7cabae620c4b5c57fd3de7c7e1a31c0e600ed0b957f206a",
+    "observed_at": "2026-09-16T15:48:50.106Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "a08",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "优必选 招聘 销售 生态"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/a08.json",
+    "evidence_sha256": "cf1b4fa7b56efb376a0186aef08b1fa40d0eae211de4dfd7325dbe22f1b32a15",
+    "observed_at": "2026-09-16T15:49:23.232Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "c01",
+    "operation": "click",
+    "request": {
+      "click": [
+        {
+          "ref_id": "turn205view0",
+          "id": 2
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/c01.json",
+    "evidence_sha256": "7b6a22cb2c5fc13b4cba700b760cf12bfb5ca58acca927e7866cd1e5530c5295",
+    "observed_at": "2026-09-16T16:00:28.243Z",
+    "status": "visible_empty_with_error_template_not_verified_empty",
+    "scope_complete": false
+  },
+  {
+    "id": "c02",
+    "operation": "click",
+    "request": {
+      "click": [
+        {
+          "ref_id": "turn204view0",
+          "id": 7
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/c02.json",
+    "evidence_sha256": "b7505e520464e9c40c1addd436f12d72a6cdd6116c3f8a2291b3ba1ed0b3c9b6",
+    "observed_at": "2026-09-16T16:01:00.947Z",
+    "status": "dynamic_unreadable",
+    "scope_complete": false
+  },
+  {
+    "id": "c03",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "turn212view0",
+          "lineno": 620
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/c03.json",
+    "evidence_sha256": "96812e1eade7353b962b7837b36d6d389592aa6245c5d22a8217ddb36725af0e",
+    "observed_at": "2026-09-16T16:01:51.614Z",
+    "status": "one_jd_obtained",
+    "scope_complete": false
+  },
+  {
+    "id": "c04",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "turn206view0",
+          "lineno": 465
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/c04.json",
+    "evidence_sha256": "a1d206ae33a80a93ed9ce2fa1038ddf6090673ec2fe8bd87ac54417bdf8a431f",
+    "observed_at": "2026-09-16T16:02:47.204Z",
+    "status": "failed_timeout",
+    "scope_complete": false
+  },
+  {
+    "id": "o01",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://www.zhipuai.cn/zh/joinus"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o01.json",
+    "evidence_sha256": "2575c476f38647eb436b9dfa863e8dfeea5842bd32d01f65f338248211c9d30a",
+    "observed_at": "2026-09-16T15:50:37.253Z",
+    "status": "entry_only",
+    "scope_complete": false
+  },
+  {
+    "id": "o02",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://zhaopin.ucloud.cn/social/index.html"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o02.json",
+    "evidence_sha256": "b42d6b3e3593995ef33f3559a4cd8653f21ab334c511a909bb48ad5bc9aefa84",
+    "observed_at": "2026-09-16T15:51:10.212Z",
+    "status": "partial_job_list_ats_dynamic",
+    "scope_complete": false
+  },
+  {
+    "id": "o03",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://join.smartbi.com.cn/beisen_jobs"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o03.json",
+    "evidence_sha256": "de41a8693ad29d8764b93ee571a91ff2d0321d7d83922fc57e8662cc829d71dc",
+    "observed_at": "2026-09-16T15:51:43.030Z",
+    "status": "campus_page_not_social",
+    "scope_complete": false
+  },
+  {
+    "id": "o04",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://apuscn.com/cn/jobs"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o04.json",
+    "evidence_sha256": "3b276a75cab7bfca590590cf331c263d86500a643825754bfa3f8fbdccff6780",
+    "observed_at": "2026-09-16T15:52:15.866Z",
+    "status": "partial_page_continuation_timeout",
+    "scope_complete": false
+  },
+  {
+    "id": "o05",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://www.ai-indeed.com/apply"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o05.json",
+    "evidence_sha256": "f7716d1c034965b406228596493a0542ce28bbc2373637d39a1855e2bcf1327b",
+    "observed_at": "2026-09-16T15:52:54.999Z",
+    "status": "entry_only",
+    "scope_complete": false
+  },
+  {
+    "id": "o06",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://www.nx-engine.com/join"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o06.json",
+    "evidence_sha256": "efbe35e297e77eeeab7c586b0150ce37800b4a87f47205bc9a2ba694698fa5a5",
+    "observed_at": "2026-09-16T15:53:28.009Z",
+    "status": "dynamic_unreadable",
+    "scope_complete": false
+  },
+  {
+    "id": "o07",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://www.lgcx.com/index.php?a=lists&c=index&catid=6&m=content"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o07.json",
+    "evidence_sha256": "dbee4b02fec16da7b69e524b4ef8569dca85ec7747add6622aa3ed64d651f945",
+    "observed_at": "2026-09-16T15:54:00.634Z",
+    "status": "historical_jobs_visible",
+    "scope_complete": false
+  },
+  {
+    "id": "o08",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://www.zhaopin.com/companydetail/jobs-CZ494367020/"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o08.json",
+    "evidence_sha256": "7f60a09ff129c30d5deccfb6bcbf42da0a810d6e5b80cb514ba0072b5eddef20",
+    "observed_at": "2026-09-16T15:54:33.728Z",
+    "status": "partial_platform_list",
+    "scope_complete": false
+  },
+  {
+    "id": "o09",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://selectdb.com/join-us"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o09.json",
+    "evidence_sha256": "f8050fbda2a5f5e34d646b6277a356d392c6f6a6c3129178f9e247dc40b1732a",
+    "observed_at": "2026-09-16T15:55:20.852Z",
+    "status": "visible_roles_extracted_not_whole_company",
+    "scope_complete": false
+  },
+  {
+    "id": "o10",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://www.qingcloud.com/jobs/%E6%B8%A0%E9%81%93%E7%BB%8F%E7%90%86/?origin=cifnews"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o10.json",
+    "evidence_sha256": "5cd624da0f40f4d8b4c10d063f4b9c447e7f731c234d8e28d8e525f73bc6d362",
+    "observed_at": "2026-09-16T15:55:53.778Z",
+    "status": "navigation_only_continued_in_c03",
+    "scope_complete": false
+  },
+  {
+    "id": "o11",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://zhaopin.jd.com/web/job-info-detail?requementId=219504"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o11.json",
+    "evidence_sha256": "d12606a4154affd65331868ca81303b524dae144fcb342a25d6684e72a85d021",
+    "observed_at": "2026-09-16T15:56:26.718Z",
+    "status": "one_jd_obtained",
+    "scope_complete": false
+  },
+  {
+    "id": "o12",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://talent.hikvision.com/home/socity/position?postId=F2091AF2B923B12F228E8BB674DCB853"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o12.json",
+    "evidence_sha256": "c45ac02344e2a59f3cc4b5f25aa73e86a2050b9498c34d7a02ce69475745fb9d",
+    "observed_at": "2026-09-16T15:56:59.299Z",
+    "status": "one_jd_obtained",
+    "scope_complete": false
+  },
+  {
+    "id": "o13",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://in-equal.com/careers/b2b-sales-director"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o13.json",
+    "evidence_sha256": "b58f3075aff60f11aca43311e5b652e43bd2fd80d6f46513958d33a0c78dc0f7",
+    "observed_at": "2026-09-16T15:58:05.790Z",
+    "status": "one_jd_obtained",
+    "scope_complete": false
+  },
+  {
+    "id": "o14",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://bxagent.cn/careers/"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o14.json",
+    "evidence_sha256": "8dbaf38e59d1032d444864df6301d23238a1920af83ed77b035478c3fa61a840",
+    "observed_at": "2026-09-16T15:58:38.384Z",
+    "status": "partial_role_summary",
+    "scope_complete": false
+  },
+  {
+    "id": "o15",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://www.modb.pro/job"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o15.json",
+    "evidence_sha256": "449cbf281d95f7cbc1526913a08629181c2f6f680d77c9fc3a0461734519fadf",
+    "observed_at": "2026-09-16T15:59:11.025Z",
+    "status": "first_page_only_31_pages_visible",
+    "scope_complete": false
+  },
+  {
+    "id": "o16",
+    "operation": "open",
+    "request": {
+      "open": [
+        {
+          "ref_id": "https://www.xreal.com/cn/career"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/o16.json",
+    "evidence_sha256": "5ae0c1c62d7d84480779893800be92fac727a087154c60566a7d505d0c95b145",
+    "observed_at": "2026-09-16T15:59:43.759Z",
+    "status": "entry_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q01",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "中国 大模型 开放平台 厂商 公司 名单"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q01.json",
+    "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+    "observed_at": "2026-09-16T15:30:11.889Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q02",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "大模型 销售 大客户 商务 生态 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q02.json",
+    "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+    "observed_at": "2026-09-16T15:30:45.224Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q03",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "大模型 商业化 客户 拓展 方案 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q03.json",
+    "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+    "observed_at": "2026-09-16T15:31:18.642Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q04",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "中国 云计算 算力 服务商 企业 厂商"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q04.json",
+    "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+    "observed_at": "2026-09-16T15:31:57.525Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q05",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "云服务 销售经理 渠道经理 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q05.json",
+    "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+    "observed_at": "2026-09-16T15:32:30.675Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q06",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "云计算 销售运营 商机 经营分析 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q06.json",
+    "evidence_sha256": "a42e1ad69a9606b2a21c443d76386b647c903e89a697c4e34e6368d94c8d6f67",
+    "observed_at": "2026-09-16T15:33:04.062Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q07",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "中国 数据智能 数据库 AI 平台 企业 厂商"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q07.json",
+    "evidence_sha256": "c98ab71151856e30f018bcd379fc336aca10cd478b8a0127916908aadec2ae24",
+    "observed_at": "2026-09-16T15:34:01.869Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q08",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "数据平台 数据库 销售 售前 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q08.json",
+    "evidence_sha256": "5d27263fa7c05c0c760109d1e2de1951ae4e1239217118d77a9178397cc2abe8",
+    "observed_at": "2026-09-16T15:34:35.230Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q09",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "数据治理 解决方案 客户 商务 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q09.json",
+    "evidence_sha256": "47488ff031c98c50575f5ad8161b999692f85282c83ef6b7a6e8932f630a4da7",
+    "observed_at": "2026-09-16T15:35:08.475Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q10",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "中国 企业软件 SaaS 营销科技 公司 厂商"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q10.json",
+    "evidence_sha256": "67efee0cbc0311cfc0217d54cfc09ed7bbe82986d43f5f091171b1415eec0a0e",
+    "observed_at": "2026-09-16T15:35:51.208Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q11",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "SaaS 销售运营 商业运营 总监 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q11.json",
+    "evidence_sha256": "f2f21aa8bb34ebcbb5565a1b67d9ce7f59f868b2e531b8e3f04e77e2cd84f826",
+    "observed_at": "2026-09-16T15:36:24.767Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q12",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "营销科技 客户分层 商机 经营分析 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q12.json",
+    "evidence_sha256": "c689ea997005a584468b1b299dba7f05f52cff4e6339e5feda4dd073cabc757b",
+    "observed_at": "2026-09-16T15:36:57.944Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q13",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "中国 企业级AI 应用 智能体 Agent 厂商 企业"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q13.json",
+    "evidence_sha256": "67563ee5102c17b6e7e977771a678b0b61af0a76a433ab36a646919aebb7cbbb",
+    "observed_at": "2026-09-16T15:37:37.088Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q14",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "AI 市场营销 生态 商务 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q14.json",
+    "evidence_sha256": "a917f420b8f488eb021ca4e0d3e7253829091e41a7c81bd2de8161467ef3cfa9",
+    "observed_at": "2026-09-16T15:38:10.641Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q15",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "智能体 企业 客户 解决方案 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q15.json",
+    "evidence_sha256": "f73594347d9a63a2909a5730f24770b74f788d2c44d44836b686d8c3424bac81",
+    "observed_at": "2026-09-16T15:38:43.955Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q16",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "中国 汽车数字化 车联网 软件 企业 厂商"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q16.json",
+    "evidence_sha256": "4cbd3dfecda1f5eeaba3a8b9d6bc1667a107756485f2d9bc1fc635a717d4025a",
+    "observed_at": "2026-09-16T15:39:26.038Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q17",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "汽车 行业运营 大客户经理 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q17.json",
+    "evidence_sha256": "d9d2938e03d353da6f5e2d2c61be0810366e9f3be7b3218dfba441735a3c78f8",
+    "observed_at": "2026-09-16T15:39:59.335Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q18",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "智能座舱 车联网 商务 渠道 销售 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q18.json",
+    "evidence_sha256": "a5e2898734a1356a9282724588282a051499217a2f9a4793ec6f6143e6dc8534",
+    "observed_at": "2026-09-16T15:40:32.581Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q19",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "中国 工业互联网 工业软件 智能制造 厂商 公司"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q19.json",
+    "evidence_sha256": "cc744b00ac9d5020979a90012fd12593bc17963f545f42f08db93ccca5363689",
+    "observed_at": "2026-09-16T15:41:16.132Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q20",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "工业软件 大客户 区域销售 经理 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q20.json",
+    "evidence_sha256": "4479b559b7b11c2d89a942e5774b7b81c2b86bbce6276a85b2fb27e53942567d",
+    "observed_at": "2026-09-16T15:41:49.330Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q21",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "智能制造 解决方案 销售 售前 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q21.json",
+    "evidence_sha256": "19ac554aae2e99bf96cbd29bf8f402d36748aa5f9371221ef2af901991bc481e",
+    "observed_at": "2026-09-16T15:42:22.393Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q22",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "中国 机器人 机器视觉 智能硬件 厂商 名单"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q22.json",
+    "evidence_sha256": "10a1fb231940395d0311eabb1c37b7ce56bcfb4ec8cbf4e876580903a03bcc63",
+    "observed_at": "2026-09-16T15:43:19.298Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q23",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "机器人 机器视觉 大客户 渠道 销售 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q23.json",
+    "evidence_sha256": "6139e7457e847d85f5c874b2ade17782107adf2e32bef6822e9fa79e0b3774ba",
+    "observed_at": "2026-09-16T15:43:52.576Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  },
+  {
+    "id": "q24",
+    "operation": "search",
+    "request": {
+      "search_query": [
+        {
+          "q": "智能硬件 行业 解决方案 BD 商务 招聘"
+        }
+      ],
+      "response_length": "long"
+    },
+    "evidence_file": "01_行情收集/official-careers/research/breadth-2026-09-16/raw/q24.json",
+    "evidence_sha256": "5b2d14d0054447e528d643c28d233070c2841bb46578cc0c5db4a2f68534fa60",
+    "observed_at": "2026-09-16T15:44:25.820Z",
+    "status": "search_index_only",
+    "scope_complete": false
+  }
+]

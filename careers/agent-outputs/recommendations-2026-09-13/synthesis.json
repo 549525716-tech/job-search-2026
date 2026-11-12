@@ -1,0 +1,35 @@
+{
+  "report": "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+  "report_sha256": "4e905e56ba72483bba1b7650a4a186a6e967e6cfeb329994a64f5ce84311fcd4",
+  "output_bindings": {
+    "candidate-advisor.json": "7b0fe1ef3a70497decb9a7d2294d7219dc56d243faa4aff4eda0a875338756fe",
+    "independent-review.json": "5980ba818b28f241a5ec661bc3e213065fab72b71531dafb956ad2369e069bd9",
+    "root-web-receipts.json": "25611dc0007ec29f9785b8e1c9de24e470d5c27a7805a06325ce5d8543eaa04b"
+  },
+  "decisions": [
+    {
+      "direction": "Primary job",
+      "decision": "Preserve sales management as income baseline; explore field-oriented sales operations and conditional customer success",
+      "reason": "Direct management evidence stronger than software-industry evidence; current CSM samples support adjacent capability but pay and management unconfirmed"
+    },
+    {
+      "direction": "Sales enablement",
+      "decision": "Keep as hidden capability and small service opportunity, downgrade ordinary trainer full-time route",
+      "reason": "Internal coaching direct; market sample advertised pay below target in index, current detail pay hidden"
+    },
+    {
+      "direction": "Monetization",
+      "decision": "Test sales coaching first; workflow co-delivery longer-term; expert network invite-only opportunity",
+      "reason": "No user payment evidence; Third Bridge transaction mechanism verified, coaching and workflow buyers unvalidated"
+    }
+  ],
+  "unaccepted_role_outputs": [
+    "job-scout.json: preliminary source lead material, not a validated matching result"
+  ],
+  "software_runtime_tests": "not applicable: research artifact only",
+  "external_actions": {
+    "applications": 0,
+    "messages": 0,
+    "resume_uploads": 0
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "run_id": "breadth-2026-09-16",
+  "review_type": "independent_offline_targeted_retest",
+  "reviewed_at": "2026-09-16T16:30:32.309Z",
+  "status": "passed_scoped_retest",
+  "scope": "仅复验qa-breadth.json原3项问题、指定百度SOCIAL对照和5条APUS商业召回；不重新进行市场研究或历史项目审计。",
+  "summary": [
+    "原QA-P1-01、QA-P2-01、QA-P2-02均通过定向修复复验。",
+    "96条搜索观察industry均为null，并保留discovery_industry及待核状态。",
+    "8组coverage使用query_direction及非已核声明；原3个行业反例展示符合预期，京东官网JD业务分类优先。",
+    "4条校招均保全原始标题证据、标为campus且不进入商业资格；百度SOCIAL记录保留为review，未被误判校招。",
+    "SelectDB 6条公司quote均精确等于o09 L4真实公司文字；法律主体继续待核。",
+    "5条APUS岗位实际产物与classifyRole复算均被商业召回；召回不等于个人推荐。",
+    "Node v24.19.0下validate.mjs通过；指定两份测试文件15/15通过，0失败、0跳过。",
+    "复算144观察/76公司展示名/34完整JD/102商业观察/203目录名；市场not_accepted不变。"
+  ],
+  "original_findings": [
+    {
+      "id": "QA-P1-01",
+      "result": "resolved_in_reviewed_snapshot",
+      "checks": {
+        "all_96_search_rows_pending": true,
+        "all_8_coverage_rows_pending": true
+      },
+      "counterexamples": [
+        {
+          "ids": [
+            "breadth-a06-r7"
+          ],
+          "fields": [
+            {
+              "id": "breadth-a06-r7",
+              "industry": null,
+              "discovery_industry": "汽车与智能出行数字化",
+              "industry_status": "query_direction_not_verified_business_industry"
+            }
+          ],
+          "group_label": "检索方向：汽车与智能出行数字化（行业待核）"
+        },
+        {
+          "ids": [
+            "breadth-q24-r7"
+          ],
+          "fields": [
+            {
+              "id": "breadth-q24-r7",
+              "industry": null,
+              "discovery_industry": "机器人与智能硬件",
+              "industry_status": "query_direction_not_verified_business_industry"
+            }
+          ],
+          "group_label": "检索方向：智能硬件与汽车科技（行业待核）"
+        },
+        {
+          "ids": [
+            "breadth-q03-r2",
+            "breadth-o11-l14"
+          ],
+          "fields": [
+            {
+              "id": "breadth-q03-r2",
+              "industry": null,
+              "discovery_industry": "基础大模型与开放平台",
+              "industry_status": "query_direction_not_verified_business_industry"
+            },
+            {
+              "id": "breadth-o11-l14",
+              "industry": "AI企业应用",
+              "industry_status": "reviewed_JD_business_context_not_legal_entity_classification"
+            }
+          ],
+          "group_label": "AI应用与企业软件"
+        }
+      ],
+      "interpretation": "待核检索方向与官网JD业务分类已分离。groupIndustries在实际反例输入上通过；此处核的是函数输出，不是重新验收浏览器UI。"
+    },
+    {
+      "id": "QA-P2-01",
+      "result": "resolved_in_reviewed_snapshot",
+      "campus_records": [
+        {
+          "id": "breadth-q02-r4",
+          "type": "campus",
+          "eligible": false,
+          "evidence": "苏州-云和大模型大客户销售(J101155)（校招）- 百度 | 职先机 (https://jobs.ultraai.site/jobs/baidu_campus/campus%3A6481eab8-5639-4c17-a08e-33d12fca9a3c)",
+          "attention": "校园/实习，不作为当前社招推荐；搜索索引线索，不等于详情页读取或在招确认"
+        },
+        {
+          "id": "breadth-q21-r06",
+          "type": "campus",
+          "eligible": false,
+          "evidence": "赛意信息 售前顾问 招聘（校招）- 校招宝 (https://xiaozhaobao.com.cn/job/1736182)",
+          "attention": "校园/实习，不作为当前社招推荐；搜索索引线索，不等于详情页读取或在招确认"
+        },
+        {
+          "id": "breadth-q18-r08",
+          "type": "campus",
+          "eligible": false,
+          "evidence": "智能座舱与车联网仿真工程师_北京经纬恒润科技股份有限公司校招_牛客网 (https://www.nowcoder.com/jobs/detail/97040)",
+          "attention": "校园/实习，不作为当前社招推荐；搜索索引线索，不等于详情页读取或在招确认"
+        },
+        {
+          "id": "breadth-q18-r10",
+          "type": "campus",
+          "eligible": false,
+          "evidence": "智能座舱与车联网仿真工程师_北京经纬恒润科技股份有限公司校招_牛客网 (https://www.nowcoder.com/jobs/detail/97264)",
+          "attention": "校园/实习，不作为当前社招推荐；搜索索引线索，不等于详情页读取或在招确认"
+        }
+      ],
+      "social_control": {
+        "id": "breadth-q02-r2",
+        "source_url": "https://talent.baidu.com/jobs/detail/SOCIAL/7ed37785-f997-4c00-b421-39f08eb3f1b1",
+        "employment_type": "not_confirmed",
+        "employment_type_evidence": "百度校园招聘 (https://talent.baidu.com/jobs/detail/SOCIAL/7ed37785-f997-4c00-b421-39f08eb3f1b1)",
+        "eligible": false,
+        "tier": "review",
+        "collection_eligible": true,
+        "review_required": true
+      },
+      "interpretation": "百度SOCIAL记录仍在原始库且collection_eligible=true；eligible=false来自正文待复核，不是校招误删。"
+    },
+    {
+      "id": "QA-P2-02",
+      "result": "resolved_in_reviewed_snapshot",
+      "evidence_count": 6,
+      "quote": "飞轮科技，致力于打造全球领先的实时数据仓库技术，推崇基于开源的商业化模式。",
+      "identity_status": "unverified_display_name_or_brand",
+      "source": "raw/o09.json",
+      "source_line": 4,
+      "quote_exact_match_all_six": true,
+      "interpretation": "六条摘录直接展示飞轮科技，页面标题SelectDB支持组合展示名；不升级法律主体核验。"
+    }
+  ],
+  "apus_recall": {
+    "result": "passed",
+    "semantic_scope": "依据同一o04原文职责确认商业职能，不进行候选人能力评分。该原文SHA与前次QA相同，未重新读取全页。",
+    "records": [
+      {
+        "id": "breadth-o04-l272",
+        "title": "战略合作经理",
+        "eligible": true,
+        "recomputed_eligible": true,
+        "category": "商务生态渠道",
+        "description_complete": true,
+        "evidence_line_ranges": {
+          "title": 272,
+          "location": null,
+          "responsibilities": [
+            274,
+            279
+          ],
+          "requirements": [
+            280,
+            287
+          ]
+        }
+      },
+      {
+        "id": "breadth-o04-l373",
+        "title": "海外推广经理",
+        "eligible": true,
+        "recomputed_eligible": true,
+        "category": "市场营销",
+        "description_complete": true,
+        "evidence_line_ranges": {
+          "title": 373,
+          "location": null,
+          "responsibilities": [
+            375,
+            379
+          ],
+          "requirements": [
+            380,
+            386
+          ]
+        }
+      },
+      {
+        "id": "breadth-o04-l251",
+        "title": "活动策划/创意策划/线上活动策划",
+        "eligible": true,
+        "recomputed_eligible": true,
+        "category": "市场营销",
+        "description_complete": true,
+        "evidence_line_ranges": {
+          "title": 251,
+          "location": null,
+          "responsibilities": [
+            253,
+            261
+          ],
+          "requirements": [
+            262,
+            268
+          ]
+        }
+      },
+      {
+        "id": "breadth-o04-l390",
+        "title": "Public Relations Manager",
+        "eligible": true,
+        "recomputed_eligible": true,
+        "category": "市场营销",
+        "description_complete": true,
+        "evidence_line_ranges": {
+          "title": 390,
+          "location": null,
+          "responsibilities": [
+            392,
+            399
+          ],
+          "requirements": [
+            400,
+            407
+          ]
+        }
+      },
+      {
+        "id": "breadth-o04-l151",
+        "title": "海外网站运营及SEO专员",
+        "eligible": true,
+        "recomputed_eligible": true,
+        "category": "市场营销",
+        "description_complete": true,
+        "evidence_line_ranges": {
+          "title": 151,
+          "location": null,
+          "responsibilities": [
+            153,
+            162
+          ],
+          "requirements": [
+            163,
+            174
+          ]
+        }
+      }
+    ],
+    "semantic_evidence": [
+      {
+        "id": "breadth-o04-l272",
+        "quote": "开展与海外公司基于产品、内容的商业拓展以及合作构建",
+        "interpretation": "战略合作属于商务拓展，不只是战略研究。"
+      },
+      {
+        "id": "breadth-o04-l373",
+        "quote": "管理现有在线渠道，提升公司无线产品在所在领域的市场份额",
+        "interpretation": "海外渠道推广与市场增长。"
+      },
+      {
+        "id": "breadth-o04-l251",
+        "quote": "提供整合营销推广方案与执行管理",
+        "interpretation": "活动策划为营销职能。"
+      },
+      {
+        "id": "breadth-o04-l390",
+        "quote": "Product communications and media relations",
+        "interpretation": "产品传播与媒体公关；原文英语母语要求仍在，商业召回不代表个人已满足。"
+      },
+      {
+        "id": "breadth-o04-l151",
+        "quote": "为SEO结果负责，提升网站在国外各搜索引擎中收录与排名",
+        "interpretation": "海外SEO与获客增长；保留语言及技术要求。"
+      }
+    ]
+  },
+  "counts": {
+    "observations": 144,
+    "company_display_names": 76,
+    "full_jd": 34,
+    "commercial_observations": 102,
+    "company_discovery_display_names": 203
+  },
+  "tests": [
+    {
+      "command": "/Users/MR/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node 01_行情收集/official-careers/research/breadth-2026-09-16/validate.mjs",
+      "runtime": "v24.19.0",
+      "exit_code": 0,
+      "result": {
+        "passed": true,
+        "checked_at": "2026-09-16T16:29:27.380Z",
+        "jobs": 144,
+        "companies": 203,
+        "scope": "Offline evidence hash, field binding, complete-JD line ranges and prior extraction regressions; not market completeness or live hiring verification",
+        "jobs_sha256": "afb08c94ab5cf288fbd10c95e519abb495319a8287c9ebca19c853f5fe09592c",
+        "company_sha256": "4de04d2f5e3aa3764bf5c524392d2f641a987a10f432ef98753437fd2f1a8a73"
+      },
+      "side_effect": "用户授权的既有校验器重写deterministic-validation.json；未改实现。"
+    },
+    {
+      "command": "/Users/MR/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --test careers/tests/decision-review.test.mjs careers/tests/role-policy.test.mjs",
+      "runtime": "v24.19.0",
+      "exit_code": 0,
+      "tests": 15,
+      "passed": 15,
+      "failed": 0,
+      "skipped": 0,
+      "cancelled": 0
+    },
+    {
+      "command": "只读Node内联定向断言：96条搜索分类、8组coverage、3行业反例、4校招及SOCIAL对照、6公司quote、5APUS、计数",
+      "result": {
+        "all_search_industry_pending": true,
+        "coverage_pending": true,
+        "counterexamples": true,
+        "four_campuses": true,
+        "social_control": true,
+        "selectdb_quote": true,
+        "apus": true,
+        "counts": true
+      }
+    }
+  ],
+  "evidence": {
+    "sha256": {
+      "build.mjs": "3b40ce7fd16bbe7c50337268d1a7dae24256d5eeb31d8a65a38d7d87b5ab4220",
+      "jobs.json": "afb08c94ab5cf288fbd10c95e519abb495319a8287c9ebca19c853f5fe09592c",
+      "companies.json": "4de04d2f5e3aa3764bf5c524392d2f641a987a10f432ef98753437fd2f1a8a73",
+      "run.json": "86bd4c203690b1acb0711900f2f89805b541fa9d9b7519936156d3583ae22238",
+      "coverage.json": "054c73610303f1a900570416ba048fe6176142f770b1c5517890d4574dfbd8dd",
+      "validate.mjs": "027548ce0d858bdf96ab7f585ccc3dfdc3b20ab61b848f7fb20722998d359581",
+      "careers/decision-review.mjs": "87837a2073f183a3dadc9ae3bb556cf654fbe08ca67d21a6cd865e3c4eaf09ba",
+      "careers/role-policy.mjs": "5c0f82991a1d47b554fda6cca0898330462c89c345c8a4e42fed20f2adee19c4",
+      "careers/tests/decision-review.test.mjs": "0066d1d8362aef839e8fa65ae7695c46a41e956803fa0e73fd5327c403b1a6dd",
+      "careers/tests/role-policy.test.mjs": "f79b1e498c3cabfd92a5e82ce328c1d446bfe8d5158ee87fe049cfd4f3649739"
+    },
+    "original_raw_snapshot_matches": [
+      {
+        "file": "raw/a06.json",
+        "sha256": "c014942edbe7196e9eb6b9823bb2950c8231d497762c472412f9b18aaad02997",
+        "unchanged": true
+      },
+      {
+        "file": "raw/q24.json",
+        "sha256": "5b2d14d0054447e528d643c28d233070c2841bb46578cc0c5db4a2f68534fa60",
+        "unchanged": true
+      },
+      {
+        "file": "raw/q03.json",
+        "sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+        "unchanged": true
+      },
+      {
+        "file": "raw/o11.json",
+        "sha256": "d12606a4154affd65331868ca81303b524dae144fcb342a25d6684e72a85d021",
+        "unchanged": true
+      },
+      {
+        "file": "raw/q02.json",
+        "sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+        "unchanged": true
+      },
+      {
+        "file": "raw/q21.json",
+        "sha256": "19ac554aae2e99bf96cbd29bf8f402d36748aa5f9371221ef2af901991bc481e",
+        "unchanged": true
+      },
+      {
+        "file": "raw/q18.json",
+        "sha256": "a5e2898734a1356a9282724588282a051499217a2f9a4793ec6f6143e6dc8534",
+        "unchanged": true
+      },
+      {
+        "file": "raw/o09.json",
+        "sha256": "f8050fbda2a5f5e34d646b6277a356d392c6f6a6c3129178f9e247dc40b1732a",
+        "unchanged": true
+      },
+      {
+        "file": "raw/o04.json",
+        "sha256": "3b276a75cab7bfca590590cf331c263d86500a643825754bfa3f8fbdccff6780",
+        "unchanged": true
+      }
+    ],
+    "note": "9个相关原文文件只做SHA比对，均与前次QA一致；SelectDB另定向提取L4。没有重新深读全部raw。"
+  },
+  "unresolved_in_retested_scope": [],
+  "business_acceptance": {
+    "status": "not_accepted",
+    "breadth_status": "not_passed",
+    "market_scan_complete": false,
+    "delivery_label": "阶段样本：未通过宽度验收，非正式推荐",
+    "changed_by_reviewer": false
+  },
+  "limitations": [
+    "结论仅针对记录SHA对应版本的原3项修复和5条召回；不覆盖后续改动。",
+    "未重新验收报告整体UI、其他规则、全部历史项目、实时在招、法律雇主身份或全市场覆盖。",
+    "商业观察102是既有资格分类结果，不代表102个独立职位、正式推荐或符合用户全部硬门槛。",
+    "未联网，未修改build、role-policy、decision-review及数据实现；仅手工新增本复验JSON，并运行用户明确授权的校验器。"
+  ]
+}

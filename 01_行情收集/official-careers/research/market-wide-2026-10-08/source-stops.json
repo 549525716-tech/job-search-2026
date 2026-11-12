@@ -1,0 +1,17 @@
+{
+  "halted_hosts": [
+    "www.bicv.com",
+    "www.leyantech.com",
+    "www.4paradigm.com",
+    "www.zhaopin.com"
+  ],
+  "skipped": [
+    {
+      "id": "p36",
+      "host": "www.zhaopin.com",
+      "reason": "source halted earlier in this run"
+    }
+  ],
+  "scope": "current wave; prior platform quarantines remain unchanged",
+  "observed_at": "2026-10-08T16:58:40.573Z"
+}

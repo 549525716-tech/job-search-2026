@@ -1,0 +1,16 @@
+{
+  "prepared_batch": "careers/agent-outputs/batches/d8807b60-e4d5-46ed-8529-94c19effed5b.json",
+  "agents": [
+    {
+      "task_name": "/root/candidate_advisor",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "max"
+    },
+    {
+      "task_name": "/root/job_scout",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium"
+    }
+  ],
+  "receipt_semantics": "spawn_agent returned canonical task_name only; no UUID or separate accepted-model metadata was returned. Requested settings recorded without inventing additional telemetry."
+}

@@ -1,0 +1,7 @@
+{
+  "agent_id": "01a09738-eba7-74a3-8e5f-c40aef452ec6",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "max",
+  "scope": "Independent offline original-source checks followed by final recommendation review; no source collection or resume changes",
+  "dispatch_evidence": "Controller accepted explicit spawn parameters and returned this agent ID."
+}

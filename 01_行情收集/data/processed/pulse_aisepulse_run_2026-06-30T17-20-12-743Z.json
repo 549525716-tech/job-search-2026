@@ -1,0 +1,71 @@
+{
+  "source": "AISE Pulse",
+  "createdAt": "2026-06-30T17:20:12.743Z",
+  "delayMs": 15000,
+  "jitterMs": 10000,
+  "selected": [
+    {
+      "slug": "openai",
+      "company": "OpenAI",
+      "category": "Frontier AI",
+      "route": "AI软件落地路线",
+      "segment": "基座大模型/Agent平台",
+      "priority": "P0"
+    },
+    {
+      "slug": "anthropic",
+      "company": "Anthropic",
+      "category": "Frontier AI",
+      "route": "AI软件落地路线",
+      "segment": "基座大模型/Agent平台",
+      "priority": "P0"
+    },
+    {
+      "slug": "databricks",
+      "company": "Databricks",
+      "category": "Data and Infrastructure Platforms",
+      "route": "云与MaaS大客户路线",
+      "segment": "数据/MLOps/AI基础软件",
+      "priority": "P0"
+    },
+    {
+      "slug": "salesforce",
+      "company": "Salesforce",
+      "category": "Enterprise AI Platforms",
+      "route": "AI软件落地路线",
+      "segment": "智能客服/营销/销售AI",
+      "priority": "P0"
+    }
+  ],
+  "importedCount": 4,
+  "skippedCount": 0,
+  "errorCount": 0,
+  "imported": [
+    {
+      "id": "57a7bfc4c981",
+      "company": "OpenAI",
+      "salary": "$185K to $285K",
+      "url": "https://aisepulse.com/companies/openai/"
+    },
+    {
+      "id": "5c1a4fc74710",
+      "company": "Anthropic",
+      "salary": "$180K to $270K",
+      "url": "https://aisepulse.com/companies/anthropic/"
+    },
+    {
+      "id": "b5c6e6335a9b",
+      "company": "Databricks",
+      "salary": "$170K to $260K",
+      "url": "https://aisepulse.com/companies/databricks/"
+    },
+    {
+      "id": "f1c77268c77e",
+      "company": "Salesforce",
+      "salary": "$160K to $240K",
+      "url": "https://aisepulse.com/companies/salesforce/"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "runId": "2026-06-29T18-03-45-194Z",
+  "createdAt": "2026-06-29T18:03:45.194Z",
+  "cdpUrl": "http://127.0.0.1:9333",
+  "args": {
+    "source": "BOSS直聘",
+    "city": "广州",
+    "maxSearches": 1,
+    "maxJobs": 3,
+    "cardsPerSearch": 2,
+    "detailLimit": 0,
+    "delayMs": 600000,
+    "minRequestIntervalMs": 600000,
+    "jitterMs": 180000,
+    "resumeAfterRisk": false,
+    "dryRun": false,
+    "groups": [
+      "AI销售"
+    ],
+    "keywords": [],
+    "companies": [],
+    "industries": [],
+    "roles": []
+  },
+  "safetyLimits": {
+    "before": {
+      "maxSearches": 1,
+      "maxJobs": 3,
+      "cardsPerSearch": 2,
+      "detailLimit": 0,
+      "delayMs": 600000,
+      "minRequestIntervalMs": 600000,
+      "jitterMs": 180000,
+      "resumeAfterRisk": false
+    },
+    "after": {
+      "maxSearches": 1,
+      "maxJobs": 3,
+      "cardsPerSearch": 2,
+      "detailLimit": 0,
+      "delayMs": 600000,
+      "minRequestIntervalMs": 600000,
+      "jitterMs": 180000,
+      "resumeAfterRisk": false
+    }
+  },
+  "searchPlan": [
+    {
+      "query": "AI销售",
+      "queryKind": "group",
+      "roleFamily": "销售",
+      "group": "AI销售",
+      "source": "BOSS直聘",
+      "city": "广州",
+      "url": "https://www.zhipin.com/web/geek/jobs?query=AI%E9%94%80%E5%94%AE&city=101280100"
+    }
+  ],
+  "status": "paused_by_risk_recovery_mode",
+  "savedCount": 0,
+  "message": "BOSS风控恢复期：本次不会自动打开或刷新 BOSS 页面。\n建议先暂停 120-180 分钟，并在浏览器中手动完成验证。\n恢复自动低频采集时，命令需要显式追加 --resume-after-risk。\n更稳的方式是手动浏览岗位后使用 npm run import:manual 导入复制的岗位文本。"
+}

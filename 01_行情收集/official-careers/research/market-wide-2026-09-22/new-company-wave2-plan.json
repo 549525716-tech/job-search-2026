@@ -1,0 +1,719 @@
+{
+  "basis": "Employer display names in observed primary and similar job cards, not query target inheritance. Exact normalized known aliases excluded only from duplicate query, not identity records.",
+  "status": "frozen_pending_execution",
+  "queries": [
+    {
+      "id": "n001",
+      "company": "数势科技",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:cf1333655d9061fd4ddd8962",
+        "job:de733a375dbe9e15014839bd",
+        "job:773b434c669ef5f7bbcca68a",
+        "job:5a8d832c5ffa360c60918a77",
+        "job:e7eb17802814133521341af2",
+        "job:8719b67b80924755a8e1585f",
+        "job:4c1599f281527aa0cc671345",
+        "job:328b70027484c6290681bd26",
+        "job:b5fce5de71d0f36b9f492538",
+        "job:56a1dd13c28cdfb9e28f733a",
+        "job:f945329154233507e576d909",
+        "job:32c1c2eee8f134d234e26040",
+        "job:4430f529869ee6e526173aff"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"数势科技\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n002",
+      "company": "成都韵志汇企业管理咨询服务有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:2dc2d5f479039ef7cfbf9f11"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都韵志汇企业管理咨询服务有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n003",
+      "company": "诺比侃人工智能科技(成都)股份有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:d63ca0b97e9b3d368201317f"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"诺比侃人工智能科技(成都)股份有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n004",
+      "company": "汇通达",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:5607f13ef5e64401884e9bc1"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"汇通达\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n005",
+      "company": "南方新华",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:10b59457f53f316fdeb77b16"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"南方新华\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n006",
+      "company": "成都环美生态股份有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:8fd72a36c4ae0b4f1546c269"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都环美生态股份有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n007",
+      "company": "成都市双虎实业有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:97c3a9e95de7307b4acf621d"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都市双虎实业有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n008",
+      "company": "成都市新兴粮油有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:f030c91bf177ee1fab2f8853"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都市新兴粮油有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n009",
+      "company": "四川千盛泰家居有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:1b45e6fb7721132c11410959"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川千盛泰家居有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n010",
+      "company": "四川聚创医药有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:ce608f49c3392600bcb2b0c8"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川聚创医药有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n011",
+      "company": "四川知周科技有限责任公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:0c4d04ef1b9f56b9d41619f0"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川知周科技有限责任公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n012",
+      "company": "四川阔展物流有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:c4b573073cc70522a1574e81"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川阔展物流有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n013",
+      "company": "武汉康笙园商务有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:26be058b61ea190f03aeabd4"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"武汉康笙园商务有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n014",
+      "company": "四川格瑞特科技有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:cf617a69b34b573fb73d743d"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川格瑞特科技有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n015",
+      "company": "成都红鹰企业管理咨询服务有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:09c500f49ed112a282c0b815"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都红鹰企业管理咨询服务有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n016",
+      "company": "成都鹰狮网络科技有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:13f79b3937e937031457712e"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都鹰狮网络科技有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n017",
+      "company": "华铁传媒集团有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:7393eb16b7a79fdfdd38fa3d"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"华铁传媒集团有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n018",
+      "company": "成都正西智能装备集团股份有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:32fd2710ee8d130badc94e4a"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都正西智能装备集团股份有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n019",
+      "company": "四川宏泰德文化发展有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:a86cea6aeaf6b181ea9d32e5"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川宏泰德文化发展有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n020",
+      "company": "成都刚刚好文化传播有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:de1f071ac57df69b208c9132"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都刚刚好文化传播有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n021",
+      "company": "四川省天府名优酒研究中心",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:5c8dd2562c0ae3b11237be27"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川省天府名优酒研究中心\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n022",
+      "company": "成都乡王食品有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:ee1223963aeda7deb4a90d49"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都乡王食品有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n023",
+      "company": "实朴检测技术(上海)股份有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:76c57827a986e3f2e019f002"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"实朴检测技术(上海)股份有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n024",
+      "company": "成都科伟达科技发展有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:0ed213e91367678ab1d6dc9c"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都科伟达科技发展有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n025",
+      "company": "四川点石能源股份有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:8ec944167a2ea0cf56aa6338"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川点石能源股份有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n026",
+      "company": "成都市凯思特商贸有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:b1c55bf2618cb29974f731f4"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都市凯思特商贸有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n027",
+      "company": "成都华神科技集团股份有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:c37e60df801e43500c07b1c6"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都华神科技集团股份有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n028",
+      "company": "中诚信科实业集团有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:8ee8532726f1c7518f51cd0b"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中诚信科实业集团有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n029",
+      "company": "成都德商产投企业管理集团有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:1d2c7814221cdd6589bf1f01"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都德商产投企业管理集团有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n030",
+      "company": "四川省和信医药有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:1acbe839b5d1f2da7301e83c"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川省和信医药有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n031",
+      "company": "成都润明达空间室内设计有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:95b808a2ca6dd509d391c382"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都润明达空间室内设计有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n032",
+      "company": "成都凤升汽车销售有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:33cdd107f808b48c79337caf"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都凤升汽车销售有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n033",
+      "company": "四川润兆渔业有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:bd7b33d87754d5435224350f"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川润兆渔业有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n034",
+      "company": "四川铭成永美环保科技有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:0f0de726e3f2c53c2944f6be"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川铭成永美环保科技有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n035",
+      "company": "四川踏山来食品有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:3db9fb2df1cdac81cbb78bd3"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川踏山来食品有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n036",
+      "company": "麻辣空间",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:aaa727b0fdbc29cadf552183"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"麻辣空间\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n037",
+      "company": "爱谱华顿",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:9a0eed9fb2551ff9678fbf0c"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"爱谱华顿\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n038",
+      "company": "卡奥斯平台",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:086da497f488a98bce26231e"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"卡奥斯平台\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n039",
+      "company": "上海合共软件科技有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:1614b334b0b94c9927916e5a",
+        "job:9b266fe5a373446629cb15dc",
+        "job:a830907a8a58905193c2e647",
+        "job:b6e61c1892fff8117d1f348f",
+        "job:6ca4bcb0788d3eba477bfa25",
+        "job:6d3eff17f0af457e746681a6",
+        "job:c7c4005a51a01fd8c8ddd014",
+        "job:8896b1ef45790cb129019c96",
+        "job:41f8107ea9e391a97cef28b5",
+        "job:b2512237bee1f5cde4b555bb",
+        "job:cee0edd47ad21c29e71fd57a",
+        "job:0038410fe8bfece47cc54ecd"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"上海合共软件科技有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "n040",
+      "company": "上海用畅信息科技有限公司",
+      "operation": "search",
+      "route": "A_from_B",
+      "evidence_job_ids": [
+        "job:ecd37d32a5edd45dce9a06a9",
+        "job:7fc62a23d6a002e3ceba726b",
+        "job:fa4b1d98375e4e9e1aa7b01e",
+        "job:595278fab3083e4efcecc059",
+        "job:210e338ef52bc695969e22e4",
+        "job:57439376ffe3414eb2455f93",
+        "job:98a77b349637ab30473ef88d",
+        "job:be672716af23f79c6de18b76",
+        "job:f388884d455239bc9ba72e9a",
+        "job:8a611d70546db8ce11d7af7f"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"上海用畅信息科技有限公司\" 招聘 (销售 OR 商务 OR 市场 OR 运营 OR 渠道 OR 售前 OR 总监)"
+          }
+        ],
+        "response_length": "short"
+      }
+    }
+  ],
+  "scope": "One finite backfill wave from the first readable batch; later discoveries remain explicitly pending, never silently called complete."
+}

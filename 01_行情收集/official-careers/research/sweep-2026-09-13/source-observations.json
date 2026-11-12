@@ -1,0 +1,22 @@
+[
+ {"title":"商务专家","company":"探迹","route":"A","source_url":"https://m.tungee.com/about/join-us/","detail_status":"observed_in_raw","evidence_file":"raw/017-open-A-tungee.json"},
+ {"title":"渠道经理","company":"探迹","route":"A","source_url":"https://m.tungee.com/about/join-us/","detail_status":"observed_in_raw","evidence_file":"raw/017-open-A-tungee.json"},
+ {"title":"销售顾问","company":"探迹","route":"A","source_url":"https://m.tungee.com/about/join-us/","detail_status":"observed_in_raw","evidence_file":"raw/017-open-A-tungee.json"},
+ {"title":"电销经理","company":"探迹","route":"A","source_url":"https://m.tungee.com/about/join-us/","detail_status":"title_observed_detail_not_yet_extracted","evidence_file":"raw/017-open-A-tungee.json"},
+ {"title":"大客户经理","company":"纷享销客","route":"A","source_url":"https://www.fxiaoke.com/crm/about-join/","detail_status":"observed_in_raw","evidence_file":"raw/018-open-A-fxiaoke-official.json"},
+ {"title":"实施项目经理","company":"纷享销客","route":"A","source_url":"https://www.fxiaoke.com/crm/about-join/","detail_status":"title_observed_detail_not_yet_extracted","evidence_file":"raw/018-open-A-fxiaoke-official.json"},
+ {"title":"客户成功经理","company":"神策数据","route":"A","source_url":"https://www.sensorsdata.cn/about/joinus.html","detail_status":"title_observed_detail_not_yet_extracted","evidence_file":"raw/006-open-A-sensorsdata.json"},
+ {"title":"售前工程师","company":"神策数据","route":"A","source_url":"https://www.sensorsdata.cn/about/joinus.html","detail_status":"observed_in_raw","evidence_file":"raw/006-open-A-sensorsdata.json"},
+ {"title":"客户经理","company":"神策数据","route":"A","source_url":"https://www.sensorsdata.cn/about/joinus.html","detail_status":"title_observed_detail_not_yet_extracted","evidence_file":"raw/006-open-A-sensorsdata.json"},
+ {"title":"大客户咨询顾问","company":"神策数据","route":"A","source_url":"https://www.sensorsdata.cn/about/joinus.html","detail_status":"title_observed_detail_not_yet_extracted","evidence_file":"raw/006-open-A-sensorsdata.json"},
+ {"title":"后端研发工程师-分布式查询引擎方向","company":"神策数据","route":"A","source_url":"https://www.sensorsdata.cn/about/joinus.html","detail_status":"non_commercial_raw_observation","evidence_file":"raw/006-open-A-sensorsdata.json"},
+ {"title":"数据分析师","company":"神策数据","route":"A","source_url":"https://www.sensorsdata.cn/about/joinus.html","detail_status":"non_commercial_or_boundary_raw_observation","evidence_file":"raw/006-open-A-sensorsdata.json"},
+ {"title":"前端工程师","company":"神策数据","route":"A","source_url":"https://www.sensorsdata.cn/about/joinus.html","detail_status":"non_commercial_raw_observation","evidence_file":"raw/006-open-A-sensorsdata.json"},
+ {"title":"解决方案顾问（校招）","company":"销售易","route":"A","source_url":"https://www.xiaoshouyi.com/about-us/career","detail_status":"observed_in_raw","evidence_file":"raw/019-open-A-xiaoshouyi-official.json"},
+ {"title":"客户经理（校招）","company":"销售易","route":"A","source_url":"https://www.xiaoshouyi.com/about-us/career","detail_status":"title_observed_detail_not_yet_extracted","evidence_file":"raw/019-open-A-xiaoshouyi-official.json"},
+ {"title":"客户成功管培生-校招/实习-全国可选（J15244）","company":"北京掌上先机网络科技有限公司","route":"B","source_url":"https://career.hebut.edu.cn/home/correcruit/content/id/79516.html","detail_status":"observed_in_raw","evidence_file":"raw/012-open-B-talent-portal.json"},
+ {"title":"资深商务拓展经理 / Sales（解决方案方向）","company":"Noumena","route":"B","source_url":"https://www.noumena.com.cn/career/","detail_status":"search_observed_official_open_timeout","evidence_file":"raw/010-search-B-solution-sales.json"},
+ {"title":"云商-客户成功专员（深圳）（社招）","company":"网易智企","route":"B","source_url":"https://jobs.ultraai.site/jobs/netease/73335","detail_status":"search_observed_third_party_opened","evidence_file":"raw/033-open-B-ultraai-netease.json"},
+ {"title":"商业合作省域负责人（高端企业家圈层方向）","company":"字节跳动/飞书商业化","route":"B","source_url":"https://cn.linkedin.com/jobs/view/4448773216","detail_status":"search_observed_linkedin_opened","evidence_file":"raw/032-open-B-linkedin-feishu.json"},
+ {"title":"客户成功总监（base长沙-擅长体系搭建）","company":"湖南中项网科技有限公司","route":"B","source_url":"https://bebee.com/cn/jobs/base--techmap_cn_CCL1247354440J40854760510","detail_status":"search_observed_bebee_opened","evidence_file":"raw/034-open-B-bebee-zhongxiang.json"}
+]

@@ -1,0 +1,125 @@
+{
+  "audited_at": "2026-09-08T15:50:25.703292+00:00",
+  "repositories": [
+    {
+      "name": "ats-jobs",
+      "origin": "https://github.com/shunsukefuruyama/ats-jobs.git",
+      "commit": "9edd4a6cb12fcf43d35e050d064edb61900b2683",
+      "commit_date": "2026-08-26T13:42:03+00:00",
+      "license": "MIT",
+      "modified_files": "",
+      "installed": false,
+      "deployed": false
+    },
+    {
+      "name": "jobsync",
+      "origin": "https://github.com/Gsync/jobsync.git",
+      "commit": "cc56e59f01fbffaba9a02c1a8422d01c2e0c8d19",
+      "commit_date": "2026-09-06T20:43:02+00:00",
+      "license": "MIT",
+      "modified_files": "",
+      "installed": false,
+      "deployed": false
+    },
+    {
+      "name": "job-alerts",
+      "origin": "https://github.com/SirFuzzyWalls/job-alerts.git",
+      "commit": "df7da5537b4bd5939525993354a5df3d1b88bdcd",
+      "commit_date": "2026-03-18T13:19:17-07:00",
+      "license": "AGPL-3.0",
+      "modified_files": "",
+      "installed": false,
+      "deployed": false
+    },
+    {
+      "name": "offer-harvester",
+      "origin": "https://github.com/JiemsLBJ/offer-harvester.git",
+      "commit": "cd0086ea48786c0216e6a5905be613bcfa8471cd",
+      "commit_date": "2026-09-08T23:05:59+08:00",
+      "license": "MIT",
+      "modified_files": "",
+      "installed": false,
+      "deployed": false
+    }
+  ],
+  "existing_seeds": [
+    {
+      "path": "00_行业资料集/AI产业链公司资料集.csv",
+      "rows": 121,
+      "unique_company_labels": 121,
+      "segments": 12,
+      "columns": [
+        "route",
+        "segment",
+        "layer",
+        "company",
+        "priority",
+        "keywords",
+        "salesFit",
+        "companyType",
+        "roleTerms",
+        "salaryObservation",
+        "coreCapabilities",
+        "samplingStatus",
+        "safeBossHomeUrl",
+        "searchKeyword",
+        "manualUrl",
+        "nextAction"
+      ],
+      "status": "historical_seed_not_current_jobs_or_verified_company_ranking"
+    },
+    {
+      "path": "00_行业资料集/AI细分赛道头部公司Top10证据表.csv",
+      "rows": 118,
+      "unique_company_labels": 118,
+      "segments": 12,
+      "columns": [
+        "route",
+        "segment",
+        "segmentRank",
+        "layer",
+        "company",
+        "top10Slot",
+        "poolCompanyCount",
+        "priority",
+        "opportunityLevel",
+        "opportunityScore",
+        "companyType",
+        "keywords",
+        "salesFit",
+        "buyerProfiles",
+        "salesMotion",
+        "recommendedRoles",
+        "nextRole",
+        "salaryObservation",
+        "coreCapabilities",
+        "targetSamples",
+        "currentSamples",
+        "sampleGap",
+        "readableSalarySamples",
+        "detailSamples",
+        "bossEvidenceStatus",
+        "focusCoverageGate",
+        "firstExecutionBatch",
+        "firstExecutionCopies",
+        "segmentEvidenceGrade",
+        "segmentConclusionBoundary",
+        "publicEvidence",
+        "sourceUrls",
+        "whyTop10",
+        "safeBossHomeUrl",
+        "searchKeyword",
+        "manualUrl",
+        "importCommand",
+        "nextAction"
+      ],
+      "status": "historical_seed_not_current_jobs_or_verified_company_ranking"
+    }
+  ],
+  "upstream_test": {
+    "repository": "ats-jobs",
+    "exit_code": 0,
+    "network": false
+  },
+  "scope": "Downloaded source review and offline probes only; no account, application, scheduler or production deployment."
+}

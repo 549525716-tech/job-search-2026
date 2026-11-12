@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-09-23",
+  "status": "local_materials_ready_external_validation_not_started",
+  "purpose": "记录真实获客、付款和交付证据；不自动发送、发布或处理支付",
+  "services": ["sales_interview_coaching", "report_to_action_workflow"],
+  "allowed_stages": ["identified", "contacted", "qualified", "quoted", "paid", "delivered", "closed", "refunded"],
+  "record_fields": ["id", "service", "source", "customer_alias", "problem", "decision_maker_role", "stage", "quote_cny", "received_cny", "refunded_cny", "payment_evidence", "delivered_at", "work_hours", "rework_hours", "feedback_evidence", "case_publication_consent", "next_action"],
+  "evidence_rules": {
+    "paid": "实际收款金额与回执均已核验；报价、咨询和付款承诺不算已付款",
+    "delivered": "保存约定交付物和验收反馈；文件生成不等于客户验收",
+    "refunded": "记录真实退款金额与回执，净收入需扣退款",
+    "unknown": "缺少证据填null，不填0或已完成",
+    "public_case": "须本人授权且移除可识别客户信息"
+  },
+  "records": [],
+  "history_imported": false,
+  "payment_status": "unknown_no_evidence_recorded",
+  "notes": "空记录表示本台账尚未取得线索或支付证据，不证明用户从未有过收入。"
+}

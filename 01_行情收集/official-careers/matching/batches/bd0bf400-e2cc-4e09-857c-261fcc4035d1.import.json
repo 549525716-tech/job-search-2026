@@ -1,0 +1,14 @@
+{
+  "batch_id": "bd0bf400-e2cc-4e09-857c-261fcc4035d1",
+  "imported_at": "2026-09-09T18:51:11.047Z",
+  "count": 3,
+  "input_file": "/Users/MR/Documents/职场/01_行情收集/official-careers/matching/answers-funnel-bd0bf400-e2cc-4e09-857c-261fcc4035d1.json",
+  "input_sha256": "7947bf40d0bc6000efbd40d5fca17418442aad14978bc26ed13da4089c5240f0",
+  "keys": [
+    "c22cfa098ed18061903b8fb18e7b93746099f9a0f93bd7ebca8eb81f23afe17f",
+    "f116d7f60d7bed902152e2c50eb51cef393e32e54d7853e20ebc079e810661d1",
+    "1a02bd71f700045e6c3efe786b21c517d10c63d90d614ad9e822e0036b0eba6d"
+  ],
+  "model_calls": 0,
+  "external_actions": 0
+}

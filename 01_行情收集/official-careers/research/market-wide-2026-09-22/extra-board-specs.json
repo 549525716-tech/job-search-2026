@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "batch": "market-wide-2026-09-22",
+  "mode": "offline_page_range_specs",
+  "author": {"parent_accepted_dispatch_agent_id":"01a0c4f7-d532-7643-a09a-b5530f3ca759","requested_model":"gpt-5.6-luna","requested_reasoning_effort":"medium","dispatch_authority":"parent_accepted_dispatch_confirmed_by_user","billing_status":"unknown"},
+  "policies": {"scope":"Extraction specifications only; no raw/config/progress/jobs/index/queue writes; no network/browser.","identity":"Same source_url + original title_line; overlapping windows selected once. Distinct title lines are retained even when titles match.","employer":"Literal page brand/employer claims only; no query target or legal-entity inference.","industry":"Derived source category, not company rank; only with continuous industry_range.","completeness":"Only bounded responsibilities AND requirements count complete. Truncated, summary-only and requirements-only roles remain incomplete."},
+  "excluded_captures": [{"capture_id":"o13","evidence_sha256":"7b07a5a9a7753b1810a75f011bab8232649df9c0ec96b38db4f4dfae23f14fb2","status":"access_restricted_403_no_retry","error_quote":"Failed to fetch https://www.farben.com.cn/join/: (403) Forbidden","line_range":[0,0]},{"capture_id":"o14","evidence_sha256":"52ac6063ef7c164c13415866cac4ca0e1b8d6d36b5376c2296345e3e6e9f9504","status":"fetch_timeout_no_retry","error_quote":"Failed to fetch https://www.hightorque.cn/category/jobs: (400) Timeout fetching","line_range":[0,0]},{"capture_id":"o16","evidence_sha256":"feef4d8ddb97a4dbc19108cd79d1e6d49e432cb033e5d66c4c1e9a06fb5ad812","status":"fetch_timeout_no_retry","error_quote":"Failed to fetch https://www.gdcad.com/recruitment: TimeoutError","line_range":[0,0]},{"capture_id":"o19","evidence_sha256":"3ef95a1dc9a653a556761acd5f8b63df4e07b069f987b906f4d62c94fffae2dd","status":"fetch_timeout_no_retry","error_quote":"Failed to fetch https://www.jbfsoft.com/about/recruit: (400) Timeout fetching","line_range":[0,0]},{"capture_id":"o24","evidence_sha256":"26c0483c0c217ed6c8804128f563d3b0f4d9bc87a73b6238d3a09c4b9d234dad","status":"fetch_timeout_no_retry","error_quote":"Failed to fetch https://www.kingdee.com/sg/zh-hans/careers/: (400) Timeout fetching","line_range":[0,0]},{"capture_id":"o21tail","evidence_sha256":"9841d75475b1e0b0d188065c4328012d1926b79bb28ec763c021865d0891e609","status":"fetch_timeout_no_retry","error_quote":"Failed to fetch https://www.easemob.com/join/: (400) Timeout fetching","line_range":[0,0]}],
+  "verification": {"capture_sha_checks":18,"range_continuity_checks":381,"literal_checks":155,"page_slot_uniqueness_checks":78,"complete_boundary_checks":69,"partial_count":9,"fxiaoke_unique_title_lines":26,"partial_jobs":[{"capture_id":"o12tail","title_line":884,"title":"高级iOS开发工程师"},{"capture_id":"o20","title_line":0,"title":"搜索运维工程师（Elasticsearch/Easysearch）"},{"capture_id":"o21","title_line":292,"title":"平台高级工程师"},{"capture_id":"o21","title_line":384,"title":"智能问答研发高级工程师"},{"capture_id":"o23","title_line":43,"title":"智能体平台研发"},{"capture_id":"o23","title_line":51,"title":"知识工程"},{"capture_id":"o23","title_line":59,"title":"系统集成交付"},{"capture_id":"o23","title_line":67,"title":"安全与合规"},{"capture_id":"o23","title_line":75,"title":"解决方案顾问"}],"all_passed":true},
+  "counts": {"captures_reviewed":18,"source_specs":12,"selected_job_specs":78,"description_complete_under_makeJob_contract":69,"incomplete_job_specs":9,"excluded_errors_or_timeouts":6},
+  "sources": [
+    {
+      "capture_id": "o11",
+      "source_url": "https://selectdb.com/join-us",
+      "evidence_sha256": "29b53ee8bdf13293b601a9347c3ebd9141969e3a892a713289ec544b8b3bae64",
+      "company": {"value":"飞轮科技","range":[4,4]},
+      "industry": "实时数据仓库与云原生数据服务",
+      "industry_range": [4,8],
+      "jobs": [
+        {"title_line":17,"title":"研发工程师 社招/校招","end_line":37,"description_range":[23,24],"requirements_range":[28,35],"sections_closed":true,"location":{"value":"北京 / 上海 / 广州 / 深圳 / 西安 / 杭州 / 成都","range":[19,19]}},
+        {"title_line":38,"title":"测试工程师 社招/校招","end_line":57,"description_range":[44,44],"requirements_range":[48,55],"sections_closed":true,"location":{"value":"北京 / 上海 / 广州 / 深圳 / 西安 / 杭州 / 成都","range":[40,40]}},
+        {"title_line":58,"title":"运维工程师 社招/校招","end_line":80,"description_range":[64,66],"requirements_range":[70,78],"sections_closed":true,"location":{"value":"北京 / 上海 / 广州 / 深圳 / 西安 / 杭州 / 成都","range":[60,60]}},
+        {"title_line":81,"title":"产品经理 社招/校招","end_line":101,"description_range":[87,89],"requirements_range":[93,99],"sections_closed":true,"location":{"value":"北京 / 上海 / 广州 / 深圳 / 西安 / 杭州 / 成都","range":[83,83]}},
+        {"title_line":102,"title":"云产品研发工程师 社招/校招","end_line":124,"description_range":[108,110],"requirements_range":[114,122],"sections_closed":true,"location":{"value":"北京 / 上海 / 广州 / 深圳 / 西安 / 杭州 / 成都","range":[104,104]}},
+        {"title_line":125,"title":"生态研发和支持工程师 社招/校招","end_line":147,"description_range":[131,134],"requirements_range":[138,145],"sections_closed":true,"location":{"value":"北京 / 上海 / 广州 / 深圳 / 西安 / 杭州 / 成都","range":[127,127]}},
+        {"title_line":148,"title":"售前解决方案架构师 社招/校招","end_line":170,"description_range":[154,157],"requirements_range":[161,168],"sections_closed":true,"location":{"value":"北京 / 上海 / 广州 / 深圳 / 西安 / 杭州 / 成都","range":[150,150]}},
+        {"title_line":171,"title":"销售经理 社招/校招","end_line":191,"description_range":[177,181],"requirements_range":[185,189],"sections_closed":true,"location":{"value":"北京 / 上海 / 广州 / 深圳 / 西安 / 杭州 / 成都","range":[173,173]}},
+        {"title_line":192,"title":"战略客户销售总监 社招/校招","end_line":211,"description_range":[198,202],"requirements_range":[206,209],"sections_closed":true,"location":{"value":"北京 / 上海","range":[194,194]}},
+        {"title_line":212,"title":"资深销售经理（中国出海客群方向） 社招/校招","end_line":232,"description_range":[218,222],"requirements_range":[226,230],"sections_closed":true,"location":{"value":"北京 / 上海 / 广州 / 深圳 / 杭州","range":[214,214]}},
+        {"title_line":233,"title":"渠道资深BD 社招/校招","end_line":252,"description_range":[239,241],"requirements_range":[245,250],"sections_closed":true,"location":{"value":"北京 / 上海 / 杭州","range":[235,235]}},
+        {"title_line":253,"title":"ISV/SI渠道负责人 社招/校招","end_line":274,"description_range":[259,262],"requirements_range":[266,272],"sections_closed":true,"location":{"value":"北京 / 上海","range":[255,255]}},
+        {"title_line":275,"title":"多模实习生 实习","end_line":295,"description_range":[281,282],"requirements_range":[286,293],"sections_closed":true,"location":{"value":"北京 / 成都 / 深圳","range":[277,277]}},
+        {"title_line":296,"title":"存储引擎研发实习生 实习","end_line":322,"description_range":[302,303],"requirements_range":[307,320],"sections_closed":true,"location":{"value":"北京 / 深圳 / 成都 / 杭州","range":[298,298]}},
+        {"title_line":323,"title":"测试实习生（云产品测试） 实习","end_line":340,"description_range":[329,329],"requirements_range":[333,338],"sections_closed":true,"location":{"value":"北京 / 成都","range":[325,325]}}
+      ]
+    },
+    {
+      "capture_id": "o12",
+      "source_url": "https://www.fxiaoke.com/crm/about-join/",
+      "evidence_sha256": "e69efa4bc432a60d0492c633bdf2329b3f03b140948372ca50746f884b19a796",
+      "company": {"value":"纷享销客","range":[621,621]},
+      "industry": "CRM企业管理软件",
+      "industry_range": [619,623],
+      "jobs": [
+        {"title_line":384,"title":"实施项目经理","end_line":408,"description_range":[390,396],"requirements_range":[400,406],"sections_closed":true,"location":{"value":"深圳、厦门、广州","range":[386,386]}},
+        {"title_line":410,"title":"大客户经理","end_line":439,"description_range":[416,424],"requirements_range":[427,437],"sections_closed":true,"location":{"value":"深圳、厦门、广州、武汉、郑州","range":[412,412]}},
+        {"title_line":441,"title":"客户成功经理","end_line":472,"description_range":[447,455],"requirements_range":[458,470],"sections_closed":true,"location":{"value":"深圳、厦门、广州、武汉、郑州","range":[443,443]}},
+        {"title_line":474,"title":"渠道经理","end_line":499,"description_range":[480,488],"requirements_range":[491,497],"sections_closed":true,"location":{"value":"深圳、厦门","range":[476,476]}},
+        {"title_line":501,"title":"渠道合伙人","end_line":528,"description_range":[507,515],"requirements_range":[518,526],"sections_closed":true,"location":{"value":"济南、青岛、西安、贵阳、重庆、成都","range":[503,503]}},
+        {"title_line":530,"title":"高级实施顾问","end_line":557,"description_range":[536,544],"requirements_range":[547,555],"sections_closed":true,"location":{"value":"北京、上海、广州、深圳、杭州","range":[532,532]}},
+        {"title_line":559,"title":"客户成功经理","end_line":590,"description_range":[565,575],"requirements_range":[578,588],"sections_closed":true,"location":{"value":"北京、上海、广州、深圳、杭州","range":[561,561]}},
+        {"title_line":592,"title":"电话售后顾问","end_line":611,"description_range":[598,600],"requirements_range":[603,609],"sections_closed":true,"location":{"value":"北京","range":[594,594]}},
+        {"title_line":613,"title":"CRM-快消行业产品经理","end_line":650,"description_range":[619,636],"requirements_range":[640,648],"sections_closed":true,"location":{"value":"北京","range":[615,615]}},
+        {"title_line":652,"title":"高级CRM产品经理","end_line":679,"description_range":[657,665],"requirements_range":[669,677],"sections_closed":true,"location":{"value":"深圳","range":[654,654]}},
+        {"title_line":681,"title":"销售协同业务产品经理","end_line":710,"description_range":[686,696],"requirements_range":[700,708],"sections_closed":true,"location":{"value":"北京","range":[683,683]}},
+        {"title_line":712,"title":"资深前端开发工程师","end_line":735,"description_range":[718,722],"requirements_range":[725,733],"sections_closed":true,"location":{"value":"北京","range":[714,714]}}
+      ]
+    },
+    {
+      "capture_id": "o12tail",
+      "source_url": "https://www.fxiaoke.com/crm/about-join/",
+      "evidence_sha256": "847364cbac74f05c8d8150d70f3d3eeb1bacce4f7e81d54a80dea1397ede815d",
+      "company": {"value":"纷享销客","range":[621,621]},
+      "industry": "CRM企业管理软件",
+      "industry_range": [619,623],
+      "jobs": [
+        {"title_line":737,"title":"高级视觉设计师","end_line":760,"description_range":[743,747],"requirements_range":[750,758],"sections_closed":true,"location":{"value":"深圳","range":[739,739]}},
+        {"title_line":762,"title":"PaaS平台开发工程师","end_line":791,"description_range":[768,774],"requirements_range":[777,789],"sections_closed":true,"location":{"value":"北京","range":[764,764]}},
+        {"title_line":793,"title":"高级Java开发工程师","end_line":824,"description_range":[799,805],"requirements_range":[808,822],"sections_closed":true,"location":{"value":"深圳","range":[795,795]}},
+        {"title_line":826,"title":"资深Java开发工程师","end_line":851,"description_range":[832,836],"requirements_range":[839,849],"sections_closed":true,"location":{"value":"北京","range":[828,828]}},
+        {"title_line":853,"title":"高级Java开发工程师","end_line":882,"description_range":[859,865],"requirements_range":[868,880],"sections_closed":true,"location":{"value":"北京","range":[855,855]}},
+        {"title_line":884,"title":"高级iOS开发工程师","end_line":907,"description_range":null,"requirements_range":[889,905],"sections_closed":false,"location":{"value":"北京","range":[886,886]},"observation_kind":"inline_partial","attention":"原页该岗仅列任职要求，没有职责区块；不标完整JD。"},
+        {"title_line":909,"title":"高级web开发工程师","end_line":938,"description_range":[914,926],"requirements_range":[930,936],"sections_closed":true,"location":{"value":"深圳","range":[911,911]}},
+        {"title_line":940,"title":"软件测试工程师","end_line":969,"description_range":[945,955],"requirements_range":[959,967],"sections_closed":true,"location":{"value":"北京","range":[942,942]}},
+        {"title_line":971,"title":"高级交互设计师","end_line":1002,"description_range":[976,982],"requirements_range":[986,1000],"sections_closed":true,"location":{"value":"北京","range":[973,973]}},
+        {"title_line":1003,"title":"大数据开发工程师","end_line":1050,"description_range":[1009,1029],"requirements_range":[1032,1048],"sections_closed":true,"location":{"value":"北京","range":[1005,1005]}},
+        {"title_line":1052,"title":"产品顾问","end_line":1068,"description_range":[1058,1060],"requirements_range":[1064,1066],"sections_closed":true,"location":{"value":"北京","range":[1054,1054]}},
+        {"title_line":1070,"title":"客户运营","end_line":1083,"description_range":[1076,1076],"requirements_range":[1079,1081],"sections_closed":true,"location":{"value":"北京","range":[1072,1072]}}
+      ]
+    },
+    {
+      "capture_id": "o12end",
+      "source_url": "https://www.fxiaoke.com/crm/about-join/",
+      "evidence_sha256": "df3675a42482a59b6e85af230a260aa3fc1aa711c29b3fc64262717bcf3d28c2",
+      "company": {"value":"纷享销客","range":[1170,1170]},
+      "industry": "CRM企业管理软件",
+      "industry_range": [1120,1120],
+      "jobs": [
+        {"title_line":1085,"title":"客户成功经理","end_line":1101,"description_range":[1091,1093],"requirements_range":[1097,1099],"sections_closed":true,"location":{"value":"北京","range":[1087,1087]}},
+        {"title_line":1103,"title":"渠道经理（招商、支持）","end_line":1119,"description_range":[1109,1109],"requirements_range":[1113,1117],"sections_closed":true,"location":{"value":"北京","range":[1105,1105]}}
+      ]
+    },
+    {
+      "capture_id": "o15",
+      "source_url": "https://www.goodo-tech.com/ment.html",
+      "evidence_sha256": "721f9388d1fa39de56c272b2be49c612957aa5e8488a964e7f9f39155cc5c211",
+      "company": {"value":"谷斗科技(上海)有限公司","range":[476,476]},
+      "industry": "工业软件",
+      "industry_range": [244,246],
+      "jobs": [
+        {"title_line":199,"end_line":252,"description_range":[219,229],"requirements_range":[233,250],"sections_closed":true,"education":{"value":"大学本科","range":[201,201]}},
+        {"title_line":254,"end_line":297,"description_range":[274,282],"requirements_range":[285,295],"sections_closed":true,"education":{"value":"本科以上学历","range":[256,256]}},
+        {"title_line":299,"end_line":338,"description_range":[319,325],"requirements_range":[329,336],"sections_closed":true,"education":{"value":"本科以上学历","range":[301,301]}},
+        {"title_line":352,"end_line":389,"description_range":[372,376],"requirements_range":[380,388],"sections_closed":true,"education":{"value":"统招全日制本科及以上学历","range":[354,354]},"attention":"原页校招岗位；不得因产品方向过滤。"}
+      ]
+    },
+    {
+      "capture_id": "o17",
+      "source_url": "https://www.vpsor.cn/work",
+      "evidence_sha256": "06fcc424313ce5e73ef608c3ccc9fb64c690d02da011c08897b7ae4954d56270",
+      "company": {"value":"硅云","range":[405,405]},
+      "industry": "云计算与IT基础设施服务",
+      "industry_range": [405,405],
+      "attention": "原始捕获头URL为vpsor；头部另载Redirected to URL: https://www.gystack.com/work。保留捕获头URL，不替换或猜测职位链接。",
+      "jobs": [
+        {"title_line":407,"title":"云平台工程师","end_line":420,"description_range":[416,417],"requirements_range":[409,413],"sections_closed":true,"salary_raw":{"value":"工资、各种福利待遇等面议。","range":[419,419]}},
+        {"title_line":422,"title":"Linux运维工程师","end_line":437,"description_range":[432,433],"requirements_range":[425,429],"sections_closed":true,"salary_raw":{"value":"工资、各种福利待遇等面议。","range":[436,436]}},
+        {"title_line":439,"title":"JAVA或PHP开发工程师","end_line":453,"description_range":[448,449],"requirements_range":[441,445],"sections_closed":true,"salary_raw":{"value":"工资、各种福利待遇等面议。","range":[452,452]}},
+        {"title_line":455,"title":"前端开发工程师","end_line":469,"description_range":[464,465],"requirements_range":[457,461],"sections_closed":true,"salary_raw":{"value":"工资、各种福利待遇等面议。","range":[468,468]}}
+      ]
+    },
+    {
+      "capture_id": "o18",
+      "source_url": "https://www.hoteamsoft.com/join-us_2",
+      "evidence_sha256": "17eedc46809b862df993d402ed4adf26eb741f556ae9aa5cdfdc3a21390d6fcc",
+      "company": {"value":"山东山大华天软件股份有限公司","range":[803,803]},
+      "industry": "工业软件",
+      "industry_range": [482,482],
+      "jobs": [
+        {"title_line":470,"end_line":499,"description_range":[482,488],"requirements_range":[492,497],"sections_closed":true,"location":{"value":"武汉","range":[472,472]},"education":{"value":"大专以上","range":[476,476]}},
+        {"title_line":503,"end_line":532,"description_range":[515,521],"requirements_range":[525,530],"sections_closed":true,"location":{"value":"北京","range":[505,505]},"education":{"value":"大专以上","range":[509,509]}},
+        {"title_line":536,"end_line":561,"description_range":[548,548],"requirements_range":[552,559],"sections_closed":true,"location":{"value":"广州","range":[538,538]},"education":{"value":"本科以上","range":[542,542]}},
+        {"title_line":565,"end_line":590,"description_range":[577,577],"requirements_range":[581,588],"sections_closed":true,"location":{"value":"济南","range":[567,567]},"education":{"value":"本科以上","range":[571,571]}},
+        {"title_line":594,"end_line":622,"description_range":[606,611],"requirements_range":[614,620],"sections_closed":true,"location":{"value":"西安","range":[596,596]},"education":{"value":"本科以上","range":[600,600]}},
+        {"title_line":626,"end_line":654,"description_range":[638,643],"requirements_range":[646,652],"sections_closed":true,"location":{"value":"武汉","range":[628,628]},"education":{"value":"本科以上","range":[632,632]}},
+        {"title_line":658,"end_line":686,"description_range":[670,675],"requirements_range":[678,684],"sections_closed":true,"location":{"value":"苏州","range":[660,660]},"education":{"value":"本科以上","range":[664,664]}}
+      ]
+    },
+    {
+      "capture_id": "o18tail",
+      "source_url": "https://www.hoteamsoft.com/join-us_2",
+      "evidence_sha256": "781bf31818b2db72013864e6512dfe6abfe0f804d6829eddf417171528c0f9f5",
+      "company": {"value":"山东山大华天软件股份有限公司","range":[803,803]},
+      "status": "overlap_only_no_additional_jobs",
+      "reason": "7个已完整岗位与o18同源同标题行号重叠，本窗口不重复写spec；余段为客服/表单，不等于公司无岗。",
+      "jobs": []
+    },
+    {
+      "capture_id": "o20",
+      "source_url": "https://infinilabs.cn/career/",
+      "evidence_sha256": "3fecc45cf173abcaa4c697dc23ccd223dbef95b887054227051d80e7582838ff",
+      "company": {"value":"极限科技","range":[0,0]},
+      "industry": "企业搜索与AI知识库软件",
+      "industry_range": [5,9],
+      "status": "banner_title_only_body_not_obtained",
+      "jobs": [
+        {"title_line":0,"title":"搜索运维工程师（Elasticsearch/Easysearch）","end_line":0,"description_range":null,"requirements_range":null,"sections_closed":false,"location":{"value":"北京","range":[0,0]},"attention":"仅招聘横幅标题；实际link_id=0，ref_id=turn498view0，URL未暴露；不拼接链接。"}
+      ]
+    },
+    {
+      "capture_id": "o21",
+      "source_url": "https://www.easemob.com/join/",
+      "evidence_sha256": "25b127f15265e66ba83429b3d32010c96a5c8716b0f51fe7f55e66adf54e22cf",
+      "company": {"value":"环信","range":[21,21]},
+      "industry": "即时通讯云与客服云",
+      "industry_range": [149,149],
+      "status": "partial_capture_jobs_retained_tail_timeout",
+      "reason": "共908行仅取得0-392；保留16个可见岗位，末岗截断；尾窗超时，不重试、不宣称来源扫全。",
+      "jobs": [
+        {"title_line":146,"title":"产品市场经理","end_line":161,"description_range":[149,151],"requirements_range":[154,161],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=60，无暴露URL。"},
+        {"title_line":162,"title":"网络销售","end_line":180,"description_range":[168,172],"requirements_range":[175,180],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=61，无暴露URL。"},
+        {"title_line":181,"title":"销售管理支持","end_line":195,"description_range":[184,188],"requirements_range":[191,195],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=62，无暴露URL。"},
+        {"title_line":196,"title":"电信行业高级客户经理","end_line":208,"description_range":[199,202],"requirements_range":[205,208],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=63，无暴露URL。"},
+        {"title_line":209,"title":"高级销售经理（北京、上海、深圳、成都）","end_line":224,"description_range":[212,217],"requirements_range":[220,224],"sections_closed":true,"location":{"value":"北京、上海、深圳、成都","range":[209,209]},"attention":"标题真实ref=turn499view0/link_id=64，无暴露URL。"},
+        {"title_line":225,"title":"高级C++工程师","end_line":241,"description_range":[228,231],"requirements_range":[233,241],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=65，无暴露URL。"},
+        {"title_line":242,"title":"高级VOIP/SIP工程师","end_line":259,"description_range":[245,251],"requirements_range":[253,259],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=66，无暴露URL。"},
+        {"title_line":260,"title":"高级Java工程师（项目实施）","end_line":274,"description_range":[263,263],"requirements_range":[266,274],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=67，无暴露URL。"},
+        {"title_line":275,"title":"高级产品运营经理","end_line":291,"description_range":[278,285],"requirements_range":[288,291],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=68，无暴露URL。"},
+        {"title_line":292,"title":"平台高级工程师","end_line":301,"description_range":null,"requirements_range":[295,301],"sections_closed":false,"observation_kind":"inline_partial","attention":"标题真实ref=turn499view0/link_id=69，无暴露URL。该岗未列职责区块。"},
+        {"title_line":302,"title":"高级移动端音视频工程师","end_line":315,"description_range":[305,305],"requirements_range":[308,315],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=70，无暴露URL。"},
+        {"title_line":316,"title":"测试工程师","end_line":331,"description_range":[319,322],"requirements_range":[325,331],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=71，无暴露URL。"},
+        {"title_line":332,"title":"windows研发工程师","end_line":348,"description_range":[335,337],"requirements_range":[340,348],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=72，无暴露URL。"},
+        {"title_line":349,"title":"高级产品经理","end_line":365,"description_range":[352,356],"requirements_range":[359,365],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=73，无暴露URL。"},
+        {"title_line":366,"title":"运维工程师（私有部署）","end_line":383,"description_range":[369,373],"requirements_range":[376,383],"sections_closed":true,"attention":"标题真实ref=turn499view0/link_id=74，无暴露URL。"},
+        {"title_line":384,"title":"智能问答研发高级工程师","end_line":392,"description_range":[387,387],"requirements_range":[390,392],"sections_closed":false,"observation_kind":"inline_partial","attention":"标题真实ref=turn499view0/link_id=75，无暴露URL。capture止于L392，要求被窗口截断；o21tail超时，不重试。"}
+      ]
+    },
+    {
+      "capture_id": "o22",
+      "source_url": "https://www.4paradigm.com/about/hr.html",
+      "evidence_sha256": "39258c823773e4a886fa72e191a8a07e2593ac56d0cb60c59c9efa884f9cab7b",
+      "company": {"value":"第四范式（北京）技术有限公司","range":[276,276]},
+      "status": "entry_only_no_visible_job_records",
+      "entry_link_lines": [80,89],
+      "reason": "只有社招/校招入口，未取得岗位列表；不是无岗位。ref=turn500view0，真实入口link_id=15(L80)、29(L89)，不猜ATS URL。",
+      "jobs": []
+    },
+    {
+      "capture_id": "o23",
+      "source_url": "https://bxagent.cn/careers/",
+      "evidence_sha256": "bdeb6c00b2e855356a472b2b7eea033edf93ec8727ebae68dbd17a22772189ee",
+      "company": {"value":"百信Ai Agent","range":[34,34]},
+      "industry": "智能体平台与系统集成",
+      "industry_range": [34,36],
+      "status": "direction_summaries_not_complete_jds",
+      "jobs": [
+        {"title_line":43,"end_line":49,"description_range":null,"requirements_range":null,"description_summary_range":[47,47],"sections_closed":false,"attention":"在招方向卡片简述；职责/要求未分区也未证实完整。地点面议不当城市；不生成完整JD。"},
+        {"title_line":51,"end_line":57,"description_range":null,"requirements_range":null,"description_summary_range":[55,55],"sections_closed":false,"attention":"在招方向卡片简述；职责/要求未分区也未证实完整。地点面议不当城市；不生成完整JD。"},
+        {"title_line":59,"end_line":65,"description_range":null,"requirements_range":null,"description_summary_range":[63,63],"sections_closed":false,"attention":"在招方向卡片简述；职责/要求未分区也未证实完整。地点面议不当城市；不生成完整JD。"},
+        {"title_line":67,"end_line":73,"description_range":null,"requirements_range":null,"description_summary_range":[71,71],"sections_closed":false,"attention":"在招方向卡片简述；职责/要求未分区也未证实完整。地点面议不当城市；不生成完整JD。"},
+        {"title_line":75,"end_line":80,"description_range":null,"requirements_range":null,"description_summary_range":[79,79],"sections_closed":false,"attention":"在招方向卡片简述；职责/要求未分区也未证实完整。地点面议不当城市；不生成完整JD。"}
+      ]
+    }
+  ]
+}

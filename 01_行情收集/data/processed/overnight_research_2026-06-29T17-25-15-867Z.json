@@ -1,0 +1,153 @@
+{
+  "runId": "2026-06-29T17-25-15-867Z",
+  "createdAt": "2026-06-29T17:25:15.868Z",
+  "args": {
+    "city": "广州",
+    "companyFile": "/Users/MR/Documents/职场/06_自动化采集/config/ai_full_company_targets.txt",
+    "industryFile": "/Users/MR/Documents/职场/06_自动化采集/config/industry_targets.txt",
+    "rolesFile": "/Users/MR/Documents/职场/06_自动化采集/config/sales_management_roles.txt",
+    "batchSize": 4,
+    "maxBatches": 12,
+    "startOffset": 0,
+    "delayMs": 5000,
+    "cooldownMs": 60000,
+    "cardsPerSearch": 8,
+    "detailLimit": 0,
+    "maxJobsPerBatch": 30,
+    "phases": [
+      "company",
+      "industry"
+    ],
+    "dryRun": true
+  },
+  "totals": {
+    "companies": 122,
+    "industries": 59,
+    "roles": 29,
+    "plannedBatches": 12
+  },
+  "tasks": [
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "注释行会被脚本忽略。",
+        "华为昇腾",
+        "海思",
+        "寒武纪"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "海光信息",
+        "摩尔线程",
+        "壁仞科技",
+        "燧原科技"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "沐曦集成电路",
+        "天数智芯",
+        "昆仑芯",
+        "平头哥"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "浪潮信息",
+        "新华三",
+        "联想",
+        "宁畅"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "中科曙光",
+        "华为",
+        "超聚变",
+        "宝德计算"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "华鲲振宇",
+        "戴尔科技中国",
+        "百度智能云",
+        "阿里云"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "腾讯云",
+        "火山引擎",
+        "华为云",
+        "京东云"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "科大讯飞",
+        "金山云",
+        "移动云",
+        "天翼云"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "智谱AI",
+        "月之暗面",
+        "MiniMax",
+        "DeepSeek"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "阶跃星辰",
+        "百川智能",
+        "零一万物",
+        "面壁智能"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "商汤科技",
+        "昆仑万维",
+        "第四范式",
+        "九章云极DataCanvas"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "星环科技",
+        "Zilliz",
+        "明略科技",
+        "神策数据"
+      ]
+    }
+  ],
+  "results": [],
+  "status": "planned"
+}

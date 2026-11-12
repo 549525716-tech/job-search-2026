@@ -1,0 +1,537 @@
+{
+  "jobs": 130,
+  "full_jd": 61,
+  "checks": [
+    {
+      "capture_id": "o03",
+      "url": "https://www.noumena.com.cn/career/",
+      "prior_capture_id": "o40",
+      "reobserved": 9,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/o03.json",
+      "evidence_sha256": "39574a5b4d2d5dc44ca6ed622e2fbe079592216b3e4c5b81c03a7b305a8ded91",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p01",
+      "url": "https://www.bohr-tec.com/index/lists?catname=jrwm&lang=zh-cn",
+      "prior_capture_id": "o10",
+      "reobserved": 6,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p01.json",
+      "evidence_sha256": "7ffcd71340e75c5db8207b85355dcd3d7323be0241b86debd5aa136064da909e",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p02",
+      "url": "https://www.bicv.com/join/zpxx/",
+      "prior_capture_id": "o13",
+      "reobserved": 0,
+      "pending": [
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l87",
+          "title": "SQE高级经理",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l109",
+          "title": "营销副总/大区总监",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l127",
+          "title": "电子开发",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l154",
+          "title": "结构开发",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l180",
+          "title": "Layout设计",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l206",
+          "title": "EMC",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l233",
+          "title": "硬件测试",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l259",
+          "title": "软件部经理",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l285",
+          "title": "技术销售",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l311",
+          "title": "项目管理",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l338",
+          "title": "软件PL",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l362",
+          "title": "APP工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l385",
+          "title": "自动标注算法专家",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o13:l403",
+          "title": "ADAS传感器融合感知专家",
+          "reason": "PAGE_READ_FAILED"
+        }
+      ],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p02.json",
+      "evidence_sha256": "ce292786296d2de9c5099925820aba7adf95e2193c59cd7bf30e667004f64688",
+      "page_content_changed": null,
+      "comparison_status": "read_failed_not_compared",
+      "unreviewed_new_lines": [
+        {
+          "line": 0,
+          "text": "Failed to fetch https://www.bicv.com/join/zpxx/: (400) Timeout fetching"
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p03",
+      "url": "https://www.leyantech.com/joinUS.html",
+      "prior_capture_id": "o15",
+      "reobserved": 0,
+      "pending": [
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l23",
+          "title": "高级JAVA工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l44",
+          "title": "搜索工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l66",
+          "title": "语言数据处理专员",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l85",
+          "title": "运维开发工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l105",
+          "title": "JAVA架构师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l126",
+          "title": "前端工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l151",
+          "title": "基础架构工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l173",
+          "title": "计算语言实习",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l191",
+          "title": "JAVA工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l212",
+          "title": "WEB全栈工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l229",
+          "title": "资深基础架构工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l253",
+          "title": "机器学习系统工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l276",
+          "title": "自然语言处理工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l294",
+          "title": "WEB工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l318",
+          "title": "项目经理",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l341",
+          "title": "数据开发工程师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l359",
+          "title": "产品经理",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l376",
+          "title": "资深UI设计师",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l399",
+          "title": "销售经理",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l426",
+          "title": "电销销售经理",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l448",
+          "title": "电销专员",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l473",
+          "title": "淘宝客服主管（实施）",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l498",
+          "title": "区域销售经理",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l518",
+          "title": "咨询顾问",
+          "reason": "PAGE_READ_FAILED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o15:l540",
+          "title": "实施工程师",
+          "reason": "PAGE_READ_FAILED"
+        }
+      ],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p03.json",
+      "evidence_sha256": "3330c5b45b292eb54da5a545447f56308b3d1f32e7a5c3750034d092b36a37d8",
+      "page_content_changed": null,
+      "comparison_status": "read_failed_not_compared",
+      "unreviewed_new_lines": [
+        {
+          "line": 0,
+          "text": "Failed to fetch https://www.leyantech.com/joinUS.html: (400) Timeout fetching"
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p04",
+      "url": "https://www.forwe.vip/join",
+      "prior_capture_id": "o16",
+      "reobserved": 10,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p04.json",
+      "evidence_sha256": "98d42e9ab183da3a0d61a5c0d73ef0cdf2d6766406bd12c4cb19e74f6fed6ab6",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p05",
+      "url": "https://cn.naddod.com/about-us/talent-recruitment",
+      "prior_capture_id": "o18",
+      "reobserved": 0,
+      "pending": [
+        {
+          "prior_id": "market-wide-2026-09-23:o18:l410",
+          "title": "海外营销推广",
+          "reason": "SOURCE_TEXT_CHANGED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o18:l459",
+          "title": "解决方案工程师",
+          "reason": "SOURCE_TEXT_CHANGED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o18:l494",
+          "title": "AI数据中心网络工程师",
+          "reason": "SOURCE_TEXT_CHANGED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o18:l533",
+          "title": "国际销售总监/经理",
+          "reason": "SOURCE_TEXT_CHANGED"
+        },
+        {
+          "prior_id": "market-wide-2026-09-23:o18:l574",
+          "title": "区域销售经理",
+          "reason": "SOURCE_TEXT_CHANGED"
+        }
+      ],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p05.json",
+      "evidence_sha256": "54e45e40619c7b886d8b9ce8d9898e3dc7867f39b9fdb360481b1d8c778b484e",
+      "page_content_changed": true,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [
+        {
+          "line": 86,
+          "text": "cite44†1.6T OSFP224 New"
+        },
+        {
+          "line": 323,
+          "text": "cite166†Image: 服务器配件†resource.naddod.com"
+        },
+        {
+          "line": 325,
+          "text": "cite167†服务器配件"
+        },
+        {
+          "line": 327,
+          "text": "cite168†电源线"
+        },
+        {
+          "line": 418,
+          "text": "  * 海外营销推广 市场营销中心 若干 武汉 投递简历 (HR@naddod.com)"
+        },
+        {
+          "line": 461,
+          "text": "职位申请 (HR@naddod.com)"
+        },
+        {
+          "line": 463,
+          "text": "  * 解决方案工程师 产品技术部 5 武汉 投递简历 (HR@naddod.com)"
+        },
+        {
+          "line": 492,
+          "text": "职位申请 (HR@naddod.com)"
+        },
+        {
+          "line": 494,
+          "text": "  * AI数据中心网络工程师 产品技术部 2 武汉 投递简历 (HR@naddod.com)"
+        },
+        {
+          "line": 527,
+          "text": "职位申请 (HR@naddod.com)"
+        },
+        {
+          "line": 529,
+          "text": "  * 国际销售总监/经理 国际业务部 2 武汉 投递简历 (HR@naddod.com)"
+        },
+        {
+          "line": 564,
+          "text": "职位申请 (HR@naddod.com)"
+        },
+        {
+          "line": 566,
+          "text": "  * 区域销售经理 国内业务部 若干 北京、上海、广州、深圳、武汉、浙江、江苏、成都、长沙 投递简历 (HR@naddod.com)"
+        },
+        {
+          "line": 601,
+          "text": "职位申请 (HR@naddod.com)"
+        }
+      ],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p06",
+      "url": "https://www.osstor.com/talents/",
+      "prior_capture_id": "o23",
+      "reobserved": 6,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p06.json",
+      "evidence_sha256": "e2849ae2d43b8e319d25cbabdc1eb27b1023f36d7fa80033568d288fa5cd8560",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p07",
+      "url": "https://www.kylinsec.com.cn/recruit/18/0/0/2.html",
+      "prior_capture_id": "o32",
+      "reobserved": 10,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p07.json",
+      "evidence_sha256": "0fd2aafc78cdae28d9889374124a88a6eb7adff12c4c3a49f46da726b8a95413",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p08",
+      "url": "https://www.line-gate.com/About/Jobs/",
+      "prior_capture_id": "o33",
+      "reobserved": 2,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p08.json",
+      "evidence_sha256": "0f5b080b871d7b399e31473933982a2945c4b61645e46ee224c5301635571e5c",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p09",
+      "url": "https://secdriver.com/careers.html",
+      "prior_capture_id": "o34",
+      "reobserved": 11,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p09.json",
+      "evidence_sha256": "f3786226314de1c6499761dce2ea2cab6955b41ed29f88bb9b2fcd3367f7125b",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p10",
+      "url": "https://www.sieri.cn/about/78.html",
+      "prior_capture_id": "o35",
+      "reobserved": 2,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p10.json",
+      "evidence_sha256": "690aae47a97c39d0e61fd22ce14a56d5f0c9e1d0cf500d72029b1a3999c8f33f",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p11",
+      "url": "https://tne.net.cn/index-recruit-index.html",
+      "prior_capture_id": "o36",
+      "reobserved": 10,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p11.json",
+      "evidence_sha256": "ccd92f88093925377b9870b50f802116726c229ed7f9b122568df27c1caeb780",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p12",
+      "url": "https://nxon.ai/career",
+      "prior_capture_id": "o41",
+      "reobserved": 5,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p12.json",
+      "evidence_sha256": "0b7032cadee47da5989ff0240a405991f4d040af29d9b74772235c536baab2d9",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p13",
+      "url": "https://www.lan-bridge.com/zhcn/aboutItems/join/",
+      "prior_capture_id": "o30",
+      "reobserved": 14,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p13.json",
+      "evidence_sha256": "8744b30a3a27428f09c02a7ee92e7be13a427f41a1c44d70e4be025a8a34f715",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p14",
+      "url": "https://thermalai.cn/jobsDetail?id=19",
+      "prior_capture_id": "o05",
+      "reobserved": 1,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p14.json",
+      "evidence_sha256": "f46a851484217b3986cb82a2beb4f1b27a269df0ad94c462b45bbd451132fa55",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p15",
+      "url": "https://www.udesk.cn/v1/joinus.html",
+      "prior_capture_id": "o31",
+      "reobserved": 10,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p15.json",
+      "evidence_sha256": "80cb5d9b865ab607d4f0fea9ce319d589c4a6db1ce12a6e01c75f53eb628ae2f",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    },
+    {
+      "capture_id": "p16",
+      "url": "https://www2.maycur.com/recruit/",
+      "prior_capture_id": "o06",
+      "reobserved": 34,
+      "pending": [],
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/p16.json",
+      "evidence_sha256": "af487001050f29e2cb794c451e464585e9f9dedbc643b2d985bb8c9624775d88",
+      "page_content_changed": false,
+      "comparison_status": "visible_text_compared",
+      "unreviewed_new_lines": [],
+      "inventory_complete": false,
+      "inventory_note": "Block reuse does not prove that every newly added role or pagination page was collected."
+    }
+  ],
+  "network_requests": 0,
+  "source_complete": false,
+  "independent_qa": false
+}

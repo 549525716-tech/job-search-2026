@@ -1,0 +1,42 @@
+[
+  {
+    "company": "京东",
+    "jobs": 1,
+    "source_urls": [
+      "https://zhaopin.jd.com/web/job-info-detail?requementId=219504"
+    ],
+    "identity": "page_display_not_registry_verification"
+  },
+  {
+    "company": "动鑫科技",
+    "jobs": 7,
+    "source_urls": [
+      "https://www.hidongxin.com/careers/"
+    ],
+    "identity": "page_display_not_registry_verification"
+  },
+  {
+    "company": "朗矽科技",
+    "jobs": 8,
+    "source_urls": [
+      "https://www.launchip.com.cn/contact/jobs/"
+    ],
+    "identity": "page_display_not_registry_verification"
+  },
+  {
+    "company": "百炼智能",
+    "jobs": 4,
+    "source_urls": [
+      "https://www.bailian-ai.com/joinus"
+    ],
+    "identity": "page_display_not_registry_verification"
+  },
+  {
+    "company": "DeepSeek",
+    "jobs": 34,
+    "source_urls": [
+      "https://talent.deepseek.com/"
+    ],
+    "identity": "page_display_not_registry_verification"
+  }
+]

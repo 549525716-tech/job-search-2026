@@ -1,0 +1,51 @@
+{
+  "run_id": "sweep-2026-09-11",
+  "status": "collection_complete_with_limitations",
+  "observed_at": "2026-09-10T17:05:39.066Z",
+  "agent_id": "01a08c2b-dc71-7421-a833-b432b3b9592a",
+  "model": "gpt-5.6-luna",
+  "effort": "medium",
+  "web_calls_total": 38,
+  "this_agent_web_calls": 29,
+  "controller_pm_web_calls": 9,
+  "raw_file_count": 38,
+  "companies_attempted_count": 20,
+  "restricted_sources_not_retried_count": 5,
+  "formal_job_counts_from_controller": {
+    "jobs_total": 25,
+    "description_complete": 19,
+    "index_only": 6,
+    "companies_with_complete_jobs": 5
+  },
+  "jobs_file_entries_observed_at_close": 25,
+  "jobs_count_note": "执行器收尾时22条口径先于总控新增销售易3条；最终以固定jobs.json逐条核算为25条，未改动原文。",
+  "filtered_candidate_counts": {
+    "探迹科技": 7,
+    "纷享销客": 6
+  },
+  "formal_extraction_owner": "总控；本次收尾未修改jobs.json或discoveries.json",
+  "timestamp_integrity": {
+    "unverified_placeholder_files": [
+      "001-search-volcengine.json",
+      "002-search-salesforce.json",
+      "003-open-salesforce.json",
+      "004-open-salesforce-ref.json"
+    ],
+    "note": "上述四份observed_at为占位值2026-09-11T00:00:00.000Z，实际调用时间不可核验；不将其伪装成真实审计时间。"
+  },
+  "stopped_sources": [
+    "BOSS",
+    "Liepin",
+    "MiniMax ATS",
+    "月之暗面/智谱 Moka",
+    "第四范式",
+    "NDRC",
+    "NDA",
+    "百度后续详情源(partial_login_required)",
+    "Salesforce详情源(public_index_body_unavailable)"
+  ],
+  "call_ledger_source": "capture-ledger.json",
+  "networking_stopped": true,
+  "timing_audit_status": "partial_not_passed_full_call_interval_audit",
+  "timing_audit_note": "使用共用限速队列；4份早期记录为占位时间，其余部分仅记录结果落盘时间。因此不能证明38次调用的全部实际间隔，不伪造调用起始时间。"
+}

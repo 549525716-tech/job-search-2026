@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "observed_date": "2026-09-14",
+  "time_note": "Date of live observations; exact observation timestamps were not persisted by the controller.",
+  "authorization": "User explicitly requested BOSS and Liepin login handoff and continuation of collection and personal matching in this turn.",
+  "browser": "Existing Google Chrome, no cookie export or profile restart",
+  "platforms": [
+    {
+      "platform": "BOSS直聘",
+      "url": "https://www.zhipin.com/",
+      "method": "mcp__cua_repl browser DOM snapshot",
+      "login_evidence": "link 贺文杰; link 简历; link 消息 99+",
+      "login_status": "logged_in_observed",
+      "listing_status": "homepage_recommendations_readable",
+      "job_detail_status": "not_read_yet",
+      "examples": [
+        {"company":"月之暗面","title":"Business Builder & Ecosystem","salary_raw":"30-60K·16薪","location":"上海·黄浦区","job_url":"https://www.zhipin.com/job_detail/8ce171a5f55818170nF409-6FVBX.html"},
+        {"company":"面壁智能","title":"汽车行业客户经理（北方区）(A102059)-出差","salary_raw":"25-50K·19薪","location":"北京·海淀区·学院路","job_url":"https://www.zhipin.com/job_detail/0f390b7b93ae69090nN539i0ElBW.html"},
+        {"company":"一叶智能","title":"大客户代表-双休","salary_raw":"20-35K·13薪","location":"深圳·南山区·科技园","job_url":"https://www.zhipin.com/job_detail/8c97bf17b98796540nR-3968FFZW.html"}
+      ]
+    },
+    {
+      "platform": "猎聘",
+      "url": "https://c.liepin.com/",
+      "method": "mcp__cua_repl native Chrome accessibility tree",
+      "login_evidence": "你好， 贺先生",
+      "login_status": "logged_in_observed",
+      "listing_status": "homepage_recommendations_readable",
+      "job_detail_status": "click_interrupted_no_detail",
+      "examples": [
+        {"company":"钛动科技","title":"销售管理","salary_raw":"35-65k","location":"广州-小新塘","contact_display_name":"范女士·HR","job_url":"https://www.liepin.com/job/1985457223.shtml"},
+        {"company":"字节跳动","title":"大客户销售（汽车行业）-抖音生活服务","salary_raw":"24-50k·15薪水","location":"广州-琶洲","contact_display_name":"周女士·招聘HR","job_url":"https://www.liepin.com/job/1985293143.shtml"},
+        {"company":"科大讯飞","title":"智能汽车-销售经理-广州","salary_raw":"15-30k·20薪水","location":"广州-赤岗","contact_display_name":"周女士·招聘调配管理师","job_url":"https://www.liepin.com/job/1984386267.shtml"}
+      ]
+    }
+  ],
+  "evidence_scope": "Controller-transcribed visible UI excerpts, not raw HTTP, not full JD, not exhaustive homepage export. Liepin displayed wording may have been affected by browser translation.",
+  "fixed_salary_eligibility": "not_verified",
+  "source_halts_cleared": false,
+  "applications_sent": 0,
+  "messages_sent": 0,
+  "credentials_saved_or_extracted": false
+}

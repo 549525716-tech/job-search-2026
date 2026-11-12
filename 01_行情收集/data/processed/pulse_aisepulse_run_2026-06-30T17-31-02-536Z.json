@@ -1,0 +1,71 @@
+{
+  "source": "AISE Pulse",
+  "createdAt": "2026-06-30T17:31:02.536Z",
+  "delayMs": 15000,
+  "jitterMs": 10000,
+  "selected": [
+    {
+      "slug": "oracle",
+      "company": "Oracle",
+      "category": "Data and Infrastructure Platforms",
+      "route": "云与MaaS大客户路线",
+      "segment": "云计算/大模型平台",
+      "priority": "P1"
+    },
+    {
+      "slug": "palantir",
+      "company": "Palantir",
+      "category": "Enterprise AI Platforms",
+      "route": "行业解决方案路线",
+      "segment": "数据/MLOps/AI基础软件",
+      "priority": "P1"
+    },
+    {
+      "slug": "scale-ai",
+      "company": "Scale AI",
+      "category": "Enterprise AI Platforms",
+      "route": "行业解决方案路线",
+      "segment": "数据/MLOps/AI基础软件",
+      "priority": "P1"
+    },
+    {
+      "slug": "c3ai",
+      "company": "C3.ai",
+      "category": "Enterprise AI Platforms",
+      "route": "行业解决方案路线",
+      "segment": "工业AI/智能制造",
+      "priority": "P1"
+    }
+  ],
+  "importedCount": 4,
+  "skippedCount": 0,
+  "errorCount": 0,
+  "imported": [
+    {
+      "id": "973fe6638539",
+      "company": "Oracle",
+      "salary": "$155K to $235K",
+      "url": "https://aisepulse.com/companies/oracle/"
+    },
+    {
+      "id": "e29ad000e6ba",
+      "company": "Palantir",
+      "salary": "$165K to $255K",
+      "url": "https://aisepulse.com/companies/palantir/"
+    },
+    {
+      "id": "a28ff67bb556",
+      "company": "Scale AI",
+      "salary": "$160K to $250K",
+      "url": "https://aisepulse.com/companies/scale-ai/"
+    },
+    {
+      "id": "a784c74bf04e",
+      "company": "C3.ai",
+      "salary": "$155K to $230K",
+      "url": "https://aisepulse.com/companies/c3ai/"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

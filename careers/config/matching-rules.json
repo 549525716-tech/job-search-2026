@@ -1,0 +1,22 @@
+{
+  "version": "2026-09-23-xhigh-evidence-v3",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "score_semantics": "Weighted coverage of job requirements by documented personal evidence; not an interview probability",
+  "coverage_values": {"direct": 1, "transferable": 0.5, "gap": 0},
+  "max_batch": 20,
+  "requirement_count": {"min": 3, "max": 12},
+  "base_resume_path": "03_简历/贺文杰_销售与商业化管理.docx",
+  "base_resume_positioning": "销售与商业化管理：10人直管、人员管理权限、个人商户经营、跨区域协同和AI经营工具复用",
+  "resume_reuse_requires": ["score>=80", "complete_jd", "hard_gate_review_complete", "all_hard_gates_met", "same_positioning", "base_resume_reviewed", "independent_semantic_review_xhigh"],
+  "semantic_review_policy": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "require_registered_reviewer": true,
+    "require_distinct_executor": true,
+    "required_checks": ["facts_checked", "hard_gates_checked", "source_quotes_checked"],
+    "historical_review_policy": "Historical reviews with another model or reasoning effort remain auditable records only and cannot authorize a current assessment."
+  },
+  "never_infer": ["AI签约收入", "客户生产POC", "企业IT采购链路", "AI合同额和回款", "ARR和续费", "生产级FDE工程交付"],
+  "external_actions": "none"
+}

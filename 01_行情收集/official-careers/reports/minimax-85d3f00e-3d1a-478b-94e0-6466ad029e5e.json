@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-09T15:39:59.283Z",
+  "live_collection_success": false,
+  "runs": [
+    {
+      "schema_version": 1,
+      "run_id": "minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e",
+      "company_id": "minimax",
+      "company_name": "MiniMax",
+      "source_id": "minimax-public-browser",
+      "provider": "public-browser-v1",
+      "tenant": "vrfi1sk8a0",
+      "started_at": "2026-09-09T15:38:54.518Z",
+      "finished_at": "2026-09-09T15:39:59.276Z",
+      "status": "failed",
+      "complete": false,
+      "scope": {
+        "kind": "official_public_browser_query_sample",
+        "board_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/",
+        "query": null,
+        "keywords": [
+          "Business",
+          "销售"
+        ],
+        "filters": {},
+        "coverage": "Browser-rendered sample only: default list 10/202 retained raw, not fully traversed; ; no company-wide completeness or closure inference",
+        "company_wide": false,
+        "closure_eligible": false,
+        "pagination": {
+          "pages_fetched": 1,
+          "max_pages": 3,
+          "truncated": true,
+          "normalized_jobs": 0,
+          "max_jobs": 20
+        }
+      },
+      "ownership": {
+        "status": "verified",
+        "chain": [
+          {
+            "status": "verified_official_link",
+            "verified_at": "2026-09-09T15:39:15.519Z",
+            "company_id": "minimax",
+            "legal_name": null,
+            "from_url": "https://www.minimax.cn/careers",
+            "to_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/",
+            "body_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/002.body",
+            "metadata_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/002.response.json",
+            "sha256": "7bfa56da1e4f7bd0682acb77952b4ee9b721551bf1887cb2a35add6352feb3c0",
+            "page_title": "加入我们，构建 AI 的未来 | MiniMax",
+            "identity_present": true,
+            "links": [
+              {
+                "text": "社会招聘技术、产品、内容与审美的边界天然交织。我们关注的不是标签，而是你对 AI 的好奇心与探索力。具备技术背景的你可以在产品、运营、内容等方向发挥影响力。拥有审美能力的你也能参与塑造模型的\"品味\"与表达方式。立刻投递",
+                "href_raw": "https://vrfi1sk8a0.jobs.feishu.cn/index/",
+                "resolved_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/"
+              },
+              {
+                "text": "查看所有职位",
+                "href_raw": "https://vrfi1sk8a0.jobs.feishu.cn/index/",
+                "resolved_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/"
+              }
+            ]
+          }
+        ],
+        "verified_at": "2026-09-09T15:39:15.519Z"
+      },
+      "jobs": [],
+      "evidence": [
+        {
+          "run_id": "minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e",
+          "source_id": "minimax-public-browser",
+          "company_id": "minimax",
+          "sequence": 1,
+          "url": "https://www.minimax.cn/robots.txt",
+          "method": "GET",
+          "purpose": "robots",
+          "started_at": "2026-09-09T15:38:55.587Z",
+          "finished_at": "2026-09-09T15:38:55.902Z",
+          "status": 200,
+          "headers": {
+            "date": "Wed, 09 Sep 2026 15:38:58 GMT",
+            "content-type": "text/plain",
+            "transfer-encoding": "chunked",
+            "connection": "close",
+            "vary": "Accept-Encoding, RSC, Next-Router-State-Tree, Next-Router-Prefetch",
+            "content-security-policy": "frame-ancestors 'none';",
+            "x-frame-options": "DENY",
+            "x-nextjs-cache": "HIT",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "minimax-request-id": "352f60763ff08ce970a6c654b90dc8cd",
+            "alb_receive_time": "1788968338.319",
+            "alb_request_id": "6ab8be5a7303077984b57b59628859564f02a4e3"
+          },
+          "body_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/001.body",
+          "metadata_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/001.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 131,
+          "sha256": "daa159ddd9812b02d040122a9b829b71b9a3a01697baeb666c98d871b07f449f"
+        },
+        {
+          "run_id": "minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e",
+          "source_id": "minimax-public-browser",
+          "company_id": "minimax",
+          "sequence": 2,
+          "url": "https://www.minimax.cn/careers",
+          "method": "GET",
+          "purpose": "ownership",
+          "started_at": "2026-09-09T15:39:15.120Z",
+          "finished_at": "2026-09-09T15:39:15.519Z",
+          "status": 200,
+          "headers": {
+            "date": "Wed, 09 Sep 2026 15:39:17 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "close",
+            "vary": "Accept-Encoding, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding",
+            "content-security-policy": "frame-ancestors 'none';",
+            "x-frame-options": "DENY",
+            "x-powered-by": "Next.js",
+            "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "minimax-request-id": "0edb7850cea60d544a362b7d8cc7f5aa",
+            "alb_receive_time": "1788968357.809",
+            "alb_request_id": "1066b7bd6f843339f1f4272fc2afe1e92962f272"
+          },
+          "body_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/002.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 66983,
+          "sha256": "7bfa56da1e4f7bd0682acb77952b4ee9b721551bf1887cb2a35add6352feb3c0"
+        },
+        {
+          "run_id": "minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e",
+          "source_id": "minimax-public-browser",
+          "company_id": "minimax",
+          "sequence": 3,
+          "url": "https://vrfi1sk8a0.jobs.feishu.cn/robots.txt",
+          "method": "GET",
+          "purpose": "robots",
+          "started_at": "2026-09-09T15:39:40.737Z",
+          "finished_at": "2026-09-09T15:39:41.064Z",
+          "status": 404,
+          "headers": {
+            "server": "Tengine",
+            "content-type": "text/plain; charset=utf-8",
+            "content-length": "9",
+            "connection": "close",
+            "date": "Wed, 09 Sep 2026 15:39:43 GMT",
+            "x-tt-logid": "2026090923394350BF50104D73B354AD4C",
+            "server-timing": "inner; dur=15",
+            "x-tt-trace-host": "01210a504683cccb57fd1c460a3d03201f5656855ac2954a964e60d1ab78c7467d77c460e3270e284f2f9e50290cb2dc551082903e71695652283e4a2edec3995491f0c24f67e7cd78adfa384b4f8b5ba90753e2f7212b12b88e944618c6693e37",
+            "x-tt-trace-tag": "id=03;cdn-cache=miss;type=dyn",
+            "x-tt-trace-id": "00-26090923394350BF50104D73B354AD4C-39E211E24C836025-00",
+            "x-request-id": "9c863f18-cf7c-4873-b6e9-ccc1321593a6",
+            "x-timestamp": "1788968383.478",
+            "via": "cache41.l2cn8011[72,71,404-1280,M], cache70.l2cn8011[73,0], dynamic7.cn2324[97,97,404-1280,M], dynamic4.cn2324[100,0]",
+            "ali-swift-global-savetime": "1788968383",
+            "x-cache": "MISS TCP_MISS dirn:-2:-2",
+            "x-swift-error": "orig response 4XX error",
+            "x-swift-savetime": "Wed, 09 Sep 2026 15:39:43 GMT",
+            "x-swift-cachetime": "1",
+            "timing-allow-origin": "*",
+            "eagleid": "3df080a217889683833937070e"
+          },
+          "body_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/003.body",
+          "metadata_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/003.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 9,
+          "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+        },
+        {
+          "sequence": 4,
+          "run_id": "minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e",
+          "source_id": "minimax-public-browser",
+          "company_id": "minimax",
+          "url": "https://vrfi1sk8a0.jobs.feishu.cn/index/",
+          "method": "BROWSER_NAVIGATE",
+          "purpose": "entry_navigation",
+          "status": 200,
+          "started_at": "2026-09-09T15:39:56.157Z",
+          "finished_at": "2026-09-09T15:39:58.389Z",
+          "transport": "browser_rendered",
+          "body_type": "rendered_DOM_snapshot_not_raw_HTTP",
+          "body_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/browser-004.dom.html",
+          "metadata_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/browser-004.response.json",
+          "screenshot_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/browser-004.png",
+          "sha256": "1ada7efdea8d6d47a69ef18547ba643d66a37b1a430a375b415c1669b1807931",
+          "bytes": 2394765,
+          "complete": false,
+          "screenshot_sha256": "e6bdda6bfff9f125ed7a2953fa200c64554afc78c01f9623269dbc740df02210",
+          "screenshot_bytes": 163578,
+          "browser_policy": "2026-09-09-public-browser-v1",
+          "cookie_policy": "Normal anonymous session cookies may be handled inside the disposable browser; never imported, exported, logged or persisted",
+          "automatic_resources_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/browser-network.jsonl",
+          "active_action": "minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e:action-4",
+          "error": {
+            "code": "BROWSER_CHALLENGE_OR_LOGIN",
+            "message": "Visible public UI requires verification or login"
+          }
+        }
+      ],
+      "errors": [
+        {
+          "code": "BROWSER_QUERY_MISSING",
+          "message": "No captured public list for: Business, 销售"
+        },
+        {
+          "code": "CHALLENGE_STOP",
+          "browser_code": "BROWSER_CHALLENGE_OR_LOGIN",
+          "message": "Visible public UI requires verification or login",
+          "evidence": null
+        }
+      ],
+      "permission_basis": "explicit_user_public_browser_fallback",
+      "source_health": "stopped_after_partial_browser_capture",
+      "artifacts": {
+        "database": "01_行情收集/official-careers/careers.sqlite",
+        "report_json": "01_行情收集/official-careers/reports/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e.json",
+        "report_markdown": "01_行情收集/official-careers/reports/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e.md"
+      },
+      "transport": "browser_rendered",
+      "source_metadata": {
+        "website_id": null,
+        "website_path": null,
+        "observed_coverage": "Browser-rendered sample only: default list 10/202 retained raw, not fully traversed; ; no company-wide completeness or closure inference",
+        "capture_mode": "browser_rendered",
+        "observed_queries": [
+          {
+            "query": null,
+            "offset": 0,
+            "limit": 10,
+            "page": 1,
+            "reported_total": 202,
+            "returned_records": 10,
+            "unique_records": 10,
+            "list_scope_complete": false,
+            "full_jd_scope_complete": false,
+            "selected_for_normalization": false,
+            "body_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/browser-public-060.body",
+            "metadata_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/browser-public-060.response.json",
+            "sha256": "2acfe59ad36c00df0a5cbcb555f21c2e4c0219bbb82328ed37ddcd4a68dfe368",
+            "observed_at": "2026-09-09T15:39:58.227Z",
+            "closure_eligible": false
+          }
+        ],
+        "selected_unique_records": 0,
+        "normalized_jobs": 0,
+        "default_list_normalized": false,
+        "parser_revision": "feishu-browser-v1",
+        "request_semantics": "Website-owned public responses, not direct API requests; no request body, signature or CSRF emulation",
+        "public_response_evidence": [
+          {
+            "event": "automatic_resource_response",
+            "transport": "browser_rendered",
+            "resource_sequence": 60,
+            "url": "https://vrfi1sk8a0.jobs.feishu.cn/api/v1/search/job/posts?keyword=&limit=10&offset=0&job_category_id_list=&tag_id_list=&location_code_list=&subject_id_list=&recruitment_id_list=&portal_type=6&job_function_id_list=&storefront_id_list=&portal_entrance=1&_signature=%5Bredacted%5D",
+            "method": "POST",
+            "status": 200,
+            "resource_type": "xhr",
+            "observed_at": "2026-09-09T15:39:58.205Z",
+            "active_action": "minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e:action-4",
+            "pacing_semantics": "Browser-managed subresource; not an independently paced collector request",
+            "headers_policy": "No request/response credentials or cookie headers recorded",
+            "run_id": "minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e",
+            "source_id": "minimax-public-browser",
+            "company_id": "minimax",
+            "body_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/browser-public-060.body",
+            "metadata_path": "01_行情收集/official-careers/raw/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e/browser-public-060.response.json",
+            "bytes": 63816,
+            "sha256": "2acfe59ad36c00df0a5cbcb555f21c2e4c0219bbb82328ed37ddcd4a68dfe368",
+            "started_at": "2026-09-09T15:39:58.205Z",
+            "finished_at": "2026-09-09T15:39:58.227Z",
+            "complete": true,
+            "time_semantics": "started_at is response-header observation, finished_at is body capture; not an active request start",
+            "response_semantics": "Actual public JSON response automatically requested by the unmodified public website",
+            "request_body_policy": "Not recorded; site-managed request, no emulated signing or CSRF logic"
+          }
+        ]
+      },
+      "parser": "feishu-browser-v1: saved public JSON + rendered native anchors + offline DOM text",
+      "reused_evidence": [],
+      "scope_fingerprint": "9a6c5886e783b30fc6f4b07ab229708c1592fd7764547bfaf4cd73836e437d2d",
+      "observation_kind": "unbaselined_observation",
+      "change_detection": "scope_aware_incremental_v2; newly_observed_is_not_publication; absence_requires_review",
+      "baseline_run_id": null,
+      "events": []
+    }
+  ],
+  "artifacts": {
+    "database": "01_行情收集/official-careers/careers.sqlite",
+    "report_json": "01_行情收集/official-careers/reports/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e.json",
+    "report_markdown": "01_行情收集/official-careers/reports/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e.md"
+  }
+}

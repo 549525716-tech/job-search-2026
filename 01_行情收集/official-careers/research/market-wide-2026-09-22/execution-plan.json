@@ -1,0 +1,5605 @@
+{
+  "company_records": 312,
+  "queries": [
+    {
+      "id": "c001",
+      "operation": "search",
+      "route": "A",
+      "company": "360",
+      "company_ids": [
+        "company-0001"
+      ],
+      "company_display_names": [
+        "360"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"360\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c002",
+      "operation": "search",
+      "route": "A",
+      "company": "4paradigm",
+      "company_ids": [
+        "company-0002",
+        "company-0039",
+        "company-0040"
+      ],
+      "company_display_names": [
+        "4paradigm",
+        "第四范式",
+        "第四范式(北京)技术有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"第四范式\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c003",
+      "operation": "search",
+      "route": "A",
+      "company": "阿里巴巴",
+      "company_ids": [
+        "company-0003"
+      ],
+      "company_display_names": [
+        "阿里巴巴"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"阿里巴巴\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c004",
+      "operation": "search",
+      "route": "A",
+      "company": "阿里巴巴集团控股有限公司",
+      "company_ids": [
+        "company-0004"
+      ],
+      "company_display_names": [
+        "阿里巴巴集团控股有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"阿里巴巴集团控股有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c005",
+      "operation": "search",
+      "route": "A",
+      "company": "阿里云",
+      "company_ids": [
+        "company-0005",
+        "company-0007",
+        "company-0287"
+      ],
+      "company_display_names": [
+        "阿里云",
+        "阿里云智能",
+        "alibaba cloud"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"阿里云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c006",
+      "operation": "search",
+      "route": "A",
+      "company": "阿里云计算有限公司",
+      "company_ids": [
+        "company-0006"
+      ],
+      "company_display_names": [
+        "阿里云计算有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"阿里云计算有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c008",
+      "operation": "search",
+      "route": "A",
+      "company": "艾利丹尼森(中国)",
+      "company_ids": [
+        "company-0008"
+      ],
+      "company_display_names": [
+        "艾利丹尼森(中国)"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"艾利丹尼森(中国)\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c009",
+      "operation": "search",
+      "route": "A",
+      "company": "安克创新科技股份有限公司",
+      "company_ids": [
+        "company-0009"
+      ],
+      "company_display_names": [
+        "安克创新科技股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"安克创新科技股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c010",
+      "operation": "search",
+      "route": "A",
+      "company": "百度",
+      "company_ids": [
+        "company-0010"
+      ],
+      "company_display_names": [
+        "百度"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"百度\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c011",
+      "operation": "search",
+      "route": "A",
+      "company": "百度在线网络技术(北京)有限公司",
+      "company_ids": [
+        "company-0011",
+        "company-0012"
+      ],
+      "company_display_names": [
+        "百度在线网络技术(北京)有限公司",
+        "百度在线网络技术（北京）有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"百度在线网络技术(北京)有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c013",
+      "operation": "search",
+      "route": "A",
+      "company": "百度智能云",
+      "company_ids": [
+        "company-0013"
+      ],
+      "company_display_names": [
+        "百度智能云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"百度智能云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c014",
+      "operation": "search",
+      "route": "A",
+      "company": "百炼",
+      "company_ids": [
+        "company-0014",
+        "company-0015",
+        "company-0017"
+      ],
+      "company_display_names": [
+        "百炼",
+        "百炼智能",
+        "北京百炼智能科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"百炼\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c016",
+      "operation": "search",
+      "route": "A",
+      "company": "北京百度网讯科技有限公司",
+      "company_ids": [
+        "company-0016"
+      ],
+      "company_display_names": [
+        "北京百度网讯科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京百度网讯科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c018",
+      "operation": "search",
+      "route": "A",
+      "company": "北京必来屋网络科技有限公司",
+      "company_ids": [
+        "company-0018"
+      ],
+      "company_display_names": [
+        "北京必来屋网络科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京必来屋网络科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c019",
+      "operation": "search",
+      "route": "A",
+      "company": "北京不等式科技有限公司",
+      "company_ids": [
+        "company-0019"
+      ],
+      "company_display_names": [
+        "北京不等式科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京不等式科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c020",
+      "operation": "search",
+      "route": "A",
+      "company": "北京东方国信科技股份有限公司",
+      "company_ids": [
+        "company-0020"
+      ],
+      "company_display_names": [
+        "北京东方国信科技股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京东方国信科技股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c021",
+      "operation": "search",
+      "route": "A",
+      "company": "北京华征科技有限公司",
+      "company_ids": [
+        "company-0021"
+      ],
+      "company_display_names": [
+        "北京华征科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京华征科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c022",
+      "operation": "search",
+      "route": "A",
+      "company": "北京经纬恒润科技股份有限公司",
+      "company_ids": [
+        "company-0022"
+      ],
+      "company_display_names": [
+        "北京经纬恒润科技股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京经纬恒润科技股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c023",
+      "operation": "search",
+      "route": "A",
+      "company": "北京兰光创新科技有限公司",
+      "company_ids": [
+        "company-0023"
+      ],
+      "company_display_names": [
+        "北京兰光创新科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京兰光创新科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c024",
+      "operation": "search",
+      "route": "A",
+      "company": "北京清微智能科技股份有限公司",
+      "company_ids": [
+        "company-0024"
+      ],
+      "company_display_names": [
+        "北京清微智能科技股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京清微智能科技股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c025",
+      "operation": "search",
+      "route": "A",
+      "company": "北京天弛网络有限公司",
+      "company_ids": [
+        "company-0025"
+      ],
+      "company_display_names": [
+        "北京天弛网络有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京天弛网络有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c026",
+      "operation": "search",
+      "route": "A",
+      "company": "北京迅利创成科技有限公司",
+      "company_ids": [
+        "company-0026"
+      ],
+      "company_display_names": [
+        "北京迅利创成科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京迅利创成科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c027",
+      "operation": "search",
+      "route": "A",
+      "company": "北京掌上先机网络科技有限公司",
+      "company_ids": [
+        "company-0027"
+      ],
+      "company_display_names": [
+        "北京掌上先机网络科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京掌上先机网络科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c028",
+      "operation": "search",
+      "route": "A",
+      "company": "北京智谱华章科技股份有限公司",
+      "company_ids": [
+        "company-0028",
+        "company-0256",
+        "company-0257",
+        "company-0310",
+        "company-0311"
+      ],
+      "company_display_names": [
+        "北京智谱华章科技股份有限公司",
+        "智谱",
+        "智谱ai",
+        "Z.ai",
+        "zhipu ai"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"智谱\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c029",
+      "operation": "search",
+      "route": "A",
+      "company": "北京中科慧灵机器人技术有限公司",
+      "company_ids": [
+        "company-0029"
+      ],
+      "company_display_names": [
+        "北京中科慧灵机器人技术有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京中科慧灵机器人技术有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c030",
+      "operation": "search",
+      "route": "A",
+      "company": "北京紫光云技术有限公司",
+      "company_ids": [
+        "company-0030"
+      ],
+      "company_display_names": [
+        "北京紫光云技术有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"北京紫光云技术有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c031",
+      "operation": "search",
+      "route": "A",
+      "company": "参数技术",
+      "company_ids": [
+        "company-0031"
+      ],
+      "company_display_names": [
+        "参数技术"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"参数技术\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c032",
+      "operation": "search",
+      "route": "A",
+      "company": "成都华邻科技有限公司",
+      "company_ids": [
+        "company-0032"
+      ],
+      "company_display_names": [
+        "成都华邻科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都华邻科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c033",
+      "operation": "search",
+      "route": "A",
+      "company": "成都乾视智能科技有限公司",
+      "company_ids": [
+        "company-0033"
+      ],
+      "company_display_names": [
+        "成都乾视智能科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都乾视智能科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c034",
+      "operation": "search",
+      "route": "A",
+      "company": "成都知否瑞达科技有限公司",
+      "company_ids": [
+        "company-0034"
+      ],
+      "company_display_names": [
+        "成都知否瑞达科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"成都知否瑞达科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c035",
+      "operation": "search",
+      "route": "A",
+      "company": "重庆忽米网络科技有限公司",
+      "company_ids": [
+        "company-0035"
+      ],
+      "company_display_names": [
+        "重庆忽米网络科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"重庆忽米网络科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c036",
+      "operation": "search",
+      "route": "A",
+      "company": "重庆中科云从科技有限公司",
+      "company_ids": [
+        "company-0036"
+      ],
+      "company_display_names": [
+        "重庆中科云从科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"重庆中科云从科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c037",
+      "operation": "search",
+      "route": "A",
+      "company": "滴滴出行",
+      "company_ids": [
+        "company-0037"
+      ],
+      "company_display_names": [
+        "滴滴出行"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"滴滴出行\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c038",
+      "operation": "search",
+      "route": "A",
+      "company": "滴普科技股份有限公司",
+      "company_ids": [
+        "company-0038"
+      ],
+      "company_display_names": [
+        "滴普科技股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"滴普科技股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c041",
+      "operation": "search",
+      "route": "A",
+      "company": "鼎捷数智",
+      "company_ids": [
+        "company-0041"
+      ],
+      "company_display_names": [
+        "鼎捷数智"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"鼎捷数智\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c042",
+      "operation": "search",
+      "route": "A",
+      "company": "东风汽车",
+      "company_ids": [
+        "company-0042"
+      ],
+      "company_display_names": [
+        "东风汽车"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"东风汽车\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c043",
+      "operation": "search",
+      "route": "A",
+      "company": "东华软件",
+      "company_ids": [
+        "company-0043"
+      ],
+      "company_display_names": [
+        "东华软件"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"东华软件\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c044",
+      "operation": "search",
+      "route": "A",
+      "company": "东华软件股份公司",
+      "company_ids": [
+        "company-0044"
+      ],
+      "company_display_names": [
+        "东华软件股份公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"东华软件股份公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c045",
+      "operation": "search",
+      "route": "A",
+      "company": "东软集团股份有限公司",
+      "company_ids": [
+        "company-0045"
+      ],
+      "company_display_names": [
+        "东软集团股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"东软集团股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c046",
+      "operation": "search",
+      "route": "A",
+      "company": "动鑫科技",
+      "company_ids": [
+        "company-0046"
+      ],
+      "company_display_names": [
+        "动鑫科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"动鑫科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c047",
+      "operation": "search",
+      "route": "A",
+      "company": "法本信息",
+      "company_ids": [
+        "company-0047"
+      ],
+      "company_display_names": [
+        "法本信息"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"法本信息\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c048",
+      "operation": "search",
+      "route": "A",
+      "company": "帆软",
+      "company_ids": [
+        "company-0048"
+      ],
+      "company_display_names": [
+        "帆软"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"帆软\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c049",
+      "operation": "search",
+      "route": "A",
+      "company": "飞轮科技",
+      "company_ids": [
+        "company-0049"
+      ],
+      "company_display_names": [
+        "飞轮科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"飞轮科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c050",
+      "operation": "search",
+      "route": "A",
+      "company": "飞轮科技（SelectDB）",
+      "company_ids": [
+        "company-0050"
+      ],
+      "company_display_names": [
+        "飞轮科技（SelectDB）"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"飞轮科技(SelectDB)\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c051",
+      "operation": "search",
+      "route": "A",
+      "company": "非与智能",
+      "company_ids": [
+        "company-0051"
+      ],
+      "company_display_names": [
+        "非与智能"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"非与智能\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c052",
+      "operation": "search",
+      "route": "A",
+      "company": "纷享销客",
+      "company_ids": [
+        "company-0052"
+      ],
+      "company_display_names": [
+        "纷享销客"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"纷享销客\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c053",
+      "operation": "search",
+      "route": "A",
+      "company": "扶瑶智能科技(天津)有限公司",
+      "company_ids": [
+        "company-0053"
+      ],
+      "company_display_names": [
+        "扶瑶智能科技(天津)有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"扶瑶智能科技(天津)有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c054",
+      "operation": "search",
+      "route": "A",
+      "company": "傅利叶智能",
+      "company_ids": [
+        "company-0054"
+      ],
+      "company_display_names": [
+        "傅利叶智能"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"傅利叶智能\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c055",
+      "operation": "search",
+      "route": "A",
+      "company": "富士康工业互联网股份有限公司",
+      "company_ids": [
+        "company-0055"
+      ],
+      "company_display_names": [
+        "富士康工业互联网股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"富士康工业互联网股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c056",
+      "operation": "search",
+      "route": "A",
+      "company": "高科数聚",
+      "company_ids": [
+        "company-0056"
+      ],
+      "company_display_names": [
+        "高科数聚"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"高科数聚\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c057",
+      "operation": "search",
+      "route": "A",
+      "company": "高擎",
+      "company_ids": [
+        "company-0057"
+      ],
+      "company_display_names": [
+        "高擎"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"高擎\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c058",
+      "operation": "search",
+      "route": "A",
+      "company": "勾正科技",
+      "company_ids": [
+        "company-0058"
+      ],
+      "company_display_names": [
+        "勾正科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"勾正科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c059",
+      "operation": "search",
+      "route": "A",
+      "company": "谷斗科技",
+      "company_ids": [
+        "company-0059"
+      ],
+      "company_display_names": [
+        "谷斗科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"谷斗科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c060",
+      "operation": "search",
+      "route": "A",
+      "company": "观远数据",
+      "company_ids": [
+        "company-0060"
+      ],
+      "company_display_names": [
+        "观远数据"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"观远数据\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c061",
+      "operation": "search",
+      "route": "A",
+      "company": "光环云数据有限公司",
+      "company_ids": [
+        "company-0061"
+      ],
+      "company_display_names": [
+        "光环云数据有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"光环云数据有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c062",
+      "operation": "search",
+      "route": "A",
+      "company": "广东创云科技有限公司",
+      "company_ids": [
+        "company-0062"
+      ],
+      "company_display_names": [
+        "广东创云科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"广东创云科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c063",
+      "operation": "search",
+      "route": "A",
+      "company": "广东鲸翌智能设备有限公司",
+      "company_ids": [
+        "company-0063"
+      ],
+      "company_display_names": [
+        "广东鲸翌智能设备有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"广东鲸翌智能设备有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c064",
+      "operation": "search",
+      "route": "A",
+      "company": "广域铭岛",
+      "company_ids": [
+        "company-0064"
+      ],
+      "company_display_names": [
+        "广域铭岛"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"广域铭岛\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c065",
+      "operation": "search",
+      "route": "A",
+      "company": "广州今宏信息科技有限公司",
+      "company_ids": [
+        "company-0065"
+      ],
+      "company_display_names": [
+        "广州今宏信息科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"广州今宏信息科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c066",
+      "operation": "search",
+      "route": "A",
+      "company": "硅云",
+      "company_ids": [
+        "company-0066"
+      ],
+      "company_display_names": [
+        "硅云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"硅云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c067",
+      "operation": "search",
+      "route": "A",
+      "company": "贵州万联易达科技有限公司",
+      "company_ids": [
+        "company-0067"
+      ],
+      "company_display_names": [
+        "贵州万联易达科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"贵州万联易达科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c068",
+      "operation": "search",
+      "route": "A",
+      "company": "海尔集团",
+      "company_ids": [
+        "company-0068"
+      ],
+      "company_display_names": [
+        "海尔集团"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"海尔集团\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c069",
+      "operation": "search",
+      "route": "A",
+      "company": "海尔卡奥斯物联生态科技有限公司",
+      "company_ids": [
+        "company-0069"
+      ],
+      "company_display_names": [
+        "海尔卡奥斯物联生态科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"海尔卡奥斯物联生态科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c070",
+      "operation": "search",
+      "route": "A",
+      "company": "海康机器人",
+      "company_ids": [
+        "company-0070"
+      ],
+      "company_display_names": [
+        "海康机器人"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"海康机器人\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c071",
+      "operation": "search",
+      "route": "A",
+      "company": "海康威视",
+      "company_ids": [
+        "company-0071"
+      ],
+      "company_display_names": [
+        "海康威视"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"海康威视\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c072",
+      "operation": "search",
+      "route": "A",
+      "company": "海信集团控股股份有限公司",
+      "company_ids": [
+        "company-0072"
+      ],
+      "company_display_names": [
+        "海信集团控股股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"海信集团控股股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c073",
+      "operation": "search",
+      "route": "A",
+      "company": "杭州海康威视数字技术股份有限公司",
+      "company_ids": [
+        "company-0073"
+      ],
+      "company_display_names": [
+        "杭州海康威视数字技术股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"杭州海康威视数字技术股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c074",
+      "operation": "search",
+      "route": "A",
+      "company": "杭州深度求索人工智能基础技术研究有限公司",
+      "company_ids": [
+        "company-0074",
+        "company-0181",
+        "company-0293"
+      ],
+      "company_display_names": [
+        "杭州深度求索人工智能基础技术研究有限公司",
+        "深度求索",
+        "DeepSeek"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"深度求索\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c075",
+      "operation": "search",
+      "route": "A",
+      "company": "杭州正马软件科技有限公司",
+      "company_ids": [
+        "company-0075"
+      ],
+      "company_display_names": [
+        "杭州正马软件科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"杭州正马软件科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c076",
+      "operation": "search",
+      "route": "A",
+      "company": "杭州智思达科技有限责任公司",
+      "company_ids": [
+        "company-0076"
+      ],
+      "company_display_names": [
+        "杭州智思达科技有限责任公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"杭州智思达科技有限责任公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c077",
+      "operation": "search",
+      "route": "A",
+      "company": "航天信息股份有限公司",
+      "company_ids": [
+        "company-0077"
+      ],
+      "company_display_names": [
+        "航天信息股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"航天信息股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c078",
+      "operation": "search",
+      "route": "A",
+      "company": "航天云网科技发展有限责任公司",
+      "company_ids": [
+        "company-0078"
+      ],
+      "company_display_names": [
+        "航天云网科技发展有限责任公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"航天云网科技发展有限责任公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c079",
+      "operation": "search",
+      "route": "A",
+      "company": "和利时集团",
+      "company_ids": [
+        "company-0079"
+      ],
+      "company_display_names": [
+        "和利时集团"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"和利时集团\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c080",
+      "operation": "search",
+      "route": "A",
+      "company": "河北申联汽车服务集团有限公司",
+      "company_ids": [
+        "company-0080"
+      ],
+      "company_display_names": [
+        "河北申联汽车服务集团有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"河北申联汽车服务集团有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c081",
+      "operation": "search",
+      "route": "A",
+      "company": "河南卿云信息技术有限公司",
+      "company_ids": [
+        "company-0081"
+      ],
+      "company_display_names": [
+        "河南卿云信息技术有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"河南卿云信息技术有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c082",
+      "operation": "search",
+      "route": "A",
+      "company": "河南天之悦实业有限公司",
+      "company_ids": [
+        "company-0082"
+      ],
+      "company_display_names": [
+        "河南天之悦实业有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"河南天之悦实业有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c083",
+      "operation": "search",
+      "route": "A",
+      "company": "恒创科技",
+      "company_ids": [
+        "company-0083"
+      ],
+      "company_display_names": [
+        "恒创科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"恒创科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c084",
+      "operation": "search",
+      "route": "A",
+      "company": "宏工科技股份有限公司",
+      "company_ids": [
+        "company-0084"
+      ],
+      "company_display_names": [
+        "宏工科技股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"宏工科技股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c085",
+      "operation": "search",
+      "route": "A",
+      "company": "湖南中项网科技有限公司",
+      "company_ids": [
+        "company-0085"
+      ],
+      "company_display_names": [
+        "湖南中项网科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"湖南中项网科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c086",
+      "operation": "search",
+      "route": "A",
+      "company": "华测检测",
+      "company_ids": [
+        "company-0086"
+      ],
+      "company_display_names": [
+        "华测检测"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"华测检测\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c087",
+      "operation": "search",
+      "route": "A",
+      "company": "华纳云",
+      "company_ids": [
+        "company-0087"
+      ],
+      "company_display_names": [
+        "华纳云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"华纳云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c088",
+      "operation": "search",
+      "route": "A",
+      "company": "华天软件",
+      "company_ids": [
+        "company-0088"
+      ],
+      "company_display_names": [
+        "华天软件"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"华天软件\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c089",
+      "operation": "search",
+      "route": "A",
+      "company": "华为技术有限公司",
+      "company_ids": [
+        "company-0089"
+      ],
+      "company_display_names": [
+        "华为技术有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"华为技术有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c090",
+      "operation": "search",
+      "route": "A",
+      "company": "华为云",
+      "company_ids": [
+        "company-0090"
+      ],
+      "company_display_names": [
+        "华为云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"华为云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c091",
+      "operation": "search",
+      "route": "A",
+      "company": "华为终端有限公司",
+      "company_ids": [
+        "company-0091"
+      ],
+      "company_display_names": [
+        "华为终端有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"华为终端有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c092",
+      "operation": "search",
+      "route": "A",
+      "company": "欢聚集团",
+      "company_ids": [
+        "company-0092"
+      ],
+      "company_display_names": [
+        "欢聚集团"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"欢聚集团\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c093",
+      "operation": "search",
+      "route": "A",
+      "company": "辉瑞中国",
+      "company_ids": [
+        "company-0093"
+      ],
+      "company_display_names": [
+        "辉瑞中国"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"辉瑞中国\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c094",
+      "operation": "search",
+      "route": "A",
+      "company": "汇川技术",
+      "company_ids": [
+        "company-0094"
+      ],
+      "company_display_names": [
+        "汇川技术"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"汇川技术\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c095",
+      "operation": "search",
+      "route": "A",
+      "company": "慧策/掌上先机",
+      "company_ids": [
+        "company-0095"
+      ],
+      "company_display_names": [
+        "慧策/掌上先机"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"慧策/掌上先机\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c096",
+      "operation": "search",
+      "route": "A",
+      "company": "慧策|旺店通(掌上先机)",
+      "company_ids": [
+        "company-0096"
+      ],
+      "company_display_names": [
+        "慧策|旺店通(掌上先机)"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"慧策|旺店通(掌上先机)\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c097",
+      "operation": "search",
+      "route": "A",
+      "company": "火山引擎",
+      "company_ids": [
+        "company-0097",
+        "company-0281",
+        "company-0308"
+      ],
+      "company_display_names": [
+        "火山引擎",
+        "字节跳动火山引擎",
+        "volcengine"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"火山引擎\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c098",
+      "operation": "search",
+      "route": "A",
+      "company": "货拉拉",
+      "company_ids": [
+        "company-0098"
+      ],
+      "company_display_names": [
+        "货拉拉"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"货拉拉\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c099",
+      "operation": "search",
+      "route": "A",
+      "company": "极限科技",
+      "company_ids": [
+        "company-0099"
+      ],
+      "company_display_names": [
+        "极限科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"极限科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c100",
+      "operation": "search",
+      "route": "A",
+      "company": "寄云科技",
+      "company_ids": [
+        "company-0100"
+      ],
+      "company_display_names": [
+        "寄云科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"寄云科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c101",
+      "operation": "search",
+      "route": "A",
+      "company": "加速进化",
+      "company_ids": [
+        "company-0101"
+      ],
+      "company_display_names": [
+        "加速进化"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"加速进化\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c102",
+      "operation": "search",
+      "route": "A",
+      "company": "简道云",
+      "company_ids": [
+        "company-0102"
+      ],
+      "company_display_names": [
+        "简道云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"简道云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c103",
+      "operation": "search",
+      "route": "A",
+      "company": "江苏百信数字认证有限公司",
+      "company_ids": [
+        "company-0103"
+      ],
+      "company_display_names": [
+        "江苏百信数字认证有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"江苏百信数字认证有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c104",
+      "operation": "search",
+      "route": "A",
+      "company": "江苏动铁教育科技集团有限公司",
+      "company_ids": [
+        "company-0104"
+      ],
+      "company_display_names": [
+        "江苏动铁教育科技集团有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"江苏动铁教育科技集团有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c105",
+      "operation": "search",
+      "route": "A",
+      "company": "江苏亨通数字智能科技有限公司",
+      "company_ids": [
+        "company-0105"
+      ],
+      "company_display_names": [
+        "江苏亨通数字智能科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"江苏亨通数字智能科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c106",
+      "operation": "search",
+      "route": "A",
+      "company": "金蝶",
+      "company_ids": [
+        "company-0106"
+      ],
+      "company_display_names": [
+        "金蝶"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"金蝶\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c107",
+      "operation": "search",
+      "route": "A",
+      "company": "金千枝(深圳)软件技术有限公司",
+      "company_ids": [
+        "company-0107"
+      ],
+      "company_display_names": [
+        "金千枝(深圳)软件技术有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"金千枝(深圳)软件技术有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c108",
+      "operation": "search",
+      "route": "A",
+      "company": "金山云",
+      "company_ids": [
+        "company-0108"
+      ],
+      "company_display_names": [
+        "金山云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"金山云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c109",
+      "operation": "search",
+      "route": "A",
+      "company": "京东",
+      "company_ids": [
+        "company-0109"
+      ],
+      "company_display_names": [
+        "京东"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"京东\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c110",
+      "operation": "search",
+      "route": "A",
+      "company": "京东集团股份有限公司",
+      "company_ids": [
+        "company-0110"
+      ],
+      "company_display_names": [
+        "京东集团股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"京东集团股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c111",
+      "operation": "search",
+      "route": "A",
+      "company": "京东科技信息技术有限公司",
+      "company_ids": [
+        "company-0111"
+      ],
+      "company_display_names": [
+        "京东科技信息技术有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"京东科技信息技术有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c112",
+      "operation": "search",
+      "route": "A",
+      "company": "京东商城",
+      "company_ids": [
+        "company-0112"
+      ],
+      "company_display_names": [
+        "京东商城"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"京东商城\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c113",
+      "operation": "search",
+      "route": "A",
+      "company": "京东物流",
+      "company_ids": [
+        "company-0113"
+      ],
+      "company_display_names": [
+        "京东物流"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"京东物流\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c114",
+      "operation": "search",
+      "route": "A",
+      "company": "京东云",
+      "company_ids": [
+        "company-0114"
+      ],
+      "company_display_names": [
+        "京东云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"京东云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c115",
+      "operation": "search",
+      "route": "A",
+      "company": "科大讯飞",
+      "company_ids": [
+        "company-0115",
+        "company-0116",
+        "company-0229",
+        "company-0297"
+      ],
+      "company_display_names": [
+        "科大讯飞",
+        "科大讯飞股份有限公司",
+        "讯飞",
+        "iflytek"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"讯飞\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c117",
+      "operation": "search",
+      "route": "A",
+      "company": "来也科技",
+      "company_ids": [
+        "company-0117"
+      ],
+      "company_display_names": [
+        "来也科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"来也科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c118",
+      "operation": "search",
+      "route": "A",
+      "company": "岚图汽车",
+      "company_ids": [
+        "company-0118"
+      ],
+      "company_display_names": [
+        "岚图汽车"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"岚图汽车\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c119",
+      "operation": "search",
+      "route": "A",
+      "company": "蓝星智云(山东)智能科技有限公司",
+      "company_ids": [
+        "company-0119"
+      ],
+      "company_display_names": [
+        "蓝星智云(山东)智能科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"蓝星智云(山东)智能科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c120",
+      "operation": "search",
+      "route": "A",
+      "company": "朗矽科技",
+      "company_ids": [
+        "company-0120"
+      ],
+      "company_display_names": [
+        "朗矽科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"朗矽科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c121",
+      "operation": "search",
+      "route": "A",
+      "company": "浪潮工业互联网股份有限公司",
+      "company_ids": [
+        "company-0121"
+      ],
+      "company_display_names": [
+        "浪潮工业互联网股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"浪潮工业互联网股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c122",
+      "operation": "search",
+      "route": "A",
+      "company": "浪潮集团",
+      "company_ids": [
+        "company-0122"
+      ],
+      "company_display_names": [
+        "浪潮集团"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"浪潮集团\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c123",
+      "operation": "search",
+      "route": "A",
+      "company": "浪潮集团有限公司",
+      "company_ids": [
+        "company-0123"
+      ],
+      "company_display_names": [
+        "浪潮集团有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"浪潮集团有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c124",
+      "operation": "search",
+      "route": "A",
+      "company": "浪潮云",
+      "company_ids": [
+        "company-0124"
+      ],
+      "company_display_names": [
+        "浪潮云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"浪潮云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c125",
+      "operation": "search",
+      "route": "A",
+      "company": "浪潮云信息技术股份公司",
+      "company_ids": [
+        "company-0125"
+      ],
+      "company_display_names": [
+        "浪潮云信息技术股份公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"浪潮云信息技术股份公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c126",
+      "operation": "search",
+      "route": "A",
+      "company": "利真汽车",
+      "company_ids": [
+        "company-0126"
+      ],
+      "company_display_names": [
+        "利真汽车"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"利真汽车\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c127",
+      "operation": "search",
+      "route": "A",
+      "company": "联通数字科技有限公司",
+      "company_ids": [
+        "company-0127"
+      ],
+      "company_display_names": [
+        "联通数字科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"联通数字科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c128",
+      "operation": "search",
+      "route": "A",
+      "company": "联想懂的通信",
+      "company_ids": [
+        "company-0128"
+      ],
+      "company_display_names": [
+        "联想懂的通信"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"联想懂的通信\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c129",
+      "operation": "search",
+      "route": "A",
+      "company": "联友",
+      "company_ids": [
+        "company-0129"
+      ],
+      "company_display_names": [
+        "联友"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"联友\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c130",
+      "operation": "search",
+      "route": "A",
+      "company": "联友科技",
+      "company_ids": [
+        "company-0130"
+      ],
+      "company_display_names": [
+        "联友科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"联友科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c131",
+      "operation": "search",
+      "route": "A",
+      "company": "猎豹移动",
+      "company_ids": [
+        "company-0131"
+      ],
+      "company_display_names": [
+        "猎豹移动"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"猎豹移动\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c132",
+      "operation": "search",
+      "route": "A",
+      "company": "领充新能源",
+      "company_ids": [
+        "company-0132"
+      ],
+      "company_display_names": [
+        "领充新能源"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"领充新能源\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c133",
+      "operation": "search",
+      "route": "A",
+      "company": "蚂蚁集团",
+      "company_ids": [
+        "company-0133"
+      ],
+      "company_display_names": [
+        "蚂蚁集团"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"蚂蚁集团\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c134",
+      "operation": "search",
+      "route": "A",
+      "company": "美林数据技术股份有限公司",
+      "company_ids": [
+        "company-0134"
+      ],
+      "company_display_names": [
+        "美林数据技术股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"美林数据技术股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c135",
+      "operation": "search",
+      "route": "A",
+      "company": "美团",
+      "company_ids": [
+        "company-0135"
+      ],
+      "company_display_names": [
+        "美团"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"美团\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c136",
+      "operation": "search",
+      "route": "A",
+      "company": "妙蛙 GEO",
+      "company_ids": [
+        "company-0136"
+      ],
+      "company_display_names": [
+        "妙蛙 GEO"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"妙蛙 GEO\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c137",
+      "operation": "search",
+      "route": "A",
+      "company": "明珞装备",
+      "company_ids": [
+        "company-0137"
+      ],
+      "company_display_names": [
+        "明珞装备"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"明珞装备\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c138",
+      "operation": "search",
+      "route": "A",
+      "company": "明源云",
+      "company_ids": [
+        "company-0138"
+      ],
+      "company_display_names": [
+        "明源云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"明源云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c139",
+      "operation": "search",
+      "route": "A",
+      "company": "魔法原子",
+      "company_ids": [
+        "company-0139"
+      ],
+      "company_display_names": [
+        "魔法原子"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"魔法原子\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c147",
+      "operation": "search",
+      "route": "A",
+      "company": "南京大数据集团有限公司",
+      "company_ids": [
+        "company-0147"
+      ],
+      "company_display_names": [
+        "南京大数据集团有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"南京大数据集团有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c148",
+      "operation": "search",
+      "route": "A",
+      "company": "南京国睿信维软件有限公司",
+      "company_ids": [
+        "company-0148"
+      ],
+      "company_display_names": [
+        "南京国睿信维软件有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"南京国睿信维软件有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c149",
+      "operation": "search",
+      "route": "A",
+      "company": "南京深度智控科技有限公司",
+      "company_ids": [
+        "company-0149"
+      ],
+      "company_display_names": [
+        "南京深度智控科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"南京深度智控科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c150",
+      "operation": "search",
+      "route": "A",
+      "company": "南瑞集团有限公司",
+      "company_ids": [
+        "company-0150"
+      ],
+      "company_display_names": [
+        "南瑞集团有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"南瑞集团有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c151",
+      "operation": "search",
+      "route": "A",
+      "company": "宁波均胜电子股份有限公司",
+      "company_ids": [
+        "company-0151"
+      ],
+      "company_display_names": [
+        "宁波均胜电子股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"宁波均胜电子股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c152",
+      "operation": "search",
+      "route": "A",
+      "company": "牛客科技",
+      "company_ids": [
+        "company-0152"
+      ],
+      "company_display_names": [
+        "牛客科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"牛客科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c153",
+      "operation": "search",
+      "route": "A",
+      "company": "七牛云",
+      "company_ids": [
+        "company-0153"
+      ],
+      "company_display_names": [
+        "七牛云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"七牛云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c154",
+      "operation": "search",
+      "route": "A",
+      "company": "启境汽车",
+      "company_ids": [
+        "company-0154"
+      ],
+      "company_display_names": [
+        "启境汽车"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"启境汽车\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c155",
+      "operation": "search",
+      "route": "A",
+      "company": "启明信息",
+      "company_ids": [
+        "company-0155"
+      ],
+      "company_display_names": [
+        "启明信息"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"启明信息\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c156",
+      "operation": "search",
+      "route": "A",
+      "company": "强生(中国)投资有限公司",
+      "company_ids": [
+        "company-0156"
+      ],
+      "company_display_names": [
+        "强生(中国)投资有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"强生(中国)投资有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c157",
+      "operation": "search",
+      "route": "A",
+      "company": "秦淮数据中心",
+      "company_ids": [
+        "company-0157"
+      ],
+      "company_display_names": [
+        "秦淮数据中心"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"秦淮数据中心\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c158",
+      "operation": "search",
+      "route": "A",
+      "company": "青云",
+      "company_ids": [
+        "company-0158"
+      ],
+      "company_display_names": [
+        "青云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"青云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c159",
+      "operation": "search",
+      "route": "A",
+      "company": "青云QingCloud",
+      "company_ids": [
+        "company-0159"
+      ],
+      "company_display_names": [
+        "青云QingCloud"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"青云QingCloud\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c160",
+      "operation": "search",
+      "route": "A",
+      "company": "清研讯科",
+      "company_ids": [
+        "company-0160"
+      ],
+      "company_display_names": [
+        "清研讯科"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"清研讯科\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c161",
+      "operation": "search",
+      "route": "A",
+      "company": "擎翌(上海)智能科技有限公司",
+      "company_ids": [
+        "company-0161"
+      ],
+      "company_display_names": [
+        "擎翌(上海)智能科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"擎翌(上海)智能科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c162",
+      "operation": "search",
+      "route": "A",
+      "company": "容联云",
+      "company_ids": [
+        "company-0162"
+      ],
+      "company_display_names": [
+        "容联云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"容联云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c163",
+      "operation": "search",
+      "route": "A",
+      "company": "软通动力信息技术(集团)股份有限公司",
+      "company_ids": [
+        "company-0163",
+        "company-0164"
+      ],
+      "company_display_names": [
+        "软通动力信息技术(集团)股份有限公司",
+        "软通动力信息技术（集团）股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"软通动力信息技术(集团)股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c165",
+      "operation": "search",
+      "route": "A",
+      "company": "瑞蓝创",
+      "company_ids": [
+        "company-0165"
+      ],
+      "company_display_names": [
+        "瑞蓝创"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"瑞蓝创\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c166",
+      "operation": "search",
+      "route": "A",
+      "company": "赛意信息",
+      "company_ids": [
+        "company-0166"
+      ],
+      "company_display_names": [
+        "赛意信息"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"赛意信息\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c167",
+      "operation": "search",
+      "route": "A",
+      "company": "厦门赛西科技发展有限责任公司",
+      "company_ids": [
+        "company-0167"
+      ],
+      "company_display_names": [
+        "厦门赛西科技发展有限责任公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"厦门赛西科技发展有限责任公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c168",
+      "operation": "search",
+      "route": "A",
+      "company": "山东极视角科技股份有限公司",
+      "company_ids": [
+        "company-0168"
+      ],
+      "company_display_names": [
+        "山东极视角科技股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"山东极视角科技股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c169",
+      "operation": "search",
+      "route": "A",
+      "company": "商车云(北京)科技有限公司",
+      "company_ids": [
+        "company-0169"
+      ],
+      "company_display_names": [
+        "商车云(北京)科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"商车云(北京)科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c170",
+      "operation": "search",
+      "route": "A",
+      "company": "商汤",
+      "company_ids": [
+        "company-0170"
+      ],
+      "company_display_names": [
+        "商汤"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"商汤\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c171",
+      "operation": "search",
+      "route": "A",
+      "company": "上海宝信软件股份有限公司",
+      "company_ids": [
+        "company-0171"
+      ],
+      "company_display_names": [
+        "上海宝信软件股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"上海宝信软件股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c172",
+      "operation": "search",
+      "route": "A",
+      "company": "上海颉纶科技软件有限公司",
+      "company_ids": [
+        "company-0172"
+      ],
+      "company_display_names": [
+        "上海颉纶科技软件有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"上海颉纶科技软件有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c173",
+      "operation": "search",
+      "route": "A",
+      "company": "上海猫小鼬信息科技有限公司",
+      "company_ids": [
+        "company-0173"
+      ],
+      "company_display_names": [
+        "上海猫小鼬信息科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"上海猫小鼬信息科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c174",
+      "operation": "search",
+      "route": "A",
+      "company": "上海蜜度科技股份有限公司",
+      "company_ids": [
+        "company-0174"
+      ],
+      "company_display_names": [
+        "上海蜜度科技股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"上海蜜度科技股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c175",
+      "operation": "search",
+      "route": "A",
+      "company": "上海佩琪集团",
+      "company_ids": [
+        "company-0175"
+      ],
+      "company_display_names": [
+        "上海佩琪集团"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"上海佩琪集团\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c176",
+      "operation": "search",
+      "route": "A",
+      "company": "上海沁灿信息技术有限公司",
+      "company_ids": [
+        "company-0176"
+      ],
+      "company_display_names": [
+        "上海沁灿信息技术有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"上海沁灿信息技术有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c177",
+      "operation": "search",
+      "route": "A",
+      "company": "上海天天软件股份有限公司",
+      "company_ids": [
+        "company-0177"
+      ],
+      "company_display_names": [
+        "上海天天软件股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"上海天天软件股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c178",
+      "operation": "search",
+      "route": "A",
+      "company": "上海曦智科技股份有限公司",
+      "company_ids": [
+        "company-0178"
+      ],
+      "company_display_names": [
+        "上海曦智科技股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"上海曦智科技股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c179",
+      "operation": "search",
+      "route": "A",
+      "company": "上海原圈网络科技有限公司",
+      "company_ids": [
+        "company-0179"
+      ],
+      "company_display_names": [
+        "上海原圈网络科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"上海原圈网络科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c180",
+      "operation": "search",
+      "route": "A",
+      "company": "尚品宅配集团",
+      "company_ids": [
+        "company-0180"
+      ],
+      "company_display_names": [
+        "尚品宅配集团"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"尚品宅配集团\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c182",
+      "operation": "search",
+      "route": "A",
+      "company": "深圳胖柴点书科技有限公司广州分公司",
+      "company_ids": [
+        "company-0182"
+      ],
+      "company_display_names": [
+        "深圳胖柴点书科技有限公司广州分公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"深圳胖柴点书科技有限公司广州分公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c183",
+      "operation": "search",
+      "route": "A",
+      "company": "深圳市腾讯计算机系统有限公司",
+      "company_ids": [
+        "company-0183"
+      ],
+      "company_display_names": [
+        "深圳市腾讯计算机系统有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"深圳市腾讯计算机系统有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c184",
+      "operation": "search",
+      "route": "A",
+      "company": "神策数据",
+      "company_ids": [
+        "company-0184"
+      ],
+      "company_display_names": [
+        "神策数据"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"神策数据\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c185",
+      "operation": "search",
+      "route": "A",
+      "company": "神州数码",
+      "company_ids": [
+        "company-0185"
+      ],
+      "company_display_names": [
+        "神州数码"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"神州数码\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c186",
+      "operation": "search",
+      "route": "A",
+      "company": "神州数码集团股份有限公司",
+      "company_ids": [
+        "company-0186"
+      ],
+      "company_display_names": [
+        "神州数码集团股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"神州数码集团股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c187",
+      "operation": "search",
+      "route": "A",
+      "company": "神州万利科技集团有限公司",
+      "company_ids": [
+        "company-0187"
+      ],
+      "company_display_names": [
+        "神州万利科技集团有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"神州万利科技集团有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c188",
+      "operation": "search",
+      "route": "A",
+      "company": "声网",
+      "company_ids": [
+        "company-0188"
+      ],
+      "company_display_names": [
+        "声网"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"声网\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c189",
+      "operation": "search",
+      "route": "A",
+      "company": "时代亿信",
+      "company_ids": [
+        "company-0189"
+      ],
+      "company_display_names": [
+        "时代亿信"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"时代亿信\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c190",
+      "operation": "search",
+      "route": "A",
+      "company": "实在智能",
+      "company_ids": [
+        "company-0190"
+      ],
+      "company_display_names": [
+        "实在智能"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"实在智能\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c191",
+      "operation": "search",
+      "route": "A",
+      "company": "世纪互联数据中心",
+      "company_ids": [
+        "company-0191"
+      ],
+      "company_display_names": [
+        "世纪互联数据中心"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"世纪互联数据中心\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c192",
+      "operation": "search",
+      "route": "A",
+      "company": "首汽租车",
+      "company_ids": [
+        "company-0192"
+      ],
+      "company_display_names": [
+        "首汽租车"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"首汽租车\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c193",
+      "operation": "search",
+      "route": "A",
+      "company": "曙光信息",
+      "company_ids": [
+        "company-0193"
+      ],
+      "company_display_names": [
+        "曙光信息"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"曙光信息\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c194",
+      "operation": "search",
+      "route": "A",
+      "company": "树根互联股份有限公司",
+      "company_ids": [
+        "company-0194"
+      ],
+      "company_display_names": [
+        "树根互联股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"树根互联股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c195",
+      "operation": "search",
+      "route": "A",
+      "company": "思特奇",
+      "company_ids": [
+        "company-0195"
+      ],
+      "company_display_names": [
+        "思特奇"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"思特奇\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c196",
+      "operation": "search",
+      "route": "A",
+      "company": "四川具身人形机器人科技有限公司",
+      "company_ids": [
+        "company-0196"
+      ],
+      "company_display_names": [
+        "四川具身人形机器人科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川具身人形机器人科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c197",
+      "operation": "search",
+      "route": "A",
+      "company": "四川长征车业集团有限公司",
+      "company_ids": [
+        "company-0197"
+      ],
+      "company_display_names": [
+        "四川长征车业集团有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川长征车业集团有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c198",
+      "operation": "search",
+      "route": "A",
+      "company": "四川中城智建系统集成科技有限公司",
+      "company_ids": [
+        "company-0198"
+      ],
+      "company_display_names": [
+        "四川中城智建系统集成科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"四川中城智建系统集成科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c199",
+      "operation": "search",
+      "route": "A",
+      "company": "松延动力",
+      "company_ids": [
+        "company-0199"
+      ],
+      "company_display_names": [
+        "松延动力"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"松延动力\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c200",
+      "operation": "search",
+      "route": "A",
+      "company": "太极计算机股份有限公司",
+      "company_ids": [
+        "company-0200"
+      ],
+      "company_display_names": [
+        "太极计算机股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"太极计算机股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c201",
+      "operation": "search",
+      "route": "A",
+      "company": "钛动科技",
+      "company_ids": [
+        "company-0201"
+      ],
+      "company_display_names": [
+        "钛动科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"钛动科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c202",
+      "operation": "search",
+      "route": "A",
+      "company": "探迹科技",
+      "company_ids": [
+        "company-0202"
+      ],
+      "company_display_names": [
+        "探迹科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"探迹科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c203",
+      "operation": "search",
+      "route": "A",
+      "company": "特斯拉中国",
+      "company_ids": [
+        "company-0203"
+      ],
+      "company_display_names": [
+        "特斯拉中国"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"特斯拉中国\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c204",
+      "operation": "search",
+      "route": "A",
+      "company": "腾讯云",
+      "company_ids": [
+        "company-0204",
+        "company-0205",
+        "company-0307"
+      ],
+      "company_display_names": [
+        "腾讯云",
+        "腾讯云计算",
+        "tencent cloud"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"腾讯云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c206",
+      "operation": "search",
+      "route": "A",
+      "company": "天津艾迪智绘网络科技有限公司",
+      "company_ids": [
+        "company-0206"
+      ],
+      "company_display_names": [
+        "天津艾迪智绘网络科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"天津艾迪智绘网络科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c207",
+      "operation": "search",
+      "route": "A",
+      "company": "天津思必得科技有限公司 / 妙蛙GEO",
+      "company_ids": [
+        "company-0207"
+      ],
+      "company_display_names": [
+        "天津思必得科技有限公司 / 妙蛙GEO"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"天津思必得科技有限公司 / 妙蛙GEO\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c208",
+      "operation": "search",
+      "route": "A",
+      "company": "天津万联易达科技有限公司",
+      "company_ids": [
+        "company-0208"
+      ],
+      "company_display_names": [
+        "天津万联易达科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"天津万联易达科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c209",
+      "operation": "search",
+      "route": "A",
+      "company": "天翼云科技有限公司",
+      "company_ids": [
+        "company-0209"
+      ],
+      "company_display_names": [
+        "天翼云科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"天翼云科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c210",
+      "operation": "search",
+      "route": "A",
+      "company": "万国数据中心",
+      "company_ids": [
+        "company-0210"
+      ],
+      "company_display_names": [
+        "万国数据中心"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"万国数据中心\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c211",
+      "operation": "search",
+      "route": "A",
+      "company": "网易(杭州)网络有限公司",
+      "company_ids": [
+        "company-0211",
+        "company-0212"
+      ],
+      "company_display_names": [
+        "网易(杭州)网络有限公司",
+        "网易（杭州）网络有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"网易(杭州)网络有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c213",
+      "operation": "search",
+      "route": "A",
+      "company": "网易数帆",
+      "company_ids": [
+        "company-0213"
+      ],
+      "company_display_names": [
+        "网易数帆"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"网易数帆\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c214",
+      "operation": "search",
+      "route": "A",
+      "company": "网易智企",
+      "company_ids": [
+        "company-0214"
+      ],
+      "company_display_names": [
+        "网易智企"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"网易智企\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c215",
+      "operation": "search",
+      "route": "A",
+      "company": "未来不远",
+      "company_ids": [
+        "company-0215"
+      ],
+      "company_display_names": [
+        "未来不远"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"未来不远\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c216",
+      "operation": "search",
+      "route": "A",
+      "company": "沃丰科技",
+      "company_ids": [
+        "company-0216"
+      ],
+      "company_display_names": [
+        "沃丰科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"沃丰科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c217",
+      "operation": "search",
+      "route": "A",
+      "company": "武汉亿量科技有限公司",
+      "company_ids": [
+        "company-0217"
+      ],
+      "company_display_names": [
+        "武汉亿量科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"武汉亿量科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c218",
+      "operation": "search",
+      "route": "A",
+      "company": "物自体(上海)科技有限公司",
+      "company_ids": [
+        "company-0218",
+        "company-0219"
+      ],
+      "company_display_names": [
+        "物自体(上海)科技有限公司",
+        "物自体（上海）科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"物自体(上海)科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c220",
+      "operation": "search",
+      "route": "A",
+      "company": "稀宇科技",
+      "company_ids": [
+        "company-0220",
+        "company-0300"
+      ],
+      "company_display_names": [
+        "稀宇科技",
+        "MiniMax"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"稀宇科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c221",
+      "operation": "search",
+      "route": "A",
+      "company": "先进数通",
+      "company_ids": [
+        "company-0221"
+      ],
+      "company_display_names": [
+        "先进数通"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"先进数通\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c222",
+      "operation": "search",
+      "route": "A",
+      "company": "销售易",
+      "company_ids": [
+        "company-0222"
+      ],
+      "company_display_names": [
+        "销售易"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"销售易\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c223",
+      "operation": "search",
+      "route": "A",
+      "company": "小米集团",
+      "company_ids": [
+        "company-0223"
+      ],
+      "company_display_names": [
+        "小米集团"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"小米集团\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c224",
+      "operation": "search",
+      "route": "A",
+      "company": "小鹏集团",
+      "company_ids": [
+        "company-0224"
+      ],
+      "company_display_names": [
+        "小鹏集团"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"小鹏集团\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c225",
+      "operation": "search",
+      "route": "A",
+      "company": "小鹏汽车",
+      "company_ids": [
+        "company-0225"
+      ],
+      "company_display_names": [
+        "小鹏汽车"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"小鹏汽车\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c226",
+      "operation": "search",
+      "route": "A",
+      "company": "欣旺达动力科技股份有限公司",
+      "company_ids": [
+        "company-0226"
+      ],
+      "company_display_names": [
+        "欣旺达动力科技股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"欣旺达动力科技股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c227",
+      "operation": "search",
+      "route": "A",
+      "company": "新华三技术有限公司",
+      "company_ids": [
+        "company-0227"
+      ],
+      "company_display_names": [
+        "新华三技术有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"新华三技术有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c228",
+      "operation": "search",
+      "route": "A",
+      "company": "徐工汉云技术股份有限公司",
+      "company_ids": [
+        "company-0228"
+      ],
+      "company_display_names": [
+        "徐工汉云技术股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"徐工汉云技术股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c230",
+      "operation": "search",
+      "route": "A",
+      "company": "亚马逊",
+      "company_ids": [
+        "company-0230"
+      ],
+      "company_display_names": [
+        "亚马逊"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"亚马逊\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c231",
+      "operation": "search",
+      "route": "A",
+      "company": "亚马逊云科技",
+      "company_ids": [
+        "company-0231"
+      ],
+      "company_display_names": [
+        "亚马逊云科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"亚马逊云科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c232",
+      "operation": "search",
+      "route": "A",
+      "company": "仪电双杨智能科技(上海)有限公司",
+      "company_ids": [
+        "company-0232",
+        "company-0233"
+      ],
+      "company_display_names": [
+        "仪电双杨智能科技(上海)有限公司",
+        "仪电双杨智能科技（上海）有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"仪电双杨智能科技(上海)有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c234",
+      "operation": "search",
+      "route": "A",
+      "company": "亿速云",
+      "company_ids": [
+        "company-0234"
+      ],
+      "company_display_names": [
+        "亿速云"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"亿速云\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c235",
+      "operation": "search",
+      "route": "A",
+      "company": "影刀",
+      "company_ids": [
+        "company-0235"
+      ],
+      "company_display_names": [
+        "影刀"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"影刀\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c236",
+      "operation": "search",
+      "route": "A",
+      "company": "用友",
+      "company_ids": [
+        "company-0236"
+      ],
+      "company_display_names": [
+        "用友"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"用友\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c237",
+      "operation": "search",
+      "route": "A",
+      "company": "用友网络科技股份有限公司",
+      "company_ids": [
+        "company-0237"
+      ],
+      "company_display_names": [
+        "用友网络科技股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"用友网络科技股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c238",
+      "operation": "search",
+      "route": "A",
+      "company": "优必选",
+      "company_ids": [
+        "company-0238"
+      ],
+      "company_display_names": [
+        "优必选"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"优必选\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c239",
+      "operation": "search",
+      "route": "A",
+      "company": "优刻得",
+      "company_ids": [
+        "company-0239"
+      ],
+      "company_display_names": [
+        "优刻得"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"优刻得\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c240",
+      "operation": "search",
+      "route": "A",
+      "company": "宇树科技",
+      "company_ids": [
+        "company-0240"
+      ],
+      "company_display_names": [
+        "宇树科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"宇树科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c241",
+      "operation": "search",
+      "route": "A",
+      "company": "驭势科技(北京)股份有限公司",
+      "company_ids": [
+        "company-0241",
+        "company-0242"
+      ],
+      "company_display_names": [
+        "驭势科技(北京)股份有限公司",
+        "驭势科技（北京）股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"驭势科技(北京)股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c243",
+      "operation": "search",
+      "route": "A",
+      "company": "原圈科技",
+      "company_ids": [
+        "company-0243"
+      ],
+      "company_display_names": [
+        "原圈科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"原圈科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c244",
+      "operation": "search",
+      "route": "A",
+      "company": "远海国际旅游集团",
+      "company_ids": [
+        "company-0244"
+      ],
+      "company_display_names": [
+        "远海国际旅游集团"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"远海国际旅游集团\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c245",
+      "operation": "search",
+      "route": "A",
+      "company": "月之暗面",
+      "company_ids": [
+        "company-0245",
+        "company-0247",
+        "company-0298",
+        "company-0301"
+      ],
+      "company_display_names": [
+        "月之暗面",
+        "月之暗面科技",
+        "kimi",
+        "moonshot ai"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"kimi\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c246",
+      "operation": "search",
+      "route": "A",
+      "company": "月之暗面（同名异主体，待核）",
+      "company_ids": [
+        "company-0246"
+      ],
+      "company_display_names": [
+        "月之暗面（同名异主体，待核）"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"月之暗面(同名异主体,待核)\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c248",
+      "operation": "search",
+      "route": "A",
+      "company": "长城智选信息科技(保定)有限公司",
+      "company_ids": [
+        "company-0248"
+      ],
+      "company_display_names": [
+        "长城智选信息科技(保定)有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"长城智选信息科技(保定)有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c249",
+      "operation": "search",
+      "route": "A",
+      "company": "浙江大华技术股份有限公司",
+      "company_ids": [
+        "company-0249"
+      ],
+      "company_display_names": [
+        "浙江大华技术股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"浙江大华技术股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c250",
+      "operation": "search",
+      "route": "A",
+      "company": "浙江蓝卓工业互联网信息技术有限 公司",
+      "company_ids": [
+        "company-0250"
+      ],
+      "company_display_names": [
+        "浙江蓝卓工业互联网信息技术有限 公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"浙江蓝卓工业互联网信息技术有限 公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c251",
+      "operation": "search",
+      "route": "A",
+      "company": "浙江强脑科技有限公司",
+      "company_ids": [
+        "company-0251"
+      ],
+      "company_display_names": [
+        "浙江强脑科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"浙江强脑科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c252",
+      "operation": "search",
+      "route": "A",
+      "company": "浙江涛涛车业股份有限公司",
+      "company_ids": [
+        "company-0252"
+      ],
+      "company_display_names": [
+        "浙江涛涛车业股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"浙江涛涛车业股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c253",
+      "operation": "search",
+      "route": "A",
+      "company": "正航软件",
+      "company_ids": [
+        "company-0253"
+      ],
+      "company_display_names": [
+        "正航软件"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"正航软件\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c254",
+      "operation": "search",
+      "route": "A",
+      "company": "智慧芽",
+      "company_ids": [
+        "company-0254"
+      ],
+      "company_display_names": [
+        "智慧芽"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"智慧芽\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c255",
+      "operation": "search",
+      "route": "A",
+      "company": "智马达汽车有限公司",
+      "company_ids": [
+        "company-0255"
+      ],
+      "company_display_names": [
+        "智马达汽车有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"智马达汽车有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c258",
+      "operation": "search",
+      "route": "A",
+      "company": "智芯半导体",
+      "company_ids": [
+        "company-0258"
+      ],
+      "company_display_names": [
+        "智芯半导体"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"智芯半导体\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c259",
+      "operation": "search",
+      "route": "A",
+      "company": "智元创新",
+      "company_ids": [
+        "company-0259"
+      ],
+      "company_display_names": [
+        "智元创新"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"智元创新\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c260",
+      "operation": "search",
+      "route": "A",
+      "company": "中电科数字技术股份有限公司",
+      "company_ids": [
+        "company-0260"
+      ],
+      "company_display_names": [
+        "中电科数字技术股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中电科数字技术股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c261",
+      "operation": "search",
+      "route": "A",
+      "company": "中电信数政科技有限公司",
+      "company_ids": [
+        "company-0261"
+      ],
+      "company_display_names": [
+        "中电信数政科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中电信数政科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c262",
+      "operation": "search",
+      "route": "A",
+      "company": "中电信数智科技有限公司新疆分公司",
+      "company_ids": [
+        "company-0262"
+      ],
+      "company_display_names": [
+        "中电信数智科技有限公司新疆分公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中电信数智科技有限公司新疆分公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c263",
+      "operation": "search",
+      "route": "A",
+      "company": "中国联合网络通信有限公司北京市分公司",
+      "company_ids": [
+        "company-0263"
+      ],
+      "company_display_names": [
+        "中国联合网络通信有限公司北京市分公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中国联合网络通信有限公司北京市分公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c264",
+      "operation": "search",
+      "route": "A",
+      "company": "中国移动通信集团有限公司",
+      "company_ids": [
+        "company-0264"
+      ],
+      "company_display_names": [
+        "中国移动通信集团有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中国移动通信集团有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c265",
+      "operation": "search",
+      "route": "A",
+      "company": "中国移动信息技术有限公司",
+      "company_ids": [
+        "company-0265"
+      ],
+      "company_display_names": [
+        "中国移动信息技术有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中国移动信息技术有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c266",
+      "operation": "search",
+      "route": "A",
+      "company": "中化数智科技有限公司",
+      "company_ids": [
+        "company-0266"
+      ],
+      "company_display_names": [
+        "中化数智科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中化数智科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c267",
+      "operation": "search",
+      "route": "A",
+      "company": "中科创达",
+      "company_ids": [
+        "company-0267"
+      ],
+      "company_display_names": [
+        "中科创达"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中科创达\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c268",
+      "operation": "search",
+      "route": "A",
+      "company": "中科软",
+      "company_ids": [
+        "company-0268"
+      ],
+      "company_display_names": [
+        "中科软"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中科软\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c269",
+      "operation": "search",
+      "route": "A",
+      "company": "中科斯欧(合肥)科技股份有限公司",
+      "company_ids": [
+        "company-0269"
+      ],
+      "company_display_names": [
+        "中科斯欧(合肥)科技股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中科斯欧(合肥)科技股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c270",
+      "operation": "search",
+      "route": "A",
+      "company": "中企动力",
+      "company_ids": [
+        "company-0270"
+      ],
+      "company_display_names": [
+        "中企动力"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中企动力\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c271",
+      "operation": "search",
+      "route": "A",
+      "company": "中汽工程",
+      "company_ids": [
+        "company-0271"
+      ],
+      "company_display_names": [
+        "中汽工程"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中汽工程\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c272",
+      "operation": "search",
+      "route": "A",
+      "company": "中软国际",
+      "company_ids": [
+        "company-0272"
+      ],
+      "company_display_names": [
+        "中软国际"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中软国际\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c273",
+      "operation": "search",
+      "route": "A",
+      "company": "中软国际有限公司",
+      "company_ids": [
+        "company-0273"
+      ],
+      "company_display_names": [
+        "中软国际有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中软国际有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c274",
+      "operation": "search",
+      "route": "A",
+      "company": "中通服和信科技有限公司",
+      "company_ids": [
+        "company-0274"
+      ],
+      "company_display_names": [
+        "中通服和信科技有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中通服和信科技有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c275",
+      "operation": "search",
+      "route": "A",
+      "company": "中兴通讯股份有限公司",
+      "company_ids": [
+        "company-0275"
+      ],
+      "company_display_names": [
+        "中兴通讯股份有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中兴通讯股份有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c276",
+      "operation": "search",
+      "route": "A",
+      "company": "中移(苏州)软件技术有限公司",
+      "company_ids": [
+        "company-0276",
+        "company-0277"
+      ],
+      "company_display_names": [
+        "中移(苏州)软件技术有限公司",
+        "中移（苏州）软件技术有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中移(苏州)软件技术有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c278",
+      "operation": "search",
+      "route": "A",
+      "company": "中移物联网有限公司",
+      "company_ids": [
+        "company-0278"
+      ],
+      "company_display_names": [
+        "中移物联网有限公司"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"中移物联网有限公司\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c279",
+      "operation": "search",
+      "route": "A",
+      "company": "字节跳动",
+      "company_ids": [
+        "company-0279"
+      ],
+      "company_display_names": [
+        "字节跳动"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"字节跳动\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c280",
+      "operation": "search",
+      "route": "A",
+      "company": "字节跳动/飞书商业化",
+      "company_ids": [
+        "company-0280"
+      ],
+      "company_display_names": [
+        "字节跳动/飞书商业化"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"字节跳动/飞书商业化\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c282",
+      "operation": "search",
+      "route": "A",
+      "company": "Adjust (an AppLovin company)",
+      "company_ids": [
+        "company-0282"
+      ],
+      "company_display_names": [
+        "Adjust (an AppLovin company)"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Adjust (an AppLovin company)\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c283",
+      "operation": "search",
+      "route": "A",
+      "company": "ADXJ 蓝鲸出海",
+      "company_ids": [
+        "company-0283"
+      ],
+      "company_display_names": [
+        "ADXJ 蓝鲸出海"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"ADXJ 蓝鲸出海\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c284",
+      "operation": "search",
+      "route": "A",
+      "company": "ADXJ蓝鲸出海",
+      "company_ids": [
+        "company-0284"
+      ],
+      "company_display_names": [
+        "ADXJ蓝鲸出海"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"ADXJ蓝鲸出海\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c285",
+      "operation": "search",
+      "route": "A",
+      "company": "AI Squared",
+      "company_ids": [
+        "company-0285"
+      ],
+      "company_display_names": [
+        "AI Squared"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"AI Squared\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c286",
+      "operation": "search",
+      "route": "A",
+      "company": "Airwallex",
+      "company_ids": [
+        "company-0286"
+      ],
+      "company_display_names": [
+        "Airwallex"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Airwallex\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c288",
+      "operation": "search",
+      "route": "A",
+      "company": "Aliyun",
+      "company_ids": [
+        "company-0288"
+      ],
+      "company_display_names": [
+        "Aliyun"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Aliyun\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c289",
+      "operation": "search",
+      "route": "A",
+      "company": "Amazon Information Service (Beijing) Co., Ltd. (Shanghai Branch)",
+      "company_ids": [
+        "company-0289"
+      ],
+      "company_display_names": [
+        "Amazon Information Service (Beijing) Co., Ltd. (Shanghai Branch)"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Amazon Information Service (Beijing) Co., Ltd. (Shanghai Branch)\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c290",
+      "operation": "search",
+      "route": "A",
+      "company": "Amazon Web Services",
+      "company_ids": [
+        "company-0290"
+      ],
+      "company_display_names": [
+        "Amazon Web Services"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Amazon Web Services\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c291",
+      "operation": "search",
+      "route": "A",
+      "company": "APUS",
+      "company_ids": [
+        "company-0291"
+      ],
+      "company_display_names": [
+        "APUS"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"APUS\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c292",
+      "operation": "search",
+      "route": "A",
+      "company": "Cloudflare",
+      "company_ids": [
+        "company-0292"
+      ],
+      "company_display_names": [
+        "Cloudflare"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Cloudflare\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c294",
+      "operation": "search",
+      "route": "A",
+      "company": "Digit Robotics",
+      "company_ids": [
+        "company-0294"
+      ],
+      "company_display_names": [
+        "Digit Robotics"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Digit Robotics\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c295",
+      "operation": "search",
+      "route": "A",
+      "company": "Figma",
+      "company_ids": [
+        "company-0295"
+      ],
+      "company_display_names": [
+        "Figma"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Figma\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c296",
+      "operation": "search",
+      "route": "A",
+      "company": "GrowingIO",
+      "company_ids": [
+        "company-0296"
+      ],
+      "company_display_names": [
+        "GrowingIO"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"GrowingIO\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c299",
+      "operation": "search",
+      "route": "A",
+      "company": "Microsoft",
+      "company_ids": [
+        "company-0299"
+      ],
+      "company_display_names": [
+        "Microsoft"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Microsoft\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c302",
+      "operation": "search",
+      "route": "A",
+      "company": "Noumena",
+      "company_ids": [
+        "company-0302"
+      ],
+      "company_display_names": [
+        "Noumena"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Noumena\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c303",
+      "operation": "search",
+      "route": "A",
+      "company": "Noumena（物自体）",
+      "company_ids": [
+        "company-0303"
+      ],
+      "company_display_names": [
+        "Noumena（物自体）"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Noumena(物自体)\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c304",
+      "operation": "search",
+      "route": "A",
+      "company": "Salesforce",
+      "company_ids": [
+        "company-0304"
+      ],
+      "company_display_names": [
+        "Salesforce"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Salesforce\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c305",
+      "operation": "search",
+      "route": "A",
+      "company": "Shoplazza",
+      "company_ids": [
+        "company-0305"
+      ],
+      "company_display_names": [
+        "Shoplazza"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Shoplazza\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c306",
+      "operation": "search",
+      "route": "A",
+      "company": "SparkX 邑炎科技",
+      "company_ids": [
+        "company-0306"
+      ],
+      "company_display_names": [
+        "SparkX 邑炎科技"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"SparkX 邑炎科技\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c309",
+      "operation": "search",
+      "route": "A",
+      "company": "YMatrix",
+      "company_ids": [
+        "company-0309"
+      ],
+      "company_display_names": [
+        "YMatrix"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"YMatrix\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    },
+    {
+      "id": "c312",
+      "operation": "search",
+      "route": "A",
+      "company": "Zilliz",
+      "company_ids": [
+        "company-0312"
+      ],
+      "company_display_names": [
+        "Zilliz"
+      ],
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Zilliz\" 招聘"
+          }
+        ],
+        "response_length": "short"
+      }
+    }
+  ],
+  "pending": [
+    {
+      "company": "某广州大型人工智能公司",
+      "company_id": "company-0140",
+      "reason": "anonymous_employer_identity_pending"
+    },
+    {
+      "company": "某广州大型整车制造公司",
+      "company_id": "company-0141",
+      "reason": "anonymous_employer_identity_pending"
+    },
+    {
+      "company": "某杭州互联网上市公司",
+      "company_id": "company-0142",
+      "reason": "anonymous_employer_identity_pending"
+    },
+    {
+      "company": "某上海人力资源服务公司",
+      "company_id": "company-0143",
+      "reason": "anonymous_employer_identity_pending"
+    },
+    {
+      "company": "某上海仪器仪表公司",
+      "company_id": "company-0144",
+      "reason": "anonymous_employer_identity_pending"
+    },
+    {
+      "company": "某深圳互联网上市公司",
+      "company_id": "company-0145",
+      "reason": "anonymous_employer_identity_pending"
+    },
+    {
+      "company": "某IT服务公司",
+      "company_id": "company-0146",
+      "reason": "anonymous_employer_identity_pending"
+    }
+  ],
+  "rule": "Identical normalized query shares evidence but never merges legal employers; anonymous employer requires identity resolution; short search is entry discovery only",
+  "frozen_at": "2026-09-21T17:25:13.262Z",
+  "status": "pending_execution_not_scan_completion"
+}

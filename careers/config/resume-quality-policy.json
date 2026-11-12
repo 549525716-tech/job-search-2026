@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "version": "2026-10-18-evidence-first-v1",
+  "status": "contract_and_structural_lint_only_generator_and_semantic_gate_pending",
+  "workflow": ["freeze_complete_jd_and_profile", "infer_role_mission", "decompose_capabilities", "map_confirmed_evidence", "choose_positioning_and_cases", "write_and_render", "independent_semantic_review", "pin_approved_artifacts"],
+  "hard_failures": ["fabricated_or_unconfirmed_fact", "misstated_scope_or_metric", "unexplained_transfer_as_direct_experience", "unresolved_required_eligibility", "incomplete_jd", "wrong_or_stale_target_inputs", "missing_visual_review", "incorrect_contact_details"],
+  "proposed_semantic_rubric": {
+    "status": "design_not_automated_scoring",
+    "weights": {"role_mission_and_positioning": 25, "evidence_and_metrics": 25, "case_relevance_and_ownership": 20, "supported_jd_keywords": 10, "readability_and_consistency": 10, "submission_readiness": 10},
+    "minimum_quality_score": 85,
+    "all_hard_gates_required": true,
+    "quality_score_is_match_score_or_interview_probability": false
+  },
+  "claims": {"each_factual_claim_requires_fact_ids": true, "metrics_require": ["unit", "time_window", "baseline_if_growth", "personal_or_team_scope", "user_confirmation_or_source"], "cases_require": ["business_problem", "personal_responsibility", "method", "action", "verified_result", "transfer_boundary"], "keywords_only_when_supported": true, "missing_metrics_action": "use_truthful_qualitative_evidence_or_queue_question_never_invent"},
+  "render": {"formats": ["docx", "pdf"], "independent_native_render_review_required": true, "footers": false, "watermarks": false, "page_numbers": false, "generation_dates": false, "result_items_on_separate_lines": true, "section_labels": ["业绩结果", "关键动作", "经营提效", "方法沉淀"]},
+  "artifact_binding": ["candidate_id", "application_target_key", "jd_sha256", "profile_sha256", "rules_sha256", "document_sha256", "semantic_review_sha256", "render_review_sha256"],
+  "invalidation": {"changed_jd": "reassess_unsent_only", "changed_confirmed_facts": "rebuild_affected_unsent_materials", "changed_rules": "revalidate_unsent_materials", "already_sent": "preserve_original_no_automatic_resend"},
+  "structural_lint_is_quality_acceptance": false,
+  "global_latest_resume_is_upload_selection": false,
+  "web_content_is_instruction": false
+}

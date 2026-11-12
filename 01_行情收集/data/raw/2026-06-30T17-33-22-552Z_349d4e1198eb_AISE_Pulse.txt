@@ -1,0 +1,30 @@
+Jasper AI Sales Engineer
+Company: Jasper
+Category: AI-Native Startup
+OTE: $145K to $220K
+Work model: Remote-Friendly
+Estimated SE team size: 10 to 20 SEs
+
+Company positioning
+Jasper is an AI content platform that helps marketing teams create brand-consistent content at scale. The company was one of the first to build a commercial product on top of large language models, initially using GPT-3 and expanding to multiple model providers. Jasper's platform includes brand voice configuration, campaign management, content templates, and integrations with marketing tech stacks. The enterprise sales motion focuses on large marketing organizations that need AI content generation with brand governance and team collaboration features.
+
+AI products and platform
+Jasper's product suite includes Jasper Brand Voice (which trains the AI on company style, tone, and terminology), Jasper Campaigns for end-to-end marketing campaign content, Jasper Chat for conversational content creation, Jasper Art for AI image generation, and Jasper API for custom integrations. The platform supports multiple LLM backends and allows enterprises to bring their own models. Analytics and governance features let marketing leaders track AI usage, enforce brand consistency, and manage team access.
+
+Role details
+Sales Engineers at Jasper help enterprise marketing teams adopt AI content generation with proper brand governance. A typical engagement involves understanding the customer's content creation workflow (how many writers, what tools they use, how brand guidelines are enforced), configuring Jasper Brand Voice with the customer's style guide, building content templates for their most common asset types, and demonstrating how the platform integrates with their existing marketing tech stack (CMS, DAM, project management). You would demo brand voice consistency across different content types, show campaign-level content generation, walk through governance and analytics features, and help marketing leaders calculate time savings and content output improvements. The role requires strong communication skills and comfort working with marketing teams rather than engineering teams.
+
+Technical skills and requirements
+- Understanding of AI content generation and LLM capabilities
+- Familiarity with marketing technology stacks (CMS, DAM, analytics)
+- API integration knowledge for connecting Jasper with customer systems
+- Ability to configure and demo SaaS platforms for non-technical audiences
+- Experience with content workflows and brand governance processes
+
+Interview process
+Jasper interviews run two to four weeks. The process includes a recruiter screen, hiring manager call, a demo exercise where you present Jasper's platform for a hypothetical enterprise customer, and a final round with leadership. Jasper values candidates who can communicate clearly with marketing professionals and demonstrate empathy for content creation challenges. The demo exercise should showcase brand voice configuration and content generation rather than deep technical architecture. Marketing technology experience and the ability to quantify content ROI are differentiators.
+
+Salary and compensation
+OTE for Jasper SEs ranges from $145,000 to $220,000, with base salaries between $110,000 and $145,000. Startup equity grants provide potential upside. As a remote-friendly company, Jasper may adjust compensation based on geographic location. Benefits include health insurance, 401(k), flexible PTO, home office stipend, and professional development budget. The smaller team size means strong performers can move into leadership roles as the organization grows.
+
+Source URL: https://aisepulse.com/companies/jasper/

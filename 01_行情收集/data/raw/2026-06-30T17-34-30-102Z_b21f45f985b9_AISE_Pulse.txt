@@ -1,0 +1,30 @@
+Lockheed Martin AI Sales Engineer
+Company: Lockheed Martin
+Category: Defense AI/ML
+OTE: $140K to $210K
+Work model: Hybrid (Multiple Locations)
+Estimated SE team size: 30 to 50 SEs (AI focused)
+
+Company positioning
+Lockheed Martin is the world's largest defense contractor and a major player in AI and machine learning for national security applications. The company's AI efforts span autonomous systems, predictive maintenance for military platforms, intelligence analysis, cybersecurity, and decision support systems. AI/ML roles at Lockheed Martin sit at the intersection of defense domain expertise and advanced technology, serving customers across the Department of Defense, intelligence community, and allied nations. The company's scale and contract base provide job stability that most AI startups cannot match.
+
+AI products and platform
+Lockheed Martin's AI capabilities include AI-powered predictive maintenance for aircraft, ships, and vehicles; autonomous systems for unmanned platforms; computer vision for intelligence, surveillance, and reconnaissance (ISR); natural language processing for intelligence analysis; cybersecurity AI for threat detection; and digital twin simulations enhanced with ML. The company also provides AI solutions through its partnership with AWS (using SageMaker and Bedrock on GovCloud) and internal platforms built on classified networks.
+
+Role details
+AI-focused technical sales and solutions roles at Lockheed Martin (titled variously as Solutions Architect, Technical Sales Engineer, or Capture Engineer) involve helping government customers define AI requirements, designing solutions that meet those requirements within classified environments, and supporting proposals for competitive contract awards. A typical engagement involves understanding a military or intelligence customer's mission needs, designing an AI architecture that works within government security and compliance frameworks, building demonstration prototypes, and presenting solutions to program offices and contracting officers. You would demo predictive maintenance systems for military platforms, walk through computer vision capabilities for ISR applications, explain how AI models can operate in disconnected or contested environments, and help program managers understand the maturity and limitations of AI for specific mission areas. The role requires security clearance and comfort working within the unique constraints of the defense acquisition process.
+
+Technical skills and requirements
+- Eligibility for and willingness to obtain a security clearance (TS/SCI preferred)
+- Understanding of ML model development, deployment, and edge computing
+- Familiarity with defense acquisition processes and government contracting
+- Experience with computer vision, NLP, or autonomous systems is preferred
+- Knowledge of cloud platforms in government environments (AWS GovCloud, Azure Gov)
+
+Interview process
+Lockheed Martin interviews for AI technical roles run three to six weeks, not including the security clearance process which can add months. The interview typically includes an HR screen, a technical interview with the hiring team covering AI/ML knowledge and defense domain expertise, a solutions presentation where you design an AI system for a government use case, and a final interview with program leadership. Lockheed Martin evaluates candidates on both technical capability and understanding of the defense customer environment. Candidates with existing security clearances have a significant advantage. The solutions presentation should demonstrate awareness of government-specific constraints like data classification, accreditation requirements, and edge deployment limitations.
+
+Salary and compensation
+OTE for AI SE-type roles at Lockheed Martin ranges from $140,000 to $210,000, with base salaries between $110,000 and $170,000. Compensation is lower than top-tier tech companies but includes benefits that offset the gap: pension plan, strong 401(k) match, comprehensive health coverage, and exceptional job stability. Annual bonuses range from 5% to 15% of base salary. The security clearance you obtain is itself a valuable career asset, as cleared professionals command premium compensation across the defense and intelligence sector.
+
+Source URL: https://aisepulse.com/companies/lockheed-martin/

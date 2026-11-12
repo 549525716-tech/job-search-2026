@@ -1,0 +1,11 @@
+{
+  "begins": 4,
+  "finishes": 4,
+  "hashes_verified": 4,
+  "unfinished": 0,
+  "cards": 40,
+  "complete_jd": 0,
+  "market_acceptance": "not_accepted",
+  "browser_acceptance": "failed",
+  "scope": "artifact_integrity_only_not_platform_stability_or_rate_compliance"
+}

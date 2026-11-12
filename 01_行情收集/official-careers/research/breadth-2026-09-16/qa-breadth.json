@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "run_id": "breadth-2026-09-16",
+  "review_type": "independent_offline_limited_qa",
+  "status": "completed_with_findings",
+  "sample_quality_verdict": "needs_changes_in_classification_and_evidence_metadata",
+  "business_acceptance": {
+    "status": "not_accepted",
+    "breadth_status": "not_passed",
+    "market_complete": false,
+    "reason": "本轮仅批次证据审核；公司逐渠道扫描、分页及细分赛道覆盖未验收，不能以目录名、完整JD数或UI测试代替市场宽度。"
+  },
+  "execution": {
+    "network_calls": 0,
+    "implementation_changed": false,
+    "build_executed_by_reviewer": false,
+    "deep_review_rounds": 1,
+    "write_allowlist": [
+      "qa-breadth.json",
+      "qa-breadth.md"
+    ],
+    "reviewer_role": "本独立QA任务，未参与实现",
+    "actual_model": "not_independently_attested_in_this_task",
+    "actual_reasoning_effort": "not_independently_attested_in_this_task",
+    "note": "未另建任务、未运行研究或实现命令。"
+  },
+  "snapshot": {
+    "reviewed_at_utc": "2026-09-16T16:21:20.804Z",
+    "manifest_basis": "本QA于该时间读取的本地字节SHA256；不是对之后主线程修改的背书。",
+    "sha256": {
+      "build.mjs": "866ae3dd6e3a148b892099062085e66fa1cc714adfd4002ff7f291248b210a83",
+      "jobs.json": "b4addc437b208722004f547b9df375d47868c20427a83e8d9d32b29d0c1e9135",
+      "companies.json": "9e1c503763741c4f175ffe683c2e87dc1edcc35dd2cdefbbf2e014e68b2b47e7",
+      "run.json": "087e6059fa2029508631beca9e6c0f182283d88e41b4643f64278672c86b2fa6",
+      "coverage.json": "2422de5bc6656ceef1f784f09222bf3e49d4d62fd5a335e232ad41775dc9ec3a",
+      "timing-audit.json": "2b9d605980cd3b9708bb6d9bfb0f23dfeb5b40c48432826d607fda20e220447d",
+      "capture-inventory.json": "adee03b1b93c5ceb340b542abf99e12a4f1c154df68175063660ebe093d35925",
+      "scope.json": "edc1df5f9bf04686722f338e3733041920743d6d211b28f23ff282d0d8aebb05",
+      "web-session.jsonl": "ede14b8b54b6788ee3f0ac730a6222fbcbbbe48ca5c5038abb64469b16fb0d7e",
+      "frontier.json": "7bf4737846e6ecbea9c6109ce4e238a66834de0ee87cfd5faa7e38420219e191",
+      "unresolved.json": "1800a6f43d7fe520ad59e65c01df1f892d4d85a27adf292086ecbfe5cd14c6bb",
+      "raw/a01.json": "90d3e8e2acb0660a04dd61509a93d5098c92d2cac86bf2ef479653247886d905",
+      "raw/a02.json": "eaa66e6c9849040c1b9c0f28d08b70b58efbf677586b850c64df8fed908dfdf8",
+      "raw/a03.json": "041dc60143dd998e0b634b0ac9540c7d7dad7eb1a4fc7424f35e66a7c6f14f42",
+      "raw/a04.json": "1b5b9495d5bcbfbfc0e1e91bf2ee1b3fa8d79829f4b0959730d4f868a41f6f76",
+      "raw/a05.json": "f4f8b9ed7b5d7670f8f1c84d3abd72f9de2a2c4d5984294008e635d8df04fd43",
+      "raw/a06.json": "c014942edbe7196e9eb6b9823bb2950c8231d497762c472412f9b18aaad02997",
+      "raw/a07.json": "3f494a8e1223b727d7cabae620c4b5c57fd3de7c7e1a31c0e600ed0b957f206a",
+      "raw/a08.json": "cf1b4fa7b56efb376a0186aef08b1fa40d0eae211de4dfd7325dbe22f1b32a15",
+      "raw/c01.json": "7b6a22cb2c5fc13b4cba700b760cf12bfb5ca58acca927e7866cd1e5530c5295",
+      "raw/c02.json": "b7505e520464e9c40c1addd436f12d72a6cdd6116c3f8a2291b3ba1ed0b3c9b6",
+      "raw/c03.json": "96812e1eade7353b962b7837b36d6d389592aa6245c5d22a8217ddb36725af0e",
+      "raw/c04.json": "a1d206ae33a80a93ed9ce2fa1038ddf6090673ec2fe8bd87ac54417bdf8a431f",
+      "raw/o01.json": "2575c476f38647eb436b9dfa863e8dfeea5842bd32d01f65f338248211c9d30a",
+      "raw/o02.json": "b42d6b3e3593995ef33f3559a4cd8653f21ab334c511a909bb48ad5bc9aefa84",
+      "raw/o03.json": "de41a8693ad29d8764b93ee571a91ff2d0321d7d83922fc57e8662cc829d71dc",
+      "raw/o04.json": "3b276a75cab7bfca590590cf331c263d86500a643825754bfa3f8fbdccff6780",
+      "raw/o05.json": "f7716d1c034965b406228596493a0542ce28bbc2373637d39a1855e2bcf1327b",
+      "raw/o06.json": "efbe35e297e77eeeab7c586b0150ce37800b4a87f47205bc9a2ba694698fa5a5",
+      "raw/o07.json": "dbee4b02fec16da7b69e524b4ef8569dca85ec7747add6622aa3ed64d651f945",
+      "raw/o08.json": "7f60a09ff129c30d5deccfb6bcbf42da0a810d6e5b80cb514ba0072b5eddef20",
+      "raw/o09.json": "f8050fbda2a5f5e34d646b6277a356d392c6f6a6c3129178f9e247dc40b1732a",
+      "raw/o10.json": "5cd624da0f40f4d8b4c10d063f4b9c447e7f731c234d8e28d8e525f73bc6d362",
+      "raw/o11.json": "d12606a4154affd65331868ca81303b524dae144fcb342a25d6684e72a85d021",
+      "raw/o12.json": "c45ac02344e2a59f3cc4b5f25aa73e86a2050b9498c34d7a02ce69475745fb9d",
+      "raw/o13.json": "b58f3075aff60f11aca43311e5b652e43bd2fd80d6f46513958d33a0c78dc0f7",
+      "raw/o14.json": "8dbaf38e59d1032d444864df6301d23238a1920af83ed77b035478c3fa61a840",
+      "raw/o15.json": "449cbf281d95f7cbc1526913a08629181c2f6f680d77c9fc3a0461734519fadf",
+      "raw/o16.json": "5ae0c1c62d7d84480779893800be92fac727a087154c60566a7d505d0c95b145",
+      "raw/q01.json": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "raw/q02.json": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "raw/q03.json": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "raw/q04.json": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "raw/q05.json": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "raw/q06.json": "a42e1ad69a9606b2a21c443d76386b647c903e89a697c4e34e6368d94c8d6f67",
+      "raw/q07.json": "c98ab71151856e30f018bcd379fc336aca10cd478b8a0127916908aadec2ae24",
+      "raw/q08.json": "5d27263fa7c05c0c760109d1e2de1951ae4e1239217118d77a9178397cc2abe8",
+      "raw/q09.json": "47488ff031c98c50575f5ad8161b999692f85282c83ef6b7a6e8932f630a4da7",
+      "raw/q10.json": "67efee0cbc0311cfc0217d54cfc09ed7bbe82986d43f5f091171b1415eec0a0e",
+      "raw/q11.json": "f2f21aa8bb34ebcbb5565a1b67d9ce7f59f868b2e531b8e3f04e77e2cd84f826",
+      "raw/q12.json": "c689ea997005a584468b1b299dba7f05f52cff4e6339e5feda4dd073cabc757b",
+      "raw/q13.json": "67563ee5102c17b6e7e977771a678b0b61af0a76a433ab36a646919aebb7cbbb",
+      "raw/q14.json": "a917f420b8f488eb021ca4e0d3e7253829091e41a7c81bd2de8161467ef3cfa9",
+      "raw/q15.json": "f73594347d9a63a2909a5730f24770b74f788d2c44d44836b686d8c3424bac81",
+      "raw/q16.json": "4cbd3dfecda1f5eeaba3a8b9d6bc1667a107756485f2d9bc1fc635a717d4025a",
+      "raw/q17.json": "d9d2938e03d353da6f5e2d2c61be0810366e9f3be7b3218dfba441735a3c78f8",
+      "raw/q18.json": "a5e2898734a1356a9282724588282a051499217a2f9a4793ec6f6143e6dc8534",
+      "raw/q19.json": "cc744b00ac9d5020979a90012fd12593bc17963f545f42f08db93ccca5363689",
+      "raw/q20.json": "4479b559b7b11c2d89a942e5774b7b81c2b86bbce6276a85b2fb27e53942567d",
+      "raw/q21.json": "19ac554aae2e99bf96cbd29bf8f402d36748aa5f9371221ef2af901991bc481e",
+      "raw/q22.json": "10a1fb231940395d0311eabb1c37b7ce56bcfb4ec8cbf4e876580903a03bcc63",
+      "raw/q23.json": "6139e7457e847d85f5c874b2ade17782107adf2e32bef6822e9fa79e0b3774ba",
+      "raw/q24.json": "5b2d14d0054447e528d643c28d233070c2841bb46578cc0c5db4a2f68534fa60"
+    },
+    "latest_delta": {
+      "source": "用户/主线程末次通知",
+      "observations": 144,
+      "company_display_names": 76,
+      "full_jd": 34,
+      "company_discovery_display_names": 203,
+      "commercial_observations": 104,
+      "new_commercial_recall_cases": 5,
+      "independently_verified": false,
+      "note": "用户要求立即收敛；未复验新增APUS召回规则、回归及其更新后的产物SHA。此前商业资格计数为99。"
+    }
+  },
+  "verified_counts": {
+    "observations": 144,
+    "company_display_names": 76,
+    "full_jd": 34,
+    "complete_jd": 34,
+    "commercial_observations": 99,
+    "salary_disclosed": 25,
+    "company_discovery_display_names": 203,
+    "source_hosts": 32,
+    "source_kind": {
+      "search_index": 96,
+      "official": 43,
+      "industry_board": 5
+    },
+    "company_status": {
+      "not_scanned": 127,
+      "partial_job_observations_not_company_complete": 76
+    },
+    "verified_legal_employer_count": "unknown",
+    "company_sum_across_industries": 82,
+    "discovery_sum_across_industries": 211,
+    "counts_note": "跨行业数不可相加为独立公司；203为整个展示名目录，包含已有观察的76个展示名；不是203家新增或已扫雇主。"
+  },
+  "checks": [
+    {
+      "id": "sha",
+      "status": "passed_for_reviewed_snapshot",
+      "references": 613,
+      "breakdown": {
+        "jobs": 144,
+        "supporting": 38,
+        "companyEvidence": 275,
+        "timingReceipts": 52,
+        "inventory": 52,
+        "sessionFinish": 52
+      },
+      "mismatches": 0,
+      "raw_files": 52,
+      "limit": "SHA保证当前本地字节与引用一致，不证明来源网站真实性、当前在招或未记录活动。"
+    },
+    {
+      "id": "same_result_fields",
+      "status": "passed_with_findings",
+      "search_observations": 96,
+      "structured_title_added_records": 15,
+      "note": "15条结构化追加记录的标题和雇主均对上同一智联结果标题；96条搜索观察的URL/标题/雇主在同一结果可查。校招限定丢失见QA-P2-01。"
+    },
+    {
+      "id": "salary_location",
+      "status": "passed_for_checked_scope",
+      "salary_records": 25,
+      "note": "25条非空薪资均在各自URL结果内可查；未发现跨结果串薪资。抽查智联m站地址、三条显式底薪、兰光/SelectDB多岗位地区及济南/成都两条浪潮售前入口，未发现串行。京东location=北京市且原始元信息由location_evidence_quote保留。地址/薪资存在于原文不等于平台数字已获雇主确认。"
+    },
+    {
+      "id": "full_jd_ranges",
+      "status": "passed_with_source_caveat",
+      "records": 34,
+      "by_capture": {
+        "o04": 20,
+        "o09": 6,
+        "o07": 4,
+        "o11": 1,
+        "o12": 1,
+        "o13": 1,
+        "c03": 1
+      },
+      "note": "34条职责与要求逐范围可回溯；重点30条进行了原文语义边界核对，未见相邻岗位混入。其他4条对读对应完整段落。完整仅指可见职责/要求，不是全公司穷尽或实时有效。"
+    },
+    {
+      "id": "dedup",
+      "status": "no_confirmed_channel_or_hr_loss_in_limited_review",
+      "supporting_refs": 38,
+      "same_result_redundant_extraction_refs": 37,
+      "cross_capture_refs": 1,
+      "note": "37处为同一文件/同结果的Luna提议与结构化提取重合，1处为百度同一官网岗位的q02/q03观察。不同原生URL、渠道及兰光不同入口仍保留。没有拿到覆盖全市场HR入口的分母；未验收所有平台联系人识别能力。"
+    },
+    {
+      "id": "directory_counts",
+      "status": "arithmetic_passed_semantic_caveat",
+      "note": "203条均identity_status=unverified_display_name_or_brand；127条not_scanned，76条partial_job_observations_not_company_complete。历史图谱含品牌/产品/子公司，未被标成已扫完雇主。目录SHA/逐条quote均在对应来源块中；SelectDB摘录支持力度缺陷见QA-P2-02。"
+    },
+    {
+      "id": "coverage",
+      "status": "arithmetic_passed_not_business_accepted",
+      "industry_rows": [
+        {
+          "industry": "基础大模型与开放平台",
+          "observations": 13,
+          "company_names": 7,
+          "full_jd": 0,
+          "company_discoveries": 7,
+          "market_complete": false
+        },
+        {
+          "industry": "云、算力与AI基础设施",
+          "observations": 24,
+          "company_names": 13,
+          "full_jd": 1,
+          "company_discoveries": 52,
+          "market_complete": false
+        },
+        {
+          "industry": "数据与AI开发平台",
+          "observations": 17,
+          "company_names": 9,
+          "full_jd": 6,
+          "company_discoveries": 9,
+          "market_complete": false
+        },
+        {
+          "industry": "企业软件与营销数字化",
+          "observations": 31,
+          "company_names": 11,
+          "full_jd": 20,
+          "company_discoveries": 55,
+          "market_complete": false
+        },
+        {
+          "industry": "AI企业应用",
+          "observations": 7,
+          "company_names": 7,
+          "full_jd": 1,
+          "company_discoveries": 7,
+          "market_complete": false
+        },
+        {
+          "industry": "汽车与智能出行数字化",
+          "observations": 15,
+          "company_names": 12,
+          "full_jd": 0,
+          "company_discoveries": 12,
+          "market_complete": false
+        },
+        {
+          "industry": "制造与工业智能化",
+          "observations": 28,
+          "company_names": 16,
+          "full_jd": 5,
+          "company_discoveries": 59,
+          "market_complete": false
+        },
+        {
+          "industry": "机器人与智能硬件",
+          "observations": 9,
+          "company_names": 7,
+          "full_jd": 1,
+          "company_discoveries": 10,
+          "market_complete": false
+        }
+      ],
+      "note": "8个分组的岗位/公司名/完整JD/发现名均能复算；但行业字段的语义核验存在QA-P1-01，不据此认可行业覆盖充分。"
+    },
+    {
+      "id": "hiring_freshness",
+      "status": "passed_boundary_only",
+      "unknown": 143,
+      "closed": 1,
+      "verified_active": 0,
+      "note": "144条hiring_freshness_verified=false；1条原圈旧入口原文明确职位已过期。其余读取成功未被提升为已核在招；2024兰光历史提示保留。"
+    },
+    {
+      "id": "recorded_call_timing",
+      "status": "passed_for_recorded_calls",
+      "errors": [],
+      "minimumQueueCooldownMs": 10314,
+      "calls": 52,
+      "beginCount": 52,
+      "finishCount": 52,
+      "basis": "next queue_admitted_at minus previous finish.persisted_at; timestamps independently matched to tool_started_at/tool_finished_at",
+      "minimum_actual_tool_gap_ms": 31214,
+      "operations": {
+        "search": 32,
+        "open": 18,
+        "click": 2
+      },
+      "note": "10314ms以后一条queue_admitted_at减前一条finish.persisted_at复算，不混用tool_finished_at。只审核52份持久化回执，不证明外部调用全量或实际平台访问授权。"
+    }
+  ],
+  "blocker_summary": {
+    "new_integrity_or_cross_employer_blockers": 0,
+    "formal_market_acceptance_blocked": true,
+    "verified_industry_claims_blocked_by": [
+      "QA-P1-01"
+    ],
+    "note": "原始阶段观察可保留；不能出具无问题验收或市场宽度通过结论。"
+  },
+  "finding_counts": {
+    "P1": 1,
+    "P2": 2
+  },
+  "findings": [
+    {
+      "id": "QA-P1-01",
+      "severity": "P1",
+      "status": "confirmed_in_reviewed_snapshot",
+      "title": "查询行业被直接当作岗位及公司行业，缺少核验状态",
+      "blocking_scope": "阻塞将当前分行业数量作为已核行业覆盖证据；不阻塞带警示保存阶段原始观察。",
+      "evidence": [
+        {
+          "file": "jobs.json",
+          "record_id": "breadth-a06-r7",
+          "actual": "广东鲸翌智能设备有限公司/销售代表，industry=汽车与智能出行数字化",
+          "source_file": "raw/a06.json",
+          "quote": "负责公司行星减速机等传动领域产品的市场推广与销售工作",
+          "assessment": "该结果出现在翌擎智能查询中，但本段没有汽车数字化归类证据；应保留待核，不继承查询目标的行业。"
+        },
+        {
+          "file": "jobs.json",
+          "record_id": "breadth-q24-r7",
+          "actual": "南京深度智控科技有限公司/国内商务拓展经理（数据中心BD），industry=机器人与智能硬件",
+          "source_file": "raw/q24.json",
+          "quote": "智慧能源项目规划设计、建设及能效管理服务",
+          "assessment": "原文展示数据中心和智慧能源线索，不能由智能硬件查询直接确认机器人行业。此处不代为确定其最终行业。"
+        },
+        {
+          "file": "jobs.json",
+          "record_ids": [
+            "breadth-q03-r2",
+            "breadth-o11-l14"
+          ],
+          "actual": "同一京东岗位 requementId=219504 分别归基础大模型与开放平台、AI企业应用",
+          "source_files": [
+            "raw/q03.json",
+            "raw/o11.json"
+          ],
+          "assessment": "保留两次观察正确，但缺少查询分组与业务分类的区分及归类冲突标识。"
+        },
+        {
+          "file": "build.mjs",
+          "anchor": "structured proposed.industry = task?.industry ?? c.industry；company(job.company,job.industry,...)；industryRows按j.industry计数",
+          "assessment": "岗位行业继续写入公司目录和coverage，算术正确并不能证明行业事实。"
+        }
+      ],
+      "impact": "会误导按行业选择机会，并将搜索命中宽度解释成业务行业宽度。76个展示名及203个目录名不因此成为已核雇主。",
+      "requested_change": "由实现线程区分query_group与已核行业；现有无归类证据或有冲突的项标待核。保留原始观察及发现路线，不删除陌生公司。未修前仅按查询组展示这些数，不作为行业宽度通过证据。"
+    },
+    {
+      "id": "QA-P2-01",
+      "severity": "P2",
+      "status": "confirmed_in_reviewed_snapshot",
+      "title": "原始搜索标题的校招限定未进入结构化字段",
+      "blocking_scope": "不阻塞原始观察保留；阻塞把受影响记录当普通社招候选。",
+      "evidence": [
+        {
+          "file": "jobs.json",
+          "record_id": "breadth-q02-r4",
+          "source_file": "raw/q02.json",
+          "quote": "苏州-云和大模型大客户销售(J101155)（校招）- 百度",
+          "actual": "employment_type=not_confirmed；role_review.eligible=true；attention无校招提示"
+        },
+        {
+          "file": "jobs.json",
+          "record_id": "breadth-q21-r06",
+          "source_file": "raw/q21.json",
+          "quote": "赛意信息 售前顾问 招聘（校招）- 校招宝",
+          "actual": "employment_type=not_confirmed；role_review.eligible=true；原文另有招聘批次=校招"
+        },
+        {
+          "file": "jobs.json",
+          "record_ids": [
+            "breadth-q18-r08",
+            "breadth-q18-r10"
+          ],
+          "source_file": "raw/q18.json",
+          "quote": "智能座舱与车联网仿真工程师_北京经纬恒润科技股份有限公司校招_牛客网",
+          "actual": "两条均employment_type=not_confirmed；虽已因非商业主线排除，校招标记仍遗漏。"
+        },
+        {
+          "file": "build.mjs",
+          "anchor": "const campus = /\\/GRADUATE\\//.test(b.url) || /校招|实习|应届/.test(p.title)",
+          "assessment": "只查清洗后的岗位名和单一官网路径，漏掉搜索结构化标题及该岗位专属招聘类型字段。"
+        }
+      ],
+      "impact": "已核4条校招限定丢失，其中2条在审核快照进入商业资格计数。该结论不等于要求删除原始岗位，也未核算最新104条中的资格状态。",
+      "requested_change": "从同一结果的结构化标题或岗位专属招聘类型提取限定，避免全页面导航中的校招字样误伤社招；保留记录，补类型和提示，按既有规则重新判定资格。"
+    },
+    {
+      "id": "QA-P2-02",
+      "severity": "P2",
+      "status": "confirmed_in_reviewed_snapshot",
+      "title": "SelectDB公司证据摘录退化为岗位标题",
+      "blocking_scope": "非雇主串接错误，不阻塞六条JD作为待核品牌观察；摘录不能独立用作公司身份凭据。",
+      "evidence": [
+        {
+          "file": "companies.json",
+          "json_pointer": "/195/evidence",
+          "company": "飞轮科技（SelectDB）",
+          "source_file": "raw/o09.json",
+          "actual": "6个verbatim_quote均为岗位标题，例如 ### 售前解决方案架构师 社招/校招，不含飞轮科技或SelectDB。"
+        },
+        {
+          "file": "raw/o09.json",
+          "anchor": "结果标题：加入我们 — SelectDB；原文L4",
+          "quote": "飞轮科技，致力于打造全球领先的实时数据仓库技术",
+          "assessment": "完整原文能够支持品牌展示关联，所以不判雇主错绑；缺陷是当前公司证据摘录本身未呈现关联依据。"
+        },
+        {
+          "file": "build.mjs",
+          "anchor": "公司名连续字符串查找失败时使用job.evidence_quote作为company quote",
+          "assessment": "合成展示名飞轮科技（SelectDB）不以连续字符串出现在页面，fallback取到岗位标题。"
+        }
+      ],
+      "impact": "quote存在且SHA正确只能证明文本未变，不能证明该quote支持公司名称或品牌关系；影响公司目录证据独立回查。",
+      "requested_change": "保留原始展示名，并使用同页实际公司/品牌文字和相应定位证明关联；法律主体继续待核。"
+    }
+  ],
+  "source_caveats": [
+    {
+      "source_file": "raw/o07.json",
+      "record_id": "breadth-o07-l366",
+      "lines": [
+        375,
+        394
+      ],
+      "note": "源页L378先写任职要求，L379-385却延续职责，L386才再出现任职要求。现产物未丢内容或跨岗，但requirements混含职责，后续能力解析应标原文结构异常；本轮不把它判作伪造或不完整JD。"
+    },
+    {
+      "source_file": "raw/o04.json",
+      "lines": [
+        151,
+        181
+      ],
+      "note": "L178的海外网站运营及SEO专员是L151同页内容的重排重复，跳过未发现不同渠道/HR丢失；L461开发测试工程师只读到首条职责，未计完整JD。页面后半段续读失败保留，20不是全公司岗位数。"
+    }
+  ],
+  "unverified": [
+    "最新104商业观察及新增5项APUS召回回归：主线程报告，未独立复验。",
+    "主线程26单测和桌面/手机UI离线检查：主线程报告，未在本任务运行或验收。",
+    "已有报告接入后的实际渲染、attention提示和新增岗位不评分：未独立审核报告实现及UI。",
+    "所有岗位目前是否在招、固定底薪承诺、法律雇主身份、公司品牌及子公司独立性。",
+    "全行业/细分赛道分母、逐公司多渠道范围、完整分页与详情覆盖、全平台HR联系目标完整性。",
+    "已有访问暂停是否经本人解除、底层HTTP记录完整性与未落盘活动；未联网。",
+    "本快照之后源文件变化及问题修复；本报告不自动变成修复复验。"
+  ],
+  "recommendation": "主线程可作为带问题清单的阶段检查点接入原始观察，继续not_accepted；行业标签不得当已核行业事实，受影响校招记录不作普通社招候选。修复由主线程决定，本QA未改实现。"
+}

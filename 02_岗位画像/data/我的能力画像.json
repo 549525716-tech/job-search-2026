@@ -1,0 +1,1025 @@
+{
+  "name": "贺文杰",
+  "updatedAt": "2026-09-07",
+  "sourceFiles": [
+    "/Users/MR/Desktop/面试/贺文杰_AI解决方案销售_MiniMax定向版 (1).docx",
+    "/Users/MR/Downloads/个人简历-贺文杰-零售店长.docx"
+  ],
+  "analysisProtocol": {
+    "principle": "先基于简历形成个人事实记忆，再用市场岗位要求做匹配判断，不用岗位JD倒推或夸大履历。",
+    "step1": "读取两份简历，确认直接证据、可迁移证据和不能夸大的边界。",
+    "step2": "对照AI、互联网、云/MaaS、硬件/智算/半导体销售岗位，判断匹配度、能力gap和补强产出。",
+    "lastResumeReview": "2026-09-07",
+    "lastMarketReview": "2026-07-21",
+    "resumeEvidenceBoundary": "当前直接证据集中在汽车行业销售结果、销售管理、平台营销客户经营和AI工具自用；真实AI产品销售合同、客户级POC、企业IT采购链路、硬件智算项目仍为缺口。"
+  },
+  "twoStepMemory": {
+    "step1SelfSummary": {
+      "coreIdentity": "具备10人直接管理、招聘/绩效/激励决策经验的销售管理候选人；当前在懂车帝负责个人商户经营并承担大区跨区域分工与督办，求职以管理职责为优先。",
+      "directEvidence": [
+        "特斯拉个人销冠和600+台交付。",
+        "乐道/特斯拉任职期间同期直接管理10人，涵盖主管、业务主管和一线销售；招聘、绩效评价、激励分配由本人决定，晋升推荐为参与。乐道团队目标超200%、累计带教21人、培养10人晋升。",
+        "懂车帝岗位职级全国前30%，客户规模180家增长至210家，区域月均商业消耗环比稳定增长2%-2.5%、年增长约30%，年度综合业务目标达成130%。",
+        "区域头部二手车商户线索量增长约122%（270到约600条/月）、成交量增长150%（4到10台/月），稳定经营6个月。",
+        "经营诊断、ROI测算、老板沟通PPT和AI辅助销售运营。",
+        "懂车帝210家商户为个人负责；主导的目标拆解和经营复盘涉及大区其他区域同事，负责分工与后续督办，不等同人事直管。",
+        "特斯拉后10%到前30%指被辅导员工，不是团队整体排名；AI地图团队全员使用，拜访效率提升150%仅为本人测量。"
+      ],
+      "evidenceBoundary": "不能写成已有AI产品签约回款、企业级AI POC、完整企业IT采购链路或硬件智算项目。不得将个人210家客户写成团队客户规模、同事分工督办写成人事直管、被辅导员工排名写成团队排名、个人150%提效写成团队提效。"
+    },
+    "step2MarketComparison": {
+      "latestMarketSignals": [
+        "月之暗面Business Builder & Ecosystem为AI商业化/生态BD岗位，要求探索商业化路径并对pipeline、revenue和quota负责。",
+        "MiniMax公开KA岗位强调客户业务现状、规划、技术应用、关键人和决策链，以及商务沟通和方案协同。",
+        "智谱API/MaaS销售强调销售策略、合作伙伴协同、市场趋势和客户需求分析。",
+        "阿里云、商汤等高薪售前岗位强调AI场景识别、技术交流、方案设计和项目型推进。",
+        "用户的客户诊断、ROI、老板沟通、存量增购和团队管理可直接前置；AI产品签约、API Demo、POC和企业IT决策链仍为P0缺口。"
+      ],
+      "priorityRoutes": [
+        "AI应用/营销AI/SaaS销售",
+        "互联网广告/平台型2B商业化",
+        "大模型/Agent商业化销售",
+        "云/MaaS大客户销售",
+        "汽车AI/智能汽车商业化"
+      ],
+      "gapStack": [
+        {
+          "gap": "AI产品商业化差值",
+          "priority": "P0",
+          "minimumOutput": "1页AI产品销售方案，写清客户场景、痛点、价值、计费和成交逻辑。"
+        },
+        {
+          "gap": "Demo/POC差值",
+          "priority": "P0",
+          "minimumOutput": "2个可展示Demo：商户经营分析助手、销售话术/知识库问答助手。"
+        },
+        {
+          "gap": "企业级采购差值",
+          "priority": "P0",
+          "minimumOutput": "1个KA推进STAR案例，补关键人、预算、周期、竞品、异议和推进节奏。"
+        },
+        {
+          "gap": "商务结果口径差值",
+          "priority": "P0",
+          "minimumOutput": "1张商业结果表，整理月消耗、增长率、稳定周期、达成率、客户数和转化率。"
+        },
+        {
+          "gap": "目标行业语言差值",
+          "priority": "P1",
+          "minimumOutput": "分别补AI应用、SaaS、云/MaaS、汽车AI四个方向的一页话术。"
+        }
+      ],
+      "comparisonRule": "每个岗位先判断直接匹配、可迁移、硬缺口，再决定简历前置、转译或补课。"
+    }
+  },
+  "profileMemory": {
+    "positioning": "汽车行业销售团队管理 + 平台商业化客户经营 + 大区跨区域协同 + AI经营方法复用；以管理岗位为优先，AI新行业适配单独判断。",
+    "directProof": [
+      "特斯拉个人销售强结果：华南区600人连续两个季度销冠，在职9个月交付600+台，最高单日23台。",
+      "乐道销售管理强结果：团队季度目标超200%，月人效5-7台，大区前3、全国前10，带教21人、培养10人晋升。",
+      "懂车帝平台营销客户经营：岗位职级全国前30%，客户规模180家增长至210家（+16.7%），区域月均商业消耗环比稳定增长2%-2.5%、年增长约30%，年度综合业务目标达成130%。",
+      "二手车KA深耕：区域头部商户线索量增长约122%（270到约600条/月）、成交量增长150%（4到10台/月），连续稳定经营6个月。",
+      "商机挖掘和漏斗管理：客户规模增长16.7%（180家到210家），召回约20家沉默客户，直接开发10家。",
+      "方案与ROI表达：经营分析报告、商户诊断报告、ROI测算表、月度经营建议、老板沟通PPT。",
+      "AI工具实践：Codex、Prompt、Excel、CRM、数据看板、知识库问答、经营分析Demo和路线规划自动化。",
+      "2026-09-07本人确认：乐道/特斯拉同期直管10人，有招聘、绩效评价、激励分配决策权，参与晋升推荐；懂车帝大区跨区域目标拆解、分工与督办为协同职责。",
+      "AI地图使用覆盖团队全员；个人测得拜访效率提升150%，团队整体提效尚未测量。"
+    ],
+    "transferableProof": [
+      "可迁移到AI应用/营销AI/SaaS销售：平台营销、线索转化、客户经营、ROI和持续消耗。",
+      "可迁移到大模型/Agent商业化销售：客户诊断、业务痛点拆解、价值表达和销售推进，但需要补真实AI产品案例。",
+      "可迁移到销售管理/区域负责人：目标拆解、过程管理、人效提升、带教和复盘机制。",
+      "可部分迁移到云/MaaS大客户销售：KA、多层级沟通和ROI表达，但需要补云产品、MaaS和企业IT采购链路。",
+      "可弱迁移到智能汽车/机器人/具身智能：汽车行业背景和销售管理，但需要补硬件产品、渠道生态和项目制销售。"
+    ],
+    "hardBoundaries": [
+      "不能写成已经完成AI产品签约回款。",
+      "不能写成做过企业级AI POC、投标述标或复杂交付。",
+      "不能写成熟悉CIO/CTO/采购/法务/财务完整企业IT采购链路。",
+      "不能凭空写合同额、回款额、续费率或ARR。",
+      "不能包装成芯片、GPU、服务器、IDC、智算或半导体销售专家。",
+      "累计带教21人不等于同期直管21人；晋升推荐为参与，不是晋升审批决策权。",
+      "懂车帝210家是个人客户；跨区域同事分工督办不是对同事的人事管理权。",
+      "特斯拉排名改善属于被辅导员工，不是团队整体；150%拜访提效是个人测量，不是团队统计。"
+    ],
+    "comparisonRule": "后续每看一个岗位，先判断岗位买的是哪类能力，再映射到directProof、transferableProof和hardBoundaries，最后输出匹配方向、证据可用度、能力gap和最小补强产出。"
+  },
+  "targetRoles": [
+    "销售团队管理",
+    "区域商业化运营管理",
+    "AI解决方案销售",
+    "大模型技术销售工程师",
+    "AI软件/大模型销售",
+    "MaaS KA销售",
+    "AI售前/解决方案顾问",
+    "大客户销售",
+    "销售管理"
+  ],
+  "targetRoutes": [
+    "AI软件落地路线",
+    "云与MaaS大客户路线",
+    "应用SaaS/销售管理路线",
+    "行业解决方案路线"
+  ],
+  "targetConstraints": {
+    "cities": [
+      "广州",
+      "深圳",
+      "全国远程/出差可评估"
+    ],
+    "expectedSalary": "待确认",
+    "preferredIndustries": [
+      "大模型/Agent平台",
+      "AI营销/销售AI",
+      "云/MaaS",
+      "企业服务SaaS",
+      "汽车行业数字化"
+    ],
+    "avoidIndustries": [],
+    "preferredCompanyTypes": [
+      "AI软件公司",
+      "云厂商/MaaS平台",
+      "企业服务SaaS",
+      "有行业解决方案销售岗位的科技公司"
+    ],
+    "managementPreference": "2026-09-07明确优先争取管理岗位；前置实际10人直管、人员管理权限、团队培养和跨区域协同证据，不再默认以AI销售IC为第一选择。",
+    "travelTolerance": "待确认",
+    "notes": "当前最强证据在汽车行业销售、商业化运营、商户经营、区域目标拆解、经营复盘、ROI测算、销售管理和团队规模化使用AI经营工具；AI产品销售、正式POC、合同回款、企业级IT采购链路仍需补证。"
+  },
+  "currentSummary": "具备汽车零售团队管理与平台商业化经营经验，目标以管理岗位为优先。乐道/特斯拉任职期间同期直管10人，管理主管、业务主管和一线销售；招聘、绩效评价、激励分配由本人决定，晋升推荐为参与。乐道团队季度目标超200%，累计带教21人、培养10人晋升。当前懂车帝储备区域经理，210家商户是个人负责客户；主导的大区目标拆解和周/月经营复盘涉及其他区域同事，承担分工及后续督办，未确认对这些同事有人事权限。现有业绩沿用8月确认值：个人客户180至210、商业消耗环比2%-2.5%、年增长约30%、年度目标130%，本轮未刷新业绩时间序列。特斯拉后10%至前30%属于被辅导员工。AI地图团队全员使用，150%拜访提效为个人测量，不能外推团队；每天节省约2小时也暂保留个人口径。AI产品合同、客户级POC、IT采购链路和AI回款证据仍缺。",
+  "skills": [
+    {
+      "name": "行业场景理解",
+      "level": "强：汽车零售/二手车/门店经营场景；中：AI行业场景迁移",
+      "keywords": [
+        "汽车行业",
+        "二手车商户",
+        "获客",
+        "线索转化",
+        "门店周转",
+        "ROI测算",
+        "经营诊断"
+      ],
+      "evidenceIds": [
+        "EV-DCD-ROI",
+        "EV-DCD-SECONDHAND"
+      ]
+    },
+    {
+      "name": "商业化运营/Business Operations",
+      "level": "中强：主导区域目标拆解和周/月经营复盘，参与推广包、客户政策、资源配置及运营策略调整；缺少留存/续投/客单/预测准确率和具体产品规则变化证据",
+      "keywords": [
+        "目标拆解",
+        "经营复盘",
+        "运营策略",
+        "资源配置",
+        "客户政策",
+        "流程规模化"
+      ],
+      "evidenceIds": [
+        "EV-DCD-BIZOPS",
+        "EV-AI-OPS",
+        "EV-ONVO-MANAGEMENT"
+      ]
+    },
+    {
+      "name": "大客户/KA开发",
+      "level": "中强：有老板/区域经理/店长多层级经营和KA商户深耕；企业IT型KA待补",
+      "keywords": [
+        "KA",
+        "区域头部客户",
+        "老板沟通",
+        "客户回捞",
+        "决策链"
+      ],
+      "evidenceIds": [
+        "EV-DCD-SECONDHAND",
+        "EV-DCD-GROWTH"
+      ]
+    },
+    {
+      "name": "ToB/企业服务销售",
+      "level": "中：具备商户运营和消耗型产品商业化经验；标准企业采购/合同链路待补",
+      "keywords": [
+        "平台营销工具",
+        "线索",
+        "流量消耗",
+        "商户运营",
+        "客户经营"
+      ],
+      "evidenceIds": [
+        "EV-DCD-ROI",
+        "EV-DCD-GROWTH"
+      ]
+    },
+    {
+      "name": "商机挖掘/销售漏斗",
+      "level": "强：线索、CRM、转化率、路线规划和客户分层证据较充分",
+      "keywords": [
+        "线索",
+        "转化率",
+        "CRM",
+        "客户分层",
+        "拜访路线",
+        "回捞"
+      ],
+      "evidenceIds": [
+        "EV-DCD-GROWTH",
+        "EV-TESLA-PIPELINE",
+        "EV-AI-OPS"
+      ]
+    },
+    {
+      "name": "方案宣讲/解决方案",
+      "level": "中：有经营诊断、ROI测算、老板沟通PPT；AI产品Demo/POC/述标待补",
+      "keywords": [
+        "经营分析报告",
+        "商户诊断报告",
+        "ROI测算",
+        "老板沟通PPT",
+        "经营建议"
+      ],
+      "evidenceIds": [
+        "EV-DCD-ROI",
+        "EV-AI-OPS"
+      ]
+    },
+    {
+      "name": "AI/大模型产品理解",
+      "level": "弱到中：有AI工具实操和基础概念；缺真实AI产品商业化案例",
+      "keywords": [
+        "Codex",
+        "API文档",
+        "Token",
+        "RAG",
+        "Agent",
+        "多模态",
+        "知识库问答",
+        "自动化脚本"
+      ],
+      "evidenceIds": [
+        "EV-AI-OPS"
+      ]
+    },
+    {
+      "name": "销售管理/区域负责人",
+      "level": "强：门店销售管理、目标拆解、团队带教和业绩达成证据充分",
+      "keywords": [
+        "店长",
+        "销售主管",
+        "团队带教",
+        "目标拆解",
+        "人效",
+        "晋升培养"
+      ],
+      "evidenceIds": [
+        "EV-ONVO-MANAGEMENT",
+        "EV-TESLA-MANAGEMENT"
+      ]
+    },
+    {
+      "name": "项目推进/跨部门协同",
+      "level": "中：有产品/客服/运营协同、客诉和需求反馈；复杂交付项目待补",
+      "keywords": [
+        "产品反馈",
+        "客服协同",
+        "运营协同",
+        "客诉处理",
+        "需求闭环"
+      ],
+      "evidenceIds": [
+        "EV-DCD-COORDINATION"
+      ]
+    },
+    {
+      "name": "回款/合同/商务闭环",
+      "level": "中弱：有消耗金额、销售台数和目标达成；合同额/回款额/续费账期待补",
+      "keywords": [
+        "消耗金额",
+        "目标达成",
+        "交付台数",
+        "成交",
+        "月消耗"
+      ],
+      "evidenceIds": [
+        "EV-DCD-GROWTH",
+        "EV-ONVO-MANAGEMENT",
+        "EV-TESLA-SALES"
+      ]
+    },
+    {
+      "name": "渠道/生态合作",
+      "level": "中弱：有异业合作、转介绍、企业活动和置换服务商管理；AI生态伙伴收入待补",
+      "keywords": [
+        "异业合作",
+        "转介绍",
+        "企业活动",
+        "置换服务商",
+        "渠道开拓"
+      ],
+      "evidenceIds": [
+        "EV-ONVO-MARKET",
+        "EV-TESLA-TRADEIN"
+      ]
+    },
+    {
+      "name": "硬件/智算/半导体行业销售",
+      "level": "弱：无芯片、服务器、IDC、智算、政企招投标直接经验",
+      "keywords": [],
+      "evidenceIds": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-DCD-ROI",
+      "skill": "行业场景理解",
+      "project": "懂车帝汽车行业商户经营诊断与ROI方案",
+      "context": "负责广州北汽车行业KA、区域头部和中小商户运营，客户关注获客、线索转化、成交效率、门店周转、人效和利润空间。",
+      "action": "建立客户业务现状、获客链路、投放组合、成交转化、ROI测算的诊断方法，输出经营分析报告、商户诊断报告、ROI测算表、月度经营建议、复盘报告和老板沟通PPT。",
+      "result": "支撑商户经营建议、投放组合优化和持续消耗提升；区域月均商业消耗环比稳定增长2%-2.5%、年增长约30%，年度综合业务目标达成130%。",
+      "proof": "简历MiniMax定向版：懂车帝工作经历第2、6条。",
+      "customerType": "汽车行业商户、KA、区域头部、中小商户",
+      "industry": "汽车零售/二手车/平台营销",
+      "roleInProject": "商户运营/营销解决方案负责人",
+      "contractAmount": "",
+      "revenueOrGMV": "区域月均商业消耗环比稳定增长2%-2.5%、年增长约30%",
+      "collectionAmount": "",
+      "conversionRate": "",
+      "salesCycle": "半年",
+      "teamSize": "",
+      "collaborators": [
+        "产品",
+        "客服",
+        "运营"
+      ],
+      "relatedRoute": "AI软件落地路线",
+      "relatedRoleFamily": "售前/解决方案顾问",
+      "canBeUsedInResume": true
+    },
+    {
+      "id": "EV-DCD-SECONDHAND",
+      "skill": "大客户/KA开发",
+      "project": "区域头部二手车客户从0到稳定消耗",
+      "context": "区域头部二手车客户自媒体获客受阻，需要提升线索量、成交和稳定投放。",
+      "action": "对接获客负责人拆解线索量、成交数据及目标差距，通过行业案例、平台数据和ROI测算推动老板决策，后续陪跑车源上架、投放组合、线索承接和后端跟进。",
+      "result": "线索量增长约122%（270到约600条/月），成交量增长150%（4到10台/月），连续稳定经营6个月。",
+      "proof": "简历MiniMax定向版：懂车帝工作经历第4条。",
+      "customerType": "区域头部二手车客户",
+      "industry": "二手车/汽车零售",
+      "roleInProject": "客户经营和方案推进",
+      "contractAmount": "",
+      "revenueOrGMV": "月消耗1.6-2万",
+      "collectionAmount": "",
+      "conversionRate": "3%-4%",
+      "salesCycle": "约6个月持续经营",
+      "teamSize": "",
+      "collaborators": [
+        "获客负责人",
+        "老板",
+        "平台运营"
+      ],
+      "relatedRoute": "应用SaaS/销售管理路线",
+      "relatedRoleFamily": "大客户/行业销售经理",
+      "canBeUsedInResume": true
+    },
+    {
+      "id": "EV-DCD-GROWTH",
+      "skill": "商机挖掘/销售漏斗",
+      "project": "懂车帝商户开发、运营与回捞闭环",
+      "context": "负责区域商户规模、活跃和消耗增长，需要开发新商户并回捞沉默客户。",
+      "action": "通过路线规划、客户画像筛选、陌拜、转介绍、案例拜访等方式推动开发和回捞，管理客户阶段和跟进节奏。",
+      "result": "客户规模增长16.7%（180家到210家）；召回约20家沉默客户，直接开发10家。",
+      "proof": "简历MiniMax定向版：懂车帝工作经历第5条。",
+      "customerType": "区域商户",
+      "industry": "汽车行业平台营销",
+      "roleInProject": "商户增长负责人",
+      "contractAmount": "",
+      "revenueOrGMV": "月度约20%业务增量",
+      "collectionAmount": "",
+      "conversionRate": "沉默客户回捞成功率70%-80%",
+      "salesCycle": "",
+      "teamSize": "",
+      "collaborators": [],
+      "relatedRoute": "应用SaaS/销售管理路线",
+      "relatedRoleFamily": "SaaS/应用销售",
+      "canBeUsedInResume": true
+    },
+    {
+      "id": "EV-DCD-COORDINATION",
+      "skill": "项目推进/跨部门协同",
+      "project": "客户诉求、产品Bug和运营问题闭环",
+      "context": "一线客户在平台使用、数据、投放效果和客诉上存在持续反馈。",
+      "action": "协同产品、客服、运营团队闭环产品Bug、数据复盘、客户需求反馈和客诉安抚，将一线客户诉求向产品和运营侧沉淀。",
+      "result": "提升客户使用体验和持续消耗意愿。",
+      "proof": "简历MiniMax定向版：懂车帝工作经历第7条。",
+      "customerType": "平台商户",
+      "industry": "汽车行业平台营销",
+      "roleInProject": "客户侧问题推进者",
+      "contractAmount": "",
+      "revenueOrGMV": "",
+      "collectionAmount": "",
+      "conversionRate": "",
+      "salesCycle": "",
+      "teamSize": "",
+      "collaborators": [
+        "产品",
+        "客服",
+        "运营"
+      ],
+      "relatedRoute": "AI软件落地路线",
+      "relatedRoleFamily": "售前/解决方案顾问",
+      "canBeUsedInResume": true
+    },
+    {
+      "id": "EV-DCD-BIZOPS",
+      "skill": "商业化运营/Business Operations",
+      "project": "懂车帝区域目标管理与经营机制",
+      "context": "个人负责广州北210家商户，同时承担大区其他区域同事间的经营协同职责。",
+      "action": "主导涉及大区其他区域同事的目标拆解与周/月经营复盘，负责分工和后续督办；参与推广包、客户政策、资源配置及运营策略调整。",
+      "result": "个人经营客户规模增长16.7%（180家到210家），所负责区域商业消耗环比稳定增长2%-2.5%、年度目标130%；跨区域协同的整体增量尚无独立数据，不合并归因。",
+      "proof": "用户于2026-08-03确认主导复盘和策略参与；2026-09-07明确210家是个人客户，复盘涵盖大区其他区域同事，承担分工和督办。",
+      "customerType": "汽车行业KA、区域头部和中小商户",
+      "industry": "汽车行业平台营销",
+      "roleInProject": "个人客户经营与跨区域协同牵头人（非大区人事负责人）",
+      "contractAmount": "",
+      "revenueOrGMV": "区域月均商业消耗环比稳定增长2%-2.5%、年增长约30%",
+      "collectionAmount": "",
+      "conversionRate": "",
+      "salesCycle": "",
+      "teamSize": "",
+      "collaborators": [
+        "产品",
+        "客服",
+        "运营",
+        "区域团队"
+      ],
+      "relatedRoute": "商业化运营/Business Operations",
+      "relatedRoleFamily": "商业化运营/行业运营",
+      "canBeUsedInResume": true
+    },
+    {
+      "id": "EV-AI-OPS",
+      "skill": "AI驱动商业化运营",
+      "project": "AI地图工作台与车型数据分析",
+      "context": "区域经营中存在报表分散、客户优先级和路线依赖人工判断，以及商家难以定位曝光-点击-留资漏斗损失的问题。",
+      "action": "设计AI地图工作台，整合当月、对比、推广包、线索、车型和位置数据，按月目标价值、任务紧急度和路线可执行性输出每日8家优先商户、到店动作与路线；分析约9.2万条车源记录和3.2万个车源ID，构建近4000个车型四象限并下钻CTR/CVR问题，形成商家经营建议。",
+      "result": "团队全员使用AI地图；个人测得拜访效率提升150%，每天减少约2小时规划与复盘时间暂按个人口径保留。将数据转化为客户优先级、拜访行动和商家经营建议，团队整体效率增幅未测量。",
+      "proof": "本地项目：/Users/MR/Documents/地图1；车型分析报告：/Users/MR/Documents/New project/outputs/vehicle-analysis-20260629-latest；2026-09-07用户确认全员使用，150%提效为个人测量。团队人数、测量基线和周期待补。",
+      "customerType": "内部区域经营与商户运营场景",
+      "industry": "汽车行业销售运营",
+      "roleInProject": "经营工具设计者",
+      "contractAmount": "",
+      "revenueOrGMV": "",
+      "collectionAmount": "",
+      "conversionRate": "",
+      "salesCycle": "",
+      "teamSize": "",
+      "collaborators": [
+        "区域团队"
+      ],
+      "relatedRoute": "AI驱动商业化运营",
+      "relatedRoleFamily": "商业化运营/Business Operations",
+      "canBeUsedInResume": true
+    },
+    {
+      "id": "EV-ONVO-MANAGEMENT",
+      "skill": "销售管理/区域负责人",
+      "project": "乐道汽车下沉市场0-1与门店销售管理",
+      "context": "主导广东湛江、安徽芜湖下沉市场开拓，负责门店运营、团队目标和人员带教。",
+      "action": "同期直管10人，覆盖主管、业务主管及一线销售；负责招聘、绩效评价、激励分配决策，参与晋升推荐。主导目标拆解、渠道搭建、执行复盘，统筹门店人员、场地与车辆资源。",
+      "result": "团队季度目标完成率超200%，月人效5-7台，业绩保持大区前3、全国前10；下沉市场增量订单多次超目标150%，项目费效比超区域目标200%；累计带教21名团队成员，培养10名员工晋升。",
+      "proof": "原始店长简历；2026-09-07用户补充管理人数、对象和权限，晋升推荐为参与而非审批决定。",
+      "customerType": "汽车零售客户、企业员工客户、下沉市场客户",
+      "industry": "新能源汽车零售",
+      "roleInProject": "店长/销售管理者",
+      "contractAmount": "",
+      "revenueOrGMV": "",
+      "collectionAmount": "",
+      "conversionRate": "",
+      "salesCycle": "",
+      "teamSize": "同期直接管理10人；累计带教21人，培养10人晋升（累计与同期口径分开）",
+      "collaborators": [
+        "门店团队",
+        "异业合作方",
+        "企业客户"
+      ],
+      "relatedRoute": "应用SaaS/销售管理路线",
+      "relatedRoleFamily": "销售管理/区域负责人",
+      "canBeUsedInResume": true
+    },
+    {
+      "id": "EV-ONVO-MARKET",
+      "skill": "渠道/生态合作",
+      "project": "乐道汽车自媒体、企业大客户和置换增量项目",
+      "context": "门店需要建立增量渠道，提升自媒体、企业大客户员工订单和置换订单占比。",
+      "action": "搭建团队自媒体矩阵，推进企业大客户员工订单和置换项目，标准化开口渠道与项目复盘。",
+      "result": "自媒体订单占比从0%提升至10%；企业大客户员工订单占比从6%提升至10%，华南区60家门店第10；置换订单占比从8%提升至14%，华南区第12。",
+      "proof": "两版简历：乐道汽车项目业绩。",
+      "customerType": "企业员工客户、置换客户、自媒体线索客户",
+      "industry": "新能源汽车零售",
+      "roleInProject": "项目负责人/门店管理者",
+      "contractAmount": "",
+      "revenueOrGMV": "",
+      "collectionAmount": "",
+      "conversionRate": "自媒体订单占比+10个百分点；企业大客户员工订单占比+4个百分点；置换订单占比+6个百分点",
+      "salesCycle": "",
+      "teamSize": "",
+      "collaborators": [
+        "门店团队",
+        "企业客户",
+        "置换合作方"
+      ],
+      "relatedRoute": "应用SaaS/销售管理路线",
+      "relatedRoleFamily": "渠道/生态/伙伴销售",
+      "canBeUsedInResume": true
+    },
+    {
+      "id": "EV-TESLA-SALES",
+      "skill": "大客户/KA开发",
+      "project": "特斯拉销售主管个人销售突破",
+      "context": "负责特斯拉门店销售，承担销售数量指标，并参与线上平台、自媒体获客和企业活动。",
+      "action": "管理留资量、电联量、试驾量、转化率等基础数据，开展抖音直播、客户群维护和企业活动。",
+      "result": "华南区600人销售业绩连续两个季度销冠，在职9个月交付超600台，最高单日销售23台；微信累计近5000名优质客户，维护4个500人意向车主群。",
+      "proof": "两版简历：特斯拉销售主管经历。",
+      "customerType": "个人购车客户、企业活动客户",
+      "industry": "新能源汽车零售",
+      "roleInProject": "销售主管",
+      "contractAmount": "",
+      "revenueOrGMV": "9个月交付超600台",
+      "collectionAmount": "",
+      "conversionRate": "",
+      "salesCycle": "",
+      "teamSize": "",
+      "collaborators": [
+        "门店团队",
+        "企业客户"
+      ],
+      "relatedRoute": "应用SaaS/销售管理路线",
+      "relatedRoleFamily": "大客户/行业销售经理",
+      "canBeUsedInResume": true
+    },
+    {
+      "id": "EV-TESLA-TRADEIN",
+      "skill": "项目推进/跨部门协同",
+      "project": "特斯拉门店置换业务管理",
+      "context": "门店需要提升置换线索转化和置换订单占比。",
+      "action": "标准化置换开口话术、培训门店销售、设计置换服务商KPI，进行每日/每周考核和联合复盘。",
+      "result": "置换商线索转化率从5%提升至10%，置换订单占比从8%提升至14%。",
+      "proof": "两版简历：特斯拉置换项目经历。",
+      "customerType": "置换客户、置换服务商",
+      "industry": "新能源汽车零售",
+      "roleInProject": "置换业务负责人",
+      "contractAmount": "",
+      "revenueOrGMV": "",
+      "collectionAmount": "",
+      "conversionRate": "置换线索转化率5%提升至10%；置换订单占比8%提升至14%",
+      "salesCycle": "",
+      "teamSize": "",
+      "collaborators": [
+        "门店销售",
+        "置换服务商"
+      ],
+      "relatedRoute": "应用SaaS/销售管理路线",
+      "relatedRoleFamily": "渠道/生态/伙伴销售",
+      "canBeUsedInResume": true
+    },
+    {
+      "id": "EV-TESLA-MANAGEMENT",
+      "skill": "销售管理/区域负责人",
+      "project": "特斯拉团队建设与销售过程管理",
+      "context": "团队需要从落后状态提升销售过程质量和业绩表现。",
+      "action": "同期直管10人，承担招聘、绩效评价、激励分配决策，参与晋升推荐；按日/周/月管理留资、电联、试驾和转化，辅导员工并培养项目负责人。",
+      "result": "任期内培养5名员工顺利转正，被辅导员工由华南区后10%提升至前30%；不得写成团队整体排名变化。",
+      "proof": "原始特斯拉团队建设经历；2026-09-07用户明确管理权限及排名改善归属被覆盖员工。正式职称暂保留原简历销售主管，不因口述店长而自行改名。",
+      "customerType": "门店销售团队",
+      "industry": "新能源汽车零售",
+      "roleInProject": "销售主管/团队管理者",
+      "contractAmount": "",
+      "revenueOrGMV": "",
+      "collectionAmount": "",
+      "conversionRate": "",
+      "salesCycle": "",
+      "teamSize": "同期直接管理10人；任期内培养5名员工转正",
+      "collaborators": [
+        "门店团队"
+      ],
+      "relatedRoute": "应用SaaS/销售管理路线",
+      "relatedRoleFamily": "销售管理/区域负责人",
+      "canBeUsedInResume": true
+    }
+  ],
+  "aiProductUnderstanding": {
+    "productsOrScenarios": [
+      "AI地图工作台",
+      "车型CTR/CVR与四象限分析",
+      "AI辅助商户经营分析",
+      "商户话术知识库问答",
+      "经营分析机器人",
+      "销售数据自动汇总脚本",
+      "路线规划自动化",
+      "大模型API基础概念"
+    ],
+    "canExplain": [
+      "Token",
+      "上下文",
+      "并发",
+      "延迟",
+      "RAG",
+      "Agent",
+      "多模态",
+      "API文档阅读",
+      "AI工具如何提升销售运营效率"
+    ],
+    "demoOrPocExperience": [
+      "个人简单Demo：知识库问答、经营分析机器人、销售数据汇总、路线规划"
+    ],
+    "weakPoints": [
+      "缺少真实客户付费AI产品销售案例",
+      "缺少企业级Demo/POC推进记录",
+      "缺少私有化、MaaS、模型服务、RAG/Agent产品化部署的商业案例",
+      "技术深度目前偏销售理解和工具应用，尚不足以支撑强技术售前岗位"
+    ]
+  },
+  "keyAccountExperience": {
+    "customerIndustries": [
+      "汽车零售",
+      "二手车商户",
+      "新能源汽车门店",
+      "企业员工购车场景"
+    ],
+    "customerExamples": [
+      "区域头部二手车商户线索量增长约122%（270到约600条/月）、成交量增长150%（4到10台/月）",
+      "懂车帝广州北KA、区域头部及中小商户经营",
+      "特斯拉企业员工试驾会和企业活动"
+    ],
+    "decisionChainExperience": "能对接老板、区域经理、店长、平台运营、获客运营等多层级角色；但CIO/CTO/采购/法务/财务等企业IT采购链路待补。",
+    "largestDeal": "未见明确单合同额；已有区域月均商业消耗环比稳定增长2%-2.5%、年增长约30%，以及9个月交付600台车等经营结果。",
+    "typicalSalesCycle": "汽车零售客户可持续经营6个月以上；企业软件/AI项目销售周期待补。",
+    "proofIds": [
+      "EV-DCD-SECONDHAND",
+      "EV-DCD-GROWTH",
+      "EV-TESLA-SALES"
+    ]
+  },
+  "solutionAndPresales": {
+    "requirementsResearch": [
+      "客户业务现状、获客链路、投放组合、成交转化、ROI测算",
+      "线索量、成交数据、目标差距拆解"
+    ],
+    "solutionDocs": [
+      "经营分析报告",
+      "商户诊断报告",
+      "ROI测算表",
+      "月度经营建议",
+      "复盘报告",
+      "老板沟通PPT"
+    ],
+    "demoPoc": [
+      "个人AI工具Demo，不是客户正式POC"
+    ],
+    "biddingOrPresentation": [
+      "老板沟通PPT",
+      "企业活动宣讲",
+      "门店/团队培训"
+    ],
+    "deliveryCoordination": [
+      "陪跑车源上架、投放组合、线索承接和后端跟进",
+      "协同产品、客服、运营闭环问题"
+    ],
+    "proofIds": [
+      "EV-DCD-ROI",
+      "EV-DCD-SECONDHAND",
+      "EV-DCD-COORDINATION"
+    ]
+  },
+  "commercialClosure": {
+    "contractExamples": [],
+    "collectionExamples": [],
+    "renewalOrUpsell": [
+      "单客户连续稳定消耗6个月",
+      "区域月均商业消耗环比稳定增长2%-2.5%、年增长约30%"
+    ],
+    "quotaAchievement": "懂车帝年度综合业务目标达成130%；乐道团队季度目标完成率超200%；特斯拉华南区600人销售连续两个季度销冠。",
+    "proofIds": [
+      "EV-DCD-GROWTH",
+      "EV-ONVO-MANAGEMENT",
+      "EV-TESLA-SALES"
+    ]
+  },
+  "channelAndEcosystem": {
+    "partnerTypes": [
+      "异业合作",
+      "转介绍",
+      "企业活动",
+      "置换服务商",
+      "自媒体矩阵"
+    ],
+    "partnerCount": "未形成AI生态伙伴数量；汽车零售阶段有置换服务商、异业合作和企业活动资源。",
+    "activationResult": "自媒体订单占比0%到10%；置换订单占比8%到14%；置换线索转化率5%到10%。",
+    "jointOpportunities": "企业员工试驾会、亲子活动、大客户活动、置换服务商联合复盘。",
+    "channelRevenue": "未见明确渠道收入，只有订单占比和转化率提升。",
+    "proofIds": [
+      "EV-ONVO-MARKET",
+      "EV-TESLA-TRADEIN"
+    ]
+  },
+  "hardwareComputeSemiconductor": {
+    "knownProducts": [],
+    "customerTypes": [],
+    "projectTypes": [],
+    "ecosystemExperience": [],
+    "weakPoints": [
+      "无芯片/GPU/服务器/IDC/智算中心销售经验",
+      "无政企/云厂商/运营商/金融教育医疗等智算客户案例",
+      "无招投标、硬件交付、渠道生态、售前方案或回款案例",
+      "如果投硬件/算力/半导体路线，需要先补行业知识和项目型销售语言"
+    ]
+  },
+  "salesManagement": {
+    "confirmedAt": "2026-09-07",
+    "source": "本任务用户直接补充，未独立审核公司HR记录。",
+    "managedTeamSize": "乐道/特斯拉任职期间同期直管10人；乐道累计带教21人、培养10人晋升，特斯拉培养5人转正。不能将累计带教数当同期团队规模。",
+    "directReportRoles": ["主管", "业务主管", "一线销售"],
+    "decisionRights": ["招聘", "绩效评价", "激励分配"],
+    "participationRights": ["晋升推荐"],
+    "dcdScope": {
+      "personallyManagedMerchants": 210,
+      "scope": "大区内不同区域同事的目标拆解、周/月经营复盘、任务分工和后续督办",
+      "authorityBoundary": "跨区域协同不是人事直管；没有确认大区编制、预算、P&L或人员管理决策权。",
+      "colleagueCount": null
+    },
+    "metricAttribution": {
+      "teslaRankChange": "被辅导员工由华南后10%提升至前30%，不是团队整体排名。",
+      "aiAdoption": "团队全员使用，具体人数尚未提供。",
+      "aiEfficiency": "个人测得拜访效率提升150%，不是团队总体测量。",
+      "measurementGaps": ["AI使用团队人数", "150%测量基线与周期", "跨区域协同独立结果"]
+    },
+    "managedQuota": "门店销量、团队季度目标、月人效、项目人效、线索/试驾/转化率等过程指标。",
+    "quotaAchievement": "乐道团队季度目标完成率超200%，大区前3、全国前10；懂车帝年度综合业务目标达成130%；特斯拉华南区600人连续两个季度销冠。",
+    "forecastingOrPipelineProcess": "按日/周/月管理留资量、电联量、试驾量、转化率；管理置换项目线索提交量、服务商电联率、转化率；使用CRM和数据看板做客户分层与拜访规划。",
+    "coachingMechanism": "标准化销售动作、置换开口话术、服务商KPI、项目复盘、因材施教带教和内部激励。",
+    "keyAccountBreakthrough": [
+      "区域头部二手车客户从0到稳定消耗",
+      "企业员工购车活动和试驾会",
+      "下沉市场0-1项目"
+    ],
+    "proofIds": [
+      "EV-ONVO-MANAGEMENT",
+      "EV-TESLA-MANAGEMENT",
+      "EV-TESLA-SALES"
+    ]
+  },
+  "marketComparisonSnapshot": {
+    "updatedAt": "2026-07-03",
+    "status": "历史市场快照，未按2026-09-07管理优先的新目标重算；不得将旧评分或岗位状态作为当前结论。",
+    "publicHighSalaryLeadCount": 514,
+    "principle": "先以简历事实判断能力证据，再对照市场岗位要求识别gap，不用JD倒推包装。",
+    "comparisonMethod": [
+      "第一步只读个人画像：确认直接证据、可迁移证据和不能夸大的边界。",
+      "第二步再读市场岗位：判断岗位购买的是AI产品理解、KA开发、方案POC、商务闭环、销售管理、行业资源还是硬件智算链路。",
+      "第三步做差值：直接证据算匹配，可迁移证据算半匹配，落入hardBoundaries的要求必须标为gap。",
+      "第四步输出补强：每个P0 gap必须对应一个最小产出，例如AI产品销售方案、Demo说明、KA案例STAR或商业结果口径表。"
+    ],
+    "bestFitRoutes": [
+      {
+        "route": "AI应用销售/营销AI/SaaS销售",
+        "fitScore": 78,
+        "reason": "懂车帝平台营销、线索转化、ROI价值表达和客户经营经验最容易迁移。"
+      },
+      {
+        "route": "互联网广告/营销技术大客户销售",
+        "fitScore": 80,
+        "reason": "与现有平台营销、投放线索、ROI表达和商户经营经历最接近，新增小红书广告商业化Leader进一步验证面试转化概率更高。"
+      },
+      {
+        "route": "电商SaaS/企业服务大客户销售负责人",
+        "fitScore": 76,
+        "reason": "慧策销售VP-SaaS和企业服务大客户负责人线索与懂车帝商户经营、客户增长和销售管理可迁移；需要补SaaS ARR、续费增购、企业采购链路和团队盘子语言。"
+      },
+      {
+        "route": "销售管理/区域负责人",
+        "fitScore": 70,
+        "reason": "乐道和特斯拉的目标拆解、团队带教、人效提升和过程管理证据较强。"
+      },
+      {
+        "route": "互联网/大数据/云计算大客户销售",
+        "fitScore": 68,
+        "reason": "懂车帝平台营销、KA经营、客户分层和ROI表达可迁移，但需要补云计算、大数据、国央企/电商客户和企业采购链路语言。"
+      },
+      {
+        "route": "平台型2B/交通行业/自动驾驶商业化",
+        "fitScore": 68,
+        "reason": "京东工业2B、交通行业销售总经理和文远知行商业化总监等线索与汽车背景、平台营销和销售管理较可迁移，但需要补行业方案、企业采购链路和业务线收入口径。"
+      },
+      {
+        "route": "汽车云AI/汽车主机厂大客户销售",
+        "fitScore": 62,
+        "reason": "汽车行业、客户经营、销售管理和平台营销经验可迁移，是比纯半导体硬件更接近当前履历的高薪补充线；需要补车企B端AI场景、主机厂采购链路和业务线收入语言。"
+      },
+      {
+        "route": "金融科技AI/环保AI销售管理",
+        "fitScore": 60,
+        "reason": "行业AI应用与方案表达可迁移，但需要补金融科技/环保行业客户、监管合规、AI产品价值和企业采购链路证据。"
+      },
+      {
+        "route": "大模型/Agent平台商业化销售",
+        "fitScore": 65,
+        "reason": "销售与客户经营能力可迁移，但需要补真实AI产品、Demo/POC和企业采购链路证据。"
+      }
+    ],
+    "watchRoutes": [
+      {
+        "route": "AI创业公司销售VP/业务负责人",
+        "fitScore": 58,
+        "reason": "与AI应用商业化有关，但当前缺0到1商业化、销售组织搭建和收入负责证据。"
+      },
+      {
+        "route": "AI大模型销售副总裁/AI业务负责人",
+        "fitScore": 55,
+        "reason": "销售管理和客户经营可部分迁移，但当前缺AI产品线、业务线收入、战略客户和销售组织搭建证据。"
+      },
+      {
+        "route": "高校AI/汽车AI 2B销售负责人",
+        "fitScore": 58,
+        "reason": "汽车行业和方案表达有一定迁移价值，但当前缺教育/高校客户、汽车B端AI场景和真实AI客户案例。"
+      },
+      {
+        "route": "云/MaaS大客户销售",
+        "fitScore": 55,
+        "reason": "KA和ROI能力可迁移，但缺云产品、MaaS、私有化、安全合规和IT采购链路。"
+      },
+      {
+        "route": "运营商/央国企基础设施销售",
+        "fitScore": 55,
+        "reason": "客户经营和KA销售可迁移，但当前缺运营商/央国企客户、基础设施产品、招投标、伙伴生态和长周期项目证据。"
+      },
+      {
+        "route": "医疗AI一体机/医疗机器人海外销售",
+        "fitScore": 50,
+        "reason": "行业AI应用与销售管理可弱迁移，但当前缺医疗AI产品、医疗器械渠道、医疗机构或药企客户、合规销售和海外区域经营证据。"
+      },
+      {
+        "route": "运营商KA销售VP",
+        "fitScore": 50,
+        "reason": "KA经营和销售管理框架可迁移，但当前缺运营商高层客户、ICT/基础设施产品、招投标、长周期项目和销售组织盘子证据。"
+      },
+      {
+        "route": "人工智能集团销售VP/海外硬件销售VP",
+        "fitScore": 45,
+        "reason": "销售管理和渠道动作可迁移，但当前缺集团级收入负责、海外客户、英文商务、ODM/OEM客户和跨区域销售组织证据。"
+      },
+      {
+        "route": "智能汽车/机器人/具身智能商业岗",
+        "fitScore": 55,
+        "reason": "汽车行业背景有迁移价值，但缺机器人硬件、渠道生态、海外客户和项目制销售证据。"
+      },
+      {
+        "route": "智能硬件出海/3C供应链销售VP",
+        "fitScore": 48,
+        "reason": "销售管理和渠道建设可迁移，但当前缺海外客户、英文商务、3C/苹果供应链和跨区域大区经营证据。"
+      },
+      {
+        "route": "AIOT智能业务BG高层经营",
+        "fitScore": 45,
+        "reason": "智能硬件和销售管理可弱迁移，但当前缺AIOT产品组合、业务线收入负责、渠道生态和BG级组织经营证据。"
+      },
+      {
+        "route": "AI服务器/计算机硬件/智能硬件销售管理",
+        "fitScore": 42,
+        "reason": "销售管理、客户经营和渠道推进动作可迁移，但当前缺AI服务器、计算机硬件、消费电子硬件、ODM/OEM、数据中心客户、硬件渠道收入和项目制销售证据。"
+      },
+      {
+        "route": "信创/AI算力服务器销售管理",
+        "fitScore": 42,
+        "reason": "销售管理和区域经营方法可迁移，但当前缺AI服务器、信创生态、政企/行业客户、数据中心客户、硬件渠道和项目制销售证据。"
+      },
+      {
+        "route": "消费电子/机器人硬件出海销售高层",
+        "fitScore": 40,
+        "reason": "销售管理和渠道建设可部分迁移，但当前缺海外KA、英文商务、跨区域渠道、代理商体系、机器人硬件和消费电子大客户证据。"
+      },
+      {
+        "route": "工业机器人销售管理",
+        "fitScore": 45,
+        "reason": "汽车行业和销售管理有一定迁移，但当前缺工业机器人产品、制造业客户、渠道伙伴、项目交付和技术方案协同证据。"
+      },
+      {
+        "route": "算力/AI软硬件出海业务负责人",
+        "fitScore": 45,
+        "reason": "销售管理和业务拓展框架可迁移，但当前缺算力资源、海外客户、英文商务、渠道体系和业务负责人级收入结果。"
+      }
+    ],
+    "notPrimaryRoutes": [
+      {
+        "route": "芯片/硬件销售VP",
+        "fitScore": 25,
+        "reason": "薪资上限高，但当前缺芯片客户、智控硬件、服务器/IDC、硬件技术销售和原厂生态证据。"
+      },
+      {
+        "route": "半导体/工业互联网销售总经理",
+        "fitScore": 28,
+        "reason": "半导体设备和工业互联网客户销售薪资高，但当前缺设备客户、制造业大客户、项目周期和技术售前协同证据。"
+      },
+      {
+        "route": "AI/机器人零部件与AI智能硬件负责人",
+        "fitScore": 35,
+        "reason": "销售管理框架可迁移，但当前缺机器人零部件、硬件供应链、AI智能硬件和智算产品证据。"
+      },
+      {
+        "route": "AI芯片/GPU/服务器/智算销售",
+        "fitScore": 30,
+        "reason": "缺芯片、GPU、服务器、IDC、政企项目、招投标和生态渠道经验。"
+      },
+      {
+        "route": "工业激光器/半导体设备商销售总经理",
+        "fitScore": 28,
+        "reason": "薪资上限高，但当前缺工业激光器、半导体设备客户、长周期项目和技术售前协同证据。"
+      },
+      {
+        "route": "半导体设备/电镜/科学仪器销售高层",
+        "fitScore": 25,
+        "reason": "高端硬件薪资上限高，但当前缺科学仪器、半导体检测设备、科研/半导体客户和技术售前协同证据。"
+      },
+      {
+        "route": "工业基础设施/商业航天销售副总裁",
+        "fitScore": 30,
+        "reason": "销售管理框架可迁移，但当前缺工业基础设施、政府/央国企/商业航天客户和项目制招投标证据。"
+      },
+      {
+        "route": "电气机械/仪器仪表销售总经理",
+        "fitScore": 28,
+        "reason": "薪资高但行业距离大，当前缺工业品客户、仪器仪表产品、技术售前协同、项目周期、制造业大客户和销售组织盘子证据。"
+      },
+      {
+        "route": "半导体设备/芯片细分销售管理",
+        "fitScore": 30,
+        "reason": "薪资高但当前缺半导体设备、OEM客户、芯片/传感器产品、原厂生态、技术售前协同和项目周期证据。"
+      },
+      {
+        "route": "半导体EDA/AI芯片高层销售",
+        "fitScore": 28,
+        "reason": "薪资最高但当前缺半导体EDA、AI芯片、原厂生态、技术产品方案、芯片客户和高层销售组织管理证据。"
+      }
+    ],
+    "priorityGaps": [
+      {
+        "priority": "P0",
+        "gap": "AI产品商业化证据",
+        "minimumOutput": "1页AI产品销售方案，写清客户场景、痛点、价值、计费和成交逻辑。"
+      },
+      {
+        "priority": "P0",
+        "gap": "Demo/POC/方案证据",
+        "minimumOutput": "2个可展示Demo：商户经营分析助手、销售话术/知识库问答助手。"
+      },
+      {
+        "priority": "P0",
+        "gap": "商务闭环口径",
+        "minimumOutput": "商业结果表：月消耗、增长率、稳定周期、目标达成、客户数、转化率。"
+      },
+      {
+        "priority": "P0",
+        "gap": "企业级KA链路",
+        "minimumOutput": "KA案例STAR：关键人、预算、周期、竞品、异议、推进节奏。"
+      }
+    ]
+  },
+  "constraints": [
+    {
+      "type": "当前最大短板",
+      "description": "直接AI产品销售、企业级POC、正式合同/回款、IT采购链路和硬件/智算行业经验不足。"
+    },
+    {
+      "type": "当前最大优势",
+      "description": "销售结果、客户经营、销售管理、汽车行业场景、ROI测算、商机漏斗和AI工具自用证据较强。"
+    }
+  ],
+  "resumeEvidencePriority": [
+    "大客户/KA开发",
+    "行业场景理解",
+    "AI/大模型产品理解",
+    "方案宣讲/解决方案",
+    "商机挖掘/销售漏斗",
+    "回款/合同/商务闭环",
+    "销售管理/区域负责人",
+    "项目推进/跨部门协同",
+    "渠道/生态合作"
+  ],
+  "resumeVersions": [
+    {
+      "name": "销售与商业化管理",
+      "path": "/Users/MR/Documents/职场/03_简历/贺文杰_销售与商业化管理.docx",
+      "positioning": "管理优先：10人直管与人员决策、团队培养、个人客户经营、跨区域分工督办及AI方法复用；原始职称不变，所有结果按个人/员工/团队分别归属。"
+    },
+    {
+      "name": "AI解决方案销售/MiniMax定向版",
+      "path": "/Users/MR/Desktop/面试/贺文杰_AI解决方案销售_MiniMax定向版 (1).docx",
+      "positioning": "把汽车行业销售和商户运营经验转译为AI解决方案销售、MaaS KA销售和大模型技术销售工程师。"
+    },
+    {
+      "name": "零售店长版",
+      "path": "/Users/MR/Downloads/个人简历-贺文杰-零售店长.docx",
+      "positioning": "突出车企门店销售管理、团队带教、销售业绩和渠道项目。"
+    }
+  ]
+}

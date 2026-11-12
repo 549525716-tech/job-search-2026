@@ -1,0 +1,461 @@
+{
+  "status": "scoped_evidence_analysis_not_market_acceptance",
+  "base_resume_reviewed": false,
+  "assessments": [
+    {
+      "job_ids": [
+        "noumena:l43"
+      ],
+      "dimension_weights": [
+        10,
+        15,
+        30,
+        20,
+        15,
+        10
+      ],
+      "mission": "把客户模糊的经营问题拆成可执行的AI改造方案，并协调落地，让客户获得真实业务价值。",
+      "weight_reason": "岗位重心为诊断与方案30%、落地协同20%，不是独立拿单或模型研发。AI实践15%，客户理解15%，结果及复制各10%。",
+      "dimensions": [
+        {
+          "id": "commercial",
+          "criteria": [
+            {
+              "capability": "业务结果责任",
+              "jd_quote": "理解业务目标，不止于完成职能动作",
+              "anchor": "direct_partial",
+              "fact_ids": [
+                "F-customers"
+              ],
+              "reason": "有个人负责商户的消耗及目标结果，但不是AI咨询客户的收益证明。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "customer",
+          "criteria": [
+            {
+              "capability": "理解客户经营场景",
+              "jd_quote": "快速理解客户业务场景",
+              "anchor": "transfer_strong",
+              "fact_ids": [
+                "F-contact",
+                "F-customers"
+              ],
+              "reason": "汽车商户关键人与经营场景可迁移；目标公司品牌营销客户与战略客户的规模仍需核实。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "solution",
+          "criteria": [
+            {
+              "capability": "结构化诊断并形成行动建议",
+              "jd_quote": "拆解复杂问题，形成清晰、可执行的解决方案",
+              "anchor": "transfer_strong",
+              "fact_ids": [
+                "F-analysis"
+              ],
+              "reason": "有CTR/CVR诊断到商家动作的案例；AI咨询项目的目标、范围、验收和ROI方案尚需补充。",
+              "weight": 60
+            },
+            {
+              "capability": "判断AI切入点而非工具堆砌",
+              "jd_quote": "判断 AI 如何进入客户的真实业务场景",
+              "anchor": "transfer_strong",
+              "fact_ids": [
+                "F-map"
+              ],
+              "reason": "地图证明从优先级问题到内部工具的设计；不等于已实现外部客户付费改造。",
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "id": "execution",
+          "criteria": [
+            {
+              "capability": "客户沟通及项目推进",
+              "jd_quote": "参与客户沟通、方案汇报与项目推进，推动方案真正落地",
+              "anchor": "transfer_strong",
+              "fact_ids": [
+                "F-target",
+                "F-contact"
+              ],
+              "reason": "有目标拆解、分工督办和商户沟通；外部AI项目交付治理、范围控制与验收未举证。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "technical",
+          "criteria": [
+            {
+              "capability": "工作中的AI实践",
+              "jd_quote": "已经把大模型、Agent、自动化工作流嵌入自己的日常工作方式",
+              "anchor": "direct_partial",
+              "fact_ids": [
+                "F-map",
+                "F-analysis"
+              ],
+              "reason": "有实际业务工具与团队采用，但具体Agent架构、集成方式及产品边界待现场演示。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "replication",
+          "criteria": [
+            {
+              "capability": "推进采用与持续迭代",
+              "jd_quote": "快速对齐、快速迭代",
+              "anchor": "transfer_strong",
+              "fact_ids": [
+                "F-map",
+                "F-target"
+              ],
+              "reason": "团队采用和复盘可迁移；多客户复制结果、标准交付资产未举证。",
+              "weight": 100
+            }
+          ]
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "hard_gates": [
+        {
+          "label": "相关场景经验",
+          "jd_quote": "有咨询、品牌策略、营销增长、平台解决方案、数字化转型或 AI 商业化相关经验",
+          "status": "met",
+          "fact_ids": [
+            "F-analysis",
+            "F-customers"
+          ],
+          "reason": "已陈述的平台商业化经营与营销诊断对应可选相关背景，不等同所有列举背景都满足。"
+        },
+        {
+          "label": "AI日常实践",
+          "jd_quote": "已经把大模型、Agent、自动化工作流嵌入自己的日常工作方式",
+          "status": "unknown",
+          "fact_ids": [
+            "F-map"
+          ],
+          "reason": "已有AI辅助业务工具；须展示具体工作流，不能把AI使用默认等同所有Agent集成能力。"
+        },
+        {
+          "label": "创业工作强度偏好",
+          "jd_quote": "接受高强度、高变化",
+          "status": "unknown",
+          "fact_ids": [],
+          "reason": "用户希望更稳健收入；高强度创业环境的接受程度不能代替本人确认。"
+        }
+      ],
+      "translation": {
+        "capability": "业务诊断到AI工作流落地",
+        "example": "在汽车商业化场景中，将商户经营数据中的问题拆成优先级与可执行动作；设计客户地图和车型分析工作流，推动团队使用，并以个人时间与效率测量检验工具价值。",
+        "boundary": "个人提效不是团队整体提效，不是外部AI咨询合同、客户级POC或付费效果。薪资与团队稳定性未披露。",
+        "proof_needed": "准备脱敏的业务问题、基线、设计选择、输出样例、实际采用和失败复盘；补一页目标客户改造方案并标明它是求职演示。"
+      }
+    },
+    {
+      "job_ids": [
+        "noumena:l59"
+      ],
+      "profile": "industry_ka",
+      "mission": "独立识别有付费需求的企业客户，以解决方案成交及回款推动AI产品商业化，而非仅维系客户。",
+      "weight_reason": "客户与机会25%、商业结果和方案各20%；推进15%、AI理解及复制各10%。独立拿单和回款必须单列，不由运营规模抵消。",
+      "dimensions": [
+        {
+          "id": "commercial",
+          "criteria": [
+            {
+              "capability": "主动开拓与拿单",
+              "jd_quote": "独立开拓客户、推进商机",
+              "anchor": "transfer_strong",
+              "fact_ids": [
+                "F-recovery"
+              ],
+              "reason": "10家直接开发可证明主动拓客，但客单价、个人签约权限和AI产品成交尚未举证。",
+              "weight": 60
+            },
+            {
+              "capability": "商务谈判及回款闭环",
+              "jd_quote": "完成商务谈判与回款跟进",
+              "anchor": "unknown",
+              "fact_ids": [],
+              "reason": "尚无可追溯的合同条款、谈判过程与个人回款职责案例，不推断没有能力。",
+              "weight": 40
+            }
+          ]
+        },
+        {
+          "id": "customer",
+          "criteria": [
+            {
+              "capability": "客户痛点与需求发现",
+              "jd_quote": "理解客户业务痛点",
+              "anchor": "transfer_strong",
+              "fact_ids": [
+                "F-analysis",
+                "F-contact"
+              ],
+              "reason": "商户经营诊断与关键人关系可迁移；品牌、消费品等买方资源不能用汽车客户数替代。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "solution",
+          "criteria": [
+            {
+              "capability": "把价值方案转为采购理由",
+              "jd_quote": "推动解决方案成交",
+              "anchor": "transfer_partial",
+              "fact_ids": [
+                "F-analysis",
+                "F-customers"
+              ],
+              "reason": "能提供经营改善方案；价值表达如何转为AI产品付费采购仍缺案例。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "execution",
+          "criteria": [
+            {
+              "capability": "跨团队推动客户价值落地",
+              "jd_quote": "与产品、交付、运营团队协同",
+              "anchor": "transfer_partial",
+              "fact_ids": [
+                "F-target"
+              ],
+              "reason": "跨区域督办有依据，不能据此声称已有研发交付协同的客户项目。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "technical",
+          "criteria": [
+            {
+              "capability": "AI产品价值解释",
+              "jd_quote": "理解 AI 产品的价值表达与销售方式",
+              "anchor": "transfer_strong",
+              "fact_ids": [
+                "F-map"
+              ],
+              "reason": "有业务问题到AI工具价值的内部实践；需展示目标产品能力、局限与计费方式。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "replication",
+          "criteria": [
+            {
+              "capability": "方法迭代与团队协作",
+              "jd_quote": "快速对齐、快速迭代",
+              "anchor": "transfer_strong",
+              "fact_ids": [
+                "F-map",
+                "F-target"
+              ],
+              "reason": "复盘机制和团队采用可迁移，不证明销售打法已跨客户复制。",
+              "weight": 100
+            }
+          ]
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "hard_gates": [
+        {
+          "label": "独立拿单能力",
+          "jd_quote": "有独立拿单能力，而不只是做客户运营或项目协调",
+          "status": "unknown",
+          "fact_ids": [
+            "F-recovery"
+          ],
+          "reason": "直接开发有事实，但独立签约范围、金额与闭环需补证据。"
+        },
+        {
+          "label": "可选销售经验",
+          "jd_quote": "有大客户销售、企业服务、SaaS、MarTech、AI 产品或咨询式销售经验",
+          "status": "unknown",
+          "fact_ids": [
+            "F-customers",
+            "F-contact"
+          ],
+          "reason": "汽车平台商户经营与企业服务相邻，现有材料尚不能确定该公司对KA/咨询式销售的认定。"
+        },
+        {
+          "label": "创业工作强度偏好",
+          "jd_quote": "接受高强度、高变化",
+          "status": "unknown",
+          "fact_ids": [],
+          "reason": "工作强度、固定底薪及现金流稳定性需沟通，不能只按AI标签优先。"
+        },
+        {
+          "label": "AI日常实践",
+          "jd_quote": "已经把大模型、Agent、自动化工作流嵌入自己的日常工作方式",
+          "status": "unknown",
+          "fact_ids": [
+            "F-map"
+          ],
+          "reason": "有真实AI辅助业务工具；具体工作流与Agent集成须演示，不能以创业节奏或一般AI兴趣代替核对。"
+        }
+      ],
+      "translation": {
+        "capability": "行业客户经营到解决方案销售的迁移",
+        "example": "深耕汽车商户，结合商业消耗、线索和转化诊断客户问题，识别增量机会并跟进执行；以真实AI工具案例说明如何降低客户理解和采用新方案的成本。",
+        "boundary": "该岗位明确不是纯广告销售或客户维护岗；不能把210家个人客户写成AI客户，也不能把月消耗写成AI签约额或ARR。",
+        "proof_needed": "先补一个本人从线索、决策人、需求到谈判、签约或回款的真实案例；缺环节就明确缺环节，不以措辞替代经历。"
+      }
+    },
+    {
+      "job_ids": [
+        "airwallex:0014706e-279e-4a19-8d55-7dd5cdacc51b"
+      ],
+      "dimension_weights": [
+        20,
+        25,
+        15,
+        20,
+        10,
+        10
+      ],
+      "mission": "建立能够持续推荐合格企业客户的渠道网络，通过合作激励、培训及风险管理形成可重复的B2B增长。",
+      "weight_reason": "渠道与客户25%、结果及机制各20%、合作价值15%、支付产品风险及复制各10%。产品技术不是开发要求，但跨境支付风险不可忽略。",
+      "dimensions": [
+        {
+          "id": "commercial",
+          "criteria": [
+            {
+              "capability": "渠道目标与过程指标",
+              "jd_quote": "根据自身业务目标拆分渠道目标和过程管理指标",
+              "anchor": "direct_partial",
+              "fact_ids": [
+                "F-target",
+                "F-channel"
+              ],
+              "reason": "有目标拆解及渠道增长结果，跨境支付收入和渠道激励指标尚需验证。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "customer",
+          "criteria": [
+            {
+              "capability": "寻找并维护合作方",
+              "jd_quote": "寻找有B2B客户资源的合作方",
+              "anchor": "transfer_strong",
+              "fact_ids": [
+                "F-channel",
+                "F-contact"
+              ],
+              "reason": "汽车渠道与企业员工获客机制相通，但不是支付、ERP、财税伙伴资源证明。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "solution",
+          "criteria": [
+            {
+              "capability": "设计合作价值",
+              "jd_quote": "把控双方合作的价值点",
+              "anchor": "transfer_strong",
+              "fact_ids": [
+                "F-channel"
+              ],
+              "reason": "有新渠道结果，仍需讲清伙伴收益、客户价值与推荐路径；支付合作交易结构未证明。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "execution",
+          "criteria": [
+            {
+              "capability": "培训伙伴并提升推荐质量",
+              "jd_quote": "高频沟通和组织培训",
+              "anchor": "transfer_partial",
+              "fact_ids": [
+                "F-management",
+                "F-map"
+              ],
+              "reason": "内部组织管理与工具采用可迁移，外部伙伴培训和合格线索率尚未举证。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "technical",
+          "criteria": [
+            {
+              "capability": "支付产品与风险理解",
+              "jd_quote": "了解跨境支付上的常见风险",
+              "anchor": "unknown",
+              "fact_ids": [],
+              "reason": "尚无跨境支付、合规和伙伴风险识别的相关证据；不能由一般商业敏感度推定。",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "id": "replication",
+          "criteria": [
+            {
+              "capability": "建立长期可复制合作模式",
+              "jd_quote": "达成长期有效的合作模式",
+              "anchor": "transfer_strong",
+              "fact_ids": [
+                "F-channel",
+                "F-target"
+              ],
+              "reason": "渠道实验与周期复盘的方法相通，支付渠道持续产出、留存和ROI需另证。",
+              "weight": 100
+            }
+          ]
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "hard_gates": [
+        {
+          "label": "本科学历",
+          "jd_quote": "本科及以上学历",
+          "status": "met",
+          "fact_ids": [
+            "F-degree"
+          ],
+          "reason": "个人资料有本科学历，不等于背调完成。"
+        },
+        {
+          "label": "2年以上B类渠道经验",
+          "jd_quote": "2年以上B类业务渠道拓展经验",
+          "status": "unknown",
+          "fact_ids": [
+            "F-tenure",
+            "F-channel"
+          ],
+          "reason": "已有渠道及ToB商户经历，但须按实际职责和起止时间证明；不能将汽车零售总年限直接计为B类渠道年限。"
+        },
+        {
+          "label": "跨境支付风险理解",
+          "jd_quote": "了解跨境支付上的常见风险",
+          "status": "unknown",
+          "fact_ids": [],
+          "reason": "尚未举证相关知识和案例。"
+        }
+      ],
+      "translation": {
+        "capability": "渠道机制设计与经营推进",
+        "example": "在汽车业务中验证自媒体、企业员工和置换等渠道，主导目标拆解与经营复盘，将目标、过程动作和结果统一到可追踪的工作机制。",
+        "boundary": "这是渠道能力迁移，不是跨境支付业绩或金融合规经验；该岗为ToB相邻方向，不把公司使用AI等同岗位销售AI。薪资及人员管理权限未披露。",
+        "proof_needed": "补伙伴筛选、双方价值、转介标准、培训动作及复盘指标的一页渠道案例；支付行业方案另列为学习演示，不冒充原经历。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "version": "2026-09-16-salary-capability-v5",
+  "source": "User's private-headhunter requirements in this task on 2026-09-10",
+  "mission": "Understand past and present evidence, discover future career paths, and support selected applications and feedback.",
+  "priority_order": [
+    "advertised_salary_opportunity",
+    "capability_evidence_fit",
+    "ai_related_opportunity",
+    "management_or_durable_tob_path"
+  ],
+  "fact_sources": [
+    "02_岗位画像/data/我的能力画像.json",
+    "02_岗位画像/我的当前情况总结.md"
+  ],
+  "facts_are_not_preferences": true,
+  "funnel": [
+    "personal_facts_and_goals",
+    "policy_and_industry",
+    "commercial_demand",
+    "companies",
+    "jobs",
+    "career_path_fit",
+    "user_selection_and_authorization",
+    "materials",
+    "application_execution",
+    "verified_feedback"
+  ],
+  "policy_match_required_for_every_job": false,
+  "company_seeds_are_not_a_whitelist": true,
+  "discovery_policy_ref": "careers/config/discovery-policy.json",
+  "discovery_routes": {
+    "A": [
+      "industry",
+      "company",
+      "job",
+      "evidence_bound_keywords"
+    ],
+    "B": [
+      "title_and_content_keywords",
+      "market_jobs",
+      "verified_new_company",
+      "route_A_frontier"
+    ]
+  },
+  "company_tier_requires_evidence": true,
+  "company_tier_policy_ref": "careers/config/company-tier-policy.json",
+  "source_catalog_ref": "careers/config/source-catalog.json",
+  "tracks": [
+    {
+      "id": "management",
+      "priority": "primary",
+      "goal": "Real team or operating-mechanism responsibility, not a manager title alone",
+      "verify": [
+        "direct_reports",
+        "hiring_and_performance_authority",
+        "resource_ownership",
+        "reporting_line",
+        "team_outcomes"
+      ]
+    },
+    {
+      "id": "durable_tob",
+      "priority": "primary",
+      "goal": "Long-term client, industry solution, customer-success or commercial-operations capability",
+      "verify": [
+        "customer_relationship_ownership",
+        "product_and_customer_maturity",
+        "repeatable_delivery",
+        "compensation_structure",
+        "quota_and_acquisition_pressure"
+      ]
+    },
+    {
+      "id": "adjacent_industry",
+      "priority": "bridge",
+      "goal": "Evaluate AI enterprise applications, automotive digitalization and marketing technology using actual JD evidence",
+      "verify": [
+        "transferable_domain_evidence",
+        "new_product_and_procurement_gaps",
+        "concrete_progression_path"
+      ]
+    },
+    {
+      "id": "commercial_functions",
+      "priority": "primary",
+      "goal": "Marketing, sales, commercial BD, ecosystem/channel and sales/commercial operations. Product-manager roles are excluded by explicit user preference",
+      "verify": [
+        "commercial_outcome_ownership",
+        "team_or_process_authority",
+        "customer_segment",
+        "fixed_base_pay"
+      ]
+    },
+    {
+      "id": "technical_ai",
+      "priority": "exploratory_not_default",
+      "goal": "Technical presales or FDE only on explicit further review, never substitute product-manager or engineering roles for commercial opportunities",
+      "verify": [
+        "coding",
+        "integration",
+        "cloud_delivery",
+        "customer_poc",
+        "production_ownership"
+      ]
+    }
+  ],
+  "assessment_dimensions": [
+    "evidence_coverage",
+    "career_direction_fit",
+    "income_and_business_risk",
+    "entry_and_progression_path"
+  ],
+  "stability_is_a_guarantee": false,
+  "unknown_stability_is_positive": false,
+  "salary_interpretation": "人民币月薪招聘区间上界>=20K进入机会池，如15-30K；固定底薪另核，未知/年包/外币/OTE不推算。",
+  "fixed_monthly_base_minimum": 20000,
+  "schedule": {
+    "policy_cadence": "weekly",
+    "timezone": "Asia/Shanghai",
+    "preferred_local_time": null,
+    "activated": false,
+    "activation_status": "design_defined_time_and_first_cycle_pending"
+  },
+  "implementation": {
+    "strategy_contract": "implemented",
+    "dual_route_rules": "defined_not_executed",
+    "dual_route_discovery_engine": "planned",
+    "next_match_batch_context": "implemented",
+    "policy_weekly_pipeline": "planned",
+    "industry_company_funnel": "planned",
+    "selected_application_driver": "planned",
+    "feedback_pipeline": "planned"
+  },
+  "company_tier_status": "deferred_until_more_than_100_identity_reviewed_companies_then_user_agrees_criteria",
+  "capability_framework_ref": "careers/docs/capability-translation.md"
+}

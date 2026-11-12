@@ -1,0 +1,30 @@
+Databricks AI Sales Engineer
+Company: Databricks
+Category: Data & Infrastructure
+OTE: $170K to $260K
+Work model: Hybrid (San Francisco)
+Estimated SE team size: 80 to 120 SEs
+
+Company positioning
+Databricks built the lakehouse architecture that unifies data warehousing and data lakes, and has expanded aggressively into AI with Mosaic ML (acquired 2023), the open-source Dolly models, and the Databricks Model Serving platform. The company's pitch to enterprise customers is that the same platform they use for data engineering and analytics can also train, fine-tune, and serve AI models. This positions Databricks SEs at the intersection of data infrastructure and AI, selling to both data teams and ML engineering teams within the same account.
+
+AI products and platform
+Databricks' AI capabilities include Mosaic AI for large model training, Foundation Model APIs for accessing open-source and proprietary models, MLflow for experiment tracking and model management, Databricks Model Serving for production inference, Feature Store for ML feature management, and Unity Catalog for AI asset governance. The platform runs on the customer's cloud account (AWS, Azure, or GCP), which appeals to organizations with strict data sovereignty requirements. The recent addition of AI/BI for natural language analytics further extends the AI surface.
+
+Role details
+Sales Engineers at Databricks typically work on a portfolio of enterprise accounts, partnering with account executives to expand existing data platform relationships into AI workloads. A common engagement pattern involves assessing a customer's current ML maturity, demoing the Mosaic AI training platform and Foundation Model APIs, building a proof-of-concept that fine-tunes an open-source model on customer data using the Databricks Lakehouse, and presenting the results alongside TCO analysis. You would run technical workshops on MLflow for experiment tracking, demonstrate how Unity Catalog provides governance over AI models and training data, and help architects design end-to-end ML pipelines on the Lakehouse. The role requires strong data engineering knowledge alongside AI/ML skills, because the Databricks value proposition depends on connecting data infrastructure to AI outcomes.
+
+Technical skills and requirements
+- Strong Python and SQL skills, with experience in Spark or distributed computing
+- Understanding of ML model lifecycle: training, evaluation, deployment, monitoring
+- Familiarity with MLflow, experiment tracking, and model management
+- Knowledge of data lakehouse architecture and cloud platforms (AWS, Azure, GCP)
+- Experience with open-source LLMs and fine-tuning methodologies
+
+Interview process
+Databricks interviews run four to five weeks and include a recruiter screen, hiring manager conversation, a technical deep-dive on data and ML architecture, a live demo exercise where you present a solution on the Databricks platform, and a final round with leadership. Candidates report that Databricks values hands-on technical skills heavily. The demo exercise expects you to actually run code, not just present slides. Familiarity with the Databricks platform, Spark, and MLflow is a strong differentiator. They also assess your ability to translate technical capabilities into business outcomes for executive audiences.
+
+Salary and compensation
+OTE for Databricks SEs ranges from $170,000 to $260,000, with base salaries between $130,000 and $170,000. Pre-IPO equity is a significant component, with RSU grants based on the company's private valuation. Stock liquidity events (tender offers) have provided some access to cash before a public listing. Benefits include health insurance, 401(k), education stipends, and flexible PTO. The company's strong revenue growth and path to IPO make the equity component particularly attractive for candidates with a longer time horizon.
+
+Source URL: https://aisepulse.com/companies/databricks/

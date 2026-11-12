@@ -1,0 +1,26 @@
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import { parseCapture, sha256 } from './build.mjs';
+
+const file = 'l01.json';
+const bytes = await readFile(new URL(`./raw/${file}`, import.meta.url));
+const audit = { captures: [], excluded_links: [] };
+const jobs = parseCapture(file, bytes, audit);
+assert.equal(jobs.length, 40, 'all 40 candidate cards are retained');
+assert.equal(jobs[0].title, 'AI 产品销售（年薪50-70w）');
+assert.equal(jobs[0].company, '某杭州互联网上市公司');
+assert.equal(jobs[0].salary_raw, '25-35k·20薪');
+assert.equal(jobs[0].recruiter_raw, '朱先生·猎头顾问');
+assert.equal(jobs[0].native_id, '79609533');
+assert.equal(jobs[0].evidence_sha256, sha256(bytes));
+assert.ok(jobs.every(job => job.evidence_quote.includes(job.title)), 'evidence quotes bind extracted titles');
+assert.ok(jobs.every(job => job.evidence_file.endsWith('/raw/l01.json')), 'evidence files bind to original capture');
+assert.ok(audit.excluded_links.some(x => x.reason === 'non-job link'), 'non-job links are excluded and audited');
+const blankBytes = await readFile(new URL('./raw/b01.json', import.meta.url));
+const blankAudit = { captures: [], excluded_links: [] };
+assert.equal(parseCapture('b01.json', blankBytes, blankAudit).length, 0);
+assert.equal(blankAudit.captures[0].export_unavailable, true);
+const searchBytes = await readFile(new URL('./raw/q02.json', import.meta.url));
+const searchAudit = { captures: [], excluded_links: [] };
+assert.equal(parseCapture('q02.json', searchBytes, searchAudit).length, 0, 'search result text is not silently treated as raw cards');
+console.log('build.test.mjs: ok');

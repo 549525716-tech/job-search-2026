@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BOSS首页低频手动搜索作业卡</title>
+  <style>
+    :root { color-scheme: light; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f7f8fa; color: #1f2937; }
+    main { max-width: 1120px; margin: 0 auto; padding: 28px 20px 44px; }
+    header { display: flex; justify-content: space-between; gap: 20px; align-items: flex-start; margin-bottom: 18px; }
+    h1 { margin: 0 0 8px; font-size: 26px; line-height: 1.2; }
+    h2, h3 { margin: 0 0 10px; }
+    p { margin: 8px 0; line-height: 1.65; }
+    a { color: #0f766e; text-decoration: none; }
+    .safety { max-width: 440px; padding: 12px 14px; border: 1px solid #f59e0b; background: #fffbeb; color: #78350f; border-radius: 8px; }
+    .hero, .panel, .timer, .queue, .links { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 18px; }
+    .hero { display: grid; grid-template-columns: 1.3fr 1fr; gap: 18px; margin-bottom: 14px; align-items: stretch; }
+    .eyebrow { margin: 0 0 6px; color: #64748b; font-size: 13px; }
+    .meta { color: #4b5563; }
+    .next-action { display: flex; align-items: center; padding: 14px; border-radius: 8px; background: #f0fdfa; color: #134e4a; font-weight: 600; line-height: 1.6; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+    .copy-row { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; }
+    input { box-sizing: border-box; width: 100%; min-width: 0; padding: 12px; border: 1px solid #d1d5db; border-radius: 7px; font-size: 15px; }
+    button { min-height: 42px; border: 0; border-radius: 7px; background: #111827; color: #fff; padding: 0 15px; font-size: 14px; cursor: pointer; white-space: nowrap; }
+    button.secondary { background: #4b5563; }
+    .timer { margin-bottom: 14px; display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: center; }
+    .timer-actions { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+    .timer-status { font-size: 20px; font-weight: 700; color: #0f766e; }
+    .badge { display: inline-block; padding: 4px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+    .badge.good { background: #dcfce7; color: #166534; }
+    .badge.warn { background: #fef3c7; color: #92400e; }
+    .badge.neutral { background: #e0f2fe; color: #075985; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { border-bottom: 1px solid #e5e7eb; padding: 9px 8px; text-align: left; vertical-align: top; }
+    th { color: #475569; font-weight: 700; background: #f8fafc; }
+    tr.current-row td { background: #f0fdfa; }
+    code { background: #f3f4f6; padding: 2px 5px; border-radius: 4px; }
+    .links { margin-top: 14px; display: flex; gap: 14px; flex-wrap: wrap; }
+    .status { min-height: 22px; color: #166534; font-size: 14px; }
+    @media (max-width: 760px) {
+      header, .hero, .grid, .timer { grid-template-columns: 1fr; display: grid; }
+      .copy-row { grid-template-columns: 1fr; }
+      .timer-actions { justify-content: flex-start; }
+      main { padding: 18px 12px 32px; }
+      table { font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>BOSS首页低频手动搜索作业卡</h1>
+        <p>这个本地页只服务人工低频采样：复制首页、复制一个关键词、复制岗位详情到收件箱。</p>
+      </div>
+      <div class="safety">不自动打开 BOSS，不读取页面，不刷新页面，不批量跳转，不投递，不打招呼，不绕过验证。</div>
+    </header>
+
+    <section class="hero">
+    <div>
+      <p class="eyebrow">当前只处理这一个入口</p>
+      <h2>1. MiniMax / AI销售</h2>
+      <p class="meta">基座大模型/Agent平台 · 薪资参考：8K-70K · 目标：3 条</p>
+      <p><span class="badge neutral">待低频采样</span></p>
+    </div>
+    <div class="next-action">复制 BOSS 首页，页面稳定后在站内搜索框输入：MiniMax AI销售</div>
+  </section>
+
+  <section class="grid">
+    <div class="panel">
+      <h3>第一步：复制首页</h3>
+      <p>只复制首页，不复制搜索 URL。粘贴到普通 Chrome 地址栏，等登录态和页面稳定。</p>
+      <div class="copy-row">
+        <input id="boss-home" value="https://www.zhipin.com/" readonly>
+        <button data-copy="boss-home" type="button">复制首页</button>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>第二步：复制关键词</h3>
+      <p>在 BOSS 页面自己的搜索框里输入关键词。每次只做一个关键词。</p>
+      <div class="copy-row">
+        <input id="boss-keyword" value="MiniMax AI销售" readonly>
+        <button data-copy="boss-keyword" type="button">复制关键词</button>
+      </div>
+    </div>
+  </section>
+
+    <section class="timer">
+      <div>
+        <h3>低频节奏闸门</h3>
+        <p>每次只做 1 个入口；入口之间至少间隔 10 分钟；完成 3 个入口后冷却 30 分钟。计时只保存在本地浏览器。</p>
+        <p class="timer-status" id="timer-status">未开始计时</p>
+      </div>
+      <div class="timer-actions">
+        <button data-timer="10" type="button">开始 10 分钟冷却</button>
+        <button data-timer="30" class="secondary" type="button">开始 30 分钟冷却</button>
+        <button id="clear-timer" class="secondary" type="button">清除计时</button>
+      </div>
+    </section>
+
+    <section class="queue">
+      <h3>入口队列</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>顺序</th>
+            <th>公司</th>
+            <th>岗位词</th>
+            <th>薪资参考</th>
+            <th>状态</th>
+            <th>缺失字段</th>
+            <th>站内搜索关键词</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="current-row">
+      <td>1</td>
+      <td>MiniMax</td>
+      <td>AI销售</td>
+      <td>8K-70K</td>
+      <td><span class="badge neutral">待低频采样</span></td>
+      <td>薪资；城市；经验；学历；职责；要求</td>
+      <td><code>MiniMax AI销售</code></td>
+    </tr>
+<tr class="">
+      <td>2</td>
+      <td>月之暗面</td>
+      <td>解决方案顾问</td>
+      <td>8K-12K</td>
+      <td><span class="badge neutral">待低频采样</span></td>
+      <td>薪资；城市；经验；学历；职责；要求</td>
+      <td><code>月之暗面 解决方案顾问</code></td>
+    </tr>
+<tr class="">
+      <td>3</td>
+      <td>智谱AI</td>
+      <td>解决方案顾问</td>
+      <td>8K-12K</td>
+      <td><span class="badge neutral">待低频采样</span></td>
+      <td>薪资；城市；经验；学历；职责；要求</td>
+      <td><code>智谱AI 解决方案顾问</code></td>
+    </tr>
+<tr class="">
+      <td>4</td>
+      <td>DeepSeek</td>
+      <td>AI销售</td>
+      <td>20-30K</td>
+      <td><span class="badge neutral">待低频采样</span></td>
+      <td>薪资；城市；经验；学历；职责；要求</td>
+      <td><code>DeepSeek AI销售</code></td>
+    </tr>
+<tr class="">
+      <td>5</td>
+      <td>海光信息</td>
+      <td>大客户销售</td>
+      <td>40K-70K</td>
+      <td><span class="badge neutral">待低频采样</span></td>
+      <td>薪资；城市；经验；学历；职责；要求</td>
+      <td><code>海光信息 大客户销售</code></td>
+    </tr>
+<tr class="">
+      <td>6</td>
+      <td>寒武纪</td>
+      <td>大客户销售</td>
+      <td>40K-70K</td>
+      <td><span class="badge neutral">待低频采样</span></td>
+      <td>薪资；城市；经验；学历；职责；要求</td>
+      <td><code>寒武纪 大客户销售</code></td>
+    </tr>
+<tr class="">
+      <td>7</td>
+      <td>华为昇腾</td>
+      <td>大客户销售</td>
+      <td>40K-70K</td>
+      <td><span class="badge neutral">待低频采样</span></td>
+      <td>薪资；城市；经验；学历；职责；要求</td>
+      <td><code>华为昇腾 大客户销售</code></td>
+    </tr>
+<tr class="">
+      <td>8</td>
+      <td>壁仞科技</td>
+      <td>大客户销售</td>
+      <td>40K-70K</td>
+      <td><span class="badge neutral">待低频采样</span></td>
+      <td>薪资；城市；经验；学历；职责；要求</td>
+      <td><code>壁仞科技 大客户销售</code></td>
+    </tr>
+<tr class="">
+      <td>9</td>
+      <td>摩尔线程</td>
+      <td>大客户销售</td>
+      <td>40K-70K</td>
+      <td><span class="badge neutral">待低频采样</span></td>
+      <td>薪资；城市；经验；学历；职责；要求</td>
+      <td><code>摩尔线程 大客户销售</code></td>
+    </tr>
+<tr class="">
+      <td>10</td>
+      <td>华为云</td>
+      <td>AI销售</td>
+      <td>大客户/行业销售经理:10K-65K;售前/解决方案顾问:10K-65K;AI软件/大模型销售:30K-60K</td>
+      <td><span class="badge neutral">待低频采样</span></td>
+      <td>薪资；城市；经验；学历；职责；要求</td>
+      <td><code>华为云 AI销售</code></td>
+    </tr>
+<tr class="">
+      <td>11</td>
+      <td>火山引擎</td>
+      <td>AI销售</td>
+      <td>大客户/行业销售经理:10K-65K;售前/解决方案顾问:10K-65K;AI软件/大模型销售:30K-60K</td>
+      <td><span class="badge neutral">待低频采样</span></td>
+      <td>薪资；城市；经验；学历；职责；要求</td>
+      <td><code>火山引擎 AI销售</code></td>
+    </tr>
+<tr class="">
+      <td>12</td>
+      <td>百度智能云</td>
+      <td>AI销售</td>
+      <td>大客户/行业销售经理:10K-65K;售前/解决方案顾问:10K-65K;AI软件/大模型销售:30K-60K</td>
+      <td><span class="badge neutral">待低频采样</span></td>
+      <td>薪资；城市；经验；学历；职责；要求</td>
+      <td><code>百度智能云 AI销售</code></td>
+    </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="links">
+      <a href="file:///Users/MR/Documents/%E8%81%8C%E5%9C%BA/01_%E8%A1%8C%E6%83%85%E6%94%B6%E9%9B%86/BOSS%E9%A6%96%E6%89%B9%E4%BA%BA%E5%B7%A5%E9%87%87%E6%A0%B7%E6%94%B6%E4%BB%B6%E7%AE%B1.md">打开收件箱</a>
+      <a href="file:///Users/MR/Documents/%E8%81%8C%E5%9C%BA/01_%E8%A1%8C%E6%83%85%E6%94%B6%E9%9B%86/BOSS%E9%A6%96%E6%89%B9%E4%BA%BA%E5%B7%A5%E9%87%87%E6%A0%B7%E6%94%B6%E4%BB%B6%E7%AE%B1%E8%B4%A8%E9%87%8F%E9%A2%84%E6%A3%80.md">查看收件箱质量预检</a>
+      <span>导入命令：<code>npm run import:inbox -- --refresh</code></span>
+    </section>
+    <p class="status" id="copy-status"></p>
+  </main>
+  <script>
+    const status = document.getElementById("copy-status");
+    const timerStatus = document.getElementById("timer-status");
+    const timerKey = "boss-lowfreq-cooldown-until";
+
+    async function copyInput(id) {
+      const input = document.getElementById(id);
+      if (!input) return;
+      input.focus();
+      input.select();
+      try {
+        await navigator.clipboard.writeText(input.value);
+        status.textContent = id === "boss-home"
+          ? "已复制首页。请粘贴到普通 Chrome 地址栏。"
+          : "已复制关键词。请粘贴到 BOSS 站内搜索框。";
+      } catch {
+        document.execCommand("copy");
+        status.textContent = "已选中内容。若未复制成功，请按 Cmd+C。";
+      }
+    }
+
+    function startTimer(minutes) {
+      localStorage.setItem(timerKey, String(Date.now() + minutes * 60 * 1000));
+      renderTimer();
+    }
+
+    function clearTimer() {
+      localStorage.removeItem(timerKey);
+      renderTimer();
+    }
+
+    function renderTimer() {
+      const until = Number(localStorage.getItem(timerKey) || 0);
+      const remaining = until - Date.now();
+      if (!until || remaining <= 0) {
+        timerStatus.textContent = "可以开始下一个人工入口";
+        return;
+      }
+      const minutes = Math.floor(remaining / 60000);
+      const seconds = Math.ceil((remaining % 60000) / 1000);
+      timerStatus.textContent = "冷却中：" + String(minutes).padStart(2, "0") + ":" + String(seconds).padStart(2, "0");
+    }
+
+    for (const button of document.querySelectorAll("[data-copy]")) {
+      button.addEventListener("click", () => copyInput(button.dataset.copy));
+    }
+    for (const button of document.querySelectorAll("[data-timer]")) {
+      button.addEventListener("click", () => startTimer(Number(button.dataset.timer)));
+    }
+    document.getElementById("clear-timer").addEventListener("click", clearTimer);
+    renderTimer();
+    setInterval(renderTimer, 1000);
+  </script>
+</body>
+</html>

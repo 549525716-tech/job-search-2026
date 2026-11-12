@@ -1,0 +1,6 @@
+[
+ {"term":"B2B 生态合作搭建","type":"business_content","status":"observed_niche","company":"探迹","job_id":"tungee-business-specialist-guangzhou","quote":"聚焦企业服务、制造行业商协会等优质第三方机构，拓展并深化生态合作，搭建高价值合作伙伴资源库","evidence_file":"raw/017-open-A-tungee.json"},
+ {"term":"渠道横向和纵向的拓展","type":"business_content","status":"observed_niche","company":"探迹","job_id":"tungee-channel-manager","quote":"制定渠道开发策略，推动渠道横向和纵向的拓展","evidence_file":"raw/017-open-A-tungee.json"},
+ {"term":"客户续约与增购","type":"business_content","status":"bootstrap_or_observed_pending_review","company":"北京掌上先机网络科技有限公司","job_id":null,"quote":"主导客户续约，挖掘增购需求，实现老客户营收增长","evidence_file":"raw/012-open-B-talent-portal.json"},
+ {"term":"POC、售前文档、技术投标","type":"business_content","status":"observed_niche","company":"神策数据","job_id":"sensorsdata-presales-engineer","quote":"负责产品的 POC、售前文档、技术投标等工作","evidence_file":"raw/006-open-A-sensorsdata.json"}
+]

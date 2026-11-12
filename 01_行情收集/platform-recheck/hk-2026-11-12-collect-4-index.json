@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "生成时间": "2026-11-12 11:47:00 Asia/Shanghai（box `date` 实读 CST=UTC+8）",
+    "采集范围": "大厂/腰部公司官网、猎聘、BOSS 的香港销售相关岗。CTgoodjobs、劳工处、LinkedIn、Indeed 由 h职场·岗位采集负责，本文件不收录这四站。Jobsdb 若遇安全验证则跳过、不绕过。",
+    "角色口径": "只收 销售/KA、销售管理、市场营销、商务渠道生态、销售及商业运营；客服主岗、产品经理主岗不收。",
+    "本轮结果": {
+      "详情已采并打分": 11,
+      "大厂新增详情": 0,
+      "腰部新增详情": 11,
+      "猎聘公开检索": "请求超时（http 000），未取到可核验列表，未登录、未绕过验证，0 条",
+      "BOSS公开检索": "请求超时（http 000），未取到可核验列表，未登录、未绕过验证，0 条"
+    },
+    "已扫描但未写入详情的官网": [
+      "Lalamove 官方 Lever 按 Hong Kong, Hong Kong SAR 筛选显示 No job postings match these filters，0 条相关。",
+      "Tesla 官网 careers（en_HK 及 cua-api）多次请求超时，未取得可确认香港地点的官方详情；第三方/Jobsdb 提及的 Sales Advisor 等未收录。",
+      "WeLab Bank BambooHR https://welab.bamboohr.com/careers/931 官方页拉取为空，未收录。",
+      "Klook careers 详情页返回 403，未收录。",
+      "阿里控股 talent-holding.alibaba.com 公开检索未见香港销售/商务岗，未完成全站地点筛选。",
+      "Airwallex Growth Executive, SME & Growth, HK 旧链已 404，未收录；BDM SME & Growth 旧链 404，未收录。"
+    ],
+    "是否登录或外发": "未登录、未发消息、未投递、未绕过验证码或安全页。未写入内地 merged 池或打招呼名单。",
+    "note": "每条均含官方/原帖 URL 与 collected_at。"
+  },
+  "jobs": [
+    {
+      "company": "Airwallex",
+      "title": "Sales Development Representative, SME & Growth, HK",
+      "location": "Hong Kong（JSON-LD addressCountry=HK；标题与正文写 Based out of our Hong Kong office）",
+      "source": "官网 careers.airwallex.com",
+      "url": "https://careers.airwallex.com/job/8077ae11-67dc-4a6f-95ff-473f6f75a7ca/sales-development-representative-sme-growth-hk/",
+      "posted_or_updated": "2026-09-01",
+      "collected_at": "2026-11-12 11:47:00"
+    },
+    {
+      "company": "ShopBack",
+      "title": "Business Development Executive (Fresh Graduate)",
+      "location": "Hong Kong, Hong Kong（官网香港筛选列表 jobs.lever.co/shopback-2?location=Hong+Kong%2C+Hong+Kong 列为 On-site；详情页正文未再写城市，投前打开原帖确认）",
+      "source": "官网 jobs.lever.co/shopback-2",
+      "url": "https://jobs.lever.co/shopback-2/1c0db39b-d49d-4f7f-bccf-1f7c97721a0c",
+      "posted_or_updated": "页面未显示",
+      "collected_at": "2026-11-12 11:47:00"
+    },
+    {
+      "company": "ShopBack",
+      "title": "Business Development Manager (SMB Accounts)",
+      "location": "Hong Kong, Hong Kong（官网香港筛选列表列为 On-site；详情页多次请求超时，未在 HTML 中再次核到地点字段，投前打开原帖确认）",
+      "source": "官网 jobs.lever.co/shopback-2",
+      "url": "https://jobs.lever.co/shopback-2/1082b504-8862-4508-805d-eb7e5acaa776",
+      "posted_or_updated": "页面未显示",
+      "collected_at": "2026-11-12 11:47:00"
+    },
+    {
+      "company": "ShopBack",
+      "title": "Business Development Manager (Enterprise Accounts)",
+      "location": "Hong Kong, Hong Kong（详情页 posting-category 地点字段核为 Hong Kong, Hong Kong；部门 2. Merchants – Commercial - Pay - HK）",
+      "source": "官网 jobs.lever.co/shopback-2",
+      "url": "https://jobs.lever.co/shopback-2/7a363105-8ac5-455e-a927-f19c1cdbaf07",
+      "posted_or_updated": "页面未显示",
+      "collected_at": "2026-11-12 11:47:00"
+    },
+    {
+      "company": "Airwallex",
+      "title": "Account Manager, SME & Growth - Hong Kong",
+      "location": "Hong Kong（JSON-LD addressCountry=HK；正文 This role is based in Hong Kong）",
+      "source": "官网 careers.airwallex.com",
+      "url": "https://careers.airwallex.com/job/cae93ca6-b6a0-42fa-b149-c6f84406546a/account-manager-sme-growth-hong-kong/",
+      "posted_or_updated": "2026-05-13",
+      "collected_at": "2026-11-12 11:47:00"
+    },
+    {
+      "company": "Airwallex",
+      "title": "Account Executive, SME & Growth",
+      "location": "Hong Kong（JSON-LD addressCountry=HK）",
+      "source": "官网 careers.airwallex.com",
+      "url": "https://careers.airwallex.com/job/392c7dc0-93fb-4889-ae7e-8eaea66fbfeb/account-executive-mid-market/",
+      "posted_or_updated": "2026-09-07",
+      "collected_at": "2026-11-12 11:47:00"
+    },
+    {
+      "company": "CertiK",
+      "title": "Business Development Manager (Junior to Mid-Level) – Hong Kong",
+      "location": "Hong Kong（标题写 Hong Kong；正文 seeking ... based in Hong Kong；另写 This role must be performed outside the United States）",
+      "source": "官网 jobs.lever.co/certik",
+      "url": "https://jobs.lever.co/certik/b534a623-3bab-4b1c-af20-3b0eb5292fd1",
+      "posted_or_updated": "页面未显示",
+      "collected_at": "2026-11-12 11:47:00"
+    },
+    {
+      "company": "ShopBack",
+      "title": "Associate Director, Business Development (Enterprise Accounts)",
+      "location": "Hong Kong, Hong Kong（官网香港筛选列表列为 On-site；详情页正文未再写城市，投前打开原帖确认）",
+      "source": "官网 jobs.lever.co/shopback-2",
+      "url": "https://jobs.lever.co/shopback-2/2fe4dcfe-f399-4e81-a288-494a3147ad05",
+      "posted_or_updated": "页面未显示",
+      "collected_at": "2026-11-12 11:47:00"
+    },
+    {
+      "company": "Unlimit",
+      "title": "Business Development Manager (Hong Kong)",
+      "location": "Hong Kong Office（详情页 posting-category 地点字段核为 Hong Kong Office；On-site / Full-Time / Sales）",
+      "source": "官网 jobs.lever.co/unlimit",
+      "url": "https://jobs.lever.co/unlimit/866c4cd6-8b0c-4e2c-abe9-8055976125ba",
+      "posted_or_updated": "页面未显示",
+      "collected_at": "2026-11-12 11:47:00"
+    },
+    {
+      "company": "Airwallex",
+      "title": "Account Manager, Enterprise",
+      "location": "Hong Kong（JSON-LD addressCountry=HK；正文 sit within our Hong Kong Enterprise team / Enterprise customers in Hong Kong；#HongKong）",
+      "source": "官网 careers.airwallex.com",
+      "url": "https://careers.airwallex.com/job/1139d8f0-093c-4537-91c8-6796158e53ab/account-manager-enterprise/",
+      "posted_or_updated": "2026-07-07",
+      "collected_at": "2026-11-12 11:47:00"
+    },
+    {
+      "company": "ShopBack",
+      "title": "Head of Commercial, ShopBack Pay",
+      "location": "Hong Kong（正文：build and scale our new business from scratch in Hong Kong；drive ... business partners in Hong Kong。官网香港筛选列表亦列为 On-site Hong Kong, Hong Kong）",
+      "source": "官网 jobs.lever.co/shopback-2",
+      "url": "https://jobs.lever.co/shopback-2/0585e6be-7b73-48fa-b2da-d491f8b5d72b",
+      "posted_or_updated": "页面未显示",
+      "collected_at": "2026-11-12 11:47:00"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "schema_version": 2,
+  "reviewed_at": "2026-09-21T19:05:47.332Z",
+  "verdict": "passed_limited_city_retest_and_report_static_review",
+  "open_p1": 0,
+  "open_p2": 0,
+  "resolved_p2": 1,
+  "blocking_findings": 0,
+  "reviewmetadata": {
+    "reviewer": {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "basis": "parent dispatch receipt supplied in task",
+      "billing_verification": "not_independently_verified"
+    },
+    "author": {
+      "agent_id": "01a0c4f7-d532-7643-a09a-b5530f3ca759",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "basis": "parent dispatch receipt supplied in task",
+      "billing_verification": "not_independently_verified",
+      "persisted_agent_id_checked": true
+    },
+    "city_repair": {
+      "owner": "parent_controller",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "basis": "parent dispatch receipt supplied in task; parent reports separate progress attribution",
+      "billing_verification": "not_independently_verified",
+      "progress_not_read": true
+    },
+    "note": "Original author ID now matches the supplied dispatch ID in the audit. This does not attribute the parent city repair to the original author or verify model billing."
+  },
+  "scope": {
+    "offline_only": true,
+    "network_requests": 0,
+    "browser_operations": 0,
+    "implementation_writes": 0,
+    "other_qa_files_changed": false,
+    "full_jd_qa_repeated": false,
+    "full_index_build_repeated": false,
+    "raw_captures_read_this_retest": 0,
+    "composition_executed": false,
+    "integration_executed": false,
+    "write_allowlist": [
+      "search-leads-qa.md",
+      "search-leads-qa.json"
+    ]
+  },
+  "counts": {
+    "input_search_captures": 118,
+    "input_results": 1749,
+    "retained_lead_observations": 273,
+    "unparsed_retained_in_index": 1476,
+    "exact_url_lead_groups": 271,
+    "same_url_existing_job_groups": 2,
+    "new_exact_url_lead_groups_not_verified_jobs": 269,
+    "salary_raw_explicit": 0,
+    "city_explicit": 0,
+    "location_raw_explicit": 45,
+    "complete_jds": 0,
+    "current_hiring_verified": 0
+  },
+  "tests": {
+    "city_unit_self_test": "exported selfTest() executed and passed",
+    "independent_city_cases": {
+      "unknown": [
+        "不限",
+        "全国",
+        "待定",
+        "远程",
+        "北京或上海",
+        "中国",
+        "海外",
+        "川渝地区",
+        "甲乙城市",
+        "汕头",
+        "汕头市"
+      ],
+      "explicit": [
+        "上海",
+        "北京市",
+        "深圳市"
+      ],
+      "additional_unknown_boundaries": [
+        "company footer",
+        "multiple city fields",
+        "multiple jobs"
+      ],
+      "failures": 0,
+      "synthetic_extract_records_retained": 14,
+      "original_excerpt_preserved": true,
+      "positive_city_quote_offset_sha_checks": 3
+    },
+    "unchanged_snapshot": {
+      "counts_recomputed": true,
+      "city_nonnull": 0,
+      "salary_raw_nonnull": 0,
+      "location_raw_nonnull": 45,
+      "lead_payload_identical_except_snapshot_script_sha256": true,
+      "normalized_payload_sha256": "131f877ed80867efe1297325e3115ad26a621f30d0c448bc2227e06db267b1d5",
+      "normalization": "Only snapshot.script_sha256 restored to prior value before comparing serialized JSON SHA256; no lead or group data normalized.",
+      "search_index_and_jobs_sha256_unchanged": true
+    }
+  },
+  "findings": [],
+  "resolved_findings": [
+    {
+      "id": "P2-01",
+      "status": "closed_independent_retest_passed",
+      "file": "search-job-leads.mjs",
+      "reviewed_lines": [
+        14,
+        87,
+        93,
+        296,
+        299
+      ],
+      "issue": "Unknown or alternative locations formerly populated city.",
+      "resolution": "Only a recognized name (optional trailing 市) in bounded single-job primary metadata populates city; other values remain unknown without dropping leads or source excerpts.",
+      "current_snapshot_affected_rows": 0,
+      "residual_boundary": "Recognition set is not exhaustive; an unrecognized real city intentionally remains unknown."
+    }
+  ],
+  "prior_validation_not_repeated": {
+    "reviewed_at": "2026-09-21T19:01:37.727Z",
+    "field_quote_position_sha_checks": 1137,
+    "raw_capture_sha_checks": 118,
+    "result_segment_sha_checks": 1749,
+    "independent_sample_records": 16,
+    "template_families_sampled": 9,
+    "sample_field_sha_and_offset_checks": 68,
+    "outcome": "Passed except city P2, now closed. Retained as prior evidence, not counted as newly rerun.",
+    "script_sha256": "c67a1282a9e0b851bf22fbf80c81aabe0e87a46d8b502f614b9e90c76e7a03de",
+    "data_sha256": "131f877ed80867efe1297325e3115ad26a621f30d0c448bc2227e06db267b1d5",
+    "audit_sha256": "60c9d23fc603a9f32fdaa36894736db1c9c6803a5a2fad36ab359b37aac5bea5"
+  },
+  "report_static_review": {
+    "verdict": "no_new_findings_in_requested_boundaries",
+    "compose-report-jobs.mjs": {
+      "lines": [
+        12,
+        14,
+        26,
+        28,
+        30,
+        32,
+        34,
+        41,
+        44,
+        45,
+        50
+      ],
+      "checked": "Adds only new exact-URL groups; preserves company/title groups and observations; labels search_index_lead, null JD text, description_complete=false, hiring unknown and source restrictions; retains original jobs.",
+      "executed": false
+    },
+    "integrate.mjs": {
+      "lines": [
+        21,
+        24,
+        37,
+        39,
+        45
+      ],
+      "checked": "Company display profiles still reference original job_ids with identity_reviewed=false; report source registration points to report-jobs.json. No contact-target consolidation observed.",
+      "executed": false
+    },
+    "unverified": [
+      "actual generated report/config files",
+      "runtime composition and integration",
+      "UI/rendering",
+      "company enrichment facts not reaudited"
+    ]
+  },
+  "boundaries": [
+    "273 observations / 271 exact-URL groups are search leads, not verified new or currently active jobs; 2 groups already occur in jobs.json.",
+    "45 location_raw values are original claims, not normalized city facts. All current city/salary fields remain null.",
+    "Prior source restrictions remain unchanged in the identical payload: 40 LinkedIn halted, 2 Liepin isolated, 231 admission required; no network authorization granted.",
+    "Exact URL association retains observations; it is not HR identity or contact-target verification.",
+    "No full-market breadth acceptance, expanded full-index run, current-hiring verification, or billing verification."
+  ],
+  "sha256": [
+    {
+      "file": "search-job-leads.mjs",
+      "sha256": "499f46a8ee7293f654a753bb8a25dd549ae081dcef74422451d6b27b7e594f8d"
+    },
+    {
+      "file": "search-job-leads.json",
+      "sha256": "0ce83e8f7d939a5abff2e02f4f43f270c4eeddb2b134e1d982bc04efc4562871"
+    },
+    {
+      "file": "search-job-leads-audit.json",
+      "sha256": "1c95f9dacafc1b3e1f69816358787d706caa88e0989962e013f73ab2f6b0b19f"
+    },
+    {
+      "file": "search-index.json",
+      "sha256": "09c89ce23c6a0da55a7546a7d4f1bfb4238b8ebda58b70e58c49b186540c6f52"
+    },
+    {
+      "file": "jobs.json",
+      "sha256": "1400835040ce435f7e5a4345b71c8c528934a1b300007b014ac25402603ef67f"
+    },
+    {
+      "file": "compose-report-jobs.mjs",
+      "sha256": "9a14161b013600951e8d64810bed29c8159ef58ec87f0acaf170ff7bb344cc9e"
+    },
+    {
+      "file": "integrate.mjs",
+      "sha256": "f4205125cd02140246127579f6eb215a9554f71179d11997a054424c4ed86307"
+    }
+  ]
+}

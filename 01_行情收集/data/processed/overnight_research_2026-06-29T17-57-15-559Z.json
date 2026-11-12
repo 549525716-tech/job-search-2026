@@ -1,0 +1,115 @@
+{
+  "runId": "2026-06-29T17-57-15-559Z",
+  "createdAt": "2026-06-29T17:57:15.560Z",
+  "args": {
+    "city": "广州",
+    "companyFile": "/Users/MR/Documents/职场/06_自动化采集/config/ai_full_company_targets.txt",
+    "industryFile": "/Users/MR/Documents/职场/06_自动化采集/config/industry_targets.txt",
+    "rolesFile": "/Users/MR/Documents/职场/06_自动化采集/config/sales_management_roles.txt",
+    "batchSize": 1,
+    "maxBatches": 8,
+    "startOffset": 0,
+    "delayMs": 600000,
+    "cooldownMs": 1800000,
+    "jitterMs": 180000,
+    "cardsPerSearch": 2,
+    "detailLimit": 0,
+    "maxJobsPerBatch": 3,
+    "phases": [
+      "company",
+      "industry"
+    ],
+    "resumeAfterRisk": false,
+    "dryRun": true
+  },
+  "safetyLimits": {
+    "before": {
+      "batchSize": 99,
+      "maxBatches": 99,
+      "delayMs": 1,
+      "cooldownMs": 1,
+      "jitterMs": 0,
+      "cardsPerSearch": 99,
+      "detailLimit": 9,
+      "maxJobsPerBatch": 30,
+      "resumeAfterRisk": false
+    },
+    "after": {
+      "batchSize": 1,
+      "maxBatches": 8,
+      "delayMs": 600000,
+      "cooldownMs": 1800000,
+      "jitterMs": 180000,
+      "cardsPerSearch": 2,
+      "detailLimit": 0,
+      "maxJobsPerBatch": 3,
+      "resumeAfterRisk": false
+    }
+  },
+  "totals": {
+    "companies": 121,
+    "industries": 59,
+    "roles": 29,
+    "plannedBatches": 8
+  },
+  "tasks": [
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "智谱AI"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "月之暗面"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "MiniMax"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "DeepSeek"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "阶跃星辰"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "百川智能"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "零一万物"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "面壁智能"
+      ]
+    }
+  ],
+  "results": [],
+  "status": "planned"
+}

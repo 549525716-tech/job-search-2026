@@ -1,0 +1,30 @@
+Superhuman AI Sales Engineer
+Company: Superhuman
+Category: AI-Native Startup
+OTE: $150K to $230K
+Work model: Remote
+Estimated SE team size: 5 to 10 SEs
+
+Company positioning
+Superhuman builds an AI-powered email client designed for speed and productivity. The product is positioned as the fastest email experience available, with AI features like auto-summarization, smart reply suggestions, instant AI writing assistance, and advanced scheduling. Superhuman targets high-performing professionals and enterprise teams who spend significant time in email, particularly in sales, executive, and customer success roles. The company has expanded from individual users to team and enterprise plans, creating a need for SE support on larger deals.
+
+AI products and platform
+Superhuman's AI capabilities include Superhuman AI for email writing assistance (drafting replies, adjusting tone, summarizing threads), Auto-Summary for instant email thread summaries, Smart Reply for quick response suggestions, Snippets for reusable templates with AI personalization, and AI Triage for intelligent inbox prioritization. The platform integrates with Gmail and Outlook, and team features include shared snippets, read statuses, and follow-up reminders. The AI features are designed to reduce the time users spend on email by 50% or more.
+
+Role details
+Sales Engineers at Superhuman support enterprise and team sales by demonstrating how the platform saves time and improves email productivity across organizations. The role is less technically deep than infrastructure or security SE positions but requires strong product demo skills and the ability to build business cases around productivity gains. A typical engagement involves understanding how a team currently uses email, running a live demo showing AI features in the context of their workflow, configuring team features like shared snippets and follow-up rules, and presenting ROI analysis based on time savings per user per day. You would demo the AI writing assistant, show how auto-summary handles long threads, walk through keyboard-driven speed features, and help IT teams understand deployment and security requirements. The SE role at Superhuman is evolving as the company moves upmarket, with increasing focus on enterprise security, compliance, and integration requirements.
+
+Technical skills and requirements
+- Strong product demo and presentation skills
+- Understanding of email protocols, security, and enterprise deployment
+- Familiarity with productivity metrics and ROI calculation
+- Knowledge of CRM and sales tech stack integrations
+- Ability to present to both end users and IT decision makers
+
+Interview process
+Superhuman interviews run two to three weeks. The process includes a recruiter screen, hiring manager call, a live product demo exercise, and a final round with leadership. Superhuman places heavy weight on demo quality and communication skills. The demo exercise expects you to present the product in a way that is engaging, concise, and tailored to the audience. Candidates who can show how AI features connect to measurable productivity outcomes tend to advance. The process is faster and less technically rigorous than infrastructure AI companies, reflecting the product-focused nature of the role.
+
+Salary and compensation
+OTE for Superhuman SEs ranges from $150,000 to $230,000, with base salaries between $110,000 and $150,000. Startup equity provides upside potential. As a remote-first company, compensation may include geographic adjustments. Benefits include health insurance, 401(k), unlimited PTO, home office budget, and annual team retreats. The smaller team size and remote culture appeal to candidates who value autonomy and flexibility over the structure of larger organizations.
+
+Source URL: https://aisepulse.com/companies/superhuman/

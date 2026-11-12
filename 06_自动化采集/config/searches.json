@@ -1,0 +1,73 @@
+{
+  "updatedAt": "2026-06-29",
+  "defaultCityCodes": {
+    "全国": "100010000",
+    "北京": "101010100",
+    "上海": "101020100",
+    "广州": "101280100",
+    "深圳": "101280600",
+    "杭州": "101210100",
+    "成都": "101270100",
+    "武汉": "101200100",
+    "南京": "101190100"
+  },
+  "sources": [
+    {
+      "name": "BOSS直聘",
+      "enabled": true,
+      "urlTemplate": "https://www.zhipin.com/web/geek/jobs?query={queryEncoded}&city={cityCode}"
+    },
+    {
+      "name": "猎聘",
+      "enabled": false,
+      "urlTemplate": "https://www.liepin.com/zhaopin/?key={queryEncoded}"
+    },
+    {
+      "name": "拉勾",
+      "enabled": false,
+      "urlTemplate": "https://www.lagou.com/wn/jobs?kd={queryEncoded}"
+    }
+  ],
+  "searchGroups": [
+    {
+      "name": "AI销售",
+      "roleFamily": "销售",
+      "keywords": [
+        "AI销售",
+        "大模型销售",
+        "人工智能销售",
+        "SaaS销售",
+        "企业服务销售",
+        "大客户销售 AI",
+        "行业销售 大模型",
+        "解决方案销售 AI"
+      ]
+    },
+    {
+      "name": "AI售前",
+      "roleFamily": "售前",
+      "keywords": [
+        "AI售前",
+        "大模型售前",
+        "解决方案顾问 AI",
+        "解决方案架构师 大模型",
+        "售前解决方案 人工智能",
+        "企业服务售前",
+        "客户成功 AI",
+        "POC 售前"
+      ]
+    },
+    {
+      "name": "互联网销售",
+      "roleFamily": "销售",
+      "keywords": [
+        "互联网销售",
+        "SaaS大客户销售",
+        "软件销售",
+        "企业软件销售",
+        "CRM销售",
+        "MarTech销售"
+      ]
+    }
+  ]
+}

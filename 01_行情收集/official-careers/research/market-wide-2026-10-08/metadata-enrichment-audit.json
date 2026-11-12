@@ -1,0 +1,1593 @@
+{
+  "input_sha256": "e289077606ad754418b4d994249ee04b77da7b2e7174f095f9861a83baae245f",
+  "records": 88,
+  "monthly_confirmed": 0,
+  "self_tests_passed": 3,
+  "network_requests": 0,
+  "entries": [
+    {
+      "id": "search-lead:e739f4c363f9d95a51aea026",
+      "result_id": "c090-r006",
+      "salary_raw": "2-4万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c090.json",
+        "evidence_sha256": "ddea8a6556c27c30f65f61d992588d435f289a3a29e0ef2524338f23d90a0713",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          601,
+          605
+        ],
+        "quote": "2-4万",
+        "quote_sha256": "0a950015650f06397a051211e74a9a3d80fdab53a2e5bf777c3fb7dd53c2be94"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:7040a04a59467b81bbdc74ce",
+      "result_id": "c048-r001",
+      "salary_raw": "1.2-1.8万·18薪",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c048.json",
+        "evidence_sha256": "ce636ee9207fb86f2e8414d5a5b57ff4025104b6791c6579ddb680d2202a433a",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          748,
+          760
+        ],
+        "quote": "1.2-1.8万·18薪",
+        "quote_sha256": "fdfc1f8614c14e335b6c7219eeaeab7988f20d261547c7daa2348333eb2ff3ff"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:7cdf56cae643d84b02e93c55",
+      "result_id": "c081-r009",
+      "salary_raw": "1.5-2.5万·13薪",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c081.json",
+        "evidence_sha256": "c1728875a4a522941707de5bdb71405f808165463784a098402b7e94ab367b9b",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          449,
+          461
+        ],
+        "quote": "1.5-2.5万·13薪",
+        "quote_sha256": "a843b203d32652604fd54813b0d9d90db12ab528e49dda46040834b5d3b141e0"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:ff18af2e3cf8f96d00f88363",
+      "result_id": "c054-r005",
+      "salary_raw": "7000-8000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c054.json",
+        "evidence_sha256": "33f40decb78dfc14c0fc720d117ef62fa83b3a811cc321a1b668bf00aee42ab0",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          338,
+          348
+        ],
+        "quote": "7000-8000元",
+        "quote_sha256": "ddaa62676875177e80acf18b70c8dcd38cb11d5b56d82c96e8ff3852693f586a"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:f9171967e1b054e0d61a7208",
+      "result_id": "c054-r004",
+      "salary_raw": "1-2万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c054.json",
+        "evidence_sha256": "33f40decb78dfc14c0fc720d117ef62fa83b3a811cc321a1b668bf00aee42ab0",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          290,
+          294
+        ],
+        "quote": "1-2万",
+        "quote_sha256": "a860615551acf50f5738d0f842dcbc6d2b32a9afce38b64734124902a90255d9"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:9b0f285cd0290245dd136d04",
+      "result_id": "c027-r003",
+      "salary_raw": "6000-8000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c027.json",
+        "evidence_sha256": "0cd24fd1880349472c3a62b6b5ac21cedb49745cfffeacd3f08e21d3d6d2e604",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          428,
+          438
+        ],
+        "quote": "6000-8000元",
+        "quote_sha256": "3ebc450830db3b30267cede95dc2887e2a7bb218aea4ae9ace0db56b924dc3be"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:85f5b952955b5309adf33cf9",
+      "result_id": "c011-r004",
+      "salary_raw": "1.5-3万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c011.json",
+        "evidence_sha256": "b70aa02ef1a6451f821b87d9b06bd0ccbdf1dff8983d3bc0c9afba2e5c70b82b",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          347,
+          353
+        ],
+        "quote": "1.5-3万",
+        "quote_sha256": "69046d82325274ade6d93b12f70e4e6bb7afb3ff75737b3c09720c973b739ca4"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:bacc29665a282efd3354a032",
+      "result_id": "c026-r004",
+      "salary_raw": "1.5-2.5万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c026.json",
+        "evidence_sha256": "234b20f26c54c608f5b07a4bea6f3ce6ddfab8773ba122858be9447ca67420dc",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          477,
+          485
+        ],
+        "quote": "1.5-2.5万",
+        "quote_sha256": "1a40669085040f0349a338e6398479838d60b11027928124358bcda00e2b6621"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:b78dc4b5262a2269b5a78186",
+      "result_id": "c026-r002",
+      "salary_raw": "1-1.5万·13薪",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c026.json",
+        "evidence_sha256": "234b20f26c54c608f5b07a4bea6f3ce6ddfab8773ba122858be9447ca67420dc",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          524,
+          534
+        ],
+        "quote": "1-1.5万·13薪",
+        "quote_sha256": "dc4eba4862b95bf4a214d9d7af728b16e85ad937fa52a48521c2d8927e2cdea6"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:6bb8f3d0ad53dc3a32804f92",
+      "result_id": "c026-r003",
+      "salary_raw": "1.5-2.5万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c026.json",
+        "evidence_sha256": "234b20f26c54c608f5b07a4bea6f3ce6ddfab8773ba122858be9447ca67420dc",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          492,
+          500
+        ],
+        "quote": "1.5-2.5万",
+        "quote_sha256": "1a40669085040f0349a338e6398479838d60b11027928124358bcda00e2b6621"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:a609484754a6ced446aae6c6",
+      "result_id": "c047-r003",
+      "salary_raw": "8000-12000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c047.json",
+        "evidence_sha256": "460d82df4c8bb20285521405fb66e7940d8dba0de06246d00d4b22b44e2fa138",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          488,
+          499
+        ],
+        "quote": "8000-12000元",
+        "quote_sha256": "24eef742cee2eb04e9f66a1a7c2b8b82344e5a7579592faa12e90294df4e6bf1"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:57ded939c5fd8867f2e6329d",
+      "result_id": "c047-r001",
+      "salary_raw": "1-1.2万·18薪",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c047.json",
+        "evidence_sha256": "460d82df4c8bb20285521405fb66e7940d8dba0de06246d00d4b22b44e2fa138",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          551,
+          561
+        ],
+        "quote": "1-1.2万·18薪",
+        "quote_sha256": "d57d224caaa496fa5013f07e0246bf563e287d802bb9d64c6c954f40b8d8417c"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:40d49485084d4ecf60c7e727",
+      "result_id": "c058-r001",
+      "salary_raw": "7000-10000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c058.json",
+        "evidence_sha256": "5f0a718717bd976d75e64554229b9f47022b2920ea5ec7921d40ba7411393cc2",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          491,
+          502
+        ],
+        "quote": "7000-10000元",
+        "quote_sha256": "51b73297ed1bbbe8c53ecc2fb186a410e8db3520fc03f44f8b15d75da0a1a6ff"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:3d0e68e5ed3528ce23d953f0",
+      "result_id": "c035-r003",
+      "salary_raw": "7000-14000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c035.json",
+        "evidence_sha256": "9c374ee4c0bd9b7ad7e5423b1dbdae3cc0bd3e9aecc41821dac95dc6190b36b0",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          326,
+          337
+        ],
+        "quote": "7000-14000元",
+        "quote_sha256": "e5cdb52142246d6ac13f3d977571036804318ca3b32b8820e793e0491ec87d4a"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:519de1770d9375761c6121a2",
+      "result_id": "c035-r002",
+      "salary_raw": "6000-12000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c035.json",
+        "evidence_sha256": "9c374ee4c0bd9b7ad7e5423b1dbdae3cc0bd3e9aecc41821dac95dc6190b36b0",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          306,
+          317
+        ],
+        "quote": "6000-12000元",
+        "quote_sha256": "a4e7ddfb2c1fda9f07935f5338efd19cac563f1b287598ae755a8407406b9af7"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:76cc5735b890ddf4072da865",
+      "result_id": "c024-r010",
+      "salary_raw": "7000-10000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c024.json",
+        "evidence_sha256": "5ad2b9d4f9a2bf525feed367821f1d1fa6780faa8146f93d265f8c29eb8ba393",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          429,
+          440
+        ],
+        "quote": "7000-10000元",
+        "quote_sha256": "51b73297ed1bbbe8c53ecc2fb186a410e8db3520fc03f44f8b15d75da0a1a6ff"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:bf86719bcb635fa46e2586ab",
+      "result_id": "c024-r005",
+      "salary_raw": "1-1.8万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c024.json",
+        "evidence_sha256": "5ad2b9d4f9a2bf525feed367821f1d1fa6780faa8146f93d265f8c29eb8ba393",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          441,
+          447
+        ],
+        "quote": "1-1.8万",
+        "quote_sha256": "3ef52a20771b2062533eca7c6ec307d891193edcbc6107cd0832dea6d3806681"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:48b2924a80224960cf6e6169",
+      "result_id": "c024-r004",
+      "salary_raw": "2-3万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c024.json",
+        "evidence_sha256": "5ad2b9d4f9a2bf525feed367821f1d1fa6780faa8146f93d265f8c29eb8ba393",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          407,
+          411
+        ],
+        "quote": "2-3万",
+        "quote_sha256": "8e3952bd667cf03c8b3b8548fa2269daf6096735596c192bf1e94d970d0440c8"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:3b9f4373c2f4517488d897be",
+      "result_id": "c024-r007",
+      "salary_raw": "1.5-2.5万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c024.json",
+        "evidence_sha256": "5ad2b9d4f9a2bf525feed367821f1d1fa6780faa8146f93d265f8c29eb8ba393",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          424,
+          432
+        ],
+        "quote": "1.5-2.5万",
+        "quote_sha256": "1a40669085040f0349a338e6398479838d60b11027928124358bcda00e2b6621"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:3d2ffc8e8e8a781cc81a8155",
+      "result_id": "c024-r006",
+      "salary_raw": "1.5-2.5万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c024.json",
+        "evidence_sha256": "5ad2b9d4f9a2bf525feed367821f1d1fa6780faa8146f93d265f8c29eb8ba393",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          396,
+          404
+        ],
+        "quote": "1.5-2.5万",
+        "quote_sha256": "1a40669085040f0349a338e6398479838d60b11027928124358bcda00e2b6621"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:06aef63e0a45e1fb831ebeec",
+      "result_id": "c024-r002",
+      "salary_raw": "8000-13000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c024.json",
+        "evidence_sha256": "5ad2b9d4f9a2bf525feed367821f1d1fa6780faa8146f93d265f8c29eb8ba393",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          289,
+          300
+        ],
+        "quote": "8000-13000元",
+        "quote_sha256": "03efcc4d5f82b08b81265374bd1e37adb9e075a220cdd775ab0140874c2ca710"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:216dfbf0e3ec3c7accc85063",
+      "result_id": "c044-r001",
+      "salary_raw": "7000-14000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c044.json",
+        "evidence_sha256": "ea6b49f6f6648ca0832318c118cba316519ba848a7983c94361416dfef9e77d3",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          316,
+          327
+        ],
+        "quote": "7000-14000元",
+        "quote_sha256": "e5cdb52142246d6ac13f3d977571036804318ca3b32b8820e793e0491ec87d4a"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:e164b266e90a6dcacb6dbffa",
+      "result_id": "c010-r002",
+      "salary_raw": "1.5-3万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c010.json",
+        "evidence_sha256": "22f546fc5fe5b399e3138ff2facd02cad3b338b2ac41790e6a1325728464d6b2",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          451,
+          457
+        ],
+        "quote": "1.5-3万",
+        "quote_sha256": "69046d82325274ade6d93b12f70e4e6bb7afb3ff75737b3c09720c973b739ca4"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:1e7589f5405a68d649b76819",
+      "result_id": "c010-r003",
+      "salary_raw": "8000-16000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c010.json",
+        "evidence_sha256": "22f546fc5fe5b399e3138ff2facd02cad3b338b2ac41790e6a1325728464d6b2",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          411,
+          422
+        ],
+        "quote": "8000-16000元",
+        "quote_sha256": "1443bc699b60e26415a89a8c972341c63b242f19f5fbc1f70d4e37ac54f19749"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:46c3608da6e12b2c7859c5c4",
+      "result_id": "c010-r004",
+      "salary_raw": "7000-9000元·13薪",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c010.json",
+        "evidence_sha256": "22f546fc5fe5b399e3138ff2facd02cad3b338b2ac41790e6a1325728464d6b2",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          342,
+          356
+        ],
+        "quote": "7000-9000元·13薪",
+        "quote_sha256": "ad5da03679f9a8c017614fb1e5179b3a89adf0e4cb5463840f42a01bac8f502d"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:0b070870ae58f33c80f6c9d1",
+      "result_id": "c028-r005",
+      "salary_raw": "6000-9000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c028.json",
+        "evidence_sha256": "73e8e826e39d73789351469c99aed63e0b937a94fb153a0ab62162d60ec4ae7d",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          553,
+          563
+        ],
+        "quote": "6000-9000元",
+        "quote_sha256": "748a0e8d38780d0b4970ab1cabcd656484ddff2dcb9e0f6f54896805ae3239b3"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:503a2efb831723aeae8f17cd",
+      "result_id": "c077-r001",
+      "salary_raw": "1-1.3万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c077.json",
+        "evidence_sha256": "cc2e97b1568c44b0818335ba81d31821b9f8df0b7bbfe05694e563ba87fa0188",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          720,
+          726
+        ],
+        "quote": "1-1.3万",
+        "quote_sha256": "245707ac5fdfb3c82b8b2011bd6c219ced410b8d4cfe8c125204044fbe55fbaf"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:4169c85567e6a87e2ebb8029",
+      "result_id": "c045-r011",
+      "salary_raw": "8000-16000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c045.json",
+        "evidence_sha256": "cb3f011f69bd1fe900c1345ae6f752e3a979eda39260f32c1f0ccf4599136e93",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          481,
+          492
+        ],
+        "quote": "8000-16000元",
+        "quote_sha256": "1443bc699b60e26415a89a8c972341c63b242f19f5fbc1f70d4e37ac54f19749"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:4b942a2e578ef8df30f0a884",
+      "result_id": "c080-r009",
+      "salary_raw": "1.5-2.2万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c080.json",
+        "evidence_sha256": "e7039c487626f2b359b3eeefbfd02d0e0f61dec06a13adb7c209031c0d79ffbd",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          303,
+          311
+        ],
+        "quote": "1.5-2.2万",
+        "quote_sha256": "aa45e4a5690bb2decead1c71f100e1655c4c2175da7d41d60a3bc6e2c56bac43"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:37965abebe817a069ac77596",
+      "result_id": "c080-r011",
+      "salary_raw": "1-1.8万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c080.json",
+        "evidence_sha256": "e7039c487626f2b359b3eeefbfd02d0e0f61dec06a13adb7c209031c0d79ffbd",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          338,
+          344
+        ],
+        "quote": "1-1.8万",
+        "quote_sha256": "3ef52a20771b2062533eca7c6ec307d891193edcbc6107cd0832dea6d3806681"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:aa91dbe86cc984635aad69bd",
+      "result_id": "c080-r010",
+      "salary_raw": "1.5-2万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c080.json",
+        "evidence_sha256": "e7039c487626f2b359b3eeefbfd02d0e0f61dec06a13adb7c209031c0d79ffbd",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          283,
+          289
+        ],
+        "quote": "1.5-2万",
+        "quote_sha256": "cf21597738aa3bbc751dcf3682835216851269347a7eaf1ce2939ee63230b0dc"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:de260314e092e65e43fcbd3f",
+      "result_id": "c014-r002",
+      "salary_raw": "1.1-1.5万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c014.json",
+        "evidence_sha256": "52cdd8b28cf952c25d5d0072f6655b3b90227f258ba8fa69f836e6fa89855f6b",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          483,
+          491
+        ],
+        "quote": "1.1-1.5万",
+        "quote_sha256": "12defb0189cbb81dfed480f155db66baa0286ec5bbaedaeb4a8aef9e775743b4"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:fa4e602acf66d27f606f8ed9",
+      "result_id": "c014-r001",
+      "salary_raw": "8000-15000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c014.json",
+        "evidence_sha256": "52cdd8b28cf952c25d5d0072f6655b3b90227f258ba8fa69f836e6fa89855f6b",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          452,
+          463
+        ],
+        "quote": "8000-15000元",
+        "quote_sha256": "0787f6d65b842aeeeb30f3bbce7c920ecafdc825ce3bdacb54aefad8daf8dd8b"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:f11dbb1ab8c68ecac8b0c2d7",
+      "result_id": "c091-r001",
+      "salary_raw": "6000-8000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c091.json",
+        "evidence_sha256": "b5229c465f636c9a5a4f04aaede628d0acf6928140de94f05057c045d8201cff",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          293,
+          303
+        ],
+        "quote": "6000-8000元",
+        "quote_sha256": "3ebc450830db3b30267cede95dc2887e2a7bb218aea4ae9ace0db56b924dc3be"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:d93dd782b1c2cafa4bbd54b1",
+      "result_id": "c065-r008",
+      "salary_raw": "1.5-2万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c065.json",
+        "evidence_sha256": "ce1cff396910af48a0a057294a80bd61d14d5667d6dee49b98587bed0ae2c32a",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          315,
+          321
+        ],
+        "quote": "1.5-2万",
+        "quote_sha256": "cf21597738aa3bbc751dcf3682835216851269347a7eaf1ce2939ee63230b0dc"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:0e412292aa9289140a10d72d",
+      "result_id": "c001-r002",
+      "salary_raw": "1.5-1.6万·13薪",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c001.json",
+        "evidence_sha256": "f99f747f334d00bdd57e85e72442d6ab763cf378b1791bf36edb490b2ed71446",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          332,
+          344
+        ],
+        "quote": "1.5-1.6万·13薪",
+        "quote_sha256": "89fc79550b8f9bd5d1b481a46ab866c318f6b304e6ada469176cf7d90e808df2"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:e43b02625df5293e6388c18b",
+      "result_id": "c065-r012",
+      "salary_raw": "5000-6000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c065.json",
+        "evidence_sha256": "ce1cff396910af48a0a057294a80bd61d14d5667d6dee49b98587bed0ae2c32a",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          294,
+          304
+        ],
+        "quote": "5000-6000元",
+        "quote_sha256": "801c0a424ac0f973d30becb0a27a941d0f1ca881d270370c8a91ace1341afde7"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:a14af3e0939691fd9773cacc",
+      "result_id": "c018-r005",
+      "salary_raw": "1-2万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c018.json",
+        "evidence_sha256": "7d6f3f654cfafadd115030427d5b3dbf9fab087a5fbccb40a69a374802c1055b",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          649,
+          653
+        ],
+        "quote": "1-2万",
+        "quote_sha256": "a860615551acf50f5738d0f842dcbc6d2b32a9afce38b64734124902a90255d9"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:02ea4a60c235401c23687ccf",
+      "result_id": "c092-r001",
+      "salary_raw": "7000-12000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c092.json",
+        "evidence_sha256": "c4571c21b60579d74297f9f3e3f24aed12d78b3e2682e6f7592148f9ca81c49e",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          350,
+          361
+        ],
+        "quote": "7000-12000元",
+        "quote_sha256": "acf567c5f86e2658bbbd3f026c267c519633864968de237228d5e18b3720bf66"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:f99bd769bcd0e55284a0d826",
+      "result_id": "k02-r007",
+      "salary_raw": "9000-12000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/k02.json",
+        "evidence_sha256": "ebd2d1477ace918f4aaf82ae9eeb4928d153270faf3823683f2a40bceb556413",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          372,
+          383
+        ],
+        "quote": "9000-12000元",
+        "quote_sha256": "23e3169da7fdc0a2bdba54d415a2e7b73a2be49d14cceebea8c8ed4cfcbd85c5"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:f8f4ff05e140796bb3322a9b",
+      "result_id": "k08-r006",
+      "salary_raw": "5000-10000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/k08.json",
+        "evidence_sha256": "3c4af39cb139478be9bc2a7b4c26491d9015cb9f39ee2fe8336242d6eedcd5cb",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          358,
+          369
+        ],
+        "quote": "5000-10000元",
+        "quote_sha256": "75fb4f9b571248400d4f1712f755486a55544fb5978356fa69e468f3071c2874"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:64b0af4da2a2344a4f1df2d9",
+      "result_id": "c025-r002",
+      "salary_raw": "3-4.5万·13薪",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c025.json",
+        "evidence_sha256": "85b79daf4a97496bdf099e94801d89ab7f343b573d391853e96aaa4a8a42a6db",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          484,
+          494
+        ],
+        "quote": "3-4.5万·13薪",
+        "quote_sha256": "16c5676884c9413d7d4cc3f1eae0c40973297b740ffa76aafc2614d30ac5dff7"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:a8b617bda1a590cc7b0f8098",
+      "result_id": "c012-r009",
+      "salary_raw": "8000-15000元·13薪",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c012.json",
+        "evidence_sha256": "52df180041493a1aba5c77345b52d92e42a365f28e8243925e71d851060bff7b",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          354,
+          369
+        ],
+        "quote": "8000-15000元·13薪",
+        "quote_sha256": "30c3d2d149a7f04e42953f021a034b1360f61a2cb07bc5433f2602e69527e7a9"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:571ae6278a58cec8bde4ce96",
+      "result_id": "c012-r001",
+      "salary_raw": "4000-8000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c012.json",
+        "evidence_sha256": "52df180041493a1aba5c77345b52d92e42a365f28e8243925e71d851060bff7b",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          253,
+          263
+        ],
+        "quote": "4000-8000元",
+        "quote_sha256": "e45dc10dc658ca569d58de266717a7a524a1140619e0a8d5d98f50b898ec78b2"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:62f9e09e57ad0e8d27ac28c4",
+      "result_id": "c085-r003",
+      "salary_raw": "1-1.3万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c085.json",
+        "evidence_sha256": "63d4c685f6fe111a86586e6f8608d3bd59eff5b75b6ce39654924e6b2dde5224",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          367,
+          373
+        ],
+        "quote": "1-1.3万",
+        "quote_sha256": "245707ac5fdfb3c82b8b2011bd6c219ced410b8d4cfe8c125204044fbe55fbaf"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:3dc3a7814fe93b6b29e013f6",
+      "result_id": "c085-r001",
+      "salary_raw": "1.8-2.8万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c085.json",
+        "evidence_sha256": "63d4c685f6fe111a86586e6f8608d3bd59eff5b75b6ce39654924e6b2dde5224",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          447,
+          455
+        ],
+        "quote": "1.8-2.8万",
+        "quote_sha256": "bf6469f52af4f1193ad80a469e668a01777eba38ec755058fcf97997a470632e"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:265e0e8466d2642eb299a32f",
+      "result_id": "c043-r006",
+      "salary_raw": "7000-14000元·16薪",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c043.json",
+        "evidence_sha256": "34ddde10532567d194f1600fa207764efe670ed4fb8b1d3b3058cd1ce4e54194",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          635,
+          650
+        ],
+        "quote": "7000-14000元·16薪",
+        "quote_sha256": "ebcf36cabc5d273ce13f3793055958db277817f1fc5ad703fcc7e1ebdce61fe9"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:4d06e011b9c3ee5a41244dc5",
+      "result_id": "c057-r005",
+      "salary_raw": "1.5-2.5万·15薪",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c057.json",
+        "evidence_sha256": "f7893f84180c4e592d6f007ffd98ccebabe1c30a3d23dda0f28aad82583a2a89",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          394,
+          406
+        ],
+        "quote": "1.5-2.5万·15薪",
+        "quote_sha256": "83da9d27385d004f2c432f10ad8ccf234e0d9451ebfb7b21b101eb4dcf8fc36b"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:c116e6acd806ea7d67a23cd3",
+      "result_id": "c065-r001",
+      "salary_raw": "6000-8000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c065.json",
+        "evidence_sha256": "ce1cff396910af48a0a057294a80bd61d14d5667d6dee49b98587bed0ae2c32a",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          287,
+          297
+        ],
+        "quote": "6000-8000元",
+        "quote_sha256": "3ebc450830db3b30267cede95dc2887e2a7bb218aea4ae9ace0db56b924dc3be"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:4b0e73000619fd27d03ed9d9",
+      "result_id": "c009-r003",
+      "salary_raw": "2-3.5万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c009.json",
+        "evidence_sha256": "5cf8589004bd9f3029f5ab8703bb1825caccf38b9cb3db9a4181b170953d8457",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          339,
+          345
+        ],
+        "quote": "2-3.5万",
+        "quote_sha256": "0256c1429867a3655028848fdf38770da09ccc4f5bc66718f9364345a6e0076e"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:23408618ebc57ce971d05d69",
+      "result_id": "c009-r002",
+      "salary_raw": "8000-16000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c009.json",
+        "evidence_sha256": "5cf8589004bd9f3029f5ab8703bb1825caccf38b9cb3db9a4181b170953d8457",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          272,
+          283
+        ],
+        "quote": "8000-16000元",
+        "quote_sha256": "1443bc699b60e26415a89a8c972341c63b242f19f5fbc1f70d4e37ac54f19749"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:67f0e7b85b0e2e36ce054ead",
+      "result_id": "s06-r007",
+      "salary_raw": "3000-6000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/s06.json",
+        "evidence_sha256": "8127cad4dfd188a193bdda9ac12b2a60425c8e7eb2160bcf3d71aacbd86a612a",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          348,
+          358
+        ],
+        "quote": "3000-6000元",
+        "quote_sha256": "77928fb4a2f5c02cae59636beaaee4f9fc5f71a2fa634861b5c8e20005787615"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:b959006416497cd2b89572de",
+      "result_id": "c089-r005",
+      "salary_raw": "8000-12000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c089.json",
+        "evidence_sha256": "91c912c10b3e6ea1a2543e37abd4d0f2944ee28ca0b23b0b4427edb520b4bd56",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          348,
+          359
+        ],
+        "quote": "8000-12000元",
+        "quote_sha256": "24eef742cee2eb04e9f66a1a7c2b8b82344e5a7579592faa12e90294df4e6bf1"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:c0a80fba8a9660156f863ba6",
+      "result_id": "c089-r001",
+      "salary_raw": "8000-15000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c089.json",
+        "evidence_sha256": "91c912c10b3e6ea1a2543e37abd4d0f2944ee28ca0b23b0b4427edb520b4bd56",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          478,
+          489
+        ],
+        "quote": "8000-15000元",
+        "quote_sha256": "0787f6d65b842aeeeb30f3bbce7c920ecafdc825ce3bdacb54aefad8daf8dd8b"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:c7fb453174427a153d464780",
+      "result_id": "c089-r003",
+      "salary_raw": "9000-13000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c089.json",
+        "evidence_sha256": "91c912c10b3e6ea1a2543e37abd4d0f2944ee28ca0b23b0b4427edb520b4bd56",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          380,
+          391
+        ],
+        "quote": "9000-13000元",
+        "quote_sha256": "c7847b356fc2bdd91ed51bb06f3c8b0d6abf3defd7f59bf7f5f0913443b05b68"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:b3f3165384e87ae44171f96e",
+      "result_id": "c089-r004",
+      "salary_raw": "7000-14000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c089.json",
+        "evidence_sha256": "91c912c10b3e6ea1a2543e37abd4d0f2944ee28ca0b23b0b4427edb520b4bd56",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          356,
+          367
+        ],
+        "quote": "7000-14000元",
+        "quote_sha256": "e5cdb52142246d6ac13f3d977571036804318ca3b32b8820e793e0491ec87d4a"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:e386fe1aed66dc06267cfc00",
+      "result_id": "c007-r001",
+      "salary_raw": "6000-7000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c007.json",
+        "evidence_sha256": "b78dbf3a948743b1d6946347d6d6ec880cbacec21f63be92c19d84a1b830fe51",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          280,
+          290
+        ],
+        "quote": "6000-7000元",
+        "quote_sha256": "eaa9690e91158a05fa03cb30e9891cb90423bf6d824dd457564559ec3c1bdad4"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:e6f48a608e7d7ef3d6474f92",
+      "result_id": "c042-r005",
+      "salary_raw": "5000-6000元·13薪",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c042.json",
+        "evidence_sha256": "d34361dbeebb5c2d4f8de263237821fa5053aec3f6c087f6b62eced1b3e3dc5f",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          310,
+          324
+        ],
+        "quote": "5000-6000元·13薪",
+        "quote_sha256": "1770191d55beeb66f4be8928afc7824613be02638fd356e48aa1cb2e73d7204b"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:d25c01fc88d24a36a7a713d5",
+      "result_id": "c042-r001",
+      "salary_raw": "6000-9000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c042.json",
+        "evidence_sha256": "d34361dbeebb5c2d4f8de263237821fa5053aec3f6c087f6b62eced1b3e3dc5f",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          345,
+          355
+        ],
+        "quote": "6000-9000元",
+        "quote_sha256": "748a0e8d38780d0b4970ab1cabcd656484ddff2dcb9e0f6f54896805ae3239b3"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:fbe28db0eb362aa9564faf4e",
+      "result_id": "c042-r004",
+      "salary_raw": "3000-6000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c042.json",
+        "evidence_sha256": "d34361dbeebb5c2d4f8de263237821fa5053aec3f6c087f6b62eced1b3e3dc5f",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          301,
+          311
+        ],
+        "quote": "3000-6000元",
+        "quote_sha256": "77928fb4a2f5c02cae59636beaaee4f9fc5f71a2fa634861b5c8e20005787615"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:59d353bdcdd97996c0a906d3",
+      "result_id": "c042-r003",
+      "salary_raw": "5000-6000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c042.json",
+        "evidence_sha256": "d34361dbeebb5c2d4f8de263237821fa5053aec3f6c087f6b62eced1b3e3dc5f",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          353,
+          363
+        ],
+        "quote": "5000-6000元",
+        "quote_sha256": "801c0a424ac0f973d30becb0a27a941d0f1ca881d270370c8a91ace1341afde7"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:f83c1cdc330cd382ec8e2391",
+      "result_id": "c046-r002",
+      "salary_raw": "6000-8000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c046.json",
+        "evidence_sha256": "8434c121e3df1368868e58e5d4013a1131e2cbb384a489c9657ca19dc6dbc90a",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          251,
+          261
+        ],
+        "quote": "6000-8000元",
+        "quote_sha256": "3ebc450830db3b30267cede95dc2887e2a7bb218aea4ae9ace0db56b924dc3be"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:2ad8fa6a88e7d4f855dfa581",
+      "result_id": "c020-r002",
+      "salary_raw": "1-1.5万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c020.json",
+        "evidence_sha256": "3c20b2aa6dfd2602867cfe068606f5794370a2d6647ecc95c3c50e7a8d731206",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          282,
+          288
+        ],
+        "quote": "1-1.5万",
+        "quote_sha256": "30361f1142994b9b92fcdf177bb489cb55a2b4660d9f6c6bf677350edb941d0f"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:17723bb4400fc5c29c7bb53d",
+      "result_id": "c002-r002",
+      "salary_raw": "7000-8000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c002.json",
+        "evidence_sha256": "e33e5448f8645d7dae2239f506193118b5eba92cabb31341895772d950171862",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          454,
+          464
+        ],
+        "quote": "7000-8000元",
+        "quote_sha256": "ddaa62676875177e80acf18b70c8dcd38cb11d5b56d82c96e8ff3852693f586a"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:795d26c8c8625a10532dfd83",
+      "result_id": "c002-r004",
+      "salary_raw": "1.5-2.5万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c002.json",
+        "evidence_sha256": "e33e5448f8645d7dae2239f506193118b5eba92cabb31341895772d950171862",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          470,
+          478
+        ],
+        "quote": "1.5-2.5万",
+        "quote_sha256": "1a40669085040f0349a338e6398479838d60b11027928124358bcda00e2b6621"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:902d12280538b73343a3bc31",
+      "result_id": "c002-r005",
+      "salary_raw": "1-2万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c002.json",
+        "evidence_sha256": "e33e5448f8645d7dae2239f506193118b5eba92cabb31341895772d950171862",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          466,
+          470
+        ],
+        "quote": "1-2万",
+        "quote_sha256": "a860615551acf50f5738d0f842dcbc6d2b32a9afce38b64734124902a90255d9"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:6a3bb466f6191453482d6d49",
+      "result_id": "k15-r005",
+      "salary_raw": "1.5-2万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/k15.json",
+        "evidence_sha256": "b54f7bb0bda0d42926cf30ab470cd57ffff49c9d23ae23d393db596d5d0d1dca",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          337,
+          343
+        ],
+        "quote": "1.5-2万",
+        "quote_sha256": "cf21597738aa3bbc751dcf3682835216851269347a7eaf1ce2939ee63230b0dc"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:13374bb73cf5b655ca881d3e",
+      "result_id": "c067-r006",
+      "salary_raw": "1.3-2.5万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c067.json",
+        "evidence_sha256": "74d2b3a07bdba30e53b7e963d268205873d2dfd8f888d3e6454c8e5c9979bf3e",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          319,
+          327
+        ],
+        "quote": "1.3-2.5万",
+        "quote_sha256": "adc3585c2b9607d2fd9561dec13ff81cad7cda27deebceb58464ffed5faba874"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:ee609160871b4cd64b1c8db2",
+      "result_id": "c066-r006",
+      "salary_raw": "6000-7000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c066.json",
+        "evidence_sha256": "db95efdbb732801b13e5d1b12e6caefcb178a5d490090dd00c36ae7a4dd4c55a",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          315,
+          325
+        ],
+        "quote": "6000-7000元",
+        "quote_sha256": "eaa9690e91158a05fa03cb30e9891cb90423bf6d824dd457564559ec3c1bdad4"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:6a22d6d8c76beb0aa258149a",
+      "result_id": "c073-r002",
+      "salary_raw": "5000-10000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c073.json",
+        "evidence_sha256": "9c986ea165fc0bfb6e8dc2e5abe034fb8d81e2c60c96f63b6ddff6db0d0f8d83",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          441,
+          452
+        ],
+        "quote": "5000-10000元",
+        "quote_sha256": "75fb4f9b571248400d4f1712f755486a55544fb5978356fa69e468f3071c2874"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:cc2eddf25761a1b5ec64d3ff",
+      "result_id": "c073-r006",
+      "salary_raw": "8000-15000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c073.json",
+        "evidence_sha256": "9c986ea165fc0bfb6e8dc2e5abe034fb8d81e2c60c96f63b6ddff6db0d0f8d83",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          597,
+          608
+        ],
+        "quote": "8000-15000元",
+        "quote_sha256": "0787f6d65b842aeeeb30f3bbce7c920ecafdc825ce3bdacb54aefad8daf8dd8b"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:60985e727ca9bc3fd9fd1514",
+      "result_id": "c023-r004",
+      "salary_raw": "1.2-1.5万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c023.json",
+        "evidence_sha256": "9566053a984f8194a5dcc9ac68d5f3ba267ece5a4623406453ab63bcce28027c",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          386,
+          394
+        ],
+        "quote": "1.2-1.5万",
+        "quote_sha256": "2d744da85696be2f83e574535da65bfd8a1c357432b49997e4c1504bc3f8f14b"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:e77d1e22f8761e0db67e5f1e",
+      "result_id": "k09-r011",
+      "salary_raw": "1-1.8万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/k09.json",
+        "evidence_sha256": "ffd4ef78fc42f97c2ee4218c2d165548fd2dc76cc01347add4e69d94d8ab262a",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          388,
+          394
+        ],
+        "quote": "1-1.8万",
+        "quote_sha256": "3ef52a20771b2062533eca7c6ec307d891193edcbc6107cd0832dea6d3806681"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:b5c6105d327dd5c6d9ec79cf",
+      "result_id": "k09-r001",
+      "salary_raw": "1.2-2万",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/k09.json",
+        "evidence_sha256": "ffd4ef78fc42f97c2ee4218c2d165548fd2dc76cc01347add4e69d94d8ab262a",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          263,
+          269
+        ],
+        "quote": "1.2-2万",
+        "quote_sha256": "a1e9fddec15c787544cc25bc0f243b922e839c6836c2ebe29dfe1dad0bab93c0"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:e07f75ecc47d83492b89d92f",
+      "result_id": "c062-r006",
+      "salary_raw": "5000-10000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c062.json",
+        "evidence_sha256": "5411b39791b4217546147ae20c3744d2c8ede54171cc74b47dc18d69696e6a66",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          364,
+          375
+        ],
+        "quote": "5000-10000元",
+        "quote_sha256": "75fb4f9b571248400d4f1712f755486a55544fb5978356fa69e468f3071c2874"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:da1992981d0821f15daddf62",
+      "result_id": "c062-r001",
+      "salary_raw": "4000-8000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c062.json",
+        "evidence_sha256": "5411b39791b4217546147ae20c3744d2c8ede54171cc74b47dc18d69696e6a66",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          320,
+          330
+        ],
+        "quote": "4000-8000元",
+        "quote_sha256": "e45dc10dc658ca569d58de266717a7a524a1140619e0a8d5d98f50b898ec78b2"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:a70d1dfa17b083b393599ec6",
+      "result_id": "c062-r003",
+      "salary_raw": "7000-14000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c062.json",
+        "evidence_sha256": "5411b39791b4217546147ae20c3744d2c8ede54171cc74b47dc18d69696e6a66",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          470,
+          481
+        ],
+        "quote": "7000-14000元",
+        "quote_sha256": "e5cdb52142246d6ac13f3d977571036804318ca3b32b8820e793e0491ec87d4a"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:c4fc069f7196261d498d0492",
+      "result_id": "c062-r002",
+      "salary_raw": "4000-8000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c062.json",
+        "evidence_sha256": "5411b39791b4217546147ae20c3744d2c8ede54171cc74b47dc18d69696e6a66",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          381,
+          391
+        ],
+        "quote": "4000-8000元",
+        "quote_sha256": "e45dc10dc658ca569d58de266717a7a524a1140619e0a8d5d98f50b898ec78b2"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:99389f2356bca3046932f9ec",
+      "result_id": "c041-r006",
+      "salary_raw": "8000-15000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c041.json",
+        "evidence_sha256": "b23406386763b32e38b874d6d1f70ef7dcdcb7e4509433764425f4b1419a06a3",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          276,
+          287
+        ],
+        "quote": "8000-15000元",
+        "quote_sha256": "0787f6d65b842aeeeb30f3bbce7c920ecafdc825ce3bdacb54aefad8daf8dd8b"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:6114d714b6c831612af982ab",
+      "result_id": "c041-r003",
+      "salary_raw": "8000-14000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c041.json",
+        "evidence_sha256": "b23406386763b32e38b874d6d1f70ef7dcdcb7e4509433764425f4b1419a06a3",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          332,
+          343
+        ],
+        "quote": "8000-14000元",
+        "quote_sha256": "18cd10c054f5f6556645c0e710371d9a5c1ab98ba08e81ca3e72518621f3759f"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:3522868080346c44bd35c51c",
+      "result_id": "c067-r004",
+      "salary_raw": "8000-15000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c067.json",
+        "evidence_sha256": "74d2b3a07bdba30e53b7e963d268205873d2dfd8f888d3e6454c8e5c9979bf3e",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          285,
+          296
+        ],
+        "quote": "8000-15000元",
+        "quote_sha256": "0787f6d65b842aeeeb30f3bbce7c920ecafdc825ce3bdacb54aefad8daf8dd8b"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:3f6dbbd882d0b035e83931fa",
+      "result_id": "c067-r005",
+      "salary_raw": "8000-15000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c067.json",
+        "evidence_sha256": "74d2b3a07bdba30e53b7e963d268205873d2dfd8f888d3e6454c8e5c9979bf3e",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          297,
+          308
+        ],
+        "quote": "8000-15000元",
+        "quote_sha256": "0787f6d65b842aeeeb30f3bbce7c920ecafdc825ce3bdacb54aefad8daf8dd8b"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:b69d9f67cbb5b4728cfa210f",
+      "result_id": "c087-r004",
+      "salary_raw": "9000-17000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c087.json",
+        "evidence_sha256": "6ccbf926c2435a4e5cb81df8a673ccb7aee58d6ea4a62fecee154145ddde6cac",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          414,
+          425
+        ],
+        "quote": "9000-17000元",
+        "quote_sha256": "6d7ba323961c7091a79a5dbdbed58e528a370cea0c2cd2194143fb405dba81af"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:a7d83930701d01e6d388f492",
+      "result_id": "c087-r003",
+      "salary_raw": "9000-17000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c087.json",
+        "evidence_sha256": "6ccbf926c2435a4e5cb81df8a673ccb7aee58d6ea4a62fecee154145ddde6cac",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          360,
+          371
+        ],
+        "quote": "9000-17000元",
+        "quote_sha256": "6d7ba323961c7091a79a5dbdbed58e528a370cea0c2cd2194143fb405dba81af"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:a8494eb9f4fac185f64d72c9",
+      "result_id": "c087-r001",
+      "salary_raw": "4000-8000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c087.json",
+        "evidence_sha256": "6ccbf926c2435a4e5cb81df8a673ccb7aee58d6ea4a62fecee154145ddde6cac",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          414,
+          424
+        ],
+        "quote": "4000-8000元",
+        "quote_sha256": "e45dc10dc658ca569d58de266717a7a524a1140619e0a8d5d98f50b898ec78b2"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:aa64846905f72f88566674fd",
+      "result_id": "c087-r005",
+      "salary_raw": "3000-6000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c087.json",
+        "evidence_sha256": "6ccbf926c2435a4e5cb81df8a673ccb7aee58d6ea4a62fecee154145ddde6cac",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          379,
+          389
+        ],
+        "quote": "3000-6000元",
+        "quote_sha256": "77928fb4a2f5c02cae59636beaaee4f9fc5f71a2fa634861b5c8e20005787615"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:75a7f60202ffd72dd341ad85",
+      "result_id": "c087-r007",
+      "salary_raw": "4000-8000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/c087.json",
+        "evidence_sha256": "6ccbf926c2435a4e5cb81df8a673ccb7aee58d6ea4a62fecee154145ddde6cac",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          346,
+          356
+        ],
+        "quote": "4000-8000元",
+        "quote_sha256": "e45dc10dc658ca569d58de266717a7a524a1140619e0a8d5d98f50b898ec78b2"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    },
+    {
+      "id": "search-lead:246a5f60246b1106d7314d50",
+      "result_id": "k15-r001",
+      "salary_raw": "9000-15000元",
+      "source": {
+        "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-10-08/raw/k15.json",
+        "evidence_sha256": "b54f7bb0bda0d42926cf30ab470cd57ffff49c9d23ae23d393db596d5d0d1dca",
+        "locator": "search_excerpt",
+        "excerpt_char_range": [
+          266,
+          277
+        ],
+        "quote": "9000-15000元",
+        "quote_sha256": "e59ab9da9fc36b378662d496ed870958ed041539ba9ab5c11ed00111df0c388d"
+      },
+      "period": null,
+      "live_source_retrieved": false
+    }
+  ]
+}

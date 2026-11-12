@@ -1,0 +1,478 @@
+[
+  {
+    "company": "Meta",
+    "title": "Client Solutions Manager",
+    "location": "Hong Kong",
+    "team": "Sales & Marketing / Client Solutions",
+    "url": "https://www.metacareers.com/profile/job_details/1870994043764817",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网"
+  },
+  {
+    "company": "Meta",
+    "title": "Enterprise Technical Sales Specialist",
+    "location": "Hong Kong",
+    "team": "Sales & Marketing / Sales",
+    "url": "https://www.metacareers.com/profile/job_details/4353897074885903/",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网"
+  },
+  {
+    "company": "Meta",
+    "title": "Director of Public Policy, Greater China Region",
+    "location": "Hong Kong",
+    "team": "Communications & Public Policy / Public Policy",
+    "url": "https://www.metacareers.com/profile/job_details/2978982495789572",
+    "relevant": false,
+    "skip_reason": "公共政策主岗，非销售/商务",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Meta",
+    "title": "Enterprise Technical Sales Manager",
+    "location": "Hong Kong",
+    "team": "Sales & Marketing / Sales",
+    "url": "https://www.metacareers.com/profile/job_details/938733315911187",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网"
+  },
+  {
+    "company": "Google",
+    "title": "MBA Intern, 2027",
+    "location": "Hong Kong",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/110899190426411718-mba-intern-2027?location=Hong%20Kong",
+    "relevant": false,
+    "skip_reason": "实习 Intern & Apprentice",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Google",
+    "title": "AI Sales Specialist, Cloud Go-to-Market",
+    "location": "Hong Kong",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/101553767597384390-ai-sales-specialist-cloud-gotomarket?location=Hong%20Kong",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网",
+    "level": "Advanced"
+  },
+  {
+    "company": "Google",
+    "title": "Account Strategist, Engage, Google Customer Solutions (English, Cantonese)",
+    "location": "Hong Kong",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/72950602618806982-account-strategist-engage-google-customer-solutions-english-cantonese?location=Hong%20Kong",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网",
+    "level": "Early"
+  },
+  {
+    "company": "Google",
+    "title": "Government Affairs and Public Policy Manager",
+    "location": "Hong Kong",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/123354428886393542-government-affairs-and-public-policy-manager?location=Hong%20Kong",
+    "relevant": false,
+    "skip_reason": "公共政策主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Google",
+    "title": "YouTube Industry Manager, Travel (English, Cantonese)",
+    "location": "Hong Kong",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/141782613135106758-youtube-industry-manager-travel-english-cantonese?location=Hong%20Kong",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网",
+    "level": "Mid",
+    "company_brand": "YouTube"
+  },
+  {
+    "company": "Google",
+    "title": "Industry Principal Architect, Web3",
+    "location": "Hong Kong",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/105740539566924486-industry-principal-architect-web3?location=Hong%20Kong",
+    "relevant": false,
+    "skip_reason": "系统架构/技术主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Google",
+    "title": "Measurement Specialist, Large Customer Sales (Mandarin, English)",
+    "location": "Shanghai, China; Beijing, China; +1 more（列表主展示非香港，待核）",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/113629252833682118-measurement-specialist-large-customer-sales-mandarin-english?location=Hong%20Kong",
+    "relevant": false,
+    "skip_reason": "列表地点主要为上海/北京，且偏衡量分析岗；未开详情",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Google",
+    "title": "Google Workspace Sales Specialist",
+    "location": "Hong Kong",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/108946672523846342-google-workspace-sales-specialist?location=Hong%20Kong",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网",
+    "level": "Advanced"
+  },
+  {
+    "company": "Google",
+    "title": "Metro Network Deployment Engineer",
+    "location": "Hong Kong",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/107660329818694342-metro-network-deployment-engineer?location=Hong%20Kong",
+    "relevant": false,
+    "skip_reason": "网络工程主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Google",
+    "title": "Practice Customer Engineer, Migrations, Infrastructure and App (Cantonese, Mandarin, English)",
+    "location": "Hong Kong",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/104627172374651590-practice-customer-engineer-migrations-infrastructure-and-app-cantonese-mandarin-english?location=Hong%20Kong",
+    "relevant": false,
+    "skip_reason": "Customer Engineer/云架构技术主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Apple",
+    "title": "HK - Specialist: Part-time, Temporary",
+    "location": "Various Locations within Hong Kong",
+    "team": "Apple Retail",
+    "posted_or_updated": "Nov 12, 2026",
+    "url": "https://jobs.apple.com/en-us/details/114438082/hk-specialist-part-time-temporary?team=APPST",
+    "relevant": false,
+    "skip_reason": "兼职/临时",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Apple",
+    "title": "Senior Enterprise Network Engineer",
+    "location": "Hong Kong",
+    "team": "Software and Services",
+    "posted_or_updated": "Nov 10, 2026",
+    "url": "https://jobs.apple.com/en-us/details/200693649-0764/senior-enterprise-network-engineer?team=SFTWR",
+    "relevant": false,
+    "skip_reason": "网络工程主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Apple",
+    "title": "Data Center Engineer, Data Center Operations",
+    "location": "Hong Kong",
+    "team": "Software and Services",
+    "posted_or_updated": "Oct 26, 2026",
+    "url": "https://jobs.apple.com/en-us/details/200690332-0764/data-center-engineer-data-center-operations?team=SFTWR",
+    "relevant": false,
+    "skip_reason": "数据中心工程主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Apple",
+    "title": "Business Development Manager - Apple Pay eCommerce (Greater China)",
+    "location": "Hong Kong",
+    "team": "Sales and Business Development",
+    "posted_or_updated": "Oct 20, 2026",
+    "url": "https://jobs.apple.com/en-us/details/200687907-0764/business-development-manager-apple-pay-ecommerce-greater-china?team=SLDEV",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网"
+  },
+  {
+    "company": "Apple",
+    "title": "Real Estate Associate – Retail Real Estate, Places",
+    "location": "Hong Kong",
+    "team": "Corporate Functions",
+    "posted_or_updated": "Oct 13, 2026",
+    "url": "https://jobs.apple.com/en-us/details/200686326-0764/real-estate-associate-retail-real-estate-places?team=CORSV",
+    "relevant": false,
+    "skip_reason": "零售地产/房地产岗，非销售商务主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Apple",
+    "title": "Development Manager",
+    "location": "Hong Kong",
+    "team": "Corporate Functions",
+    "posted_or_updated": "Sep 19, 2026",
+    "url": "https://jobs.apple.com/en-us/details/200681899-0764/development-manager?team=CORSV",
+    "relevant": false,
+    "skip_reason": "Corporate Functions，疑为地产/场所开发而非商务BD；未开详情",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Apple",
+    "title": "Senior Manager, Hong Kong",
+    "location": "Hong Kong",
+    "team": "Apple Retail",
+    "posted_or_updated": "Mar 09, 2022",
+    "url": "https://jobs.apple.com/en-us/details/200330664-0764/senior-manager-hong-kong?team=APPST",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网",
+    "note": "列表日期较旧（2022），仍在公开搜索结果中"
+  },
+  {
+    "company": "Amazon",
+    "source": "官网",
+    "location": "Hong Kong SAR",
+    "list_url": "https://amazon.jobs/content/en/locations/china/hong-kong-sar",
+    "note": "地区介绍页内嵌岗位搜索，显示 26 OPEN JOBS。Category 筛 Sales, Advertising, & Account Management (2) + Business & Merchant Development (1) 后得到下列 3 条相关岗。其余主要为数据中心/设施/解决方案架构/安全工程等，未逐条开详情。另有 Project/Program/Product Management--Non-Tech (1) 未核标题。",
+    "relevant_count_in_sales_bd": 3
+  },
+  {
+    "company": "Amazon",
+    "title": "AI Innovation Specialist, Business Development Team",
+    "location": "Hong Kong, HKG",
+    "posted_or_updated": "2026/10/28",
+    "url": "https://amazon.jobs/en/jobs/10574304/ai-innovation-specialist-business-development-team",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网"
+  },
+  {
+    "company": "Amazon",
+    "title": "Senior Business Development Representative, Web3, FSI DNB",
+    "location": "Hong Kong, HKG",
+    "posted_or_updated": "2026/9/22",
+    "url": "https://amazon.jobs/en/jobs/10555712/senior-business-development-representative-web3-fsi-dnb",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网"
+  },
+  {
+    "company": "Amazon",
+    "title": "Business Development Representative, Web3, FSI DNB",
+    "location": "Hong Kong, HKG",
+    "posted_or_updated": "2026/9/8",
+    "url": "https://amazon.jobs/en/jobs/10458549/business-development-representative-web3-fsi-dnb",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Azure Solution Specialist",
+    "location": "Hong Kong, Multiple Locations, Multiple Locations",
+    "posted_or_updated": "Posted 19 hours ago / Nov 11, 2026",
+    "job_number": "200066636",
+    "url": "https://apply.careers.microsoft.com/careers?domain=microsoft.com&start=0&location=Hong+Kong+SAR&pid=1970393557070367&sort_by=distance&filter_include_remote=1&filter_include_relocation=0",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网",
+    "profession": "Sales / Solution Area Specialists"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Customer Success Account Manager",
+    "location": "Hong Kong, Multiple Locations, Multiple Locations",
+    "posted_or_updated": "Posted a month ago",
+    "relevant": false,
+    "skip_reason": "客户成功主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Director Architecture",
+    "location": "Hong Kong, Multiple Locations, Multiple Locations",
+    "posted_or_updated": "Posted 2 months ago",
+    "relevant": false,
+    "skip_reason": "架构/技术领导主岗，未开详情",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Principal Customer Success Account Manager",
+    "location": "Hong Kong, Multiple Locations, Multiple Locations",
+    "posted_or_updated": "Posted 17 hours ago",
+    "relevant": false,
+    "skip_reason": "客户成功主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Lease Regional Commissioning Manager (Hong Kong)",
+    "location": "Hong Kong, Multiple Locations, Multiple Locations",
+    "posted_or_updated": "Posted a day ago",
+    "relevant": false,
+    "skip_reason": "租赁/设施调试岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "GCR Activation GTM Director - Security",
+    "location": "Hong Kong, Multiple Locations, Multiple Locations",
+    "posted_or_updated": "Oct 27, 2026",
+    "job_number": "200063214",
+    "url": "https://apply.careers.microsoft.com/careers?domain=microsoft.com&start=0&location=Hong+Kong+SAR&pid=1970393557044865&sort_by=distance&filter_include_remote=1&filter_include_relocation=0",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Solution Architect- AI",
+    "location": "Hong Kong, Multiple Locations, Multiple Locations",
+    "posted_or_updated": "Posted 5 months ago",
+    "relevant": false,
+    "skip_reason": "解决方案架构技术主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Activation GTM Manager",
+    "location": "Hong Kong, Multiple Locations, Multiple Locations + 2 more",
+    "posted_or_updated": "Posted a month ago",
+    "relevant": true,
+    "detail_collected": false,
+    "source": "官网",
+    "note": "相关 GTM 岗，因详情配额优先采了 Director/AE/Azure Specialist"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Data Center Technician",
+    "location": "Hong Kong, Multiple Locations, Multiple Locations",
+    "posted_or_updated": "Posted 3 months ago / Posted 22 days ago（列表出现两条）",
+    "relevant": false,
+    "skip_reason": "数据中心技术岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Logistics Technician",
+    "location": "Hong Kong, Multiple Locations, Multiple Locations",
+    "posted_or_updated": "Posted 20 days ago",
+    "relevant": false,
+    "skip_reason": "物流技术岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Account Technology Strategist",
+    "location": "Hong Kong SAR, Hong Kong Island, Hong Kong",
+    "posted_or_updated": "Posted 23 days ago",
+    "relevant": true,
+    "detail_collected": false,
+    "source": "官网",
+    "note": "客户团队销售技术战略岗，相关但未开详情"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Research Intern",
+    "location": "Hong Kong SAR, Hong Kong Island, Hong Kong",
+    "posted_or_updated": "Posted 2 months ago",
+    "relevant": false,
+    "skip_reason": "实习",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Researcher",
+    "location": "Hong Kong SAR, Hong Kong Island, Hong Kong",
+    "posted_or_updated": "Posted 2 months ago",
+    "relevant": false,
+    "skip_reason": "研究主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Data Center Project Manager",
+    "location": "Hong Kong SAR, Hong Kong Island, Hong Kong",
+    "posted_or_updated": "Posted 2 months ago",
+    "relevant": false,
+    "skip_reason": "数据中心项目经理",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Account Executive-Digital Native",
+    "location": "Hong Kong SAR, Hong Kong Island, Hong Kong",
+    "posted_or_updated": "Nov 05, 2026",
+    "job_number": "200064255",
+    "relevant": true,
+    "detail_collected": true,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Critical Environment Field Service Engineer",
+    "location": "Hong Kong SAR, Hong Kong Island, Hong Kong",
+    "posted_or_updated": "Posted a month ago",
+    "relevant": false,
+    "skip_reason": "现场工程岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Digital Solution Engineer-Azure",
+    "location": "Hong Kong SAR, Hong Kong Island, Hong Kong",
+    "posted_or_updated": "Posted 4 months ago",
+    "relevant": false,
+    "skip_reason": "Solution Engineer/技术售前主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Senior/Principal Researcher",
+    "location": "Hong Kong SAR, Hong Kong Island, Hong Kong",
+    "posted_or_updated": "Posted 2 months ago",
+    "relevant": false,
+    "skip_reason": "研究主岗",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Principal Security Specialists-GCR",
+    "location": "Hong Kong SAR, Hong Kong Island, Hong Kong + 2 more",
+    "posted_or_updated": "Posted 3 days ago",
+    "relevant": true,
+    "detail_collected": false,
+    "source": "官网",
+    "note": "安全解决方案销售专家，相关但未开详情"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Data Center Technician Manager",
+    "location": "Hong Kong SAR, Hong Kong Island, Hong Kong",
+    "posted_or_updated": "Posted 3 months ago",
+    "relevant": false,
+    "skip_reason": "数据中心技术管理",
+    "detail_collected": false,
+    "source": "官网"
+  },
+  {
+    "company": "Microsoft",
+    "title": "Partner Solution Sales-Security / Sr Account Executive / Sr Services AE / Account Executive - MBA 等",
+    "location": "主地点多为中国内地（北京/上海/深圳）+ more；因筛选开启 Include eligible remote jobs 出现在 HK 结果第3-4页",
+    "relevant": false,
+    "skip_reason": "列表主地点非香港，未开详情",
+    "detail_collected": false,
+    "source": "官网",
+    "note": "香港地点筛选共显示 34 jobs、4 页；第3-4页多数主地点在内地。"
+  }
+]

@@ -1,0 +1,30 @@
+Scale AI AI Sales Engineer
+Company: Scale AI
+Category: Enterprise AI
+OTE: $160K to $250K
+Work model: Hybrid / Remote
+Estimated SE team size: 30 to 50 SEs
+
+Company positioning
+Scale AI provides the data infrastructure that powers AI development at many of the world's leading AI companies and government agencies. The company started with data labeling for computer vision and expanded into generative AI evaluation, RLHF (reinforcement learning from human feedback) data, government AI programs, and enterprise AI deployment. Scale's positioning is unique: rather than selling a model or platform, they sell the data quality and evaluation infrastructure that makes AI systems reliable. The enterprise sales team helps organizations understand that AI performance depends fundamentally on data quality.
+
+AI products and platform
+Scale's product line includes Scale Data Engine for training data creation and management, Scale Generative AI Platform for LLM evaluation and fine-tuning data, Scale Donovan for government AI applications, RLHF data services for aligning language models, and Scale Enterprise AI for deploying and evaluating AI systems within organizations. The company also provides red-teaming and safety evaluation services that help customers test AI systems before production deployment.
+
+Role details
+Sales Engineers at Scale AI help customers understand why data quality determines AI performance and how Scale's products improve their AI development pipeline. A typical engagement involves assessing a customer's current data labeling and evaluation processes, demoing Scale Data Engine for creating high-quality training datasets, presenting the Generative AI Platform for LLM evaluation and benchmarking, and building a proof-of-concept that demonstrates measurable model improvement from better data. You would walk customers through RLHF data workflows, demonstrate red-teaming and safety evaluation capabilities, and help AI teams design data pipelines that feed continuous model improvement. The role requires understanding the full ML development lifecycle and the ability to quantify how data quality investments translate to model performance gains.
+
+Technical skills and requirements
+- Understanding of ML model training, evaluation, and the role of data quality
+- Python skills and familiarity with ML frameworks and evaluation metrics
+- Knowledge of data labeling methodologies and quality assurance processes
+- Familiarity with LLM fine-tuning, RLHF, and alignment techniques
+- Experience with government procurement processes is a plus for defense-focused roles
+
+Interview process
+Scale AI interviews run three to five weeks. The process includes a recruiter screen, hiring manager call, a technical deep-dive on ML and data infrastructure concepts, a customer scenario exercise where you present Scale's value proposition, and a final round with senior leadership. Scale values candidates who can articulate the connection between data quality and AI performance with specificity. The technical assessment often includes questions about evaluation metrics, data pipeline design, and how to measure the impact of data quality improvements. Candidates with direct experience in ML engineering or data science tend to perform well.
+
+Salary and compensation
+OTE for Scale AI SEs ranges from $160,000 to $250,000, with base salaries between $120,000 and $165,000. Pre-IPO equity is a significant component given the company's $13 billion+ valuation and growth trajectory. Benefits include health insurance, 401(k), flexible PTO, and professional development stipends. The company's position as the dominant data infrastructure provider for AI creates long-term equity upside as the AI market expands.
+
+Source URL: https://aisepulse.com/companies/scale-ai/

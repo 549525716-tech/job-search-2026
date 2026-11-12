@@ -1,0 +1,80 @@
+{
+  "run_id": "sweep-2026-09-14-coverage",
+  "status": "partial_with_explicit_backlog",
+  "market_scan_complete": false,
+  "actual_started_calls": 23,
+  "persisted_capture_count": 22,
+  "completed_receipts": 21,
+  "unfinished_receipt_ids": [
+    "unique001",
+    "002"
+  ],
+  "capture_hashes_valid": true,
+  "audit_status": "partial_failed_early_receipts",
+  "jobs": 36,
+  "suspected_same_page_variants": 8,
+  "company_discovery_records": 104,
+  "rejected_discovery_records": 0,
+  "corrected_discovery_source_bindings": 31,
+  "stopped_sources": [
+    "BOSS直聘：旧安全暂停，未获恢复确认",
+    "猎聘：旧验证码暂停，未获恢复确认"
+  ],
+  "failed_sources": [
+    {
+      "id": "202",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/202.json",
+      "evidence_sha256": "73034a1de2d2ca3d613b203e1a1bb66b3ee7cd144284ad09135b60894e5a3005",
+      "company": null,
+      "status": "failed_technical",
+      "observed_at": "2026-09-14T13:39:02Z",
+      "timing_valid": true,
+      "source_kind": "industry_directory",
+      "source_purpose": "company_discovery",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.stateioc.cn/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "native_pagination_complete": false,
+      "detail_completion_complete": false
+    },
+    {
+      "id": "208",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/208.json",
+      "evidence_sha256": "d8b73685dbebb3adf7c39be43037e8e72f1dea16b45cc748aa18e2fa2e4cd42d",
+      "company": "上海颉纶科技软件有限公司",
+      "status": "failed_technical",
+      "observed_at": "2026-09-14T13:40:55Z",
+      "timing_valid": true,
+      "source_kind": "official",
+      "source_purpose": "job_content",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.profetai-sh.com.cn/job-opportunities"
+          }
+        ],
+        "response_length": "long"
+      },
+      "native_pagination_complete": false,
+      "detail_completion_complete": false
+    }
+  ],
+  "execution": {
+    "collection": "controller tools after Luna wrapper failures; 21 valid captures",
+    "directory_extraction": "Luna medium; 104 raw candidate records; offline quote and hash validation",
+    "engineering": "Terra medium plus controller integration",
+    "independent_qa": "pending"
+  },
+  "caveats": [
+    "001回执无原始结果；002有结果但原时间无效且未完成队列回执；均未修造历史。",
+    "来源页面公开可读不证明当前仍招聘；目录记录不等于招聘公司；主体与行业层级待核。",
+    "搜索摘要仍保存在raw中，未全部结构化；新公司各渠道待续，不视作扫描完成。"
+  ]
+}

@@ -1,0 +1,5 @@
+[
+ {"company":"Noumena","discovered_via":"B","discovery_evidence_file":"raw/010-search-B-solution-sales.json","discovery_url":"https://www.noumena.com.cn/career/","industry":"AI企业应用","segment":"AI产品与企业服务","tier":"unverified","next_action":"A回补官方career；本轮已open但超时，下一有限波次再核"},
+ {"company":"北京掌上先机网络科技有限公司","discovered_via":"B","discovery_evidence_file":"raw/007-search-B-commercial-ops.json","discovery_url":"https://career.hebut.edu.cn/home/correcruit/content/id/79516.html","industry":"AI企业应用","segment":"电商/ERP客户成功","tier":"unverified","next_action":"保留人才门户完整JD；下一波再核官网/官方招聘归属"},
+ {"company":"牛客科技","discovered_via":"B","discovery_evidence_file":"raw/016-search-B-customer-ops.json","discovery_url":"https://www.nowcoder.com/jobs/detail/117804","industry":"企业软件与营销数字化","segment":"招聘SaaS客户成功","tier":"unverified","next_action":"仅保留公开索引；待后续独立官方招聘核验"}
+]

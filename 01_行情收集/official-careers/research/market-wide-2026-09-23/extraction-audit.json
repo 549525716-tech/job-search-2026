@@ -1,0 +1,473 @@
+{
+  "status": "local_evidence_checks_passed_pending_independent_review",
+  "jobs": 231,
+  "complete_jd": 144,
+  "files": [
+    {
+      "capture_id": "o01",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 7,
+      "full_jd": 7,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o01.json",
+      "evidence_sha256": "593b7e6fd8d5f3e3af883e67d5ddc8a1f999ab59aae8882733ad442d0eb3e2f5"
+    },
+    {
+      "capture_id": "o02",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 2,
+      "full_jd": 2,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o02.json",
+      "evidence_sha256": "4f4204a15182e3edf7d16053a95f62b0382aa27417a1e1ca6e07fd67af23661c"
+    },
+    {
+      "capture_id": "o05",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 1,
+      "full_jd": 1,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o05.json",
+      "evidence_sha256": "a04c8d5868a8dc03e5e99886e7d609f3baa2f7ad8562dbbaf41f86b2f4aa23c5"
+    },
+    {
+      "capture_id": "o10",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 6,
+      "full_jd": 6,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o10.json",
+      "evidence_sha256": "7e4c31393062ec147310738447dfbbb6cbccb52b708be33e3914af17aff27f59"
+    },
+    {
+      "capture_id": "o12",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 1,
+      "full_jd": 1,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o12.json",
+      "evidence_sha256": "fc7b2eb51091917f13cd05be48c24c88f7e2afdbc8686ba8b61a0152ed727a8a"
+    },
+    {
+      "capture_id": "o13",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 14,
+      "full_jd": 14,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o13.json",
+      "evidence_sha256": "cb9c983f80574f33919ad43fe823831eb769ccb99a59a217d6668f34891a34cb"
+    },
+    {
+      "capture_id": "o14",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 4,
+      "full_jd": 3,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o14.json",
+      "evidence_sha256": "338fb89cc0dd9f462d051e9c7db63947dad65d6355cdadd558f7c871d7ec5509"
+    },
+    {
+      "capture_id": "o15",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 25,
+      "full_jd": 23,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o15.json",
+      "evidence_sha256": "7104df5fca58f6b6a3b1a4d6a735c97ffc5f79f16f91b8713d9a8c62a458224e"
+    },
+    {
+      "capture_id": "o16",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 10,
+      "full_jd": 0,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o16.json",
+      "evidence_sha256": "bd49995c818c84d31c52ac04dd117d3477551e1ac908ab060df22f661e68d3d8"
+    },
+    {
+      "capture_id": "o17",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 3,
+      "full_jd": 3,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o17.json",
+      "evidence_sha256": "81659d4c5b1bc84771959415547095deb5df4547e45e21ada3a8fb23b7f60500"
+    },
+    {
+      "capture_id": "o18",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 5,
+      "full_jd": 5,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o18.json",
+      "evidence_sha256": "de8de43a625ab7cf5c06c0dc9e2188924a05307ecc8fe86578f66440cae781ef"
+    },
+    {
+      "capture_id": "o20",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 2,
+      "full_jd": 2,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o20.json",
+      "evidence_sha256": "cb164a7a547fd0143f383dac74b6fb5d88c80fcf23fa988c86cccb90a995eea0"
+    },
+    {
+      "capture_id": "o21",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 8,
+      "full_jd": 0,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o21.json",
+      "evidence_sha256": "f98f8703c1dbac7d9e0b61b7d452940f46618e400db268bd9f421541289f3811"
+    },
+    {
+      "capture_id": "o22",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 6,
+      "full_jd": 0,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o22.json",
+      "evidence_sha256": "4d64553e30ba8c2b704c83c2c8d012ac84e23f45a619e989a7ec2b44ff5f0458"
+    },
+    {
+      "capture_id": "o23",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 6,
+      "full_jd": 0,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o23.json",
+      "evidence_sha256": "60d20fd314a43475b4492897d0ef378d71cbc064db506731313e3df8c5acf840"
+    },
+    {
+      "capture_id": "o27",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 14,
+      "full_jd": 14,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o27.json",
+      "evidence_sha256": "e83942cc73301d66060be88334cfdb4a343c23800010b847da1144bb2a487583"
+    },
+    {
+      "capture_id": "o30",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 14,
+      "full_jd": 0,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o30.json",
+      "evidence_sha256": "c9c615f5765a158ee8084ac32399b4cc0b028e7f01304ecd82b8d55ef5a24f60"
+    },
+    {
+      "capture_id": "o31",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 10,
+      "full_jd": 10,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o31.json",
+      "evidence_sha256": "048a76ca21e620e246ad07a72c5887ca6dff2e59eed2b9e1145f70ce2769aabe"
+    },
+    {
+      "capture_id": "o32",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 10,
+      "full_jd": 10,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o32.json",
+      "evidence_sha256": "5ca417f4c5f95cb2b0a64d15ab42651bbb79d29c1c378f609c5f3546252dfa71"
+    },
+    {
+      "capture_id": "o33",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 2,
+      "full_jd": 2,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o33.json",
+      "evidence_sha256": "6161364563388f740cb75ab3cedacc79b46c1ca19a10a65d9e2a733eb47a2cc4"
+    },
+    {
+      "capture_id": "o34",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 11,
+      "full_jd": 11,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o34.json",
+      "evidence_sha256": "361024f36c029d722210be5f8bc2fa3761a0dec1618837d9bfac1959d49ecb72"
+    },
+    {
+      "capture_id": "o35",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 2,
+      "full_jd": 2,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o35.json",
+      "evidence_sha256": "67109380179df4d3761dd0f654c8715b72a94196544dde65bfa0f3b2a1d9df09"
+    },
+    {
+      "capture_id": "o36",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 10,
+      "full_jd": 10,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o36.json",
+      "evidence_sha256": "5305aae7e26b3bc9bcb7a8b67d563aead0154847fc399e4cf35613724a60f8c3"
+    },
+    {
+      "capture_id": "o38",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 6,
+      "full_jd": 6,
+      "company_claim_verified": false,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o38.json",
+      "evidence_sha256": "a482827ae068d6e7393a298ed4d84e4b7288798aca6dab6248b473ac5ba4da1e"
+    },
+    {
+      "capture_id": "o40",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 9,
+      "full_jd": 9,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o40.json",
+      "evidence_sha256": "259c20cda8159bfce095038cf7eb7295679f2ca54460690274af65364659f85c"
+    },
+    {
+      "capture_id": "o41",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 5,
+      "full_jd": 0,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o41.json",
+      "evidence_sha256": "073411fc6358435e3414d1343739e63eb49b49ca3d6b624bacd2d0ffb9d92984"
+    },
+    {
+      "capture_id": "o45",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 1,
+      "full_jd": 1,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o45.json",
+      "evidence_sha256": "ecb9a8a97661316c90308714a86745242257db4821d086341d9a483e1d7894ce"
+    },
+    {
+      "capture_id": "d09",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 1,
+      "full_jd": 0,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/d09.json",
+      "evidence_sha256": "10194b341853accbddd6c700c590342d1453e3e4786efec7299a2c5a36169cb8"
+    },
+    {
+      "capture_id": "d10",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 1,
+      "full_jd": 1,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/d10.json",
+      "evidence_sha256": "e7235ac741a664a74d888c8ec86f7e626dad05474f35f7042e0b45cddab7fffa"
+    },
+    {
+      "capture_id": "d11",
+      "status": "visible_roles_extracted_not_source_complete",
+      "roles": 1,
+      "full_jd": 1,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/d11.json",
+      "evidence_sha256": "e1faba92e41cef3c1633db941bd555c1a997524dc6ac5cedcb2ac2eac192204a"
+    },
+    {
+      "capture_id": "o06",
+      "status": "visible_role_links_extracted_details_pending",
+      "roles": 34,
+      "full_jd": 0,
+      "company_claim_verified": true,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o06.json",
+      "evidence_sha256": "6b87c2f661d26c44a30cb7aacaf349f35a2f62a0529952511d46ca25a03bf336"
+    },
+    {
+      "capture_id": "o06tail",
+      "status": "continuation_associated_existing_observations",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o06tail.json",
+      "evidence_sha256": "9d729625bf9b4f906ace5c6848a8acda051a3026cad77f3ec59d7a430f0bc2e4"
+    },
+    {
+      "capture_id": "d01",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/d01.json",
+      "evidence_sha256": "ba5584f5eb47ee86d6561da92099747bb8e832b985a7426c4527ba6bcbb6404b"
+    },
+    {
+      "capture_id": "d08",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/d08.json",
+      "evidence_sha256": "8849af2647c71632c370c6394d63bd2e189d9e818f90877b9c88623699abced2"
+    },
+    {
+      "capture_id": "o03",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o03.json",
+      "evidence_sha256": "174197edf5792c8e2897a2f3c73660db132274b8e7714d17dab5aa01da89efea"
+    },
+    {
+      "capture_id": "o04",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o04.json",
+      "evidence_sha256": "3e21eddaa0e9dcc45bb35f3d15b8df6d713b4a783f6be7c977e2b3c3fdf446f8"
+    },
+    {
+      "capture_id": "o07",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o07.json",
+      "evidence_sha256": "e6b2ece81f60f6d0625557bae85a674f9dc456ddeddb9e681a5cf8de3d1e9b06"
+    },
+    {
+      "capture_id": "o08",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o08.json",
+      "evidence_sha256": "18f6476eb1e7689fc01b28f61df3f66ccb99c47a34947007ecb109e24a26c511"
+    },
+    {
+      "capture_id": "o09",
+      "status": "entry_or_category_only_no_structured_job",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o09.json",
+      "evidence_sha256": "cb5ab15419c37f90857de3d0bed95013d096973a6b81f66de8dfd49d57b45cd3"
+    },
+    {
+      "capture_id": "o11",
+      "status": "entry_or_category_only_no_structured_job",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o11.json",
+      "evidence_sha256": "e3e407c32c50956453d6f34adc95f89bdde657151b67f57927a2b1467339be0e"
+    },
+    {
+      "capture_id": "o14tail",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o14tail.json",
+      "evidence_sha256": "6fb32c371cc59e3b7a190a96007d2fa6d5f95aa6c1d35ca3795d5c55b0eee1e2"
+    },
+    {
+      "capture_id": "o15tail",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o15tail.json",
+      "evidence_sha256": "50268da571253ea24eec5229c66f482684cd07819e9ec332730858be02adc46a"
+    },
+    {
+      "capture_id": "o19",
+      "status": "entry_or_category_only_no_structured_job",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o19.json",
+      "evidence_sha256": "6525e182f6ef7467da7622ad21c85146b3ccf3f5d42fb295b50f1a0d30ff2302"
+    },
+    {
+      "capture_id": "o24",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o24.json",
+      "evidence_sha256": "22c9d44bdbf3b90f12bfff45c9ecadb9a3a6c7dbde1118bbcdb65b3c55521b4f"
+    },
+    {
+      "capture_id": "o25",
+      "status": "empty_extraction_not_zero_jobs",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o25.json",
+      "evidence_sha256": "267e353c02b0245be52d32df5a488e0e05b70f74fc11229eed7236b2b95f439f"
+    },
+    {
+      "capture_id": "o26",
+      "status": "entry_or_category_only_no_structured_job",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o26.json",
+      "evidence_sha256": "71dd2fda1d11eae06cdd1c939784ac5cc688745493ce91975146680afe7f1988"
+    },
+    {
+      "capture_id": "o28",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o28.json",
+      "evidence_sha256": "2ede576761dd04617bf05c0f78fd40cf7cfd89e9406c0a8c946724ee570d43ca"
+    },
+    {
+      "capture_id": "o29",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o29.json",
+      "evidence_sha256": "18c26d85191fdcd12fae03abdfebb016e0b27eb2762c14f048c3a21b061e76a4"
+    },
+    {
+      "capture_id": "o32tail",
+      "status": "continuation_saved_no_new_job_evidence",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o32tail.json",
+      "evidence_sha256": "f154b8ec1809e4da5939c333e713fcb0d41c789dfeb39110c6742833e3d4d77a"
+    },
+    {
+      "capture_id": "o37",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o37.json",
+      "evidence_sha256": "3652c23987d99c58f1356c0168e82d0e4ea96d0b59a921a4da6108817e0829f6"
+    },
+    {
+      "capture_id": "o39",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o39.json",
+      "evidence_sha256": "2880e2b9c50c7d35cb9bcf950409c5fdff40c1c9a9827c3cc26b3abfa6110661"
+    },
+    {
+      "capture_id": "o42",
+      "status": "entry_or_category_only_no_structured_job",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o42.json",
+      "evidence_sha256": "46a064509718265c929417e94d1bb26e5c75be829a8274e74f56bc3f78e7c724"
+    },
+    {
+      "capture_id": "o43",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o43.json",
+      "evidence_sha256": "2c6ef4016271a0ff1b93876dc877b02e16ff8ef9350a6d673761724eb4a386e8"
+    },
+    {
+      "capture_id": "o44",
+      "status": "read_failed",
+      "roles": 0,
+      "full_jd": 0,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o44.json",
+      "evidence_sha256": "26ed920963fa72dac04d50f3fbdd68c61477875c5490f9ed3405eb1c950e7088"
+    }
+  ],
+  "source_complete": false,
+  "parser_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/extract-page-jobs.mjs",
+  "parser_sha256": "b9f3692eadeb89befaa63e02521c57084a0d086d7473b22a439279bed0af12b7"
+}

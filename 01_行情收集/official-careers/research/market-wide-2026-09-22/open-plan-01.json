@@ -1,0 +1,156 @@
+{
+  "basis": "Actual completed search captures",
+  "restriction_check": "Checked existing discovery admission records. Excluded quarantined BOSS/Liepin/MiniMax, historical LinkedIn 429 and Zhipu stopped ATS. Public independent pages only; stop domain on denied access.",
+  "reads": [
+    {
+      "id": "o01",
+      "company": "青云科技",
+      "discovery_capture": "a02",
+      "operation": "open",
+      "route": "A",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o02",
+      "company": "数势科技",
+      "discovery_capture": "a03",
+      "operation": "open",
+      "route": "A",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.digitforce.com/jobs"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o03",
+      "company": "物自体（上海）科技有限公司",
+      "discovery_capture": "a03",
+      "operation": "open",
+      "route": "A",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.noumena.com.cn/career/"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o04",
+      "company": "合共软件",
+      "discovery_capture": "a07",
+      "operation": "open",
+      "route": "A",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.hegongsoft.com/about/joinus"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o05",
+      "company": "上海用畅信息科技有限公司",
+      "discovery_capture": "a04",
+      "operation": "open",
+      "route": "A",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.yonchang.cn/Contact/hr"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o06",
+      "company": "卡奥斯",
+      "discovery_capture": "b02",
+      "operation": "open",
+      "route": "A",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://maker.haier.net/client/job/detail/id/10230413/recommend_record/1"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o07",
+      "company": "东风奕境",
+      "discovery_capture": "a06",
+      "operation": "open",
+      "route": "A",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhaopin.com/jobdetail/CC679989880J40893200705.htm"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o08",
+      "company": "阿加犀",
+      "discovery_capture": "a08",
+      "operation": "open",
+      "route": "A",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhaopin.com/jobdetail/CCL1352323920J40859332303.htm"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o09",
+      "company": "中节能数字科技",
+      "discovery_capture": "b05",
+      "operation": "open",
+      "route": "A",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhaopin.com/jobdetail/CC541239720J40514030707.htm"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "o10",
+      "company": "不等式",
+      "discovery_capture": "c019",
+      "operation": "open",
+      "route": "A",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://in-equal.com/careers"
+          }
+        ],
+        "response_length": "long"
+      }
+    }
+  ]
+}

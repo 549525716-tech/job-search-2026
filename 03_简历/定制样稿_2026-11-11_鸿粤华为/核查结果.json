@@ -1,0 +1,12 @@
+{
+  "job": "广东鸿粤集团｜华为汽车销售顾问",
+  "match": "中等偏强（一线新能源销售直接相关，但存在资历高于岗位与稳定性风险）",
+  "clean_pages": 1,
+  "annotated_pages": 2,
+  "clean_highlights": 0,
+  "clean_annotation_marks": 0,
+  "footer_or_pagenum": false,
+  "forbidden_in_clean": [],
+  "layout": "干净版一页，教育经历收在同页；标注版两页无截断；均无页码水印页脚",
+  "pdf_tool": "soffice --headless --convert-to pdf; pdftoppm -png -r 160; pdftotext -layout"
+}

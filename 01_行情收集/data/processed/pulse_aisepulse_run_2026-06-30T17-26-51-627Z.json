@@ -1,0 +1,71 @@
+{
+  "source": "AISE Pulse",
+  "createdAt": "2026-06-30T17:26:51.627Z",
+  "delayMs": 15000,
+  "jitterMs": 10000,
+  "selected": [
+    {
+      "slug": "google",
+      "company": "Google",
+      "category": "Frontier AI",
+      "route": "云与MaaS大客户路线",
+      "segment": "云计算/大模型平台",
+      "priority": "P0"
+    },
+    {
+      "slug": "microsoft",
+      "company": "Microsoft",
+      "category": "Frontier AI",
+      "route": "云与MaaS大客户路线",
+      "segment": "云计算/大模型平台",
+      "priority": "P0"
+    },
+    {
+      "slug": "aws",
+      "company": "AWS",
+      "category": "Data and Infrastructure Platforms",
+      "route": "云与MaaS大客户路线",
+      "segment": "云计算/大模型平台",
+      "priority": "P0"
+    },
+    {
+      "slug": "snowflake",
+      "company": "Snowflake",
+      "category": "Data and Infrastructure Platforms",
+      "route": "云与MaaS大客户路线",
+      "segment": "数据/MLOps/AI基础软件",
+      "priority": "P1"
+    }
+  ],
+  "importedCount": 4,
+  "skippedCount": 0,
+  "errorCount": 0,
+  "imported": [
+    {
+      "id": "c8b2a7cef118",
+      "company": "Google",
+      "salary": "$175K to $280K",
+      "url": "https://aisepulse.com/companies/google/"
+    },
+    {
+      "id": "046174fad26c",
+      "company": "Microsoft",
+      "salary": "$165K to $260K",
+      "url": "https://aisepulse.com/companies/microsoft/"
+    },
+    {
+      "id": "66d85e67f22f",
+      "company": "AWS",
+      "salary": "$160K to $245K",
+      "url": "https://aisepulse.com/companies/aws/"
+    },
+    {
+      "id": "b6cf8021f339",
+      "company": "Snowflake",
+      "salary": "$165K to $250K",
+      "url": "https://aisepulse.com/companies/snowflake/"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

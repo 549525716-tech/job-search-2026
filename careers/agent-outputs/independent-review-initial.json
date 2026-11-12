@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "role_id": "independent_reviewer",
+  "execution": {
+    "agent_id": null,
+    "model": "gpt-6-astra",
+    "reasoning_effort": "max"
+  },
+  "completed_at": "2026-09-10T15:44:17Z",
+  "status": "complete",
+  "scope": "仅审核本轮 role-policy、market-leads 及其配置、headhunter、agent-team、角色登记与 synthesis 增量。角色登记最终依赖为 careers/agent-outputs/review-registry-snapshot.json，不绑定会登记本审核的 live registry，避免自引用。读取四角色实际输出；60处引用做程序包含性及输入/输出哈希校验，个人、岗位、薪酬、行业各抽查一条结论及必要原文，不重研历史48条JD。角色执行真实性核验限于四个不同登记agent ID、模型/档位、输出与配置一致性，未另行读取原始spawn会话日志。SQLite按当前只读逻辑快照复验；反例只在内存模块/清理后的测试临时目录运行。未联网、未投递、未修改代码、未运行会写报告的CLI；不等待或审核UI，不将本审核作为具体JD推荐、匹配或投递审批。",
+  "summary": "未发现仍存在的P1阻塞，记录3项P2防误筛/防误填缺口；现有15条配置未出现后两项反例的误填。最终执行 node --test careers/tests/headhunter.test.mjs careers/tests/market-leads.test.mjs careers/tests/role-policy.test.mjs，8/8通过。SQLite逻辑变更可改变摘要、无业务变化不误过期；四角色重复校验均complete，60处引用校验通过，六条综合决策绑定有效。内存中改动岗位角色输出或其synthesis绑定，相关决策均被移除并显示过期。末尾换行引起的来源块加载回归已由主控修复，最终15条/8家公司加载成功，固定底薪确认0、完整JD0、职位级索引链接1，全部在招未知且无外发授权。语义抽样：个人顾问的同期直管10人、累计带教21人、210家个人客户与画像一致；MiniMax大模型销售运营的规则、指标和资源机制结论与历史JD一致；360 AI产品销售25-30k仅为招聘区间，未认定固定底薪；人工智能+政策只支持方向性需求假设，未冒充订单或稳定就业。产品经理排除、产品营销保留及FDE非默认边界通过。",
+  "findings": [
+    {
+      "title": "[P2] 英文销售管理标题被误排除出主攻方向",
+      "priority": 2,
+      "blocking": false,
+      "conclusion": "对最终 role-policy 直接调用 classifyRole({title:'Sales Manager'})、classifyRole({title:'Enterprise Sales Director'})、classifyRole({title:'Head of Sales'})，均返回 eligible:false、tier:'excluded'、category:'非当前主线'；即使补充明确的企业销售、客户收入和团队配额JD也仍被排除。对应中文'销售经理'和英文'Account Executive'为primary。销售分支缺少常见英文Sales职称，因此会漏掉用户主攻的英文销售及销售管理机会。当前抽样数据以中文为主，未因此阻断已取得的15条线索。",
+      "evidence": [
+        {
+          "path": "careers/role-policy.mjs",
+          "quote": "if (/销售|大客户|客户经理|商业化|account executive|account manager|\\bKA\\b|regional general manager|country manager/i.test(title)) return result('primary', '销售与大客户', '客户拓展、经营与商业化主线，需区分一线配额岗与实际带队岗。');"
+        },
+        {
+          "path": "careers/role-policy.mjs",
+          "quote": "return result('excluded', '非当前主线', '未找到市场、销售、商务或商业运营的明确岗位职责信号。');"
+        }
+      ],
+      "risk": "后续官网增量中只有英文Sales标题的商业岗位会静默落入排除池，造成语言相关的方向误筛；不能将修复后的职能纳入视为真实管理权、个人匹配或薪酬通过。",
+      "next_action": "在保留产品经理/实习排除及售前、Sales Operations优先分类的前提下，补齐有词边界的Sales Manager、Sales Director、Head of Sales等英文销售标题识别，并增加上述反例、Product Marketing保留、Product Manager排除和Sales Engineer仍为adjacent的回归测试。"
+    },
+    {
+      "title": "[P2] 同一来源块内仍能串用相邻岗位薪资",
+      "priority": 2,
+      "blocking": false,
+      "conclusion": "用真实360-ai-sales线索和原始headhunter-search-03回执，在内存副本中只把salary_raw从25-30k改为相邻'AI创新产品管理岗位'的80-110k·15薪，loadMarketLeads仍接受并返回'AI产品销售 / 80-110k·15薪'。现有quote连续包含多个岗位，标题和薪资分别includes即可通过；新增的同source_url结果块约束不能证明金额属于该条岗位。该反例未写入配置，且salary_target仍保持eligible:false、pending:true。",
+      "evidence": [
+        {
+          "path": "careers/market-leads.mjs",
+          "quote": "|| !lead.evidence.quote.includes(lead.title) || !lead.evidence.quote.includes(lead.salary_raw)) throw new Error('Public-lead quote or provenance mismatch');"
+        },
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "\"quote\": \"AI产品销售 25-30k 北京-朝阳区 3年以上 本科 2026-08-27 AI创新产品管理岗位 80-110k·15薪 北京 5年以上 本科 2026-08-26 GEO广告销售 13-25k 北京-朝阳区 3-5年 统招本科 2026-08-26 高级产品技术管理岗 45-70k·15薪 北京 8年以上 统招本科 2026-08-26 生态渠道经理-办公智能体/纳米work 20-30k·\""
+        }
+      ],
+      "risk": "录入或提取时的同页串行错误会带着有效来源SHA进入薪资线索报告，抬高招聘区间和后续核验优先级；固定底薪待核标记不能消除原始招聘区间错配。",
+      "next_action": "将标题、薪资及岗位身份绑定到同一条岗位记录/同一行级证据，而非整段多岗位摘要；保留原回执连续引用，在导入时核验字段对应关系。使用360-ai-sales原始长quote加salary_raw='80-110k·15薪'补一个必须拒绝的回归测试，不改写原始来源。"
+    },
+    {
+      "title": "[P2] 公司来源页仍可被提升为职位直链",
+      "priority": 2,
+      "blocking": false,
+      "conclusion": "在真实360-ai-sales的内存副本中仅设job_url=source_url，即https://m.liepin.com/company/6429309/，当前加载器仍接受。该URL本就出现在来源块标题中，因此通过sourceBlock.includes(job_url)；报告又仅按job_url是否非空标为'索引取得的职位链接'。当前配置正确保留job_url:null，但校验器没有阻止公司页/搜索页被误填到职位链接字段。",
+      "evidence": [
+        {
+          "path": "careers/market-leads.mjs",
+          "quote": "|| !receipt.result.includes(lead.evidence.quote) || !sourceBlock?.includes(lead.evidence.quote.trim()) || (lead.job_url && !sourceBlock.includes(lead.job_url))"
+        },
+        {
+          "path": "careers/market-leads.mjs",
+          "quote": "`- ${x.description_summary}`, `- [${x.job_url ? '索引取得的职位链接' : '招聘来源页，非职位直链'}](${x.job_url || x.source_url})`, `- 来源更新原文：${x.source_update_raw || '未提供'}；索引取得：${x.observed_at}。`, `- 证据：${x.evidence.path}；SHA256：${x.evidence.sha256}`, ''])].join('\\n');"
+        }
+      ],
+      "risk": "未来误填会把公司列表入口包装成岗位级链接，破坏已明确的来源页与职位直链边界；同块出现只能证明链接被观察到，不能证明其为目标职位详情。",
+      "next_action": "增加岗位级URL类型及身份绑定验证；已知/company/和/s/等公司或搜索入口只能留在source_url。未取得目标职位身份对应的详情链接时强制job_url:null，并为job_url=source_url（公司页）、搜索页及同块其他岗位链接分别增加拒绝反例，保留百度已取得的岗位级索引链接。"
+    }
+  ],
+  "questions": [],
+  "input_files": [
+    ".agents/skills/official-career-intelligence/SKILL.md",
+    "01_行情收集/official-careers/careers.sqlite",
+    "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+    "01_行情收集/official-careers/research/headhunter-search-02.json",
+    "01_行情收集/official-careers/research/headhunter-search-03.json",
+    "01_行情收集/official-careers/research/headhunter-search-04.json",
+    "01_行情收集/official-careers/research/policy-search-2026-09-10.json",
+    "01_行情收集/official-careers/research/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac.txt",
+    "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about.txt",
+    "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home.txt",
+    "01_行情收集/official-careers/research/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home.txt",
+    "01_行情收集/official-careers/research/state.json",
+    "02_岗位画像/我的当前情况总结.md",
+    "careers/agent-outputs/candidate-strategy.json",
+    "careers/agent-outputs/compensation-review.json",
+    "careers/agent-outputs/industry-company.json",
+    "careers/agent-outputs/job-scout.json",
+    "careers/agent-outputs/review-registry-snapshot.json",
+    "careers/config/agent-team.json",
+    "careers/config/career-strategy.json",
+    "careers/config/funnel-sample.json",
+    "careers/config/headhunter-synthesis.json",
+    "careers/config/market-leads.json",
+    "careers/config/preferences.json",
+    "careers/config/profile-supplement.json",
+    "careers/docs/headhunter-team.md",
+    "careers/docs/private-headhunter.md",
+    "careers/headhunter.mjs",
+    "careers/market-leads.mjs",
+    "careers/paths.mjs",
+    "careers/role-policy.mjs",
+    "careers/salary-target.mjs",
+    "careers/salary.mjs",
+    "careers/tests/headhunter.test.mjs",
+    "careers/tests/market-leads.test.mjs",
+    "careers/tests/role-policy.test.mjs",
+    "package.json"
+  ],
+  "not_covered": []
+}

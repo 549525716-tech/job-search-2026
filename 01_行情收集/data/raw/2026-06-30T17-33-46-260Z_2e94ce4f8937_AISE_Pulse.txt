@@ -1,0 +1,30 @@
+Abnormal AI AI Sales Engineer
+Company: Abnormal AI
+Category: AI-Native Startup
+OTE: $124K to $250K
+Work model: Hybrid (San Francisco)
+Estimated SE team size: 15 to 25 SEs
+
+Company positioning
+Abnormal AI (formerly Abnormal Security) uses AI and machine learning to detect and prevent email-based attacks that traditional security tools miss. The company's behavioral AI platform analyzes communication patterns, user behavior, and content to identify threats like business email compromise, phishing, account takeovers, and supply chain fraud. Abnormal has grown rapidly by demonstrating that AI-native security outperforms legacy rule-based and signature-based email security tools. The company has crossed $200 million in ARR, making it one of the fastest-growing cybersecurity companies in history.
+
+AI products and platform
+The product suite includes Inbound Email Security (detecting phishing, BEC, and social engineering), Account Takeover Protection (identifying compromised accounts through behavioral analysis), Email Productivity (automating email triage and response), and Security Posture Management. The platform integrates directly with Microsoft 365 and Google Workspace via API, requiring no mail flow changes or gateway configuration. The AI engine builds behavioral profiles for every user and vendor, detecting anomalies that rules and signatures cannot catch.
+
+Role details
+Sales Engineers at Abnormal AI run proof-of-value (POV) deployments where the platform connects to a prospect's email environment and immediately starts detecting threats that their existing tools missed. This is one of the most compelling SE experiences in the industry because the product proves itself in real time on the customer's own data. A typical engagement involves connecting the platform via API to Microsoft 365 or Google Workspace, reviewing the threats detected during the POV period, presenting findings to the security team and CISO, and explaining how behavioral AI differs from rule-based and gateway-based approaches. You would demo the threat detection console, walk through specific attack examples caught by the platform, explain the behavioral AI models that power detection, and address concerns about API-based deployment versus inline mail flow changes.
+
+Technical skills and requirements
+- Understanding of email security architecture (gateways, APIs, threat types)
+- Familiarity with Microsoft 365 and Google Workspace administration
+- Knowledge of cybersecurity concepts: phishing, BEC, account takeover, DMARC
+- Ability to explain behavioral AI and anomaly detection to security teams
+- Experience with proof-of-value deployments and competitive evaluations
+
+Interview process
+Abnormal AI interviews run three to four weeks. The process includes a recruiter screen, hiring manager call, a technical assessment on email security and AI concepts, a POV presentation exercise where you walk through findings from a simulated deployment, and a final round with leadership. Abnormal values candidates who can explain AI-powered threat detection clearly and handle competitive objections from customers currently using Proofpoint, Mimecast, or Microsoft Defender. The POV presentation exercise is the most important component. You need to demonstrate that you can translate raw detection data into a compelling security narrative for a CISO audience.
+
+Salary and compensation
+OTE for Abnormal AI SEs ranges from $124,000 to $250,000, with base salaries between $95,000 and $160,000. The wide range reflects different experience levels and specializations. Pre-IPO equity is a significant component given the company's rapid revenue growth and high valuation. Benefits include health insurance, 401(k), flexible PTO, and professional development stipends. The company's growth trajectory creates opportunities for rapid career advancement.
+
+Source URL: https://aisepulse.com/companies/abnormal-ai/

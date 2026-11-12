@@ -1,0 +1,13 @@
+{
+  "version": "2026-09-23-current-xhigh-v2",
+  "current_policy": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "registration_required_before_approval": true,
+    "independence_required": true
+  },
+  "reviewers": [],
+  "historical_reviewers": [
+    {"agent_id": "01a086a5-5b5b-7522-a6d1-7674145d21ad", "model": "gpt-6-astra", "reasoning_effort": "max", "basis": "Accepted independent reviewer spawn in this Codex task; not an implementation or matching worker"}
+  ]
+}

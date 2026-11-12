@@ -1,0 +1,17 @@
+slug,company,category,route,segment,priority
+openai,OpenAI,Frontier AI,AI软件落地路线,基座大模型/Agent平台,P0
+anthropic,Anthropic,Frontier AI,AI软件落地路线,基座大模型/Agent平台,P0
+google,Google,Frontier AI,云与MaaS大客户路线,云计算/大模型平台,P0
+microsoft,Microsoft,Frontier AI,云与MaaS大客户路线,云计算/大模型平台,P0
+databricks,Databricks,Data and Infrastructure Platforms,云与MaaS大客户路线,数据/MLOps/AI基础软件,P0
+snowflake,Snowflake,Data and Infrastructure Platforms,云与MaaS大客户路线,数据/MLOps/AI基础软件,P1
+aws,AWS,Data and Infrastructure Platforms,云与MaaS大客户路线,云计算/大模型平台,P0
+oracle,Oracle,Data and Infrastructure Platforms,云与MaaS大客户路线,云计算/大模型平台,P1
+salesforce,Salesforce,Enterprise AI Platforms,AI软件落地路线,智能客服/营销/销售AI,P0
+palantir,Palantir,Enterprise AI Platforms,行业解决方案路线,数据/MLOps/AI基础软件,P1
+scale-ai,Scale AI,Enterprise AI Platforms,行业解决方案路线,数据/MLOps/AI基础软件,P1
+c3ai,C3.ai,Enterprise AI Platforms,行业解决方案路线,工业AI/智能制造,P1
+jasper,Jasper,AI-Native Startups,AI软件落地路线,智能客服/营销/销售AI,P1
+abnormal-ai,Abnormal AI,AI-Native Startups,AI软件落地路线,AI安全/私有化/信创,P1
+superhuman,Superhuman,AI-Native Startups,AI软件落地路线,企业协同/AI办公,P2
+lockheed-martin,Lockheed Martin,Defense and Government AI,行业解决方案路线,AI安全/私有化/信创,P2

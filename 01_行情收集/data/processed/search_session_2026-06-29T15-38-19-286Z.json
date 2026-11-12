@@ -1,0 +1,25 @@
+{
+  "createdAt": "2026-06-29T15:38:19.287Z",
+  "dryRun": false,
+  "count": 2,
+  "urls": [
+    {
+      "source": "BOSS直聘",
+      "group": "AI销售",
+      "roleFamily": "销售",
+      "keyword": "AI销售",
+      "city": "全国",
+      "cityCode": "100010000",
+      "url": "https://www.zhipin.com/web/geek/job?query=AI%E9%94%80%E5%94%AE&city=100010000"
+    },
+    {
+      "source": "BOSS直聘",
+      "group": "AI销售",
+      "roleFamily": "销售",
+      "keyword": "大模型销售",
+      "city": "全国",
+      "cityCode": "100010000",
+      "url": "https://www.zhipin.com/web/geek/job?query=%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%94%80%E5%94%AE&city=100010000"
+    }
+  ]
+}

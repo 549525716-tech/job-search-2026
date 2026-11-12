@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "version": "2026-09-14-user-model-policy-v4",
+  "mission": "理解候选人、研究真实需求、判断可行路径、保护收入与事实边界，执行用户授权，并以面试和offer质量复盘。",
+  "standards_source": "https://www.aesc.org/standards/",
+  "standards_adaptation": "参考专业猎头的诚信、严谨、客观和保密要求，适配为候选人一侧的私人猎头；不冒称AESC认证。",
+  "principles": [
+    "以候选人长期利益为先",
+    "原文与判断分离",
+    "缺口主动提问而非编造",
+    "固定收入和管理权限单独核验",
+    "材料外发须具体授权",
+    "用真实反馈而非打开网页次数评估"
+  ],
+  "network_policy": "所有角色不得自行并发联网；检索交由一个共享限速队列，间隔10至20秒，拒绝或验证立即停源。",
+  "dispatch_policy": "CLI只准备输入与汇总校验；现有Codex调用真实子代理，未调用不得记为已运行，不新增API付费。",
+  "roles": [
+    {
+      "id": "candidate_advisor",
+      "name": "个人定位顾问",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "depends_on": [],
+      "goal": "形成事实可信的价值主张、主攻及过渡方向",
+      "inputs": [
+        "02_岗位画像/我的当前情况总结.md",
+        "careers/config/profile-supplement.json",
+        "careers/config/preferences.json",
+        "careers/config/career-strategy.json"
+      ],
+      "output": "careers/agent-outputs/candidate-strategy.json",
+      "acceptance": "直接证据、迁移证据、缺口分开；不推断品牌/产品经理背景"
+    },
+    {
+      "id": "industry_company_researcher",
+      "name": "产业与公司研究员",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "depends_on": [],
+      "goal": "整理政策、采购场景、公司和招聘归属原始证据，提交行业与公司候选；重要行业取舍和层级判断交GPT-6",
+      "inputs": [
+        "careers/config/funnel-sample.json",
+        "careers/config/company-tier-policy.json",
+        "careers/config/source-catalog.json",
+        "01_行情收集/official-careers/research/state.json",
+        "careers/config/market-leads.json",
+        "careers/config/discovery-policy.json",
+        "careers/docs/dual-route-discovery.md"
+      ],
+      "output": "careers/agent-outputs/industry-company.json",
+      "acceptance": "政策不等于订单，公司规模与层级有依据；未核官网不得称官网机会"
+    },
+    {
+      "id": "job_scout",
+      "name": "岗位需求研究员",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "depends_on": [],
+      "goal": "按A/B冻结任务执行低频采集，保存原文、名称和内容命中、归属线索、分页和待续；关键词语义与岗位判断交GPT-6",
+      "inputs": [
+        "careers/config/preferences.json",
+        "careers/role-policy.mjs",
+        "careers/config/company-tier-policy.json",
+        "careers/config/source-catalog.json",
+        "01_行情收集/official-careers/careers.sqlite",
+        "careers/config/discovery-policy.json",
+        "careers/docs/dual-route-discovery.md"
+      ],
+      "output": "careers/agent-outputs/job-scout.json",
+      "acceptance": "全文JD和历史采集证据可追溯；不把内部评分当面试概率"
+    },
+    {
+      "id": "compensation_reviewer",
+      "name": "薪酬与信息核验员",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "depends_on": [],
+      "goal": "区别招聘区间、固定底薪、奖金和OTE，检查索引和在招证据",
+      "inputs": [
+        "careers/config/market-leads.json",
+        "careers/config/preferences.json",
+        "careers/salary-target.mjs"
+      ],
+      "output": "careers/agent-outputs/compensation-review.json",
+      "acceptance": "无固定底薪证据不标达标；不伪造JD和职位直链"
+    },
+    {
+      "id": "materials_advisor",
+      "name": "匹配与材料顾问",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "depends_on": [
+        "candidate_advisor",
+        "job_scout",
+        "compensation_reviewer"
+      ],
+      "trigger": "真实JD关键词提炼与重要行业判断，或重点岗位匹配；外发另需具体授权",
+      "goal": "用GPT-6自上而下提炼岗位名称/内容词与语义边界、核实产业判断，并逐岗映射个人证据及材料建议",
+      "inputs": [
+        "careers/config/preferences.json",
+        "careers/config/application-policy.json",
+        "careers/config/company-tier-policy.json",
+        "careers/config/source-catalog.json",
+        "careers/config/discovery-policy.json",
+        "careers/docs/dual-route-discovery.md"
+      ],
+      "output": "careers/agent-outputs/materials-advice.json",
+      "acceptance": "事实不增造；沿用简历须完整JD、门槛核查、主线一致及独立复核",
+      "task_dependencies": {
+        "keyword_extraction": [
+          "job_scout"
+        ],
+        "industry_judgment": [
+          "industry_company_researcher"
+        ],
+        "candidate_matching": [
+          "candidate_advisor",
+          "job_scout",
+          "compensation_reviewer"
+        ]
+      }
+    },
+    {
+      "id": "independent_reviewer",
+      "name": "独立质量检核员",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "depends_on": [
+        "candidate_advisor",
+        "job_scout",
+        "compensation_reviewer"
+      ],
+      "goal": "检查证据、越界、角色执行真实性及重大遗漏",
+      "inputs": [
+        "careers/config/preferences.json",
+        "careers/config/agent-team.json",
+        "careers/config/company-tier-policy.json",
+        "careers/config/source-catalog.json",
+        "careers/market-leads.mjs",
+        "careers/headhunter.mjs",
+        "careers/config/discovery-policy.json",
+        "careers/docs/dual-route-discovery.md"
+      ],
+      "output": "careers/agent-outputs/independent-review.json",
+      "acceptance": "未参与实现；输出具体缺陷与证据，不将程序测试当语义验收"
+    }
+  ],
+  "coordinator": {
+    "name": "私人猎头总控",
+    "model": "current_codex_session",
+    "goal": "合并重复、明确分歧与取舍，输出一份综合文档；不替代子代理执行证据",
+    "limits": "每个分析批次最多20条，不限制公司或岗位采集总量；最多两个执行代理写代码；同根因三轮未解则隔离；新词新公司按下一波续接。"
+  },
+  "discovery_policy_ref": "careers/config/discovery-policy.json",
+  "company_tier_policy_ref": "careers/config/company-tier-policy.json",
+  "source_catalog_ref": "careers/config/source-catalog.json",
+  "discovery_task_bindings": {
+    "industry_facts": "industry_company_researcher",
+    "route_A_and_B_execution": "job_scout",
+    "keyword_and_industry_judgment": "materials_advisor",
+    "evidence_and_coverage_review": "independent_reviewer"
+  }
+}

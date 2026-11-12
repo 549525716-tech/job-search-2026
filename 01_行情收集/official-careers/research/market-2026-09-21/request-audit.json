@@ -1,0 +1,301 @@
+{
+  "scope": "Only persisted queue records and captures. Does not prove absence of unrecorded activity or fresh HTTP responses.",
+  "status": "partial_interrupted_admission",
+  "admitted": 27,
+  "completed": 26,
+  "verified": 26,
+  "unfinished": [
+    "o19"
+  ],
+  "interrupted_outcome": "o19 was admitted before interruption without a saved result; o19r is a separately recorded continuation, not retroactive completion.",
+  "issues": [],
+  "minimum_cooldown_ms": 10050,
+  "receipts": [
+    {
+      "id": "r01",
+      "kind": "browser_visible_page_capture",
+      "operation": "open_original_browser_home",
+      "route": "session-diagnosis",
+      "observed_at": "2026-09-21T02:14:32.169Z",
+      "started_at": "2026-09-21T02:14:00.099Z",
+      "cooldown_ms": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/r01.json",
+      "evidence_sha256": "f887d86e682848147c8f1333c3114ad04038dcf9a0398b701e79d809c8cb7c9b"
+    },
+    {
+      "id": "r02",
+      "kind": "browser_visible_page_capture",
+      "operation": "local_control_page",
+      "route": "session-diagnosis",
+      "observed_at": "2026-09-21T02:15:35.474Z",
+      "started_at": "2026-09-21T02:15:16.827Z",
+      "cooldown_ms": 16183,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/r02.json",
+      "evidence_sha256": "fd52ead4cdb587b07ed7add3551a35219195f82ba150b42d419a85f9f3dfba76"
+    },
+    {
+      "id": "r03",
+      "kind": "browser_visible_page_capture",
+      "operation": "public_control_page",
+      "route": "session-diagnosis",
+      "observed_at": "2026-09-21T02:16:27.607Z",
+      "started_at": "2026-09-21T02:16:04.979Z",
+      "cooldown_ms": 13864,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/r03.json",
+      "evidence_sha256": "5bd1378d0505463ca4998e724db8b1f7970c63b3632f53e5d4732109fd5f2cf3"
+    },
+    {
+      "id": "o01",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "browser-documentation",
+      "observed_at": "2026-09-21T02:17:50.967Z",
+      "started_at": "2026-09-21T02:17:48.457Z",
+      "cooldown_ms": 16155,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o01.json",
+      "evidence_sha256": "b86aafa63a4f05bcb1ed658bfe0061e67f16ba3b08be421da1ace7c79f191cd0"
+    },
+    {
+      "id": "o02",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "A-company-backfill",
+      "observed_at": "2026-09-21T02:18:14.972Z",
+      "started_at": "2026-09-21T02:18:13.195Z",
+      "cooldown_ms": 16765,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o02.json",
+      "evidence_sha256": "77d00e6e69531fcae37e4d3e03c5a350b882f8d1afb7919adc2c41806d8f3fec"
+    },
+    {
+      "id": "o03",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "B-AI-implementation",
+      "observed_at": "2026-09-21T02:18:38.579Z",
+      "started_at": "2026-09-21T02:18:37.193Z",
+      "cooldown_ms": 17939,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o03.json",
+      "evidence_sha256": "3f6408d0c0d910a27baf598d6060516e8937ae50134de220d059cdc477991a5a"
+    },
+    {
+      "id": "o04",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "B-channel-sales",
+      "observed_at": "2026-09-21T02:19:02.486Z",
+      "started_at": "2026-09-21T02:19:00.806Z",
+      "cooldown_ms": 15906,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o04.json",
+      "evidence_sha256": "a4a8dd564c8a3fabda97f4f9e7dcab83baffca8c115908a669bc9291b6385435"
+    },
+    {
+      "id": "o05",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "A-data-infrastructure",
+      "observed_at": "2026-09-21T02:19:26.435Z",
+      "started_at": "2026-09-21T02:19:24.719Z",
+      "cooldown_ms": 12203,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o05.json",
+      "evidence_sha256": "ea130dfcc5528bb0637e4d7483923fab6bd5b0007da8f680af208bae57f58030"
+    },
+    {
+      "id": "o06",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "A-data-infrastructure",
+      "observed_at": "2026-09-21T02:19:50.660Z",
+      "started_at": "2026-09-21T02:19:48.661Z",
+      "cooldown_ms": 12833,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o06.json",
+      "evidence_sha256": "52c1a2d354d32cecae27534efa2d46b4acb470d01a64f03e53d9c2c93854be1f"
+    },
+    {
+      "id": "o07",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "B-smart-hardware",
+      "observed_at": "2026-09-21T02:20:14.681Z",
+      "started_at": "2026-09-21T02:20:12.889Z",
+      "cooldown_ms": 18263,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o07.json",
+      "evidence_sha256": "bb55bfa2dfb9f79391121f36f33287c5793e9dc39764a1bb427457347bc54f80"
+    },
+    {
+      "id": "o08",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "B-product-marketing",
+      "observed_at": "2026-09-21T02:20:38.614Z",
+      "started_at": "2026-09-21T02:20:36.901Z",
+      "cooldown_ms": 16575,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o08.json",
+      "evidence_sha256": "89d11ccdba132bafa71e561b1535e1a78a18e19f29663c18890fa2e7e9c0ff32"
+    },
+    {
+      "id": "o09",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "B-revenue-operations",
+      "observed_at": "2026-09-21T02:21:02.755Z",
+      "started_at": "2026-09-21T02:21:00.839Z",
+      "cooldown_ms": 12802,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o09.json",
+      "evidence_sha256": "a9b9950504a28ae7a43621887943ac5adcbbdf7ba115afcb7524cc893acf6ccd"
+    },
+    {
+      "id": "o10",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "B-cloud-sales",
+      "observed_at": "2026-09-21T02:21:26.689Z",
+      "started_at": "2026-09-21T02:21:24.978Z",
+      "cooldown_ms": 18701,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o10.json",
+      "evidence_sha256": "a4c78c19d155b39f02e9255162e851baa9926d5cb31da3463d02da582a3a820f"
+    },
+    {
+      "id": "o11",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "click",
+      "route": "B-official-verification",
+      "observed_at": "2026-09-21T02:23:15.467Z",
+      "started_at": "2026-09-21T02:23:14.109Z",
+      "cooldown_ms": 106303,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o11.json",
+      "evidence_sha256": "da5d24dc45248fe78fdc11e159cee92ef1c9d27d103a20beee2630c1e6f8c20f"
+    },
+    {
+      "id": "o12",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "click",
+      "route": "B-official-verification",
+      "observed_at": "2026-09-21T02:23:39.094Z",
+      "started_at": "2026-09-21T02:23:37.691Z",
+      "cooldown_ms": 13052,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o12.json",
+      "evidence_sha256": "4a55c2cfd1de083fa210a44232e9d9fd3798ca95bbbbe7872993af09b8862839"
+    },
+    {
+      "id": "o13",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "A-payments-BD",
+      "observed_at": "2026-09-21T02:24:03.852Z",
+      "started_at": "2026-09-21T02:24:01.319Z",
+      "cooldown_ms": 10050,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o13.json",
+      "evidence_sha256": "5a2c1ce487c017331be9cc410c994f20397659f0675a94c1d7b321cc30381723"
+    },
+    {
+      "id": "o14",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "A-industrial-software",
+      "observed_at": "2026-09-21T02:24:27.725Z",
+      "started_at": "2026-09-21T02:24:26.074Z",
+      "cooldown_ms": 16619,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o14.json",
+      "evidence_sha256": "d8924bc7528ab6b275e9c76ae9422c3fdc340eb4da849503863af286867aad0f"
+    },
+    {
+      "id": "o15",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "A-enterprise-data",
+      "observed_at": "2026-09-21T02:24:52.003Z",
+      "started_at": "2026-09-21T02:24:49.950Z",
+      "cooldown_ms": 14065,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o15.json",
+      "evidence_sha256": "a20ad216481f6e16e85dceb0f3624a26623d55951a51bee3dfcdf7db6298e279"
+    },
+    {
+      "id": "o16",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "open",
+      "route": "A-industrial-software",
+      "observed_at": "2026-09-21T02:25:16.235Z",
+      "started_at": "2026-09-21T02:25:14.230Z",
+      "cooldown_ms": 18140,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o16.json",
+      "evidence_sha256": "dadda1f0890ce678e5c196e98b4767a55f6fdb4df0510862e3ff2a6e61f45fd3"
+    },
+    {
+      "id": "o17",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "click",
+      "route": "A-native-pagination",
+      "observed_at": "2026-09-21T02:26:50.469Z",
+      "started_at": "2026-09-21T02:26:48.914Z",
+      "cooldown_ms": 91564,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o17.json",
+      "evidence_sha256": "22ca1b32dfe56ec391941a910dea35094502ded745574557b59703799c37ebf2"
+    },
+    {
+      "id": "o18",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "click",
+      "route": "A-native-pagination",
+      "observed_at": "2026-09-21T02:27:14.347Z",
+      "started_at": "2026-09-21T02:27:12.700Z",
+      "cooldown_ms": 13930,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o18.json",
+      "evidence_sha256": "e010bc33ef065f9a359e727e04a35070bc3cb6f6ca70d39c97202cd46b6ea486"
+    },
+    {
+      "id": "o19r",
+      "kind": "web_tool_result_not_raw_http",
+      "operation": "click",
+      "route": "A-native-pagination-resume",
+      "observed_at": "2026-09-21T12:09:24.682Z",
+      "started_at": "2026-09-21T12:09:22.874Z",
+      "cooldown_ms": 34919268,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o19r.json",
+      "evidence_sha256": "57676edec142be1075dc7f03a4de7f982af17a940c35debdeb584cbbb32ebeb1"
+    },
+    {
+      "id": "c01",
+      "kind": "browser_visible_page_capture",
+      "operation": "createTab",
+      "route": "login-handoff-Chrome-authorized",
+      "observed_at": "2026-09-21T12:11:38.104Z",
+      "started_at": "2026-09-21T12:11:22.137Z",
+      "cooldown_ms": 111087,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/c01.json",
+      "evidence_sha256": "8c43f5c2472c4ebc855b15caf230f51d22a10a28237342d064b82a2a69550350"
+    },
+    {
+      "id": "c02",
+      "kind": "browser_visible_page_capture",
+      "operation": "goto",
+      "route": "single-existing-tab-recovery",
+      "observed_at": "2026-09-21T12:12:19.097Z",
+      "started_at": "2026-09-21T12:12:16.114Z",
+      "cooldown_ms": 22150,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/c02.json",
+      "evidence_sha256": "c89fc4dda463f5159414baec4cd29cca5753d6007ab1b656e14a8aa64f230d15"
+    },
+    {
+      "id": "c03",
+      "kind": "browser_visible_page_capture",
+      "operation": "createTab",
+      "route": "login-handoff-Chrome-authorized",
+      "observed_at": "2026-09-21T12:13:30.664Z",
+      "started_at": "2026-09-21T12:13:09.736Z",
+      "cooldown_ms": 18388,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/c03.json",
+      "evidence_sha256": "b5bb248c8c9575dbe830f6323db05ba7c6b038f566d21113b90d4712d0ddeaa3"
+    },
+    {
+      "id": "c04",
+      "kind": "browser_visible_page_capture",
+      "operation": "createTab",
+      "route": "Chrome-neutral-control",
+      "observed_at": "2026-09-21T12:25:08.250Z",
+      "started_at": "2026-09-21T12:24:54.917Z",
+      "cooldown_ms": 670777,
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/c04.json",
+      "evidence_sha256": "82c3a706da95f7b25eaa667dbfc6461fd939f51f9a9b9215f91f1c144ec0e525"
+    }
+  ]
+}

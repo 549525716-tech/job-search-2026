@@ -1,0 +1,1837 @@
+{
+  "command": "discovery:prepare",
+  "live_requests": 0,
+  "automatic_import": {
+    "status": "imported_as_unverified_discovery",
+    "input_sha256": "59ec93b4bca12619eb102c2a21b9f5782481040d80321144f5963cafaabad2d0",
+    "input_path": "01_行情收集/official-careers/discovery/inputs/59ec93b4bca12619eb102c2a21b9f5782481040d80321144f5963cafaabad2d0.json",
+    "imported_at": "2026-09-14T14:00:02.796Z",
+    "report_path": "01_行情收集/official-careers/reports/market-sweep.json",
+    "report_sha256": "0bf72d9dcf4110ca0a66f2b11eba6a6e2ea5713fb042f64083b07ddedfcc7f55",
+    "route": "B",
+    "jobs_sha256": "59ec93b4bca12619eb102c2a21b9f5782481040d80321144f5963cafaabad2d0",
+    "input_dir": "01_行情收集/official-careers/research/sweep-2026-09-13",
+    "records": 50,
+    "source_approvals_imported": false
+  },
+  "batch_id": "discovery-00c508ff-75d8-4898-9693-f1755d202951",
+  "batch_status": "prepared",
+  "frozen_budget": {
+    "max_companies": 5,
+    "max_requests": 30,
+    "max_pages_per_company": 3
+  },
+  "denominator": {
+    "selected_companies": 5,
+    "known_companies_at_freeze": 85,
+    "deferred_companies": 45,
+    "market_total": null
+  },
+  "companies": 225,
+  "channels": 34,
+  "queue_path": "01_行情收集/official-careers/discovery/state.json",
+  "export_path": "01_行情收集/official-careers/discovery/export.json",
+  "admission_todos": [
+    {
+      "queue_id": "company-73256bb001e8936c14e0888d",
+      "company_name": "MiniMax",
+      "status": "blocked",
+      "todos": [
+        "SOURCE_HALTED"
+      ]
+    },
+    {
+      "queue_id": "company-cf87de8100e337ba6c5bc399",
+      "company_name": "月之暗面",
+      "status": "blocked",
+      "todos": [
+        "SOURCE_HALTED"
+      ]
+    },
+    {
+      "queue_id": "company-e881de1360f1549890502586",
+      "company_name": "DeepSeek",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-70bee731b17ce9ad70574eb9",
+      "company_name": "智谱",
+      "status": "blocked",
+      "todos": [
+        "SOURCE_HALTED"
+      ]
+    },
+    {
+      "queue_id": "company-bafc63843e88f521a30c7caf",
+      "company_name": "百炼智能",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-f9c1519807a6aad32a578824",
+      "company_name": "第四范式",
+      "status": "blocked",
+      "todos": [
+        "SOURCE_HALTED"
+      ]
+    },
+    {
+      "queue_id": "company-a668b1145f0201765e11548c",
+      "company_name": "科大讯飞",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-769e2d794683169200e16b03",
+      "company_name": "火山引擎",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-c1d2cca4042394168380f6f2",
+      "company_name": "阿里云",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-c65a45fb4d3cc3da32a8a449",
+      "company_name": "腾讯云",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-7c6c4dfdf46549a3635076b6",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-3a86a2e03da503eec9e74eb5",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-04a0d223564cf39c53e1d971",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-3283b7b0b044c6371803dd32",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-ad4a018c283fdedf75430a12",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-c20f62f17f7839b8d5120113",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-742c4bb47f6d82f5146eff35",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-a6f31a6fc0a7d192cbfca123",
+      "company_name": "Salesforce",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-84db4f38649af0c3c7ac55bd",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-8fcfe574591d3d77d4444d60",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-66763fa73b26e5c446029228",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-ea7e76da9de46149a11cf862",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-4cb15b4f0afb9b95e2f83ce6",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-e74ab29a20150357a68f970c",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-4847fc3c746127363e4649ec",
+      "company_name": "百度智能云",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-986bcb9d3dd9d915e35459d5",
+      "company_name": "百度智能云",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-072496cb0bebf6b256039217",
+      "company_name": "Amazon Web Services",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-084cd8c502d318d3a66f2bd9",
+      "company_name": "百度智能云",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-b635d1bb17d7190a711179eb",
+      "company_name": "百度智能云",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-39b2a0dbfefa20feb8c1ac2d",
+      "company_name": "百度智能云",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-f4f2354b8e92e5cd38f693cd",
+      "company_name": "百度智能云",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-ad911b8b6eefd04e526ffd7e",
+      "company_name": "百度智能云",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-0d26b23a2ba30fdf18754a3e",
+      "company_name": "销售易",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-be793c96bffc541229a501af",
+      "company_name": "销售易",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-be9f045ca63d0686f337292e",
+      "company_name": "销售易",
+      "status": "needs_verification",
+      "todos": [
+        "SOURCE_APPROVAL_PENDING"
+      ]
+    },
+    {
+      "queue_id": "company-c885897a63c79df4bdd2771e",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ba3c0815374369482c2599c7",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-3e558763b20c51a5b1954924",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-46b5b34d945ec0476ab0adfd",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-2e87d5c48bc09ee60e56795c",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-f52c9ab9c1db9ff69f5a6e99",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-215a4d9d4b3da3fd8fb88105",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-174050d194a3eef52d5479e4",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-32f3ac1c46d3e678373750fd",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-52138ba03509e17eba02b72c",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-93ce6e7bf93294de21aa2b39",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-078f759cf2a5d0d9e865d527",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-3756bb4a44a8eb014a3a9cb4",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ad3552511f41a196dc893933",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-f8c635c0f8140880f943960e",
+      "company_name": "ADXJ 蓝鲸出海",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-47ab80de46c719063f572f7d",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-fa801fde527e981e461ee505",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-71bc10674a953ba56e5dea4c",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-7d5f5425c89873cf85bb0d2c",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-5f979db5356ba39566fc580a",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-b32ef06625ef9c525114988b",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-c019e6c2970c2bb6e31e1675",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ecef53a724408f10a858de9a",
+      "company_name": "探迹科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-1289825edbe89fd8788b6afc",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-983dc2c8086f1d949097254c",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-5ab1ada0c3b1fb63112ff9d5",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-c8ec28ea4b7a91a814b91c4d",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-79e8f98817264fdc89d086cc",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-d820a59a30cd8d12f136106f",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-089fa1611ec09211172869e2",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-4da7595e34d5fd43699f39a6",
+      "company_name": "纷享销客",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-7d7ac30e130d6fbcc0e10aa7",
+      "company_name": "神策数据",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-f0d33541514f8af51a14cbbc",
+      "company_name": "神策数据",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-c2f3ce40b5144bd8f261d753",
+      "company_name": "神策数据",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-8def426bfcbf672cd89aab1e",
+      "company_name": "神策数据",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-cf7fbefa013e7c4cd27374b3",
+      "company_name": "神策数据",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-c22127bf7bef33de52ea321d",
+      "company_name": "神策数据",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-058dd7e988b4125ede55c4da",
+      "company_name": "神策数据",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-e12c006b2ee1f1e9ddd2b94e",
+      "company_name": "网易智企",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ab60a256f2f9cab91d8c51f7",
+      "company_name": "湖南中项网科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-9f20730fb7a1d39813c0634a",
+      "company_name": "沃丰科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-460e58bb7b83b885c4e3a61b",
+      "company_name": "慧策|旺店通(掌上先机)",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-0e09494d78f051c047a39692",
+      "company_name": "慧策|旺店通(掌上先机)",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-3799b342dedd7cb9427f26e4",
+      "company_name": "猎豹移动",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-991c18e534afb700293ebb9c",
+      "company_name": "SparkX 邑炎科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-d809180e5689e648168aeead",
+      "company_name": "杭州正马软件科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-85edfcdd06cfa01990932ab4",
+      "company_name": "深圳胖柴点书科技有限公司广州分公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-90ab3caca8111e630b80fa8a",
+      "company_name": "金千枝(深圳)软件技术有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-6ecbc4e6ecdcaf9b586ca92d",
+      "company_name": "中企动力",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-6ec713fe91fc3044e16fda15",
+      "company_name": "领充新能源",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ea7986a6940eb83b10431f3a",
+      "company_name": "杭州智思达科技有限责任公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ecb6cf33e8626b8823f3ab10",
+      "company_name": "广东创云科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-28daa83846979b652e2cb573",
+      "company_name": "物自体（上海）科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-8640741efa9032ce6ddedc19",
+      "company_name": "物自体（上海）科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-afd552c18c87630ed9759cfc",
+      "company_name": "物自体（上海）科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ea6d809995d7749ab30d5e90",
+      "company_name": "物自体（上海）科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-51ef55c8c7644c67ab8bdfc4",
+      "company_name": "物自体（上海）科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-20999cfdeba62cce56c8323b",
+      "company_name": "物自体（上海）科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-4ca7dce9eda4f52dffe72506",
+      "company_name": "物自体（上海）科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-8ce3c436a828986f442613b6",
+      "company_name": "物自体（上海）科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-e1a4ad94a54bf7dade32540e",
+      "company_name": "物自体（上海）科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-f0dd0089fe45b24e4891bc5e",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ae2dbd6c7a331901a2e31938",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-495b3d8a56dcfbf90bc8152f",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-d50ad60f2252be7ad3785723",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-1f7710d0754fcf7c6b243749",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-5f03965c26dc4aefee9f49d4",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-dac3a1c5d36a23a5c316cd18",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-39e3da9dd75b799f10c710de",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-fdf458b65bf8eacd963deee5",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-3e19fe45081d5b8c0c532491",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-75756e740c06f30be14a7c20",
+      "company_name": "京东",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-0ccfb5d48079e95c2a3a6329",
+      "company_name": "北京华征科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-28682d052dff3ae8c244525e",
+      "company_name": "北京华征科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-033f11f96f2d93113d5e1cb4",
+      "company_name": "北京华征科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-c3991bc50b0095d03e4db0f1",
+      "company_name": "北京华征科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-f8aad8e8b71664c49edc4571",
+      "company_name": "北京华征科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-a9cb43b3893e537b3e45a12e",
+      "company_name": "网易智企",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-4e63781fc84b688092a02e52",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-28350a7231d9994eb8f82813",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-9137169cbbc7177027cb268f",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-e1e8b70561d89868d8999494",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-2c1bfc1f36095e6a41b6f244",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-91cefbca8f7bf39b495045b8",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-3cc97a8281b3a72938d2a525",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-4b2f0a98f65895a7f478d834",
+      "company_name": "非与智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-a1b2bc68144fd86fd54096fe",
+      "company_name": "京东科技信息技术有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-4aae7cec8659e8f63e2f9f5b",
+      "company_name": "中移（苏州）软件技术有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-c01f77b4a7d8b1d40d3b0564",
+      "company_name": "联通数字科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-2f5af53a79d82842c48eb84a",
+      "company_name": "天翼云科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-02b6ee3cd05f538a10731a06",
+      "company_name": "重庆中科云从科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-9219610a6c4de822b0be9d05",
+      "company_name": "中国联合网络通信有限公司北京市分公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-a91da284ee38d4115768a5ed",
+      "company_name": "阿里云",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-3debcf267dd4cf333c0b750d",
+      "company_name": "腾讯云",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-5ce5fe69376a80c9d9c1177f",
+      "company_name": "华为云",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-6ceea60ad3b3ba2e0af7be1b",
+      "company_name": "亚马逊云科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-094ba7e77c6cd7a0eda907a1",
+      "company_name": "万国数据中心",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-a4bab390696299584e523be6",
+      "company_name": "世纪互联数据中心",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-db4da1a9b0aee87b16648c27",
+      "company_name": "秦淮数据中心",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-1fc671387f5adfd31e1e3510",
+      "company_name": "硅云",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-88faab19f9cec786cc098714",
+      "company_name": "京东云",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-20084c5e5ee2ad257252a9d5",
+      "company_name": "恒创科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-615f6ce51aa0c912b6bac3e5",
+      "company_name": "华纳云",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-1920c71e3c06f85a4b762c00",
+      "company_name": "百度智能云",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-2d571b20379efcb8edc7caf3",
+      "company_name": "亿速云",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-19b764c6f81a79737daa5b19",
+      "company_name": "金山云",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-f27ec5c90a0ef542bdfc97a1",
+      "company_name": "青云",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-db1ecaad5555518b4d1717f5",
+      "company_name": "浪潮云",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-1e952e626aa1effe264714ff",
+      "company_name": "勾正科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-2421c4fb0284ac9694084d8f",
+      "company_name": "中国移动通信集团有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-1ddbf70b9720de91a42f9826",
+      "company_name": "太极计算机股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-90748333e7ad2691ab774bff",
+      "company_name": "华为技术有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-31998b5162cb4055a4cb6ace",
+      "company_name": "阿里巴巴集团控股有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-f5dac82bdfb5e858d90431b2",
+      "company_name": "百度在线网络技术（北京）有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-7a23e636c1d4ba574fbdbe18",
+      "company_name": "深圳市腾讯计算机系统有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-c8873d48b54f1d7f1595041e",
+      "company_name": "海尔集团",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-598738f0a5901eda9231f4c9",
+      "company_name": "中软国际有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-fc932a88d9ce6d1d9dcc79e0",
+      "company_name": "中兴通讯股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-f3a501902528fc0448b5e778",
+      "company_name": "小米集团",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-f997b045dc014880e7493f00",
+      "company_name": "海信集团控股股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-20cdaec4804216fcbacceade",
+      "company_name": "京东集团股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-3253dd9ea23c61fc0154244e",
+      "company_name": "中电科数字技术股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ea5c14a995ae0c4259eed929",
+      "company_name": "网易（杭州）网络有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-fb97d01058eacdf96049f836",
+      "company_name": "杭州海康威视数字技术股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-6d7bd904a20756f52b5f72a9",
+      "company_name": "神州数码集团股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-025ece6bf437f0b0b33dd90a",
+      "company_name": "南瑞集团有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-3f994b6054d5d452cefab68f",
+      "company_name": "宁波均胜电子股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-bf57e97aef70e2e7ac815c35",
+      "company_name": "浙江大华技术股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-f328eda574e15cdd3ea60cf6",
+      "company_name": "科大讯飞股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ee5c523140328fb86336a477",
+      "company_name": "软通动力信息技术（集团）股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-a428e031c7705bb505576dc3",
+      "company_name": "中通服和信科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-58019c89ab94ad8f27fcc493",
+      "company_name": "上海天天软件股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-62f32b66180dda54fa2ce9b6",
+      "company_name": "东华软件股份公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-8027da7a9b25a4f7973879c3",
+      "company_name": "东软集团股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-f8811c1f9b8cb304e6843856",
+      "company_name": "航天信息股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-316fb8faf3be2156142bc371",
+      "company_name": "用友网络科技股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-2680cae2f4de0c1e2b091f1b",
+      "company_name": "浪潮集团有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-4307b6d2d537d87f97432552",
+      "company_name": "新华三技术有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-d02ed12a5f0452363692ddb4",
+      "company_name": "中移物联网有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-91772731aacff133a6e63865",
+      "company_name": "安克创新科技股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-660b378ee6a35a8f3b8deee0",
+      "company_name": "上海曦智科技股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-4f0069a32edaf744ca5ac006",
+      "company_name": "滴普科技股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-a45bb8bfd8e21c6359f79039",
+      "company_name": "驭势科技（北京）股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-7410b5a86a4592f2f1ec44e2",
+      "company_name": "北京清微智能科技股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-3ad74344f0209373f7bd287a",
+      "company_name": "浙江强脑科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-d956209b80c5f7ecf4232a1b",
+      "company_name": "山东极视角科技股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-e8df5af6657aa24cc232d5d6",
+      "company_name": "中汽工程",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-e4cbf09c61164db1e12d2ad0",
+      "company_name": "联友科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-2acd24f63135461dd471125c",
+      "company_name": "启明信息",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-550656f08cd7deaa4bf1d6a8",
+      "company_name": "广域铭岛",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-2968c4d9f1d06e04db2b1880",
+      "company_name": "明珞装备",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-323e56d59645effbb0fed14e",
+      "company_name": "高科数聚",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-8c99162eeecec4e0a5c3fc1d",
+      "company_name": "中科软",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-c5a95c6204f728c55f354527",
+      "company_name": "清研讯科",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-d12dfad1222fdcb1ef5f98d9",
+      "company_name": "参数技术",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-49c00558be9a3b171a4921c1",
+      "company_name": "谷斗科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-73740add72ace1f2401f3043",
+      "company_name": "海尔卡奥斯物联生态科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-aa1b0a46f081f156c9e53075",
+      "company_name": "航天云网科技发展有限责任公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-c8c97df3038c4235d6745760",
+      "company_name": "徐工汉云技术股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-9af96068fbedd5e069ce7e37",
+      "company_name": "北京东方国信科技股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-eda32981fec1195e596a1a7e",
+      "company_name": "树根互联股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-c7ad4469d394227cf5cf183a",
+      "company_name": "浪潮工业互联网股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-c558d328c353877138868216",
+      "company_name": "用友网络科技股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-051386da15536d79c2a12e85",
+      "company_name": "重庆忽米网络科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-5794c5e61754bc814f702357",
+      "company_name": "阿里云计算有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-a08eeec5fde711e18fd72afb",
+      "company_name": "浙江蓝卓工业互联网信息技术有限 公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-d69c5b0332704fee4a4f2189",
+      "company_name": "上海宝信软件股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ab0d8189eed4ade1a63b42b8",
+      "company_name": "深圳市腾讯计算机系统有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-0cd0738c2642991d793c7f04",
+      "company_name": "华为技术有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ac60107d00a780a1617d3ff9",
+      "company_name": "富士康工业互联网股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-d7d76a32268e471261abc93f",
+      "company_name": "北京百度网讯科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-a32b4d976142a8acaf5ec67d",
+      "company_name": "加速进化",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-a3257fefe23937c82d277e59",
+      "company_name": "智元创新",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-e8b8af74ad04ae53919a346b",
+      "company_name": "傅利叶智能",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-aef4632822950230c0267be9",
+      "company_name": "魔法原子",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-5525ff1e9906c311012cced7",
+      "company_name": "Digit Robotics",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-86677c9e61c876056c7c229c",
+      "company_name": "未来不远",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-6dfef8b315e107a0fa0252cb",
+      "company_name": "松延动力",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-b23c7aee68c00a9f9da33ea7",
+      "company_name": "北京中科慧灵机器人技术有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-3b30241a3a64b0a457b3ca08",
+      "company_name": "高擎",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-7c8fa2beabff464ac8d20905",
+      "company_name": "四川具身人形机器人科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-657d52a5598b4b13fb63abe1",
+      "company_name": "宇树科技",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-686e4df75d0e312066efde93",
+      "company_name": "阿里云计算有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-71ac106fe60c8e8b9ba33a94",
+      "company_name": "浪潮云信息技术股份公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-79c98f755722cb1340aa2258",
+      "company_name": "中电信数政科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ebdf844845553d22b0b84f00",
+      "company_name": "仪电双杨智能科技（上海）有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ff73b937095c135c6f798ac2",
+      "company_name": "上海蜜度科技股份有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-5de455cdb6ad9efe87ff5656",
+      "company_name": "天翼云科技有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-2bebc269513045532a9c6783",
+      "company_name": "中国移动信息技术有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    },
+    {
+      "queue_id": "company-ea7ed6e99d3a12f2c17ff0b8",
+      "company_name": "南京大数据集团有限公司",
+      "status": "needs_verification",
+      "todos": [
+        "OFFICIAL_EMPLOYER_OWNERSHIP_AND_FIXED_URL_APPROVAL_REQUIRED"
+      ]
+    }
+  ],
+  "next_command": "npm run careers:discovery:run -- --batch discovery-00c508ff-75d8-4898-9693-f1755d202951"
+}

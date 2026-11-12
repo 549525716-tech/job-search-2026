@@ -1,0 +1,695 @@
+{
+  "coverage": [
+    {
+      "id": "a01",
+      "route": "A",
+      "industry": "基础大模型与开放平台",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "中国 大模型 开放平台 企业 招聘 (销售 OR 商务 OR 生态 OR 运营)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 25,
+      "urls": [
+        "https://open.bigmodel.cn/partner",
+        "https://www.zhipuai.cn/zh/joinus",
+        "https://zhaopin.jd.com/web/job-info-detail?requementId=219504",
+        "https://public.gowu.ai/jobs/",
+        "https://jobs.niuqizp.com/job-vkl5NNCZ5.html",
+        "https://jdjyw.jlu.edu.cn/mportal/recruit/details?id=76c0577941b54d8eafbab596fd5c59b5",
+        "https://firmior.cn/careers",
+        "https://bigmodel.cn/partner",
+        "https://talent.baidu.com/jobs/detail/SOCIAL/7ed37785-f997-4c00-b421-39f08eb3f1b1",
+        "https://www.zhipin.com/zhaopin/b2ee08782ef6bebf1nd439S0GQ~~/",
+        "https://www.zhaopin.com/jobdetail/CC469217510J40800009501.htm",
+        "https://talent.baidu.com/jobs/",
+        "https://www.cdut.edu.cn/__local/1/CB/27/3AF5F045B68DDEBF38090F58EB2_3AF3F493_2A888D.pdf",
+        "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-06-30/fd4b0cee-74a8-44cd-834d-f919295734d7.PDF",
+        "https://ep.ycwb.com/epaper/ycwb/resfile/2025-12-19/T08/ycwb20251219T08.pdf",
+        "https://aipage-resource-gz.cdn.bcebos.com/upload/a7844a45d8ab55e/1700960060792/%E6%9D%8E%E7%BF%94-%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9C%A8ToB%E4%BC%81%E6%9C%8D%E9%A2%86%E5%9F%9F%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5.pdf",
+        "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%B0%B1",
+        "https://www.reddit.com/r/u_Weekly_Director_2086/comments/1vdp5iv/%E6%88%8F%E7%8E%A9%E6%B8%B8%E6%88%8F%E7%A4%BE_%E5%B9%B3%E9%99%86%E8%BF%90%E6%B2%B3%E5%BC%80%E5%90%AF%E5%85%A8%E7%94%B5%E5%8A%A8%E9%9B%B6%E7%A2%B3%E6%97%B6%E4%BB%A3deepseekv4flash%E8%B6%85%E7%AE%97%E5%85%AC%E6%B5%8B%E6%87%82%E6%B7%98%E6%B8%B8%E6%88%8F%E6%9C%8D%E5%8A%A1%E8%B5%9B%E9%81%93%E9%A2%86%E8%B7%91%E8%A1%8C%E4%B8%9A/",
+        "https://www.geermurb.com/html/1/2025-06/12/9/202506129_pdf.pdf",
+        "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BA%A7%E4%B8%9A",
+        "https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E6%B1%82%E7%B4%A2",
+        "https://zh.wikipedia.org/wiki/%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE",
+        "https://zh.wikipedia.org/wiki/%E9%98%B6%E8%B7%83%E6%98%9F%E8%BE%B0",
+        "https://en.wikipedia.org/wiki/Six_AI_tigers"
+      ],
+      "observed_at": "2026-09-21T17:17:42.162Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/a01.json",
+      "evidence_sha256": "f13162a8962e8f1735cddb1158181760b15c098592b37c1202e4340397013931"
+    },
+    {
+      "id": "a02",
+      "route": "A",
+      "industry": "云、算力与AI基础设施",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "云计算 算力 AI基础设施 公司 招聘 (销售 OR 渠道 OR 售前)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 18,
+      "urls": [
+        "https://www.qingcloud.com/jobs",
+        "https://www.qingcloud.com/jobs?preview=true&source=News-QKE&type=1",
+        "https://www.shushuqiuzhi.com/position/262480",
+        "https://www.zhaopin.com/jobdetail/CCL1518542420J40857130814.htm",
+        "https://www.qingcloud.com/jobs/%E6%99%BA%E7%AE%97%E5%94%AE%E5%89%8D%E6%8A%80%E6%9C%AF%E9%A1%BE%E9%97%AE/",
+        "https://www.zhaopin.com/jobdetail/CC488429580J40900920613.htm",
+        "https://www.lenovoconnect.com/cn/contactus/recruit/detail?id=43",
+        "https://www.runyuchina.com/about/jobs/",
+        "https://watchjobs.net/zh/explore/job/c262-b40e1b09d13454aa/%E5%8C%97%E4%BA%AC-%E4%BA%91%E5%92%8C%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%94%AE%E5%89%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E5%B7%A5%E7%A8%8B%E5%B8%88-J100769-%E7%99%BE%E5%BA%A6",
+        "https://www.zhiziyun.com/about/job.jsp",
+        "https://cn.linkedin.com/jobs/view/hpc-ai%E6%96%B9%E5%90%91%E5%94%AE%E5%89%8D%E5%B7%A5%E7%A8%8B%E5%B8%88-at-%E5%8C%97%E4%BA%AC%E5%A4%A9%E4%BA%91%E8%9E%8D%E5%88%9B%E8%BD%AF%E4%BB%B6%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4165967825",
+        "https://www.dfsx.com/cn/index/listview/catid/64/m/cn/locations/9/wd/1/p/2",
+        "https://static.cninfo.com.cn/finalpage/2026-06-16/1225371529.PDF",
+        "https://dataclouds.cninfo.com.cn/shgonggao/2025/2025-10-22/9fae8177ae6811f0866bfa163e957f7a.pdf",
+        "https://epaper.cs.com.cn/zgzqb/images/2024-07/02/B118/zqB11802.pdf",
+        "https://epaper.stcn.com/att/202510/22/ZQ22B087-BB_eBook.pdf",
+        "https://epaper.stcn.com/pic/202506/27/79a02d304d917669f031af63b918acca.pdf",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2025-06-06/7ca7561d-6bfe-4e5f-8899-74e084b5f03b.PDF"
+      ],
+      "observed_at": "2026-09-21T17:18:16.395Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/a02.json",
+      "evidence_sha256": "a084dd77cb599f12131ad4376fd27a6f9c473b5ec1b1f083fa54fa04630b9120"
+    },
+    {
+      "id": "a03",
+      "route": "A",
+      "industry": "数据与AI开发平台",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "数据库 数据智能 AI开发平台 招聘 (销售 OR 商务 OR 解决方案)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 19,
+      "urls": [
+        "https://www.digitforce.com/jobs",
+        "https://www.noumena.com.cn/career/",
+        "https://www.startdt.com/aboutus/joinUs",
+        "https://www.zhaopin.com/jobdetail/CCL1521073230J40877006201.htm",
+        "https://www.datacube.hk/cn/careers/",
+        "https://www.taosdata.com/careers",
+        "https://www.dtbird.cn/page/join.html",
+        "https://zhaopin.jd.com/web/job-info-detail?requementId=219504",
+        "https://www.sequoiadb.com/cn/recruit",
+        "https://www.selectdb.com/join-us",
+        "https://firmior.cn/careers",
+        "https://www.zhiziyun.com/about/job.jsp",
+        "https://www.cqyz.gov.cn/bm_229/qrlsbj/zwxx_97154/dt/202604/P020260429566664462212.pdf",
+        "https://static.cninfo.com.cn/finalpage/2024-03-08/1219256066.PDF",
+        "https://imgbdb4.bendibao.com/yzbdb/job/202510/27/20251027181629_78853.pdf",
+        "https://www.moutaichina.com/mtgf/2026-04/24/25dae6b7b53d4a6682482f764eba595d/2026042418071183663.pdf",
+        "https://cug.91wllm.cn/attachment/www/ueditor/file/20230828/1180_%E7%8F%8D%E5%B2%9B%E9%9B%86%E5%9B%A2-24%E5%B1%8A%E6%8B%9B%E8%81%98%E7%AE%80%E7%AB%A0.%E3%80%90Jessie%E3%80%91.pdf",
+        "https://imgbdb4.bendibao.com/szbdb/job/202510/27/20251027154605_13090.pdf",
+        "https://www.reddit.com/r/FullStackDevelopers/comments/1wfwigs/for_hire_full_stack_engineer/"
+      ],
+      "observed_at": "2026-09-21T17:18:50.593Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/a03.json",
+      "evidence_sha256": "00b036657ccba3144ec7b8b979ceca4d59cc8b31295c0ca86396ce4da644a8c9"
+    },
+    {
+      "id": "a04",
+      "route": "A",
+      "industry": "企业软件与营销数字化",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "企业软件 营销数字化 SaaS 招聘 (销售 OR 运营 OR 市场)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 18,
+      "urls": [
+        "https://jobs.ultraai.site/jobs/netease/77241",
+        "https://career.hebut.edu.cn/correcruit/content/id/80938.html",
+        "https://www.hidongxin.com/careers/",
+        "https://www.yonchang.cn/Contact/hr",
+        "https://www.soke.cn/careers",
+        "https://www.zhaopin.com/jobdetail/CC467201610J40864283501.htm",
+        "https://www.zhaopin.com/zhaopin/df45e55f65b6499aa82d4abc08cad1e1/",
+        "https://allfde.com/careers.html",
+        "https://www.easemob.com/join/",
+        "https://www.zhaopin.com/jobdetail/CCL1470845420J40865258513.htm",
+        "https://www.zhaopin.com/jobdetail/CC383625320J40695430709.htm",
+        "https://bebee.com/cn/jobs/saas--techmap_cn_CC227750710J40781446106",
+        "https://jy.csuft.edu.cn/attachment/csuft/ueditor/file/20250226/7564_%E7%8F%8D%E5%B2%9B%E9%9B%86%E5%9B%A2-25%E5%B1%8A%E6%8B%9B%E8%81%98%E7%AE%80%E7%AB%A02.pdf",
+        "https://www.britishchambershanghai.cn/content/media/2024/03/CN-2024-Hays-Asia-Salary-Guide.pdf",
+        "https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2020/11/saas-transformation.pdf"
+      ],
+      "observed_at": "2026-09-21T17:19:24.801Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/a04.json",
+      "evidence_sha256": "a677412a780154f167699689dc64e0f745e5dce34f3ae5f5b8b99820a231bbfb"
+    },
+    {
+      "id": "a05",
+      "route": "A",
+      "industry": "AI企业应用",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "AI Agent 企业应用 公司 招聘 (商务 OR 销售 OR 运营)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 23,
+      "urls": [
+        "https://www.noumena.com.cn/career/",
+        "https://jobs.ultraai.site/jobs/dingtalk/100039740003",
+        "https://jobs.ultraai.site/jobs/aidc/100024675009",
+        "https://public.gowu.ai/jobs/",
+        "https://jobs.ultraai.site/jobs/alibaba_campus/campus%3A199907700004",
+        "https://www.juzibot.com/careers/index.html",
+        "https://www.zhaopin.com/jobdetail/CCL1479714430J40892756802.htm",
+        "https://www.zhaopin.com/jobdetail/CCL1479714430J40807306402.htm",
+        "https://jobs.ultraai.site/jobs/netease/77241",
+        "https://agentone.console.aliyun.com/",
+        "https://digitforce.com/jobinfo/ai-agent-product-manager",
+        "https://www.zhaopin.com/jobdetail/CC406882580J40931733202.htm",
+        "https://www.seeyon.com/Public/uploads/Resources/2025-12-10/6938caabcb749.pdf",
+        "https://aigc.idigital.com.cn/djyanbao/%E3%80%90%E6%B5%B7%E9%80%9A%E5%9B%BD%E9%99%85%E3%80%91AIAgent%EF%BC%88%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%89%EF%BC%9A%E4%BB%8E%E6%8A%80%E6%9C%AF%E6%A6%82%E5%BF%B5%E5%88%B0%E5%9C%BA%E6%99%AF%E8%90%BD%E5%9C%B0-2024-09-19.pdf",
+        "https://library.qiangtu.com/download/822/pdf/822.pdf",
+        "https://runwise.co/wp-content/uploads/2024/05/%E5%88%9B%E6%96%B0%E7%A0%94%E6%8A%A5-%EF%BD%9C2024%E4%B8%AD%E5%9B%BDAI-Agent%E8%A1%8C%E4%B8%9A%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_%E7%94%B2%E5%AD%90%E5%85%89%E5%B9%B4_2024.pdf",
+        "https://www.cmbi.com.hk/upload/202606/20260618289918.pdf",
+        "https://library.qiangtu.com/download/873/pdf/873.pdf",
+        "https://www.reddit.com/r/Go_Stock/comments/1utzb0n/ai%E6%95%B4%E4%B8%AA%E4%BA%A7%E4%B8%9A%E9%83%BD%E5%9C%A8%E5%85%B3%E6%B3%A8%E7%9A%84%E6%98%AF%E5%BA%94%E7%94%A8%E8%80%8C%E5%BA%94%E7%94%A8%E8%87%B3%E4%BB%8A%E9%99%A4%E4%BA%86%E7%BC%96%E7%A8%8B%E9%A2%86%E5%9F%9F%E5%A4%96%E6%B2%A1%E6%9C%89%E5%AE%9E%E9%99%85%E7%9A%84%E5%8F%AF%E7%9C%8B%E5%88%B0%E7%9A%84%E5%B7%A8%E5%A4%A7%E8%90%A5%E6%94%B6%E5%89%8D%E6%99%AF%E9%97%AE%E8%87%AA%E5%B7%B1%E4%B8%80%E4%B8%AA%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84/",
+        "https://www.reddit.com/r/u_Timely_Pollution_876/comments/1w9lvwb/%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86%E5%81%9A%E6%95%B0%E5%AD%97%E5%8C%96%E8%90%A5%E9%94%80%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%92%8Cai_agent_%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E9%80%89/",
+        "https://www.reddit.com/r/u_Yony2467/comments/1s50sja/%E9%9B%86%E5%9B%A2%E6%8B%9B%E8%81%98/",
+        "https://www.reddit.com/r/SideProject/comments/1w572db/%E8%BF%9B%E5%85%A5%E7%9C%9F%E5%AE%9E%E4%B8%9A%E5%8A%A1%E5%9C%BA%E6%99%AF%E5%90%8E%E5%8F%91%E7%8E%B0ai%E5%BE%88%E9%81%A5%E8%BF%9C/",
+        "https://www.reddit.com/r/China/comments/1srh4e0/removed/"
+      ],
+      "observed_at": "2026-09-21T17:20:12.033Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/a05.json",
+      "evidence_sha256": "788fd34aa6a9902e985a2c263089436e0316255738f93b9be46ccf1d25302c7e"
+    },
+    {
+      "id": "a06",
+      "route": "A",
+      "industry": "汽车与智能出行数字化",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "汽车 智能出行 数字化 公司 招聘 (销售管理 OR 商业化 OR 商务)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 18,
+      "urls": [
+        "https://www.zhaopin.com/jobdetail/CC679989880J40893200705.htm",
+        "https://job.geely.com/",
+        "https://www.zhaopin.com/jobdetail/CC679989880J40889904805.htm",
+        "https://www.zhaopin.com/jobdetail/CC679989880J40890755305.htm",
+        "https://job.hust.edu.cn/extxjh/781788309488773.do",
+        "https://www.careers.astemo.com/zh/our-locations/china/",
+        "https://watchjobs.net/zh/explore/job/c256-100015603011/%E9%98%BF%E9%87%8C%E4%BA%91%E6%99%BA%E8%83%BD-%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%95%86%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%B7%A5%E7%A8%8B%E5%B8%88MTE-%E8%90%A5%E9%94%80Maas-AI%E6%B1%BD%E8%BD%A6%E8%A1%8C%E4%B8%9A%E7%BA%BF-%E5%8C%97%E4%BA%AC%2F%E6%9D%AD%E5%B7%9E-%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4",
+        "https://watchjobs.net/zh/explore/job/J100073/%E6%B1%BD%E8%BD%A6%E8%A1%8C%E4%B8%9A%E9%94%80%E5%94%AE-J100073-%E7%99%BE%E5%BA%A6",
+        "https://xyzp.51job.com/gacgroup2027/jobs.html",
+        "https://www.ecicool.net/zh/explore/job/c599-1aab34fa-865d-4fba-8fbc-1504e5c7da5a/%E5%95%86%E4%B8%9A%E5%8C%96%E4%B8%9A%E5%8A%A1%E8%BF%90%E8%90%A5%E5%B2%97-%E5%90%89%E5%88%A9%E6%B1%BD%E8%BD%A6",
+        "https://job.hust.edu.cn/extxjh/471788230966338.do",
+        "https://bebee.com/cn/jobs/job--techmap_cn_CCL1485203860J40879295703",
+        "https://file.jgvogel.cn/125/upload/resources/file/638532.pdf",
+        "https://www.ahchanye.com/wp-content/uploads/2024/01/2024012411145526.pdf",
+        "https://static2.xunxiang.site/uploads/sites/1240/2023/09/41eb32dd7c07f1c355d0f1094e3b6c98.pdf",
+        "https://img9.qianzhan.com/policy/202603/16/20260316-f4b65b4100304607.pdf"
+      ],
+      "observed_at": "2026-09-21T17:20:46.649Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/a06.json",
+      "evidence_sha256": "2d0c8d3c1db6439f62f0b7356694ac10fad387fa100542a8287a9987c989c5f0"
+    },
+    {
+      "id": "a07",
+      "route": "A",
+      "industry": "制造与工业智能化",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "工业软件 智能制造 公司 招聘 (销售 OR 售前 OR 渠道)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 20,
+      "urls": [
+        "https://www.hegongsoft.com/about/joinus",
+        "https://www.zhaopin.com/jobdetail/CCL1493055230J40963368715.htm",
+        "https://www.zhaopin.com/jobdetail/CC457772530J40882229012.htm",
+        "https://www.zhaopin.com/jobdetail/CC580518430J40795107206.htm",
+        "https://www.kmsoft.com.cn/join-us.html",
+        "https://www.zhaopin.com/jobdetail/CC120871650J40867381707.htm",
+        "https://www.orbitmes.com/about/job/",
+        "https://wlxy.yangtzeu.edu.cn/jdx/info/1037/4951.htm",
+        "https://www.zhaopin.com/jobdetail/CCL1240483180J40902136503.htm",
+        "https://bjfu.ncss.cn/student/m/jobs/Q2dU7E7Qw3KvzYkWT274ZU/detail.html",
+        "https://cn.linkedin.com/jobs/view/%E5%94%AE%E5%89%8D%E9%A1%BE%E9%97%AE%EF%BC%88%E5%B7%A5%E4%B8%9A%E4%BA%92%E8%81%94%E7%BD%91%E3%80%81%E6%99%BA%E8%83%BD%E5%88%B6%E9%80%A0%EF%BC%89-at-%E5%8D%97%E4%BA%AC%E7%BB%B4%E6%8B%93%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4419780318",
+        "https://www.zhipin.com/zhaopin/1e87d173c18269b21nV80t66GQ~~/",
+        "https://rsj.nanjing.gov.cn/zxzx/xwdt/202406/P020240619575617768569.pdf",
+        "https://cqrec.edu.cn/__local/1/15/23/1421F1A2EF017593CC9469B00EE_D480AD5F_972EB.pdf?e=.pdf",
+        "https://disc.static.szse.cn/disc/disk03/finalpage/2026-07-09/f1588f1b-d290-4dec-b9ca-509fcdb361f5.PDF",
+        "https://job.lzu.edu.cn/ueditor/upload/file/20250303/1740977129360049262.pdf",
+        "https://stockn.xueqiu.com/SH688083/20240425259772.pdf",
+        "https://www.reddit.com/r/China_irl/comments/x7z0g1",
+        "https://www.reddit.com/r/u_Stephen1573/comments/1ue10yl/%E6%96%B0%E5%8A%A0%E5%9D%A1%E4%BA%A7%E5%93%81%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%81%8C%E4%BD%8D%E6%8B%9B%E8%81%98/"
+      ],
+      "observed_at": "2026-09-21T17:21:21.138Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/a07.json",
+      "evidence_sha256": "dbeec7f786c31dc6d06cff8bd57e76973d7b562646e93d480cbf415b7c63257b"
+    },
+    {
+      "id": "a08",
+      "route": "A",
+      "industry": "机器人与智能硬件",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "机器人 智能硬件 公司 招聘 (销售 OR 商务 OR 市场)"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 18,
+      "urls": [
+        "https://www.zhaopin.com/jobdetail/CCL1352323920J40859332303.htm",
+        "https://www.zhaopin.com/jobdetail/CC644719630J40950993715.htm",
+        "https://www.onerobot.com/cn/career",
+        "https://www.zhaopin.com/jobdetail/CCL1319325780J40906242213.htm",
+        "https://cn.linkedin.com/jobs/view/%E5%A4%A7%E5%AE%A2%E6%88%B7%E7%BB%8F%E7%90%86ka-%E6%9C%BA%E5%99%A8%E4%BA%BA-at-%E5%87%8C%E5%8D%8E%E7%A7%91%E6%8A%80-%E4%B8%AD%E5%9B%BD-%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4467343780",
+        "https://www.zhaopin.com/jobdetail/CCL1505327900J40960775415.htm",
+        "https://www.zhaopin.com/jobdetail/CC571981420J40856744813.htm",
+        "https://www.michaelpage.com.cn/job-detail/sales-director%EF%BC%88%E5%85%AC%E5%AE%89%E5%AE%89%E9%98%B2%E8%A1%8C%E4%B8%9A%EF%BC%89-%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B5%9B%E9%81%93%E6%A0%B8%E5%BF%83%E4%B8%9A%E5%8A%A1%E8%B4%9F%E8%B4%A3%E4%BA%BA/ref/jn-092026-7099932?lang=en",
+        "https://www.stardustsai.com/About.aspx?ClassID=36",
+        "https://www.liepin.com/zpjiqirenxiaoshou/",
+        "https://talent.hikvision.com/home/socity/position?postId=F321CA200A57CAD79B1538007308D0BD",
+        "https://www.leonrobot.com/careers",
+        "https://static.cninfo.com.cn/finalpage/2025-10-28/1224744724.PDF",
+        "https://www.ahjzu.edu.cn/_upload/article/files/2f/48/e655b81d4c3f89d3d909c3e696f5/fe0b973b-e473-46c4-b4f2-db9601a6d2da.pdf",
+        "https://notice.10jqka.com.cn/api/pdf/45e059ab9d506ed8.pdf",
+        "https://disc.static.szse.cn/download/disc/disk03/finalpage/2024-04-15/29ce6cc5-f0c9-4df9-b936-8d3c4ba48de7.PDF",
+        "https://disc.static.szse.cn/download/disc/disk03/finalpage/2025-08-22/4877f1c5-1010-41b8-b175-782ef6ff40a4.PDF",
+        "https://hrss.sz.gov.cn/attachment/1/1626/1626180/12399576.pdf"
+      ],
+      "observed_at": "2026-09-21T17:21:55.650Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/a08.json",
+      "evidence_sha256": "4242e46f4131dc9f9b549fbf04ee1e373256271a7bb429a0fc7b8e04a58037e0"
+    },
+    {
+      "id": "b01",
+      "route": "B",
+      "industry": "销售与KA",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"大客户销售\" \"招聘\" \"薪资\" \"AI\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 18,
+      "urls": [
+        "https://www.zhaopin.com/jobdetail/CCL1521073110J40869959201.htm",
+        "https://www.zhaopin.com/jobdetail/CCL1521073110J40854686801.htm",
+        "https://www.zhaopin.com/jobdetail/CC656024620J40917455808.htm",
+        "https://www.liepin.com/zpcybyaifadkhxsdbwx1knv/",
+        "https://watchjobs.net/zh/explore/job/c259-83797d7a13aa083b/AI-Agent-%E9%94%80%E5%94%AE%E4%B8%93%E5%AE%B6-%E7%BE%8E%E5%9B%A2",
+        "https://www.liepin.com/zpsaasdkhxsgw7y4/",
+        "https://www.zhaopin.com/jobdetail/CC595428520J41004942104.htm",
+        "https://www.zhaopin.com/jobdetail/CCL1521073310J40866764401.htm",
+        "https://m.liepin.com/company/3547412/",
+        "https://watchjobs.net/zh/explore/job/c267-77241/%E8%B5%84%E6%B7%B1AI%E5%A4%A7%E5%AE%A2%E6%88%B7%E9%94%80%E5%94%AE%E4%B8%93%E5%91%98-%E5%B9%BF%E5%B7%9E-%E7%BD%91%E6%98%93",
+        "https://0ctf.net/zh/explore/job/c521-28e263fe841d9760/%E5%B9%BF%E5%B7%9E%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%9A%E9%AB%98%E7%BA%A7%E5%AE%A2%E6%88%B7%E7%BB%8F%E7%90%86-%E8%81%94%E6%83%B3",
+        "https://watchjobs.net/zh/explore/job/c262-bc21ec0483e4d263/%E4%B8%8A%E6%B5%B7%E5%A4%A7%E5%AE%A2%E6%88%B7%E7%BB%8F%E7%90%86-%E6%94%BF%E5%8A%A1%E5%8F%8A%E5%9B%BD%E4%BC%81%E6%96%B9%E5%90%91-J96901-%E7%99%BE%E5%BA%A6",
+        "https://nyxy.hnist.cn/__local/F/EC/AF/DE723979189140F0B79390CB6D4_58AAF00C_137AB.pdf",
+        "https://wtc.91wllm.cn/attachment/www/ueditor/file/20250929/3569_itc%E4%BF%9D%E4%BC%A6%E8%82%A1%E4%BB%BD-26%E5%B1%8A%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98%E7%AE%80%E7%AB%A0.pdf",
+        "https://hzau.91wllm.cn/attachment/www/ueditor/file/20250929/3569_itc%E4%BF%9D%E4%BC%A6%E8%82%A1%E4%BB%BD-26%E5%B1%8A%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98%E7%AE%80%E7%AB%A0.pdf",
+        "https://convention-media.newscdn.cn/resources/file/2024/09/09/588831922462789.pdf",
+        "https://www.wenda.edu.cn/jy/upload/file/20220702/20220702115047_97055.pdf"
+      ],
+      "observed_at": "2026-09-21T17:22:22.396Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/b01.json",
+      "evidence_sha256": "66a5b9e6cfaf08c25522eb0efd6221c648a84736535901deda8e8f0e342afd15"
+    },
+    {
+      "id": "b02",
+      "route": "B",
+      "industry": "商务渠道生态",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" (\"Business Builder\" OR \"生态合作\" OR \"渠道总监\")"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 18,
+      "urls": [
+        "https://maker.haier.net/client/job/detail/id/10230413/recommend_record/1",
+        "https://www.zhaopin.com/jobdetail/CC142710110J40786153306.htm",
+        "https://m.zhipin.com/zhaopin/ad1f27da99939a6b1nZ-3Ni9Ew~~/",
+        "https://cn.linkedin.com/jobs/view/%E7%94%9F%E6%80%81%E6%80%BB%E7%9B%91-at-%E9%87%8D%E5%BA%86%E6%8C%81%E5%88%9B%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4394051332",
+        "https://www.zhipin.com/zhaopin/f033931ee6fac9810XB-3d-1/",
+        "https://m.zhipin.com/zhaopin/364a660e948441a91Xd62dm8/",
+        "https://m.zhipin.com/zhaopin/4de28e965091629703Vy3NS1Fg~~/",
+        "https://mqjob.cn/?city=%E5%85%B6%E4%BB%96&city=%E5%8C%97%E4%BA%AC&city=%E6%88%90%E9%83%BD&city=%E6%9D%AD%E5%B7%9E&city=%E6%AD%A6%E6%B1%89&city=%E6%B7%B1%E5%9C%B3&city=%E8%8B%8F%E5%B7%9E&city=%E8%A5%BF%E5%AE%89&city=%E9%87%8D%E5%BA%86&industryType=%E4%BA%92%E8%81%94%E7%BD%91+%2F+AI+%2F+%E8%BD%AF%E4%BB%B6&industryType=%E5%BF%AB%E6%B6%88+%2F+%E9%9B%B6%E5%94%AE+%2F+%E6%9C%8D%E8%A3%85&jobTypeMain=%E5%B8%82%E5%9C%BA%2F%E9%94%80%E5%94%AE&page=1&pageSize=10&recruitmentType=%E7%A4%BE%E4%BC%9A%E6%8B%9B%E8%81%98&sort=openDateDesc&workExperienceLevel=7%E5%B9%B4%E4%BB%A5%E4%B8%8A",
+        "https://www.zhaopin.com/jobdetail/CC183180020J40552593912.htm",
+        "https://www.zhipin.com/zhaopin/10446fd678eb4f151HV50t65FA~~/",
+        "https://m.liepin.com/zpstwhjl8f5i/",
+        "https://www.zhipin.com/zhaopin/4b7cd4cb19d497b70HR53NW1/",
+        "https://static.cninfo.com.cn/finalpage/2025-03-28/1222930412.PDF",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0328/2025032800252_c.pdf",
+        "https://static.cninfo.com.cn/finalpage/2021-05-11/1209951114.PDF",
+        "https://www.sg-micro.com/rect/assets/2d43c871-be17-4708-b25d-b938dc83005e",
+        "https://e-bulletin.um.edu.mo/wp-content/uploads/2024/03/2024322.pdf",
+        "https://pdf.dfcfw.com/pdf/H2_AN202604151821240568_1.pdf?1776282770000.pdf="
+      ],
+      "observed_at": "2026-09-21T17:22:56.652Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/b02.json",
+      "evidence_sha256": "e385c34a2933459c10f49220181d39bb4aa9de710539ab266011c105be5583ff"
+    },
+    {
+      "id": "b03",
+      "route": "B",
+      "industry": "市场营销",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" (\"GTM\" OR \"市场总监\" OR \"产品营销\") 企业服务"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 18,
+      "urls": [
+        "https://www.haolietou.com/j_317823",
+        "https://selectioninternational.com/function",
+        "https://linksinternational.com.cn/recruitment/TMT",
+        "https://zhaopin.qianmoqi.com/pudong/index/info/id/4.html",
+        "https://cn.linkedin.com/jobs/view/%E5%B8%82%E5%9C%BA%E6%80%BB%E7%9B%91-at-%E7%9B%9B%E5%A4%A9%E9%9B%86%E5%9B%A2-4454154851",
+        "https://www.michaelpage.com.cn/",
+        "https://www.zhipin.com/zhaopin/9cd4fdfa93d53c9803R72dm7/",
+        "https://www.tanzhi.cn/job-titles/16470c0b-3125-455e-85f7-c67bd617dfb2/",
+        "https://faw-zhaopin.hotjob.cn/positionList?orgCode=0%2F255&projectId=201701&recruitType=2",
+        "https://www.linkgz.com/",
+        "https://cn.linkedin.com/jobs/view/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E7%BB%8F%E7%90%86-%E6%80%BB%E7%9B%91%EF%BC%88b%E7%AB%AF%E5%87%BA%E6%B5%B7%E8%90%A5%E9%94%80%E6%96%B9%E5%90%91%EF%BC%89-at-tec-do-2-0-4390873050",
+        "https://www.zhipin.com/zhaopin/222c6edf4fa82f7b03d40tq9/",
+        "https://www.hrecchina.org/UpLoadFile/20241024/2024%E6%99%BA%E4%BA%AB%E4%BC%9A%E6%8B%9B%E8%81%98%E4%B8%8E%E4%BB%BB%E7%94%A8%E4%BE%9B%E5%BA%94%E5%95%86-%E4%BB%B2%E6%9C%9B%E5%92%A8%E8%AF%A2%E8%8E%B7%E5%A5%96%28%E4%BF%AE%29.pdf",
+        "https://www.shrma.org.cn/shrmapic/20240822193035093509.pdf",
+        "https://www.hfgdxy.cn/Uploads/Editor/20220630185348_91525.pdf",
+        "https://www.reddit.com/r/u_Yony2467/comments/1s50sja/%E9%9B%86%E5%9B%A2%E6%8B%9B%E8%81%98/"
+      ],
+      "observed_at": "2026-09-21T17:23:30.953Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/b03.json",
+      "evidence_sha256": "bb2c9256cb55034b48007f298c32642020c688a23f173c7f794a60f171e96c6b"
+    },
+    {
+      "id": "b04",
+      "route": "B",
+      "industry": "销售及商业运营",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" (\"销售运营\" OR \"商业运营\" OR \"商业化运营\")"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 18,
+      "urls": [
+        "https://www.zhipin.com/zhaopin/7a0f481c469177923nZ73d24/",
+        "https://www.gaoxiaojob.com/hotword/dfin647893",
+        "https://zhaopin.gslhr.org.cn/",
+        "https://www.zhaopin.com/sou/jl489/kwAL34S6KFQ222A",
+        "https://talent.baidu.com/jobs/detail/SOCIAL/f3512096-c37a-4b5f-b948-c89559d63d86",
+        "https://m.zhipin.com/zhaopin/9f6453da655e53d00nZ62di9Eg~~/",
+        "https://www.zhipin.com/zhaopin/cf5a6c2a816702011nFy3dy-GA~~/",
+        "https://m.zhaopin.com/zhaopin/7c6f4325d2b44d348786c4b38b05a0b0/",
+        "https://watchjobs.net/zh/explore/job/c509-100001180006/%E9%AB%98%E5%BE%B7%E9%94%80%E6%9C%8D%E7%A7%91%E6%8A%80-%E6%96%B0%E8%BD%A6%E8%A1%8C%E4%B8%9A%E8%BF%90%E8%90%A5-%E5%8C%97%E4%BA%AC-%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE",
+        "https://talent.baidu.com/jobs/detail/SOCIAL/cbeb6aa1-c6b7-480c-9811-21dc9cb2c5f3",
+        "https://www.zhaopin.com/zhaopin/13bdbc4bf8d54923be102260f3ab9cbd/",
+        "https://www.tanzhi.cn/search/%E5%95%86%E4%B8%9A%E8%BF%90%E8%90%A5/",
+        "https://rgzx.tcrc.com.cn/rgzx_admin/upload/month_2509/news/31_202509051442135819.pdf",
+        "https://career.zjnu.edu.cn/attachment/zjnu/ueditor/file/20240705/7569_%E9%99%84%E4%BB%B61%EF%BC%9A%E5%90%84%E6%8B%9B%E8%81%98%E5%8D%95%E4%BD%8D%E6%8B%9B%E8%81%98%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E8%AE%A1%E5%88%92%E8%A1%A8.pdf",
+        "https://www.gzci.net/uploadfiles/2024/02/20240208085918483.pdf",
+        "https://static.cninfo.com.cn/finalpage/2022-05-13/1213352890.PDF"
+      ],
+      "observed_at": "2026-09-21T17:24:05.144Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/b04.json",
+      "evidence_sha256": "dda362855d380ca8c66ced72b0748ec088c433ccbf97c04760c84b7b70cfea09"
+    },
+    {
+      "id": "b05",
+      "route": "B",
+      "industry": "管理",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" (\"区域总经理\" OR \"销售总监\" OR \"区域负责人\") 数字化"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 17,
+      "urls": [
+        "https://www.zhaopin.com/jobdetail/CC541239720J40514030707.htm",
+        "https://www.zhaopin.com/jobdetail/CC541239720J40536377907.htm",
+        "https://www.zhaopin.com/zhaopin/0e79575f12ee4c9da374fe68b8782063/",
+        "https://www.tanzhi.cn/job-titles/92999797-70a6-4f0b-b938-c4bee3e1c201/",
+        "https://www.michaelpage.com.cn/job-detail/%E5%8D%8E%E5%8D%97%E5%8C%BA%E5%9F%9F%E9%94%80%E5%94%AE%E6%80%BB%E7%9B%91/ref/jn-032026-6969442",
+        "https://m.liepin.com/zpqykhcgzj5i2q/",
+        "https://www.job5156.com/index/zhaopin_zwquyuzongjian/",
+        "https://www.zhaopin.com/jobdetail/CC541239720J40213790207.htm",
+        "https://www.zhaopin.com/jobdetail/CC541239720J40547565107.htm",
+        "https://www.zhaopin.com/jobdetail/CC541239720J40741458007.htm",
+        "https://maker.haier.net/client/job/detail/id/10229524/recommend_record/1",
+        "https://www.tanzhi.cn/job-titles/7432a289-3451-4959-87b4-2700c363e9cc/",
+        "https://qccdata.qichacha.com/ReportData/PDF/2dfe6ad33718a4cf4258508b5c05c027.pdf",
+        "https://www.hrecchina.org/UpLoadFile/20241024/%E8%AE%AF%E5%8D%87%E6%A1%88%E4%BE%8B%E5%AE%A1%E6%A0%B8ok%28%E4%BF%AE%29.pdf",
+        "https://www.pmdaniu.com/storages/112471/ef0988b1512977b384dc531334007131-80034/1250s7J1Ul5C.pdf"
+      ],
+      "observed_at": "2026-09-21T17:24:39.216Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/b05.json",
+      "evidence_sha256": "ba4f74d9f5102b66501224551f837fdf711041acc740d5268ad5c3dc0a7af8d0"
+    },
+    {
+      "id": "b06",
+      "route": "B",
+      "industry": "业务型售前",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" (\"售前咨询\" OR \"解决方案顾问\" OR \"企业AI落地\")"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 18,
+      "urls": [
+        "https://watchjobs.net/zh/explore/job/c524-6a799d944315481304957b99/%E4%BC%81%E4%B8%9AAI%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%B8%93%E5%AE%B6-%E7%94%A8%E5%8F%8B%E7%BD%91%E7%BB%9C",
+        "https://www.haolietou.com/j_315257",
+        "https://crrc.hotjob.cn/",
+        "https://cn.linkedin.com/jobs/view/%E5%94%AE%E5%89%8D-%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E9%A1%BE%E9%97%AE%EF%BC%88bi%2Bai%EF%BC%89-mj000502-at-%E8%A7%82%E8%BF%9C%E6%95%B0%E6%8D%AE%EF%BC%88guandata%EF%BC%89-4433776407",
+        "https://www.uino.com/recruitment",
+        "https://www.zhaopin.com/jobdetail/CC406882580J40977753902.htm",
+        "https://m.zhipin.com/zhaopin/da2d3da101b5aa3703J8092-FQ~~/",
+        "https://www.zhipin.com/zhaopin/2e802cd10122a80903N_298~/",
+        "https://m.zhipin.com/zhaopin/7e1c2f5058a6db69031z3tS5FA~~/",
+        "https://www.zhipin.com/zhaopin/1ade4e1010ee9ac403J52dS9EQ~~/",
+        "https://m.zhipin.com/zhaopin/388f4a26ebd87be71H1-2d2_/",
+        "https://bxagent.cn/careers/",
+        "https://jgxy.hxu.edu.cn/__local/2/E9/FF/4C316446F719AE60E99450D22B9_18BB85BD_41527.pdf",
+        "https://jyb.zstu.edu.cn/attachment/zstu/ueditor/file/20221018/4841_2022%E5%8C%97%E4%BA%AC%E5%92%8C%E6%B0%94%E8%81%9A%E5%8A%9B%E6%95%99%E8%82%B2%E7%A7%91%E6%8A%80%E6%8B%9B%E8%81%98%E7%AE%80%E7%AB%A0.pdf",
+        "https://job.wzu.edu.cn/attachment/wzu/ueditor/file/20250427/5562_%E9%A1%BA%E4%B8%B0%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82025%E5%B1%8A%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98%E7%AE%80%E7%AB%A0%281%29.pdf",
+        "https://www.hrecchina.org/UpLoadFile/20201030/%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%86%85%E9%83%A8%E7%8C%8E%E8%81%98%E5%9B%A2%E9%98%9F%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E7%AE%A1%E7%90%86%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.pdf",
+        "https://www.hrecchina.org/UpLoadFile/20200107/%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%86%85%E9%83%A8%E7%8C%8E%E8%81%98%E5%9B%A2%E9%98%9F%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E7%AE%A1%E7%90%86%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.pdf"
+      ],
+      "observed_at": "2026-09-21T17:25:16.523Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/b06.json",
+      "evidence_sha256": "2884e07d6fd120e68e1e123f62bada3610237ac9171d91c15c9f17f969c92c2c"
+    },
+    {
+      "id": "b07",
+      "route": "B",
+      "industry": "正文商业职责",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" \"客户决策\" \"回款\" \"解决方案\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 13,
+      "urls": [
+        "https://cn.linkedin.com/jobs/view/%E6%B7%B1%E5%9C%B3%E5%8C%BA%E5%9F%9F%E9%94%80%E5%94%AE%E8%B4%9F%E8%B4%A3%E4%BA%BA-at-lan-bridge-group-%E8%AF%AD%E8%A8%80%E6%A1%A5-4445462487",
+        "https://bebee.com/cn/jobs/tob--techmap_cn_CCL1481484730J40909807712",
+        "https://watchjobs.net/zh/explore/job/c524-6a5d856ae05c792b8ead2e4c/YonSuite-%E9%94%80%E5%94%AE-%E7%94%A8%E5%8F%8B%E7%BD%91%E7%BB%9C",
+        "https://bebee.com/cn/jobs/job--techmap_cn_CCL1318355140J40908497403",
+        "https://www.yupao.com/zhaogong/374253367.html",
+        "https://cn.linkedin.com/jobs/view/%E6%9A%96%E9%80%9A%E8%A1%8C%E4%B8%9A%E8%83%8C%E6%99%AF%E5%8F%98%E9%A2%91%E5%99%A8%E9%94%80%E5%94%AE%E7%BB%8F%E7%90%86-at-%E5%88%A9%E8%8E%B1%E6%A3%AE%E7%8E%9B%E7%94%B5%E6%9C%BA%E7%A7%91%E6%8A%80-%E7%A6%8F%E5%B7%9E-%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4428522333",
+        "https://www.job5156.com/guangzhou/job_G1AI6NT-_W1VagU1a1p9ig",
+        "https://watchjobs.net/zh/explore/job/c267-77241/%E8%B5%84%E6%B7%B1AI%E5%A4%A7%E5%AE%A2%E6%88%B7%E9%94%80%E5%94%AE%E4%B8%93%E5%91%98-%E5%B9%BF%E5%B7%9E-%E7%BD%91%E6%98%93",
+        "https://zhaopin.jd.com/web/job-info-detail?requementId=219504",
+        "https://www.tanzhi.cn/job-titles/d88d79c5-6806-4942-8478-92ee21810c2f/",
+        "https://bebee.com/cn/jobs/aicoding--techmap_cn_85204863",
+        "https://www.tanzhi.cn/job-titles/3d2e7921-5e58-48e9-96ea-7b5c78b1771d/",
+        "https://pdf.dfcfw.com/pdf/H3_AP202503101644228386_1.pdf"
+      ],
+      "observed_at": "2026-09-21T17:25:50.844Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/b07.json",
+      "evidence_sha256": "1736a3d13c6da4b2885df1b8846ce665cc717e09e3e6e6251da3eba7a2f51460"
+    },
+    {
+      "id": "b08",
+      "route": "B",
+      "industry": "正文经营方法",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"招聘\" \"经营分析\" \"目标拆解\" \"客户\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 15,
+      "urls": [
+        "https://www.zhipin.com/zhaopin/23845134b79e852f03Z42tq0/",
+        "https://www.zhipin.com/zhaopin/619393c2c765a9c81nJ53N28Ew~~/",
+        "https://www.deizao.net/m/index/shixixq/jobid/210120",
+        "https://www.shushuqiuzhi.com/position/408665",
+        "https://www.job5156.com/dongguan/job_2epOKOQq57bZllWHUOnWow",
+        "https://watchjobs.net/zh/explore/job/c257-225164/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B2%97-%E4%BA%AC%E4%B8%9C",
+        "https://www.zhaopin.com/jobdetail/CC449834110J40877557410.htm",
+        "https://m.zhipin.com/zhaopin/3f236841411d82401nZ_39W-Fw~~/",
+        "https://www.hotjob.cn/wt/YihaiKerry/web/index/webPositionN300%21getOnePosition?brandCode=1&columnId=2&lanType=1&postIdEnc=7ccc0ee76d992808&recruitType=2",
+        "https://www.shixiseng.com/intern/inn_jdzwfokcwuk8?pcm=pc_SearchList",
+        "https://www.shushuqiuzhi.com/article/201803",
+        "https://www.zhipin.com/zhaopin/6f8cddaff58361940nB_3d69FQ~~/",
+        "https://imgbdb4.bendibao.com/dlbdb/job/20249/02/2024902133700_41191.pdf",
+        "https://27328724.s21i.faiusr.com/61/ABUIABA9GAAg1ca5zQYouJy-lQE.pdf"
+      ],
+      "observed_at": "2026-09-21T17:28:59.226Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/b08.json",
+      "evidence_sha256": "4d7c7295a5ea600ac27c43c684c756e3d97087d76af9ce9f968b69468f62d5cd"
+    },
+    {
+      "id": "b09",
+      "route": "B",
+      "industry": "新增赛道发现",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "网络安全 跨境支付 新能源 招聘 销售 商务"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 15,
+      "urls": [
+        "https://jobs.ultraai.site/jobs/netease/68508",
+        "https://wonipay.com/rccc.html",
+        "https://watchjobs.net/zh/explore/job/c280-862bf04e2c273900/%E8%B7%A8%E5%A2%83%E6%94%AF%E4%BB%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E5%B9%BF%E5%B7%9E-%E9%A1%BA%E4%B8%B0%E9%80%9F%E8%BF%90",
+        "https://www.zhaopin.com/jobdetail/CC385402310J40845128810.htm",
+        "https://www.liepin.com/a/76686905.shtml",
+        "https://grad.gdufe.edu.cn/detail/job?id=3049050",
+        "https://watchjobs.net/zh/explore/job/c22-c89aa7da4e198161/Director-Tech-Partnerships-%E7%BB%B4%E8%90%A8",
+        "https://rd.group/zh-Hant/company/careers/SH_BD_Key_Account_Sales_Director_Application/",
+        "https://www.zhaopin.com/jobdetail/CCL1241385590J40857205909.htm",
+        "https://m.zhipin.com/zhaopin/1e8127971da413f01nBz3t21GA~~/",
+        "https://www.michaelpage.com.cn/job-detail/head-global-financial-partnerships-%E8%B7%A8%E5%A2%83%E6%94%AF%E4%BB%98%E6%A0%B8%E5%BF%83%E5%B2%97%E4%BD%8D/ref/jn-072026-7068865?lang=en",
+        "https://www.zhaopin.com/jobdetail/CCL1281735290J40848716007.htm",
+        "https://bys.hqu.edu.cn/virtual_attach_file.vsb?afc=6MR7_PLRLPM8CYMFlr2Mzr2nm9soRL94LzlYLlVRU49bo7C0gihFp2hmCIa0UYyanSysLYyYU467UNl8ozf2LRGsMRrVMRNsnmWVU8VfnlWFLRT7UlVko7QFn7C4LRCJv2nto4OeoDXb_tnE_VhJQ5v0qIbtpYyPMzGPg47aLmCYM47JqdAnx",
+        "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366354.PDF",
+        "https://dzswgf.mofcom.gov.cn/news_attachments/35d0d99b692e74694eda69a1fb6932eda300fc96.pdf"
+      ],
+      "observed_at": "2026-09-21T17:29:33.445Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/b09.json",
+      "evidence_sha256": "b55778f204a2abf1af28cf6f293843eb6287039665d4d992576e178f0f6fdfd9"
+    },
+    {
+      "id": "b10",
+      "route": "B",
+      "industry": "新增场景发现",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "医疗 教育 物流 AI 招聘 商务 运营"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "searched_not_exhaustive",
+      "result_count": 20,
+      "urls": [
+        "https://job.hust.edu.cn/zpinfo1/2391349.htm",
+        "https://career.muc.edu.cn/front/zwxx.jspa?xqzwId=36899&zpxxId=31400",
+        "https://job.xju.edu.cn/Web/Employ/NetEmployDetails?dJFres2jLcDN7zQ_9bATGDDN6DBTt0KEmxqpSgrARw8=.shtml",
+        "https://shbyxtech.com/recruit/",
+        "https://rczpw.suat-sz.edu.cn/info/1012/1734.htm",
+        "https://jdjyw.jlu.edu.cn/mportal/recruit/details?id=e14aadb4a6874e9fafaac8332f2759b1",
+        "https://xiaozhaobao.com.cn/job/1064008",
+        "https://www.zhaopin.com/jobdetail/CC665564620J40935629212.htm",
+        "https://m.gaoxiaojob.com/job/detail/2211722.html",
+        "https://career.hebut.edu.cn/correcruit/content/id/72788.html",
+        "https://rundamedical.51job.com/job_c.html",
+        "https://campus.51job.com/naton/plan.html",
+        "https://smart-public.grtcloud.net/task_manager/1714916806743_6.%E5%9F%B9%E8%AE%AD%E6%96%B9%E6%A1%88-AI%E6%8A%80%E6%9C%AF%E5%9C%A8%E6%99%BA%E6%85%A7%E7%89%A9%E6%B5%81%E9%A2%86%E5%9F%9F%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.pdf",
+        "https://files.parkworld.net/files/8dc5929fce04efb/download",
+        "https://career.hznu.edu.cn/attachment/hznu/ueditor/file/20231030/2350_2023%E5%B9%B4%E6%9D%AD%E5%B7%9E%E5%B8%82%E7%A7%8B%E5%AD%A3%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98%E4%BC%9A%E7%94%A8%E4%BA%BA%E5%8D%95%E4%BD%8D%E4%B8%80%E8%A7%88%E8%A1%A8%EF%BC%88%E7%BB%BC%E5%90%88%E4%B8%93%E5%9C%BA%EF%BC%89.pdf",
+        "https://pdf.dfcfw.com/pdf/H3_AP202605191822452869_1.pdf?1779223831000.pdf=",
+        "https://flc.ahnu.edu.cn/__local/2/30/C5/5432D024A719F797C21C06B2198_87BBC19E_10188.pdf?e=.pdf",
+        "https://www.reddit.com/r/u_Stephen1573/comments/1upshcl/%E6%96%B0%E5%8A%A0%E5%9D%A1%E7%89%A9%E6%B5%81%E4%B8%8E%E8%BF%90%E8%90%A5%E6%89%A7%E8%A1%8C%E5%91%98%E6%8B%9B%E8%81%98/",
+        "https://www.reddit.com/r/u_Yony2467/comments/1s50sja/%E9%9B%86%E5%9B%A2%E6%8B%9B%E8%81%98/"
+      ],
+      "observed_at": "2026-09-21T17:30:07.868Z",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/b10.json",
+      "evidence_sha256": "c48470a5bd14dda5c0ce6323f398a21db0497214a74fdd0b6fd7e2495c09bcc5"
+    }
+  ],
+  "scope": "Versioned query coverage only. Industry categories are research starting points, not a complete market taxonomy."
+}

@@ -1,0 +1,11 @@
+{
+  "cache_key": "8808bc1eaff4156dc336efe822e94c4a181d950c71dc303d9264a5957e4b73b6",
+  "analysis_sha256": "faaa292b11c1fab50be467ba41a6389b4e8a12195a8015f458013941428b42e5",
+  "reviewer_id": "01a086a5-5b5b-7522-a6d1-7674145d21ad",
+  "verdict": "rejected",
+  "facts_checked": true,
+  "hard_gates_checked": true,
+  "source_quotes_checked": true,
+  "reviewed_at": "2026-09-09T15:58:00.439Z",
+  "notes": "DeepSeek AI 产品经理，原生ID e8f2004c-6599-42cd-b587-176ffc3ff1a3。独立核对原静态数据、8项JD引用及个人事实，引用均有出处。拒绝点是R6和hard_gate_review_complete：R6把深度使用限定为Harness方向，但原文AI产品方向的核心要求2另明确要求“是 AI 产品深度用户，对模型能力边界、不同产品的体验差异和用户场景有真实体感，不只是看过，而是自己用过、拆过。”目前R1-R3未映射或审核这项通用方向核心要求，R6-R8明确只审Harness，不能支持hard_gate_review_complete=true。resume_advice中“另补模型体验对照”承认待补，但未替代该缺失的要求/门槛记录。应由原作者补出对应原文及unknown/gap，或撤回完整审查声明后重新交审，本reviewer不改答案。R1对内部工具需求到落地的有限解释、R4/R5对Harness专属年限和院校条件的分离本身不作为拒绝理由，也没有因为缺少正式产品经理职称而否定通用方向。此rejected不等于判定不能面试，亦不批准reuse；其余11条defer未在本轮审查。"
+}

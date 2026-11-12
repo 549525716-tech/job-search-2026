@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "version": "2026-09-16-salary-first-v5",
+  "source": "User's private-headhunter and management/durable-ToB direction in this Codex task",
+  "career_strategy_ref": "careers/config/career-strategy.json",
+  "ai_priority": true,
+  "management_priority": true,
+  "sustainable_tob_priority": true,
+  "management_only": false,
+  "industry_restriction": null,
+  "cities": [],
+  "geography_policy": "China nationwide discovery; overseas work authorization remains unconfirmed",
+  "salary": {
+    "mode": "advertised_monthly_range",
+    "currency": "CNY",
+    "period": "month",
+    "min_monthly_opportunity": 20000,
+    "require_explicit_base_disclosure": false,
+    "keep_unknown_separate": true,
+    "ote_is_base_salary": false,
+    "confirmed_by_user_on": "2026-09-16",
+    "fixed_base_verification": "separate; range eligibility does not confirm fixed pay"
+  },
+  "role_keywords": [
+    "市场",
+    "营销",
+    "销售",
+    "大客户",
+    "客户经理",
+    "商务",
+    "商业化",
+    "生态",
+    "渠道",
+    "售前",
+    "解决方案",
+    "商业运营",
+    "商业化运营",
+    "业务运营",
+    "行业运营",
+    "运营经理",
+    "运营专家",
+    "增长",
+    "销售管理",
+    "BD",
+    "KA",
+    "Marketing",
+    "Account Executive",
+    "Account Manager",
+    "Partnerships",
+    "Business Builder",
+    "Business Development",
+    "GTM",
+    "Revenue Operations",
+    "Sales Operations",
+    "Solutions Consultant",
+    "Pre-sales",
+    "Presales",
+    "Sales Engineer",
+    "FDE",
+    "Business Operations",
+    "Regional General Manager",
+    "Country Manager"
+  ],
+  "role_policy": {
+    "version": "2026-09-10-v1",
+    "primary": [
+      "市场营销",
+      "销售与大客户",
+      "商务生态渠道",
+      "销售及商业化运营",
+      "销售管理"
+    ],
+    "adjacent": [
+      "业务型售前及解决方案"
+    ],
+    "include_exploratory": false,
+    "excluded": [
+      "产品经理",
+      "Product Manager",
+      "研发算法",
+      "实习校招",
+      "客户成功",
+      "Customer Success"
+    ],
+    "exploratory_not_default": [
+      "FDE工程交付",
+      "技术实施项目经理",
+      "产品运营"
+    ],
+    "source": "User explicitly prioritizes marketing, sales and operations and excludes product-manager careers"
+  },
+  "match_batch_limit": 20,
+  "match_batch_limit_scope": "analysis_only_not_company_or_collection_limit",
+  "reuse_resume_min_score": 80,
+  "reuse_requires": [
+    "complete_jd",
+    "all_hard_gates_resolved",
+    "same_positioning"
+  ],
+  "removed_public_claims": [
+    "4到10台/月",
+    "4→10台/月",
+    "4-10 vehicles per month",
+    "4 to 10 vehicles per month"
+  ],
+  "no_auto_apply": true,
+  "no_auto_message": true,
+  "no_resume_upload": true,
+  "no_scheduler_until_acceptance": true,
+  "external_action_flags_scope": "Current collector and matching runtime only; future selected-job applications are conditionally authorized by application-policy.json, not permanently prohibited.",
+  "priority_order": [
+    "salary_opportunity",
+    "capability_match",
+    "ai_related",
+    "management_or_durable_tob"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "scope": "current recommendations; canonical outputs restored after validation",
+  "roles": {
+    "candidate_advisor": {
+      "agent_id": "/root/candidate_advisor",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "max",
+      "dispatch_receipt": "spawn_agent returned canonical task_name only; requested model and effort; no separate model telemetry",
+      "output_sha256": "7b0fe1ef3a70497decb9a7d2294d7219dc56d243faa4aff4eda0a875338756fe",
+      "input_sha256": {
+        "02_岗位画像/我的当前情况总结.md": "1a9d9afc5284d364e28098759174e28ca1ef129dba1b694f7a703a152be2da2b",
+        "careers/config/profile-supplement.json": "cf49a7d0cb666cd430a249f94bed251172f9d4a016822baebdebe689d46479ef",
+        "careers/config/preferences.json": "4b2ed1e3142b90e1a61a2beec55b95af5990bffd0bd85d7645b7562545484aba",
+        "careers/config/career-strategy.json": "c722747fd5dcc5d0a4d66bb5d5a368c6ed1482a00e10de0af0abf74cda1b5e35",
+        "02_岗位画像/data/我的能力画像.json": "fad1c54f615d01c0b0117f96abd4110c92a099b9452302c8838401cbf663b5d9",
+        "03_简历/贺文杰_销售与商业化管理.docx": "284ccab84091697c03bd19c27592bb1263b061248956e6826fad45e270d60e65",
+        "03_简历/贺文杰_商业化运营.docx": "c577fd3554e1ea182762e1fc9ae7bc2e0dfd2d6e23fbf91b0da9a29f7f4f3407"
+      },
+      "accepted_at": "2026-09-12T18:26:03.809Z",
+      "binding_semantics": "Inputs and quotes verified at import; SQLite uses a read-only logical table snapshot, not physical bytes; not a pre-execution snapshot",
+      "token_usage": null,
+      "scoped_output_path": "careers/agent-outputs/recommendations-2026-09-13/candidate-advisor.json"
+    },
+    "independent_reviewer": {
+      "agent_id": "/root/independent_reviewer",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "max",
+      "dispatch_receipt": "canonical task_name returned; model and effort requested; no separate accepted-model metadata",
+      "output_sha256": "5980ba818b28f241a5ec661bc3e213065fab72b71531dafb956ad2369e069bd9",
+      "input_sha256": {
+        "careers/config/preferences.json": "4b2ed1e3142b90e1a61a2beec55b95af5990bffd0bd85d7645b7562545484aba",
+        "careers/config/agent-team.json": "3f295218ec1c07203256e0f3198518e8bac8018ed092a7bb577cfcdde152f8f0",
+        "careers/config/company-tier-policy.json": "7fffe680acb5cb678198511a999dd0a7528b73b88d958bd6e9b915d4f1d578cc",
+        "careers/config/source-catalog.json": "94e2c5be42a472b6bd5bd92e5c5858d5931559bee15d5ab9d64a1a021e448051",
+        "careers/market-leads.mjs": "8881a77511e34bf745969a531d9703143dd22e385820dfa61dc7da235858329c",
+        "careers/headhunter.mjs": "68ff38c3beae63b3503a917ace614508a84c5fb50fa6880530df3b6972c5b6f2",
+        "careers/config/discovery-policy.json": "e1a1c2dd697c921ef34b5554ad2eac3eecd3ce32f6e0ac588dd0c36a4b668ba6",
+        "careers/docs/dual-route-discovery.md": "dbd060860a48fe43c7baf870a3bf56f046ebb95ba93c505f92d29cf4366c46f7",
+        "outputs/简历隐藏能力与机会推荐_2026-09-13.md": "4e905e56ba72483bba1b7650a4a186a6e967e6cfeb329994a64f5ce84311fcd4",
+        "careers/config/career-strategy.json": "c722747fd5dcc5d0a4d66bb5d5a368c6ed1482a00e10de0af0abf74cda1b5e35",
+        "02_岗位画像/我的当前情况总结.md": "1a9d9afc5284d364e28098759174e28ca1ef129dba1b694f7a703a152be2da2b",
+        "02_岗位画像/data/我的能力画像.json": "fad1c54f615d01c0b0117f96abd4110c92a099b9452302c8838401cbf663b5d9",
+        "03_简历/懂车帝AI项目业务价值证据卡_V5.md": "c9e281239869f9e3fdc8891c0e0240235748ca06dabfc164c1990127cbd5bcbd",
+        "careers/agent-outputs/recommendations-2026-09-13/resume-extracts.json": "ab79f86eea5db9131dd57a6210e1e98995b02f20b839c9b476a99734e1980438",
+        "03_简历/贺文杰_销售与商业化管理.docx": "284ccab84091697c03bd19c27592bb1263b061248956e6826fad45e270d60e65",
+        "03_简历/贺文杰_商业化运营.docx": "c577fd3554e1ea182762e1fc9ae7bc2e0dfd2d6e23fbf91b0da9a29f7f4f3407",
+        "03_简历/贺文杰_AI商业化_BusinessBuilder定向优化版.docx": "f32378e54129f7571649d07a20eb143851998b657bc020f65a068d1581b2ad45",
+        "careers/agent-outputs/recommendations-2026-09-13/root-web-receipts.json": "25611dc0007ec29f9785b8e1c9de24e470d5c27a7805a06325ce5d8543eaa04b",
+        "careers/agent-outputs/independent-review.json": "5980ba818b28f241a5ec661bc3e213065fab72b71531dafb956ad2369e069bd9",
+        "careers/docs/headhunter-team.md": "ffba11a20d8be140b2afd9b556b818d23a43a8c61fb742a63ac091b0d0edccad",
+        ".agents/skills/official-career-intelligence/SKILL.md": "301e2917d5613734e8c63b0cac518ace5099ca64edfa6408990a7a602e89696f"
+      },
+      "accepted_at": "2026-09-12T18:29:02.535Z",
+      "binding_semantics": "Inputs and quotes verified at import; SQLite uses a read-only logical table snapshot, not physical bytes; not a pre-execution snapshot",
+      "token_usage": null,
+      "scoped_output_path": "careers/agent-outputs/recommendations-2026-09-13/independent-review.json"
+    }
+  }
+}

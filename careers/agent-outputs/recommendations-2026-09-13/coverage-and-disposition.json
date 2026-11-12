@@ -1,0 +1,49 @@
+{
+  "scope": "two finite waves; not a company inventory or formal job matching batch",
+  "coordinator_calls": 11,
+  "coordinator_calls_actual_at": [
+    "2026-09-12 18:18:34 UTC",
+    "2026-09-12 18:18:53 UTC",
+    "2026-09-12 18:19:15 UTC",
+    "2026-09-12 18:19:36 UTC",
+    "2026-09-12 18:20:00 UTC",
+    "2026-09-12 18:20:29 UTC",
+    "2026-09-12 18:20:47 UTC",
+    "2026-09-12 18:21:17 UTC",
+    "2026-09-12 18:21:43 UTC",
+    "2026-09-12 18:22:07 UTC",
+    "2026-09-12 18:22:30 UTC"
+  ],
+  "scout_call_count": "15 self-reported; raw responses not preserved locally; not used as a completeness measure",
+  "all_companies_full_scan_count": 0,
+  "confirmed_fixed_cny20k_jobs": 0,
+  "primary_report_sources": [
+    "https://join.fanruan.com/social/detail?id=9825",
+    "https://join.fanruan.com/social/detail?id=9584",
+    "https://jobs.lever.co/dlocal/93b5d5bc-ccdf-41c0-9213-b1aaf83536aa",
+    "https://www.zhaopin.com/jobdetail/CC223457720J40848280801.htm",
+    "https://www.thirdbridge.com/en-us/experts",
+    "https://www.feishu.cn/services/success-plans"
+  ],
+  "ownership_and_access": {
+    "fanruan": "fanruan.com subdomain, company copyright and parent-homepage link visible; recruitment page readable",
+    "dlocal": "Lever full page read with employer footer, reverse company-to-ATS chain pending",
+    "zhaopin": "platform employer detail and full responsibilities readable; employer independently unverified; detail pay hidden; search pay kept separate",
+    "thirdbridge": "own domain expert page read",
+    "feishu": "own domain service page search-returned contents",
+    "glg": "root non-retryable safe-open error; not retried, not cited in report"
+  },
+  "scout_disposition": "not accepted as formal registered job_scout output: residual unsupported official-current labels, missing contract fields, no locally preserved raw returns or actual timestamps. Root independently verified every cited final market source. Scout material remains preliminary; Veeva and overseas samples not recommended.",
+  "unscanned_or_pending": [
+    "China automotive management full JD and fixed pay",
+    "sales operations exact full JD",
+    "full pagination for all employers",
+    "Fanruan salary and management authority",
+    "dLocal English and advanced Excel candidate evidence; reverse employer ownership chain",
+    "paid demand for user sales coaching and workflow service",
+    "market-position company tiers"
+  ],
+  "applications": 0,
+  "messages": 0,
+  "resume_changes": 0
+}

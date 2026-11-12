@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-02T09:31:17.072Z",
+  "live_collection_success": false,
+  "runs": [
+    {
+      "schema_version": 1,
+      "run_id": "bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485",
+      "company_id": "bailian-ai",
+      "company_name": "百炼智能",
+      "source_id": "bailian-official-joinus",
+      "provider": "bailian-static-v1",
+      "tenant": "www.bailian-ai.com",
+      "started_at": "2026-11-02T09:30:56.675Z",
+      "finished_at": "2026-11-02T09:31:17.068Z",
+      "status": "failed",
+      "complete": false,
+      "scope": {
+        "kind": "official_board",
+        "board_url": "https://www.bailian-ai.com/joinus",
+        "query": null,
+        "keywords": [],
+        "filters": {},
+        "coverage": "all jobs on this single official board only",
+        "company_wide": false,
+        "closure_eligible": false,
+        "pagination": null
+      },
+      "ownership": {
+        "status": "unverified",
+        "chain": []
+      },
+      "jobs": [],
+      "evidence": [
+        {
+          "run_id": "bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485",
+          "source_id": "bailian-official-joinus",
+          "company_id": "bailian-ai",
+          "sequence": 1,
+          "url": "https://www.bailian-ai.com/robots.txt",
+          "method": "GET",
+          "purpose": "robots",
+          "started_at": "2026-11-02T09:30:56.976Z",
+          "finished_at": "2026-11-02T09:31:16.993Z",
+          "status": null,
+          "headers": {},
+          "body_path": "01_行情收集/official-careers/raw/bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485/001.body",
+          "metadata_path": "01_行情收集/official-careers/raw/bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485/001.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": false,
+          "error": "EAI_AGAIN",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "errors": [
+        {
+          "code": "NETWORK_FAILED",
+          "message": "EAI_AGAIN",
+          "evidence": "01_行情收集/official-careers/raw/bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485/001.response.json"
+        }
+      ],
+      "permission_basis": "explicit_user_stage1_target",
+      "source_health": "stopped",
+      "artifacts": {
+        "database": "01_行情收集/official-careers/careers.sqlite",
+        "report_json": "01_行情收集/official-careers/reports/bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485.json",
+        "report_markdown": "01_行情收集/official-careers/reports/bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485.md"
+      },
+      "reused_evidence": [],
+      "scope_fingerprint": "cf7609d694425f62adc47d174f625b52568e879543e16d69a1709cefbc68b229",
+      "observation_kind": "subsequent_observation",
+      "change_detection": "scope_aware_incremental_v2; newly_observed_is_not_publication; absence_requires_review",
+      "baseline_run_id": "bailian-f9e68c64-1dc9-4b20-9d58-568eeeddb010",
+      "events": []
+    }
+  ],
+  "artifacts": {
+    "database": "01_行情收集/official-careers/careers.sqlite",
+    "report_json": "01_行情收集/official-careers/reports/bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485.json",
+    "report_markdown": "01_行情收集/official-careers/reports/bailian-ai-10cde3f4-5734-4227-b50f-54ef8186a485.md"
+  }
+}

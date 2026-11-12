@@ -1,0 +1,1835 @@
+{
+  "schema_version": 1,
+  "status": "changes_requested",
+  "review_type": "independent_read_only_snapshot_audit",
+  "reviewed_at": "2026-09-22T18:09:51.824Z",
+  "frozen_at": "2026-09-22T18:04:05.212Z",
+  "workspace": "/Users/MR/Documents/职场",
+  "directory": "01_行情收集/official-careers/research/market-wide-2026-09-23",
+  "reviewer": {
+    "role": "independent QA",
+    "implementation_participation": false,
+    "model": "not_exposed_in_auditable_runtime_metadata",
+    "reasoning_effort": "not_exposed_in_auditable_runtime_metadata",
+    "new_tasks_created": 0
+  },
+  "scope": {
+    "files": [
+      "extract-page-jobs.mjs",
+      "jobs.json",
+      "extraction-audit.json",
+      "raw/*.json"
+    ],
+    "writes": [
+      "independent-qa.json",
+      "independent-qa.md"
+    ],
+    "network_used": false,
+    "browser_used": false,
+    "extractor_executed": false,
+    "history_code_reviewed": false,
+    "implementation_or_data_modified": false,
+    "online_full_validation": false,
+    "market_complete": false,
+    "additional_authorized_files": [
+      "careers/decision-review.mjs",
+      "careers/tests/decision-review.test.mjs"
+    ]
+  },
+  "snapshot": {
+    "initial": {
+      "frozen_at": "2026-09-22T18:03:03.070Z",
+      "primary": [
+        {
+          "file": "extract-page-jobs.mjs",
+          "sha256": "fb70576e20c4d152103b2ad9fc2503f23c2c32d5027a4ce6650da07aa0306e57",
+          "bytes": 24029
+        },
+        {
+          "file": "jobs.json",
+          "sha256": "857010490edd436f6689f3c1c2f2ac8053d97568fab9432a93b4b3b7c07745c2",
+          "bytes": 2057549
+        },
+        {
+          "file": "extraction-audit.json",
+          "sha256": "b479efc0d6cd13c142feff680523ed9b999352d9120764fff4746f7e2e51818a",
+          "bytes": 19214
+        }
+      ],
+      "jobs": 197,
+      "complete_jd": 116
+    },
+    "current": {
+      "primary": [
+        {
+          "file": "extract-page-jobs.mjs",
+          "sha256": "74eacd11aaf8ae698899bfda8f159ee0a01b9ef37c2f9321907dd78b9914b544",
+          "bytes": 24851
+        },
+        {
+          "file": "jobs.json",
+          "sha256": "fb93789cabc677c7ba683d9bc2263542d4cc8f71539de3a1f4047d9a683d98ac",
+          "bytes": 2201563
+        },
+        {
+          "file": "extraction-audit.json",
+          "sha256": "6808bdceb33aaab79c0f094a052a99f7538d39b4f2cedb389fb232996bb5c11f",
+          "bytes": 19216
+        }
+      ],
+      "manifest": [
+        {
+          "file": "extract-page-jobs.mjs",
+          "sha256": "74eacd11aaf8ae698899bfda8f159ee0a01b9ef37c2f9321907dd78b9914b544",
+          "bytes": 24851
+        },
+        {
+          "file": "jobs.json",
+          "sha256": "fb93789cabc677c7ba683d9bc2263542d4cc8f71539de3a1f4047d9a683d98ac",
+          "bytes": 2201563
+        },
+        {
+          "file": "extraction-audit.json",
+          "sha256": "6808bdceb33aaab79c0f094a052a99f7538d39b4f2cedb389fb232996bb5c11f",
+          "bytes": 19216
+        },
+        {
+          "file": "raw/c001.json",
+          "sha256": "6c27d06379d90dcfc170deeded272d9f0bef817fb3612d509c75308ba9b547a8",
+          "bytes": 30537
+        },
+        {
+          "file": "raw/c002.json",
+          "sha256": "ee0a34c20ab9cf9a20babba137415c300decf4ed8807f464b8cb469d07c06165",
+          "bytes": 29025
+        },
+        {
+          "file": "raw/c003.json",
+          "sha256": "b7a0bb1bc8e1fd8c2a6590d88a678c4b5ff7f3606ef1f7f6f004834092df46ab",
+          "bytes": 30663
+        },
+        {
+          "file": "raw/c004.json",
+          "sha256": "f111b9fd3c07b09308ee65fb7de58a4b1b185374623988e0ff3e25781dc31706",
+          "bytes": 31659
+        },
+        {
+          "file": "raw/c005.json",
+          "sha256": "6634625d5e931ccf53baed852eb1332648332fc24ebbb99293e0caa501e9d970",
+          "bytes": 29925
+        },
+        {
+          "file": "raw/c006.json",
+          "sha256": "ca280082ef062c5c6efb892fcd8e1876162e40d72ac652cb67d6f7185bae488b",
+          "bytes": 30314
+        },
+        {
+          "file": "raw/c007.json",
+          "sha256": "26088b3f6939a20d1baed4f8468db19c683d7954ae0b31da336570597d5c3fbc",
+          "bytes": 30757
+        },
+        {
+          "file": "raw/c008.json",
+          "sha256": "c2c7c6329bcdb48d66f12f66473c6bbf89fe3da052251ea6ed6bab8837969d74",
+          "bytes": 31740
+        },
+        {
+          "file": "raw/c009.json",
+          "sha256": "7fe184d113a63a7e298941ea65cca839a4aa74a8f9fa573f66b8c9146118caa3",
+          "bytes": 29711
+        },
+        {
+          "file": "raw/c010.json",
+          "sha256": "f1423ae1ffb7ec1ac6867598374bffdb65f20c2877dd6fa7c0544dc30630cb05",
+          "bytes": 32506
+        },
+        {
+          "file": "raw/c011.json",
+          "sha256": "721ec3ecdf49691e915f598c3cce5f0faa6ff8fe69898c4c577cb46baf048133",
+          "bytes": 31021
+        },
+        {
+          "file": "raw/c012.json",
+          "sha256": "6804d4efe4c48c9db81f7d21d346786ddcbd41b16b29b3b1e05081176b95fa1d",
+          "bytes": 30292
+        },
+        {
+          "file": "raw/c013.json",
+          "sha256": "8a31d0228b1eb6e5a79e1e94032e30332c30a1c18496c5f4098e93aef63b5a09",
+          "bytes": 31567
+        },
+        {
+          "file": "raw/c014.json",
+          "sha256": "4555560ad5a5a19347f8d76aa8a458ba10ed801f47ab0b59d8868e5abc4c8a5e",
+          "bytes": 27723
+        },
+        {
+          "file": "raw/c015.json",
+          "sha256": "22817d63777dcd550c7a34c08037c49bc1ce44b5ed625c096efecb3b18e2f324",
+          "bytes": 30370
+        },
+        {
+          "file": "raw/c016.json",
+          "sha256": "267e044792c711c9f1df60cc3355755ddb44b94ae7f5fbfe0abaed21ff614aec",
+          "bytes": 30168
+        },
+        {
+          "file": "raw/c017.json",
+          "sha256": "37b376b5ac8cf14f07129a0d0f60688871f862f63518b37aa446a00f0566a773",
+          "bytes": 31336
+        },
+        {
+          "file": "raw/c018.json",
+          "sha256": "05ee84baaceb3b58050562ba8a2962c9b4ab029d0a9e9f3b5b5656f0094c0b14",
+          "bytes": 30372
+        },
+        {
+          "file": "raw/c019.json",
+          "sha256": "8f40a6a8039d0ea2e0129f5cf16a023dcfbe1d90e66a58db10b51db8512eb775",
+          "bytes": 32249
+        },
+        {
+          "file": "raw/c020.json",
+          "sha256": "7850227ddfbbd8e1cd8ccdd264f7dd515e493c018026e61c986ed52376df2760",
+          "bytes": 33090
+        },
+        {
+          "file": "raw/c021.json",
+          "sha256": "126578948cea02cef27bca2d0c10aa3a1f0dc33adf543faa83a2d4bd30f88f28",
+          "bytes": 32425
+        },
+        {
+          "file": "raw/c022.json",
+          "sha256": "0be009a74393ba5ff8cf1182ce170bec97f7d896d0b347629494ef541690df1b",
+          "bytes": 29875
+        },
+        {
+          "file": "raw/c023.json",
+          "sha256": "d352711d3b35607584f522fd946c7b112e0b2e54280e012cc3b1863ca48ea8b4",
+          "bytes": 30411
+        },
+        {
+          "file": "raw/c024.json",
+          "sha256": "a283413e9cddda406bc7a3f5c55a52c73c7cd8ec2a8ad408bfb3eee02170389d",
+          "bytes": 30204
+        },
+        {
+          "file": "raw/c025.json",
+          "sha256": "c6be28f2c337a3b48a6623830d8488cd6c0256589378adb535ce4a906676366b",
+          "bytes": 31510
+        },
+        {
+          "file": "raw/c026.json",
+          "sha256": "f9fc6d06e77fe266a9f125c9b353838d5d9148cdf0302e216ccd86ee12a700ed",
+          "bytes": 31057
+        },
+        {
+          "file": "raw/c027.json",
+          "sha256": "f752cb29c27380383d296094cd8c17ef1def2188aa497860dce88dba2818fbfc",
+          "bytes": 32541
+        },
+        {
+          "file": "raw/c028.json",
+          "sha256": "fee5972a17affa45a7dd5bb8f615d3c871252cc6ae8faf3a4341b6ad0746d8e7",
+          "bytes": 31177
+        },
+        {
+          "file": "raw/c029.json",
+          "sha256": "2369cad013d3ce385de09cf6d6418211db11a44f5d45c05b89351ca03fe1325a",
+          "bytes": 31585
+        },
+        {
+          "file": "raw/c030.json",
+          "sha256": "0452ce2a0111329fc405b124e9bddd27ae04f84d388d3429e70106980045eacc",
+          "bytes": 30965
+        },
+        {
+          "file": "raw/c031.json",
+          "sha256": "61d93f824b27e8b34eae1f2511eb1bbb80d9dae10c663b780facb03afd7bf8d4",
+          "bytes": 32208
+        },
+        {
+          "file": "raw/c032.json",
+          "sha256": "ad133202f99f7a88cb1bcda3ecbd32cef44683155e9026abdac5545887f5f5df",
+          "bytes": 30761
+        },
+        {
+          "file": "raw/c033.json",
+          "sha256": "e9839758f019d49e2b9901650160f75edf66e682e5eeba0ae5b83e07d4e6cff0",
+          "bytes": 30714
+        },
+        {
+          "file": "raw/c034.json",
+          "sha256": "888b077ed39a3c807a2ff0acd0724b4ba6d7bedcf28e95b146ebf61f8b0ac702",
+          "bytes": 31703
+        },
+        {
+          "file": "raw/c035.json",
+          "sha256": "2261a1977de9b24ab2e1910904f0a4670066c1b15350e267db179a823ce84b78",
+          "bytes": 32085
+        },
+        {
+          "file": "raw/c036.json",
+          "sha256": "91ec761c91fd0022d060a2ab6a0396fc5f1eafd1d7bb8695bc002edd8f2b19f4",
+          "bytes": 26988
+        },
+        {
+          "file": "raw/c037.json",
+          "sha256": "417c3b65b80610b84ea8f8de64f82e511e0d9b6e196daa0c941a72e194f7f5f3",
+          "bytes": 30209
+        },
+        {
+          "file": "raw/c038.json",
+          "sha256": "3ba3b49af12f07e63697974a4a73c704c81a2a90bef5caa83a6e172148990ac5",
+          "bytes": 28855
+        },
+        {
+          "file": "raw/c039.json",
+          "sha256": "4ddcbeaa74c2079dba31ec357b3b375856883aa599adf438d1a34ea56fd008e7",
+          "bytes": 33418
+        },
+        {
+          "file": "raw/c040.json",
+          "sha256": "e5e01504a8cffa8b9f079edb570ec52b1f018a2f91b5cbe2454493a4de36a04e",
+          "bytes": 32558
+        },
+        {
+          "file": "raw/c041.json",
+          "sha256": "4da2863be03a74d88da244a16cdcd3eb975410d098cc4df8502d3636b4039931",
+          "bytes": 29287
+        },
+        {
+          "file": "raw/c042.json",
+          "sha256": "5dde88decdcb51896dbe3d47fc8c3ebe140ac1bba306ed3eac1460d04e7a2ae4",
+          "bytes": 31726
+        },
+        {
+          "file": "raw/c043.json",
+          "sha256": "2ea99e4cc9dc8b5c1c2129d1f938547d5dd94cf8616c98f212966c6894885537",
+          "bytes": 31396
+        },
+        {
+          "file": "raw/c044.json",
+          "sha256": "269f094b1ce3e837ba1fa4065358006ac37a5d4fec6be9788fc980fe695c7b8b",
+          "bytes": 31612
+        },
+        {
+          "file": "raw/c045.json",
+          "sha256": "d9c6c6f3c275f13393b783e0fd993ded31e99955e7fc0814a07f88f2889e773e",
+          "bytes": 29868
+        },
+        {
+          "file": "raw/c046.json",
+          "sha256": "fa8c1b67a7a47c6097e93f7657f4444e746e7295b84a68e541d1b20e7f11cf85",
+          "bytes": 30865
+        },
+        {
+          "file": "raw/c047.json",
+          "sha256": "67aed9593b1274c6d7e50ec65355349a030607215a611490b10fc5f3ded767b9",
+          "bytes": 32112
+        },
+        {
+          "file": "raw/c048.json",
+          "sha256": "c56e201e6e15e9209872d974b7af4f554e68e20b45a64c7d95bd29804a9cd52c",
+          "bytes": 30554
+        },
+        {
+          "file": "raw/c049.json",
+          "sha256": "7eb381556777325cf9b85434c20e421c4ce4eabcb2ca0598093e5dc5664c2351",
+          "bytes": 31269
+        },
+        {
+          "file": "raw/c050.json",
+          "sha256": "a1809fc49b025e2b5f2051ae81905502e38b14fdf7209db1f0604bfc0fe56e88",
+          "bytes": 30838
+        },
+        {
+          "file": "raw/c051.json",
+          "sha256": "47da9be81b1dfb7184efa8a2a9e8d127c2f506d5c4036eac99c8d0532a4a8d79",
+          "bytes": 29391
+        },
+        {
+          "file": "raw/c052.json",
+          "sha256": "b97c496e2329f9144b54ccbfc3617bf72cd0fcf62873699797cbee53df8fd9a0",
+          "bytes": 28292
+        },
+        {
+          "file": "raw/c053.json",
+          "sha256": "ecfba5bd9e0ef5ce0fbd649159f4303e3278f926c00116d33f7908cd1faaf41e",
+          "bytes": 28933
+        },
+        {
+          "file": "raw/c054.json",
+          "sha256": "affab965eeb78ce03ff04d860274f9d07d0d13662081f60b5dbee0113ff3ae96",
+          "bytes": 29692
+        },
+        {
+          "file": "raw/c055.json",
+          "sha256": "0bd8a031305906e0ebfdff25f9909a87dff3ac0e422ebf32796a4bf388db7f0e",
+          "bytes": 35773
+        },
+        {
+          "file": "raw/c056.json",
+          "sha256": "f219dedf4ae396bf84080a53fe842f2c0d7fdf8d3b663302f088bd205a863e99",
+          "bytes": 31523
+        },
+        {
+          "file": "raw/c057.json",
+          "sha256": "a303a5f8a1be250a26c3f6c0cd6d8bce37aab5415ed8dffef146bee585be6ec8",
+          "bytes": 30691
+        },
+        {
+          "file": "raw/c058.json",
+          "sha256": "47218ef0771db99daf97a2377db944a063ef70aacb2fd899ca2d3af2c3d370d5",
+          "bytes": 30127
+        },
+        {
+          "file": "raw/c059.json",
+          "sha256": "5f74b38f494c17d6c00f58ec28b95df585a6a0cb150e4393a863421cbceaf0f4",
+          "bytes": 31288
+        },
+        {
+          "file": "raw/c060.json",
+          "sha256": "53f8a709ea579821c477fff64922d1f9af8ba04ed48d28771933fd89919d06fe",
+          "bytes": 31780
+        },
+        {
+          "file": "raw/c061.json",
+          "sha256": "1c21eefe4c46ff079cfa37380b23a2fbca40cf483dc3670c78d05e5d553a0563",
+          "bytes": 31024
+        },
+        {
+          "file": "raw/c062.json",
+          "sha256": "a3def1cec0ae08dc83da185cbd709abf3b1f36f1a53a963204b8fbcf3e7977b4",
+          "bytes": 29891
+        },
+        {
+          "file": "raw/c063.json",
+          "sha256": "638830d729fe790c464943b5b29bbdc703e06b4ced8a3008e4ef8b950a98aba3",
+          "bytes": 31829
+        },
+        {
+          "file": "raw/c064.json",
+          "sha256": "64d051e22883430350067c4e516fc914c6a80d801e3de858898b571139165d94",
+          "bytes": 30735
+        },
+        {
+          "file": "raw/c065.json",
+          "sha256": "8f40aeae0963a26bbd83a1c9d28a8f68ce1bd08c55d9bc3918e4f651c33c0ac0",
+          "bytes": 28769
+        },
+        {
+          "file": "raw/c066.json",
+          "sha256": "21309a80a4d0c157bb8a72cefe15ad155177bd0f42ca11e87291a73de252b0bf",
+          "bytes": 31713
+        },
+        {
+          "file": "raw/c067.json",
+          "sha256": "8c8302a0dd44006eec8f6abd210d5a51effeac309b46aed3793c201e389da080",
+          "bytes": 31078
+        },
+        {
+          "file": "raw/c068.json",
+          "sha256": "891109c178f3fdda918c63879fe7e02efae382223da90d2de3a514ca6656577a",
+          "bytes": 33218
+        },
+        {
+          "file": "raw/c069.json",
+          "sha256": "1512242e05a056024cb2bb0450eed5d46c58725df7d996abeb6777903acc14a5",
+          "bytes": 30731
+        },
+        {
+          "file": "raw/c070.json",
+          "sha256": "b75d64b57080558c369c51b2d00d7345ad13b7462948d24a9b46f3739bcf9aef",
+          "bytes": 30391
+        },
+        {
+          "file": "raw/c071.json",
+          "sha256": "4f39b78c27f4669b048ce347221ee0d49440749d557c8aec680c9d38e38d4b1d",
+          "bytes": 30584
+        },
+        {
+          "file": "raw/c072.json",
+          "sha256": "6ceb5a69d16d1b35ebffa047471071b8f5b5fb9e0bc42813e0b9844f4aa3e2eb",
+          "bytes": 30526
+        },
+        {
+          "file": "raw/c073.json",
+          "sha256": "8c852e014e12ba78f977c8ee223b682104a4670d3bd11d378acbf808dd59943e",
+          "bytes": 32168
+        },
+        {
+          "file": "raw/c074.json",
+          "sha256": "535c69e44baec7536f8fc2d815dfb3f1f38826ff060f9e7af33b173157480843",
+          "bytes": 29111
+        },
+        {
+          "file": "raw/c075.json",
+          "sha256": "c9a7177e6416ebccda05b56a53d6306074b956d73742cf5dd56a2dd665519978",
+          "bytes": 32294
+        },
+        {
+          "file": "raw/c076.json",
+          "sha256": "7c33d96ddedb5ffc4d70e9ad06ed819de325b58ccbf23e1a78916130e46a53b2",
+          "bytes": 31014
+        },
+        {
+          "file": "raw/c077.json",
+          "sha256": "32518294c5c5bbbfacf2f818d6c207b5eee3eabdf028412eedfab07d59021a92",
+          "bytes": 31178
+        },
+        {
+          "file": "raw/c078.json",
+          "sha256": "4aaa4a50b1211c6328ae31ce9ef53247f5464ca6deaaa810e32e9be69f161f0d",
+          "bytes": 31285
+        },
+        {
+          "file": "raw/c079.json",
+          "sha256": "7c2be7b6ebe730f6770ef5524676c633e86b9eb02b6cc023bec35c08b6663441",
+          "bytes": 29387
+        },
+        {
+          "file": "raw/c080.json",
+          "sha256": "c0e6a5f1e2912e162c159f81d4c6258ffd94cb4530d71fff128a09eb8408403e",
+          "bytes": 30077
+        },
+        {
+          "file": "raw/c081.json",
+          "sha256": "228404456201617058e3e77c299b364612c82be2c2414449fac45c913e980372",
+          "bytes": 29401
+        },
+        {
+          "file": "raw/c082.json",
+          "sha256": "939bba329ca587f1d3f1ff0d7adada636c67a6699fa5e8020e5cfafb802e216e",
+          "bytes": 31657
+        },
+        {
+          "file": "raw/c083.json",
+          "sha256": "8ab077c7b2160568ef69eb3895247aab3cc8564192e45cf4de11e54f6d5ce160",
+          "bytes": 30429
+        },
+        {
+          "file": "raw/c084.json",
+          "sha256": "ed63c9fab0ab7887bf19a9dada74421c0e2fc37a72dcff061e48406f590a5995",
+          "bytes": 30944
+        },
+        {
+          "file": "raw/c085.json",
+          "sha256": "fc61dae94f8f542c6743936b664a1bf5dcc29490e921788d40b6a5827594f78c",
+          "bytes": 31021
+        },
+        {
+          "file": "raw/c086.json",
+          "sha256": "21ecf2e1ae0fb4b0bff1916763221108a1a04f37fb0d4536615df056ae34faf7",
+          "bytes": 29208
+        },
+        {
+          "file": "raw/c087.json",
+          "sha256": "74eb635905e12aebeaea2182d3e43d87c8487f1fdfdae804229b8b926c5f79a4",
+          "bytes": 31225
+        },
+        {
+          "file": "raw/c088.json",
+          "sha256": "a189e950875a7a59f7cc8a942f58e78f6ea067c5fe0e8cc1116aa06302790fc5",
+          "bytes": 32100
+        },
+        {
+          "file": "raw/c089.json",
+          "sha256": "02faf6f08878ae304101336e4649095a49879ec127bdccfadce37f5f435a945d",
+          "bytes": 31010
+        },
+        {
+          "file": "raw/c090.json",
+          "sha256": "bed33e1d68da14edde6eedab5fae31a6cf2918053d3026513cabe5c0973f5236",
+          "bytes": 32117
+        },
+        {
+          "file": "raw/c091.json",
+          "sha256": "ea62e156fd1d042bbfe7f1e923bb48b8ccc378c693abd1f7507f6d2a0c8e7053",
+          "bytes": 29885
+        },
+        {
+          "file": "raw/c092.json",
+          "sha256": "327d6c9e76922e7bf7d917f7fd4d8c24cd00f6450204b645e40872e4bc257abf",
+          "bytes": 32274
+        },
+        {
+          "file": "raw/c093.json",
+          "sha256": "8e728fba099f8dc8a15f73a3faed4daa968dd9deefa270d93329618dbb199d9d",
+          "bytes": 30221
+        },
+        {
+          "file": "raw/c094.json",
+          "sha256": "098562c47868ad320d9e9d8378a77e5e696711100cbd465c6dad201af67e426f",
+          "bytes": 29245
+        },
+        {
+          "file": "raw/c095.json",
+          "sha256": "795279f022ddce95e6e15a133ca5f6dd3fc257df8c921dd92a349f02897649c3",
+          "bytes": 30093
+        },
+        {
+          "file": "raw/c096.json",
+          "sha256": "96f425a23d5b1115032b95eb4a8be7163b6d7f2e22fcd97b19b586df499373e6",
+          "bytes": 29980
+        },
+        {
+          "file": "raw/c097.json",
+          "sha256": "0cd74b1333fae13e3f83807da06de29b124bb5b25d1a37d5e1de75ada4a58586",
+          "bytes": 30707
+        },
+        {
+          "file": "raw/c098.json",
+          "sha256": "d4eec0fdc155c194cf8f8ff9cc60b44f2af7209e13ec7fe8fb9d501367989396",
+          "bytes": 31756
+        },
+        {
+          "file": "raw/c099.json",
+          "sha256": "2f8fcea54ddcebaabf4a2febfbf2f77762a1775cdfd7efe7e6ee48bd26a0bd73",
+          "bytes": 30462
+        },
+        {
+          "file": "raw/c100.json",
+          "sha256": "26dd6f35cf1a586ff6a7faeb4bd5197eb789373ec6931148c7d61fa5eada8ed0",
+          "bytes": 31699
+        },
+        {
+          "file": "raw/c101.json",
+          "sha256": "5361a905a1f738a136e8ad8e02ef60787625df939f04db82a10f632346fff5d3",
+          "bytes": 33471
+        },
+        {
+          "file": "raw/c102.json",
+          "sha256": "0d8a8619827dd05cc0fc08df59d8ab8bf9cbe7399296ac09b7ced2becd7b58bd",
+          "bytes": 30025
+        },
+        {
+          "file": "raw/c103.json",
+          "sha256": "aba6fe1f7ede4142dabf79b88da5fa09f8ba204ef845bbebdd011f57bd070e63",
+          "bytes": 29988
+        },
+        {
+          "file": "raw/c104.json",
+          "sha256": "a42046cbe985745b6c188c0298af24fe0206342fb7e8620d8d448f3f1227e675",
+          "bytes": 30333
+        },
+        {
+          "file": "raw/c105.json",
+          "sha256": "0f31574f59d1dc528725b611163447461a210d0b91c7b2eafdd5a2f1b41d888e",
+          "bytes": 28134
+        },
+        {
+          "file": "raw/c106.json",
+          "sha256": "d1f2252fa42940566097b83c717a050fd5b4a12f5eb7b53a04b386139c1900c4",
+          "bytes": 31441
+        },
+        {
+          "file": "raw/c107.json",
+          "sha256": "8cfad10910c7c13ca9b6c8ddb18b2fa8f99cdeee0febdec477257e20a5254e3e",
+          "bytes": 30006
+        },
+        {
+          "file": "raw/c108.json",
+          "sha256": "d07bc56b32c09d696e4b5f7b03fe1445b4adf9e7d41479dcb48d61556f239d67",
+          "bytes": 33591
+        },
+        {
+          "file": "raw/c109.json",
+          "sha256": "a5c8bedb3300b55e17eb90d93efc62c85e916019e843a1e67855ec8f23c8ca1d",
+          "bytes": 30895
+        },
+        {
+          "file": "raw/c110.json",
+          "sha256": "c126a78363c84a9fb0c74417e592d78904d7c85ca7edb271e4f7647be3b48286",
+          "bytes": 30460
+        },
+        {
+          "file": "raw/c111.json",
+          "sha256": "61b08711ee3ae7dade173df5ce857e81a3da8dfddf13796ba1f6925a36ed1aa4",
+          "bytes": 32395
+        },
+        {
+          "file": "raw/c112.json",
+          "sha256": "bd448f23b15fe22b39b8f94d490f74922fad08629a2a91113954e040e96ea51c",
+          "bytes": 29999
+        },
+        {
+          "file": "raw/c113.json",
+          "sha256": "f1285df517d3513d19b387f7f15c6ab990220ec332e2df17028181b79766ab20",
+          "bytes": 30367
+        },
+        {
+          "file": "raw/c114.json",
+          "sha256": "3253e1eb846d74d911cb7aeb3e33784572fd8925b3aef380a9ac6af025b0329c",
+          "bytes": 32888
+        },
+        {
+          "file": "raw/c115.json",
+          "sha256": "6326427a998905376d5a524331133a21fa610688900f11366f0c67cf4751b2ee",
+          "bytes": 31860
+        },
+        {
+          "file": "raw/c116.json",
+          "sha256": "510fb98ec4589dddfbb48d57b5658a96675c56b81aa49d807f69e1e6e2d40038",
+          "bytes": 35004
+        },
+        {
+          "file": "raw/c117.json",
+          "sha256": "b0ed0bfe7889ee4295a8970d44d3117227cbf190c55b791cc98a3d60ccbfa1a4",
+          "bytes": 32326
+        },
+        {
+          "file": "raw/c118.json",
+          "sha256": "0369151d0beb98d710cf38e7f84416b741942c2610c05c3cef47971944bb5d62",
+          "bytes": 32215
+        },
+        {
+          "file": "raw/c119.json",
+          "sha256": "94000da3334fae20daca9ca57f58e7251dcdc3b7e0374200b821fa38f8e67c50",
+          "bytes": 32979
+        },
+        {
+          "file": "raw/c120.json",
+          "sha256": "d0d60c9fd4ff14f2ae1d45879d5503a38ca47815219cc4b117ed673b9e516bf4",
+          "bytes": 31286
+        },
+        {
+          "file": "raw/d01.json",
+          "sha256": "ba5584f5eb47ee86d6561da92099747bb8e832b985a7426c4527ba6bcbb6404b",
+          "bytes": 811
+        },
+        {
+          "file": "raw/d08.json",
+          "sha256": "8849af2647c71632c370c6394d63bd2e189d9e818f90877b9c88623699abced2",
+          "bytes": 767
+        },
+        {
+          "file": "raw/d09.json",
+          "sha256": "10194b341853accbddd6c700c590342d1453e3e4786efec7299a2c5a36169cb8",
+          "bytes": 17638
+        },
+        {
+          "file": "raw/d10.json",
+          "sha256": "e7235ac741a664a74d888c8ec86f7e626dad05474f35f7042e0b45cddab7fffa",
+          "bytes": 5355
+        },
+        {
+          "file": "raw/d11.json",
+          "sha256": "e1faba92e41cef3c1633db941bd555c1a997524dc6ac5cedcb2ac2eac192204a",
+          "bytes": 16211
+        },
+        {
+          "file": "raw/k01.json",
+          "sha256": "aa024619052101254af6b683636880e48cabd983b7ef57469801d5aa1b65a87d",
+          "bytes": 31466
+        },
+        {
+          "file": "raw/k02.json",
+          "sha256": "fb2a623e8d201854e0f6db83eb7b0c076ae291a571fed17f30026cb5c0cf6edd",
+          "bytes": 31717
+        },
+        {
+          "file": "raw/k03.json",
+          "sha256": "3c68ff2c1f58684a42381863f180e73079721ad5b601daaf299bb6451a2c348a",
+          "bytes": 30679
+        },
+        {
+          "file": "raw/k04.json",
+          "sha256": "2698c53c8fc4323da74daf3a97df26b5e62722807faa202696b70570540eeecf",
+          "bytes": 30824
+        },
+        {
+          "file": "raw/k05.json",
+          "sha256": "4b2187373a42ade32a69c84ecf3f4e0c53c6a9d6a40b48fa86c6ed8c8dcc3426",
+          "bytes": 29880
+        },
+        {
+          "file": "raw/k06.json",
+          "sha256": "7672167f0d9db8dd8e7b8d99c7e9dbba156dca2041ac6d19443a1678a7108769",
+          "bytes": 31100
+        },
+        {
+          "file": "raw/k07.json",
+          "sha256": "e197a75ef2b79cdccc85bb83f9e8f364d9eb282ff1fbf9964d3c1d18915ed64d",
+          "bytes": 31704
+        },
+        {
+          "file": "raw/k08.json",
+          "sha256": "c1c74ffe02b9dcd0922f162a1d54be58a7dc4bd37e677dd60e397bee050637a7",
+          "bytes": 31056
+        },
+        {
+          "file": "raw/k09.json",
+          "sha256": "ca20eb068cfa2ea435d749bc6b3806cd8b52e32f5efa35550ef584637c36f5f2",
+          "bytes": 30837
+        },
+        {
+          "file": "raw/k10.json",
+          "sha256": "088af465fffa1bfccc96775acf94d21a3d09e6ecaab3fd0ccdb7ee27f3556116",
+          "bytes": 31551
+        },
+        {
+          "file": "raw/k11.json",
+          "sha256": "15a5b83a652c5fd29174c5150eddfefc14debfcc1c35c9d57120363ca1cf5458",
+          "bytes": 31718
+        },
+        {
+          "file": "raw/k12.json",
+          "sha256": "e0a3988fc3a1ce4efa4827bd4512f4a5c3d2a1d39b4a747ce586008908474d37",
+          "bytes": 30536
+        },
+        {
+          "file": "raw/k13.json",
+          "sha256": "729f80ed267f579de7afa3b7d55780dc71637f6880c1b565747dcbcf0dba2bb2",
+          "bytes": 32738
+        },
+        {
+          "file": "raw/k14.json",
+          "sha256": "af1551fb4d15fe2599b400a8464f46145f6568a678dbc9670d35cc20418c4a1d",
+          "bytes": 32353
+        },
+        {
+          "file": "raw/k15.json",
+          "sha256": "f5fc985f2077cc83a7730bb8bcd789a80bf2b174bcc7602b1bcfe77512278ee5",
+          "bytes": 40914
+        },
+        {
+          "file": "raw/k16.json",
+          "sha256": "57bc0803ac5dddcd405a3fad654a5efe556fcf89806811dba003783253556a75",
+          "bytes": 40087
+        },
+        {
+          "file": "raw/o01.json",
+          "sha256": "593b7e6fd8d5f3e3af883e67d5ddc8a1f999ab59aae8882733ad442d0eb3e2f5",
+          "bytes": 17715
+        },
+        {
+          "file": "raw/o02.json",
+          "sha256": "4f4204a15182e3edf7d16053a95f62b0382aa27417a1e1ca6e07fd67af23661c",
+          "bytes": 6160
+        },
+        {
+          "file": "raw/o03.json",
+          "sha256": "174197edf5792c8e2897a2f3c73660db132274b8e7714d17dab5aa01da89efea",
+          "bytes": 805
+        },
+        {
+          "file": "raw/o04.json",
+          "sha256": "3e21eddaa0e9dcc45bb35f3d15b8df6d713b4a783f6be7c977e2b3c3fdf446f8",
+          "bytes": 757
+        },
+        {
+          "file": "raw/o05.json",
+          "sha256": "a04c8d5868a8dc03e5e99886e7d609f3baa2f7ad8562dbbaf41f86b2f4aa23c5",
+          "bytes": 3508
+        },
+        {
+          "file": "raw/o06.json",
+          "sha256": "6b87c2f661d26c44a30cb7aacaf349f35a2f62a0529952511d46ca25a03bf336",
+          "bytes": 27308
+        },
+        {
+          "file": "raw/o06tail.json",
+          "sha256": "9d729625bf9b4f906ace5c6848a8acda051a3026cad77f3ec59d7a430f0bc2e4",
+          "bytes": 27530
+        },
+        {
+          "file": "raw/o07.json",
+          "sha256": "e6b2ece81f60f6d0625557bae85a674f9dc456ddeddb9e681a5cf8de3d1e9b06",
+          "bytes": 806
+        },
+        {
+          "file": "raw/o08.json",
+          "sha256": "18f6476eb1e7689fc01b28f61df3f66ccb99c47a34947007ecb109e24a26c511",
+          "bytes": 707
+        },
+        {
+          "file": "raw/o09.json",
+          "sha256": "cb5ab15419c37f90857de3d0bed95013d096973a6b81f66de8dfd49d57b45cd3",
+          "bytes": 5091
+        },
+        {
+          "file": "raw/o10.json",
+          "sha256": "7e4c31393062ec147310738447dfbbb6cbccb52b708be33e3914af17aff27f59",
+          "bytes": 13941
+        },
+        {
+          "file": "raw/o11.json",
+          "sha256": "e3e407c32c50956453d6f34adc95f89bdde657151b67f57927a2b1467339be0e",
+          "bytes": 7371
+        },
+        {
+          "file": "raw/o12.json",
+          "sha256": "fc7b2eb51091917f13cd05be48c24c88f7e2afdbc8686ba8b61a0152ed727a8a",
+          "bytes": 13387
+        },
+        {
+          "file": "raw/o13.json",
+          "sha256": "cb9c983f80574f33919ad43fe823831eb769ccb99a59a217d6668f34891a34cb",
+          "bytes": 25777
+        },
+        {
+          "file": "raw/o14.json",
+          "sha256": "338fb89cc0dd9f462d051e9c7db63947dad65d6355cdadd558f7c871d7ec5509",
+          "bytes": 27291
+        },
+        {
+          "file": "raw/o14tail.json",
+          "sha256": "6fb32c371cc59e3b7a190a96007d2fa6d5f95aa6c1d35ca3795d5c55b0eee1e2",
+          "bytes": 872
+        },
+        {
+          "file": "raw/o15.json",
+          "sha256": "7104df5fca58f6b6a3b1a4d6a735c97ffc5f79f16f91b8713d9a8c62a458224e",
+          "bytes": 27239
+        },
+        {
+          "file": "raw/o15tail.json",
+          "sha256": "50268da571253ea24eec5229c66f482684cd07819e9ec332730858be02adc46a",
+          "bytes": 845
+        },
+        {
+          "file": "raw/o16.json",
+          "sha256": "bd49995c818c84d31c52ac04dd117d3477551e1ac908ab060df22f661e68d3d8",
+          "bytes": 12620
+        },
+        {
+          "file": "raw/o17.json",
+          "sha256": "81659d4c5b1bc84771959415547095deb5df4547e45e21ada3a8fb23b7f60500",
+          "bytes": 10501
+        },
+        {
+          "file": "raw/o18.json",
+          "sha256": "de8de43a625ab7cf5c06c0dc9e2188924a05307ecc8fe86578f66440cae781ef",
+          "bytes": 22487
+        },
+        {
+          "file": "raw/o19.json",
+          "sha256": "6525e182f6ef7467da7622ad21c85146b3ccf3f5d42fb295b50f1a0d30ff2302",
+          "bytes": 27562
+        },
+        {
+          "file": "raw/o20.json",
+          "sha256": "cb164a7a547fd0143f383dac74b6fb5d88c80fcf23fa988c86cccb90a995eea0",
+          "bytes": 12350
+        },
+        {
+          "file": "raw/o21.json",
+          "sha256": "f98f8703c1dbac7d9e0b61b7d452940f46618e400db268bd9f421541289f3811",
+          "bytes": 9143
+        },
+        {
+          "file": "raw/o22.json",
+          "sha256": "4d64553e30ba8c2b704c83c2c8d012ac84e23f45a619e989a7ec2b44ff5f0458",
+          "bytes": 5975
+        },
+        {
+          "file": "raw/o23.json",
+          "sha256": "60d20fd314a43475b4492897d0ef378d71cbc064db506731313e3df8c5acf840",
+          "bytes": 3724
+        },
+        {
+          "file": "raw/o24.json",
+          "sha256": "22c9d44bdbf3b90f12bfff45c9ecadb9a3a6c7dbde1118bbcdb65b3c55521b4f",
+          "bytes": 720
+        },
+        {
+          "file": "raw/o25.json",
+          "sha256": "267e353c02b0245be52d32df5a488e0e05b70f74fc11229eed7236b2b95f439f",
+          "bytes": 807
+        },
+        {
+          "file": "raw/o26.json",
+          "sha256": "71dd2fda1d11eae06cdd1c939784ac5cc688745493ce91975146680afe7f1988",
+          "bytes": 5467
+        },
+        {
+          "file": "raw/o27.json",
+          "sha256": "e83942cc73301d66060be88334cfdb4a343c23800010b847da1144bb2a487583",
+          "bytes": 24728
+        },
+        {
+          "file": "raw/o28.json",
+          "sha256": "2ede576761dd04617bf05c0f78fd40cf7cfd89e9406c0a8c946724ee570d43ca",
+          "bytes": 863
+        },
+        {
+          "file": "raw/o29.json",
+          "sha256": "18c26d85191fdcd12fae03abdfebb016e0b27eb2762c14f048c3a21b061e76a4",
+          "bytes": 749
+        },
+        {
+          "file": "raw/o30.json",
+          "sha256": "c9c615f5765a158ee8084ac32399b4cc0b028e7f01304ecd82b8d55ef5a24f60",
+          "bytes": 4170
+        },
+        {
+          "file": "raw/o31.json",
+          "sha256": "048a76ca21e620e246ad07a72c5887ca6dff2e59eed2b9e1145f70ce2769aabe",
+          "bytes": 12349
+        },
+        {
+          "file": "raw/o32.json",
+          "sha256": "5ca417f4c5f95cb2b0a64d15ab42651bbb79d29c1c378f609c5f3546252dfa71",
+          "bytes": 27921
+        },
+        {
+          "file": "raw/o32tail.json",
+          "sha256": "f154b8ec1809e4da5939c333e713fcb0d41c789dfeb39110c6742833e3d4d77a",
+          "bytes": 26917
+        },
+        {
+          "file": "raw/o33.json",
+          "sha256": "6161364563388f740cb75ab3cedacc79b46c1ca19a10a65d9e2a733eb47a2cc4",
+          "bytes": 7515
+        },
+        {
+          "file": "raw/o34.json",
+          "sha256": "361024f36c029d722210be5f8bc2fa3761a0dec1618837d9bfac1959d49ecb72",
+          "bytes": 16370
+        },
+        {
+          "file": "raw/o35.json",
+          "sha256": "67109380179df4d3761dd0f654c8715b72a94196544dde65bfa0f3b2a1d9df09",
+          "bytes": 8085
+        },
+        {
+          "file": "raw/o36.json",
+          "sha256": "5305aae7e26b3bc9bcb7a8b67d563aead0154847fc399e4cf35613724a60f8c3",
+          "bytes": 22688
+        },
+        {
+          "file": "raw/o37.json",
+          "sha256": "3652c23987d99c58f1356c0168e82d0e4ea96d0b59a921a4da6108817e0829f6",
+          "bytes": 685
+        },
+        {
+          "file": "raw/o38.json",
+          "sha256": "a482827ae068d6e7393a298ed4d84e4b7288798aca6dab6248b473ac5ba4da1e",
+          "bytes": 11304
+        },
+        {
+          "file": "raw/o39.json",
+          "sha256": "2880e2b9c50c7d35cb9bcf950409c5fdff40c1c9a9827c3cc26b3abfa6110661",
+          "bytes": 712
+        },
+        {
+          "file": "raw/o40.json",
+          "sha256": "259c20cda8159bfce095038cf7eb7295679f2ca54460690274af65364659f85c",
+          "bytes": 14892
+        },
+        {
+          "file": "raw/o41.json",
+          "sha256": "073411fc6358435e3414d1343739e63eb49b49ca3d6b624bacd2d0ffb9d92984",
+          "bytes": 3854
+        },
+        {
+          "file": "raw/o42.json",
+          "sha256": "46a064509718265c929417e94d1bb26e5c75be829a8274e74f56bc3f78e7c724",
+          "bytes": 25196
+        },
+        {
+          "file": "raw/o43.json",
+          "sha256": "2c6ef4016271a0ff1b93876dc877b02e16ff8ef9350a6d673761724eb4a386e8",
+          "bytes": 667
+        },
+        {
+          "file": "raw/o44.json",
+          "sha256": "26ed920963fa72dac04d50f3fbdd68c61477875c5490f9ed3405eb1c950e7088",
+          "bytes": 728
+        },
+        {
+          "file": "raw/o45.json",
+          "sha256": "ecb9a8a97661316c90308714a86745242257db4821d086341d9a483e1d7894ce",
+          "bytes": 4754
+        }
+      ],
+      "pre_write_drift": [],
+      "consistent_at_check": true
+    },
+    "final_prewrite_check_at": "2026-09-22T18:11:34.495Z",
+    "final_prewrite_drift": [],
+    "current_matches_reviewed": true
+  },
+  "method": {
+    "programmatic": "独立解析冻结raw.result中行标记，不导入或执行待审提取器；按约定保留行内空白并对整段trim，重建引用，验证文件/result/quote SHA256、行覆盖、字符切片、元数据JSON Pointer、字段字面值、逐源计数及ID唯一性。",
+    "semantic": "重点14个capture覆盖108条记录的结构检查及关键区块人工语义复核；追加可复现随机抽样和异常导向扩展，不声称对190个raw全部逐字人工验收。",
+    "initial_checker_adjustment": "最初独立解析器未对整段引用trim出现453个空白差异；确认仅为规范化差异后修正检查器，最新快照最终0引用错误，未将空白差异报成实现缺陷。",
+    "priority_captures": [
+      "o13",
+      "o14",
+      "o15",
+      "o16",
+      "o18",
+      "o22",
+      "o32",
+      "o34",
+      "o36",
+      "o40",
+      "o45",
+      "d09",
+      "d10",
+      "d11"
+    ],
+    "priority_record_count": 108,
+    "random_seed": "fb93789cabc677c7ba683d9bc2263542d4cc8f71539de3a1f4047d9a683d98ac",
+    "random_algorithm": "Sort ascending SHA256(seed + \":\" + id). First 5 non-priority extracted captures, then first ranked record in each; first 3 zero-extraction entry captures.",
+    "random_captures": [
+      {
+        "id": "o01",
+        "key": "0bd9435e825652bf6955c864baf51ec6c43faecac869a6f1796064fe2b0874fc"
+      },
+      {
+        "id": "o35",
+        "key": "16a7cc6dbe518c467ee6b3fec3f084ad06d016b157cfa737df2337101f45b9ac"
+      },
+      {
+        "id": "o27",
+        "key": "3304d2c8181761cea0b0fcff5c7a16a7a4377138e069ff37b6b2e03cfb57d506"
+      },
+      {
+        "id": "o20",
+        "key": "385b85da1e9f9044354a381b44d29caa090a05aee44dfae2945bb6b4ce9f7e90"
+      },
+      {
+        "id": "o12",
+        "key": "3edb72c9d202cabbddd593cc716144c649bc9973743d5e1af6a3adf86a6269ba"
+      }
+    ],
+    "random_records": [
+      "market-wide-2026-09-23:o01:l212",
+      "market-wide-2026-09-23:o35:l116",
+      "market-wide-2026-09-23:o27:l503",
+      "market-wide-2026-09-23:o20:l188",
+      "market-wide-2026-09-23:o12:l212"
+    ],
+    "random_entry_captures": [
+      {
+        "id": "o26",
+        "key": "329180cdde7ff17e9d9bc99c643dc8067cb0a571c249a10464c32ca8f8af0d60"
+      },
+      {
+        "id": "o09",
+        "key": "4d0e0b47344c9edbac0ce7dc39225ad2aeea10ede7b4058eea32e505170241e6"
+      },
+      {
+        "id": "o19",
+        "key": "5aa9bd6378b5363b4d5c705dbcfea341374556ff70307488a26a9e635646db81"
+      }
+    ],
+    "additional_risk_checks": [
+      "o06",
+      "o06tail",
+      "o11",
+      "o17",
+      "o30",
+      "o32tail"
+    ]
+  },
+  "checks": {
+    "raw_json_parse": 190,
+    "job_count": 197,
+    "audit_job_count": 197,
+    "complete_flags": 144,
+    "audit_complete_jd": 144,
+    "parser_hash_match": true,
+    "unique_ids": 197,
+    "field_evidence_count": 1406,
+    "evidence_objects_checked": 1603,
+    "evidence_errors": 0,
+    "source_complete": false,
+    "all_jobs_scope_incomplete": true,
+    "all_hiring_unknown": true,
+    "all_base_unverified": true,
+    "same_capture_exact_duplicate_jobs": 0,
+    "audit_file_checks": 54,
+    "audit_file_errors": []
+  },
+  "findings": [
+    {
+      "finding_id": "QA-01",
+      "priority": "P1",
+      "title": "o06 已有 34 个岗位链接被错误归为仅入口或分类，全部未提取",
+      "record_ids": [],
+      "capture_ids": [
+        "o06",
+        "o06tail"
+      ],
+      "implementation_lines": [
+        183,
+        214,
+        363,
+        365
+      ],
+      "actual": {
+        "extracted_jobs": 0,
+        "audit_status": "entry_or_category_only_no_structured_job",
+        "visible_link_observations": 34,
+        "link_ids": [
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182
+        ]
+      },
+      "evidence": [
+        {
+          "file": "raw/o06.json",
+          "sha256": "6b87c2f661d26c44a30cb7aacaf349f35a2f62a0529952511d46ca25a03bf336",
+          "physical_json_line": 19,
+          "locator": "result L517-L524",
+          "source_line_range": [
+            517,
+            524
+          ],
+          "quote": "L517: * cite149†区域销售总监/深圳深圳查看岗位†www.liepin.com cite150†区域销售总监/福州福州查看岗位†www.liepin.com\nL518: * cite151†KA大客户销售/宁波宁波查看岗位†www.liepin.com cite152†KA大客户销售/台州台州查看岗位†www.liepin.com cite153†KA大客户销售/温州温州查看岗位†www.liepin.com cite154†KA大客户销售/武汉武汉查看岗位†www.liepin.com cite155†KA大客户销售/郑州郑州查看岗位†www.liepin.com cite156†KA大客户销售/福州福州查看岗位†www.liepin.com cite157†KA大客户销售/深圳深圳查看岗位†www.liepin.com cite158†KA大客户销售/长沙长沙查看岗位†www.liepin.com cite159†KA大客户销售/南宁南宁查看岗位†www.liepin.com\nL519: * cite160†项目经理/北京北京查看岗位†www.liepin.com cite161†项目经理/上海上海查看岗位†www.liepin.com cite162†项目经理/广州广州查看岗位†www.liepin.com cite163†项目经理/深圳深圳查看岗位†www.liepin.com\nL520: * cite164†售前顾问/北京北京查看岗位†www.liepin.com cite165†售前顾问/广州广州查看岗位†www.liepin.com cite166†售前顾问/深圳深圳查看岗位†www.liepin.com cite167†售前顾问/厦门厦门查看岗位†www.liepin.com\nL521: * cite168†研发中心总监/杭州杭州查看岗位†www.liepin.com cite169†资深JAVA开发工程师/杭州杭州查看岗位†www.liepin.com cite170†测试工程师/杭州杭州查看岗位†www.liepin.com cite171†前端工程师/杭州杭州查看岗位†www.liepin.com cite172†产品经理/杭州杭州查看岗位†www.liepin.com cite173†产品运营专员/杭州杭州查看岗位†www.liepin.com\nL522: * cite174†系统集成工程师/杭州杭州查看岗位†www.liepin.com cite175†客户支持/杭州杭州查看岗位†www.liepin.com cite176†系统集成工程师/杭州杭州查看岗位†www.liepin.com\nL523: * cite177†市场经理/北京北京查看岗位†www.liepin.com cite178†市场经理/郑州郑州查看岗位†www.liepin.com cite179†市场总监/杭州杭州查看岗位†www.liepin.com cite180†短视频运营/杭州杭州查看岗位†www.liepin.com cite181†PR品牌公关/杭州杭州查看岗位†www.liepin.com\nL524: * cite182†管培生正式/杭州查看岗位†www.liepin.com"
+        },
+        {
+          "file": "raw/o06tail.json",
+          "sha256": "9d729625bf9b4f906ace5c6848a8acda051a3026cad77f3ec59d7a430f0bc2e4",
+          "physical_json_line": 21,
+          "locator": "result L517-L524",
+          "source_line_range": [
+            517,
+            524
+          ],
+          "quote": "L517: * cite149†区域销售总监/深圳深圳查看岗位†www.liepin.com cite150†区域销售总监/福州福州查看岗位†www.liepin.com\nL518: * cite151†KA大客户销售/宁波宁波查看岗位†www.liepin.com cite152†KA大客户销售/台州台州查看岗位†www.liepin.com cite153†KA大客户销售/温州温州查看岗位†www.liepin.com cite154†KA大客户销售/武汉武汉查看岗位†www.liepin.com cite155†KA大客户销售/郑州郑州查看岗位†www.liepin.com cite156†KA大客户销售/福州福州查看岗位†www.liepin.com cite157†KA大客户销售/深圳深圳查看岗位†www.liepin.com cite158†KA大客户销售/长沙长沙查看岗位†www.liepin.com cite159†KA大客户销售/南宁南宁查看岗位†www.liepin.com\nL519: * cite160†项目经理/北京北京查看岗位†www.liepin.com cite161†项目经理/上海上海查看岗位†www.liepin.com cite162†项目经理/广州广州查看岗位†www.liepin.com cite163†项目经理/深圳深圳查看岗位†www.liepin.com\nL520: * cite164†售前顾问/北京北京查看岗位†www.liepin.com cite165†售前顾问/广州广州查看岗位†www.liepin.com cite166†售前顾问/深圳深圳查看岗位†www.liepin.com cite167†售前顾问/厦门厦门查看岗位†www.liepin.com\nL521: * cite168†研发中心总监/杭州杭州查看岗位†www.liepin.com cite169†资深JAVA开发工程师/杭州杭州查看岗位†www.liepin.com cite170†测试工程师/杭州杭州查看岗位†www.liepin.com cite171†前端工程师/杭州杭州查看岗位†www.liepin.com cite172†产品经理/杭州杭州查看岗位†www.liepin.com cite173†产品运营专员/杭州杭州查看岗位†www.liepin.com\nL522: * cite174†系统集成工程师/杭州杭州查看岗位†www.liepin.com cite175†客户支持/杭州杭州查看岗位†www.liepin.com cite176†系统集成工程师/杭州杭州查看岗位†www.liepin.com\nL523: * cite177†市场经理/北京北京查看岗位†www.liepin.com cite178†市场经理/郑州郑州查看岗位†www.liepin.com cite179†市场总监/杭州杭州查看岗位†www.liepin.com cite180†短视频运营/杭州杭州查看岗位†www.liepin.com cite181†PR品牌公关/杭州杭州查看岗位†www.liepin.com\nL524: * cite182†管培生正式/杭州查看岗位†www.liepin.com"
+        }
+      ],
+      "impact": "本批本地原文已有区域销售总监、KA大客户销售、售前顾问等线索，却不进入 jobs；主控按审计表汇总时会漏掉这些观察。34 是链接观察数，不是 34 个已核实独立岗位。",
+      "repair": "将现有标题/地点/来源 ref 与 link_id 保存为待补正文的观察；job_url 未暴露时保持 null，猎聘入口继续 historical_restriction_pending，不能为修复而访问受限平台。两份相同行号/内容的 capture 保留出处并关联重复；link_id 174 与 176 虽同标题地点，原生身份未知，不粗暴删除。",
+      "acceptance": [
+        "从既有 o06 原文可重建 link_id 149..182 的 34 条观察或等价可回查队列，不再声称只有分类。",
+        "o06tail 与 o06 同页同块不双倍计数；两个系统集成工程师链接保留不同观察身份。",
+        "全部新线索 description_complete=false、hiring_active=unknown；不生成未知详情 URL，不发网络请求。"
+      ]
+    },
+    {
+      "finding_id": "QA-02",
+      "priority": "P1",
+      "title": "o15 区域销售经理把城市清单当作任职要求并宣称完整 JD",
+      "record_ids": [
+        "market-wide-2026-09-23:o15:l498"
+      ],
+      "capture_ids": [
+        "o15"
+      ],
+      "implementation_lines": [
+        219,
+        241,
+        242
+      ],
+      "actual": {
+        "requirements": "1. 广东（广州、中山、潮汕、深圳、东莞、惠州）。\n2. 福建（泉州、厦门、莆田、福州）、浙江（杭州、绍兴、嘉兴、金华、温州、台州、宁波、湖州）。\n3. 上海、江苏（苏州、南京、镇江、扬州、常熟、泰州、无锡、徐州、宿迁、淮安、南通、盐城、连云港、嘉兴）。",
+        "description_complete": true,
+        "location": null
+      },
+      "evidence": [
+        {
+          "file": "raw/o15.json",
+          "sha256": "7104df5fca58f6b6a3b1a4d6a735c97ffc5f79f16f91b8713d9a8c62a458224e",
+          "physical_json_line": 19,
+          "locator": "result L509-L514",
+          "source_line_range": [
+            509,
+            514
+          ],
+          "quote": "L509: ### 能力要求\nL510: \nL511: 1. 广东（广州、中山、潮汕、深圳、东莞、惠州）。\nL512: 2. 福建（泉州、厦门、莆田、福州）、浙江（杭州、绍兴、嘉兴、金华、温州、台州、宁波、湖州）。\nL513: 3. 上海、江苏（苏州、南京、镇江、扬州、常熟、泰州、无锡、徐州、宿迁、淮安、南通、盐城、连云港、嘉兴）。\nL514: ### 投递邮箱"
+        }
+      ],
+      "impact": "标题为能力要求，但内容全部是地域；字面相符不代表语义有效。该记录进入声明的 144 条完整 JD，会污染能力统计或岗位匹配。",
+      "repair": "保留原始标题及城市原文，单列 source_section_mislabeled 或等价异常，requirements 保持未知或明确异常，description_complete=false。城市可保留为疑似工作地但不得静默确定重分类。",
+      "acceptance": [
+        "该记录不再计入职责和任职要求均完整的 JD。",
+        "异常城市列表不能作为学历、经验、能力要求输入；原文和出处仍可回查。",
+        "重算 extraction-audit.complete_jd，不直接沿用 144 作为验收数。"
+      ]
+    },
+    {
+      "finding_id": "QA-03",
+      "priority": "P2",
+      "title": "o15 多行地点只抽第一行，遗漏已披露城市",
+      "record_ids": [
+        "market-wide-2026-09-23:o15:l399",
+        "market-wide-2026-09-23:o15:l473"
+      ],
+      "capture_ids": [
+        "o15"
+      ],
+      "implementation_lines": [
+        274,
+        276
+      ],
+      "actual": [
+        {
+          "id": "market-wide-2026-09-23:o15:l399",
+          "location": "1. 广东（广州、中山、潮汕、深圳、东莞、惠州）。"
+        },
+        {
+          "id": "market-wide-2026-09-23:o15:l473",
+          "location": "广东（广州、中山、潮汕、深圳、东莞、惠州）、福建（泉州、厦门、莆田、福州）"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "raw/o15.json",
+          "sha256": "7104df5fca58f6b6a3b1a4d6a735c97ffc5f79f16f91b8713d9a8c62a458224e",
+          "physical_json_line": 19,
+          "locator": "result L416-L420",
+          "source_line_range": [
+            416,
+            420
+          ],
+          "quote": "L416: ### 工作地点\nL417: \nL418: 1. 广东（广州、中山、潮汕、深圳、东莞、惠州）。\nL419: 2. 福建（泉州、厦门、莆田、福州）、浙江（杭州、绍兴、嘉兴、金华、温州、台州、宁波、湖州）。\nL420: 3. 上海、江苏（苏州、南京、镇江、扬州、常熟、泰州、无锡、徐州、宿迁、淮安、南通、盐城、连云港、嘉兴）。"
+        },
+        {
+          "file": "raw/o15.json",
+          "sha256": "7104df5fca58f6b6a3b1a4d6a735c97ffc5f79f16f91b8713d9a8c62a458224e",
+          "physical_json_line": 19,
+          "locator": "result L488-L492",
+          "source_line_range": [
+            488,
+            492
+          ],
+          "quote": "L488: ### 工作地点\nL489: \nL490: 广东（广州、中山、潮汕、深圳、东莞、惠州）、福建（泉州、厦门、莆田、福州）\nL491: 浙江（杭州、绍兴、嘉兴、金华、温州、台州、宁波、湖州）\nL492: 上海、江苏（苏州、南京、镇江、扬州、常熟、泰州、无锡、徐州、宿迁、淮安、南通、盐城、连云港）"
+        }
+      ],
+      "impact": "销售经理遗漏福建、浙江、上海、江苏；淘宝客服主管遗漏浙江、上海、江苏，按城市筛选产生假阴性。",
+      "repair": "在本页工作地点标题与下一个标题之间收集全部非空地点行，保留多行原文与连续范围；不得只取首个非空行。",
+      "acceptance": [
+        "o15:l399 的地点证据覆盖 L418-L420，o15:l473 覆盖 L490-L492。",
+        "地点内容包含原文的浙江、上海、江苏；不混入投递邮箱或下一个岗位。"
+      ]
+    },
+    {
+      "finding_id": "QA-04",
+      "priority": "P2",
+      "title": "o16 七条无职责标题的正文仍被降为 title_only",
+      "record_ids": [
+        "market-wide-2026-09-23:o16:l90",
+        "market-wide-2026-09-23:o16:l101",
+        "market-wide-2026-09-23:o16:l111",
+        "market-wide-2026-09-23:o16:l122",
+        "market-wide-2026-09-23:o16:l132",
+        "market-wide-2026-09-23:o16:l142",
+        "market-wide-2026-09-23:o16:l153"
+      ],
+      "capture_ids": [
+        "o16"
+      ],
+      "implementation_lines": [
+        232,
+        235
+      ],
+      "actual": "七条 description/requirements/description_summary 均 null，但 raw_job_block_evidence 含编号工作内容。",
+      "evidence": [
+        {
+          "file": "raw/o16.json",
+          "sha256": "bd49995c818c84d31c52ac04dd117d3477551e1ac908ab060df22f661e68d3d8",
+          "physical_json_line": 19,
+          "locator": "result L111-L116",
+          "source_line_range": [
+            111,
+            116
+          ],
+          "quote": "L111: 销售经理\nL112: 1、负责制定部门销售计划，完成公司下达的销售指标、回款目标；\nL113: 2、负责开拓客户渠道，并协助销售人员开发潜在客户、客户的关系维护、商务接洽，定期组织重点客户拜访/回访，与客户形成良好的合作关系；\nL114: 3、负责本部门成员对客户信息采集、归档，商机的挖掘、收集、整理、归档以及服务报价等工作；\nL115: 4、负责本部门对收集市场行情变化及重点竞争对手的销售策略、市场策略等信息，及时向部门反馈信息，对客户档案、交易记录等进行分析，保证销售信息的及时性、准确性和完整性；\nL116: 5、负责自己部门的成员的培训，对客户钉钉价值的宣导、布道，为钉钉部署实施服务做好基础；"
+        },
+        {
+          "file": "raw/o16.json",
+          "sha256": "bd49995c818c84d31c52ac04dd117d3477551e1ac908ab060df22f661e68d3d8",
+          "physical_json_line": 19,
+          "locator": "result L142-L147",
+          "source_line_range": [
+            142,
+            147
+          ],
+          "quote": "L142: 数字化咨询师\nL143: \nL144: 1.进行客户的需求调研与分析，能够独立出具并交付数字化管理咨询产品的落地方案；\nL145: 2.基于客户应用场景，能够基于钉钉原生功能，灵活出具对应解决方案；\nL146: 3.对行业趋势、竞品进行调研与分析，可以提出产品优化建议；\nL147: 4.具备赋能他人交付落地具体方案的能力；"
+        }
+      ],
+      "impact": "销售经理的团队指标、客户开拓、培训和数字化咨询师的需求分析/交付等已保存信息未进入结构化正文。原文未丢失，但下游只见标题。",
+      "repair": "只对本页已审边界提取无标题编号正文；职责明确者存 description，混合或语义不确定者存 description_summary/partial。不据此编造任职要求。",
+      "acceptance": [
+        "L90/L101/L111/L122/L132/L142/L153 对应记录至少保留现成正文，不再全部 title_only。",
+        "缺少任职要求仍 description_complete=false，不吸入内推链接和滑动提示。"
+      ]
+    },
+    {
+      "finding_id": "QA-05",
+      "priority": "P2",
+      "title": "o27 薪资已在原文披露，却被标 unknown_not_disclosed",
+      "record_ids": [
+        "market-wide-2026-09-23:o27:l113",
+        "market-wide-2026-09-23:o27:l153",
+        "market-wide-2026-09-23:o27:l234",
+        "market-wide-2026-09-23:o27:l355",
+        "market-wide-2026-09-23:o27:l384",
+        "market-wide-2026-09-23:o27:l503"
+      ],
+      "capture_ids": [
+        "o27"
+      ],
+      "implementation_lines": [
+        277,
+        278
+      ],
+      "actual": [
+        {
+          "id": "market-wide-2026-09-23:o27:l113",
+          "title": "SEO搜索引擎优化",
+          "range": [
+            113,
+            152
+          ],
+          "salary": null,
+          "status": "unknown_not_disclosed"
+        },
+        {
+          "id": "market-wide-2026-09-23:o27:l153",
+          "title": "销售专员/实习生",
+          "range": [
+            153,
+            205
+          ],
+          "salary": null,
+          "status": "unknown_not_disclosed"
+        },
+        {
+          "id": "market-wide-2026-09-23:o27:l234",
+          "title": "销售精英",
+          "range": [
+            234,
+            290
+          ],
+          "salary": null,
+          "status": "unknown_not_disclosed"
+        },
+        {
+          "id": "market-wide-2026-09-23:o27:l355",
+          "title": "电话客服",
+          "range": [
+            355,
+            383
+          ],
+          "salary": null,
+          "status": "unknown_not_disclosed"
+        },
+        {
+          "id": "market-wide-2026-09-23:o27:l384",
+          "title": "话务员",
+          "range": [
+            384,
+            428
+          ],
+          "salary": null,
+          "status": "unknown_not_disclosed"
+        },
+        {
+          "id": "market-wide-2026-09-23:o27:l503",
+          "title": "应届毕业生",
+          "range": [
+            503,
+            550
+          ],
+          "salary": null,
+          "status": "unknown_not_disclosed"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "raw/o27.json",
+          "sha256": "e83942cc73301d66060be88334cfdb4a343c23800010b847da1144bb2a487583",
+          "physical_json_line": 19,
+          "locator": "result L178-L184",
+          "source_line_range": [
+            178,
+            184
+          ],
+          "quote": "L178: #### 薪资待遇:\nL179: \nL180: 1、无责任底薪3000起\nL181: \nL182: 2、15%- 20%的业务提成+绩效奖金+话补+路费报销+职务津贴+年终分红奖\nL183: \nL184: 3、按国家规定缴纳五险一金"
+        },
+        {
+          "file": "raw/o27.json",
+          "sha256": "e83942cc73301d66060be88334cfdb4a343c23800010b847da1144bb2a487583",
+          "physical_json_line": 19,
+          "locator": "result L378-L380",
+          "source_line_range": [
+            378,
+            380
+          ],
+          "quote": "L378: #### 薪资福利:\nL379: \nL380: 底薪3000+房补500"
+        },
+        {
+          "file": "raw/o27.json",
+          "sha256": "e83942cc73301d66060be88334cfdb4a343c23800010b847da1144bb2a487583",
+          "physical_json_line": 19,
+          "locator": "result L413-L415",
+          "source_line_range": [
+            413,
+            415
+          ],
+          "quote": "L413: #### 薪资福利:\nL414: \nL415: 1、无责底薪3000+绩效+奖金,月均工资6000以上"
+        },
+        {
+          "file": "raw/o27.json",
+          "sha256": "e83942cc73301d66060be88334cfdb4a343c23800010b847da1144bb2a487583",
+          "physical_json_line": 19,
+          "locator": "result L530-L534",
+          "source_line_range": [
+            530,
+            534
+          ],
+          "quote": "L530: #### 薪资福利 :\nL531: \nL532: 1、无责任底薪3000起\nL533: \nL534: 2、1 5%- -20%的业务提成+绩效奖金+话补+路费报销+职务津贴+年终分红奖"
+        }
+      ],
+      "impact": "抽样发现至少六条薪资表述未结构化；未知是否固定月薪不等于页面未披露任何薪资。",
+      "repair": "保留薪资待遇/薪资福利段落原文及出处，区分数值、面议、薪资构成。不得把3000起或月均6000以上推断成经确认固定月薪，也不能把提成含进底薪。",
+      "acceptance": [
+        "列出的六条薪资证据可回查，salary_status 不再一律 unknown_not_disclosed。",
+        "salary_fixed_base_confirmed 仍为 false；无币种、周期或固定构成证据时不补造标准化薪资。"
+      ]
+    },
+    {
+      "finding_id": "QA-06",
+      "priority": "P2",
+      "title": "o13 两条已过期招聘期缺失原始截止日期字段",
+      "record_ids": [
+        "market-wide-2026-09-23:o13:l338",
+        "market-wide-2026-09-23:o13:l362"
+      ],
+      "capture_ids": [
+        "o13"
+      ],
+      "implementation_lines": [
+        323,
+        326
+      ],
+      "actual": "current_opportunity_status 已是 past_recruitment_period，但 recruitment_period_raw 及相应 field_evidence 缺失。",
+      "evidence": [
+        {
+          "file": "raw/o13.json",
+          "sha256": "cb9c983f80574f33919ad43fe823831eb769ccb99a59a217d6668f34891a34cb",
+          "physical_json_line": 19,
+          "locator": "result L342-L342",
+          "source_line_range": [
+            342,
+            342
+          ],
+          "quote": "L342: 招聘时间：截止到2024年3月30日"
+        },
+        {
+          "file": "raw/o13.json",
+          "sha256": "cb9c983f80574f33919ad43fe823831eb769ccb99a59a217d6668f34891a34cb",
+          "physical_json_line": 19,
+          "locator": "result L366-L366",
+          "source_line_range": [
+            366,
+            366
+          ],
+          "quote": "L366: 招聘时间：截止到2024年3月30日"
+        }
+      ],
+      "impact": "原文是2024年3月30日，代码只匹配2024.*03.*30，非零填充月份漏取。没有把它标为当前在招，但过期判断不能从结构化日期字段复算。",
+      "repair": "按招聘时间标签提取原文，支持一位/两位中文月份；截止日期与发布日期、采集时间分开。",
+      "acceptance": [
+        "两条均有 recruitment_period_raw=招聘时间：截止到2024年3月30日及行级证据。",
+        "past_recruitment_period 和 hiring_active=unknown 保留，不改写成2026年新招聘。"
+      ]
+    },
+    {
+      "finding_id": "QA-07",
+      "priority": "P2",
+      "title": "新字段赋值后状态字段未同步，完整性和发布日期互相矛盾",
+      "record_ids": [
+        "market-wide-2026-09-23:o10:l110",
+        "market-wide-2026-09-23:o10:l133",
+        "market-wide-2026-09-23:o10:l158",
+        "market-wide-2026-09-23:o10:l199",
+        "market-wide-2026-09-23:o10:l230",
+        "market-wide-2026-09-23:o10:l269",
+        "market-wide-2026-09-23:o12:l212",
+        "market-wide-2026-09-23:o22:l65",
+        "market-wide-2026-09-23:o22:l67",
+        "market-wide-2026-09-23:o22:l69",
+        "market-wide-2026-09-23:o22:l71",
+        "market-wide-2026-09-23:o22:l73",
+        "market-wide-2026-09-23:o22:l75",
+        "market-wide-2026-09-23:o32:l129",
+        "market-wide-2026-09-23:o32:l137",
+        "market-wide-2026-09-23:o32:l144",
+        "market-wide-2026-09-23:o32:l151",
+        "market-wide-2026-09-23:o32:l160",
+        "market-wide-2026-09-23:o32:l169",
+        "market-wide-2026-09-23:o32:l178",
+        "market-wide-2026-09-23:o32:l187",
+        "market-wide-2026-09-23:o32:l198",
+        "market-wide-2026-09-23:o32:l208",
+        "market-wide-2026-09-23:d10:l31",
+        "market-wide-2026-09-23:d11:l97"
+      ],
+      "capture_ids": [
+        "o10",
+        "o12",
+        "o22",
+        "o32",
+        "d10",
+        "d11"
+      ],
+      "implementation_lines": [
+        170,
+        174,
+        238,
+        242,
+        255,
+        260,
+        358
+      ],
+      "actual": {
+        "publication_with_unknown_status": 25,
+        "complete_with_list_or_partial_boundary": 144
+      },
+      "evidence": [
+        {
+          "file": "raw/d11.json",
+          "sha256": "e1faba92e41cef3c1633db941bd555c1a997524dc6ac5cedcb2ac2eac192204a",
+          "physical_json_line": 19,
+          "locator": "result L99-L99",
+          "source_line_range": [
+            99,
+            99
+          ],
+          "quote": "L99: Job ID 2026-17606 Date posted 17/09/2026 Location Shenzhen, China Category Marketing & Communication"
+        },
+        {
+          "file": "raw/o22.json",
+          "sha256": "4d64553e30ba8c2b704c83c2c8d012ac84e23f45a619e989a7ec2b44ff5f0458",
+          "physical_json_line": 19,
+          "locator": "result L73-L73",
+          "source_line_range": [
+            73,
+            73
+          ],
+          "quote": "L73: cite26†售前及项目经理 16-25k  产品运营部    售前及项目经理    广州南沙 / 上海长宁    本科及以上学历 发布时间：2026年03月12日"
+        }
+      ],
+      "impact": "25 条有证据的 published_at 仍 status.publication=unknown；144 条 complete=true 仍 block_boundary_status=list_or_partial，按不同字段消费会得到矛盾筛选结果。",
+      "repair": "在最终组装时从已验证字段和真实边界证据统一计算状态；不得只为消除矛盾把所有边界硬设已闭合。",
+      "acceptance": [
+        "所有非空已证实 published_at 与 status.publication 一致。",
+        "完整性标志与实际边界证据一致；异常/截断记录不能升级为完整。"
+      ]
+    },
+    {
+      "finding_id": "QA-08",
+      "priority": "P2",
+      "title": "o14 第一条完整可见区块被错注为源内容截断且续读失败",
+      "record_ids": [
+        "market-wide-2026-09-23:o14:l312"
+      ],
+      "capture_ids": [
+        "o14"
+      ],
+      "implementation_lines": [
+        353,
+        354
+      ],
+      "actual": {
+        "description_complete": false,
+        "attention": "源内容截断且续读失败；职责或要求未完整取得。"
+      },
+      "evidence": [
+        {
+          "file": "raw/o14.json",
+          "sha256": "338fb89cc0dd9f462d051e9c7db63947dad65d6355cdadd558f7c871d7ec5509",
+          "physical_json_line": 19,
+          "locator": "result L319-L326",
+          "source_line_range": [
+            319,
+            326
+          ],
+          "quote": "L319: 岗位职责：\nL320: 关于明珞 全球数字制造革命引领者 | 业务覆盖 20+国 | 国际订单占比 90%+ 明珞装备成立于 2008 年，以“价值驱动智能制造与数字化”为使命，致力于成为全球 智能制造行业的“苹果”与“特斯拉”。作为国家级制造业单项冠军企业，我们拥有 1,440 项自主知识产权，为奔驰、宝马等全球顶尖客户提供： 全栈智能制造解决方案：覆盖数字孪生、智能控制、柔性产线与标准化工作站等 工业数据服务：基于 MISP 平台实现产线效能、运维与能耗的实时优化 MaaS 制造即服务：从工艺研发到运维增值的全生命周期技术服务 全球布局：在美国、德国、沙特、墨西哥等地设立分支机构，90%+营收源于国际市场。加入我们，共同参与定义下一代智能产线，赋能全球制造转型。 职位名称：IMSD-硬件设计高级工程师 汇报对象：硬件设计组经理 工作地点：广州/上海/大连/长春/武汉/成都/烟台 ✅ 岗位使命 我们正在寻找一位卓越的硬件设计专家，加入硬件设计团队。你将负责汽车白车身及一般工业生产线电气控制系统硬件图纸设计团队项目实施与管理，确保硬件设计的高可靠性、成本优化与标准化。你不只是硬件设计工程师，更是技术规范的制定者与团队能力的赋能者，用电气硬件设计的深度专业，驱动公司智能制造解决方案的持续突破。 ✅ 你将带来的核心价值 1.主导汽车白车身生产线电气控制系统硬件设计，确保技术方案的先进性与可靠性； 2.建立硬件设计标准与指导性资料，提升团队设计效率与质量一致性； 3.通过电气设备选型优化与方案改进，持续降低项目成本，提高系统可靠性； 4.指导电工安装工作并管理外协供应商，确保项目交付质量与进度。 ✅ 关键职责 1.\nL321: 硬件设计与开发 (1) 负责汽车白车身焊装车间生产线电气控制系统硬件图纸设计，或带领硬件团队完成硬件设计工作； (2) 负责电气设备选型、方案设计，并在上级指导和客户反馈下进行整改改进，确保降低成本，提高方便性、可靠性。 2. 技术文档与标准建立 (1) 确定最终产品或系统，并准备生产文件、使用手册等相关文件资料； (2) 建立硬件相关标准或指导性资料，推动设计标准化与规范化。 3. 项目实施与团队协作 (1) 指导电工的安装工作，确保现场安装质量与安全； (2) 管理外协供应商，协调资源确保项目顺利实施； (3) 提出针对性解决方案，解决项目实施过程中的技术难题。\nL322: 任职要求：\nL323: ✅ 我们期待这样的你 必备条件 1. 学历与专业：本科及以上学历，电气工程、自动化、机械电子工程等相关专业； 2. 经验要求：5年以上汽车制造或工业自动化领域硬件设计经验，有主导过汽车生产线电气控制系统硬件设计项目的完整经验； 3. 硬技能：精通电气硬件图纸设计、元器件选型、电气布线及控制柜元件布置，熟悉奔驰Integra5/6硬件标准； 4.\nL324: 软素质：出色的沟通管理能力、逻辑思维能力与跨团队协作能力。 核心能力 1.卓越的协同思维：深刻理解复杂项目的协同本质，善于成为跨领域技术对话的“翻译官”与“连接器”； 2.创新与逻辑思维：能创造性地提出解决方案，并以严谨的逻辑将想法结构化、可执行化； 3.系统性解决问题能力：不仅能识别表面问题，更能界定根本原因，推动团队制定兼顾多方约束的综合性方案； 4.快速学习与适应能力：对未知领域保持强烈好奇心，能主动、高效地吸收新知识、掌握新技能，并快速应用于实践； 5.强烈的跨界意愿与驱动力：主动寻求不同领域间的融合机会，乐于接受挑战，在拓展边界中获得成就感。 我们尤为看重 1.主人翁精神：主动担当，为最终结果负责，将团队与公司的成功视为己任，不设边界； 2.成长型心态：你拥抱挑战，在持续学习、解决复杂问题的过程中获得深层成就感，即使在压力下也能保持专注与热忱。 优先考虑条件 1. 有国际化项目或服务奔驰、宝马等全球顶尖客户经验者优先； 2. 具备英语口语简单技术交流能力者优先； 3. 在汽车白车身生产线硬件设计领域有成功落地案例者优先。 ✅在明珞，你将获得 1.\nL325: 清晰的职业路径：公司处于高速发展期，提供技术专家、项目管理、团队管理等多元 发展通道。 2. 高价值的实战平台：直接参与服务全球（知名/行业领先）客户的重大项目，你的工 作将产生广泛影响力。 3. 创新驱动的文化：在一个崇尚“创新创造价值”的环境中，你的专业意见将被充分倾 听与授权。 4. 靠谱/优秀的伙伴与团队：与行业靠谱/优秀人才共事，在使命必达的团队中快速成长。 5. 竞争力的全面回报：提供行业领先的“固定薪酬 + 绩效工资 + 创新激励”组合。 ✅应聘方式 如果你渴望在一个充满挑战与机遇的平台上创造非凡价值，请将简历及能够体现你与岗位匹配度的说明材料发送至：chengcheng@minotech.cn。\nL326:   * 设备保全(J11564)"
+        }
+      ],
+      "impact": "L319-L325 含职责、必备/优先条件、福利及应聘方式，L326 已进入下一岗位。失败的 tail 不证明第一条截断；当前说明会引发不必要补采。真正已截断的 L348 必须继续保留 partial。",
+      "repair": "将第一条与末条截断状态分开；先清理福利/应聘方式的章节混入，再依据当前块边界决定完整性。不能用整个页面尾读失败覆盖此前已闭合岗位。",
+      "acceptance": [
+        "o14:l312 不再声称已证实源截断，若继续 partial 则注明真实剩余原因。",
+        "o14:l348 保持 partial 且不补写未取得正文；o15:l540 同样继续 partial。"
+      ]
+    }
+  ],
+  "nonblocking_notes": [
+    {
+      "id": "N1",
+      "topic": "公司归属",
+      "result": "197条中96条有非空query_target_company且company不同，仍以页面声明取值；6条o38无匹配声明，company保持null。o13=北斗智联，o15=乐言，o16=鑫蜂维，o45=帆软均不是搜索目标。页面声明不等于雇主法律实体或站点归属独立认证。o34原文L275/L291明确是河南信安世纪科技有限公司，汇总不得联想为其他同名主体。"
+    },
+    {
+      "id": "N2",
+      "topic": "第三方AI估算",
+      "result": "d09 L59 AI薪资估算、L69-L71推测地址、L55相对发布时间均未进入确定薪资/发布日期/详细地址。salary_raw=null，固定底薪未确认，正文标third_party_summary且complete=false；深圳市仅是第三方页面L61显示，不是腾讯官网核验。"
+    },
+    {
+      "id": "N3",
+      "topic": "同页重复与身份",
+      "result": "197条ID唯一，未检出同capture+title+description+requirements完全相同的记录。o36十个岗位的移动端重复不另计、正文不含第二套岗位要求；o32后半页重复列表及tail未增记，o45相关推荐同名岗未增记。o22:l73与d10:l31是列表/详情两份观察，不能仅将记录数称为独立岗位数，也不能按标题粗暴删除。"
+    },
+    {
+      "id": "N4",
+      "topic": "正文杂讯",
+      "result": "仍有边界杂讯：o13:l403职责混入L420/L422公众号图片；o14:l326和l337要求包含福利段；o32部分要求、d10要求包含投递链接。这些原文真实但不应作为能力要求分析。建议局部清理并保留原块，未列为额外阻塞级别。"
+    },
+    {
+      "id": "N5",
+      "topic": "未知与旧日期",
+      "result": "所有hiring_active=unknown，scope_complete=false，salary_fixed_base_confirmed=false。o13旧招聘期、o17冲突日期已警示；o10、o32旧发布日期未改写为采集日。observed_at不证明2026年仍在招。"
+    },
+    {
+      "id": "N6",
+      "topic": "无需联网的修复",
+      "result": "本审计建议均可用已保存原文完成或保留unknown；不需要解锁BOSS/猎聘、不需跟随链接。对原始未取全文、站点归属、线上状态只标未验证。"
+    }
+  ],
+  "passed_regressions": [
+    {
+      "case": "o13 requirements-before-responsibilities",
+      "result": "工作内容与任职要求已分别保存，不互换；另见截止日期与尾部杂讯问题。"
+    },
+    {
+      "case": "o18 bracketed section headings",
+      "result": "5条职责要求及地点均可回查；最后一条要求止于L599，L601为招聘流程，不属JD截断。"
+    },
+    {
+      "case": "o22 salary/location/date",
+      "result": "6条均与列表同一行一致；没有将未知底薪标达标。"
+    },
+    {
+      "case": "o32 empty salary",
+      "result": "l198 salary_raw=null，没有把学历吸入工资；省略标题和地点未补造。"
+    },
+    {
+      "case": "o34 salary/location",
+      "result": "11条紧凑工资地点与原文一致，主体只限页面河南公司声明。"
+    },
+    {
+      "case": "o36 mobile duplicate",
+      "result": "10条岗位，移动端摘要未重复计岗，工作地点和页面裸日期分开保留。"
+    },
+    {
+      "case": "o40 locations",
+      "result": "8条上海来自全页说明；BD负责人保留岗位特定深圳/广州/上海，不吞入后续职责。"
+    },
+    {
+      "case": "o45 sections",
+      "result": "职责L52-L59、要求L63-L73、加分项L38-L46分开，相关推荐未冒充本岗正文。"
+    },
+    {
+      "case": "d09 AI estimates",
+      "result": "薪资、推测地址、相对发布日期未提升为当前确定事实。"
+    },
+    {
+      "case": "d10 collapsed line",
+      "result": "同一行职责和要求切开；薪资、地点、日期均与页面原文一致，hiring_active=unknown；任职要求尾部仍有投递链接杂讯。"
+    },
+    {
+      "case": "d11 English sections",
+      "result": "Responsibilities与Required Skills分开，Nice To Have保留原标签；不把In Return福利放入要求。"
+    }
+  ],
+  "limitations": [
+    "只审本地已保存网页工具结果，不等于HTTP原始响应、站点所有权核验或当前在线招聘验证。",
+    "197是本文件观察记录数，144是生成器声明完整JD数，不是本QA认可的完整/独立岗位总数。",
+    "检索类c/k原文只做JSON解析/快照哈希，未逐一验证搜索召回或覆盖分母；历史9/22代码、报告集成管线均不在审计范围。",
+    "模型与推理档位无可审计调度回执，不虚报为已核验Astra xhigh。",
+    "重新生成输入后，本结论仅对列明SHA有效，须复验受影响项；不得用本地引用校验通过宣称全市场已收齐。"
+  ],
+  "handoff": {
+    "blocking_priorities": [
+      "P1"
+    ],
+    "fix_owner": "主控或其已授权实现者",
+    "qa_files_only": true,
+    "acceptance": "主控修复后以新SHA回传，复验问题断言并重跑全量证据链；未通过不得把完整JD统计当业务验收。",
+    "business_acceptance": "not_accepted",
+    "market_status": "not_complete",
+    "goal_label": "目标：全市场已收齐（目标尚未达成）"
+  },
+  "report_null_company_review": {
+    "status": "no_new_bug_found_in_authorized_change",
+    "snapshot": [
+      {
+        "file": "careers/decision-review.mjs",
+        "sha256": "cc067dade29a859ee07f4ddf1ca60c925a0633a0882d56e46f92bce48e20e78b",
+        "bytes": 39831
+      },
+      {
+        "file": "careers/tests/decision-review.test.mjs",
+        "sha256": "ce535d79b29c5bb54f59f593612fe2bfe005769dbbb69ab713f28ab27092f9b0",
+        "bytes": 4697
+      }
+    ],
+    "static_checks": [
+      {
+        "file": "careers/decision-review.mjs",
+        "lines": [
+          187,
+          189
+        ],
+        "result": "null company且无profile/related保留group.key，不统一成display-only:null；有公司名继续展示名键。"
+      },
+      {
+        "file": "careers/decision-review.mjs",
+        "lines": [
+          239,
+          248
+        ],
+        "result": "分组对象显示公司待核，使localeCompare有字符串；jobs数组保留原记录，不覆盖j.company。unknown仍按原group.key隔离。"
+      },
+      {
+        "file": "careers/decision-review.mjs",
+        "lines": [
+          255,
+          255
+        ],
+        "result": "company_names的Set输入过滤falsy，null不计入公司名；company_unknown单列。"
+      }
+    ],
+    "test": {
+      "command": "node --test --test-name-pattern='unknown employers retain source-specific groups' careers/tests/decision-review.test.mjs",
+      "exit_code": 0,
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "files_written_by_qa_test": 0
+    },
+    "remaining_test_gap": "新增用例只直接覆盖displayCompanyKey；未直接覆盖真实writeDecisionReview排序、空公司计数及原job.company不变。以上路径本次仅静态核查；未运行会写报告的集成函数。"
+  }
+}

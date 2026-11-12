@@ -1,0 +1,3163 @@
+{
+  "companies": [
+    {
+      "company_name": "百度",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://talent.baidu.com/jobs/detail/GRADUATE/2726a03c-94e5-4511-9c98-077f07ecd6c6",
+      "verbatim_quote": "百度校园招聘 (https://talent.baidu.com/jobs/detail/GRADUATE/2726a03c-94e5-4511-9c98-077f07ecd6c6)\nciteturn172search0 [wordlim",
+      "evidence_file": "raw/q02.json",
+      "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "observed_at": "2026-09-16T15:30:45.224Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "河南卿云信息技术有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://www.zhaopin.com/jobdetail/CCL1493735290J40855805607.htm",
+      "verbatim_quote": "商务 BD（大模型 Token 聚合平台）招聘_河南卿云信息技术有限公司招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CCL1493735290J40855805607.htm)\nciteturn172search3 [wordlim: 200] Crawled",
+      "evidence_file": "raw/q02.json",
+      "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "observed_at": "2026-09-16T15:30:45.224Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "Confidential",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://cn.linkedin.com/jobs/view/%E5%A4%A7%E6%A8%A1%E5%9E%8Bapi%E5%B9%B3%E5%8F%B0%E9%94%80%E5%94%AE-at-confidential-4418909900",
+      "verbatim_quote": "Confidential的大模型API平台销售 — 北京市, 中国 | 领英职位 (https://cn.linkedin.com/jobs/view/%E5%A4%A7%E6%A8%A1%E5%9E%8Bapi%E5%B9%B3%E5%8F%B0%E9%94%8",
+      "evidence_file": "raw/q02.json",
+      "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "observed_at": "2026-09-16T15:30:45.224Z",
+      "discovery_only": true,
+      "identity_status": "employer_unresolved"
+    },
+    {
+      "company_name": "北京必来屋网络科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://bebee.com/cn/jobs/api--techmap_cn_84149309",
+      "verbatim_quote": "大模型API平台销售专家 - 北京必来屋网络科技有限公司 | BeBee (https://bebee.com/cn/jobs/api--techmap_cn_84149309)\nciteturn172search10 [wordlim: 200] Crawled: last month;",
+      "evidence_file": "raw/q02.json",
+      "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "observed_at": "2026-09-16T15:30:45.224Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "京东",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://zhaopin.jd.com/web/job-info-detail?requementId=219504",
+      "verbatim_quote": "门： 生态拓展组 招聘人数：1 发布时间：2026-06-22\n\n## 岗位描述\n\n我们是京东人工智能业务，作为京东科技集团旗下专注于以AI技术为政企客户服务的单元，致力于为零售、金融、政府、制造等各类客户提供全价值链的AI技术性产品与服务，助力千行百业的数字化转型与升级，实现高质量发展。基于自研的JoyAI大模型，为近6亿用户、7",
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "Z.ai",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://hireportal.us.com/cn/job/kqwf4l8q4scv/maasbd",
+      "verbatim_quote": "MaasBD at Z.ai — HirePortal (https://hireportal.us.com/cn/job/kqwf4l8q4scv/maasbd)\nciteturn173search5 [wordlim: 200] Published: 5 d",
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "蚂蚁集团",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://watchjobs.net/zh/explore/job/c493-90486cb8f4bdbcc2/%E8%9A%82%E8%9A%81%E6%95%B0%E5%AD%97%E7%A7%91%E6%8A%80-%E6%95%B0%E5%AD%97%E7%A7%91%E6%8A%80%E7%BA%BF-%E4%B8%9A%E5%8A%A1%E6%8B%93%E5%B1%95%E4%B8%93%E5%AE%B6-%E5%A4%AE%E5%9B%BD%E4%BC%81%E6%96%B0%E8%83%BD%E6%BA%90-%E8%9A%82%E8%9A%81%E9%9B%86%E5%9B%A2",
+      "verbatim_quote": "蚂蚁数字科技-数字科技线-业务拓展专家(央国企新能源)｜蚂蚁集团招聘 - 北京市 (https://watchjobs.net/zh/explore/job/c493-90486cb8f4bdbcc2/%E8%9A%82%E8%9A%81%E6%95%B0%E5%AD%97%E7%A7%91%E6%8A",
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "字节跳动",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://seed.bytedance.com/zh/seedearlycareer",
+      "verbatim_quote": "并在豆包线上服务和 Seed 大模型后训练中广泛应用。 ... Seed 大模型人才校招是字节跳动 Seed 面向高校人才推出的招聘项目，岗位主要包括基础大模型、机器学习系统、视觉智能、语音智能、大模型 AI 搜索、模型个性化、具身智能等方向。",
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "阿里云",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://jobs.ultraai.site/jobs/aliyun/100015823003",
+      "verbatim_quote": "阿里云智能-大模型商业技术工程师（出海拓新方向）-北京（社招）- 阿里云 | 职先机 (https://jobs.ultraai.site/jobs/aliyun/100015823003)\nciteturn173search11 [wor",
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "青云QingCloud",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.qingcloud.com/jobs/%E6%B8%A0%E9%81%93%E7%BB%8F%E7%90%86/?origin=cifnews",
+      "verbatim_quote": "渠道经理 | 青云QingCloud (https://www.qingcloud.com/jobs/%E6%B8%A0%E9%81%93%E7%BB%8F%E7%90%86/?origin=cifnews)\nciteturn175search0 [wordlim: 2",
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "曙光信息",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jobs.uhomes.com/jobs/1JBgXqkO",
+      "verbatim_quote": "云计算渠道销售经理 — 曙光信息 | 异乡人才 (https://jobs.uhomes.com/jobs/1JBgXqkO)\nciteturn175search2 [wordlim: 200] Crawled: 4 months ago; # 云计算渠道销售经理 ",
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "腾讯云",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://tencent.wd1.myworkdayjobs.com/ja-JP/Tencent_Careers/job/Tencent-Cloud---Senior-Channel-Strategic-Sales-Executive---South-Korea------_R106228",
+      "verbatim_quote": "el/Strategic Sales Executive - South Korea | 腾讯云-高级渠道/战略销售经理-韩国 (https://tencent.wd1.myworkdayjobs.com/ja-JP/Tencent_Careers/job/Tencent-Cloud---Senior-Channel-Strategi",
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "北京紫光云技术有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.zhaopin.com/jobdetail/CC891544830J40951436408.htm",
+      "verbatim_quote": "北京渠道销售经理招聘_北京紫光云技术有限公司招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC891544830J40951436408.htm)\nciteturn175search8 [wordlim: 200] Crawled: ",
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "光环云数据有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.zhaopin.com/jobdetail/CC710667080J40687195911.htm",
+      "verbatim_quote": "销售经理招聘_光环云数据有限公司招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC710667080J40687195911.htm)\nciteturn175search9 [wordlim: 200] Crawled: ",
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "北京天弛网络有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.zhaopin.com/jobdetail/CC556196230J41010697204.htm",
+      "verbatim_quote": "销售经理（SDWAN、云计算）招聘_北京天弛网络有限公司招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC556196230J41010697204.htm)\nciteturn175search10 [wordlim: 200] Crawled:",
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "神州万利科技集团有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.zhaopin.com/jobdetail/CC890020500J40999834004.htm",
+      "verbatim_quote": "阿里无影云桌面销售经理招聘_神州万利科技集团有限公司招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC890020500J40999834004.htm)\nciteturn175search11 [wordlim: 200] Crawled:",
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "阿里巴巴",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://watchjobs.net/zh/explore/job/c256-100024660003/%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC-%E5%95%86%E4%B8%9A%E7%AD%96%E7%95%A5%E8%BF%90%E8%90%A5-%E6%9D%AD%E5%B7%9E-%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4",
+      "verbatim_quote": "千问办公-商业策略运营-杭州｜阿里巴巴招聘 - 杭州市 (https://watchjobs.net/zh/explore/job/c256-100024660003/%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC-%E5%95%86%E4%B8%9A",
+      "evidence_file": "raw/q06.json",
+      "evidence_sha256": "a42e1ad69a9606b2a21c443d76386b647c903e89a697c4e34e6368d94c8d6f67",
+      "observed_at": "2026-09-16T15:33:04.062Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "Aliyun",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.jdwatch.work/jobs/jokgst6fl",
+      "verbatim_quote": "阿里云智能-算力资源运营高级专家-MaaS业务部-杭州 · Aliyun | JDWatch (https://www.jdwatch.work/jobs/jokgst6fl)\nciteturn176search9 [wordlim: 200] Published: 2 weeks ago; Crawle",
+      "evidence_file": "raw/q06.json",
+      "evidence_sha256": "a42e1ad69a9606b2a21c443d76386b647c903e89a697c4e34e6368d94c8d6f67",
+      "observed_at": "2026-09-16T15:33:04.062Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "东华软件",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.zhaopin.com/jobdetail/CC193399810J40854003107.htm",
+      "verbatim_quote": "区域销售总监招聘_东华软件招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC193399810J40854003107.htm)\nciteturn176search11 [wordlim: 200] Crawled:",
+      "evidence_file": "raw/q06.json",
+      "evidence_sha256": "a42e1ad69a9606b2a21c443d76386b647c903e89a697c4e34e6368d94c8d6f67",
+      "observed_at": "2026-09-16T15:33:04.062Z",
+      "discovery_only": true,
+      "identity_status": "unverified"
+    },
+    {
+      "company_name": "小米",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "年中国大模型大全 ... 按模型名称与企业业务归类，未能归类的计入「其他」。 ... 01小米科技有限责任公司14条 ... 备案2026-06-29 LeapAI浙江凌艾未来科技有限公司浙江省通用基础备案2026-06-29 Seekfish杭州嘻算智能科技有限公司浙江省通用基础备案2026-06-29承德智旅·热河大模型承德市智",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "小米科技有限责任公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "年中国大模型大全 ... 按模型名称与企业业务归类，未能归类的计入「其他」。 ... 01小米科技有限责任公司14条 ... 备案2026-06-29 LeapAI浙江凌艾未来科技有限公司浙江省通用基础备案2026-06-29 Seekfish杭州嘻算智能科技有限公司浙江省通用基础备案2026-06-29承德智旅·热河大模型承德市智慧旅游发展有限公",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "浙江凌艾未来科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "。 ... 01小米科技有限责任公司14条 ... 备案2026-06-29 LeapAI浙江凌艾未来科技有限公司浙江省通用基础备案2026-06-29 Seekfish杭州嘻算智能科技有限公司浙江省通用基础备案2026-06-29承德智旅·热河大模型承德市智慧旅游发展有限公司河北省文旅生活备案2026-06-29本安大模型杭州涵霖盛田科技有限公司浙江",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "杭州嘻算智能科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "eapAI浙江凌艾未来科技有限公司浙江省通用基础备案2026-06-29 Seekfish杭州嘻算智能科技有限公司浙江省通用基础备案2026-06-29承德智旅·热河大模型承德市智慧旅游发展有限公司河北省文旅生活备案2026-06-29本安大模型杭州涵霖盛田科技有限公司浙江省通用基础备案2026-06-29梦飞共绩科技（杭州）有限公司浙江省通用基础备案",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "热河大模型承德市智慧旅游发展有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": " Seekfish杭州嘻算智能科技有限公司浙江省通用基础备案2026-06-29承德智旅·热河大模型承德市智慧旅游发展有限公司河北省文旅生活备案2026-06-29本安大模型杭州涵霖盛田科技有限公司浙江省通用基础备案2026-06-29梦飞共绩科技（杭州）有限公司浙江省通用基础备案2026-06-29良刻杭州优美刻印刷科技有限公司浙江省内容创作备案2026-06-",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "本安大模型杭州涵霖盛田科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "-29承德智旅·热河大模型承德市智慧旅游发展有限公司河北省文旅生活备案2026-06-29本安大模型杭州涵霖盛田科技有限公司浙江省通用基础备案2026-06-29梦飞共绩科技（杭州）有限公司浙江省通用基础备案2026-06-29良刻杭州优美刻印刷科技有限公司浙江省内容创作备案2026-06-29众森卫士大模型杭州众森卫士科技有限公司浙江省安全风控备案2026-0",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "良刻杭州优美刻印刷科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "备案2026-06-29梦飞共绩科技（杭州）有限公司浙江省通用基础备案2026-06-29良刻杭州优美刻印刷科技有限公司浙江省内容创作备案2026-06-29众森卫士大模型杭州众森卫士科技有限公司浙江省安全风控备案2026-06-29灵山大模型成都新飞翔网络信息咨询有限公司四川省通用基础备案2026-06-29老挝语基础大模型广西东信智算科技有限公司广西壮族",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "众森卫士大模型杭州众森卫士科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "案2026-06-29良刻杭州优美刻印刷科技有限公司浙江省内容创作备案2026-06-29众森卫士大模型杭州众森卫士科技有限公司浙江省安全风控备案2026-06-29灵山大模型成都新飞翔网络信息咨询有限公司四川省通用基础备案2026-06-29老挝语基础大模型广西东信智算科技有限公司广西壮族自治区通用基础登记2026-06-29乐语新生AI上海乐语新生科技有限公司上",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "灵山大模型成都新飞翔网络信息咨询有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "6-06-29众森卫士大模型杭州众森卫士科技有限公司浙江省安全风控备案2026-06-29灵山大模型成都新飞翔网络信息咨询有限公司四川省通用基础备案2026-06-29老挝语基础大模型广西东信智算科技有限公司广西壮族自治区通用基础登记2026-06-29乐语新生AI上海乐语新生科技有限公司上海市教育培训登记2026-06-29森索智策营销助手上海加邑市场营销策划有限公",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "老挝语基础大模型广西东信智算科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "-06-29灵山大模型成都新飞翔网络信息咨询有限公司四川省通用基础备案2026-06-29老挝语基础大模型广西东信智算科技有限公司广西壮族自治区通用基础登记2026-06-29乐语新生AI上海乐语新生科技有限公司上海市教育培训登记2026-06-29森索智策营销助手上海加邑市场营销策划有限公司上海市营销电商登记2026-06-29萌芽上海宇舟启晓人工智能科技有限公司上",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "上海乐语新生科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "础大模型广西东信智算科技有限公司广西壮族自治区通用基础登记2026-06-29乐语新生AI上海乐语新生科技有限公司上海市教育培训登记2026-06-29森索智策营销助手上海加邑市场营销策划有限公司上海市营销电商登记2026-06-29萌芽上海宇舟启晓人工智能科技有限公司上海市通用基础登记2026-06-29 AI规划师上海优学信息科技有限公司上海市教育",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "森索智策营销助手上海加邑市场营销策划有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "26-06-29乐语新生AI上海乐语新生科技有限公司上海市教育培训登记2026-06-29森索智策营销助手上海加邑市场营销策划有限公司上海市营销电商登记2026-06-29萌芽上海宇舟启晓人工智能科技有限公司上海市通用基础登记2026-06-29 AI规划师上海优学信息科技有限公司上海市教育培训登记2026-06-29 PitchLab特赞（上海）信息科技有限公司上海市营",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "萌芽上海宇舟启晓人工智能科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "6-29森索智策营销助手上海加邑市场营销策划有限公司上海市营销电商登记2026-06-29萌芽上海宇舟启晓人工智能科技有限公司上海市通用基础登记2026-06-29 AI规划师上海优学信息科技有限公司上海市教育培训登记2026-06-29 PitchLab特赞（上海）信息科技有限公司上海市营销电商登记2026-06-29小葡萄上海觅码寻韵科技有限公司上海市通用基础",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "规划师上海优学信息科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "06-29萌芽上海宇舟启晓人工智能科技有限公司上海市通用基础登记2026-06-29 AI规划师上海优学信息科技有限公司上海市教育培训登记2026-06-29 PitchLab特赞（上海）信息科技有限公司上海市营销电商登记2026-06-29小葡萄上海觅码寻韵科技有限公司上海市通用基础登记2026-06-29锦宿Xiu上海粒之科技有限公司上海市文旅生活登记2",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "信息科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "上海宇舟启晓人工智能科技有限公司上海市通用基础登记2026-06-29 AI规划师上海优学信息科技有限公司上海市教育培训登记2026-06-29 PitchLab特赞（上海）信息科技有限公司上海市营销电商登记2026-06-29小葡萄上海觅码寻韵科技有限公司上海市通用基础登记2026-06-29锦宿Xiu上海粒之科技有限公司上海市文旅生活登记2",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "小葡萄上海觅码寻韵科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "-29 PitchLab特赞（上海）信息科技有限公司上海市营销电商登记2026-06-29小葡萄上海觅码寻韵科技有限公司上海市通用基础登记2026-06-29锦宿Xiu上海粒之科技有限公司上海市文旅生活登记2026-06-29 AI搭子上海辰龙信息科技有限公司上海市通用基础登记2026-06-29深聊AI上海匡慧网络科技有限公司上海市客服问答登记2026-0",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "上海粒之科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "-06-29小葡萄上海觅码寻韵科技有限公司上海市通用基础登记2026-06-29锦宿Xiu上海粒之科技有限公司上海市文旅生活登记2026-06-29 AI搭子上海辰龙信息科技有限公司上海市通用基础登记2026-06-29深聊AI上海匡慧网络科技有限公司上海市客服问答登记2026-06-29 CallAgent上海声网科技有限公司上海市客服问答登记2",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "搭子上海辰龙信息科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "26-06-29锦宿Xiu上海粒之科技有限公司上海市文旅生活登记2026-06-29 AI搭子上海辰龙信息科技有限公司上海市通用基础登记2026-06-29深聊AI上海匡慧网络科技有限公司上海市客服问答登记2026-06-29 CallAgent上海声网科技有限公司上海市客服问答登记2026-06-29 AI智能面试系统上海毕至智能科技有限公司上海市人力招",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "上海匡慧网络科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "06-29 AI搭子上海辰龙信息科技有限公司上海市通用基础登记2026-06-29深聊AI上海匡慧网络科技有限公司上海市客服问答登记2026-06-29 CallAgent上海声网科技有限公司上海市客服问答登记2026-06-29 AI智能面试系统上海毕至智能科技有限公司上海市人力招聘登记2026-06-29法律分析上海柯数网络科技有限公司上海市法律合",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "上海声网科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "深聊AI上海匡慧网络科技有限公司上海市客服问答登记2026-06-29 CallAgent上海声网科技有限公司上海市客服问答登记2026-06-29 AI智能面试系统上海毕至智能科技有限公司上海市人力招聘登记2026-06-29法律分析上海柯数网络科技有限公司上海市法律合规登记2026-06-29律界芯人法律AI系统上海法义经纬信息技术有限公司上海",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "智能面试系统上海毕至智能科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "-29 CallAgent上海声网科技有限公司上海市客服问答登记2026-06-29 AI智能面试系统上海毕至智能科技有限公司上海市人力招聘登记2026-06-29法律分析上海柯数网络科技有限公司上海市法律合规登记2026-06-29律界芯人法律AI系统上海法义经纬信息技术有限公司上海市法律合规登记2026-06-29鼓管佳南京鼓楼医院江苏省医疗健康登记2026-",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "法律分析上海柯数网络科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "06-29 AI智能面试系统上海毕至智能科技有限公司上海市人力招聘登记2026-06-29法律分析上海柯数网络科技有限公司上海市法律合规登记2026-06-29律界芯人法律AI系统上海法义经纬信息技术有限公司上海市法律合规登记2026-06-29鼓管佳南京鼓楼医院江苏省医疗健康登记2026-06-29舒压伴·PressGuard江苏省人民医院江苏省医疗健康",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "系统上海法义经纬信息技术有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "29法律分析上海柯数网络科技有限公司上海市法律合规登记2026-06-29律界芯人法律AI系统上海法义经纬信息技术有限公司上海市法律合规登记2026-06-29鼓管佳南京鼓楼医院江苏省医疗健康登记2026-06-29舒压伴·PressGuard江苏省人民医院江苏省医疗健康",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "鼓管佳南京鼓楼医院",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "29律界芯人法律AI系统上海法义经纬信息技术有限公司上海市法律合规登记2026-06-29鼓管佳南京鼓楼医院江苏省医疗健康登记2026-06-29舒压伴·PressGuard江苏省人民医院江苏省医疗健康",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "江苏省人民医院",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://opckits.com/models",
+      "verbatim_quote": "-29鼓管佳南京鼓楼医院江苏省医疗健康登记2026-06-29舒压伴·PressGuard江苏省人民医院江苏省医疗健康",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "中国科学技术大学",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://github.com/wgwang/awesome-LLMs-In-China",
+      "verbatim_quote": "公司  | 大模型  | 省市  | 类别  | 官网  | 说明 ... 143  | 中国科学技术大学  | ChiMed-GPT  | 安徽合肥  | 医疗  | ✔  | 基于 Ziya-v2 的中文医疗大型语言模型144  | 创业邦  | BangChat  | 北京  | 创投  | ✘  | 产业、企业和投资行业 ... Goo",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "用友",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://openi.cn/sites/117422.html",
+      "verbatim_quote": "超对称技术公司  | 乾元  | 北京  | 金融  | ✔  | ... 116  | 用友  | YonGPT  | 北京  | 企业服务  | ✘  |",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "浪潮",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://www.chineseaitools.com/zh/articles/chinese-model-vendor-product-matrix-2026",
+      "verbatim_quote": "2、MiniMax M3、openPangu 2.0 权重及更广泛的编程 Agent 产品浪潮。",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "百度",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://www.cdp.edu.cn/__local/5/81/2B/7F7953CB3B4D7D429046BE7A8DC_C607849E_2C7062.pdf",
+      "verbatim_quote": "ublished: 3.3 years ago; • 目前国内典型大模型包括：阿里的M6，百度的文心大模型，华为的盘古，智谱科技的ChatGLM，科大讯飞的星火，商汤的日日新等，2023年开始其他企业也争相入局，共同打造完整的中国大模型生态链路。 ... 行业大模型框图，分为“搜索”“问答”“金融”“办公”“基础科学”五类，每类下列",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "智源研究院",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://www.cdp.edu.cn/__local/5/81/2B/7F7953CB3B4D7D429046BE7A8DC_C607849E_2C7062.pdf",
+      "verbatim_quote": "学”五类，每类下列出厂商： ... 开发平台一栏，列出：阿里巴巴、腾讯、华为、百度、谷歌、智源研究院、Meta、字节跳动、之江实验室。",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "中国电气装备集团科学技术研究院有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://www.shanghai.gov.cn/cmsres/9f/9fc0741232a442da9aafc0215a027323/76b56c471766da8e09aa2f0312ccbbb0.pdf",
+      "verbatim_quote": "语言模型的智能选品系统</td></tr> ... <tr><td>13</td><td>中国电气装备集团科学技术研究院有限公司</td><td>基于大模型知识问答的换流站生产运维与故障诊断研究</td></tr>",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "出门问问",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://hulianhutongshequ.cn/upload/tank/report/2024/202401/1/6774adde991a42eca9b3cd9281d0ee96.pdf",
+      "verbatim_quote": "、360、阿里云、MINIMAX 开放平台、华为云、科大讯飞 iFLYTEK、浪潮、昆仑、出门问问、达观数据 DATA GRAND、Tigerobo 虎博、商汤 SenseTime、腾讯、天翼、网易伏羲、Sicetron 西湖心辰、XVERSE 元象、云从科技 CLOUDWALK、intellifusion 云天励飞、云知声 Uniso",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "百度",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://hulianhutongshequ.cn/upload/tank/report/2024/202401/1/6774adde991a42eca9b3cd9281d0ee96.pdf",
+      "verbatim_quote": ".7 years ago; 从头部企业到百模家族，大模型井喷式爆发增长 ... - 金融：百度、超对称、厦门小满、HUNDSUN、澜舟科技、蚂蚁集团 ANT GROUP、马上消费金融、H3C、TRANWARP、中国农业银行、ZHUIYI ... - 科技公司：百度、360、阿里云、MINIMAX 开放平台、华为云、科大讯飞 iFLY",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "浪潮",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://hulianhutongshequ.cn/upload/tank/report/2024/202401/1/6774adde991a42eca9b3cd9281d0ee96.pdf",
+      "verbatim_quote": "技公司：百度、360、阿里云、MINIMAX 开放平台、华为云、科大讯飞 iFLYTEK、浪潮、昆仑、出门问问、达观数据 DATA GRAND、Tigerobo 虎博、商汤 SenseTime、腾讯、天翼、网易伏羲、Sicetron 西湖心辰、XVERSE 元象、云从科技 CLOUDWALK、intellifusion 云天励飞、云",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "蚂蚁集团",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://hulianhutongshequ.cn/upload/tank/report/2024/202401/1/6774adde991a42eca9b3cd9281d0ee96.pdf",
+      "verbatim_quote": "大模型井喷式爆发增长 ... - 金融：百度、超对称、厦门小满、HUNDSUN、澜舟科技、蚂蚁集团 ANT GROUP、马上消费金融、H3C、TRANWARP、中国农业银行、ZHUIYI ... - 科技公司：百度、360、阿里云、MINIMAX 开放平台、华为云、科大讯飞 iFLYTEK、浪潮、昆仑、出门问问、达观数据 DATA GR",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "中国农业银行",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://hulianhutongshequ.cn/upload/tank/report/2024/202401/1/6774adde991a42eca9b3cd9281d0ee96.pdf",
+      "verbatim_quote": "DSUN、澜舟科技、蚂蚁集团 ANT GROUP、马上消费金融、H3C、TRANWARP、中国农业银行、ZHUIYI ... - 科技公司：百度、360、阿里云、MINIMAX 开放平台、华为云、科大讯飞 iFLYTEK、浪潮、昆仑、出门问问、达观数据 DATA GRAND、Tigerobo 虎博、商汤 SenseTime、腾讯、天翼、网易",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "百度",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BA%A7%E4%B8%9A",
+      "verbatim_quote": "人工智能采取市场导向的方式，并试图鼓励民营科技公司发展人工智能。2017年11月，科技部将百度、阿里巴巴、科大讯飞、腾讯列为“新一代人工智能开放创新平台”企业，2018年9月，商汤科技加入该计划，截至2025年有23家企业加入。 ... 2025年1月，DeepSeek推出其DeepSeek-R1大模型引发国际关注，其以极简的硬件实",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "深度求索",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E6%B1%82%E7%B4%A2",
+      "verbatim_quote": "深度求索 (https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E6%B1%82%E7%B4%A2)\nciteturn171search19 [wordlim: 200] Crawled: 4 m",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "全称杭州深度求索人工智能基础技术研究有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E6%B1%82%E7%B4%A2",
+      "verbatim_quote": ": 200] Crawled: 4 months ago; 深度求索（DeepSeek），全称杭州深度求索人工智能基础技术研究有限公司，是中国一家人工智能与大型语言模型公司。 ... * 与深度求索发布的大语言模型开启对话 20250308003945. ... 佛山\"江义村智慧乡村平台\"接入DeepSeek. ... 2025年3月初，中国大陆的模型即服务（MaaS）厂",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "明略科技",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E7%95%A5%E7%A7%91%E6%8A%80",
+      "verbatim_quote": "明略科技 (https://zh.wikipedia.org/wiki/%E6%98%8E%E7%95%A5%E7%A7%91%E6%8A%80)\nciteturn171search21 [wordlim: 200] Crawled: 5 m",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "全稱上海稀宇科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://zh.wikipedia.org/wiki/MiniMax",
+      "verbatim_quote": "[wordlim: 200] Crawled: 4 months ago; 稀宇科技（），全稱上海稀宇科技有限公司，是一家总部位于中国上海市徐匯區模速空间的大模型人工智能公司。 ... - MiniMax在港交所上市，成史上IPO规模最大的AI大模型公司_浦江头条_澎湃新闻-The Paper.",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "美团",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%B0%B1",
+      "verbatim_quote": "投资方包括北京市人工智能产业投资基金、社保基金中关村自主创新基金（君联资本为基金管理人）、美团、蚂蚁、阿里、腾讯、小米、金山、顺为、红杉、高瓴等，公司估值超过200亿人民币。",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "小米",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%B0%B1",
+      "verbatim_quote": "产业投资基金、社保基金中关村自主创新基金（君联资本为基金管理人）、美团、蚂蚁、阿里、腾讯、小米、金山、顺为、红杉、高瓴等，公司估值超过200亿人民币。",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京智谱华章科技有限公司",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%B0%B1",
+      "verbatim_quote": "rch23 [wordlim: 200] Crawled: 4 months ago; 北京智谱华章科技有限公司（又称为智谱、智谱科技、智谱AI，）是中国一家开发用于人工智能的大型語言模型的高新技术企业。 ... 2024年，智谱发布GLM-4和GLM-4-Plus等大模型。，该公司旗下的智谱清言App拥有超过两千五百万用户；旗下MaaS开放平台bi",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "百度",
+      "industry": "基础大模型与开放平台",
+      "source_url": "https://www.reddit.com/r/4832/comments/1ir9px5",
+      "verbatim_quote": "R1模型提供服务时，算力成本居高不下，MaaS（模型即服务）价格并未降低；另一方面，腾讯、百度、字节跳动是否持续研发混元、豆包等模型产品服务，这使得业界对于接入DeepSeek模型后，如何实现正向商业化的问题尤为关注，大家都在探索后续的发展路径，试图找出在复杂市场环境下，让DeepSeek模型实现商业价值最大化的方法。 ... AI",
+      "evidence_file": "raw/q01.json",
+      "evidence_sha256": "c34114dbb943528d4db47dfa3f489e5896fd828d39f90bf318ecd6f6e411abb6",
+      "observed_at": "2026-09-16T15:30:11.889Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "京东",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "区\n\n智算算力专区\n\n超算算力专区\n\n边缘算力专区\n\n云算力专区\n\n更多\n\nImage\n\n京东科技信息技术有限公司\n\n可信\n\n城市：宿迁\n\n资源类型：通用计算\n\n服务类型：裸金属云服务器\n\nImage\n\n中移（苏州）软件技术有限公司\n\n可信\n\n城市：北京\n\n资源类型：通用计算\n\n服务类型：云服务器、容器服务\n\nImage\n\n联通数字",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "万国数据服务有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "务的主体，包含云服务商、基础电信企业、软件服务商等。\n[Input: 提供商]\n\n  * 万国数据服务有限公司\n  * 上海有孚云计算有限公司\n  * 上海武桐树高新技术有限公司\n  * 上海润六尺科技有限公司\n  * 中国电信股份公司四川分公司\n  * 中国移动通信集团四川有限公司\n  * 中国联合网络通信有限公司上海市分公司\n  * 中国联合网",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "上海有孚云计算有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "信企业、软件服务商等。\n[Input: 提供商]\n\n  * 万国数据服务有限公司\n  * 上海有孚云计算有限公司\n  * 上海武桐树高新技术有限公司\n  * 上海润六尺科技有限公司\n  * 中国电信股份公司四川分公司\n  * 中国移动通信集团四川有限公司\n  * 中国联合网络通信有限公司上海市分公司\n  * 中国联合网络通信有限公司四川省分公司\n  ",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "上海武桐树高新技术有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "ut: 提供商]\n\n  * 万国数据服务有限公司\n  * 上海有孚云计算有限公司\n  * 上海武桐树高新技术有限公司\n  * 上海润六尺科技有限公司\n  * 中国电信股份公司四川分公司\n  * 中国移动通信集团四川有限公司\n  * 中国联合网络通信有限公司上海市分公司\n  * 中国联合网络通信有限公司四川省分公司\n  * 优刻得科技股份有限公司\n  * ",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "上海润六尺科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "服务有限公司\n  * 上海有孚云计算有限公司\n  * 上海武桐树高新技术有限公司\n  * 上海润六尺科技有限公司\n  * 中国电信股份公司四川分公司\n  * 中国移动通信集团四川有限公司\n  * 中国联合网络通信有限公司上海市分公司\n  * 中国联合网络通信有限公司四川省分公司\n  * 优刻得科技股份有限公司\n  * 北京世纪互联宽带数据中心有限公司",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "中国电信股份公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "计算有限公司\n  * 上海武桐树高新技术有限公司\n  * 上海润六尺科技有限公司\n  * 中国电信股份公司四川分公司\n  * 中国移动通信集团四川有限公司\n  * 中国联合网络通信有限公司上海市分公司\n  * 中国联合网络通信有限公司四川省分公司\n  * 优刻得科技股份有限公司\n  * 北京世纪互联宽带数据中心有限公司\n  * 北京摩笔生成科技",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "中国移动通信集团四川有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "技术有限公司\n  * 上海润六尺科技有限公司\n  * 中国电信股份公司四川分公司\n  * 中国移动通信集团四川有限公司\n  * 中国联合网络通信有限公司上海市分公司\n  * 中国联合网络通信有限公司四川省分公司\n  * 优刻得科技股份有限公司\n  * 北京世纪互联宽带数据中心有限公司\n  * 北京摩笔生成科技有限公司\n  * 四川冠安智云数字技术有限公司\n",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "中国联合网络通信有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "限公司\n  * 中国电信股份公司四川分公司\n  * 中国移动通信集团四川有限公司\n  * 中国联合网络通信有限公司上海市分公司\n  * 中国联合网络通信有限公司四川省分公司\n  * 优刻得科技股份有限公司\n  * 北京世纪互联宽带数据中心有限公司\n  * 北京摩笔生成科技有限公司\n  * 四川冠安智云数字技术有限公司\n  * 天津智算数字产业发展有限公",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "优刻得科技股份有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "国联合网络通信有限公司上海市分公司\n  * 中国联合网络通信有限公司四川省分公司\n  * 优刻得科技股份有限公司\n  * 北京世纪互联宽带数据中心有限公司\n  * 北京摩笔生成科技有限公司\n  * 四川冠安智云数字技术有限公司\n  * 天津智算数字产业发展有限公司\n  * 天翼云科技有限公司\n  * 张家口中明科技有限公司\n  * 科华数据股份有限公",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京世纪互联宽带数据中心有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "司\n  * 中国联合网络通信有限公司四川省分公司\n  * 优刻得科技股份有限公司\n  * 北京世纪互联宽带数据中心有限公司\n  * 北京摩笔生成科技有限公司\n  * 四川冠安智云数字技术有限公司\n  * 天津智算数字产业发展有限公司\n  * 天翼云科技有限公司\n  * 张家口中明科技有限公司\n  * 科华数据股份有限公司\n  * 辽宁省互联网技术支撑中心（大连",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京摩笔生成科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "分公司\n  * 优刻得科技股份有限公司\n  * 北京世纪互联宽带数据中心有限公司\n  * 北京摩笔生成科技有限公司\n  * 四川冠安智云数字技术有限公司\n  * 天津智算数字产业发展有限公司\n  * 天翼云科技有限公司\n  * 张家口中明科技有限公司\n  * 科华数据股份有限公司\n  * 辽宁省互联网技术支撑中心（大连智算中心）\n  * 辽宁省互联网技",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "四川冠安智云数字技术有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "公司\n  * 北京世纪互联宽带数据中心有限公司\n  * 北京摩笔生成科技有限公司\n  * 四川冠安智云数字技术有限公司\n  * 天津智算数字产业发展有限公司\n  * 天翼云科技有限公司\n  * 张家口中明科技有限公司\n  * 科华数据股份有限公司\n  * 辽宁省互联网技术支撑中心（大连智算中心）\n  * 辽宁省互联网技术支撑中心（沈阳新算运营管理）\n\n立刻",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "天津智算数字产业发展有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "有限公司\n  * 北京摩笔生成科技有限公司\n  * 四川冠安智云数字技术有限公司\n  * 天津智算数字产业发展有限公司\n  * 天翼云科技有限公司\n  * 张家口中明科技有限公司\n  * 科华数据股份有限公司\n  * 辽宁省互联网技术支撑中心（大连智算中心）\n  * 辽宁省互联网技术支撑中心（沈阳新算运营管理）\n\n立刻查询\n\n\n算力调度服务商\n\n算力调度服",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "天翼云科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "公司\n  * 四川冠安智云数字技术有限公司\n  * 天津智算数字产业发展有限公司\n  * 天翼云科技有限公司\n  * 张家口中明科技有限公司\n  * 科华数据股份有限公司\n  * 辽宁省互联网技术支撑中心（大连智算中心）\n  * 辽宁省互联网技术支撑中心（沈阳新算运营管理）\n\n立刻查询\n\n\n算力调度服务商\n\n算力调度服务商，指为用户提供算力应用或",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "张家口中明科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "字技术有限公司\n  * 天津智算数字产业发展有限公司\n  * 天翼云科技有限公司\n  * 张家口中明科技有限公司\n  * 科华数据股份有限公司\n  * 辽宁省互联网技术支撑中心（大连智算中心）\n  * 辽宁省互联网技术支撑中心（沈阳新算运营管理）\n\n立刻查询\n\n\n算力调度服务商\n\n算力调度服务商，指为用户提供算力应用或任务编排调度、部署计算等服务的企",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "科华数据股份有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "数字产业发展有限公司\n  * 天翼云科技有限公司\n  * 张家口中明科技有限公司\n  * 科华数据股份有限公司\n  * 辽宁省互联网技术支撑中心（大连智算中心）\n  * 辽宁省互联网技术支撑中心（沈阳新算运营管理）\n\n立刻查询\n\n\n算力调度服务商\n\n算力调度服务商，指为用户提供算力应用或任务编排调度、部署计算等服务的企业或组织，通过算力调度服务平台",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "京东科技信息技术有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "区\n\n智算算力专区\n\n超算算力专区\n\n边缘算力专区\n\n云算力专区\n\n更多\n\nImage\n\n京东科技信息技术有限公司\n\n可信\n\n城市：宿迁\n\n资源类型：通用计算\n\n服务类型：裸金属云服务器\n\nImage\n\n中移（苏州）软件技术有限公司\n\n可信\n\n城市：北京\n\n资源类型：通用计算\n\n服务类型：云服务器、容器服务\n\nImage\n\n联通数字科技有限公司\n\n可信",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "软件技术有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "城市：宿迁\n\n资源类型：通用计算\n\n服务类型：裸金属云服务器\n\nImage\n\n中移（苏州）软件技术有限公司\n\n可信\n\n城市：北京\n\n资源类型：通用计算\n\n服务类型：云服务器、容器服务\n\nImage\n\n联通数字科技有限公司\n\n可信\n\n城市：廊坊\n\n资源类型：通用计算\n\n服务类型：云服务器\n\nImage\n\n天翼云科技有限公司\n\n可信\n\n城市：北京、",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "联通数字科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "可信\n\n城市：北京\n\n资源类型：通用计算\n\n服务类型：云服务器、容器服务\n\nImage\n\n联通数字科技有限公司\n\n可信\n\n城市：廊坊\n\n资源类型：通用计算\n\n服务类型：云服务器\n\nImage\n\n天翼云科技有限公司\n\n可信\n\n城市：北京、重庆、武汉、苏州、南京、庆阳\n\n资源类型：通用计算\n\n服务类型：云服务器、云硬盘、PU云服务器\n\nImage\n\n重",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "重庆中科云从科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/",
+      "verbatim_quote": "、庆阳\n\n资源类型：通用计算\n\n服务类型：云服务器、云硬盘、PU云服务器\n\nImage\n\n重庆中科云从科技有限公司\n\n城市：北京\n\n资源类型：通用计算\n\n服务类型：容器服务\n\nImage\n\n中国联合网络通信有限公司北京市分公司\n\n城市：北京\n\n资源类型：通用计算\n\n服务类型：云服务器\n\n算力应用服务商\n\n为用户提供人工智能应用、科学计算、算力卡、云手机",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "天翼云科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/service/interflow",
+      "verbatim_quote": "云专网运营企业等。\n\n算力专线服务商\n\n[Input: 请根据标签筛选]\n\nImage\n\n天翼云科技有限公司\n\n城市：武汉、广州\n\n资源类型：智能计算、通用计算\n\n服务类型：云服务器，GPU云服务器\n\nImage\n\n中国移动通信集团有限公司\n\n城市：北京、呼和浩特、无锡、苏州、重庆、成都、雅安\n\n资源类型：智能计算\n\n服务类型：GPU云主机\n\nI",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "中国移动通信集团有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/service/interflow",
+      "verbatim_quote": "州\n\n资源类型：智能计算、通用计算\n\n服务类型：云服务器，GPU云服务器\n\nImage\n\n中国移动通信集团有限公司\n\n城市：北京、呼和浩特、无锡、苏州、重庆、成都、雅安\n\n资源类型：智能计算\n\n服务类型：GPU云主机\n\nImage\n\n联通数字科技有限公司\n\n城市：北京、贵阳\n\n资源类型：通用计算\n\n服务类型：云服务器，云硬盘\n\n国家算力互联网服务平台\n",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "联通数字科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://www.stateioc.cn/service/interflow",
+      "verbatim_quote": "、苏州、重庆、成都、雅安\n\n资源类型：智能计算\n\n服务类型：GPU云主机\n\nImage\n\n联通数字科技有限公司\n\n城市：北京、贵阳\n\n资源类型：通用计算\n\n服务类型：云服务器，云硬盘\n\n国家算力互联网服务平台\n\n电话: 18500716640\n\n地址: 海淀区花园路",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "京东",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "份有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京东方国信科技股份有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京浩信迅云科技有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n润泽科技发展有限公司\n\n技术/资源/需",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京华为云计算技术有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": " [wordlim: 200] Crawled: yesterday; 算力伙伴  | 北京华为云计算技术有限公司  | 算力服务 ... 算力伙伴  | 中国联合网络通信有限公司北京市分公司  | 算力服务 ... 北京市经济和信息化局重点保障类企业融资专题信息\n\n类别： [Select]\n\n企业名称： [Input: 请输入企业名称]\n\n技术/资源",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "中国联合网络通信有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "y; 算力伙伴  | 北京华为云计算技术有限公司  | 算力服务 ... 算力伙伴  | 中国联合网络通信有限公司北京市分公司  | 算力服务 ... 北京市经济和信息化局重点保障类企业融资专题信息\n\n类别： [Select]\n\n企业名称： [Input: 请输入企业名称]\n\n技术/资源/需求类型： [Select]\n\n代表产品： [Input: 请输",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "超云数字技术集团有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "| 企业名称  | 技术/资源/需求类型\n--- | --- | ---\n算力伙伴  | 超云数字技术集团有限公司  | 算力服务\n算力伙伴  | 中联云港数据科技股份有限公司  | 算力服务\n算力伙伴  | 新华三技术有限公司  | 算力服务\n算力伙伴  | 北京华为云计算技术有限公司  | 算力服务\n算力伙伴  | 北京优刻得科技有限公司  | 算",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "中联云港数据科技股份有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "- | ---\n算力伙伴  | 超云数字技术集团有限公司  | 算力服务\n算力伙伴  | 中联云港数据科技股份有限公司  | 算力服务\n算力伙伴  | 新华三技术有限公司  | 算力服务\n算力伙伴  | 北京华为云计算技术有限公司  | 算力服务\n算力伙伴  | 北京优刻得科技有限公司  | 算力服务\n算力伙伴  | 北京并行科技股份有限公司  | 算力服",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "新华三技术有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": " 算力服务\n算力伙伴  | 中联云港数据科技股份有限公司  | 算力服务\n算力伙伴  | 新华三技术有限公司  | 算力服务\n算力伙伴  | 北京华为云计算技术有限公司  | 算力服务\n算力伙伴  | 北京优刻得科技有限公司  | 算力服务\n算力伙伴  | 北京并行科技股份有限公司  | 算力服务\n算力伙伴  | 北京亦庄数字基础设施发展有限公司",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京优刻得科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "| 算力服务\n算力伙伴  | 北京华为云计算技术有限公司  | 算力服务\n算力伙伴  | 北京优刻得科技有限公司  | 算力服务\n算力伙伴  | 北京并行科技股份有限公司  | 算力服务\n算力伙伴  | 北京亦庄数字基础设施发展有限公司  | 算力服务\n算力伙伴  | 中科寒武纪科技股份有限公司  | 算力服务\n算力伙伴  | 北京天数智芯半导体科技",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京并行科技股份有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "  | 算力服务\n算力伙伴  | 北京优刻得科技有限公司  | 算力服务\n算力伙伴  | 北京并行科技股份有限公司  | 算力服务\n算力伙伴  | 北京亦庄数字基础设施发展有限公司  | 算力服务\n算力伙伴  | 中科寒武纪科技股份有限公司  | 算力服务\n算力伙伴  | 北京天数智芯半导体科技有限公司  | 算力服务\n算力伙伴  | 沐曦科技（北京）",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京亦庄数字基础设施发展有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": " | 算力服务\n算力伙伴  | 北京并行科技股份有限公司  | 算力服务\n算力伙伴  | 北京亦庄数字基础设施发展有限公司  | 算力服务\n算力伙伴  | 中科寒武纪科技股份有限公司  | 算力服务\n算力伙伴  | 北京天数智芯半导体科技有限公司  | 算力服务\n算力伙伴  | 沐曦科技（北京）有限公司  | 算力服务\n算力伙伴  | 摩尔线程智能科技 (北京",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "中科寒武纪科技股份有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "力服务\n算力伙伴  | 北京亦庄数字基础设施发展有限公司  | 算力服务\n算力伙伴  | 中科寒武纪科技股份有限公司  | 算力服务\n算力伙伴  | 北京天数智芯半导体科技有限公司  | 算力服务\n算力伙伴  | 沐曦科技（北京）有限公司  | 算力服务\n算力伙伴  | 摩尔线程智能科技 (北京)有限责任公司  | 算力服务\n\n算力服务\n\n类别：\n\n算力",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京天数智芯半导体科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "| 算力服务\n算力伙伴  | 中科寒武纪科技股份有限公司  | 算力服务\n算力伙伴  | 北京天数智芯半导体科技有限公司  | 算力服务\n算力伙伴  | 沐曦科技（北京）有限公司  | 算力服务\n算力伙伴  | 摩尔线程智能科技 (北京)有限责任公司  | 算力服务\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n新华三技术有限公司\n\n技术/资源/需求类型",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京蓝耘科技股份有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "发展有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京蓝耘科技股份有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n算力互联（北京）科技有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n超云数字技术集团有限公司\n\n技术/资源/需求类型：\n\n算",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "务\n算力伙伴  | 北京华为云计算技术有限公司  | 算力服务\n算力伙伴  | 北京优刻得科技有限公司  | 算力服务\n算力伙伴  | 北京并行科技股份有限公司  | 算力服务\n算力伙伴  | 北京亦庄数字基础设施发展有限公司  | 算力服务\n算力伙伴  | 中科寒武纪科技股份有限公司  | 算力服务\n算力伙伴  | 北京天数智芯半导体科技",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京东方国信科技股份有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "股份有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京东方国信科技股份有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京浩信迅云科技有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n润泽科技发展有限公司\n\n技术/资源/需求类型：\n\n算力服务\n",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京浩信迅云科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "股份有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京浩信迅云科技有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n润泽科技发展有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n中金数据集团有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "润泽科技发展有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "科技有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n润泽科技发展有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n中金数据集团有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京光环新网科技股份有限公司\n\n技术/资源/需求类型：\n\n算力服",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "中金数据集团有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "发展有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n中金数据集团有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京光环新网科技股份有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京城建智控科技股份有限公司\n\n技术/资源/需求类型：\n",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京光环新网科技股份有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "集团有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京光环新网科技股份有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京城建智控科技股份有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京九章云极科技有限公司\n\n技术/资源/需求类型：\n\n算",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京城建智控科技股份有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "股份有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京城建智控科技股份有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京九章云极科技有限公司\n\n技术/资源/需求类型：\n\n算力服务--------------------------------------------------",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "北京九章云极科技有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "股份有限公司\n\n技术/资源/需求类型：\n\n算力服务\n\n类别：\n\n算力伙伴\n\n企业名称：\n\n北京九章云极科技有限公司\n\n技术/资源/需求类型：\n\n算力服务--------------------------------------------------------------------------------\n首页 (https://2026.net",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "企商在线集团",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "verbatim_quote": "模型解决方案互联网行业解决方案新闻中心企业动态媒体报道 关注光子云\nImage: logo企商在线集团核心品牌首页解决方案产品与服务可持续发展新闻中心Token工厂关于我们 核心优势 一站式企业服务，想企业所想\n\nImage资源稀缺·全国布局国内首批IDC服务商，独立运营13个云计算数据中心，坐拥北京五环内最大公共数中心、城六区唯一AI公共",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "用友",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://imgs-b2b.100ec.cn/detail--6659842.html",
+      "verbatim_quote": "焦AI原生与算力升级。 ... （2）中腰部云计算厂商（24家）：天翼云、金山云、移动云、用友云、紫光云、金蝶云、联通云、UCloud、浪潮云、七牛云、深信服、中兴通讯、北鲲云、灵雀云、中国电子云、安畅网络、九州云、光环新网、恒生云、浩鲸云、曙光云、中电云、梦网科技、网易数智； ... 网经社“电数宝”电商大数据库（DATA.100",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "浪潮",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://imgs-b2b.100ec.cn/detail--6659842.html",
+      "verbatim_quote": "计算厂商（24家）：天翼云、金山云、移动云、用友云、紫光云、金蝶云、联通云、UCloud、浪潮云、七牛云、深信服、中兴通讯、北鲲云、灵雀云、中国电子云、安畅网络、九州云、光环新网、恒生云、浩鲸云、曙光云、中电云、梦网科技、网易数智； ... 网经社“电数宝”电商大数据库（DATA.100EC.CN，免费注册体验全库）基于电商行业18",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "百度",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-05-21/1220107346.PDF",
+      "verbatim_quote": " AI 算力租赁市场的企业主要分为以下四类：传统云服务提供商，比如三大运营商、阿里、腾讯、百度等；具备 IDC 建设运营能力的央国企，比如云赛智联、广电运通、卓朗科技等；具备 IDC 建设运营相关能力的民企，比如中贝通信等；跨界厂商，比如恒润股份、莲花健康等。 (https://static.cninfo.com.cn/finalp",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "全稱阿里雲計算有限公司",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E9%87%8C%E9%9B%B2",
+      "verbatim_quote": "] Crawled: 6 months ago; 阿里雲計算（Alibaba Cloud，全稱阿里雲計算有限公司，簡稱阿里雲），是一家提供雲端運算服務的科技公司，創立於2009年9月，为阿里巴巴集團全資所有。阿里云计算公司总部位于杭州，在北京和硅谷等地设有研发中心和运营机构，涉及云计算的产品与服务。根據高德納諮詢公司的報告，至2024年，公用雲Iaa",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "京东",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%BA%AC%E4%B8%9C%E4%BA%91",
+      "verbatim_quote": "京东云 (https://zh.wikipedia.org/wiki/%E4%BA%AC%E4%B8%9C%E4%BA%91)\nciteturn174search20 [wordlim: 200] Crawled: 5 months ag",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "京东云",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%BA%AC%E4%B8%9C%E4%BA%91",
+      "verbatim_quote": "京东云 (https://zh.wikipedia.org/wiki/%E4%BA%AC%E4%B8%9C%E4%BA%91)\nciteturn174search20 [wordlim: 200] Crawled: 5 months ago",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "是京东集团",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://zh.wikipedia.org/wiki/%E4%BA%AC%E4%B8%9C%E4%BA%91",
+      "verbatim_quote": "im: 200] Crawled: 5 months ago; 京东云（JD Cloud）是京东集团旗下的云计算综合服务提供商，提供基于云计算、大数据、人工智能和物联网技术的服务。 ... 2016年4月，京东云正式推出公有云服务，发布基础云和数据云产品线，进入中国云计算市场。 ... 2025年，京东云在世界人工智能大会（WAIC）上宣",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    },
+    {
+      "company_name": "清华大学",
+      "industry": "云、算力与AI基础设施",
+      "source_url": "https://zh.wikipedia.org/wiki/AIPerf500",
+      "verbatim_quote": "个面向全球超级计算机，评估AI计算性能的排行榜。它由中国科学院计算技术研究所研究员张云泉、清华大学教授陈文光、阿尔贡国家实验室研究员帕万·巴拉吉（Pavan Balaji）和苏黎世联邦理工学院教授，从2020年起开始发布。最早的AIPerf榜采用经典卷积模型来评价智能算力的训练性能，后来推出的AIPerf-LLM榜则采用大语言模型来评价",
+      "evidence_file": "raw/q04.json",
+      "evidence_sha256": "f4d682b514f61147a1950eb43293a8b8c7bafa03ee3c4488db059141d3fce6fc",
+      "observed_at": "2026-09-16T15:31:57.525Z",
+      "discovery_only": true,
+      "identity_status": "unverified",
+      "company_facts": {
+        "directory_year": "待核",
+        "institution": "待核",
+        "note": "行业目录/机构资料中实际出现，未据此确认法律主体或当前招聘"
+      }
+    }
+  ],
+  "issues": [
+    "搜索索引结果不是职位详情页；全部岗位线索均保留 description_complete:false，未视为当前在招或固定薪资达标。",
+    "部分结果含校园/实习、海外地点或旧资料，已在 scope_note/time_note 中保留边界。",
+    "薪资异常或仅片段出现的结果不作达标推荐；例如“10万~30万元/月”需后续核验，未从索引片段推断。",
+    "q01/q04目录公司已按结果块补录；目录年份与机构均标记待核，不等同当前在招或法律主体已核验。",
+    "本轮逐条核验：招聘平台、部门/栏目、文档标题未作为雇主或具体岗位；未知雇主置 null。"
+  ],
+  "jobs": [
+    {
+      "id": "q02-r1",
+      "company": "百度",
+      "title": "上海-云和大模型大客户销售(J100775)",
+      "industry": "基础大模型与开放平台",
+      "city": "上海市",
+      "location": "上海市",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://talent.baidu.com/jobs/detail/GRADUATE/2726a03c-94e5-4511-9c98-077f07ecd6c6",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "百度校园招聘 (https://talent.baidu.com/jobs/detail/GRADUATE/2726a03c-94e5-4511-9c98-077f07ecd6c6) [wordlim: 200] Crawled: today; -参与各行业头部客户的合作拓展，通过市场调研、技术趋势、行业洞察，挖掘线索，拓展相关赛道的潜在商机，传递百度大模型及云产品技术价值 -推动决策和商机转化，客户建联、客情维护、业务洞察，在商业场景下诊断客户需求，跟进和推动合作落地，为客户创造价值 -协助组织和参加市场活动和行",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q02.json",
+      "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "observed_at": "2026-09-16T15:30:45.224Z",
+      "time_note": null,
+      "scope_note": "校园/实习或校招线索，保留但不作社招结论；校园/实习线索",
+      "route": "B"
+    },
+    {
+      "id": "q02-r2",
+      "company": "百度",
+      "title": "大模型数据PDSA（J99381）",
+      "industry": "基础大模型与开放平台",
+      "city": "北京市",
+      "location": "北京市、上海市",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://talent.baidu.com/jobs/detail/SOCIAL/7ed37785-f997-4c00-b421-39f08eb3f1b1",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "百度校园招聘 (https://talent.baidu.com/jobs/detail/SOCIAL/7ed37785-f997-4c00-b421-39f08eb3f1b1) [wordlim: 200] Crawled: today; -负责面向大模型公司、科技公司、互联网公司等客户，销售高质量数据集及定制化的数据采集与标注服务，深入理解客户在大模型预训练、微调、对齐、评测等环节的数据需求，提供端到端的数据解决方案 -主导客户需求挖掘与项目跟进，与客户的技术、算法、数据团队建立深度合作关系，识别客户在数据规模",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q02.json",
+      "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "observed_at": "2026-09-16T15:30:45.224Z",
+      "time_note": null,
+      "scope_note": "社会招聘（URL为 SOCIAL；页面通用头“百度校园招聘”不代表校招）",
+      "route": "B"
+    },
+    {
+      "id": "q02-r3",
+      "company": "河南卿云信息技术有限公司",
+      "title": "商务 BD（大模型 Token 聚合平台）",
+      "industry": "基础大模型与开放平台",
+      "city": "郑州金水区",
+      "location": "郑州金水区",
+      "salary_raw": "底薪 4000元/月",
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://www.zhaopin.com/jobdetail/CCL1493735290J40855805607.htm",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "商务 BD（大模型 Token 聚合平台）招聘_河南卿云信息技术有限公司招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CCL1493735290J40855805607.htm) [wordlim: 200] Crawled: today; 负责 AI 大模型聚合、Token 算力中转与 API 接口分发业务，打通上下游算力与模型资源，面向 B 端企业、技术团队、AI 创业者提供一站式调用服务。 ... 输出商务数据、市场分析报告，协同产品、运营团队迭代服务与定价策略。 ",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q02.json",
+      "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "observed_at": "2026-09-16T15:30:45.224Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q02-r4",
+      "company": "百度",
+      "title": "苏州-云和大模型大客户销售(J101155)",
+      "industry": "基础大模型与开放平台",
+      "city": "苏州市",
+      "location": "苏州市",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://jobs.ultraai.site/jobs/baidu_campus/campus%3A6481eab8-5639-4c17-a08e-33d12fca9a3c",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "苏州-云和大模型大客户销售(J101155)（校招）- 百度 | 职先机 (https://jobs.ultraai.site/jobs/baidu_campus/campus%3A6481eab8-5639-4c17-a08e-33d12fca9a3c) [wordlim: 200] Crawled: today; -参与各行业头部客户的合作拓展，通过市场调研、技术趋势、行业洞察，挖掘线索，拓展相关赛道的潜在商机，传递百度大模型及云产品技术价值 -推动决策和商机转化，客户建联、客情维护、业务洞察，在商业场景下诊断",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q02.json",
+      "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "observed_at": "2026-09-16T15:30:45.224Z",
+      "time_note": null,
+      "scope_note": "校园/实习或校招线索，保留但不作社招结论；校园/实习线索",
+      "route": "B"
+    },
+    {
+      "id": "q02-r6",
+      "company": "百度",
+      "title": "北京-云和大模型大客户销售(J100781)",
+      "industry": "基础大模型与开放平台",
+      "city": "北京市",
+      "location": "北京市",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://watchjobs.net/zh/explore/job/c262-1f25091d143dd718/%E5%8C%97%E4%BA%AC-%E4%BA%91%E5%92%8C%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%A7%E5%AE%A2%E6%88%B7%E9%94%80%E5%94%AE-J100781-%E7%99%BE%E5%BA%A6",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "北京-云和大模型大客户销售(J100781)｜百度招聘 - 北京市 (https://watchjobs.net/zh/explore/job/c262-1f25091d143dd718/%E5%8C%97%E4%BA%AC-%E4%BA%91%E5%92%8C%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%A4%A7%E5%AE%A2%E6%88%B7%E9%94%80%E5%94%AE-J100781-%E7%99%BE%E5%BA%A6) [wordlim: 200] Crawled: yest",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q02.json",
+      "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "observed_at": "2026-09-16T15:30:45.224Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q02-r7",
+      "company": "Confidential",
+      "title": "大模型API平台销售",
+      "industry": "基础大模型与开放平台",
+      "city": "北京市",
+      "location": "北京市",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://cn.linkedin.com/jobs/view/%E5%A4%A7%E6%A8%A1%E5%9E%8Bapi%E5%B9%B3%E5%8F%B0%E9%94%80%E5%94%AE-at-confidential-4418909900",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "Confidential的大模型API平台销售 — 北京市, 中国 | 领英职位 (https://cn.linkedin.com/jobs/view/%E5%A4%A7%E6%A8%A1%E5%9E%8Bapi%E5%B9%B3%E5%8F%B0%E9%94%80%E5%94%AE-at-confidential-4418909900) [wordlim: 200] Crawled: yesterday; ### 大模型API平台销售 ... 我们正在寻找一位兼具技术理解能力与商业拓展能力的大模型API平台销售，",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q02.json",
+      "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "observed_at": "2026-09-16T15:30:45.224Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B",
+      "employer_status": "employer_unresolved"
+    },
+    {
+      "id": "q02-r8",
+      "company": "北京必来屋网络科技有限公司",
+      "title": "大模型API平台销售专家",
+      "industry": "基础大模型与开放平台",
+      "city": "北京",
+      "location": "北京",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://bebee.com/cn/jobs/api--techmap_cn_84149309",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "大模型API平台销售专家 - 北京必来屋网络科技有限公司 | BeBee (https://bebee.com/cn/jobs/api--techmap_cn_84149309) [wordlim: 200] Crawled: last month; 你会做什么 - 客户开拓与转化：负责聚合 API 平台服务在国内及出海市场的推广，开拓 AI 智能体（AI Agent）开发商、独立开发者（Indie Hackers）、跨境电商、企业级 AI 应用商等目标客户； - 大客户管理（KA）：针对消耗量大的企业级客户，提供",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q02.json",
+      "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "observed_at": "2026-09-16T15:30:45.224Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q02-r9",
+      "company": "百度",
+      "title": "销售生态伙伴经理（J97804）",
+      "industry": "基础大模型与开放平台",
+      "city": "北京市",
+      "location": "北京市",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://watchjobs.net/zh/explore/job/J97804/%E9%94%80%E5%94%AE%E7%94%9F%E6%80%81%E4%BC%99%E4%BC%B4%E7%BB%8F%E7%90%86-J97804-%E7%99%BE%E5%BA%A6",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "销售生态伙伴经理（J97804）｜百度招聘 - 北京市 | WatchJobs.net | WatchJobs.net (https://watchjobs.net/zh/explore/job/J97804/%E9%94%80%E5%94%AE%E7%94%9F%E6%80%81%E4%BC%99%E4%BC%B4%E7%BB%8F%E7%90%86-J97804-%E7%99%BE%E5%BA%A6) [wordlim: 200] Crawled: 2 months ago; 作为百度智能云华北区域销售生态伙伴",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q02.json",
+      "evidence_sha256": "7a056d8321495b4487d3922b45e8608a4644dca8e5f5b9c065c11fd9201a1e02",
+      "observed_at": "2026-09-16T15:30:45.224Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q03-r1",
+      "company": "百度",
+      "title": "上海-云和大模型大客户销售(J100775)",
+      "industry": "基础大模型与开放平台",
+      "city": "上海市",
+      "location": "上海市",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://talent.baidu.com/jobs/detail/GRADUATE/2726a03c-94e5-4511-9c98-077f07ecd6c6",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "百度校园招聘 (https://talent.baidu.com/jobs/detail/GRADUATE/2726a03c-94e5-4511-9c98-077f07ecd6c6) [wordlim: 200] Crawled: today; -参与各行业头部客户的合作拓展，通过市场调研、技术趋势、行业洞察，挖掘线索，拓展相关赛道的潜在商机，传递百度大模型及云产品技术价值 -推动决策和商机转化，客户建联、客情维护、业务洞察，在商业场景下诊断客户需求，跟进和推动合作落地，为客户创造价值 -协助组织和参加市场活动和行",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "time_note": null,
+      "scope_note": "校园/实习或校招线索，保留但不作社招结论；校园/实习线索",
+      "route": "B"
+    },
+    {
+      "id": "q03-r2",
+      "company": "京东",
+      "title": "AI解决方案销售经理（零售/金融方向）",
+      "industry": "基础大模型与开放平台",
+      "city": "北京市",
+      "location": "北京市",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://zhaopin.jd.com/web/job-info-detail?requementId=219504",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "职位详情 (https://zhaopin.jd.com/web/job-info-detail?requementId=219504) [wordlim: 200] Published: 2 months ago; Crawled: yesterday; 职位类型：运营类 工作地点：北京市 所属部门： 生态拓展组 招聘人数：1 发布时间：2026-06-22 ... 基于自研的JoyAI大模型，为近6亿用户、75万商家提供7*24小时服务，涵盖客户服务、交互式营销、云联络中心等整体解决方案，涉及售前、售中、售后等",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q03-r4",
+      "company": "Z.ai",
+      "title": "MaasBD",
+      "industry": "基础大模型与开放平台",
+      "city": "中国",
+      "location": "中国",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://hireportal.us.com/cn/job/kqwf4l8q4scv/maasbd",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "MaasBD at Z.ai — HirePortal (https://hireportal.us.com/cn/job/kqwf4l8q4scv/maasbd) [wordlim: 200] Published: 5 days ago; Crawled: 4 days ago; 1、本科及以上学历，3年以上互联网行业商务拓展/解决方案/客户成功工作经验； 2、熟悉互联网行业，具有一定的行业客户资源，具备较强的市场机会洞察和客户开拓能力； 3、具备较强的沟通协调能力、抗压能力，能够与客户不同层级及内部团队进行有效",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q03-r5",
+      "company": "蚂蚁集团",
+      "title": "蚂蚁数字科技-数字科技线-业务拓展专家(央国企新能源)",
+      "industry": "基础大模型与开放平台",
+      "city": "北京市",
+      "location": "北京市",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://watchjobs.net/zh/explore/job/c493-90486cb8f4bdbcc2/%E8%9A%82%E8%9A%81%E6%95%B0%E5%AD%97%E7%A7%91%E6%8A%80-%E6%95%B0%E5%AD%97%E7%A7%91%E6%8A%80%E7%BA%BF-%E4%B8%9A%E5%8A%A1%E6%8B%93%E5%B1%95%E4%B8%93%E5%AE%B6-%E5%A4%AE%E5%9B%BD%E4%BC%81%E6%96%B0%E8%83%BD%E6%BA%90-%E8%9A%82%E8%9A%81%E9%9B%86%E5%9B%A2",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "蚂蚁数字科技-数字科技线-业务拓展专家(央国企新能源)｜蚂蚁集团招聘 - 北京市 (https://watchjobs.net/zh/explore/job/c493-90486cb8f4bdbcc2/%E8%9A%82%E8%9A%81%E6%95%B0%E5%AD%97%E7%A7%91%E6%8A%80-%E6%95%B0%E5%AD%97%E7%A7%91%E6%8A%80%E7%BA%BF-%E4%B8%9A%E5%8A%A1%E6%8B%93%E5%B1%95%E4%B8%93%E5%AE%B6-%E5",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q03-r7",
+      "company": "字节跳动",
+      "title": "Seed 大模型人才校招",
+      "industry": "基础大模型与开放平台",
+      "city": "中国",
+      "location": "中国",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://seed.bytedance.com/zh/seedearlycareer",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "Seed 大模型人才校招 (https://seed.bytedance.com/zh/seedearlycareer) [wordlim: 200] Crawled: yesterday; * 多模态预训练方法新范式 ... * 模型的个性化方案 ... R 同学在实习期间，深入研究并尝试解决了大模型推理和 RL 训练模拟环境成本高的难题，相关研究成果被国际系统顶会接收，并在豆包线上服务和 Seed 大模型后训练中广泛应用。 ... Seed 大模型人才校招是字节跳动 Seed 面向高校人才推出的招聘项目，岗位主",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "time_note": null,
+      "scope_note": "校园/实习或校招线索，保留但不作社招结论；校园/实习线索",
+      "route": "B"
+    },
+    {
+      "id": "q03-r8",
+      "company": "百度",
+      "title": "KA业务拓展二组_AI云拓展销售经理（J100586）",
+      "industry": "基础大模型与开放平台",
+      "city": "北京市",
+      "location": "北京市、上海市、深圳市",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://watchjobs.net/zh/explore/job/c262-681cbf00a7d5cd41/KA%E4%B8%9A%E5%8A%A1%E6%8B%93%E5%B1%95%E4%BA%8C%E7%BB%84_AI%E4%BA%91%E6%8B%93%E5%B1%95%E9%94%80%E5%94%AE%E7%BB%8F%E7%90%86-J100586-%E7%99%BE%E5%BA%A6",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "KA业务拓展二组_AI云拓展销售经理（J100586）｜百度招聘 - 北京市、上海市、深圳市 (https://watchjobs.net/zh/explore/job/c262-681cbf00a7d5cd41/KA%E4%B8%9A%E5%8A%A1%E6%8B%93%E5%B1%95%E4%BA%8C%E7%BB%84_AI%E4%BA%91%E6%8B%93%E5%B1%95%E9%94%80%E5%94%AE%E7%BB%8F%E7%90%86-J100586-%E7%99%BE%E5%BA%A6) [w",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q03-r9",
+      "company": "河南卿云信息技术有限公司",
+      "title": "商务 BD（大模型 Token 聚合平台）",
+      "industry": "基础大模型与开放平台",
+      "city": "郑州金水区",
+      "location": "郑州金水区",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://www.zhaopin.com/jobdetail/CCL1493735290J40855805607.htm",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "商务 BD（大模型 Token 聚合平台）招聘_河南卿云信息技术有限公司招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CCL1493735290J40855805607.htm) [wordlim: 200] Crawled: today; 拓展上游大模型厂商、算力供应商合作，优化 Token 采购渠道与成本体系。 ... 1 年及以上商务 BD、大客户销售、渠道拓展经验，有 AI、云计算、互联网、软件服务行业资源优先。 ... 河南卿云信息技术有限公司成立于2022年，",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "time_note": null,
+      "scope_note": "发布日期久或可能已过期，保留为历史索引线索",
+      "route": "B"
+    },
+    {
+      "id": "q03-r10",
+      "company": "阿里云",
+      "title": "大模型商业技术工程师（出海拓新方向）",
+      "industry": "基础大模型与开放平台",
+      "city": "北京",
+      "location": "北京",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://jobs.ultraai.site/jobs/aliyun/100015823003",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "阿里云智能-大模型商业技术工程师（出海拓新方向）-北京（社招）- 阿里云 | 职先机 (https://jobs.ultraai.site/jobs/aliyun/100015823003) [wordlim: 200] Crawled: today; 招聘中 社招 ... 理解阿里云MaaS产品及市场产品的差异化：深入理解阿里云MAAS产品的技术价值及适用场景，了解国内外市场先进模型特点及阿里云的差异化竞争优势，能够根据客户需求初步制定模型、应用及方案的匹配。 ... • 3年以上工作经验 • 有MAAS相关领域",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q03.json",
+      "evidence_sha256": "4541f512fb8ce7f7cc01c9c7edc3bf0fa3f4075c669fa7032e8a573ce7c46245",
+      "observed_at": "2026-09-16T15:31:18.642Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q05-r1",
+      "company": "青云QingCloud",
+      "title": "渠道经理",
+      "industry": "云、算力与AI基础设施",
+      "city": null,
+      "location": null,
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://www.qingcloud.com/jobs/%E6%B8%A0%E9%81%93%E7%BB%8F%E7%90%86/?origin=cifnews",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "渠道经理 | 青云QingCloud (https://www.qingcloud.com/jobs/%E6%B8%A0%E9%81%93%E7%BB%8F%E7%90%86/?origin=cifnews) [wordlim: 200] Crawled: today; 北京青云科技集团股份有限公司成立于2012年，是一家技术领先的云计算公司，作为青云QingCloud 品牌云服务的运营商，长期致力于为企业用户提供简单、高效、可靠、环保的 IT 资源。 ... #### 渠道经理 ... 1、负责区域市场的青云渠道",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "time_note": null,
+      "scope_note": "发布日期久或可能已过期，保留为历史索引线索",
+      "route": "B"
+    },
+    {
+      "id": "q05-r2",
+      "company": "曙光信息",
+      "title": "云计算渠道销售经理",
+      "industry": "云、算力与AI基础设施",
+      "city": null,
+      "location": null,
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://jobs.uhomes.com/jobs/1JBgXqkO",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "云计算渠道销售经理 — 曙光信息 | 异乡人才 (https://jobs.uhomes.com/jobs/1JBgXqkO) [wordlim: 200] Crawled: 4 months ago; # 云计算渠道销售经理 ... 来源：企业官方招聘系统 · 最近验证于 刚刚[Button: 信息有误？ ... 具备相关云软件、云服务、智慧城市相关项目销售工作经验，在北京能源、科教、企业有丰富的渠道资源者优先考虑。... # 云计算渠道销售经理 曙 曙光信息 其他 工作地点 北京 学历要求 本科及以上 发布日期",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "time_note": null,
+      "scope_note": "发布日期久或可能已过期，保留为历史索引线索",
+      "route": "B"
+    },
+    {
+      "id": "q05-r3",
+      "company": "腾讯云",
+      "title": "Senior Channel/Strategic Sales Executive - South Korea",
+      "industry": "云、算力与AI基础设施",
+      "city": "韩国",
+      "location": "韩国",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://tencent.wd1.myworkdayjobs.com/ja-JP/Tencent_Careers/job/Tencent-Cloud---Senior-Channel-Strategic-Sales-Executive---South-Korea------_R106228",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "Tencent Cloud - Senior Channel/Strategic Sales Executive - South Korea | 腾讯云-高级渠道/战略销售经理-韩国 (https://tencent.wd1.myworkdayjobs.com/ja-JP/Tencent_Careers/job/Tencent-Cloud---Senior-Channel-Strategic-Sales-Executive---South-Korea------_R106228) [wordlim: 200] Cr",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q05-r5",
+      "company": "北京紫光云技术有限公司",
+      "title": "北京渠道销售经理",
+      "industry": "云、算力与AI基础设施",
+      "city": "北京",
+      "location": "北京",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://www.zhaopin.com/jobdetail/CC891544830J40951436408.htm",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "北京渠道销售经理招聘_北京紫光云技术有限公司招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC891544830J40951436408.htm) [wordlim: 200] Crawled: 2 months ago; # 北京渠道销售经理 ... 2、精通软件业务的渠道销售体系建设，熟悉云计算、数字化产品的渠道销售工作； ... 现已建立超千人的专家队伍和研发体系，覆盖天津、重庆、成都、甘肃、烟台、沈阳、曲靖、连云港、朝阳等地，其政务云服务、智慧城市的建设和运营已在",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q05-r6",
+      "company": "光环云数据有限公司",
+      "title": "销售经理",
+      "industry": "云、算力与AI基础设施",
+      "city": "北京",
+      "location": "北京",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://www.zhaopin.com/jobdetail/CC710667080J40687195911.htm",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "销售经理招聘_光环云数据有限公司招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC710667080J40687195911.htm) [wordlim: 200] Crawled: 4 months ago; # 销售经理 ... KA大客户企业客户政府客户渠道销售区域销售代理商销售人工智能云计算通信/网络设备 ... 根据公司战略，积极开拓新市场和新客户，维护客户关系，负责向客户介绍公司产品和服务，提供解决方案。 ... 光环云作为由光环新网和西云数据所提供的亚马逊云",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q05-r7",
+      "company": "北京天弛网络有限公司",
+      "title": "销售经理（SDWAN、云计算）",
+      "industry": "云、算力与AI基础设施",
+      "city": "北京",
+      "location": "北京",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://www.zhaopin.com/jobdetail/CC556196230J41010697204.htm",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "销售经理（SDWAN、云计算）招聘_北京天弛网络有限公司招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC556196230J41010697204.htm) [wordlim: 200] Crawled: last month; # 销售经理（SDWAN、云计算） ... 3、具有较好的销售技巧及较强的服务意识，良好的沟通能力以及语言表达能力； ... • 成立于2012年5月，致力于打造国内高端的电信增值业务服务商 • 经营业务包括：国内互联网接入、国内企业VPN、D",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q05-r8",
+      "company": "神州万利科技集团有限公司",
+      "title": "阿里无影云桌面销售经理",
+      "industry": "云、算力与AI基础设施",
+      "city": "北京",
+      "location": "北京",
+      "salary_raw": "底薪 18000元/月",
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://www.zhaopin.com/jobdetail/CC890020500J40999834004.htm",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "阿里无影云桌面销售经理招聘_神州万利科技集团有限公司招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC890020500J40999834004.htm) [wordlim: 200] Crawled: today; # 阿里无影云桌面销售经理 ... 通过构建高质量的渠道生态或直接服务头部客户，推动无影云电脑在企业办公、教育、医疗等场景的落地，完成销售业绩目标，提升阿里云在桌面云（DaaS）市场的占有率。 ... - 有成熟的渠道资源或大客户销售经验（如服务过世界500",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q05.json",
+      "evidence_sha256": "bb459caf83cc33ddf8d272f4230d515fa7ad827dec9028c1861c28bbe6bb5b83",
+      "observed_at": "2026-09-16T15:32:30.675Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q06-r1",
+      "company": "阿里巴巴",
+      "title": "千问办公-商业策略运营",
+      "industry": "云、算力与AI基础设施",
+      "city": "杭州",
+      "location": "杭州",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://watchjobs.net/zh/explore/job/c256-100024660003/%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC-%E5%95%86%E4%B8%9A%E7%AD%96%E7%95%A5%E8%BF%90%E8%90%A5-%E6%9D%AD%E5%B7%9E-%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "千问办公-商业策略运营-杭州｜阿里巴巴招聘 - 杭州市 (https://watchjobs.net/zh/explore/job/c256-100024660003/%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC-%E5%95%86%E4%B8%9A%E7%AD%96%E7%95%A5%E8%BF%90%E8%90%A5-%E6%9D%AD%E5%B7%9E-%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4) [wordlim: 200] Crawled: yes",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q06.json",
+      "evidence_sha256": "a42e1ad69a9606b2a21c443d76386b647c903e89a697c4e34e6368d94c8d6f67",
+      "observed_at": "2026-09-16T15:33:04.062Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q06-r2",
+      "company": "阿里云",
+      "title": "销售运营",
+      "industry": "云、算力与AI基础设施",
+      "city": "深圳南山区",
+      "location": "深圳南山区",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://www.zhaopin.com/jobdetail/CC419229620J40880590013.htm",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "销售运营招聘_阿里云招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC419229620J40880590013.htm) [wordlim: 200] Crawled: 5 days ago; toB沟通表达能力项目管理能力数据分析能力制定销售目标销售支持/运营经验业务数据监控及分析互联网/科技云计算 ... 职位要求 • 5年以上To B/G销售和销售运营相关工作经验有中小企业客户运营管理经验者优先； • 特定专业版块需有2年以上行业经验 • IT、软件或科技公司相关",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q06.json",
+      "evidence_sha256": "a42e1ad69a9606b2a21c443d76386b647c903e89a697c4e34e6368d94c8d6f67",
+      "observed_at": "2026-09-16T15:33:04.062Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q06-r3",
+      "company": "腾讯云",
+      "title": "渠道增长商务经理",
+      "industry": "云、算力与AI基础设施",
+      "city": "中国香港",
+      "location": "中国香港",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://jobs.ultraai.site/jobs/tencent/2048750345412308992",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "腾讯云国际-渠道增长商务经理（社招）- CSIG | 职先机 (https://jobs.ultraai.site/jobs/tencent/2048750345412308992) [wordlim: 200] Crawled: today; 招聘中 社招 ... 协同团队维护优质渠道生态，搭建常态化沟通机制，主导重点伙伴经营分析、季度复盘（QBR），针对AI产品渠道渗透、转化短板优化合作模式与运营策略 ... 本科及以上学历，5年以上国际云计算、ICT国际市场拓展经验，含2年以上AI大模型、生成式AI相关渠道开",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q06.json",
+      "evidence_sha256": "a42e1ad69a9606b2a21c443d76386b647c903e89a697c4e34e6368d94c8d6f67",
+      "observed_at": "2026-09-16T15:33:04.062Z",
+      "time_note": null,
+      "scope_note": "发布日期久或可能已过期，保留为历史索引线索",
+      "route": "B"
+    },
+    {
+      "id": "q06-r4",
+      "company": "阿里云",
+      "title": "公共云-销售运营（Maas方向）",
+      "industry": "云、算力与AI基础设施",
+      "city": "深圳",
+      "location": "深圳",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://jobs.ultraai.site/jobs/aliyun/100014163002",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "阿里云智能-公共云-销售运营（Maas方向）-深圳（社招）- 阿里云 | 职先机 (https://jobs.ultraai.site/jobs/aliyun/100014163002) [wordlim: 200] Crawled: yesterday; 招聘中 社招# 阿里云智能-公共云-销售运营（Maas方向）-深圳 ... 全链路过程管理 • 销售预测：通过数据分析，项目管理，日常review等关键运营动作，确保销售预测准确率； • 管理制度落地：与财务BP、销售运营部、CB团队紧密协同运营并推进经营责任制",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q06.json",
+      "evidence_sha256": "a42e1ad69a9606b2a21c443d76386b647c903e89a697c4e34e6368d94c8d6f67",
+      "observed_at": "2026-09-16T15:33:04.062Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q06-r5",
+      "company": "Aliyun",
+      "title": "算力资源运营高级专家-MaaS业务部",
+      "industry": "云、算力与AI基础设施",
+      "city": "杭州",
+      "location": "杭州",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://www.jdwatch.work/jobs/jokgst6fl",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "阿里云智能-算力资源运营高级专家-MaaS业务部-杭州 · Aliyun | JDWatch (https://www.jdwatch.work/jobs/jokgst6fl) [wordlim: 200] Published: 2 weeks ago; Crawled: today; （1）岗位定位 负责 MaaS 算力资源的全链路运营与经营管理，连接销售需求、AI 工程、算力供给与客户交付，是兼具技术理解、经营分析、资源规划和组织推动能力的综合型岗位。 ... 业务洞察：具备云计算或互联网资源运营经验，理解 M",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q06.json",
+      "evidence_sha256": "a42e1ad69a9606b2a21c443d76386b647c903e89a697c4e34e6368d94c8d6f67",
+      "observed_at": "2026-09-16T15:33:04.062Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q06-r6",
+      "company": "北京天弛网络有限公司",
+      "title": "大客户销售经理-云计算方向",
+      "industry": "云、算力与AI基础设施",
+      "city": "北京",
+      "location": "北京",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://www.zhaopin.com/jobdetail/CC556196230J40550315304.htm",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "大客户销售经理-云计算方向招聘_北京天弛网络有限公司招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC556196230J40550315304.htm) [wordlim: 200] Crawled: 4 months ago; 华为云腾讯云阿里云面销/陌拜渠道销售区域销售企业服务云计算计算机软件 ... 1、能够独立开发和跟进客户，及时掌握竞争对手及客户的动态变化，对客户信息进行有效的收集和分析直到签约，有电商、互联网、游戏、娱乐、制造业等相关行业出海的客户资源优先考",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q06.json",
+      "evidence_sha256": "a42e1ad69a9606b2a21c443d76386b647c903e89a697c4e34e6368d94c8d6f67",
+      "observed_at": "2026-09-16T15:33:04.062Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    },
+    {
+      "id": "q06-r7",
+      "company": "东华软件",
+      "title": "区域销售总监",
+      "industry": "云、算力与AI基础设施",
+      "city": "北京",
+      "location": "北京",
+      "salary_raw": null,
+      "job_url": null,
+      "apply_url": null,
+      "source_url": "https://www.zhaopin.com/jobdetail/CC193399810J40854003107.htm",
+      "channel": "搜索索引",
+      "source_kind": "search_index",
+      "description": "区域销售总监招聘_东华软件招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC193399810J40854003107.htm) [wordlim: 200] Crawled: 3 months ago; 渠道销售面销/陌拜华北大区北京KA大客户企业客户政府客户信息系统集成项目云计算物联网人工智能 ... • 需求挖掘与方案协同：对接客户决策层及相关负责人，深度挖掘客户在AI赋能、超算算力、大数据分析、物联网部署、系统升级集成等方面的核心需求，协同公司售前、技术团队，输出",
+      "requirements": null,
+      "description_complete": false,
+      "evidence_file": "raw/q06.json",
+      "evidence_sha256": "a42e1ad69a9606b2a21c443d76386b647c903e89a697c4e34e6368d94c8d6f67",
+      "observed_at": "2026-09-16T15:33:04.062Z",
+      "time_note": null,
+      "scope_note": null,
+      "route": "B"
+    }
+  ],
+  "followups": [
+    {
+      "company": "百度",
+      "url": "https://talent.baidu.com/jobs/detail/GRADUATE/2726a03c-94e5-4511-9c98-077f07ecd6c6",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "河南卿云信息技术有限公司",
+      "url": "https://www.zhaopin.com/jobdetail/CCL1493735290J40855805607.htm",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "Confidential",
+      "url": "https://cn.linkedin.com/jobs/view/%E5%A4%A7%E6%A8%A1%E5%9E%8Bapi%E5%B9%B3%E5%8F%B0%E9%94%80%E5%94%AE-at-confidential-4418909900",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "北京必来屋网络科技有限公司",
+      "url": "https://bebee.com/cn/jobs/api--techmap_cn_84149309",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "京东",
+      "url": "https://zhaopin.jd.com/web/job-info-detail?requementId=219504",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "Z.ai",
+      "url": "https://hireportal.us.com/cn/job/kqwf4l8q4scv/maasbd",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "蚂蚁集团",
+      "url": "https://watchjobs.net/zh/explore/job/c493-90486cb8f4bdbcc2/%E8%9A%82%E8%9A%81%E6%95%B0%E5%AD%97%E7%A7%91%E6%8A%80-%E6%95%B0%E5%AD%97%E7%A7%91%E6%8A%80%E7%BA%BF-%E4%B8%9A%E5%8A%A1%E6%8B%93%E5%B1%95%E4%B8%93%E5%AE%B6-%E5%A4%AE%E5%9B%BD%E4%BC%81%E6%96%B0%E8%83%BD%E6%BA%90-%E8%9A%82%E8%9A%81%E9%9B%86%E5%9B%A2",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "字节跳动",
+      "url": "https://seed.bytedance.com/zh/seedearlycareer",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "阿里云",
+      "url": "https://jobs.ultraai.site/jobs/aliyun/100015823003",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "青云QingCloud",
+      "url": "https://www.qingcloud.com/jobs/%E6%B8%A0%E9%81%93%E7%BB%8F%E7%90%86/?origin=cifnews",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "曙光信息",
+      "url": "https://jobs.uhomes.com/jobs/1JBgXqkO",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "腾讯云",
+      "url": "https://tencent.wd1.myworkdayjobs.com/ja-JP/Tencent_Careers/job/Tencent-Cloud---Senior-Channel-Strategic-Sales-Executive---South-Korea------_R106228",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京紫光云技术有限公司",
+      "url": "https://www.zhaopin.com/jobdetail/CC891544830J40951436408.htm",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "光环云数据有限公司",
+      "url": "https://www.zhaopin.com/jobdetail/CC710667080J40687195911.htm",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京天弛网络有限公司",
+      "url": "https://www.zhaopin.com/jobdetail/CC556196230J41010697204.htm",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "神州万利科技集团有限公司",
+      "url": "https://www.zhaopin.com/jobdetail/CC890020500J40999834004.htm",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "阿里巴巴",
+      "url": "https://watchjobs.net/zh/explore/job/c256-100024660003/%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC-%E5%95%86%E4%B8%9A%E7%AD%96%E7%95%A5%E8%BF%90%E8%90%A5-%E6%9D%AD%E5%B7%9E-%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "Aliyun",
+      "url": "https://www.jdwatch.work/jobs/jokgst6fl",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "东华软件",
+      "url": "https://www.zhaopin.com/jobdetail/CC193399810J40854003107.htm",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "小米",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "小米科技有限责任公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "浙江凌艾未来科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "杭州嘻算智能科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "热河大模型承德市智慧旅游发展有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "本安大模型杭州涵霖盛田科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "良刻杭州优美刻印刷科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "众森卫士大模型杭州众森卫士科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "灵山大模型成都新飞翔网络信息咨询有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "老挝语基础大模型广西东信智算科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "上海乐语新生科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "森索智策营销助手上海加邑市场营销策划有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "萌芽上海宇舟启晓人工智能科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "规划师上海优学信息科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "信息科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "小葡萄上海觅码寻韵科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "上海粒之科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "搭子上海辰龙信息科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "上海匡慧网络科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "上海声网科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "智能面试系统上海毕至智能科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "法律分析上海柯数网络科技有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "系统上海法义经纬信息技术有限公司",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "鼓管佳南京鼓楼医院",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "江苏省人民医院",
+      "url": "https://opckits.com/models",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "中国科学技术大学",
+      "url": "https://github.com/wgwang/awesome-LLMs-In-China",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "用友",
+      "url": "https://openi.cn/sites/117422.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "浪潮",
+      "url": "https://www.chineseaitools.com/zh/articles/chinese-model-vendor-product-matrix-2026",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "百度",
+      "url": "https://www.cdp.edu.cn/__local/5/81/2B/7F7953CB3B4D7D429046BE7A8DC_C607849E_2C7062.pdf",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "智源研究院",
+      "url": "https://www.cdp.edu.cn/__local/5/81/2B/7F7953CB3B4D7D429046BE7A8DC_C607849E_2C7062.pdf",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "中国电气装备集团科学技术研究院有限公司",
+      "url": "https://www.shanghai.gov.cn/cmsres/9f/9fc0741232a442da9aafc0215a027323/76b56c471766da8e09aa2f0312ccbbb0.pdf",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "出门问问",
+      "url": "https://hulianhutongshequ.cn/upload/tank/report/2024/202401/1/6774adde991a42eca9b3cd9281d0ee96.pdf",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "百度",
+      "url": "https://hulianhutongshequ.cn/upload/tank/report/2024/202401/1/6774adde991a42eca9b3cd9281d0ee96.pdf",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "浪潮",
+      "url": "https://hulianhutongshequ.cn/upload/tank/report/2024/202401/1/6774adde991a42eca9b3cd9281d0ee96.pdf",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "蚂蚁集团",
+      "url": "https://hulianhutongshequ.cn/upload/tank/report/2024/202401/1/6774adde991a42eca9b3cd9281d0ee96.pdf",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "中国农业银行",
+      "url": "https://hulianhutongshequ.cn/upload/tank/report/2024/202401/1/6774adde991a42eca9b3cd9281d0ee96.pdf",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "百度",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BA%A7%E4%B8%9A",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "深度求索",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E6%B1%82%E7%B4%A2",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "全称杭州深度求索人工智能基础技术研究有限公司",
+      "url": "https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E6%B1%82%E7%B4%A2",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "明略科技",
+      "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E7%95%A5%E7%A7%91%E6%8A%80",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "全稱上海稀宇科技有限公司",
+      "url": "https://zh.wikipedia.org/wiki/MiniMax",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "美团",
+      "url": "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%B0%B1",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "小米",
+      "url": "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%B0%B1",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "北京智谱华章科技有限公司",
+      "url": "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%B0%B1",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "百度",
+      "url": "https://www.reddit.com/r/4832/comments/1ir9px5",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "基础大模型与开放平台"
+    },
+    {
+      "company": "京东",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "万国数据服务有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "上海有孚云计算有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "上海武桐树高新技术有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "上海润六尺科技有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "中国电信股份公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "中国移动通信集团四川有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "中国联合网络通信有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "优刻得科技股份有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京世纪互联宽带数据中心有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京摩笔生成科技有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "四川冠安智云数字技术有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "天津智算数字产业发展有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "天翼云科技有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "张家口中明科技有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "科华数据股份有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "京东科技信息技术有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "软件技术有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "联通数字科技有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "重庆中科云从科技有限公司",
+      "url": "https://www.stateioc.cn/",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "天翼云科技有限公司",
+      "url": "https://www.stateioc.cn/service/interflow",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "中国移动通信集团有限公司",
+      "url": "https://www.stateioc.cn/service/interflow",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "联通数字科技有限公司",
+      "url": "https://www.stateioc.cn/service/interflow",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "京东",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京华为云计算技术有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "中国联合网络通信有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "超云数字技术集团有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "中联云港数据科技股份有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "新华三技术有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京优刻得科技有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京并行科技股份有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京亦庄数字基础设施发展有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "中科寒武纪科技股份有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京天数智芯半导体科技有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京蓝耘科技股份有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "科技有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京东方国信科技股份有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京浩信迅云科技有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "润泽科技发展有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "中金数据集团有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京光环新网科技股份有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京城建智控科技股份有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "北京九章云极科技有限公司",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "企商在线集团",
+      "url": "https://jxj.beijing.gov.cn/ztzl/ywzt/hbjh/jrhbjh/zsl/slhb/index_1.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "用友",
+      "url": "https://imgs-b2b.100ec.cn/detail--6659842.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "浪潮",
+      "url": "https://imgs-b2b.100ec.cn/detail--6659842.html",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "百度",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-05-21/1220107346.PDF",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "全稱阿里雲計算有限公司",
+      "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E9%87%8C%E9%9B%B2",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "京东",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%AC%E4%B8%9C%E4%BA%91",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "京东云",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%AC%E4%B8%9C%E4%BA%91",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "是京东集团",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%AC%E4%B8%9C%E4%BA%91",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    },
+    {
+      "company": "清华大学",
+      "url": "https://zh.wikipedia.org/wiki/AIPerf500",
+      "reason": "公司发现/岗位雇主待核，后续核验官网招聘入口与法律主体",
+      "industry": "云、算力与AI基础设施"
+    }
+  ]
+}

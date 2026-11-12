@@ -1,0 +1,8 @@
+{
+  "status": "not_executed_queue_timeout",
+  "error": "COLLECTION_QUEUE_TIMEOUT",
+  "actual_web_calls": 0,
+  "existing_lease_preserved": true,
+  "forced_unlock": false,
+  "note": "共享采集队列由其他进程持有；本次未绕过队列、未访问外部页面。计划来源未核验，不作当前渠道有效性证明。"
+}

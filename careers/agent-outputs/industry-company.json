@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "role_id": "industry_company_researcher",
+  "execution": {
+    "agent_id": null,
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "medium"
+  },
+  "completed_at": "2026-09-10T15:33:16.683Z",
+  "status": "complete",
+  "scope": "本轮基于本地政策原文、公司官网文本和公开招聘索引的有限产业与公司研究摘要；官网公司与公开线索分开，非完整周报、非新增完整JD、非个人匹配或审批。",
+  "summary": "国务院“人工智能+”政策提供了应用、模型服务和应用服务链的方向性信号；由此只能形成企业AI应用、模型平台商业化和销售运营的待验证商业需求假设。官网证据显示MiniMax覆盖多模态模型、AI原生产品及企业和开发者开放平台，百炼聚焦B2B智能获客、商业情报、招投标和线下渠道营销。百度、 美团、360集团、探迹科技等仅有公开招聘索引线索，适合继续核验销售运营、模型商务销售、智能体渠道和B2B AI软件销售方向，不代表当前在招、固定底薪达标或公司市场排名。",
+  "findings": [
+    {
+      "title": "国家“人工智能+”政策到商业需求假设",
+      "conclusion": "推论：政策把智能体应用、模型服务、数据服务和应用服务链列为发展方向，因此可提出企业AI应用落地、模型平台商业化、场景型销售和销售运营可能存在需求的研究假设；政策本身不等于订单、客户预算、岗位收入或稳定就业。",
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/research/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac.txt",
+          "quote": "到2027年，率先实现人工智能与6大重点领域广泛深度融合，新一代智能终端、智能体等应用普及率超70%，智能经济核心产业规模快速增长，人工智能在公共治理中的作用明显增强，人工智能开放合作体系不断完善。"
+        },
+        {
+          "path": "01_行情收集/official-careers/research/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac.txt",
+          "quote": "培育人工智能应用服务商，发展“模型即服务”、“智能体即服务”等，打造人工智能应用服务链。"
+        }
+      ],
+      "risk": "政策文件是方向性与建设性证据，不证明任何候选公司已获得订单，也不证明岗位招聘或收入稳定；本轮政策原文是历史基线，不是本周政策全量扫描。",
+      "next_action": "继续核验企业预算、采购/付费、续约、交付案例和对应岗位职责，优先观察模型服务、智能体、企业获客和招投标场景。"
+    },
+    {
+      "title": "官网公司发现：MiniMax",
+      "conclusion": "官网证据显示MiniMax同时具备多模态通用大模型、AI原生产品和面向企业与开发者的开放平台；推论：可继续研究其模型平台商业化、技术销售、KA销售和销售运营链路，但不能据官网自述确认头腰部排名或岗位完整性。",
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/research/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home.txt",
+          "quote": "MiniMax 自主研发了一系列多模态通用大模型，具备强大的代码和 Agent 能力，以及超长上下文处理能力，能够理解、生成并整合包括文本、音频、图像、视频和音乐在内的多种模态。基于这些自研模型，我们面向全球推出一系列 AI 原生产品，包括 MiniMax Code、MiniMax Design、MiniMax Audio、星野等，以及面向企业和开发者的开放平台，共同为全球用户提供极致的智能体验。"
+        }
+      ],
+      "risk": "这是官网自述的业务与产品证据，不是独立市场排名、收入、订单或客户续约证据；公开岗位资料与官网招聘入口的完整归属仍需逐条核验。",
+      "next_action": "优先复用 careers/agent-outputs/job-scout.json 中已有的7条MiniMax完整历史JD，先沿用其岗位职责证据，仅补当前是否在招与薪资核验；职责归属仍保持未知，不据历史JD推断当前岗位归属或现行招聘状态。"
+    },
+    {
+      "title": "官网公司发现：百炼智能",
+      "conclusion": "官网证据显示百炼围绕B2B智能获客、商业情报、招投标、线下渠道营销和AI Agent形成较完整的场景化产品组合；推论：适合继续研究B2B销售、渠道/市场拓展、客户成功、解决方案和销售运营岗位，但不能把官网客户数量或荣誉表述直接等同于独立市场排名。",
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about.txt",
+          "quote": "百炼智能成立于2018年5月4日，是B2B智能获客的先行者。公司以“用AI，让B2B获客更简单！”为使命，为企业及每一位追求获客业绩的业务人员，提供数据驱动、深耕场景的智能获客应用及解决方案，帮助其高效、精准地开拓并转化潜在企业客户，提升从市场洞察、线索开发、商机预测、参与竞标到赢单的效率。"
+        },
+        {
+          "path": "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home.txt",
+          "quote": "市场洞察线索开发商机预测参与竞标赢单商机大师AgentAI找项目、给建议、盯商机AI对话式商机检索智能匹配精准商机科学投标决策分析"
+        }
+      ],
+      "risk": "官网文本属于公司自述；“先行者”、客户数量、奖项和机构投资信息未在本轮与独立可比数据交叉验证，不能据此确认头腰部层级。",
+      "next_action": "继续核验官网招聘归属及岗位原文，重点看B2B销售、渠道拓展、客户成功/交付、解决方案顾问和销售运营的职责边界、客户决策链与业绩口径。"
+    },
+    {
+      "title": "公开招聘线索：百度、美团、360集团、探迹科技",
+      "conclusion": "公开索引提供了可继续研究的市场销售运营岗位方向：百度的云和大模型销售运营、美团的大模型商务销售与业务运营、360集团的AI产品销售和智能体生态渠道、探迹科技的B2B AI软件销售主管/经理。推论：市场需求可能集中在销售流程/线索/商机运营、模型商务拓展、智能体生态渠道和B2B场景销售；这些均为搜索索引线索，不是完整JD或已确认录用需求。",
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/research/headhunter-search-02.json",
+          "quote": "销售运营-云和大模型业务泛互联网方向 15-25k·16薪 ...     工作职责 -负责云和大模型业务泛互联网方向的销售流程与运营体系搭建"
+        },
+        {
+          "path": "01_行情收集/official-careers/research/headhunter-search-02.json",
+          "quote": "大模型商务销售专家 〖 北京 〗 25-40k·15薪 3-5年 本科 0-1 美团 生活服务,互联网,生活服务O2O 已上市 10000人以上 ...   * 大模型业务运营 〖 上海-长白新村 〗 25-35k·15薪 3-5年 本科 大模型 美团 生活服务,互联网,生活服务O2O 已上市 10000人以上"
+        },
+        {
+          "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+          "quote": "AI产品销售 25-30k 北京-朝阳区 3年以上 本科 2026-08-27 AI创新产品管理岗位 80-110k·15薪 北京 5年以上 本科 2026-08-26 GEO广告销售 13-25k 北京-朝阳区 3-5年 统招本科 2026-08-26 高级产品技术管理岗 45-70k·15薪 北京 8年以上 统招本科 2026-08-26 生态渠道经理-办公智能体/纳米work 20-30k·"
+        },
+        {
+          "path": "01_行情收集/official-careers/research/headhunter-search-03.json",
+          "quote": "B2B销售主管/经理（AI人工智能软件） 20-45k 探迹科技 C轮融资 佛山-同济路 5年以上 大专"
+        }
+      ],
+      "risk": "market-leads.json明确这些证据状态为search_index_only；猎聘详情触发验证码，本轮没有继续访问。薪资区间不等于固定底薪，不能判定固定月薪20K达标；岗位当前有效性、完整职责、管理权限和公司层级均待核验。",
+      "next_action": "按公司分别回到官网招聘页或可合法访问的正式职位页核验：岗位是否仍在招、职责与汇报关系、固定薪资构成、客户类型、业绩口径和销售/运营协作边界；不补写缺失JD。"
+    }
+  ],
+  "questions": [],
+  "input_files": [
+    "careers/config/funnel-sample.json",
+    "01_行情收集/official-careers/research/state.json",
+    "careers/config/market-leads.json",
+    "01_行情收集/official-careers/research/research-79bdf6dc-8c81-484e-ab7e-8419e3847c77-policy-ai-plus-cac.txt",
+    "01_行情收集/official-careers/research/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home.txt",
+    "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home.txt",
+    "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about.txt",
+    "01_行情收集/official-careers/research/headhunter-search-02.json",
+    "01_行情收集/official-careers/research/headhunter-search-03.json",
+    "01_行情收集/official-careers/research/policy-search-2026-09-10.json"
+  ],
+  "not_covered": [
+    "政策全量周报或本周政策新增扫描",
+    "公司头腰部排名、市场份额、收入、订单、客户续约和薪酬稳定性",
+    "公开索引岗位的完整JD、当前有效性、固定底薪和管理权限",
+    "个人经历匹配、简历改写、岗位审批、投递或外发"
+  ]
+}

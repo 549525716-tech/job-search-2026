@@ -1,0 +1,21 @@
+id,collectedAt,segment,rolePosition,company,title,city,bossSalaryRaw,readableSalary,salaryLowK,salaryHighK,salarySource,salaryVisibility,url
+0385e16ff18b,2026-06-29T17:10:20.191Z,云计算/大模型平台,销售/商务,阿里云,销售(公共云Maas方向）,广州,-K·薪,,,,,BOSS字体混淆,https://www.zhipin.com/job_detail/847c0a3494fbb9430nB42tW4F1tY.html
+d9e1db3ccf3c,2026-06-29T17:14:09.844Z,云计算/大模型平台,销售管理,科大讯飞,教育销售经理-广州,广州,-K,10-15K,10,15,detail_salary_range,可读,https://www.zhipin.com/job_detail/31ab2b83243a70a30ndy3d20FlZQ.html
+6f5060787c54,2026-06-29T17:14:11.505Z,云计算/大模型平台,大客户/行业销售,科大讯飞,科大讯飞-大客户销售/行销-广东,广州,-K·薪,,,,,BOSS字体混淆,https://www.zhipin.com/job_detail/4f740e4bb21c713c0nF73d20E1ZV.html
+5c8da4034637,2026-06-29T17:14:12.716Z,云计算/大模型平台,销售管理,科大讯飞,海外广告销售（可base上海、广州、深圳）,广州,-K,17-30K,17,30,detail_salary_range,可读,https://www.zhipin.com/job_detail/40d7b705bf2494350nV52t2-FVpV.html
+57a7bfc4c981,2026-06-30T17:19:15.459Z,未映射,销售/商务,OpenAI,OpenAI AI Sales Engineer,San Francisco,$185K to $285K,,,,,非标准格式,https://aisepulse.com/companies/openai/
+5c1a4fc74710,2026-06-30T17:19:37.906Z,未映射,销售/商务,Anthropic,Anthropic AI Sales Engineer,San Francisco,$180K to $270K,,,,,非标准格式,https://aisepulse.com/companies/anthropic/
+b5c6e6335a9b,2026-06-30T17:19:55.648Z,未映射,销售/商务,Databricks,Databricks AI Sales Engineer,San Francisco,$170K to $260K,,,,,非标准格式,https://aisepulse.com/companies/databricks/
+f1c77268c77e,2026-06-30T17:20:12.742Z,未映射,销售/商务,Salesforce,Salesforce AI Sales Engineer,San Francisco / Multiple,$160K to $240K,,,,,非标准格式,https://aisepulse.com/companies/salesforce/
+c8b2a7cef118,2026-06-30T17:25:44.056Z,未映射,销售/商务,Google,Google AI Sales Engineer,Multiple Locations,$175K to $280K,,,,,非标准格式,https://aisepulse.com/companies/google/
+046174fad26c,2026-06-30T17:26:03.217Z,未映射,售前/解决方案,Microsoft,Microsoft AI Sales Engineer,Multiple Locations,$165K to $260K,,,,,非标准格式,https://aisepulse.com/companies/microsoft/
+66d85e67f22f,2026-06-30T17:26:26.131Z,未映射,销售/商务,AWS,AWS AI Sales Engineer,Seattle / Multiple,$160K to $245K,,,,,非标准格式,https://aisepulse.com/companies/aws/
+b6cf8021f339,2026-06-30T17:26:51.626Z,未映射,销售/商务,Snowflake,Snowflake AI Sales Engineer,San Mateo,$165K to $250K,,,,,非标准格式,https://aisepulse.com/companies/snowflake/
+973fe6638539,2026-06-30T17:29:49.378Z,未映射,销售/商务,Oracle,Oracle AI Sales Engineer,Austin / Multiple,$155K to $235K,,,,,非标准格式,https://aisepulse.com/companies/oracle/
+e29ad000e6ba,2026-06-30T17:30:14.368Z,未映射,销售/商务,Palantir,Palantir AI Sales Engineer,Denver / Multiple,$165K to $255K,,,,,非标准格式,https://aisepulse.com/companies/palantir/
+a28ff67bb556,2026-06-30T17:30:38.119Z,未映射,销售/商务,Scale AI,Scale AI AI Sales Engineer,Remote,$160K to $250K,,,,,非标准格式,https://aisepulse.com/companies/scale-ai/
+a784c74bf04e,2026-06-30T17:31:02.534Z,未映射,销售/商务,C3.ai,C3.ai AI Sales Engineer,Redwood City,$155K to $230K,,,,,非标准格式,https://aisepulse.com/companies/c3ai/
+349d4e1198eb,2026-06-30T17:33:22.550Z,未映射,销售/商务,Jasper,Jasper AI Sales Engineer,Remote,$145K to $220K,,,,,非标准格式,https://aisepulse.com/companies/jasper/
+2e94ce4f8937,2026-06-30T17:33:46.260Z,未映射,销售/商务,Abnormal AI,Abnormal AI AI Sales Engineer,San Francisco,$124K to $250K,,,,,非标准格式,https://aisepulse.com/companies/abnormal-ai/
+a3b7258564ab,2026-06-30T17:34:05.276Z,未映射,销售/商务,Superhuman,Superhuman AI Sales Engineer,Remote,$150K to $230K,,,,,非标准格式,https://aisepulse.com/companies/superhuman/
+b21f45f985b9,2026-06-30T17:34:30.102Z,未映射,销售/商务,Lockheed Martin,Lockheed Martin AI Sales Engineer,Multiple Locations,$140K to $210K,,,,,非标准格式,https://aisepulse.com/companies/lockheed-martin/

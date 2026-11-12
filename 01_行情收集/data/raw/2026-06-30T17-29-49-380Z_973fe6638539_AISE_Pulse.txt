@@ -1,0 +1,30 @@
+Oracle AI Sales Engineer
+Company: Oracle
+Category: Data & Infrastructure
+OTE: $155K to $235K
+Work model: Hybrid (Austin / Multiple)
+Estimated SE team size: 80 to 120 SEs (AI focused)
+
+Company positioning
+Oracle has made a significant push into AI through Oracle Cloud Infrastructure (OCI), positioning itself as the high-performance, cost-effective alternative to AWS and Azure for AI workloads. The company's AI strategy leverages its database heritage, offering embedded AI features in Oracle Database 23ai, OCI Generative AI services, and AI-powered enhancements across the Fusion Cloud Applications suite (ERP, HCM, SCM). Oracle's recent partnerships with NVIDIA for GPU clusters and its growing hyperscale cloud business have revitalized interest in the platform for AI workloads.
+
+AI products and platform
+Oracle's AI portfolio includes OCI Generative AI (managed access to Cohere, Meta Llama, and other models), OCI Data Science (managed Jupyter notebooks and ML pipelines), Oracle Database 23ai (with native vector search and AI capabilities), OCI AI Services (language, vision, speech, document understanding), and embedded AI features across Fusion Cloud Applications. The OCI GPU infrastructure play is growing, with Oracle winning large training cluster deals due to competitive pricing and RDMA networking performance.
+
+Role details
+AI Sales Engineers at Oracle work across OCI AI services, Oracle Database 23ai, and AI-powered Fusion Applications. The role involves helping enterprise customers evaluate OCI for AI training and inference workloads, demoing Oracle Database 23ai vector search capabilities for RAG use cases, and positioning embedded AI features within Fusion Cloud applications. You would present OCI GPU cluster benchmarks, walk through OCI Data Science notebooks for custom model development, demo the Generative AI Service for text generation and summarization, and help database administrators understand how AI vectors integrate with their existing Oracle infrastructure. The role requires comfort selling both infrastructure (GPU compute, networking) and application-layer AI (embedded intelligence in ERP, HCM). Customers often have decades of Oracle investment, so the conversation starts from an established relationship.
+
+Technical skills and requirements
+- Experience with Oracle Database and/or Oracle Cloud Infrastructure
+- SQL expertise and understanding of database architecture
+- Python skills for ML pipeline development
+- Familiarity with GPU computing and AI infrastructure concepts
+- Ability to position OCI competitively against AWS, Azure, and GCP
+
+Interview process
+Oracle interviews for AI SE roles take three to five weeks. The process includes a recruiter screen, hiring manager conversation, a technical demonstration where you present a solution on OCI, and a panel interview with cross-functional stakeholders. Oracle values candidates who understand the enterprise database market and can connect AI capabilities back to existing Oracle infrastructure investments. The demo exercise should showcase how AI features integrate with core Oracle products rather than treating OCI AI as a standalone service. Competitive knowledge against AWS and Azure is assessed in every technical interview.
+
+Salary and compensation
+OTE for Oracle AI SEs ranges from $155,000 to $235,000, with base salaries between $115,000 and $155,000. Oracle stock (ORCL) has performed well in recent years, and RSU grants provide meaningful compensation upside. The company also offers stock purchase plan discounts and annual equity refreshers. Total compensation for senior SEs can exceed $300,000 including stock appreciation. Benefits include health insurance, 401(k), education reimbursement, and Oracle Cloud credits for personal development.
+
+Source URL: https://aisepulse.com/companies/oracle/

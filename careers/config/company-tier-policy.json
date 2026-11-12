@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "version": "2026-09-16-deferred-v3",
+  "contract": "careers/docs/industry-tiers-and-sources.md",
+  "basis": "position_in_defined_segment_not_organization_size",
+  "classification_unit": [
+    "employer_entity_id",
+    "business_line_id",
+    "segment_id",
+    "geographic_market",
+    "as_of_period"
+  ],
+  "display_hierarchy": [
+    "industry",
+    "segment",
+    "company_and_business_line",
+    "job"
+  ],
+  "tiers": [
+    {
+      "id": "leader",
+      "label": "行业大厂",
+      "meaning": "有同口径领先梯队及商业证据支持的头部企业",
+      "numeric_path": "independent_leading_cohort_plus_commercial_evidence_rank_is_signal_only",
+      "qualitative_path": "independent_leading_cohort_comparison_plus_commercial_evidence"
+    },
+    {
+      "id": "established",
+      "label": "行业中厂",
+      "meaning": "有同口径腰部或成熟挑战者定位，并有持续商业交付证据",
+      "requires": [
+        "comparative_mid_cohort_evidence",
+        "repeatable_paid_delivery_evidence"
+      ]
+    },
+    {
+      "id": "emerging",
+      "label": "行业小厂",
+      "meaning": "有正面证据说明仍处早期商业化或有限覆盖的新兴参与者，不等于低质量",
+      "requires": [
+        "comparative_early_or_limited_footprint_evidence",
+        "current_business_stage_evidence"
+      ]
+    },
+    {
+      "id": "unverified",
+      "label": "地位待核",
+      "meaning": "可比口径、证据、时效不足或冲突未解",
+      "default": true
+    }
+  ],
+  "assessment_statuses": [
+    "pending",
+    "supported",
+    "conflicted",
+    "review_due",
+    "superseded"
+  ],
+  "evidence": {
+    "minimum_independent_origin_publishers_for_supported_tier": 2,
+    "requires_external_comparative_evidence": true,
+    "requires_business_evidence": true,
+    "reposts_count_as_independent": false,
+    "company_claim_alone_sufficient": false,
+    "fields": [
+      "source_url",
+      "publisher",
+      "original_publisher",
+      "source_kind",
+      "verbatim_quote",
+      "content_sha256",
+      "published_at",
+      "observed_at",
+      "metric_period",
+      "metric_definition",
+      "geographic_market",
+      "segment_definition",
+      "coverage_and_method",
+      "conflicts"
+    ]
+  },
+  "decision_order": [
+    "validate_scope_identity_and_freshness",
+    "evaluate_leader",
+    "evaluate_established",
+    "evaluate_emerging",
+    "otherwise_unverified"
+  ],
+  "leader_guard": {
+    "rank_alone_sufficient": false,
+    "independent_leading_cohort_evidence_required": true,
+    "rank_overrides_opposing_market_stage_evidence": false,
+    "unresolved_cohort_or_stage_conflict": "unverified",
+    "cross_industry_share_threshold": null
+  },
+  "not_sufficient_alone": [
+    "headcount",
+    "funding_round",
+    "valuation",
+    "brand_recognition",
+    "group_revenue",
+    "award_or_sponsored_list",
+    "self_claimed_top10",
+    "position_in_our_partial_catalog"
+  ],
+  "freshness": {
+    "preferred_metric_age_months": 18,
+    "review_interval_days": 90,
+    "due_or_material_conflict_current_display": "unverified_with_historical_assessment",
+    "old_assessments_overwritten": false
+  },
+  "discovery": {
+    "tiers_are_collection_filter": false,
+    "unknown_blocks_job_capture": false,
+    "all_four_buckets_in_scope_manifest": true,
+    "no_forced_top10": true,
+    "global_market_percentile_from_our_sample": false
+  },
+  "report": {
+    "keep_unknown_bucket": true,
+    "group_inherits_tier_to_subsidiaries": false,
+    "multi_segment_tiers_allowed": true,
+    "cross_listing_inflates_unique_job_count": false,
+    "tier_implies_salary_or_stability": false,
+    "organization_size_is_separate_field": true
+  },
+  "reviewer": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh"
+  },
+  "runtime": {
+    "automatic_classification_implemented": false,
+    "historical_companies_reclassified": false,
+    "grouped_report_implemented": true
+  },
+  "status": "deferred",
+  "priority": "low",
+  "trigger": {
+    "distinct_sampled_companies_more_than": 100,
+    "exclude": [
+      "unverified_seed_names",
+      "duplicate_brand_names",
+      "repeated_job_observations"
+    ],
+    "action": "propose data-based criteria and ask user; do not classify automatically"
+  },
+  "existing_tier_definitions_status": "historical_proposals_not_current_agreed_standard"
+}

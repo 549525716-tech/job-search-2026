@@ -1,0 +1,30 @@
+Snowflake AI Sales Engineer
+Company: Snowflake
+Category: Data & Infrastructure
+OTE: $165K to $250K
+Work model: Hybrid (San Mateo)
+Estimated SE team size: 100 to 150 SEs
+
+Company positioning
+Snowflake is the dominant cloud data warehouse platform, and its AI strategy centers on Cortex, a suite of AI and ML capabilities built directly into the Snowflake Data Cloud. The pitch is simple: customers already have their data in Snowflake, so running AI workloads against that data without moving it reduces complexity and cost. Snowflake SEs are increasingly expected to position AI capabilities alongside core data platform features, especially as the company competes with Databricks for AI workload share.
+
+AI products and platform
+Snowflake Cortex includes LLM functions that run directly on data in Snowflake (summarize, translate, classify), Document AI for processing unstructured documents, Cortex Search for semantic search across enterprise data, and Cortex Fine-tuning for customizing foundation models. Snowpark provides the developer framework for building ML pipelines in Python, Java, or Scala. The Snowflake Marketplace offers third-party AI models and datasets that customers can access without data movement. Arctic, Snowflake's open-source enterprise LLM, is available through Cortex.
+
+Role details
+Sales Engineers at Snowflake help enterprise customers adopt Cortex AI capabilities on top of their existing Snowflake data platform. A typical engagement starts with understanding what data a customer has in Snowflake, then demoing how Cortex functions can extract insights without any data movement. You would run workshops on Snowpark for ML pipeline development, demonstrate Document AI for processing PDFs and images stored in Snowflake stages, build proof-of-concepts using Cortex Search for semantic retrieval, and help data teams set up Cortex Fine-tuning for custom model training. The role also involves competitive positioning against Databricks, especially when customers are evaluating both platforms for AI workloads. Strong SQL and data architecture skills are essential because Snowflake customers think in terms of data warehousing, not ML pipelines.
+
+Technical skills and requirements
+- Expert-level SQL and experience with Snowflake's platform and architecture
+- Python skills for Snowpark development and ML pipeline construction
+- Understanding of AI/ML concepts and how they apply to enterprise data
+- Familiarity with competitive platforms, particularly Databricks
+- Experience with data governance and compliance requirements
+
+Interview process
+Snowflake's interview process runs four to six weeks. It includes a recruiter screen, hiring manager call, a technical assessment focused on SQL and data architecture, a demo exercise where you present a Cortex AI solution, and a final round with senior leadership. Snowflake places high weight on SQL proficiency and data platform knowledge. The demo exercise expects you to show how AI capabilities integrate naturally with existing data workflows. Candidates who can articulate the data gravity argument (keeping AI workloads close to where data already lives) tend to perform well. Familiarity with Snowpark and Cortex is strongly preferred.
+
+Salary and compensation
+OTE for Snowflake SEs ranges from $165,000 to $250,000, with base salaries between $125,000 and $165,000. Equity is granted in publicly traded Snowflake stock (SNOW), which provides immediate liquidity. RSU grants vest over four years with a one-year cliff. Performance-based bonuses and equity refreshers are available for strong performers. Total compensation for senior SEs can exceed $350,000 including stock appreciation. Benefits include health insurance, 401(k), wellness stipends, and flexible PTO.
+
+Source URL: https://aisepulse.com/companies/snowflake/

@@ -1,0 +1,8 @@
+{
+  "data_kind": "synthetic_demo_only",
+  "accounts": [
+    {"id": "演示A", "balance": 30, "daily_spend": 20},
+    {"id": "演示B", "balance": 500, "daily_spend": 20},
+    {"id": "演示C", "balance": null, "daily_spend": 20}
+  ]
+}

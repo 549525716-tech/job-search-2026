@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checked_at": "2026-09-16T16:32:54.364Z",
+  "jobs": 144,
+  "companies": 203,
+  "scope": "Offline evidence hash, field binding, complete-JD line ranges and prior extraction regressions; not market completeness or live hiring verification",
+  "jobs_sha256": "afb08c94ab5cf288fbd10c95e519abb495319a8287c9ebca19c853f5fe09592c",
+  "company_sha256": "4de04d2f5e3aa3764bf5c524392d2f641a987a10f432ef98753437fd2f1a8a73"
+}

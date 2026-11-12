@@ -1,0 +1,14 @@
+{
+  "run_id": "market-2026-09-21",
+  "purpose": "Diagnose blank recruitment pages and continue the interrupted market collection",
+  "routes": ["A: industry to company to role", "B: role and business keywords to employer backfill"],
+  "prior_checkpoint": "01_行情收集/official-careers/research/market-2026-09-20",
+  "platform_state": "BOSS reproduced about:blank after authenticated homepage; public control page stable; browser change pending user reply",
+  "scope_note": "Current bounded checkpoint, not a claim of all-market completeness; incomplete tasks remain pending",
+  "request_cooldown_seconds": [10, 20],
+  "raw_cards_preserved": true,
+  "score_is_not_collection_filter": true,
+  "applications_sent": 0,
+  "scheduler_enabled": false,
+  "breadth_accepted": false
+}

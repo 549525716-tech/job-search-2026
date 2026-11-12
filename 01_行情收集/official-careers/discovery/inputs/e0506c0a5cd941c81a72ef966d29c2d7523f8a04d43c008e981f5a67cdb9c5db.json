@@ -1,0 +1,776 @@
+[
+  {
+    "id": "tungee-business-expert-20260911",
+    "company": "探迹科技",
+    "title": "商务专家",
+    "city": "广州",
+    "location": "广州",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://m.tungee.com/about/join-us/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "* 一、B2B 生态合作搭建\n  * 聚焦企业服务、制造行业商协会等优质第三方机构，拓展并深化生态合作，搭建高价值合作伙伴资源库，批量挖掘精准市场线索，推动行业客户本地化深度覆盖与转化；\n  * 二、增量市场破局\n  * 主导营销侧行业曝光与品牌影响力建设，通过生态联动、资源整合等方式，挖掘 B2B 增量市场机会，强化品牌专业背书，提升行业渗透率；\n  * 三、生态资源机制完善\n  * 搭建并运营第三方大咖讲师、行业 KOL 资源库，建立标准化客情维系体系，保障合作质量与资源活性，为市场活动、品牌传播提供核心支撑。",
+    "requirements": "* 1、全日制及以上学历，3-5年B端商务拓展/渠道开发/生态合作相关实战经验，具备企业服务、互联网软件行业资源者优先；\n  * 2、对互联网、软件行业有深刻认知，熟悉B2B商业模式与合作逻辑，热爱互联网行业，能适应高速发展节奏，具备较强抗压能力。",
+    "observed_at": "2026-09-10T16:46:03.615Z",
+    "published_at": null,
+    "time_note": "工具结果记录时间，原调用起止未独立记录；官网未披露岗位发布日期，不证明新增或仍开放。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/007-open-tungee-mobile.json",
+    "evidence_quote": "* 一、B2B 生态合作搭建",
+    "evidence_line_ranges": {
+      "title": 85,
+      "city": 87,
+      "responsibilities": [
+        90,
+        95
+      ],
+      "requirements": [
+        99,
+        100
+      ]
+    },
+    "ownership_note": "tungee.com子域招聘页；页脚为广州探迹科技有限公司，正文包含探迹AI销售产品。",
+    "scope_note": "同一官网列表页展示的独立职位，没有发现单岗位直链；不把列表URL当职位ID。电销专员应届岗未纳入。薪资及当前开放状态待确认。"
+  },
+  {
+    "id": "tungee-channel-manager-20260911",
+    "company": "探迹科技",
+    "title": "渠道经理",
+    "city": "不限",
+    "location": "不限",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://m.tungee.com/about/join-us/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "* 1、负责公司代理商开发，行业资源的整合及维护工作，完成本部门目标及其他工作；\n  * 2、执行公司渠道政策及流程，根据任务收集市场信息，制定渠道开发策略，推动渠道横向和纵向的拓展；\n  * 3、监督下属团队渠道计划的执行情况，针对问题提出有效的指导建议和改善措施；\n  * 4、参与并优化渠道流程，规范渠道专员的工作流程。",
+    "requirements": "* 1、本科及以上学历，理工科相关专业优先；\n  * 2、3年以上渠道经验，有To B企业销售经验者优先，有代理商资源者优先；\n  * 3、对渠道管理模式有深刻理解，熟悉大数据市场及To B产品；\n  * 4、具备优秀的沟通能力和团队建设能力，能够激励团队达成目标；\n  * 5、具备良好的抗压能力和数据分析能力。",
+    "observed_at": "2026-09-10T16:46:03.615Z",
+    "published_at": null,
+    "time_note": "工具结果记录时间，原调用起止未独立记录；官网未披露岗位发布日期，不证明新增或仍开放。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/007-open-tungee-mobile.json",
+    "evidence_quote": "* 1、负责公司代理商开发，行业资源的整合及维护工作，完成本部门目标及其他工作；",
+    "evidence_line_ranges": {
+      "title": 104,
+      "city": 106,
+      "responsibilities": [
+        109,
+        112
+      ],
+      "requirements": [
+        116,
+        120
+      ]
+    },
+    "ownership_note": "tungee.com子域招聘页；页脚为广州探迹科技有限公司，正文包含探迹AI销售产品。",
+    "scope_note": "同一官网列表页展示的独立职位，没有发现单岗位直链；不把列表URL当职位ID。电销专员应届岗未纳入。薪资及当前开放状态待确认。"
+  },
+  {
+    "id": "tungee-sales-consultant-20260911",
+    "company": "探迹科技",
+    "title": "销售顾问",
+    "city": "广州",
+    "location": "广州",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://m.tungee.com/about/join-us/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "* 1、以电话/网络/拜访等形式，完成全流程销售工作，包含意向客户的洽谈、跟进和转化工作，完成个人既定业绩目标；\n  * 2、与企业建立深度合作关系，解决产品售卖过程中的问题，提高客户满意度；\n  * 3、定期定量进行回访工作，做好客情维护工作；\n  * 4、负责完成公司及上级交办的其他工作。",
+    "requirements": "* 1、全日制大专及以上学历；\n  * 2、有云软件，互联网等行业客户销售经验优先；\n  * 3、富有激情，阳光开朗，有强烈的销售要性；\n  * 4、有较强的沟通和销售能力；\n  * 5、能适应高强度的工作压力，喜欢挑战。",
+    "observed_at": "2026-09-10T16:46:03.615Z",
+    "published_at": null,
+    "time_note": "工具结果记录时间，原调用起止未独立记录；官网未披露岗位发布日期，不证明新增或仍开放。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/007-open-tungee-mobile.json",
+    "evidence_quote": "* 1、以电话/网络/拜访等形式，完成全流程销售工作，包含意向客户的洽谈、跟进和转化工作，完成个人既定业绩目标；",
+    "evidence_line_ranges": {
+      "title": 124,
+      "city": 126,
+      "responsibilities": [
+        130,
+        133
+      ],
+      "requirements": [
+        136,
+        140
+      ]
+    },
+    "ownership_note": "tungee.com子域招聘页；页脚为广州探迹科技有限公司，正文包含探迹AI销售产品。",
+    "scope_note": "同一官网列表页展示的独立职位，没有发现单岗位直链；不把列表URL当职位ID。电销专员应届岗未纳入。薪资及当前开放状态待确认。"
+  },
+  {
+    "id": "tungee-telesales-manager-20260911",
+    "company": "探迹科技",
+    "title": "电销经理",
+    "city": "广州",
+    "location": "广州",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://m.tungee.com/about/join-us/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "* 1、负责电话销售团队的日常管理、监督、指导、培训和工作评估；\n  * 2、激励并带领销售团队，挑选和配备各个岗位人员，培养、巩固骨干队伍；\n  * 3、对团队目标达成率负责，完成每月团队KPI考核并指导团队达成指标。",
+    "requirements": "* 1、统招大专及以上学历，专业不限，具有To B销售经验者优先考虑；\n  * 2、两年以上相关工作管理经验，具备至少两年以上呼叫中心经验或6人以上团队管理经验；\n  * 3、有良好的销售技巧，并且具备良好的培训、辅导能力，能调动员工积极性，提升团队效率。",
+    "observed_at": "2026-09-10T16:46:03.615Z",
+    "published_at": null,
+    "time_note": "工具结果记录时间，原调用起止未独立记录；官网未披露岗位发布日期，不证明新增或仍开放。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/007-open-tungee-mobile.json",
+    "evidence_quote": "* 1、负责电话销售团队的日常管理、监督、指导、培训和工作评估；",
+    "evidence_line_ranges": {
+      "title": 144,
+      "city": 146,
+      "responsibilities": [
+        150,
+        152
+      ],
+      "requirements": [
+        156,
+        158
+      ]
+    },
+    "ownership_note": "tungee.com子域招聘页；页脚为广州探迹科技有限公司，正文包含探迹AI销售产品。",
+    "scope_note": "同一官网列表页展示的独立职位，没有发现单岗位直链；不把列表URL当职位ID。电销专员应届岗未纳入。薪资及当前开放状态待确认。"
+  },
+  {
+    "id": "tungee-customer-success-20260911",
+    "company": "探迹科技",
+    "title": "客户成功专员",
+    "city": "广州",
+    "location": "广州",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://m.tungee.com/about/join-us/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "* 1、客户建联：按照行业或经营特性，与使用探迹产品的付费客户建立联系，和客户关键决策层建立长期稳定的客户关系；\n  * 2、客户服务：为客户提供系统的应用配置和使用培训，帮助客户的销售管理层和销售人员顺利掌握探迹产品的使用方法；\n  * 3、客户运营：针对客户的经营业务，主动建议和推荐使用方案，提升客户对产品的使用能力从而提升经营业绩；\n  * 4、梳理客户需求：分析用户行为数据，聆听客户意见，搜集反馈，研究用户心理和使用习惯，对客户需求进行挖掘，为销售、市场和产品的同事提供建议；\n  * 5、客户成功：提升付费客户的使用满意度和续约率；\n  * 6、引导客户需求并识别二次销售机会，为公司创造新的利润点。",
+    "requirements": "* 1、本科及上学历，1年以上工作经验；\n  * 2、有销售管理经验者优先；有CRM、OA、ERP等企业管理专业软件或互联网客户服务经验优先；\n  * 3、反应敏捷、表达能力强，具有较强的沟通能力及交际技巧，亲和力强；\n  * 4、 具体良好的思维能力，做事有条理，逻辑思维强；\n  * 5、良好的客户服务意识，工作认真、严谨，责任心强，具有高度的敬业精神和团队协作意识；\n  * 6、以结果为导向，有较强的自我驱动力、执行力，拿到结果，具备独立分析和解决问题的能力；\n  * 7、熟练运用Office办公软件，良好的文字驾驭能力及总结能力；\n  * 8、对互联网、软件行业有一定了解，热爱互联网，能够适应公司发展节奏。",
+    "observed_at": "2026-09-10T16:46:03.615Z",
+    "published_at": null,
+    "time_note": "工具结果记录时间，原调用起止未独立记录；官网未披露岗位发布日期，不证明新增或仍开放。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/007-open-tungee-mobile.json",
+    "evidence_quote": "* 1、客户建联：按照行业或经营特性，与使用探迹产品的付费客户建立联系，和客户关键决策层建立长期稳定的客户关系；",
+    "evidence_line_ranges": {
+      "title": 182,
+      "city": 184,
+      "responsibilities": [
+        187,
+        192
+      ],
+      "requirements": [
+        195,
+        202
+      ]
+    },
+    "ownership_note": "tungee.com子域招聘页；页脚为广州探迹科技有限公司，正文包含探迹AI销售产品。",
+    "scope_note": "同一官网列表页展示的独立职位，没有发现单岗位直链；不把列表URL当职位ID。电销专员应届岗未纳入。薪资及当前开放状态待确认。"
+  },
+  {
+    "id": "tungee-city-manager-20260911",
+    "company": "探迹科技",
+    "title": "城市经理",
+    "city": "不限",
+    "location": "不限",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://m.tungee.com/about/join-us/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "* 1、根据总部整体发展战略规划，以区域为核心，制定并执行当地市场中期、长期开发策略；\n  * 2、全面负责区域的日常经营内外业务沟通协调工作，努力营造良好的企业发展，运营内、外部环境；\n  * 3、负责团队组织和建设，根据公司战略规划方案，推广公司产品和解决方案，制定考核、监控指标，完成公司下达的年度、季度销售目标及其他相关运营任务；\n  * 4、带领自己的团队完成全年销售业绩考核指标。",
+    "requirements": "* 1、本科以上学历，同岗位工作经验3年以上，具有管理软件、SaaS、阿里、百度、金蝶、用友等销售经验的从业背景优先；\n  * 2、有创业激情，认可公司的企业文化，愿意与公司长期合作共同发展；\n  * 3、具有敏感的商业和市场意识，分析问题及解决问题能力强，具有优秀的资源整合能力和业务推进能力。",
+    "observed_at": "2026-09-10T16:46:03.615Z",
+    "published_at": null,
+    "time_note": "工具结果记录时间，原调用起止未独立记录；官网未披露岗位发布日期，不证明新增或仍开放。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/007-open-tungee-mobile.json",
+    "evidence_quote": "* 1、根据总部整体发展战略规划，以区域为核心，制定并执行当地市场中期、长期开发策略；",
+    "evidence_line_ranges": {
+      "title": 206,
+      "city": 208,
+      "responsibilities": [
+        211,
+        214
+      ],
+      "requirements": [
+        218,
+        220
+      ]
+    },
+    "ownership_note": "tungee.com子域招聘页；页脚为广州探迹科技有限公司，正文包含探迹AI销售产品。",
+    "scope_note": "同一官网列表页展示的独立职位，没有发现单岗位直链；不把列表URL当职位ID。电销专员应届岗未纳入。薪资及当前开放状态待确认。"
+  },
+  {
+    "id": "tungee-ka-sales-director-20260911",
+    "company": "探迹科技",
+    "title": "大客户销售主管/总监",
+    "city": "北京",
+    "location": "北京",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://m.tungee.com/about/join-us/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "* 1、负责寻找公司智能销售解决方案的企业客户，并挖掘客户在销售过程中的业务需求；\n  * 2、针对具体目标客户，帮助客户梳理和分析业务需求，制定有效的解决方案；\n  * 3、负责对客户进行公司产品服务理念的介绍，项目方案讲解、系统应用演示等工作，为客户提供解决方案销售服务 ；\n  * 4、管理维护客户关系以及客户间的长期战略合作计划，不断挖掘客户新的业务需求，带领团队完成公司给定的业绩指标；\n  * 5、有政府、金融、广告、展会、财税、教育、物流等行业客户资源优先。",
+    "requirements": "* 1、全日制统招类本科及以上学历，2年以上大客户销售管理经验；\n  * 2、具有5年以上解决方案销售经验，有大数据产品解决方案销售经验者优先；\n  * 3、熟悉各大行业重点客户需求，具备成熟的客户关系，丰富的客户开拓和市场开拓经验；\n  * 4、具有敏锐的市场洞察力、较强的学习能力及专业的销售能力、客户谈判技巧；\n  * 5、业绩导向，极强的自我驱动能力，良好的抗压能力；\n  * 6、具备较强的语言表达和推动能力，良好的人际沟通能力和团队合作能力。",
+    "observed_at": "2026-09-10T16:46:03.615Z",
+    "published_at": null,
+    "time_note": "工具结果记录时间，原调用起止未独立记录；官网未披露岗位发布日期，不证明新增或仍开放。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/007-open-tungee-mobile.json",
+    "evidence_quote": "* 1、负责寻找公司智能销售解决方案的企业客户，并挖掘客户在销售过程中的业务需求；",
+    "evidence_line_ranges": {
+      "title": 224,
+      "city": 226,
+      "responsibilities": [
+        229,
+        233
+      ],
+      "requirements": [
+        237,
+        242
+      ]
+    },
+    "ownership_note": "tungee.com子域招聘页；页脚为广州探迹科技有限公司，正文包含探迹AI销售产品。",
+    "scope_note": "同一官网列表页展示的独立职位，没有发现单岗位直链；不把列表URL当职位ID。电销专员应届岗未纳入。薪资及当前开放状态待确认。"
+  },
+  {
+    "id": "salesforce-jr317761-20260911",
+    "company": "Salesforce",
+    "title": "Named Account Executive",
+    "city": null,
+    "location": "Taiwan - Remote",
+    "salary_raw": null,
+    "job_url": "https://careers.salesforce.com/en/jobs/jr317761/named-account-executive/",
+    "apply_url": null,
+    "source_url": "https://careers.salesforce.com/en/jobs/jr317761/named-account-executive/",
+    "source_kind": "search_index",
+    "description_complete": false,
+    "description": "## Description\n\nThe Enterprise Account Executive maintains and expands relationships with strategically important and large enterprises. Assigned to a number of named customers, the enterprise account executive is responsible for achieving sales quota and assigned strategic account objectives as well as developing business within some white space accounts\n \n\nResponsibilities:\n\nEstablish professional and deep relationships with key personnel in assigned customer accounts\n\nLeads account planning process that develops account strategy, financial targets and critical milestones for 1–3-year period\n\nLeads cross functional team within Salesforce to meet customer accounts performance objectives and expectations",
+    "requirements": "Requirements:\n\nRelevant experience of solution selling within a major IT services or software vendor.\n\nCandidate must have experience selling into Singapore market, preferably in the Telco, Financial Service or Engineering space\n\nSuccessful history of net direct new business sales, with the ability to prove consistent delivery against targets\n\nAbility to build rapport with customers including CxOs.\n\nCRM/ or application sales, relevant enterprise experience preferred.\n\nAdaptability with open mindset, driven, customer focused and a team player\n\nHave experienced in leading and orchestrating a virtual team across a matrix organization to deliver outcomes for the customer.\n\nDeep understanding of customer's business environment, proactively assesses, clarifies and validates customer needs on an ongoing basis.\n\nLeads solution development efforts that best address customer needs and generating pipeline for the Salesforce\n\nEngage with prospect organizations to position Salesforce solutions through strategic value-based selling, business case definition, ROI analysis, references and analyst data.\n\nManage the end-to-end sales process through engagement of appropriate resources such as Sales Engineers, Professional Services, Co-Primes, Executives, Partners etc.\n\nGenerate short term results whilst maintaining a long-term perspective to maximize overall revenue generation.\n\nAccurate quarterly forecasting and revenue delivery.",
+    "observed_at": "2026-09-10T16:44:00.953Z",
+    "published_at": "2026-08-26",
+    "time_note": "观察时间取原始结果文件持久化时间；采集草稿的未来占位时间不采纳。索引标Posted 26 August 2026；两次open返回0行，非当前在招核验。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/002-search-salesforce.json",
+    "evidence_quote": "The Enterprise Account Executive maintains and expands relationships with strategically important and large enterprises.",
+    "ownership_note": "Salesforce招聘域名的搜索索引；直接详情跳转后未取得正文。",
+    "scope_note": "索引工作地与要求中新加坡市场销售经历应分别核查，不能当成大陆远程工作。"
+  },
+  {
+    "id": "fxiaoke-ka-20260911",
+    "company": "纷享销客",
+    "title": "大客户经理",
+    "city": "深圳、厦门、广州、武汉、郑州",
+    "location": "深圳、厦门、广州、武汉、郑州 | 研发中心",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://www.fxiaoke.com/crm/about-join/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "1. 挖掘并跟踪潜在客户，介绍并销售纷享销客产品及服务；\n\n2. 利用上门拜访、客户见面会等多元化的方式进行销售，为客户提供解决方案；\n\n3. 跟企业老板面对面沟通；\n\n4. 负责通过CRM系统、网站推广等终端销售，市场开发；\n\n5. 根据客户的不同需求，有针对性的为客户设计及推销合适的产品和服务。",
+    "requirements": "1. 年龄25-35周岁，男女不限；\n\n2. 3年以上工作经验，在软件、互联网、解决方案型公司从事销售岗工作；\n\n3. 具备或者了解CRM及相关产品专业知识，从事相关软件销售工作2年以上，此类人才优秀考虑；\n\n4. 对公司产品的方向有高度认同感；\n\n5. 具备较好的学习能力、工作有激情；\n\n6. 具备主动开发客户的能力，意愿度高。",
+    "observed_at": "2026-09-10T16:52:07.592Z",
+    "published_at": null,
+    "time_note": "官网未披露发布日期；工具结果记录时间并非岗位新发布或仍开放证明。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/013-open-fxiaoke.json",
+    "evidence_quote": "1. 挖掘并跟踪潜在客户，介绍并销售纷享销客产品及服务；",
+    "evidence_line_ranges": {
+      "title": 410,
+      "city": 412,
+      "responsibilities": [
+        416,
+        424
+      ],
+      "requirements": [
+        427,
+        437
+      ]
+    },
+    "ownership_note": "纷享销客CRM官网的加入我们页面，正文直接列示岗位及公司域名招聘邮箱；没有发送邮件或申请。",
+    "scope_note": "同页岗位无独立链接，地点和职责不同的两条客户成功经理分别保留；研发/产品经理/实施工程岗未纳入主攻。"
+  },
+  {
+    "id": "fxiaoke-csm-regional-20260911",
+    "company": "纷享销客",
+    "title": "客户成功经理",
+    "city": "深圳、厦门、广州、武汉、郑州",
+    "location": "深圳、厦门、广州、武汉、郑州 | 研发中心",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://www.fxiaoke.com/crm/about-join/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "1. 负责区域客户运维，提高客户产品使用率，驱使客户有效运营；\n\n2. 负责区域客户续费工作；\n\n3. 负责区域客户增购工作；\n\n4. 解决客户日常问题；\n\n5. 对客户进行拜访，与客户的业务管理者建立良好关系，提高客户满意度。",
+    "requirements": "1. 本科及以上学历；\n\n2. 3年以上企业级客户维护、顾问咨询、客户运营、软件实施等工作经验;\n\n3. 具有丰富的直接面对客户业务负责人工作经验；有CRM、OA、ERP等企业管理专业软件或互联网客户服务管理经验优先；有SaaS行业客户成功的背景优先；\n\n4. 能快速理解客户业务及客户需求；\n\n5. 具备良好的客户沟通能力，产品培训能力；\n\n6. 具备较强的逻辑和分析能力；\n\n7. 文档能力较强，具有SaaS、CSM、CRM经验优先考虑。",
+    "observed_at": "2026-09-10T16:52:07.592Z",
+    "published_at": null,
+    "time_note": "官网未披露发布日期；工具结果记录时间并非岗位新发布或仍开放证明。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/013-open-fxiaoke.json",
+    "evidence_quote": "1. 负责区域客户运维，提高客户产品使用率，驱使客户有效运营；",
+    "evidence_line_ranges": {
+      "title": 441,
+      "city": 443,
+      "responsibilities": [
+        447,
+        455
+      ],
+      "requirements": [
+        458,
+        470
+      ]
+    },
+    "ownership_note": "纷享销客CRM官网的加入我们页面，正文直接列示岗位及公司域名招聘邮箱；没有发送邮件或申请。",
+    "scope_note": "同页岗位无独立链接，地点和职责不同的两条客户成功经理分别保留；研发/产品经理/实施工程岗未纳入主攻。"
+  },
+  {
+    "id": "fxiaoke-channel-20260911",
+    "company": "纷享销客",
+    "title": "渠道经理",
+    "city": "深圳、厦门",
+    "location": "深圳、厦门 | 研发中心",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://www.fxiaoke.com/crm/about-join/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "1. 布局区域，做公司的区域渠道规划，搭建区域渠道体系；\n\n2. 拓展渠道合作及支持渠道伙伴开展业务，和渠道伙伴达成长期紧密合作；\n\n3. 负责与合作方及渠道商之间进行项目合作联络、沟通与谈判、签约；\n\n4. 根据公司战略规划及区域市场情况，与销售部一起制定渠道政策；完成公司销售指标和任务、执行和推广公司渠道政策；\n\n5. 负责渠道伙伴培训，客户陪访，销售扶持等工作。",
+    "requirements": "1. 本科及以上学历，市场营销等相关专业；\n\n2. 3年以上渠道拓展经验，具有传统软件、CRM或SaaS软件销售经验优先；\n\n3. 具备良好的渠道客户关系管理能力，熟悉产品市场营销渠道开发和建设；\n\n4. 具有较强的组织协调能力、良好的沟通能力、语言表达能力和分析判断能力；",
+    "observed_at": "2026-09-10T16:52:07.592Z",
+    "published_at": null,
+    "time_note": "官网未披露发布日期；工具结果记录时间并非岗位新发布或仍开放证明。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/013-open-fxiaoke.json",
+    "evidence_quote": "1. 布局区域，做公司的区域渠道规划，搭建区域渠道体系；",
+    "evidence_line_ranges": {
+      "title": 474,
+      "city": 476,
+      "responsibilities": [
+        480,
+        488
+      ],
+      "requirements": [
+        491,
+        497
+      ]
+    },
+    "ownership_note": "纷享销客CRM官网的加入我们页面，正文直接列示岗位及公司域名招聘邮箱；没有发送邮件或申请。",
+    "scope_note": "同页岗位无独立链接，地点和职责不同的两条客户成功经理分别保留；研发/产品经理/实施工程岗未纳入主攻。"
+  },
+  {
+    "id": "fxiaoke-channel-partner-20260911",
+    "company": "纷享销客",
+    "title": "渠道合伙人",
+    "city": "济南、青岛、西安、贵阳、重庆、成都",
+    "location": "济南、青岛、西安、贵阳、重庆、成都 | 研发中心",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://www.fxiaoke.com/crm/about-join/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "1. 负责目标区域代理商及业务合作伙伴的辅导和管理。\n\n2. 负责代理商的团队组建和日常管理，带领团队完成公司目标。\n\n3. 对团队成员进行有效的培训和辅导，打造一支具有卓越执行力和战斗力的团队。\n\n4. 根据渠道政策制定合作伙伴业绩目标并负责落实。\n\n5. 从数据中发现问题，持续优化策略和计划。",
+    "requirements": "1. 3年以上渠道或销售管理经验。\n\n2. 人际沟通能力强，有极强的目标导向。\n\n3. 要求具备超强的执行力、抗压能力和自我管理能力。\n\n4. 具有SaaS软件，互联网相关行业从业经验者优先。\n\n5. 能适应一定频率的出差。",
+    "observed_at": "2026-09-10T16:52:07.592Z",
+    "published_at": null,
+    "time_note": "官网未披露发布日期；工具结果记录时间并非岗位新发布或仍开放证明。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/013-open-fxiaoke.json",
+    "evidence_quote": "1. 负责目标区域代理商及业务合作伙伴的辅导和管理。",
+    "evidence_line_ranges": {
+      "title": 501,
+      "city": 503,
+      "responsibilities": [
+        507,
+        515
+      ],
+      "requirements": [
+        518,
+        526
+      ]
+    },
+    "ownership_note": "纷享销客CRM官网的加入我们页面，正文直接列示岗位及公司域名招聘邮箱；没有发送邮件或申请。",
+    "scope_note": "渠道合伙人是否雇佣岗位、代理商合作或费用投资要求未知，不能按固定薪资管理岗认定。"
+  },
+  {
+    "id": "fxiaoke-csm-advisory-20260911",
+    "company": "纷享销客",
+    "title": "客户成功经理",
+    "city": "北京、上海、广州、深圳、杭州",
+    "location": "北京、上海、广州、深圳、杭州 | 研发中心",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://www.fxiaoke.com/crm/about-join/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "1. 负责公司现有客户的维护。\n\n2. 为客户方销售管理层提供贴合业务模式的销售管理方面的咨询建议。\n\n3. 了解客户行业特点及销售管理流程，指导客户将销售运营与CRM软件使用进行有效的结合，提升产品价值。\n\n4. 对客户管理层进行拜访，与客户方的销售管理者建立良好关系，提高客户满意度。\n\n5. 能够协调其他团队资源，推进项目及需求进展，为客户持续提供服务，并总结成功案例。\n\n6. 跟进客户续约，完成续约率目标；引导客户需求并识别二次销售机会，为公司创造新的利润点。",
+    "requirements": "1. 本科以上学历，5年以上工作经验，3年以上toB企业工作经验。\n\n2. 反应敏捷、表达能力强，具有较强的沟通能力及交际技巧，亲和力强；具备独立分析和解决问题的能力。\n\n3. 具备直接面对客户高层工作经验；有销售管理经验者优先。\n\n4. 有CRM、OA、ERP等企业管理专业软件或互联网客户服务经验优先。\n\n5. 良好的客户服务意识，工作认真、严谨，责任心强，具有高度的敬业精神和团队协作意识。\n\n6. 熟练运用办公软件，良好的文字驾驭能力及总结能力，对互联网、软件行业有一定了解。",
+    "observed_at": "2026-09-10T16:52:07.592Z",
+    "published_at": null,
+    "time_note": "官网未披露发布日期；工具结果记录时间并非岗位新发布或仍开放证明。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/013-open-fxiaoke.json",
+    "evidence_quote": "1. 负责公司现有客户的维护。",
+    "evidence_line_ranges": {
+      "title": 559,
+      "city": 561,
+      "responsibilities": [
+        565,
+        575
+      ],
+      "requirements": [
+        578,
+        588
+      ]
+    },
+    "ownership_note": "纷享销客CRM官网的加入我们页面，正文直接列示岗位及公司域名招聘邮箱；没有发送邮件或申请。",
+    "scope_note": "同页岗位无独立链接，地点和职责不同的两条客户成功经理分别保留；研发/产品经理/实施工程岗未纳入主攻。"
+  },
+  {
+    "id": "fxiaoke-after-sales-20260911",
+    "company": "纷享销客",
+    "title": "电话售后顾问",
+    "city": "北京",
+    "location": "北京 | 研发中心",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://www.fxiaoke.com/crm/about-join/",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "1. 梳理公司提供的客户资源名单，与客户进行有效沟通并寻找销售机会，完成销售任务。\n\n2. 定期电话回访，与客户保持沟通并建立良好的关系，指导客户操作及挖掘客户需求，寻找增购商机。",
+    "requirements": "1. 一年以上电话营销经验或销售工作经验，有ToB销售经验优先。\n\n2. 工作态度积极，热爱销售工作，有较强的事业心，勇于面对挑战。\n\n3. 良好的沟通能力、表达能力、应变能力和解决问题的能力。\n\n4. 良好的团队合作精神和客户服务意识。",
+    "observed_at": "2026-09-10T16:52:07.592Z",
+    "published_at": null,
+    "time_note": "官网未披露发布日期；工具结果记录时间并非岗位新发布或仍开放证明。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/013-open-fxiaoke.json",
+    "evidence_quote": "1. 梳理公司提供的客户资源名单，与客户进行有效沟通并寻找销售机会，完成销售任务。",
+    "evidence_line_ranges": {
+      "title": 592,
+      "city": 594,
+      "responsibilities": [
+        598,
+        600
+      ],
+      "requirements": [
+        603,
+        609
+      ]
+    },
+    "ownership_note": "纷享销客CRM官网的加入我们页面，正文直接列示岗位及公司域名招聘邮箱；没有发送邮件或申请。",
+    "scope_note": "同页岗位无独立链接，地点和职责不同的两条客户成功经理分别保留；研发/产品经理/实施工程岗未纳入主攻。"
+  },
+  {
+    "id": "baidu-j100045-20260911",
+    "company": "百度智能云",
+    "title": "大模型及云计算大客户销售经理（J100045）",
+    "city": "上海市",
+    "location": "上海市",
+    "salary_raw": null,
+    "job_url": "https://talent.baidu.com/jobs/detail/SOCIAL/031a8cb6-36b7-42c9-8f9e-bbafd8b71194",
+    "apply_url": null,
+    "source_url": "https://talent.baidu.com/jobs/detail/SOCIAL/031a8cb6-36b7-42c9-8f9e-bbafd8b71194",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "-负责百度智能云产品以及整体解决方案的销售，包括云服务器、云数据库、云存储以及行业解决方案等 -学习业务知识，根据客户需求和市场变化，制定符合用户需求的产品和方案 -通过现场、网络、电话等方式开拓新用户，挖掘潜在的客户并定期跟踪拜访，完成销售目标 -定期维护客户关系，促进长期、良好、稳固的客户关系",
+    "requirements": "-1年以上销售经验，有IT、软件、云等方面销售经验更佳 -执行力强，能承受较大的工作压力，能适应明确的工作目标 -拥有ToB客户的项目销售经验，具备清晰的项目销售逻辑思维 -热爱销售工作，目标感强，勤奋努力，韧劲足，渴望高收入",
+    "observed_at": "2026-09-10T16:56:17.026Z",
+    "published_at": "2026-07-21",
+    "time_note": "日期取岗位正文；HTML标题虽为百度校园招聘，原生URL为SOCIAL且JD非校招。后续另一条详情只返回登录，来源停止继续访问。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-open-baidu-j100045.json",
+    "evidence_quote": "-负责百度智能云产品以及整体解决方案的销售，包括云服务器、云数据库、云存储以及行业解决方案等 -学习",
+    "evidence_line_ranges": {
+      "title": 7,
+      "city": 11,
+      "responsibilities": [
+        15,
+        15
+      ],
+      "requirements": [
+        19,
+        19
+      ]
+    },
+    "ownership_note": "百度官方talent.baidu.com社会招聘详情，职责明确百度智能云产品及ACG业务。",
+    "scope_note": "公开JD读取成功；不能据其他详情受限推断本岗关闭，也不把标题经理推定为人员管理。固定薪资未知。"
+  },
+  {
+    "id": "baidu-j101343-20260911",
+    "company": "百度智能云",
+    "title": "公有云销售经理（J101343）",
+    "city": "北京市",
+    "location": "北京市",
+    "salary_raw": null,
+    "job_url": "https://talent.baidu.com/jobs/detail/SOCIAL/91fc2cef-4b6d-4127-b9cb-2e1266b9670f",
+    "apply_url": null,
+    "source_url": "https://talent.baidu.com/jobs/detail/SOCIAL/91fc2cef-4b6d-4127-b9cb-2e1266b9670f",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "-客户开发与经营：负责区域公有云客户的开发与经营，拓展政企等行业客户，建立并维护长期合作关系 -商机管理与转化：挖掘客户云化和智能化需求，推动商机转化与项目签约，完成新签、收入、回款等经营指标 -产品与方案推广：推动百度智能云核心产品（云计算、大模型、AI应用等）在客户场景的落地，配合解决方案团队推动项目交付 -存量客户深耕：维护已签约客户关系，挖掘扩容、升级及新场景需求，提升客户合作深度与收入贡献 -过程管理：定期梳理客户数据、商机进展与竞品动态，做好过程管理与信息同步",
+    "requirements": "-经验要求：2年以上To B销售经验，有云计算/AI行业销售经验者优先 -行业认知：对云计算有基本理解，对大模型/AI应用趋势有敏感度和学习意愿 -客户能力：具备政企客户开发经验，能独立完成从客户触达、需求挖掘、方案讲解到商务谈判的全流程 -执行力：目标导向，抗压能力强，能适应高频客户拜访和快节奏的业务推进 -协同意识：具备跨团队协作意识，能高效配合解决方案、产研、交付等团队推动项目落地",
+    "observed_at": "2026-09-10T16:56:59.830Z",
+    "published_at": "2026-08-25",
+    "time_note": "日期取岗位正文；HTML标题虽为百度校园招聘，原生URL为SOCIAL且JD非校招。后续另一条详情只返回登录，来源停止继续访问。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-open-baidu-j101343.json",
+    "evidence_quote": "-客户开发与经营：负责区域公有云客户的开发与经营，拓展政企等行业客户，建立并维护长期合作关系 -商机",
+    "evidence_line_ranges": {
+      "title": 7,
+      "city": 11,
+      "responsibilities": [
+        15,
+        15
+      ],
+      "requirements": [
+        18,
+        18
+      ]
+    },
+    "ownership_note": "百度官方talent.baidu.com社会招聘详情，职责明确百度智能云产品及ACG业务。",
+    "scope_note": "公开JD读取成功；不能据其他详情受限推断本岗关闭，也不把标题经理推定为人员管理。固定薪资未知。"
+  },
+  {
+    "id": "aws-10464449-20260911",
+    "company": "Amazon Web Services",
+    "title": "BD Manager, Strategic Account",
+    "city": "上海、广州、南京",
+    "location": "*     * CHN, Shanghai\n    * CHN, Guangzhou\n    * CHN, Nanjing",
+    "salary_raw": null,
+    "job_url": "https://www.amazon.jobs/jobs/10464449",
+    "apply_url": null,
+    "source_url": "https://www.amazon.jobs/jobs/10464449",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "AWS Global Sales drives adoption of the AWS cloud worldwide, enabling customers of all sizes to innovate and expand in the cloud. Our team empowers every customer to grow by providing tailored service, unmatched technology, and consistent support. We dive deep to understand each customer's unique challenges, then craft innovative solutions that accelerate their success. This customer-first approach is how we built the world's most adopted cloud. Join us and help us grow.\nThe ideal candidate will possess public cloud experience, solution selling expertise, and business acumen to promote strategic growth and shape the future of cloud computing within Strategic Account team.\nAWS Global Sales drives adoption of the AWS cloud worldwide, enabling customers of all sizes to innovate and expand in the cloud. Our team empowers every customer to grow by providing tailored service, unmatched technology, and consistent support. We dive deep to understand each customer's unique challenges, then craft innovative solutions that accelerate their success. This customer-first approach is how we built the world's most adopted cloud. Join us and help us grow.\nThe ideal candidate will possess public cloud experience, solution selling expertise, and business acumen to promote strategic growth and shape the future of cloud computing within Strategic Account team.\nKey job responsibilities\nDrive two-digital revenue and market share growth within assigned key accounts in the Strategic Account sector\nDevelop and execute comprehensive account plans and manage all key customer relationships, including strong C-level engagement\nAccelerate customer adoption by identifying new opportunities, expanding existing usage, and leading customers through cloud migration journeys\nMaintain a robust customer pipeline with accurate forecasting and reporting\nManage complex contract negotiations and work with partners to extend reach and drive adoption",
+    "requirements": "- Bachelor's degree or above in Computer Science, Computer Engineering, Information Technology or related fields\n- Experience in e-commerce, digital marketing, customer service delivery or digital sales\n- Experience in cloud architecture and CXO level engagement\n- Experience in written and spoken English and an ability to compose grammatically correct, concise and accurate written responses\n## Preferred Qualifications\n- Experience managing and growing large accounts, product marketing or management consulting roles\n- Experience working with customers with a passion for delivering exceptional service, or experience in managing and troublshooting network",
+    "observed_at": "2026-09-10T17:00:00.264Z",
+    "published_at": null,
+    "time_note": "官方页面观察时间，不代表新发布或录用薪资。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/025-open-aws.json",
+    "evidence_quote": "Drive two-digital revenue and market share growth within assigned key accounts in the Strategic Account sector",
+    "evidence_line_ranges": {
+      "responsibilities": [
+        23,
+        32
+      ],
+      "requirements": [
+        49,
+        55
+      ],
+      "location": [
+        59,
+        61
+      ]
+    },
+    "ownership_note": "Amazon官方职位页，原生Job ID10464449，主体为亚马逊北京公司上海分公司；不是第三方代理职位。",
+    "scope_note": "云业务发展岗位，Manager不等于直管团队；英文、计算机相关学历及云架构经历需核查。"
+  },
+  {
+    "id": "baidu-j103250-index-20260911",
+    "company": "百度智能云",
+    "title": "金融行业市场化销售经理（J103250）",
+    "city": "北京市,上海市,深圳市",
+    "location": "北京市,上海市,深圳市",
+    "salary_raw": null,
+    "job_url": "https://talent.baidu.com/jobs/detail/SOCIAL/51a4f37d-f205-4c2e-92d3-e8a8b2d7fa24",
+    "apply_url": null,
+    "source_url": "https://talent.baidu.com/jobs/detail/SOCIAL/51a4f37d-f205-4c2e-92d3-e8a8b2d7fa24",
+    "source_kind": "search_index",
+    "description_complete": false,
+    "description": "-负责百度智能云在泛金融行业及市场化客户的销售拓展工作，承担明确的销售业绩指标 -负责市场化客户拓展，独立制定并执行客户拓展策略，挖掘增量商机，推动百度云在泛金融行业外部市场的渗透率提升 -深入了解客户的数字化转型需求及业务场景，结合百度智能云产品（AI 大模型、云计算、大数据、隐私计算等）输出针对性解决方案，具备独立完成方案汇报与演示的能力 -独立主导商务谈判、合同签订及回款全流程，协调售前、产品、交付等内外部资源推动项目签约与落地 -跟踪行业动态与竞品信息，输出行业洞察与销售策略建议",
+    "requirements": "-本科及以上学历，计算机、金融、市场营销等相关专业优先 -5年以上云计算或相关 IT 行业销售经验，其中至少 2 年以上相关行业销售经验，有市场化客户拓展成功案例 -熟悉云计算、AI 大模型、大数据等相关产品，具备较强的技术理解能力，能独立完成方案汇报 -具备独立开发市场化客户的能力，有良好的客户关系积累与商务谈判技巧 -目标导向，自驱力强，能承受较高的工作压力和业绩考核要求 -过往业绩表现良好，有可验证的销售业绩记录 -加分项 -有百度智能云或其他主流云厂商（阿里云、腾讯云、华为云等）销售经验者优先 -有银行、保险、证券等泛金融行业头部客户拓展成功案例者优先 -有token、算力、AI大模型等客户拓展成功案例者优先",
+    "observed_at": "2026-09-10T16:52:56.764Z",
+    "published_at": "2026-07-21",
+    "time_note": "日期仅为搜索索引中的正文日期；未直接核验该条完整页面。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-002-baidu.json",
+    "evidence_quote": "金融行业市场化销售经理（J103250）",
+    "ownership_note": "百度官方SOCIAL原生链接的公开索引，和已读取的其他岗位不是同一验证状态。",
+    "scope_note": "本轮索引线索；部分技术售前门槛较高，非自动推荐或自动投递。"
+  },
+  {
+    "id": "baidu-j98717-index-20260911",
+    "company": "百度智能云",
+    "title": "KA业务拓展二组_百度智能云智能终端行业销售经理（J98717）",
+    "city": "深圳市",
+    "location": "深圳市",
+    "salary_raw": null,
+    "job_url": "https://talent.baidu.com/jobs/detail/SOCIAL/108d7efe-441e-48b0-b5e4-a2434a806d3f",
+    "apply_url": null,
+    "source_url": "https://talent.baidu.com/jobs/detail/SOCIAL/108d7efe-441e-48b0-b5e4-a2434a806d3f",
+    "source_kind": "search_index",
+    "description_complete": false,
+    "description": "-负责百度智能云智能终端及消费电子行业（如生活电器、智能家居、大健康类硬件、可穿戴设备、教育办公硬件、创新硬件等）客户的开发与关系维护，制定行业销售策略并完成业绩目标 -洞察智能硬件技术趋势与竞争动态，深入理解客户业务场景与痛点，结合百度AI能力（如智能语音交互、多模态感知等）协同技术团队，针对客户产品智能化需求设计端到端技术方案，推动POC验证与商业化落地 -联动百度内外部生态伙伴（芯片厂商、方案商、渠道商、硬件销售渠道等），构建行业合作网络，推动联合产品开发与市场推广 -与售前、产品、研发、市场团队紧密协作，反馈客户需求与市场声音，助力产品优化与迭代 -负责重点客户的全周期管理，包括合同谈判、交付支持及长期价值挖掘",
+    "requirements": "-学历与背景：本科及以上学历，具备 AIoT / 云平台 / 人工智能 /公有云/语音模组和芯片等相关领域销售经验者优先，具备平台型或解决方案型销售背景尤佳 -熟悉消费电子产品从方案设计、打样、量产到渠道销售的完整流程，具备产业生态资源者优先（包括但不限于SoC芯片原厂/通信模组商/方案商/渠道商/品牌商等） -出色的市场敏感度和结构化分析能力，对新技术、新模式有激情，能够洞察市场趋势、沉淀可规模化复制的行业打法 -具备优秀的商务谈判及沟通能力，能够对客户高层（CXO）/业务及产品负责人进行心智影响和价值传递，并打造强商务关系对客户的决策产生影响，有成功案例支撑 -具有良好的学习能力，能够快速掌握云计算、大模型、多模态交互等技术的核心价值并转化为客户可理解的业务语言 -目标导向、执行力强，具有优秀的团队合作精神、强烈的责任心，能够承受工作压力，适应出差及快节奏的工作环境 -通过百度智能云技术认证或同等资格认证的优先录取，有AI玩具、智能硬件、IoT平台或芯片/模组/方案商销售经验者优先 -有从 0–1 开拓新行业或新产品线的成功经验者优先",
+    "observed_at": "2026-09-10T16:52:56.764Z",
+    "published_at": "2026-07-21",
+    "time_note": "日期仅为搜索索引中的正文日期；未直接核验该条完整页面。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-002-baidu.json",
+    "evidence_quote": "KA业务拓展二组_百度智能云智能终端行业销售经理（J98717）",
+    "ownership_note": "百度官方SOCIAL原生链接的公开索引，和已读取的其他岗位不是同一验证状态。",
+    "scope_note": "该条open仅返回登录，已停止百度后续访问；保留此前索引，不视为开放。"
+  },
+  {
+    "id": "baidu-j103939-index-20260911",
+    "company": "百度智能云",
+    "title": "上海解决方案架构师（J103939）",
+    "city": "上海市",
+    "location": "上海市",
+    "salary_raw": null,
+    "job_url": "https://talent.baidu.com/jobs/detail/SOCIAL/ea053675-4f65-4af2-b820-ae7ed6cd6068",
+    "apply_url": null,
+    "source_url": "https://talent.baidu.com/jobs/detail/SOCIAL/ea053675-4f65-4af2-b820-ae7ed6cd6068",
+    "source_kind": "search_index",
+    "description_complete": false,
+    "description": "-负责客户业务拓展中的需求调研、顶层规划、方案架构和售前宣讲与交流工作 -结合百度智能云产品，为客户提供基础云和大模型解决方案，以支持区域市场的销售机会 -准确把握云计算和大模型技术变革方向与发展，能够作为技术专家引导用户进行技术变革 -密切关注市场需求，拉动公司内部资源，解决客户在使用百度智能云产品或方案过程中遇到的技术问题 -作为项目的重要支撑资源，协助区域销售团队完成项目的技术交流、POC、招投标等关键工作 -协助区域进行市场活动、客户引导和品牌打造 -进行市场调研和竞品分析，为区域云计算和大模型的打法策略与市场规划提供有力支持",
+    "requirements": "-3年以上的云计算解决方案经验，了解行业现状，对行业具备深刻认知和独立思考 -具备系统的咨询与解决方案架构体系，能够快速把握住云计算行业的动态并能够转化为方案引导 -对云计算、人工智能、大数据等产品与技术原理具备较好的理解，熟悉公有云/私有云/混合云，有技术研发或产品技术背景者优先 -1年以上大模型Maas行业经验，了解业界主流大模型平台产品，根据客户需求设计并构建基于大模型平台的解决方案 -了解某一类或几类行业的ISV，并能够协助打造完整的解决方案生态 -方案文档能力优秀，具备娴熟的沟通技巧与方案演讲能力 -具有优秀的团队合作精神、敬业精神、抗压能力",
+    "observed_at": "2026-09-10T16:52:56.764Z",
+    "published_at": "2026-08-25",
+    "time_note": "日期仅为搜索索引中的正文日期；未直接核验该条完整页面。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-002-baidu.json",
+    "evidence_quote": "上海解决方案架构师（J103939）",
+    "ownership_note": "百度官方SOCIAL原生链接的公开索引，和已读取的其他岗位不是同一验证状态。",
+    "scope_note": "本轮索引线索；部分技术售前门槛较高，非自动推荐或自动投递。"
+  },
+  {
+    "id": "baidu-j99570-index-20260911",
+    "company": "百度智能云",
+    "title": "上海售前架构师（J99570）",
+    "city": "上海市",
+    "location": "上海市",
+    "salary_raw": null,
+    "job_url": "https://talent.baidu.com/jobs/detail/SOCIAL/fbe08a75-d826-4545-95a2-b0085cd60f14",
+    "apply_url": null,
+    "source_url": "https://talent.baidu.com/jobs/detail/SOCIAL/fbe08a75-d826-4545-95a2-b0085cd60f14",
+    "source_kind": "search_index",
+    "description_complete": false,
+    "description": "-负责上海区域客户业务拓展中的需求调研、方案架构和售前宣讲与交流工作，结合百度智能云产品，为区域政企客户提供上云、数字化、智能化等相关解决方案售前工作，协助上海区域市场销售进行市场开拓 -把握行业发展动向及技术变革方向，能够将产品、服务等进行融合包装，形成具有创新性与竞争力的行业解决方案 -紧跟市场需求，拉动公司内部资源，推动公司产品快速适配市场需求，解决客户使用百度智能云产品或方案过程中的技术问题 -作为重点支撑资源，协助区域销售攻坚项目，包括项目技术交流、POC、招投标等重要工作 -协助区域进行市场活动、客户引导和品牌打造",
+    "requirements": "-本科及以上学历，计算机科学、信息技术、软件工程等相关专业优先 -具备3-5年售前解决方案架构师或相关领域工作经验，特别是针对央国企客户，具备丰富的项目运作与落地经验的优先 -精通算力、云计算、大模型等前沿技术，且具备丰富的实操经验 -优秀的沟通能力和团队协作精神，能够与客户、销售团队及内部技术团队有效协作 -方案文档能力优秀，善于撰写PPT、立项与投标等技术方案，且具备娴熟的沟通技巧与方案演讲能力",
+    "observed_at": "2026-09-10T16:52:56.764Z",
+    "published_at": "2026-08-26",
+    "time_note": "日期仅为搜索索引中的正文日期；未直接核验该条完整页面。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-002-baidu.json",
+    "evidence_quote": "上海售前架构师（J99570）",
+    "ownership_note": "百度官方SOCIAL原生链接的公开索引，和已读取的其他岗位不是同一验证状态。",
+    "scope_note": "本轮索引线索；部分技术售前门槛较高，非自动推荐或自动投递。"
+  },
+  {
+    "id": "baidu-j101421-index-20260911",
+    "company": "百度智能云",
+    "title": "百度智能云智慧工业解决方案架构师（J101421）",
+    "city": "北京市,上海市,深圳市",
+    "location": "北京市,上海市,深圳市",
+    "salary_raw": null,
+    "job_url": "https://talent.baidu.com/jobs/detail/SOCIAL/ea1b9710-431f-478a-861c-a68ceefaf1e8",
+    "apply_url": null,
+    "source_url": "https://talent.baidu.com/jobs/detail/SOCIAL/ea1b9710-431f-478a-861c-a68ceefaf1e8",
+    "source_kind": "search_index",
+    "description_complete": false,
+    "description": "-深入调研Agentic AI、Physical AI的应用市场，分析行业动态、客户痛点，识别适合百度智能云的市场机会 -深入理解客户业务场景与技术痛点，结合百度智能云全栈AI能力（视觉智能、智能营销、伐谋、本体建模、文心大模型、千帆大模型平台、Agent开发框架、昆仑芯等），设计\"AI+\"深度融合的端到端解决方案，推动POC验证与商业化落地 -负责工业领域客户的售前技术工作，把握客户业务战略与AI化转型目标，制定行业销售与技术拓展策略并支撑业绩目标达成 -运用Vibe Coding等AI辅助编程/智能体编程方式，快速搭建可运行的PoC/demo原型，缩短方案验证周期，提升客户对技术方案的信心与决策效率 -重点拓展Token相关业务，识别客户AI场景类型（算力驱动型/数据驱动型），面向企业客户设计大模型Token消耗测算与成本优化方案（模型选型、Prompt工程、缓存复用等），协助客户理解并采纳新型AI算力/推理服务计费模式，推动客户从签约到规模化用云 -重点拓展新制造业务方向的技术方案与商机，如智能终端、零售、机器人、补能等 -联动百度内外部生态伙伴（设备厂商、系统集成商、行业协会、ISV等），构建行业合作网络，整合资源推动联合市场拓展与商机转化 -与销售、产品、研发、市场团队紧密协作，反馈客户需求与一线市场声音，助力产品优化迭代，沉淀可规模化复制的行业方案与最佳实践 -负责重点客户的售前全周期支持，包括方案设计、技术选型、POC实施指导、投标支持及交付验收关键节点的技术把关",
+    "requirements": "-学历与背景：本科及以上学历，计算机、人工智能、软件工程、工业自动化等相关专业优先；具备云计算/AI领域售前、解决方案架构或技术咨询经验者优先 -行业理解：对Agentic AI、Physical AI场景的业务模式与决策链路有基本认知，具备工业领域研产供销服等场景的方案设计经验者优先，无相关行业经验但AI技术能力突出者同样欢迎 -技术能力：熟悉云计算、大模型（LLM/Agent）、工业视觉、IoT等技术体系的核心原理，能将技术能力转化为客户可理解的业务语言；具备扎实的编程能力（Python等），熟悉Vibe Coding类AI编程工具，能独立或指导团队快速完成POC搭建与验证者优先 -新兴方向敏感度：对智能终端、Token经济、具身智能、储能补能、AI创业生态等新兴技术与商业模式有持续关注和学习能力，能快速将行业趋势转化为客户价值主张 - 商务能力：出色的市场敏感度和结构化分析能力，具备优秀的商务谈判与沟通能力，能够对客户高层（CXO）及业务/技术负责人进行价值传递，并对客户的决策产生影响 -执行力：目标导向、自驱力强，具有优秀的团队合作精神，能够承受工作压力，适应出差及快节奏的工作环境 -通过百度智能云技术认证或同等资格认证的优先录取 - 有从0-1开拓新行业、新产品线或新兴业务方向的成功经验者优先",
+    "observed_at": "2026-09-10T16:52:56.764Z",
+    "published_at": "2026-07-21",
+    "time_note": "日期仅为搜索索引中的正文日期；未直接核验该条完整页面。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/pm-002-baidu.json",
+    "evidence_quote": "百度智能云智慧工业解决方案架构师（J101421）",
+    "ownership_note": "百度官方SOCIAL原生链接的公开索引，和已读取的其他岗位不是同一验证状态。",
+    "scope_note": "本轮索引线索；部分技术售前门槛较高，非自动推荐或自动投递。"
+  },
+  {
+    "id": "salesyi-account-20260911",
+    "company": "销售易",
+    "title": "客户经理",
+    "city": "北京/上海/广州/深圳/成都/杭州/南京",
+    "location": "北京/上海/广州/深圳/成都/杭州/南京",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://www.xiaoshouyi.com/about-us/career",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "1. 拜访客户进行商务谈判，通过对客户的沟通，挖掘、分析品牌客户需求制定BD计划；\n  2.  有效协调利用公司线上/线下资源，辅助客户在销售、渠道和营销等方面的数字化转型；\n  3.  整合公司内部资源，独立开拓品牌客户，结合品牌客户需求推进业务合作，成功签约意向客户；\n  4.  维护签约客户良好的合作关系，及时跟进新需求，帮助客户整合公司资源取得业务发展，\n同时积极挖掘客户需求提升企业自身的竞争力。",
+    "requirements": "1. 本科及以上学历，三年及以上商务拓展、销售等工作经验；\n  2.  具备较强的客户需求分析能力、客户管理能力和商务谈判能力，有CRM行业销售经验及客户资源者优先；\n  3.  良好的职业形象，逻辑思维清晰；\n  4.  热爱销售工作，有强烈的事业心、抗压性和自信心，具有优秀的沟通能力。",
+    "observed_at": "2026-09-10T17:03:24.461Z",
+    "published_at": null,
+    "time_note": "官网未披露社招发布日期，首次观察不等于新发布；与同页校招块分开。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/029-open-salesyi.json",
+    "evidence_quote": "1. 拜访客户进行商务谈判，通过对客户的沟通，挖掘、分析品牌客户需求制定BD计划；",
+    "evidence_line_ranges": {
+      "responsibilities": [
+        509,
+        513
+      ],
+      "requirements": [
+        517,
+        520
+      ]
+    },
+    "ownership_note": "销售易官方career页，按CBG社招区块提取，未把同页校招或产品工程岗混入。",
+    "scope_note": "没有取得独立岗位链接；通过官网来源页的同名条目回查。薪资、真实管理权限和招聘有效性待核。"
+  },
+  {
+    "id": "salesyi-solutions-20260911",
+    "company": "销售易",
+    "title": "方案顾问",
+    "city": "北京/上海/广州/深圳/杭州",
+    "location": "北京/上海/广州/深圳/杭州",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://www.xiaoshouyi.com/about-us/career",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "1. 具备较高的业务分析能力与业务敏感度，不仅能理解客户需求，更能引导客户认识并提出真正有价值的需求；\n  2.  具高的产品技术理解能力，精通销售各产品线的基本和定制化能力；\n  3.  具备独立完成备较售前工作的能力，包括承担业务方案、产品落地解决方案的设计、SOW编写与谈判、项目计划和Resource Plan制定、服务成本估算、合同谈判等；\n  4.  具备独立完成项目交付全过程工作的能力，包括业务分析、文档编写、产品配置、测试及培训等；\n  5.  能够承担项目整体管理责任，包括客户沟通、项目进度管理、团队管理、成本管控等；\n  6. 有能力协调和调动公司内部资源，管控复杂项目（包括独立部署项目）从售前直至完成交付全过程，具备出色的问题处理能力。",
+    "requirements": "1. 本科及以上学历，计算机相关专业及营销专业优先；\n  2.  3年及以上B2B的销售工作经验，熟悉SaaS、CRM、ERP优先考虑；\n  3.  抗压性强，综合素质高，具备良好的销售与商务谈判能力；\n  4.  具有售前工作经验者优先 。",
+    "observed_at": "2026-09-10T17:03:24.461Z",
+    "published_at": null,
+    "time_note": "官网未披露社招发布日期，首次观察不等于新发布；与同页校招块分开。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/029-open-salesyi.json",
+    "evidence_quote": "1. 具备较高的业务分析能力与业务敏感度，不仅能理解客户需求，更能引导客户认识并提出真正有价值的需求；",
+    "evidence_line_ranges": {
+      "responsibilities": [
+        525,
+        530
+      ],
+      "requirements": [
+        534,
+        537
+      ]
+    },
+    "ownership_note": "销售易官方career页，按CBG社招区块提取，未把同页校招或产品工程岗混入。",
+    "scope_note": "没有取得独立岗位链接；通过官网来源页的同名条目回查。薪资、真实管理权限和招聘有效性待核。"
+  },
+  {
+    "id": "salesyi-csm-20260911",
+    "company": "销售易",
+    "title": "客户成功经理",
+    "city": "北京/上海/广州/深圳",
+    "location": "北京/上海/广州/深圳",
+    "salary_raw": null,
+    "job_url": null,
+    "apply_url": null,
+    "source_url": "https://www.xiaoshouyi.com/about-us/career",
+    "source_kind": "official",
+    "description_complete": true,
+    "description": "1. 负责关键客户的维护，为客户CRM系统成功应用负责，承担续约率及客户满意度等目标；\n  2.  为客户方销售管理层提供贴合业务模式的销售管理及系统应用方面的咨询建议；\n  3.  了解客户行业特点及销售管理流程，指导客户将销售运营与CRM软件使用进行有效的结合，提升产品价值，提高客户满意度；\n  4.  引导客户需求并识别二次销售机会，为公司创造新的利润点；\n  5.  能够协调其他团队资源，推进项目及需求进展，为客户持续提供服务，并总结成功案例；\n  6.  能够通过数据分析及最佳实践总结，推动赋能区域伙伴提升客户成功能力。",
+    "requirements": "1. 本科以上学历，企业管理软件行业相关岗位3年以上工作经验；\n  2.  具备CRM、ERP等企业管理专业软件实施咨询经验优先；\n  3.  具备直接面对客户高层工作经验；有销售管理经验者优先；\n  4.  良好的客户服务意识，工作认真、严谨，责任心强，具有高度的敬业精神和团队协作意识；\n  5.  具备独立的问题分析及解决能力；\n  6.  强沟通能力及亲和力。",
+    "observed_at": "2026-09-10T17:03:24.461Z",
+    "published_at": null,
+    "time_note": "官网未披露社招发布日期，首次观察不等于新发布；与同页校招块分开。",
+    "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-11/raw/029-open-salesyi.json",
+    "evidence_quote": "1. 负责关键客户的维护，为客户CRM系统成功应用负责，承担续约率及客户满意度等目标；",
+    "evidence_line_ranges": {
+      "responsibilities": [
+        542,
+        547
+      ],
+      "requirements": [
+        550,
+        555
+      ]
+    },
+    "ownership_note": "销售易官方career页，按CBG社招区块提取，未把同页校招或产品工程岗混入。",
+    "scope_note": "没有取得独立岗位链接；通过官网来源页的同名条目回查。薪资、真实管理权限和招聘有效性待核。"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "captured_at": "2026-09-22T17:51:40.151442+00:00",
+  "command": "node --test careers/tests/discovery-runtime.test.mjs",
+  "exit_code": 0,
+  "tests": 23,
+  "passed": 23,
+  "failed": 0,
+  "mode": "offline_fixture_integration_with_isolated_offline_Chrome",
+  "test_counts_not_additive_with_full_suite": true,
+  "source_sha256": {
+    "careers/discovery.mjs": "50c6b1036d419db4d90e6c2f2d1b328e969ad61be21cb82317f7df64e73dccf2",
+    "careers/tests/discovery-runtime.test.mjs": "3783851bd57ce721b52ddaa66541e34920d4f50113f257a6aecb697b80767adb"
+  },
+  "log": "careers/docs/project-refresh-2026-09-23/discovery-final.log"
+}

@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-09-22T17:46:47.714611+00:00",
+  "command": "npm run careers:test",
+  "exit_code": 0,
+  "tests": 312,
+  "passed": 312,
+  "failed": 0,
+  "mode": "offline_fixtures_with_isolated_offline_Chrome",
+  "scope": "Whole existing suite; later fairness fix requires a focused rerun",
+  "log": "careers/docs/project-refresh-2026-09-23/full-suite.log"
+}

@@ -1,0 +1,1860 @@
+{
+  "batch_id": "9efac8a7-3403-40e0-bb0d-17c125ed4b31",
+  "analyses": [
+    {
+      "job_key": "bailian-official-joinus:www.bailian-ai.com:79",
+      "cache_key": "e93328585c0986f8664cd584f1592792d3eea03598536b321795f7de8366b700",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "对企业或政务项目的需求范围、设计、成本、进度、质量及客户验收负责，以实施文档、现场沟通和持续需求经营连接客户与交付销售。",
+      "value_proposition": "经营问题诊断、工具设计、客户汇报及跨团队推进可以迁移；已知一般销售管理4年，不等于三年TOB/TOG项目管理，统招属性、PMP及正式验收成本控制仍缺证。",
+      "verdict": "暂缓实施项目经理，专业年限与认证证据待补",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "统招大专及以上，至少三年TOB/TOG项目管理",
+          "jd_quote": "1、统招大专及以上学历，3年及以上TOB/TOG项目管理工作经验；",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-EDUCATION",
+            "EV-CAREER-TENURE"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-EDUCATION",
+              "quote": "2020.09—2022.06 广东培正学院 行政管理 本科；2016.09—2019.06 广东工商学院 金融管理 专科。"
+            },
+            {
+              "evidence_id": "EV-CAREER-TENURE",
+              "quote": "4年汽车行业销售管理与互联网平台商业化经营经验。特斯拉｜销售主管｜2022.07—2023.12；乐道汽车｜店长｜2024.03—2025.06；懂车帝｜储备区域经理｜2025.07—至今。"
+            }
+          ],
+          "explanation": "已知行政管理本科及金融管理专科，学历层级达到大专以上，但现有原句未说明统招属性；4年一般销售管理和平台经营也不证明三年TOB/TOG项目管理，不把客户运营或门店项目自动换算为软件实施年限。",
+          "hard_gate": true
+        },
+        {
+          "id": "R2",
+          "requirement": "需求范围、成本原型及全生命周期质量进度管理",
+          "jd_quote": "1、负责项目需求分析和梳理，确定项目需求范围并主导成本评估，主导功能设计并进行原型设计；\n2、负责实施项目管理工作，包括对项目整体上的监督、管理和指导，包括项目启动、项目计划、项目验收及项目的总结评审及相关工作，并对项目全流程的质量、进度和成本进行把控；",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-AI-OPS",
+            "EV-DCD-BIZOPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "设计AI地图工作台，整合当月、对比、推广包、线索、车型和位置数据，按月目标价值、任务紧急度和路线可执行性输出每日8家优先商户、到店动作与路线；分析约9.2万条车源记录和3.2万个车源ID，构建近4000个车型四象限并下钻CTR/CVR问题，形成商家经营建议。"
+            },
+            {
+              "evidence_id": "EV-DCD-BIZOPS",
+              "quote": "主导涉及大区其他区域同事的目标拆解与周/月经营复盘，负责分工和后续督办；参与推广包、客户政策、资源配置及运营策略调整。"
+            }
+          ],
+          "explanation": "工具需求设计、目标拆解和执行督办支持业务项目推进；缺合同范围基线、工期成本预算、变更控制、原型评审及客户正式验收证据，不能称已独立负责复杂软件交付。",
+          "hard_gate": false
+        },
+        {
+          "id": "R3",
+          "requirement": "编制客户汇报文档、现场沟通并拓展后续需求",
+          "jd_quote": "3、负责项目实施过程的文档编制及配合客户进行的汇报工作；\n4、参与项目的现场实施，维持与客户的良好关系，保证项目顺利验收交付；\n5、负责客户需求深挖，持续服务并引导客户新需求拓展，可支持销售促成新老客户项目机会。",
+          "weight": 4,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-ROI",
+            "EV-DCD-SECONDHAND"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-ROI",
+              "quote": "建立客户业务现状、获客链路、投放组合、成交转化、ROI测算的诊断方法，输出经营分析报告、商户诊断报告、ROI测算表、月度经营建议、复盘报告和老板沟通PPT。"
+            },
+            {
+              "evidence_id": "EV-DCD-SECONDHAND",
+              "quote": "对接获客负责人拆解线索量、成交数据及目标差距，通过行业案例、平台数据和ROI测算推动老板决策，后续陪跑车源上架、投放组合、线索承接和后端跟进。"
+            }
+          ],
+          "explanation": "经营报告、老板沟通和持续客户陪跑可迁移为客户表达与需求发现；未证明软件现场实施、技术交付文档和项目验收，客户到店陪跑不能替代实施交付。",
+          "hard_gate": false
+        },
+        {
+          "id": "R4",
+          "requirement": "持有PMP项目管理认证",
+          "jd_quote": "5、有PMP项目管理认证",
+          "weight": 3,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供PMP持证事实、证书或有效状态，不能由项目负责人称谓推定认证已取得。",
+          "hard_gate": true
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R1",
+          "status": "unknown",
+          "reason": "学历层级明确达到要求，但统招属性未说明；三年TOB/TOG项目管理年限未证明，一般四年销售管理不能平移。"
+        },
+        {
+          "requirement_id": "R4",
+          "status": "unknown",
+          "reason": "JD将PMP单独列为任职要求，现有事实无持证证据，需核实或由招聘方明确是否可放宽。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "defer",
+      "resume_advice": "先核实PMP、统招属性和专业项目年限，再决定是否转向实施项目经理。补一份本人真实负责的项目范围、计划、成本、变更、客户汇报与验收材料，并区分经营协调与正式实施责任；现有地图和商户方案可作迁移案例，不得改写为数据中台、知识图谱、NLP实施或客户级AI POC，相关项目只是JD加分项。",
+      "questions": [
+        "是否具有PMP有效证书及统招学历证明？",
+        "是否有至少三年TOB/TOG项目管理履历与客户验收材料，能明确本人对质量、进度和成本的责任？"
+      ]
+    },
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7208019802982598968",
+      "cache_key": "3d802991a2d94c023bccf98bf425e13296e488242125371d58a4b2cad33365bc",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "把目标行业头部客户的业务需求转化为可验证的模型方案与持续用量，连接客户决策层、技术团队和内部研发交付，承担从开拓到扩展的商业推进。",
+      "value_proposition": "可迁移价值在于汽车平台客户开发、老板决策沟通和ROI诊断，并有把经营数据转成AI工具与行动建议的实践；尚不能证明云/MaaS销售资历、技术Demo或客户POC交付。",
+      "verdict": "可迁移客户经营与场景诊断，云销售门槛待核实",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "目标行业KA开拓、多角色经营与客户决策地图",
+          "jd_quote": "1、负责泛互联网、智能硬件、文娱游戏、广告媒体等行业的头部 KA 开拓与深耕，建立并维护产品、技术、业务、高管等多层次客户关系；\n2、系统掌握客户业务现状、战略规划、技术架构及 AI 应用成熟度，绘制完整的决策地图；",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-ROI",
+            "EV-DCD-SECONDHAND"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-ROI",
+              "quote": "负责广州北汽车行业KA、区域头部和中小商户运营，客户关注获客、线索转化、成交效率、门店周转、人效和利润空间。"
+            },
+            {
+              "evidence_id": "EV-DCD-SECONDHAND",
+              "quote": "对接获客负责人拆解线索量、成交数据及目标差距，通过行业案例、平台数据和ROI测算推动老板决策，后续陪跑车源上架、投放组合、线索承接和后端跟进。"
+            }
+          ],
+          "explanation": "证据证明汽车KA、获客负责人和老板之间的经营诊断与方案推进；不能据此认定具备目标行业头部资源、研发关系、技术架构分析或完整企业IT采购链路。",
+          "hard_gate": false
+        },
+        {
+          "id": "R2",
+          "requirement": "把模型能力翻译为业务价值并识别高ROI切入场景",
+          "jd_quote": "2、技术理解力：具备一定的 AI 技术认知，能将模型能力有效转化为业务价值主张，在与客户研发、产品团队的沟通中清晰传递公司技术方案和模型的差异化优势；\n3、场景洞察力：能快速识别客户最具 ROI 价值的 AI 落地场景，制定清晰可执行的切入路径；",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-ROI",
+            "EV-AI-OPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-ROI",
+              "quote": "建立客户业务现状、获客链路、投放组合、成交转化、ROI测算的诊断方法，输出经营分析报告、商户诊断报告、ROI测算表、月度经营建议、复盘报告和老板沟通PPT。"
+            },
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "设计AI地图工作台，整合当月、对比、推广包、线索、车型和位置数据，按月目标价值、任务紧急度和路线可执行性输出每日8家优先商户、到店动作与路线；分析约9.2万条车源记录和3.2万个车源ID，构建近4000个车型四象限并下钻CTR/CVR问题，形成商家经营建议。"
+            }
+          ],
+          "explanation": "经营诊断和地图工具支持从业务问题识别价值场景；未提供模型选型对比、技术差异讲解及面向客户研发的沟通记录，不能把会用AI等同于技术售前能力。",
+          "hard_gate": true
+        },
+        {
+          "id": "R3",
+          "requirement": "独立演示技术Demo、推进POC并扩展客户上线用量",
+          "jd_quote": "3、具备技术方案能力，独立制作并演示技术 Demo，将模型能力直观呈现给客户，推动 POC 快速推进；\n4、持续跟踪客户上线效果，推动 AI 应用在客户内部规模化复制，挖掘增量商机。",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供面向客户的模型技术Demo、POC目标与验收、上线用量或扩展案例；内部经营工具及个人提效不能等同于客户级POC或商业化扩展。",
+          "hard_gate": true
+        },
+        {
+          "id": "R4",
+          "requirement": "整合研发、产品与交付资源推进复杂项目",
+          "jd_quote": "4、项目推进力：具备强跨团队协调能力，能高效整合研发、产品、交付等内部资源，推动复杂项目按时落地。",
+          "weight": 4,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-COORDINATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-COORDINATION",
+              "quote": "协同产品、客服、运营团队闭环产品Bug、数据复盘、客户需求反馈和客诉安抚，将一线客户诉求向产品和运营侧沉淀。"
+            }
+          ],
+          "explanation": "已做客户问题与产品、客服、运营闭环，可迁移为需求澄清和跨团队推进；缺少研发交付排期、技术风险、里程碑与客户验收责任证据。",
+          "hard_gate": false
+        },
+        {
+          "id": "R5",
+          "requirement": "本科及以上学历",
+          "jd_quote": "本科及以上学历",
+          "weight": 2,
+          "coverage": "direct",
+          "evidence_ids": [
+            "EV-EDUCATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-EDUCATION",
+              "quote": "2020.09—2022.06 广东培正学院 行政管理 本科；2016.09—2019.06 广东工商学院 金融管理 专科。"
+            }
+          ],
+          "explanation": "行政管理本科学历直接满足未限定专业的本科要求，不等于技术专业背景。",
+          "hard_gate": true
+        },
+        {
+          "id": "R6",
+          "requirement": "至少三年云厂商或MaaS平台ToB销售经验",
+          "jd_quote": "3 年以上云厂商或MaaS 平台ToB 销售经验",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-CAREER-TENURE"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-CAREER-TENURE",
+              "quote": "4年汽车行业销售管理与互联网平台商业化经营经验。特斯拉｜销售主管｜2022.07—2023.12；乐道汽车｜店长｜2024.03—2025.06；懂车帝｜储备区域经理｜2025.07—至今。"
+            }
+          ],
+          "explanation": "已有4年一般汽车销售管理与平台经营经历，但没有可核验的三年云厂商或MaaS平台ToB销售年限，不能把一般销售年限平移。",
+          "hard_gate": true
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R2",
+          "status": "unknown",
+          "reason": "ROI与内部AI工具经验只能部分迁移；模型选型、技术差异表达及客户研发沟通没有直接证据。"
+        },
+        {
+          "requirement_id": "R3",
+          "status": "unknown",
+          "reason": "缺少技术Demo、客户POC和上线扩展证据，核心技术销售能力未获确认。"
+        },
+        {
+          "requirement_id": "R5",
+          "status": "met",
+          "reason": "EV-EDUCATION明确行政管理本科，JD未要求计算机专业。"
+        },
+        {
+          "requirement_id": "R6",
+          "status": "unknown",
+          "reason": "4年一般销售管理已知；其中是否存在三年云厂商或MaaS平台ToB销售，现有事实未证明。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "tailor",
+      "resume_advice": "按业务场景型技术销售重写主线，前置客户问题诊断、ROI方案和决策推进案例，再附地图工具的需求、演示、边界与验证材料；先核实云/MaaS行业年限能否放宽。不得宣称已有AI合同、客户POC、技术选型或企业IT采购链路经验；补一份真实技术演示记录与个人职责说明后再评估技术部分。",
+      "questions": [
+        "除已列任职外，是否有可核验的云厂商或MaaS ToB销售经历，具体起止时间与职责是什么？",
+        "是否保留本人独立演示模型方案、与客户技术人员交流或推进技术试验的材料？没有则明确记无。"
+      ]
+    },
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7513910355632146698",
+      "cache_key": "c335c4e4442f87c2108a27ac438371e32f53c90460dc4f320d156a773836cc02",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "通过国际客户开拓、销售策略、商务谈判和项目实施形成持续商业增长，协调客户预期与内部交付，同时反馈海外市场机会。",
+      "value_proposition": "一般销售年限和获客转化成果有直接证据，客户持续经营与跨团队推进可迁移；国际市场、英文商务、目标行业资源及端到端软件商务谈判尚无证据。",
+      "verdict": "一般销售资历匹配，英文与跨境商务证据待补",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "开发新客户并经营现有客户关系",
+          "jd_quote": "1.Client Acquisition and Management: Identify and pursue new business opportunities, while nurturing and expanding relationships with existing clients.",
+          "weight": 5,
+          "coverage": "direct",
+          "evidence_ids": [
+            "EV-DCD-GROWTH"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-GROWTH",
+              "quote": "通过路线规划、客户画像筛选、陌拜、转介绍、案例拜访等方式推动开发和回捞，管理客户阶段和跟进节奏。"
+            },
+            {
+              "evidence_id": "EV-DCD-GROWTH",
+              "quote": "客户规模增长16.7%（180家到210家）；召回约20家沉默客户，直接开发10家。"
+            }
+          ],
+          "explanation": "个人客户开发、沉默客户召回和跟进节奏直接证明通用获客与关系经营能力；证明范围是汽车行业个人客户，不是全球AI大客户。",
+          "hard_gate": false
+        },
+        {
+          "id": "R2",
+          "requirement": "主导端到端商务谈判、合同达成与产品推广",
+          "jd_quote": "Your expertise will be crucial in leading end-to-end business negotiations, finalizing contracts, and designing innovative product promotion strategies to expand our global footprint.",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供国际商务条款谈判、软件合同签署、法务采购协作或本人负责的合同结果；汽车销售及平台消耗不能补成AI合同或跨境成交证据。",
+          "hard_gate": false
+        },
+        {
+          "id": "R3",
+          "requirement": "国际市场策略、项目实施与跨职能增长协同",
+          "jd_quote": "2.Sales Strategy Development: Craft and implement effective sales strategies tailored to diverse international markets.\n3.Project Execution: Oversee the successful implementation of projects, ensuring alignment with client expectations and business objectives.\n4.Market Analysis: Conduct in-depth analysis of international market trends to identify growth opportunities and propose product enhancements.\n5.Business Growth: Collaborate with cross-functional teams to accelerate business growth and drive revenue.",
+          "weight": 4,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-ONVO-MANAGEMENT",
+            "EV-DCD-COORDINATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-ONVO-MANAGEMENT",
+              "quote": "主导广东湛江、安徽芜湖下沉市场开拓，负责门店运营、团队目标和人员带教。"
+            },
+            {
+              "evidence_id": "EV-DCD-COORDINATION",
+              "quote": "协同产品、客服、运营团队闭环产品Bug、数据复盘、客户需求反馈和客诉安抚，将一线客户诉求向产品和运营侧沉淀。"
+            }
+          ],
+          "explanation": "国内下沉市场开拓和产品运营协作提供策略执行基础；没有国际市场进入策略、跨境履约和跨文化协作证据，不把国内跨区域协同写成全球经营。",
+          "hard_gate": false
+        },
+        {
+          "id": "R4",
+          "requirement": "一至五年经验与可验证的销售结果",
+          "jd_quote": "1.Experience: 1-5 years of experience with a strong sales acumen; prior experience in a sales role is highly preferred.",
+          "weight": 4,
+          "coverage": "direct",
+          "evidence_ids": [
+            "EV-CAREER-TENURE",
+            "EV-TESLA-SALES"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-CAREER-TENURE",
+              "quote": "4年汽车行业销售管理与互联网平台商业化经营经验。特斯拉｜销售主管｜2022.07—2023.12；乐道汽车｜店长｜2024.03—2025.06；懂车帝｜储备区域经理｜2025.07—至今。"
+            },
+            {
+              "evidence_id": "EV-TESLA-SALES",
+              "quote": "华南区600人销售业绩连续两个季度销冠"
+            }
+          ],
+          "explanation": "已知4年一般销售管理与平台经营经验在1-5年范围内，个人销冠与交付成果支持销售能力；这里未把云/MaaS经历设为要求，也不将销售经历仅按管理岗筛选。",
+          "hard_gate": true
+        },
+        {
+          "id": "R5",
+          "requirement": "流利英文与出色商务沟通，其他语言为加分项",
+          "jd_quote": "2.Language Skills: Fluent in English with exceptional communication skills; proficiency in additional languages is a plus.",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "当前商务英语水平未知，没有英文客户交流或谈判样例；简历与中文业务沟通不构成英文流利证据，其他语言只是加分。",
+          "hard_gate": true
+        },
+        {
+          "id": "R6",
+          "requirement": "互联网、媒体或娱乐行业理解及KA资源",
+          "jd_quote": "3.Industry Knowledge: Solid understanding of the internet, media, or entertainment industries; existing key account resources or networks are highly desirable.",
+          "weight": 4,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-ROI"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-ROI",
+              "quote": "负责广州北汽车行业KA、区域头部和中小商户运营，客户关注获客、线索转化、成交效率、门店周转、人效和利润空间。"
+            }
+          ],
+          "explanation": "汽车互联网平台商户经营可迁移至广告投放和客户ROI理解；没有国际媒体娱乐头部KA资源清单，资源为优先项，不应虚构或当作必备资格已满足。",
+          "hard_gate": true
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R4",
+          "status": "met",
+          "reason": "EV-CAREER-TENURE明确4年一般经历，EV-TESLA-SALES提供销售结果，满足此处未限行业的经验范围。"
+        },
+        {
+          "requirement_id": "R5",
+          "status": "unknown",
+          "reason": "Fluent in English是明确要求，现有事实未提供语言水平或英文商务样例。"
+        },
+        {
+          "requirement_id": "R6",
+          "status": "unknown",
+          "reason": "互联网平台业务接触有依据，但对目标行业的深入理解需案例核实；现成KA资源是优先项，不是绝对淘汰条件。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "tailor",
+      "resume_advice": "以客户开发和持续经营为主线，而非沿用区域管理求职标题；前置个人客户增长与销售表现，补一份本人完成的英文商务介绍、一次谈判职责及结果记录。先明确北京或上海等国内岗位入口，海外岗位另核工作许可；不得补写国际AI合同或全球KA资源，不能因全球职位名称推定必须海外落地。",
+      "questions": [
+        "是否能提供一次本人完成的英文客户沟通或五分钟英文业务介绍样例？",
+        "是否有跨境客户、商务合同谈判或海外工作许可的已确认事实？请区分个人参与和最终负责。"
+      ]
+    },
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7545752001586825515",
+      "cache_key": "ffe0ef3610c4bd34c640e55eed2cc9f2e1be03da3243af42adaaf181f2ccd762",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "建立并经营目标海外区域的销售体系、客户网络、团队与长期市场策略，将全球战略转成区域竞争力和可持续增长。",
+      "value_proposition": "汽车门店团队管理、下沉市场开拓及个人客户经营机制具备可迁移价值；已知一般经历仅4年，缺少五年以上指定行业管理资历和目标海外市场经营证据。",
+      "verdict": "暂缓海外区域负责人，年限与市场经验差距大",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "五年以上互联网、科技或投行行业销售管理",
+          "jd_quote": "1. 5+ years of sales management experience in internet, technology, or investment banking industries.",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-CAREER-TENURE",
+            "EV-ONVO-MANAGEMENT"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-CAREER-TENURE",
+              "quote": "4年汽车行业销售管理与互联网平台商业化经营经验。特斯拉｜销售主管｜2022.07—2023.12；乐道汽车｜店长｜2024.03—2025.06；懂车帝｜储备区域经理｜2025.07—至今。"
+            },
+            {
+              "evidence_id": "EV-ONVO-MANAGEMENT",
+              "quote": "同期直管10人，覆盖主管、业务主管及一线销售；负责招聘、绩效评价、激励分配决策，参与晋升推荐。主导目标拆解、渠道搭建、执行复盘，统筹门店人员、场地与车辆资源。"
+            }
+          ],
+          "explanation": "已知总体为4年一般销售管理与平台经营，不能满足5+年的指定行业销售管理；10人直管是真实管理范围，但不能扩大年限或改称科技行业区域管理。",
+          "hard_gate": true
+        },
+        {
+          "id": "R2",
+          "requirement": "熟悉欧洲、中东、非洲或日韩市场并制定战略",
+          "jd_quote": "2.Strong familiarity with markets such as Europe, Middle East, Africa, or Japan-Korea, with keen business acumen and excellent strategic planning and execution skills.",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供目标区域客户、渠道、市场策略或本地运营经历；中国境内跨城市经验不能替代这些海外市场知识。",
+          "hard_gate": true
+        },
+        {
+          "id": "R3",
+          "requirement": "搭建区域销售运营体系并协同全球战略落地",
+          "jd_quote": "1.Oversee business development and overall operations in the target regional market, including but not limited to sales system setup, market expansion, customer relationship management, team building, and daily operations.Collaborate effectively with global teams to drive the implementation of the company’s globalization strategy.\n2.Develop and execute long-term strategic plans for the region, leading efforts in market positioning, technology branding, industry-specific solution design, and sales strategy formulation to enhance regional market competitiveness and influence.",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-ONVO-MANAGEMENT",
+            "EV-DCD-BIZOPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-ONVO-MANAGEMENT",
+              "quote": "同期直管10人，覆盖主管、业务主管及一线销售；负责招聘、绩效评价、激励分配决策，参与晋升推荐。主导目标拆解、渠道搭建、执行复盘，统筹门店人员、场地与车辆资源。"
+            },
+            {
+              "evidence_id": "EV-DCD-BIZOPS",
+              "quote": "个人负责广州北210家商户，同时承担大区其他区域同事间的经营协同职责。"
+            }
+          ],
+          "explanation": "10人门店管理、目标拆解和市场开拓可支持局部经营机制；210家为个人客户，跨区域分工督办不是大区人事权，更没有跨国组织、区域全面经营或技术品牌策略责任证据。",
+          "hard_gate": false
+        },
+        {
+          "id": "R4",
+          "requirement": "目标产业理解、战略KA关系与重大合作推进",
+          "jd_quote": "3.In-depth knowledge of one or more of the following industries: internet, advertising media, gaming & entertainment, or high-tech; existing relationships with major accounts is a plus.",
+          "weight": 4,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-ROI",
+            "EV-DCD-SECONDHAND"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-ROI",
+              "quote": "负责广州北汽车行业KA、区域头部和中小商户运营，客户关注获客、线索转化、成交效率、门店周转、人效和利润空间。"
+            },
+            {
+              "evidence_id": "EV-DCD-SECONDHAND",
+              "quote": "对接获客负责人拆解线索量、成交数据及目标差距，通过行业案例、平台数据和ROI测算推动老板决策，后续陪跑车源上架、投放组合、线索承接和后端跟进。"
+            }
+          ],
+          "explanation": "汽车平台获客与投放诊断可迁移到广告媒体商业问题，但不证明全球目标行业KA资源和战略伙伴关系；既有大客户关系是加分项，不能把汽车老板沟通等同于海外重大合作。",
+          "hard_gate": true
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R1",
+          "status": "unmet",
+          "reason": "已知总体4年，低于5+年门槛，且缺少指定行业销售管理证据。"
+        },
+        {
+          "requirement_id": "R2",
+          "status": "unknown",
+          "reason": "目标海外区域市场熟悉度无事实证明，不能以全国开放偏好代替能力。"
+        },
+        {
+          "requirement_id": "R4",
+          "status": "unknown",
+          "reason": "汽车互联网商户经营只覆盖相邻场景；目标产业深度需核实，现成KA关系为加分项。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "defer",
+      "resume_advice": "先不以海外区域负责人定位求职，保留10人直管、国内市场开拓和经营机制为未来迁移资产。重启此岗前需补足符合行业口径的管理履历、海外区域经营案例及当地工作资格；国内任职、个人210家商户和累计带教21人均不能包装为海外大区管理规模。",
+      "questions": [
+        "是否存在未列入事实的海外区域经营经历或更早的相关管理任职，可提供起止时间与职责证明？"
+      ]
+    },
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7612560574200023323",
+      "cache_key": "822e1271c2ab9c9b83fbc0bac83bed5133e3111e318b379ecd18edcf097fe1d2",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "把销售战略转成可执行的客户、业绩、激励及资源规则，用可追踪的指标体系联动销售、财务、产品和研发，提升组织效率并控制经营风险。",
+      "value_proposition": "一般销售管理年限和本科要求已满足，优势是目标拆解、复盘督办、激励管理与经营工具落地；需把前台管理经验转译为销售运营机制，并补全公司级规则、财务衔接和系统治理证据。",
+      "verdict": "优先定向销售运营，补财务规则与系统证据",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "设计销售管理规则并推动全流程执行",
+          "jd_quote": "1、承接公司战略导向，结合产品策略及风险控制要求，设计并优化销售管理规则，包括但不限于客户管理规则、业绩管理规则、销售激励规则等；\n2、协调和推动团队内销售相关管理规则的落地执行，涵盖商机管理、客户管理、签约模式、项目流程管理及项目回款等。",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-BIZOPS",
+            "EV-TESLA-MANAGEMENT"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-BIZOPS",
+              "quote": "主导涉及大区其他区域同事的目标拆解与周/月经营复盘，负责分工和后续督办；参与推广包、客户政策、资源配置及运营策略调整。"
+            },
+            {
+              "evidence_id": "EV-TESLA-MANAGEMENT",
+              "quote": "同期直管10人，承担招聘、绩效评价、激励分配决策，参与晋升推荐；按日/周/月管理留资、电联、试驾和转化，辅导员工并培养项目负责人。"
+            }
+          ],
+          "explanation": "目标拆解、经营复盘及10人团队绩效激励有依据，可迁移为规则执行与反馈；现有职责包含政策参与而非公司制度终审，缺签约模式、回款流程、审批权限及规则改版证据。",
+          "hard_gate": false
+        },
+        {
+          "id": "R2",
+          "requirement": "构建经营指标链路、分析体系及可追踪的在线工具",
+          "jd_quote": "1、负责商业管理、客户管理、业绩管理等方向的数据体系建设与分析，具备构建销售指标底层逻辑及配套在线化系统的能力；\n2、针对核心数据和指标链路，能准确、快速定位问题并反馈，协同团队进行深度专题分析；\n3、确保决策前后数据可追踪，推动数据看板线上化。",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-AI-OPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "设计AI地图工作台，整合当月、对比、推广包、线索、车型和位置数据，按月目标价值、任务紧急度和路线可执行性输出每日8家优先商户、到店动作与路线；分析约9.2万条车源记录和3.2万个车源ID，构建近4000个车型四象限并下钻CTR/CVR问题，形成商家经营建议。"
+            },
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "团队全员使用AI地图；个人测得拜访效率提升150%，每天减少约2小时规划与复盘时间暂按个人口径保留。将数据转化为客户优先级、拜访行动和商家经营建议，团队整体效率增幅未测量。"
+            }
+          ],
+          "explanation": "跨报表整合、CTR/CVR下钻与团队使用工具，证明经营分析到动作落地；未证明公司级指标口径、数据权限、变更追踪和全流程审计。150%为个人测量，不能用作团队效率或系统治理达成指标。",
+          "hard_gate": false
+        },
+        {
+          "id": "R3",
+          "requirement": "动态分配销售资源并协调跨团队冲突",
+          "jd_quote": "1、根据内外部基础信息、客户分层及业务团队分工，梳理、制定和优化销售资源流转规则，并根据不同时期业务特点进行动态修订，提高销售资源渗透率及覆盖率；\n2、负责跨部门沟通协调，合理分配和判定资源冲突，促进各业务线资源合理配置，提升组织效能与产能。",
+          "weight": 4,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-BIZOPS",
+            "EV-ONVO-MANAGEMENT"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-BIZOPS",
+              "quote": "主导涉及大区其他区域同事的目标拆解与周/月经营复盘，负责分工和后续督办；参与推广包、客户政策、资源配置及运营策略调整。"
+            },
+            {
+              "evidence_id": "EV-ONVO-MANAGEMENT",
+              "quote": "同期直管10人，覆盖主管、业务主管及一线销售；负责招聘、绩效评价、激励分配决策，参与晋升推荐。主导目标拆解、渠道搭建、执行复盘，统筹门店人员、场地与车辆资源。"
+            }
+          ],
+          "explanation": "客户分层、跨区域督办及门店资源统筹可迁移；未证明跨业务线客户归属仲裁、资源流转规则设计与最终裁决权限，不扩大为大区人事管理权。",
+          "hard_gate": false
+        },
+        {
+          "id": "R4",
+          "requirement": "理解财务指标与销售业绩之间的关联",
+          "jd_quote": "3、有基本的财务分析能力，理解财务指标与销售业绩指标之间的关联逻辑；",
+          "weight": 4,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-ROI"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-ROI",
+              "quote": "负责广州北汽车行业KA、区域头部和中小商户运营，客户关注获客、线索转化、成交效率、门店周转、人效和利润空间。"
+            },
+            {
+              "evidence_id": "EV-DCD-ROI",
+              "quote": "建立客户业务现状、获客链路、投放组合、成交转化、ROI测算的诊断方法，输出经营分析报告、商户诊断报告、ROI测算表、月度经营建议、复盘报告和老板沟通PPT。"
+            }
+          ],
+          "explanation": "ROI测算、利润空间诊断提供基础商业财务思维；缺收入确认、回款、应收及成本口径与销售业绩勾稽材料，客户投放ROI不等于公司财务管理。",
+          "hard_gate": true
+        },
+        {
+          "id": "R5",
+          "requirement": "本科及以上学历",
+          "jd_quote": "本科及以上学历",
+          "weight": 2,
+          "coverage": "direct",
+          "evidence_ids": [
+            "EV-EDUCATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-EDUCATION",
+              "quote": "2020.09—2022.06 广东培正学院 行政管理 本科；2016.09—2019.06 广东工商学院 金融管理 专科。"
+            }
+          ],
+          "explanation": "行政管理本科满足此处未限制专业的学历要求。",
+          "hard_gate": true
+        },
+        {
+          "id": "R6",
+          "requirement": "三年以上销售管理、销售运营或相关工作",
+          "jd_quote": "3年以上销售管理、销售运营或相关岗位工作经验",
+          "weight": 4,
+          "coverage": "direct",
+          "evidence_ids": [
+            "EV-CAREER-TENURE",
+            "EV-TESLA-MANAGEMENT",
+            "EV-DCD-BIZOPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-CAREER-TENURE",
+              "quote": "4年汽车行业销售管理与互联网平台商业化经营经验。特斯拉｜销售主管｜2022.07—2023.12；乐道汽车｜店长｜2024.03—2025.06；懂车帝｜储备区域经理｜2025.07—至今。"
+            },
+            {
+              "evidence_id": "EV-TESLA-MANAGEMENT",
+              "quote": "同期直管10人，承担招聘、绩效评价、激励分配决策，参与晋升推荐；按日/周/月管理留资、电联、试驾和转化，辅导员工并培养项目负责人。"
+            },
+            {
+              "evidence_id": "EV-DCD-BIZOPS",
+              "quote": "主导涉及大区其他区域同事的目标拆解与周/月经营复盘，负责分工和后续督办；参与推广包、客户政策、资源配置及运营策略调整。"
+            }
+          ],
+          "explanation": "4年汽车销售管理与互联网平台经营，结合两段直管和当前目标复盘职责，满足三年以上销售管理或相关岗位口径；JD未将年限限定为云/MaaS，不能误判为未知。",
+          "hard_gate": true
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R4",
+          "status": "unknown",
+          "reason": "ROI分析可迁移，但销售业绩与公司财务指标关联能力仍需勾稽案例核实。"
+        },
+        {
+          "requirement_id": "R5",
+          "status": "met",
+          "reason": "已有行政管理本科学历。"
+        },
+        {
+          "requirement_id": "R6",
+          "status": "met",
+          "reason": "新增一般年限证据与销售管理、经营复盘事实共同覆盖三年以上相关工作，未将其改写为三年大模型经验。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "tailor",
+      "resume_advice": "优先改成销售运营与经营机制主线，前置目标规则、客户分层、复盘督办和指标到行动闭环；10人直管作为机制执行证据，不把管理职级作为唯一卖点。补一套脱敏的规则前后版本、指标字典、资源冲突处理记录，以及销售业绩与收入/回款的关联案例；地图只展示已实现功能，提效保留个人口径，不得虚构AI合同或财务系统建设。",
+      "questions": [
+        "是否有本人制定或改版的客户分配、激励或业绩规则，可区分最终决策、主导执行与参与建议？",
+        "是否有销售业绩与收入、回款或成本关联的真实分析材料，以及规则上线前后的同口径数据？"
+      ]
+    },
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7613358336667830554",
+      "cache_key": "8c918aa2741dfe76185964dc07334379f7f90fe6bebda4620789328ffc06b9b4",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "建立可扩展的AI伙伴商业体系，通过云厂、ISV和渠道政策形成联合销售、伙伴赋能与持续贡献，并处理直销渠道利益及合规风险。",
+      "value_proposition": "可迁移资产是服务商KPI、团队渠道项目和经营漏斗方法；没有云/SaaS生态年限、ISV决策资源及模型集成赋能证据，不能按普通渠道经理直接迁移。",
+      "verdict": "暂缓大模型生态岗，云渠道资历与资源缺口大",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "五年以上头部云或大型SaaS渠道管理及生态资源",
+          "jd_quote": "• 有 5年以上头部云厂商（Cloud Vendor）或大型 SaaS 企业的渠道管理经验；\n• 资源积累： 拥有 ISV 资源库、全国总代（VAD）高层关系或云厂商生态部门的决策路径；",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-CAREER-TENURE"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-CAREER-TENURE",
+              "quote": "4年汽车行业销售管理与互联网平台商业化经营经验。特斯拉｜销售主管｜2022.07—2023.12；乐道汽车｜店长｜2024.03—2025.06；懂车帝｜储备区域经理｜2025.07—至今。"
+            }
+          ],
+          "explanation": "已知总体4年且不等于软件行业经历，不满足五年以上云/SaaS渠道年限；没有ISV、VAD或云厂生态部门关系证据。",
+          "hard_gate": true
+        },
+        {
+          "id": "R2",
+          "requirement": "搭建伙伴体系并设计激励、返点、授信和准入规则",
+          "jd_quote": "1. 生态战略与渠道政策设计\n• 体系构建： 从 0 到 1 或从 1 到 N 搭建 AI 伙伴体系（如：ISV 独立软件开发商、咨询实施伙伴、代销/电销渠道）；\n• 政策制定： 设计具备竞争力的激励机制、返点政策、授信管理及伙伴准入/退出标准，确保渠道生态的健康与利差空间。",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-TESLA-TRADEIN",
+            "EV-ONVO-MARKET"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-TESLA-TRADEIN",
+              "quote": "标准化置换开口话术、培训门店销售、设计置换服务商KPI，进行每日/每周考核和联合复盘。"
+            },
+            {
+              "evidence_id": "EV-ONVO-MARKET",
+              "quote": "搭建团队自媒体矩阵，推进企业大客户员工订单和置换项目，标准化开口渠道与项目复盘。"
+            }
+          ],
+          "explanation": "服务商考核、培训及渠道项目可以迁移为伙伴管理方法；未形成软件伙伴准入、返点授信、利差设计及直销渠道冲突解决的体系证据。",
+          "hard_gate": false
+        },
+        {
+          "id": "R3",
+          "requirement": "理解模型技术差异并向伙伴传递可销售价值",
+          "jd_quote": "• 技术敏锐度： 能够听懂模型参数、精调（Fine-tuning）、RAG 等术语，并能向伙伴解释为什么你的模型比竞争对手更好卖；",
+          "weight": 4,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供Fine-tuning、RAG、模型竞品比较或伙伴API集成培训材料；内部使用AI工具不能证明模型方案讲解与伙伴技术赋能能力。",
+          "hard_gate": true
+        },
+        {
+          "id": "R4",
+          "requirement": "承接伙伴收入、用量指标并管理渠道漏斗",
+          "jd_quote": "• KPI 达成： 直接背负伙伴贡献的年度收入（ARR/MRR）、消耗量（Token Usage）或活跃开发者数等硬指标；\n• 经营分析： 监控渠道漏斗，进行业绩预测，识别并扶持“高潜伙伴”，淘汰低效资源。",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-BIZOPS",
+            "EV-TESLA-TRADEIN"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-BIZOPS",
+              "quote": "个人经营客户规模增长16.7%（180家到210家），所负责区域商业消耗环比稳定增长2%-2.5%、年度目标130%；跨区域协同的整体增量尚无独立数据，不合并归因。"
+            },
+            {
+              "evidence_id": "EV-TESLA-TRADEIN",
+              "quote": "标准化置换开口话术、培训门店销售、设计置换服务商KPI，进行每日/每周考核和联合复盘。"
+            }
+          ],
+          "explanation": "商业消耗复盘与服务商漏斗治理可迁移为渠道经营方法；没有伙伴收入、Token用量或开发者经营事实，平台广告消耗不等于ARR/MRR，也不能将个人客户结果合并成跨区域增量。",
+          "hard_gate": false
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R1",
+          "status": "unmet",
+          "reason": "已知一般经历4年，低于五年以上指定行业门槛；云厂、ISV和VAD高层资源均未获证明。"
+        },
+        {
+          "requirement_id": "R3",
+          "status": "unknown",
+          "reason": "模型技术比较与伙伴赋能能力需作品或讲解记录核实，现有证据不支持通过。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "defer",
+      "resume_advice": "保留渠道考核与联合复盘方法，暂不按云生态负责人包装。重启此岗需真实云/SaaS渠道履历、本人维护的ISV/VAD关系及伙伴政策案例，并补模型方案讲解或集成赋能材料；企业员工购车渠道、置换服务商和广告消耗不得换名为云生态、软件联合销售或ARR。",
+      "questions": [
+        "是否有未列出的云/SaaS渠道任职、ISV合作或伙伴政策经历，可说明任职日期、对方角色和本人权限？"
+      ]
+    },
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7647795653489527081",
+      "cache_key": "8a7cf9b073b38dc5f4df46609e177173d97e7b3296ffaa3ceaccb9ca55bbe723",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "对华南大模型业务的区域营收、客户增长和续约负责，建立技术型销售团队，以重点行业KA方案落地和客户用量扩展形成可复制增长。",
+      "value_proposition": "10人直管、国内市场开拓、目标复盘与量化销售成果是真实优势；汽车团队管理不能替代五年云/MaaS/AI ToB资历，客户经营工具也不能替代技术对话与客户POC。",
+      "verdict": "暂缓华南大模型负责人，行业资历与技术差距大",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "本科及以上学历",
+          "jd_quote": "本科及以上学历",
+          "weight": 2,
+          "coverage": "direct",
+          "evidence_ids": [
+            "EV-EDUCATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-EDUCATION",
+              "quote": "2020.09—2022.06 广东培正学院 行政管理 本科；2016.09—2019.06 广东工商学院 金融管理 专科。"
+            }
+          ],
+          "explanation": "行政管理本科满足未限定专业的学历条件。",
+          "hard_gate": true
+        },
+        {
+          "id": "R2",
+          "requirement": "五年以上云/MaaS/AI ToB销售且其中至少两年团队管理",
+          "jd_quote": "5 年以上云厂商、MaaS 平台或 AI 企业的 ToB 销售经验，其中至少 2 年团队管理经验，有华南区域资源积累者优先",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-CAREER-TENURE",
+            "EV-ONVO-MANAGEMENT",
+            "EV-TESLA-MANAGEMENT"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-CAREER-TENURE",
+              "quote": "4年汽车行业销售管理与互联网平台商业化经营经验。特斯拉｜销售主管｜2022.07—2023.12；乐道汽车｜店长｜2024.03—2025.06；懂车帝｜储备区域经理｜2025.07—至今。"
+            },
+            {
+              "evidence_id": "EV-ONVO-MANAGEMENT",
+              "quote": "同期直管10人，覆盖主管、业务主管及一线销售；负责招聘、绩效评价、激励分配决策，参与晋升推荐。主导目标拆解、渠道搭建、执行复盘，统筹门店人员、场地与车辆资源。"
+            },
+            {
+              "evidence_id": "EV-TESLA-MANAGEMENT",
+              "quote": "同期直管10人，承担招聘、绩效评价、激励分配决策，参与晋升推荐；按日/周/月管理留资、电联、试驾和转化，辅导员工并培养项目负责人。"
+            }
+          ],
+          "explanation": "两段任职日期与10人直管事实足以支持超过两年的一般销售团队管理，不再标为未知；但总体仅4年，且没有五年指定行业销售。JD的“其中”属于前述行业口径，不能把汽车团队管理视作该行业管理年限已满足。华南汽车资源不等于大模型KA资源，区域资源是优先项。",
+          "hard_gate": true
+        },
+        {
+          "id": "R3",
+          "requirement": "区域规划、目标拆解与销售团队方法复制",
+          "jd_quote": "4、商业操盘力：具备区域业务规划与目标拆解能力，擅长从 0-1 开拓市场或从 1-N 做大区域盘子，有可量化的业绩成果；\n5、团队领导力：具备销售团队搭建与赋能经验，能建立标准化的客户经营流程与销售打法，带动团队拿结果。",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-ONVO-MANAGEMENT",
+            "EV-DCD-BIZOPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-ONVO-MANAGEMENT",
+              "quote": "同期直管10人，覆盖主管、业务主管及一线销售；负责招聘、绩效评价、激励分配决策，参与晋升推荐。主导目标拆解、渠道搭建、执行复盘，统筹门店人员、场地与车辆资源。"
+            },
+            {
+              "evidence_id": "EV-ONVO-MANAGEMENT",
+              "quote": "团队季度目标完成率超200%，月人效5-7台，业绩保持大区前3、全国前10；下沉市场增量订单多次超目标150%，项目费效比超区域目标200%；累计带教21名团队成员，培养10名员工晋升。"
+            },
+            {
+              "evidence_id": "EV-DCD-BIZOPS",
+              "quote": "个人负责广州北210家商户，同时承担大区其他区域同事间的经营协同职责。"
+            }
+          ],
+          "explanation": "国内下沉市场、10人团队目标与人才培养为管理方法提供依据；跨区域督办和个人210家客户不能合并成整个大区经营权，汽车销量和广告消耗也不能改写为大模型收入与续约。",
+          "hard_gate": false
+        },
+        {
+          "id": "R4",
+          "requirement": "目标行业KA关系、技术方案牵引及POC商业化落地",
+          "jd_quote": "2、重点行业拓展与深耕：聚焦泛互联网、智能硬件、文娱游戏、广告媒体等行业，主导头部 KA 的开拓与战略客户关系经营，建立产品、技术、业务、高管等多层次客户关系网络；\n3、团队搭建与管理：负责华南销售团队的组建、培养与绩效管理，建立可复制的销售方法论与打法体系，提升团队整体的技术方案能力和客户经营水平；\n4、技术方案牵引：系统掌握客户业务现状、战略规划与 AI 应用成熟度，能够主导关键客户的技术交流与方案演示，将模型能力转化为客户可感知的业务价值，推动 POC 及商业化落地；",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供目标行业头部KA技术关系、深度模型交流、方案演示或客户POC案例；现有通用管理和ROI沟通不能证明技术销售团队赋能及模型上线扩展能力。",
+          "hard_gate": true
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R1",
+          "status": "met",
+          "reason": "已有行政管理本科。"
+        },
+        {
+          "requirement_id": "R2",
+          "status": "unmet",
+          "reason": "4年一般经历低于五年指定行业要求；一般团队管理超过两年有依据，但无法满足“其中”的云/MaaS/AI行业管理口径。华南资源为优先项。"
+        },
+        {
+          "requirement_id": "R4",
+          "status": "unknown",
+          "reason": "目标行业资源及技术方案、POC、上线扩展能力均缺直接证据，不能以管理业绩替代。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "defer",
+      "resume_advice": "先保留真实的销售团队管理与市场开拓定位，不把现有经历升格为大模型区域负责人。需补符合行业口径的任职证明、KA技术决策关系、本人主导的技术方案及客户验证材料后再考虑此岗；10人为同期直管，21人为累计带教，210家为个人客户，均按原边界呈现。",
+      "questions": [
+        "是否有尚未列出的云/MaaS/AI企业销售及团队管理任职，能说明独立行业年限和技术客户案例？"
+      ]
+    },
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7654858727463913771",
+      "cache_key": "f07e1e3f784bed4dab356f99fa1b0681ce7f84f306a52086efe56298fa8ad045",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "经营AI订阅和Token等数字商品的平台店铺，以商品、价格、活动、流量和数据优化提升GMV、付费转化、复购及用户价值。",
+      "value_proposition": "可迁移的是获客转化漏斗、ROI诊断与跨部门协调；汽车直播获客和平台商户投放不是天猫、京东、抖音店铺经营，数字商品与电商年限缺证。",
+      "verdict": "暂缓数字商品电商岗，店铺运营经验尚未证明",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "本科及以上学历",
+          "jd_quote": "本科及以上学历",
+          "weight": 2,
+          "coverage": "direct",
+          "evidence_ids": [
+            "EV-EDUCATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-EDUCATION",
+              "quote": "2020.09—2022.06 广东培正学院 行政管理 本科；2016.09—2019.06 广东工商学院 金融管理 专科。"
+            }
+          ],
+          "explanation": "行政管理本科满足未限制专业的本科学历要求。",
+          "hard_gate": true
+        },
+        {
+          "id": "R2",
+          "requirement": "至少两年电商运营经验",
+          "jd_quote": "2年以上电商运营经验",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-CAREER-TENURE"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-CAREER-TENURE",
+              "quote": "4年汽车行业销售管理与互联网平台商业化经营经验。特斯拉｜销售主管｜2022.07—2023.12；乐道汽车｜店长｜2024.03—2025.06；懂车帝｜储备区域经理｜2025.07—至今。"
+            }
+          ],
+          "explanation": "4年一般销售管理和互联网平台经营已知，但任职与职责证据没有两年电商店铺运营；一般运营年限不能平移为电商年限。",
+          "hard_gate": true
+        },
+        {
+          "id": "R3",
+          "requirement": "掌握天猫、京东、抖音平台运营规则与流量机制",
+          "jd_quote": "2. 熟悉天猫、京东、抖音等平台运营规则及流量机制；",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-TESLA-SALES"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-TESLA-SALES",
+              "quote": "管理留资量、电联量、试驾量、转化率等基础数据，开展抖音直播、客户群维护和企业活动。"
+            }
+          ],
+          "explanation": "抖音直播、社群与企业活动只证明汽车获客动作；没有店铺后台、商品上架、价格促销、搜索排名或平台规则治理案例。数字商品、会员及从零建店在JD中为优先或加分项，未证实也不另加成强制门槛。",
+          "hard_gate": true
+        },
+        {
+          "id": "R4",
+          "requirement": "以付费转化、ROI、复购和LTV优化经营结果",
+          "jd_quote": "1. 提升GMV、付费用户数及转化率； \n2. 优化ROI、复购率及用户生命周期价值（LTV）。",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-ROI",
+            "EV-AI-OPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-ROI",
+              "quote": "建立客户业务现状、获客链路、投放组合、成交转化、ROI测算的诊断方法，输出经营分析报告、商户诊断报告、ROI测算表、月度经营建议、复盘报告和老板沟通PPT。"
+            },
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "设计AI地图工作台，整合当月、对比、推广包、线索、车型和位置数据，按月目标价值、任务紧急度和路线可执行性输出每日8家优先商户、到店动作与路线；分析约9.2万条车源记录和3.2万个车源ID，构建近4000个车型四象限并下钻CTR/CVR问题，形成商家经营建议。"
+            }
+          ],
+          "explanation": "投放ROI与CTR/CVR诊断支持数据驱动转化优化；未提供商品GMV、数字订阅复购、留存或LTV计算证据，汽车线索留资率不能直接替代店铺付费转化。",
+          "hard_gate": false
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R1",
+          "status": "met",
+          "reason": "行政管理本科有原句证据。"
+        },
+        {
+          "requirement_id": "R2",
+          "status": "unknown",
+          "reason": "一般经历4年有据，但其中电商运营年限未获证明。"
+        },
+        {
+          "requirement_id": "R3",
+          "status": "unknown",
+          "reason": "缺三平台店铺运营和流量规则实操材料，抖音直播获客不足以通过。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "defer",
+      "resume_advice": "先不将直播获客改写为电商运营。重启此岗应提供本人管理的店铺、任职周期、商品与促销动作、后台漏斗和复购分析，并说明平台规则处置经验；当前可保留ROI和获客数据案例作为迁移材料，不能虚构数字商品GMV、付费用户或订阅经营结果。",
+      "questions": [
+        "是否实际管理过天猫、京东或抖音店铺，能提供管理周期、本人权限及脱敏后台记录？"
+      ]
+    },
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7655546603629922610",
+      "cache_key": "22307ed4c97e0f5245655d60c3d7fcef4042a565f1e70fc430d9e4a76ee81039",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "为开放平台海内外B端业务建立增长与商业化度量体系，以可靠取数、分析验证和跨团队执行支撑产品及经营决策。",
+      "value_proposition": "汽车B端经营诊断、数据整合和漏斗下钻可迁移为业务分析思维；没有SQL/Python及数仓独立能力、实验因果验证或反作弊证据，不能因数据量和AI工具使用认定为专业数据分析师。",
+      "verdict": "暂缓专业数据分析岗，取数与实验能力缺证",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "识别开放平台增长机会并建设商业化指标与可视化",
+          "jd_quote": "1、负责公司开放平台海内外业务的数据分析工作，主动挖掘业务问题和增长点，量化商业化策略效果；\n2、根据开发者/企业用户数据，搭建增长与商业化指标体系，建设并迭代数据可视化体系；",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-AI-OPS",
+            "EV-DCD-ROI"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "设计AI地图工作台，整合当月、对比、推广包、线索、车型和位置数据，按月目标价值、任务紧急度和路线可执行性输出每日8家优先商户、到店动作与路线；分析约9.2万条车源记录和3.2万个车源ID，构建近4000个车型四象限并下钻CTR/CVR问题，形成商家经营建议。"
+            },
+            {
+              "evidence_id": "EV-DCD-ROI",
+              "quote": "建立客户业务现状、获客链路、投放组合、成交转化、ROI测算的诊断方法，输出经营分析报告、商户诊断报告、ROI测算表、月度经营建议、复盘报告和老板沟通PPT。"
+            }
+          ],
+          "explanation": "商户经营分析、四象限与CTR/CVR下钻可迁移为指标拆解；尚无开发者/API用量、企业付费生命周期或策略效果严谨归因。记录量并不证明取数、统计或模型分析熟练度，AI项目只能提供场景实践支持。",
+          "hard_gate": false
+        },
+        {
+          "id": "R2",
+          "requirement": "用A/B实验、因果推断及风控反作弊验证结论",
+          "jd_quote": "4、设计 A/B 实验、因果推断、风控反作弊等分析方案，对业务优化和决策结论做验证或推演，提供高效的分析方法。",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供实验设计、样本量与显著性、混杂因素控制、反作弊识别或回测材料；个人自测提效不是受控实验和因果证据。",
+          "hard_gate": true
+        },
+        {
+          "id": "R3",
+          "requirement": "熟练Hive/Doris并精通SQL/Python/Excel取数与可视化",
+          "jd_quote": "3、熟练使用 Hive/Doris，精通 SQL/Python/Excel 等工具，具备扎实的取数与数据可视化能力；",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "现有事实未提供Hive/Doris取数、独立SQL、Python分析脚本或复杂Excel样例；业务工具产出和数据规模不能证明精通技术栈。",
+          "hard_gate": true
+        },
+        {
+          "id": "R4",
+          "requirement": "云/MaaS或开发者生态背景及量化相关专业优先",
+          "jd_quote": "1、有 Cloud 厂商、MaaS平台、AI 开发者生态背景者优先，数学、经济学、统计学、计算机相关专业优先；",
+          "weight": 2,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-EDUCATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-EDUCATION",
+              "quote": "2020.09—2022.06 广东培正学院 行政管理 本科；2016.09—2019.06 广东工商学院 金融管理 专科。"
+            }
+          ],
+          "explanation": "已知本科为行政管理、专科为金融管理，不是已证实的数学、统计或计算机训练，也未提供云/MaaS开发者生态经历；金融管理不直接等同于JD所需量化基础。本条均为优先项，不当作必须具有特定学历或一票否决条件。",
+          "hard_gate": true
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R2",
+          "status": "unknown",
+          "reason": "实验、因果与反作弊方案属于核心职责，当前没有实操证据。"
+        },
+        {
+          "requirement_id": "R3",
+          "status": "unknown",
+          "reason": "SQL/Python/Excel精通及Hive/Doris熟练均须独立材料核实，AI协作工具不能替代技术门槛。"
+        },
+        {
+          "requirement_id": "R4",
+          "status": "unknown",
+          "reason": "专业与行业均为优先而非必需；学历专业已明确，相关量化训练及生态背景未证实，不按硕博门槛筛除。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "defer",
+      "resume_advice": "将现有优势定位为懂业务的数据应用能力，暂不宣称专业数据分析师技术栈。补一份可复核的取数与SQL样例、Python或Excel分析过程、指标字典及一个真实实验/反作弊案例；明确哪些由本人独立完成、哪些由AI协助。数据体量和个人150%提效不能代替统计严谨性，原项目仅作辅助材料。",
+      "questions": [
+        "是否能提供本人独立编写或逐步解释的SQL、Hive/Doris取数及Python分析样例？",
+        "是否实际设计过A/B、因果分析或反作弊方案，并保留原始设计和验证结果？"
+      ]
+    },
+    {
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7538331296591366463",
+      "cache_key": "58612d8c5717319bdf275913e12e5514742d02e20b75cb57aa55281824b749e2",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "以北美及全球开发者社群、技术内容和活动建立技术影响力，把开发者痛点与产品反馈连接起来，促进使用、留存和商业化。",
+      "value_proposition": "汽车客户社群与一线反馈闭环可迁移为社区组织和用户沟通方法；行政管理学历不匹配计算机/AI背景，母语级英文、技术翻译及北美开发者实践未证实。",
+      "verdict": "暂缓全球开发者关系岗，专业与英文门槛明显",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "计算机、AI或相关专业教育背景",
+          "jd_quote": "1.Educational background in Computer Science, AI, or a related field.",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-EDUCATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-EDUCATION",
+              "quote": "2020.09—2022.06 广东培正学院 行政管理 本科；2016.09—2019.06 广东工商学院 金融管理 专科。"
+            }
+          ],
+          "explanation": "已知行政管理本科与金融管理专科，且事实明确不是计算机专业；使用AI工具不构成计算机、AI或相关专业教育。",
+          "hard_gate": true
+        },
+        {
+          "id": "R2",
+          "requirement": "母语级英文并能中英技术文档互译",
+          "jd_quote": "2.Native-level English proficiency with the ability to translate technical documents between English and Chinese.",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "没有母语级英文、技术写作或中英互译的证据，不能由中文沟通和海外兴趣推定。",
+          "hard_gate": true
+        },
+        {
+          "id": "R3",
+          "requirement": "北美AI社区实操与开发者技术传播经验优先",
+          "jd_quote": "3.Prior hands-on experience in North American AI communities (e.g., open-source contributions, community organizing, technical speaking) is preferred.",
+          "weight": 4,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-TESLA-SALES"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-TESLA-SALES",
+              "quote": "微信累计近5000名优质客户，维护4个500人意向车主群。"
+            }
+          ],
+          "explanation": "维护意向车主群支持通用社区组织与关系经营；不证明北美AI社区、开源贡献、技术演讲或GitHub/Discord运营。此处经历为优先项，不能当作硬性必须已有北美工作经历。",
+          "hard_gate": true
+        },
+        {
+          "id": "R4",
+          "requirement": "收集开发者反馈并协同技术团队解决商业化痛点",
+          "jd_quote": "3.Establish and manage feedback channels for developers across North America and other regions, driving product optimization and localization.\n4.Identify key developer pain points and collaborate with technical teams to design tailored solutions that support commercialization.",
+          "weight": 4,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-COORDINATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-COORDINATION",
+              "quote": "协同产品、客服、运营团队闭环产品Bug、数据复盘、客户需求反馈和客诉安抚，将一线客户诉求向产品和运营侧沉淀。"
+            }
+          ],
+          "explanation": "平台商户问题归集和产品运营协同可迁移为反馈机制；未证明开发者技术诊断、SDK/API问题定位及本地化方案，汽车客户反馈不能视为技术解决方案交付。",
+          "hard_gate": false
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R1",
+          "status": "unmet",
+          "reason": "已确认行政管理本科、金融管理专科，computer_science_degree=false，不满足相关技术专业背景。"
+        },
+        {
+          "requirement_id": "R2",
+          "status": "unknown",
+          "reason": "Native-level English及技术文档双向翻译须另有证据。"
+        },
+        {
+          "requirement_id": "R3",
+          "status": "unknown",
+          "reason": "北美AI社区技术实践未证实，JD注明preferred，作为优先条件审阅而非单独淘汰规则。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "defer",
+      "resume_advice": "先不以技术型全球开发者关系定位简历，保留社群维护和用户反馈作为迁移能力。重启前需确认相关技术教育或等效背景是否被接受，补英文技术文档、开发者技术内容/活动及可核验社区贡献；旧金山岗位另核海外工作许可，不把汽车社群人数改写为开发者影响力。",
+      "questions": [
+        "是否有计算机/AI相关正规学习、英文技术翻译或北美开源社区贡献的实际材料？",
+        "若考虑旧金山，是否具备已确认的当地工作资格？"
+      ]
+    },
+    {
+      "job_key": "deepseek-official:talent.deepseek.com:0238c1b1-7f2d-4b53-84da-581127a62954",
+      "cache_key": "f02f80d3adf72bfcc8af269c9315a006fced2cb1a8e4603c033823514957b7c8",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "把文学或实用写作的理想质量转成优化方向、数据标准和评测方法，连接写作判断、搜索/Agent协作与模型训练，持续提升模型创作质量。",
+      "value_proposition": "经营报告、诊断建议与老板沟通材料可迁移为实用文本场景理解；没有长期写作质量作品集、多模型写作对比或训练数据评测证据，不能把业务文案产出等同于创作数据产品能力。",
+      "verdict": "暂缓创作数据产品岗，写作评测与数据生产缺证",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "定义实用文本理想输出并推进效果优化",
+          "jd_quote": "2.功能写作方向：负责实用文本（论文、报告、方案、公文、文案等）场景下的优化方向判断与效果评测，定义不同文体的理想输出标准，与搜索/Agent方向协同，在任何环境中给用户提供真正可用的文本。",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-ROI"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-ROI",
+              "quote": "建立客户业务现状、获客链路、投放组合、成交转化、ROI测算的诊断方法，输出经营分析报告、商户诊断报告、ROI测算表、月度经营建议、复盘报告和老板沟通PPT。"
+            }
+          ],
+          "explanation": "经营报告、方案和沟通PPT说明真实实用文本场景与业务受众；尚无跨文体质量规范、模型效果评测或搜索/Agent写作协同，不等于已负责模型写作优化。",
+          "hard_gate": false
+        },
+        {
+          "id": "R2",
+          "requirement": "基于大量使用判断不同模型的写作风格与能力边界",
+          "jd_quote": "1.熟悉大模型写作的当前水准：了解不同模型的风格倾向与能力边界，对大模型写作的难点和瓶颈有基于大量使用的体感认知与独立思考。",
+          "weight": 4,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供多模型同题写作、风格差异、失效案例及独立判断记录；AI经营工具使用不能证明大模型写作的深度体感。",
+          "hard_gate": true
+        },
+        {
+          "id": "R3",
+          "requirement": "具备长期文本实践与可拆解的审美判断",
+          "jd_quote": "2.具备卓越的文本审美与判断力：在文学创作或实用文本写作领域有长期、扎实的实践，对文字有极高的敏感度，能对文本质量做出精准判断，将写得“好不好”拆解为具体的能力维度与可落地的优化方案。",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "现有事实记录了经营文档类别，但没有作品内容、长期写作积累、修改前后对照或质量判准，不能直接认定卓越审美与评判能力。",
+          "hard_gate": false
+        },
+        {
+          "id": "R4",
+          "requirement": "理解模型训练并将质量判断转成评测和数据生产规范",
+          "jd_quote": "3.具备模型认知与数据生产意识：了解模型训练基础知识，能将审美判断转化为可度量的评测维度与数据规范；具备一定动手能力，能借助工具高效支撑数据生产与质量校验。",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "缺模型训练基础、标注规范、数据制作、质量抽检和一致性评估证据；业务报表与工具设计不能替代模型优化数据生产。",
+          "hard_gate": true
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R2",
+          "status": "unknown",
+          "reason": "需要不同模型写作的使用对照与能力判断证据，现有事实未建立。"
+        },
+        {
+          "requirement_id": "R4",
+          "status": "unknown",
+          "reason": "训练认知、评测维度和数据质量校验均未获证明；JD未设学历或年限门槛，不额外添加。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "defer",
+      "resume_advice": "先沉淀实用文本质量判断作品，不将销售材料重命名为创作数据产品项目。可整理本人已有报告及修改前后差异、受众与验收标准，并另做明确标为练习的多模型写作对照与评分规范；获得真实数据生产或评测证据前，不宣称模型训练与评测经历。",
+      "questions": [
+        "是否保留本人长期撰写的实用文本及修改记录，能解释每次改动的质量标准，而不仅是业务结果？"
+      ]
+    },
+    {
+      "job_key": "deepseek-official:talent.deepseek.com:141a78cd-784f-4139-9b72-8046afeec4e4",
+      "cache_key": "e1394efaf84ac58f757765f4f01e390aef7399de520078dbf30f5fe5807c7e21",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "把专业领域知识和回答质量判断转成科学评测、优化路径及高质量数据，为模型知识准确性、推理和表达提供可解释的迭代依据。",
+      "value_proposition": "汽车商户经营与ROI诊断提供垂直场景知识和结构化问题分析，可能作为专业领域切入点；不能据此认定领域专家水准、优秀学业或模型评测和训练数据生产能力。",
+      "verdict": "暂缓专业数据产品岗，领域评测与模型证据不足",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "具有扎实垂类积累，或符合优秀高校学业/研究替代路径",
+          "jd_quote": "1.在某知识垂类有扎实的专业积累，或具备优秀高校的求学或研究经历（硕/博，或成绩优异的本科生均可）。我们不限定专业方向，每一个领域的纵深都可能是模型下一次突破的起点。",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-ROI",
+            "EV-EDUCATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-ROI",
+              "quote": "负责广州北汽车行业KA、区域头部和中小商户运营，客户关注获客、线索转化、成交效率、门店周转、人效和利润空间。"
+            },
+            {
+              "evidence_id": "EV-DCD-ROI",
+              "quote": "建立客户业务现状、获客链路、投放组合、成交转化、ROI测算的诊断方法，输出经营分析报告、商户诊断报告、ROI测算表、月度经营建议、复盘报告和老板沟通PPT。"
+            },
+            {
+              "evidence_id": "EV-EDUCATION",
+              "quote": "2020.09—2022.06 广东培正学院 行政管理 本科；2016.09—2019.06 广东工商学院 金融管理 专科。"
+            }
+          ],
+          "explanation": "汽车客户诊断可支持业务垂类积累，仍需作品证明专业纵深与答案判断力；学历为行政管理本科，院校认可口径、成绩或研究证据未提供。本条是专业积累与学业的替代路径，既非必须硕博，也不限定医学、法律或小语种。",
+          "hard_gate": true
+        },
+        {
+          "id": "R2",
+          "requirement": "从知识、推理和表达维度评价模型并归纳共性问题",
+          "jd_quote": "2.能凭借自身专业积累，从知识准确性、推理质量、表达水准等多个维度对模型回答形成清晰的优劣判断，说明问题所在及原因，并从个案中归纳出共性的体验问题与优化方向。",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供专业问答判例、事实核查依据、模型推理错误归因或共性问题分类；商户经营判断不等于模型回答质量评测。",
+          "hard_gate": false
+        },
+        {
+          "id": "R3",
+          "requirement": "比较多个主流模型并就近期能力或评测提出判断",
+          "jd_quote": "3.使用过多个主流大模型，能够敏锐感知不同模型的能力边界与差异，能就近期某项模型能力、评测方式或技术进展说明其内容与自己的判断。",
+          "weight": 4,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "事实未列使用模型、对照实验或技术进展判断材料；不从工具名称或AI兴趣推定多模型评测深度。",
+          "hard_gate": true
+        },
+        {
+          "id": "R4",
+          "requirement": "理解训练优化，建立可度量规范并掌握Prompt方法",
+          "jd_quote": "4.对模型训练与优化的基本原理和技术有所了解，能将专业知识与审美判断转化为可度量的评测维度与数据规范；熟悉Prompt Engineering，能通过Vibe Coding等方式快速验证想法、提升工作效率者优先。",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "没有训练优化原理、专业数据规范、Prompt迭代或模型质量验证材料；Vibe Coding快速验证是优先项，但不替代前述模型认知与数据生产要求。",
+          "hard_gate": true
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R1",
+          "status": "unknown",
+          "reason": "汽车领域经验存在，但专业积累的深度标准仍待作品核实；替代学业路径的院校、成绩及研究条件未证明，不能误设硕博硬门槛。"
+        },
+        {
+          "requirement_id": "R3",
+          "status": "unknown",
+          "reason": "多个模型的实际使用和独立比较记录缺失。"
+        },
+        {
+          "requirement_id": "R4",
+          "status": "unknown",
+          "reason": "训练原理、量化评测与Prompt能力缺证，Vibe Coding优先项单独看待，不升为必须。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "defer",
+      "resume_advice": "以汽车经营知识能否产出高质量专业评测为验证目标，先整理本人熟悉的真实难题、依据、好答案标准与错误归因，再形成注明为新练习的模型对照和标注规范。行政管理本科如实保留，不包装名校、硕博或医学法律专家，也不将车型分析规模改写为训练数据交付。",
+      "questions": [
+        "能否提供汽车经营领域中由本人独立判断的复杂问题、可靠依据及答案优劣标准，用于检验垂类深度？"
+      ]
+    },
+    {
+      "job_key": "deepseek-official:talent.deepseek.com:b8e62d9e-5cfb-4f24-bb6b-549bf45e1ee0",
+      "cache_key": "12640733927ab29a57ef2a12b4d9816dd2eb8fa0037dc6111f53dd9458502771",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "在角色扮演与情感陪伴场景中识别互动失真和体验问题，通过Badcase归因及模型优化提升情感表达的真实感与沉浸度。",
+      "value_proposition": "客户诉求归集、客诉安抚及经营工具实践可迁移为用户问题识别和快速落地意识；缺少情感陪伴深度体验、文字审美评测与模型优化数据证据。",
+      "verdict": "暂缓情感智能产品岗，陪伴场景与评测证据缺失",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "理解AI角色扮演和情感陪伴的人机互动",
+          "jd_quote": "2.对 AI 与人的互动关系有细致观察和独立思考，对 AI 角色扮演及情感陪伴有自己的经验理解并充满探索热情。",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "没有角色扮演或情感陪伴的深度体验日志、观察结论与边界判断；一般客户沟通不能替代情感人机互动经验。",
+          "hard_gate": true
+        },
+        {
+          "id": "R2",
+          "requirement": "以文字感知、同理心和分析解决体验问题",
+          "jd_quote": "1.文字审美敏锐，感知力强，思维活跃且富有同理心，具备出色的洞察、分析与解决问题能力。",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-COORDINATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-COORDINATION",
+              "quote": "协同产品、客服、运营团队闭环产品Bug、数据复盘、客户需求反馈和客诉安抚，将一线客户诉求向产品和运营侧沉淀。"
+            }
+          ],
+          "explanation": "客诉安抚、客户诉求归集与问题闭环支持用户问题理解和协作；不能据此认定文字审美或情感模型Badcase归因，仍需具体互动样本及判断标准。",
+          "hard_gate": false
+        },
+        {
+          "id": "R3",
+          "requirement": "深度使用前沿模型、理解边界并快速编码验证",
+          "jd_quote": "3.深度使用过前沿主流大模型，熟悉其交互特点与能力边界；能通过 Vibe Coding 快速验证想法。",
+          "weight": 4,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-AI-OPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "设计AI地图工作台，整合当月、对比、推广包、线索、车型和位置数据，按月目标价值、任务紧急度和路线可执行性输出每日8家优先商户、到店动作与路线；分析约9.2万条车源记录和3.2万个车源ID，构建近4000个车型四象限并下钻CTR/CVR问题，形成商家经营建议。"
+            }
+          ],
+          "explanation": "从经营问题设计工具体现实际动手和场景验证意识；证据没有模型清单、交互边界比较或本人Vibe Coding过程，因此只能部分迁移，不能视为技术要求已满足。",
+          "hard_gate": true
+        },
+        {
+          "id": "R4",
+          "requirement": "模型训练、优化数据生产与系统评测经验优先",
+          "jd_quote": "5.熟悉模型训练基本原理、有模型优化数据生产与系统性评测经验者优先。",
+          "weight": 3,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供模型训练原理、数据生产或系统评测经历；JD明确为优先项，不额外设为必须的训练岗位经历。",
+          "hard_gate": true
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R1",
+          "status": "unknown",
+          "reason": "角色扮演、陪伴场景和人机互动判断缺直接材料。"
+        },
+        {
+          "requirement_id": "R3",
+          "status": "unknown",
+          "reason": "经营工具实践不证明前沿模型交互深度及Vibe Coding能力，需过程样例。"
+        },
+        {
+          "requirement_id": "R4",
+          "status": "unknown",
+          "reason": "训练与系统评测经验未证实，但按优先项而非必须条件记录。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "defer",
+      "resume_advice": "先验证情感互动判断力，不把客诉安抚包装成情感智能评测。补本人实际使用的互动日志、代表性Badcase、归因与理想回复标准，以及一次标明练习性质的快速验证过程；没有模型优化数据生产证据前不新增此类职业成果。",
+      "questions": [
+        "是否长期使用AI角色扮演或情感陪伴产品，并能提供脱敏互动样例、问题归因和自己的质量标准？"
+      ]
+    },
+    {
+      "job_key": "deepseek-official:talent.deepseek.com:bdffaaf8-5d88-4aa5-9869-8ab76fcd862a",
+      "cache_key": "74fe137d38168ba293a2b3aaa9c64d1430905246aa64f88788733134393575d5",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "把真实办公、生活和搜索任务的成功标准转成Agent能力定义、自动化评测、归因与高质量数据管线，向模型团队提供可解释的优化信号。",
+      "value_proposition": "AI地图把分散经营数据转成优先级、路线与到店动作，是办公任务拆解的可迁移案例；没有Agent架构、训练原理、自动评测及模型数据管线证据，不等于Agent数据产品经历。",
+      "verdict": "暂缓Agent数据岗，自动评测与数据管线缺证",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "定义真实任务中的Agent规划、执行与完整结果",
+          "jd_quote": "1.定义并推进大模型在真实任务场景中的 Agent 能力，深入办公与日常生活等场景下的复杂环境，使模型能自主规划、执行并交付完整结果，持续识别能力瓶颈，驱动模型迭代优化。",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-AI-OPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "设计AI地图工作台，整合当月、对比、推广包、线索、车型和位置数据，按月目标价值、任务紧急度和路线可执行性输出每日8家优先商户、到店动作与路线；分析约9.2万条车源记录和3.2万个车源ID，构建近4000个车型四象限并下钻CTR/CVR问题，形成商家经营建议。"
+            },
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "团队全员使用AI地图；个人测得拜访效率提升150%，每天减少约2小时规划与复盘时间暂按个人口径保留。将数据转化为客户优先级、拜访行动和商家经营建议，团队整体效率增幅未测量。"
+            }
+          ],
+          "explanation": "优先级、路线和到店动作将真实经营任务结构化，团队使用说明内部应用落地；未证明模型自主行动、复杂工具调用、完整任务自动交付或模型迭代。个人提效不能外推团队增幅。",
+          "hard_gate": false
+        },
+        {
+          "id": "R2",
+          "requirement": "建立端到端自动评测、过程质量与归因体系",
+          "jd_quote": "2.围绕 AI 搜索及自主任务执行的全流程，设计并落地多维度自动化评测与归因体系，建立能真正区分“能用”与“好用”的评测标准，覆盖端到端任务完成度与过程行为质量，打通人工评估与自动化评估，精准定位模型短板。",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供任务测试集、过程轨迹判分、自动裁判、人工评估一致性或失败归因框架；经营CTR/CVR分析和个人自测不是Agent端到端评测。",
+          "hard_gate": true
+        },
+        {
+          "id": "R3",
+          "requirement": "设计高质量、多样性的搜索与Agent数据生产管线",
+          "jd_quote": "3.针对各类 AI 搜索与 Agent 任务，定义回答及执行结果的理想态，设计并迭代高质量、高多样性的数据生产管线，系统性提升搜索回答与 Agent 产物的准确性、完整性和用户体验。",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供模型任务数据构造、标注、去重、质量校验或迭代效果证据；整合车源和商户报表不等于模型优化数据管线。",
+          "hard_gate": true
+        },
+        {
+          "id": "R4",
+          "requirement": "掌握Agent架构、训练评测基础及精通Prompt与编码验证",
+          "jd_quote": "1.拥有主流 AI 搜索及 Agent 产品的深度使用经验，熟悉当前主流 Agent 架构与产品形态，能够敏锐感知模型能力差异，定位背后的数据需求与问题。\n2.对任务质量有清晰的判断标准与内在追求，对“好”有明确的界定能力，能精准辨识输出质量的层级差异，并能将主观感受拆解为可传达、可检验的具体维度。\n3.理解模型训练与优化的基本原理，熟悉模型评测方法，精通 prompt engineering 和（vibe）coding；动手能力强，有丰富的使用自动化手段解决真实问题的经验。",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-AI-OPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "设计AI地图工作台，整合当月、对比、推广包、线索、车型和位置数据，按月目标价值、任务紧急度和路线可执行性输出每日8家优先商户、到店动作与路线；分析约9.2万条车源记录和3.2万个车源ID，构建近4000个车型四象限并下钻CTR/CVR问题，形成商家经营建议。"
+            }
+          ],
+          "explanation": "工具设计产出只能证明具体业务实践，未展示主流Agent架构、多模型比较、训练原理、评测方法或本人Prompt/编码深度。不能由工具可用推定精通，也不能把工作流实践加分抵消核心技术缺口。",
+          "hard_gate": true
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R2",
+          "status": "unknown",
+          "reason": "多维自动评测、人工一致性与过程归因材料缺失。"
+        },
+        {
+          "requirement_id": "R3",
+          "status": "unknown",
+          "reason": "高质量Agent任务数据管线及其效果缺直接证据。"
+        },
+        {
+          "requirement_id": "R4",
+          "status": "unknown",
+          "reason": "已审阅精通prompt engineering及coding信号；模型训练、评测与架构能力均需过程材料，不以AI工具使用通过。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "defer",
+      "resume_advice": "将地图案例定位为真实办公任务设计资产，暂不包装成模型评测或训练数据产品。补任务定义、成功与失败样本、执行轨迹、人工评分表及自动校验过程；新增实验须明确标为练习，模型优化成效必须有真实验证后再写，不能把9.2万条车源当作已交付训练数据。",
+      "questions": [
+        "是否已有本人设计的Agent任务评测集、执行轨迹归因或自动化判分材料，而不仅是工具最终输出？"
+      ]
+    },
+    {
+      "job_key": "deepseek-official:talent.deepseek.com:e8f2004c-6599-42cd-b587-176ffc3ff1a3",
+      "cache_key": "8808bc1eaff4156dc336efe822e94c4a181d950c71dc303d9264a5957e4b73b6",
+      "execution": {
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "agent_id": "01a086c3-f330-7422-82e3-1364f5f9a66b"
+      },
+      "role_mission": "将模型能力转成可用产品体验，以真实需求、产品设计、数据反馈和跨研发协作推动迭代；通用AI产品侧重应用交付，Harness方向额外连接研究、工程、开源社区与Agent机制。",
+      "value_proposition": "内部AI经营工具已有从业务问题到团队使用的实践，可作为通用AI产品方向的交付替代路径；尚不证明大规模产品Owner、系统评测、Harness工程或开源协作能力。",
+      "verdict": "仅探索通用产品方向，工程评测证据仍不足",
+      "requirements": [
+        {
+          "id": "R1",
+          "requirement": "通用AI产品方向：产品经历或完整需求到落地交付",
+          "jd_quote": "1.有产品经历或完整的从需求到落地的交付经验，AI / 对话 / Agent 类产品经验优先。",
+          "weight": 5,
+          "coverage": "direct",
+          "evidence_ids": [
+            "EV-AI-OPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "区域经营中存在报表分散、客户优先级和路线依赖人工判断，以及商家难以定位曝光-点击-留资漏斗损失的问题。"
+            },
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "设计AI地图工作台，整合当月、对比、推广包、线索、车型和位置数据，按月目标价值、任务紧急度和路线可执行性输出每日8家优先商户、到店动作与路线；分析约9.2万条车源记录和3.2万个车源ID，构建近4000个车型四象限并下钻CTR/CVR问题，形成商家经营建议。"
+            },
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "团队全员使用AI地图；个人测得拜访效率提升150%，每天减少约2小时规划与复盘时间暂按个人口径保留。将数据转化为客户优先级、拜访行动和商家经营建议，团队整体效率增幅未测量。"
+            }
+          ],
+          "explanation": "业务痛点、功能设计、行动输出与团队实际使用共同支持内部工具从需求到落地的替代路径；不是正式产品经理年限或面向公众的大规模交付，150%仍只是个人测量。此项只对应通用AI产品方向。",
+          "hard_gate": true
+        },
+        {
+          "id": "R2",
+          "requirement": "以用户反馈与数据拆解产品问题并改善体验",
+          "jd_quote": "2.功能设计：综合运用数据分析、用户反馈和定性观察，从真实用户需求和使用场景出发，定位并拆解产品问题，降低用户使用门槛，提升使用深度、留存率、粘性和转化率。",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-AI-OPS",
+            "EV-DCD-COORDINATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "设计AI地图工作台，整合当月、对比、推广包、线索、车型和位置数据，按月目标价值、任务紧急度和路线可执行性输出每日8家优先商户、到店动作与路线；分析约9.2万条车源记录和3.2万个车源ID，构建近4000个车型四象限并下钻CTR/CVR问题，形成商家经营建议。"
+            },
+            {
+              "evidence_id": "EV-DCD-COORDINATION",
+              "quote": "协同产品、客服、运营团队闭环产品Bug、数据复盘、客户需求反馈和客诉安抚，将一线客户诉求向产品和运营侧沉淀。"
+            }
+          ],
+          "explanation": "商户痛点、漏斗分析和经营工具设计支持场景问题拆解；未提供Chat/APP交互设计、真实留存和使用深度改善的产品实验，不能把业务转化建议认定为大众产品留存增长。",
+          "hard_gate": false
+        },
+        {
+          "id": "R3",
+          "requirement": "协同模型、算法、研发与运营完成产品交付链路",
+          "jd_quote": "3.项目管理：与模型、算法、研发和运营团队紧密合作，以快速节奏推进需求从调研、方案、评审、开发到上线，如期保证高质量交付。",
+          "weight": 5,
+          "coverage": "transferable",
+          "evidence_ids": [
+            "EV-DCD-COORDINATION",
+            "EV-DCD-BIZOPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-DCD-COORDINATION",
+              "quote": "协同产品、客服、运营团队闭环产品Bug、数据复盘、客户需求反馈和客诉安抚，将一线客户诉求向产品和运营侧沉淀。"
+            },
+            {
+              "evidence_id": "EV-DCD-BIZOPS",
+              "quote": "主导涉及大区其他区域同事的目标拆解与周/月经营复盘，负责分工和后续督办；参与推广包、客户政策、资源配置及运营策略调整。"
+            }
+          ],
+          "explanation": "产品客服运营协同及分工督办可迁移为项目推进方法；缺研究与算法协作、评审排期、研发验收和复杂上线风险责任，不能把客诉闭环写成完整研发项目Owner经历。",
+          "hard_gate": false
+        },
+        {
+          "id": "R4",
+          "requirement": "Harness方向：两年以上产品经理经历，特别优秀可放宽",
+          "jd_quote": "1.2年以上产品经理从业经验，产品逻辑清晰。特别优秀的候选人可放宽年限。",
+          "weight": 4,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-CAREER-TENURE"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-CAREER-TENURE",
+              "quote": "4年汽车行业销售管理与互联网平台商业化经营经验。特斯拉｜销售主管｜2022.07—2023.12；乐道汽车｜店长｜2024.03—2025.06；懂车帝｜储备区域经理｜2025.07—至今。"
+            }
+          ],
+          "explanation": "已知4年一般销售管理与平台经营，并未证明两年产品经理从业经验；内部工具设计不能直接改算任职年限。JD允许特别优秀候选人放宽，只能待招聘方判断，且本条件不套用到通用AI产品方向。",
+          "hard_gate": true
+        },
+        {
+          "id": "R5",
+          "requirement": "Harness方向：知名高校本科及以上",
+          "jd_quote": "2.知名高校本科学历及以上。",
+          "weight": 3,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-EDUCATION"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-EDUCATION",
+              "quote": "2020.09—2022.06 广东培正学院 行政管理 本科；2016.09—2019.06 广东工商学院 金融管理 专科。"
+            }
+          ],
+          "explanation": "行政管理本科学历已确认，但JD对知名高校的口径未定义，现有材料不能证明这一限定条件；不因无硕博而拒绝，也不擅自宣称院校符合。该条件仅属于Harness方向。",
+          "hard_gate": true
+        },
+        {
+          "id": "R6",
+          "requirement": "Harness方向：Vibe Coding、UI/UX及Agent深度使用",
+          "jd_quote": "3.能够使用 vibe coding 写代码，不一定需要技术背景。\n4.具备UI/UX设计素养。能够在 AI 辅助下完成产品原型图设计、UI设计等相关的产品设计工作。\n5.是 Agent 产品的高强度用户，熟悉 Agent 产品的各种形态，对 Agent 有极大的热情，对模型行为有品味有判断力，对开发者体验及用户体验有强感知。深度使用过 Claude Code、Cowork、Codex、Cursor、OpenCode、GitHub Copilot、Manus、OpenClaw、Hermes 等类似产品，并将相关产品的使用融入到自己的工作和生活中。",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [
+            "EV-AI-OPS"
+          ],
+          "evidence_quotes": [
+            {
+              "evidence_id": "EV-AI-OPS",
+              "quote": "设计AI地图工作台，整合当月、对比、推广包、线索、车型和位置数据，按月目标价值、任务紧急度和路线可执行性输出每日8家优先商户、到店动作与路线；分析约9.2万条车源记录和3.2万个车源ID，构建近4000个车型四象限并下钻CTR/CVR问题，形成商家经营建议。"
+            }
+          ],
+          "explanation": "已知设计经营工具，但没有本人编码过程、UI/UX原型或所列Agent产品深度拆解材料；不能由AI工具名称反推技术熟练度。JD明确不一定需要技术背景，不能额外设计算机专业门槛。",
+          "hard_gate": true
+        },
+        {
+          "id": "R7",
+          "requirement": "Harness方向：模型与Agent机制、工程实践和严谨研究",
+          "jd_quote": "6.理解 LLM 以及 Agent 基本机制及其技术原理，包括 LLM API、KV Cache、Agent Loop、Tool Use、Reasoning、Planning、Skills、MCP、Memory、Subagent、Multi-Agent 等相关知识。对 Prompt Engineering、Context Engineering、Harness Engineering 等课题有第一手实践。\n7.能够设计系统性的收集数据的方法（包括问卷、访谈、A/B测试、灰度测试等），并使用统计学的工具严谨科学的分析数据。对此有系统性的思考和实践。",
+          "weight": 5,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "未提供模型/Agent机制说明、Context或Harness工程实践、问卷访谈设计、A/B与灰度及统计分析证据；业务数据下钻不能替代这些研究和工程要求。",
+          "hard_gate": true
+        },
+        {
+          "id": "R8",
+          "requirement": "Harness方向：与开源及用户社群进行英文书面沟通",
+          "jd_quote": "能用英文与开源社区、用户社群书面沟通。",
+          "weight": 3,
+          "coverage": "gap",
+          "evidence_ids": [],
+          "evidence_quotes": [],
+          "explanation": "当前英文商务与技术水平未知，也无英文开源沟通材料；这是英文书面沟通要求，不擅自升级成母语级或海外工作许可门槛。",
+          "hard_gate": true
+        }
+      ],
+      "hard_gates": [
+        {
+          "requirement_id": "R1",
+          "status": "met",
+          "reason": "EV-AI-OPS记录业务需求、设计输出及团队全员使用，满足通用AI方向的完整交付替代路径，范围仅限内部经营工具。"
+        },
+        {
+          "requirement_id": "R4",
+          "status": "unknown",
+          "reason": "两年产品经理任职未证实；4年一般销售管理不替代产品年限，优秀可放宽需招聘方确认。"
+        },
+        {
+          "requirement_id": "R5",
+          "status": "unknown",
+          "reason": "本科学历已满足基础层级，知名高校附加口径尚未确认；该门槛只属于Harness方向。"
+        },
+        {
+          "requirement_id": "R6",
+          "status": "unknown",
+          "reason": "Vibe Coding、UI/UX与Agent深度使用未有过程证明；不额外要求计算机专业。"
+        },
+        {
+          "requirement_id": "R7",
+          "status": "unknown",
+          "reason": "核心机制、工程实践及科学数据研究均缺证，不以内部工具直接通过。"
+        },
+        {
+          "requirement_id": "R8",
+          "status": "unknown",
+          "reason": "英文书面社区沟通须提供样例，不能推定流利或不具备能力。"
+        }
+      ],
+      "hard_gate_review_complete": true,
+      "same_positioning": false,
+      "base_resume_reviewed": true,
+      "resume_action": "tailor",
+      "resume_advice": "只为通用AI产品方向准备业务问题产品化案例，不按Harness方向或成熟产品Owner包装。前置地图的用户问题、需求取舍、设计、实际使用与失败迭代，补本人职责、需求文档、原型、验收记录及用户反馈；保留团队使用和个人提效边界，不新增产品任职年限、规模化增长或算法协作。另补模型体验对照与一次可解释的产品验证后再评估通用方向，Harness所需工程、研究和英文材料未补前暂缓。",
+      "questions": [
+        "地图从需求、设计、开发协作到验收迭代，哪些环节由本人独立负责，是否保留原型、评审和反馈材料？",
+        "是否有可复核的模型体验对照、编码过程或英文社区沟通样例？没有的部分分别记缺口。"
+      ]
+    }
+  ]
+}

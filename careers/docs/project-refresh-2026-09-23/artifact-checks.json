@@ -1,0 +1,7 @@
+{
+  "synthetic_input_hash_verified": true,
+  "all_three_output_branches_verified": true,
+  "missing_balance_preserved_as_unknown": true,
+  "empty_ledger_contains_no_fabricated_leads": true,
+  "external_actions": 0
+}

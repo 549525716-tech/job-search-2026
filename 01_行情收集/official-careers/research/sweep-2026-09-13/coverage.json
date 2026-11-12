@@ -1,0 +1,1799 @@
+[
+  {
+    "company": "腾讯云",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "腾讯云 AI 企业服务 销售 招聘 官网"
+    ],
+    "urls": [
+      "https://partner.cloud.tencent.com/",
+      "https://cloud.tencent.com.cn/act/pro/enterprise2022",
+      "https://careers.tencent.com/login.html",
+      "https://partner.cloud.tencent.com.cn/",
+      "https://cloud.tencent.cn/act/pro/HRM",
+      "https://cloud.tencent.com/home",
+      "https://www.tencent.com/index.php/zh-cn/business/tencent-cloud.html",
+      "https://market.cloud.tencent.com/",
+      "https://jobs.tencent.com/jobopportunity.html",
+      "https://cloud.tencent.com/?...lang=cn",
+      "https://intl.cloud.tencent.com/zh/partner/becomeapartner",
+      "https://partner.cloud.tencent.com/index?cosback=2",
+      "https://main.qcloudimg.com/raw/document/product/pdf/1747_100875_cn.pdf",
+      "https://main.qcloudimg.com/raw/document/product/pdf/1743_100832_cn.pdf",
+      "https://main.qcloudimg.com/raw/document/product/pdf/1747_103382_cn.pdf",
+      "https://main.qcloudimg.com/raw/document/product/pdf/213_492_cn.pdf",
+      "https://staticintl.cloudcachetci.com/doc/pdf/product/pdf/1237_68979_zh.pdf",
+      "https://static.www.tencent.com/attachments/ssv/2025/tencent-ssv-report-2024.pdf"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/001-search-A-cloud-sales.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/001-search-A-cloud-sales.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "腾讯云 AI 企业服务 销售 招聘 官网"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "纷享销客",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "纷享销客 SaaS 销售 招聘 官网"
+    ],
+    "urls": [
+      "https://www.allink8s.com/",
+      "https://www.fxiaoke.com/crm/about-join/",
+      "https://www.fxiaoke.com/",
+      "https://saas.ecloud.10086.cn/Store/TSDetail/2140",
+      "https://www.xiogu.com/",
+      "https://www.xiogu.com/saas/",
+      "https://www.xiogu.com/service/",
+      "https://www.fxiaoke.com/ap/channel-marketing/",
+      "https://www.fxiaoke.com/crm/channel-partner",
+      "https://www.zhaopin.com/zhaopin/a1862489e9844cbaab882927343f7115/",
+      "https://resource.threatbook.com/ap/product-xs/",
+      "https://help.fxiaoke.com/93d5/1371/34a8",
+      "https://ask.qcloudimg.com/draft/6521960/17udiajqha.pdf",
+      "https://www.gyzq.com.cn/download/20160201/1454291965579.pdf",
+      "https://file.36dianping.com/20230309/v2_43fb6029d8a54b77945ef33efa12b234_file_pdf",
+      "https://enicnv.oss-cn-beijing.aliyuncs.com/2024/%E4%B8%93%E5%8C%BA/FXXK/%E7%99%BD%E7%9A%AE%E4%B9%A6/CRM.pdf"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/002-search-A-fxiaoke.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/018-open-A-fxiaoke-official.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/002-search-A-fxiaoke.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "纷享销客 SaaS 销售 招聘 官网"
+            }
+          ],
+          "response_length": "long"
+        }
+      },
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/018-open-A-fxiaoke-official.json",
+        "status": "page_read",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "https://www.fxiaoke.com/crm/about-join/"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "captured_filtered",
+    "full_jd_count": 8,
+    "search_index_count": 0,
+    "job_count": 8,
+    "formal_job_count": 8,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "取得8条完整职责及要求。已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "销售易",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "销售易 CRM 销售 招聘 官网"
+    ],
+    "urls": [
+      "https://www.xiaoshouyi.com/yk",
+      "https://www.hua-mi.cn/v-prod/xiaoshouyi/",
+      "https://www.txscrm.com/",
+      "https://www.xiaoshouyi.com/yxy",
+      "https://hiflow.tencent.com/document/applications/xiaoshouyi/",
+      "https://www.xiaoshouyi.com/about-us/join-us",
+      "https://www.u-qi.cn/v-prod/xiaoshouyi/",
+      "https://market.cloud.tencent.com/products/43578",
+      "https://www.neocrm.com/zh-hans/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC/",
+      "https://hiflow.tencent.com/document/applications/xiaoshouyi-private/",
+      "https://www.xiaoshouyi.com/about-us/career",
+      "https://bgidea.com.cn/",
+      "https://www.neocrm.com/wp-content/uploads/2016/11/%E9%94%80%E5%94%AE%E6%98%93CRM%E7%AE%A1%E7%90%86%E5%91%98%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8CV4.4%EF%BC%88WEB%E7%AB%AF%EF%BC%89.pdf",
+      "https://www.xiaoshouyi.com/wp-content/uploads/2016/11/%E9%94%80%E5%94%AE%E6%98%93CRM%E7%94%A8%E6%88%B7%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8CV4.4%EF%BC%88WEB%E7%AB%AF%EF%BC%89.pdf",
+      "https://www.xiaoshouyi.com/uploadfile/commen/neocrmB2Bsoftware.pdf"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/003-search-A-xiaoshouyi.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/019-open-A-xiaoshouyi-official.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/029-open-A-xiaoshouyi-510.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/003-search-A-xiaoshouyi.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "销售易 CRM 销售 招聘 官网"
+            }
+          ],
+          "response_length": "long"
+        }
+      },
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/019-open-A-xiaoshouyi-official.json",
+        "status": "page_read",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "https://www.xiaoshouyi.com/about-us/career"
+            }
+          ],
+          "response_length": "long"
+        }
+      },
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/029-open-A-xiaoshouyi-510.json",
+        "status": "technical_failure",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "turn102view0",
+              "lineno": 510
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "technical_failure",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "部分详情读取失败，未当作无岗位。已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "神策数据",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "神策数据 销售 客户成功 招聘 官网"
+    ],
+    "urls": [
+      "https://www.sensorsdata.cn/about/joinus.html",
+      "https://www.sensorsdata.cn/home/recruit/",
+      "https://www.sensorsdata.cn/terms/partners.html",
+      "https://www.sensorsdata.cn/product/journey.html",
+      "https://www.sensorsdata.cn/solutions/SaaS.html",
+      "https://www.sensorsdata.cn/terms/partner.html",
+      "https://www.sensorsdata.cn/about/aboutus.html",
+      "https://b.atyun.com/sensorsdata",
+      "https://www.zhipin.com/zhaopin/3fe9802b9774bb4a0HJ-2ti0/",
+      "https://xyzp.haitou.cc/article/2153188.html",
+      "https://www.tanzhi.cn/companies/490c02a3-48bf-489f-9859-3ca98c3b6e7a/",
+      "https://sensorsdata.cn/uploads/4833e2cf90c14a7e73197bff7c918056/_%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2%E7%94%A8%E6%88%B7%E5%A2%9E%E9%95%BF%E9%97%AD%E7%8E%AF%E7%99%BD%E7%9A%AE%E4%B9%A6_.pdf",
+      "https://www.sensorsdata.cn/blog/20200324/",
+      "https://sensorsdata.cn/uploads/637e98a7bac8919624c13f54625a7ced/%E5%AE%A2%E6%88%B7%E5%85%A8%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E8%BF%90%E8%90%A5%E6%96%B9%E6%A1%88.pdf",
+      "https://support.huaweicloud.com/scdps-dgm/%E7%A5%9E%E7%AD%96%E5%AE%A2%E6%88%B7%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E5%AE%9E%E8%B7%B5.pdf",
+      "https://sensorsdata.cn/uploads/1913b8e011f26b549de0471c5db41ac8/%E7%A5%9E%E7%AD%96%E6%95%B0%E6%8D%AE%E5%AE%A2%E6%88%B7%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E7%AE%A1%E7%90%86%E4%BB%8E%E6%96%B9%E6%B3%95%E5%88%B0%E5%AE%9E%E8%B7%B5.pdf",
+      "https://file.36dianping.com/20230309/v2_43fb6029d8a54b77945ef33efa12b234_file_pdf"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/004-search-A-shence.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/006-open-A-sensorsdata.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/028-open-A-sensorsdata-100.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/027-open-A-sensorsdata-400.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/004-search-A-shence.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "神策数据 销售 客户成功 招聘 官网"
+            }
+          ],
+          "response_length": "long"
+        }
+      },
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/006-open-A-sensorsdata.json",
+        "status": "page_read",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "turn87search0"
+            }
+          ],
+          "response_length": "long"
+        }
+      },
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/028-open-A-sensorsdata-100.json",
+        "status": "page_read",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "turn89view0",
+              "lineno": 100
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "captured_filtered",
+    "full_jd_count": 7,
+    "search_index_count": 0,
+    "job_count": 7,
+    "formal_job_count": 7,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "取得7条完整职责及要求。已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "金蝶",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "金蝶 AI 企业服务 销售 招聘 官网"
+    ],
+    "urls": [
+      "https://www.kingdee.com/resources/ai-agent/1487169142013179649",
+      "https://www.kingdee.com/cn",
+      "https://www.kingdee.com/job",
+      "https://www.kingdee-pan.com.cn/",
+      "https://m.kingdee.com/cn/",
+      "https://www.kingdee.com/market/aiagent.html",
+      "https://www.kingdee.com/market/agent.html",
+      "https://www.kingdee.com/sg/zh-hans/careers/",
+      "https://career.nankai.edu.cn/correcruit/content/id/118458.html",
+      "https://m.kingdee.com/market/aiagent.html",
+      "https://m.kingdee.com/products",
+      "https://www.kingdee.com/products/cosmic_hr.html",
+      "https://investor.kingdee.com/static/temp/FY2024%E4%B8%9A%E7%BB%A9ppt_0317_final%EF%BC%88%E5%A4%96%E5%8F%91%E7%89%88%EF%BC%89_1742215531033.pdf",
+      "https://www.kingdee.com/r/cms/www/default/v02/pdf/gjqd.pdf",
+      "https://m.kingdee.com/r/cms/www/default/v02/pdf/gjfw2025.pdf",
+      "https://www.kingdee.com/r/cms/www/default/v0.1/pdf/2020kingdeeRecruit.pdf",
+      "https://www.kingdee.com/r/cms/www/default/v02/pdf/bzqd2025.pdf",
+      "https://www.kingdee.com/r/cms/www/default/v02/pdf/1-3-3zxqd.pdf"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/005-search-A-jindie.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/005-search-A-jindie.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "金蝶 AI 企业服务 销售 招聘 官网"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "Noumena",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/011-open-A-noumena.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/011-open-A-noumena.json",
+        "status": "technical_failure",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "turn93search1"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "technical_failure",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "部分详情读取失败，未当作无岗位。已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "慧策/掌上先机",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "慧策 旺店通 掌上先机 官网 招聘 客户成功"
+    ],
+    "urls": [
+      "https://career.hebut.edu.cn/home/correcruit/content/id/79516.html",
+      "https://www.wangdian.cn/",
+      "https://www.wangdian.cn/about/",
+      "https://m.wangdian.cn/",
+      "https://job.hdu.edu.cn/attachment/hdu/ueditor/file/20260127/8491_%E6%85%A7%E7%AD%96-2026%E6%8B%9B%E8%81%98%E7%AE%80%E7%AB%A0-CYZ.pdf",
+      "https://www.zhaopin.com/jobdetail/CC606048720J40812958616.htm",
+      "https://www.zhaopin.com/jobdetail/CC701100530J40883294212.htm",
+      "https://www.liepin.com/job/1980724561.shtml",
+      "https://www.zhipin.com/zhaopin/ac69af6594fd24031XZ72tW4/",
+      "https://www.zhipin.com/zhaopin/ea77614a765f2d810nJy0tW5/",
+      "https://www.wangdian.cn/hjy/",
+      "https://www.zhaopin.com/jobdetail/CC606048720J40829337116.htm",
+      "https://jyb.zstu.edu.cn/campus/view/id/338944",
+      "https://nav.36dianping.com/site/5571.html",
+      "https://www1.hnsyu.net/wyx/zsjy/jyzd/202502/P020250228420778916426.pdf",
+      "https://www.authine.com/uploads/202134-2021%E5%B9%B4%E4%B8%AD%E5%9B%BD%E9%9B%B6%E5%94%AESaaS%E6%9C%8D%E5%8A%A1%E8%A1%8C%E4%B8%9A%E6%A6%82%E8%A7%88.pdf",
+      "https://m.liepin.com/zpkhcgfzr4e3l/"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/012-open-B-talent-portal.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/013-search-A-huice.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/009-search-B-customer-success.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/012-open-B-talent-portal.json",
+        "status": "page_read",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "turn90search0"
+            }
+          ],
+          "response_length": "long"
+        }
+      },
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/013-search-A-huice.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "慧策 旺店通 掌上先机 官网 招聘 客户成功"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "B",
+      "A"
+    ],
+    "status": "search_index_only",
+    "full_jd_count": 0,
+    "search_index_count": 2,
+    "job_count": 2,
+    "formal_job_count": 2,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "保留2条索引线索，尚未核验原站及薪资构成。已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "探迹科技",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [],
+    "urls": [
+      "https://m.tungee.com/about/join-us",
+      "https://m.tungee.com/about/join-us/"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+        "status": "page_read",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "https://m.tungee.com/about/join-us"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "captured_filtered",
+    "full_jd_count": 8,
+    "search_index_count": 0,
+    "job_count": 8,
+    "formal_job_count": 8,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "取得8条完整职责及要求。已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "阿里云",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "site:aliyun.com 加入我们 社会招聘 销售 岗位职责"
+    ],
+    "urls": [
+      "https://developer.aliyun.com/article/782867",
+      "https://startup.aliyun.com/city/sh/demandDockSquare/1452445025424101378.html",
+      "https://tianchi.aliyun.com/forum/post/74243",
+      "https://startup.aliyun.com/info/1092383.html",
+      "https://startup.aliyun.com/info/1061500.html",
+      "https://startup.aliyun.com/info/1092499.html",
+      "https://developer.aliyun.com/article/1200119",
+      "https://startup.aliyun.com/info/1069644.html",
+      "https://startup.aliyun.com/city/lc/portal/policy/1",
+      "https://startup.aliyun.com/info/1035952.html",
+      "https://developer.aliyun.com/article/638660",
+      "https://developer.aliyun.com/article/277316"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/020-search-A-aliyun.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/020-search-A-aliyun.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "site:aliyun.com 加入我们 社会招聘 销售 岗位职责"
+            }
+          ],
+          "response_length": "medium"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "火山引擎",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "site:volcengine.com 加入我们 社会招聘 销售 岗位职责"
+    ],
+    "urls": [
+      "https://developer.volcengine.com/articles/7599494249788211227",
+      "https://developer.volcengine.com/articles/7382265559062151218",
+      "https://developer.volcengine.com/articles/7387286348589498387",
+      "https://developer.volcengine.com/articles/7538384625916182554",
+      "https://developer.volcengine.com/articles/7392434074839449636",
+      "https://www.volcengine.com/product/datawind/",
+      "https://developer.volcengine.com/articles/7644192372423589914",
+      "https://developer.volcengine.com/articles/7387237013794324492",
+      "https://www.volcengine.com/article/2609578",
+      "https://developer.volcengine.com/articles/7538287092447576118",
+      "https://developer.volcengine.com/articles/7381520373088518170",
+      "https://developer.volcengine.com/articles/7541273612368822315"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/021-search-A-volcengine.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/021-search-A-volcengine.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "site:volcengine.com 加入我们 社会招聘 销售 岗位职责"
+            }
+          ],
+          "response_length": "medium"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "华为云",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "site:huaweicloud.com 招聘 销售 解决方案 任职要求"
+    ],
+    "urls": [
+      "https://support.huaweicloud.com/ccts-education/%E9%85%B7%E5%AD%A6%E9%99%A2%E4%BC%81%E4%B8%9A%E5%9F%B9%E8%AE%AD%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E5%AE%9E%E8%B7%B5.pdf",
+      "https://www.huaweicloud.com/intl/zh-cn/careers/20181224103724514.html",
+      "https://www.huaweicloud.com/partners/programs/solution_provider/index.html",
+      "https://www.huaweicloud.com/intl/zh-cn/careers/20181224100340901.html",
+      "https://www.huaweicloud.com/intl/zh-cn/careers/20181224102957291.html",
+      "https://www.huaweicloud.com/intl/zh-cn/partners/programs/solution_provider/",
+      "https://www.huaweicloud.com/intl/zh-cn/careers/20181224101806757.html",
+      "https://support.huaweicloud.com/dintaide-internet/dintaide_01.html",
+      "https://support.huaweicloud.com/usermanual-bpconsole/apb_032005.html",
+      "https://support.huaweicloud.com/whfaicps-dgo/%E5%85%A8%E5%9C%BA%E6%99%AF%E4%B8%87%E6%88%B7AI%E6%99%BA%E8%83%BD%E5%AE%9A%E5%88%B6%E9%97%A8%E6%88%B7%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E5%AE%9E%E8%B7%B5.pdf",
+      "https://support.huaweicloud.com/intl/zh-cn/bpconsole_faq/bpconsole-faq.pdf",
+      "https://support.huaweicloud.com/usermanual-bpconsole/%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E4%B8%AD%E5%BF%83%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97%2011.3.2-CH-pdf.pdf",
+      "https://support.huaweicloud.com/bpconsole_faq/bpconsole-faq-pdf.pdf",
+      "https://support.huaweicloud.com/dintaide-internet/internet-dintaide.pdf",
+      "https://www.huaweicloud.com/intl/zh-cn/careers/20181224110448774.html",
+      "https://support.huaweicloud.com/usermanual-bpconsole/program_03102.html",
+      "https://www.huaweicloud.com/intl/zh-cn/careers/20181224100725527.html",
+      "https://www.huaweicloud.com/careers/school/20220412195906730.html"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/022-search-A-huaweicloud.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/022-search-A-huaweicloud.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "site:huaweicloud.com 招聘 销售 解决方案 任职要求"
+            }
+          ],
+          "response_length": "medium"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "科大讯飞",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "site:iflytek.com 加入我们 销售 客户成功 岗位职责"
+    ],
+    "urls": [
+      "https://www.xfchat.iflytek.com/hc/zh-CN/articles/360043495213-%E7%AE%A1%E7%90%86%E5%91%98%E5%88%9B%E5%BB%BA%E7%AE%A1%E7%90%86%E5%91%98%E8%A7%92%E8%89%B2%E5%8F%8A%E5%88%86%E9%85%8D%E6%9D%83%E9%99%90",
+      "https://edu.iflytek.com/about-us/news/regional-consultation",
+      "https://edu.iflytek.com/about-us/news/others_2",
+      "https://www.xfchat.iflytek.com/hc/zh-CN/articles/899737788817-%E5%A4%9A%E7%BB%B4%E8%A1%A8%E6%A0%BC%E6%94%AF%E6%8C%81-100-%E4%B8%87%E8%A1%8C%E5%BD%92%E6%A1%A3%E8%A1%A8",
+      "https://edu.iflytek.com/about-us/news/company-news_34",
+      "https://edu.iflytek.com/about-us/news/company-news_28",
+      "https://edu.iflytek.com/about-us/news/company-news_44",
+      "https://edu.iflytek.com/about-us/news_63",
+      "https://edu.iflytek.com/about-us/news_26",
+      "https://edu.iflytek.com/cases/cases-school/22",
+      "https://edu.iflytek.com/about-us/news/regional-consultation_3",
+      "https://edu.iflytek.com/about-us/news_122"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/023-search-A-iflytek.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/023-search-A-iflytek.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "site:iflytek.com 加入我们 销售 客户成功 岗位职责"
+            }
+          ],
+          "response_length": "medium"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "商汤",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "site:sensetime.com 招聘 商务 销售 解决方案"
+    ],
+    "urls": [
+      "https://www.sensetime.com/cn/join-us",
+      "https://www.sensetime.com/cn/partner/",
+      "https://www.sensetime.com/hk/partner/",
+      "https://www.sensetime.com/cn/join-index",
+      "https://www.sensetime.com/cn/index",
+      "https://www.sensetime.com/cn/product-detail?categoryId=32362",
+      "https://www.sensetime.com/cn/product-detail?categoryId=32357",
+      "https://www.sensetime.com/cn/product-detail?categoryId=51134477",
+      "https://www.sensetime.com/cn/product-detail?categoryId=51134454",
+      "https://www.sensetime.com/cn/product-business?categoryId=79",
+      "https://legacy.sensetime.com/cn/news-detail/54596?categoryId=72",
+      "https://www.sensetime.com/cn/product-business?categoryId=87",
+      "https://oss.sensetime.com/20230427/3f27325719fadcb181f3be87a0991e62/%E5%95%86%E6%B1%A42022%E5%B9%B4%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A%EF%BC%88%E4%B8%AD%E6%96%87%E7%89%88%EF%BC%89_20230427.pdf"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/024-search-A-sensetime.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/024-search-A-sensetime.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "site:sensetime.com 招聘 商务 销售 解决方案"
+            }
+          ],
+          "response_length": "medium"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "百炼智能",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "site:bailian.ai 招聘 加入我们 销售"
+    ],
+    "urls": [],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/025-search-A-bailian.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/025-search-A-bailian.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "site:bailian.ai 招聘 加入我们 销售"
+            }
+          ],
+          "response_length": "medium"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "GrowingIO",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "site:growingio.com 加入我们 客户成功 销售"
+    ],
+    "urls": [
+      "https://www.growingio.com/ebook/manifest.json",
+      "https://files.growingio.com/activity/webinar/ppt/GrowingIO%20%E5%A2%9E%E9%95%BF%E5%85%AC%E5%BC%80%E8%AF%BE%E7%AC%AC%201%20%E6%9C%9F-%E5%BE%90%E5%86%B0%E6%9D%B0.pdf",
+      "https://files.growingio.com/activity/ebook/saas.pdf",
+      "https://www.growingio.com/video?career=comp_serv&scenario=customer",
+      "https://www.growingio.com/video?scenario=store",
+      "https://www.growingio.com/news/343",
+      "https://www.growingio.com/video?career=&duty=manage&page=1&scenario=store",
+      "https://www.growingio.com/news/50",
+      "https://www.growingio.com/video?career=comp_serv&duty=manage&scenario=store",
+      "https://www.growingio.com/video?duty=market",
+      "https://www.growingio.com/video/16",
+      "https://www.growingio.com/ebook/12",
+      "https://www.growingio.com/news/004",
+      "https://www.growingio.com/news/1j0bj0vze1kvpoue5toy7r"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/026-search-A-growingio.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/026-search-A-growingio.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "site:growingio.com 加入我们 客户成功 销售"
+            }
+          ],
+          "response_length": "medium"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "字节跳动/飞书商业化",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/032-open-B-linkedin-feishu.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/032-open-B-linkedin-feishu.json",
+        "status": "access_stop",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "turn92search7"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "B"
+    ],
+    "status": "access_stop",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "部分来源访问受限，已停止，不据此推断岗位关闭。已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "网易智企",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [],
+    "urls": [
+      "https://jobs.ultraai.site/jobs/netease/73335"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/033-open-B-ultraai-netease.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/035-click-B-to-A-netease.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/033-open-B-ultraai-netease.json",
+        "status": "page_read",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "turn92search8"
+            }
+          ],
+          "response_length": "long"
+        }
+      },
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/035-click-B-to-A-netease.json",
+        "status": "technical_failure",
+        "operation": "click",
+        "request": {
+          "click": [
+            {
+              "ref_id": "turn116view0",
+              "id": 1
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "B",
+      "A"
+    ],
+    "status": "captured_filtered",
+    "full_jd_count": 1,
+    "search_index_count": 0,
+    "job_count": 1,
+    "formal_job_count": 1,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "取得1条完整职责及要求。部分详情读取失败，未当作无岗位。已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "湖南中项网科技有限公司",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [],
+    "urls": [
+      "https://bebee.com/cn/jobs/base--techmap_cn_CCL1247354440J40854760510"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/034-open-B-bebee-zhongxiang.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/034-open-B-bebee-zhongxiang.json",
+        "status": "page_read",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "turn92search6"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "B"
+    ],
+    "status": "captured_filtered",
+    "full_jd_count": 1,
+    "search_index_count": 0,
+    "job_count": 1,
+    "formal_job_count": 1,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "取得1条完整职责及要求。已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "汇川技术",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "汇川技术 社会招聘 销售经理"
+    ],
+    "urls": [
+      "https://recruit.inovance.com/?fromsite=niuqizp.com",
+      "https://www.career.zju.edu.cn/jyxt/sczp/zphgl/cxZprlXq.zf?id=d24f77ec17b5e12d42e344f9eb12d605&ywlx=xjh",
+      "https://www.cechina.cn/Company/151585/job.aspx",
+      "https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4Y9yK0dTOs4bddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E",
+      "https://static.cninfo.com.cn/finalpage/2024-04-23/1219748669.PDF",
+      "https://jobs.uhomes.com/jobs/d0lbnWkz",
+      "https://www.zhaopin.com/companydetail/CZ139548560.htm",
+      "https://www.zhaopin.com/companydetail/CC139548563.htm",
+      "https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4Y9yK0dTOspzddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E",
+      "https://www.haolietou.com/j_188140",
+      "https://jobs.uhomes.com/jobs/pJEQWGJo",
+      "https://pdf.dfcfw.com/pdf/H2_AN202504281664018251_1.pdf",
+      "https://job.tju.edu.cn/recruitment/content/type/2/id/6236.html",
+      "https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4Y9yK0dTOs3bddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E",
+      "https://fujianjycyfww.lntu.edu.cn/960e6fe4ba78739808a8a0c4b6c4f28b/1/c4d5d01bd56f9c5c/202510101600075783.pdf",
+      "https://disc.static.szse.cn/disc/disk02/finalpage/2021-04-27/6d58b64c-b46d-4a77-b803-5e410c7a5b21.PDF",
+      "https://static.cninfo.com.cn/finalpage/2022-04-26/1213108129.PDF",
+      "https://yjscareer.shiep.edu.cn/uploadfiles/file/20211223/6377589314316135512916818.pdf",
+      "https://zh.wikipedia.org/wiki/%E5%8C%AF%E5%B7%9D%E6%8A%80%E8%A1%93"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/101-search-A-huichuan.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/101-search-A-huichuan.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "汇川技术 社会招聘 销售经理"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "海康机器人",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "海康机器人 招聘 销售经理"
+    ],
+    "urls": [
+      "https://job.hikrobotics.com/",
+      "https://job.hikrobotics.com/society/position?postId=91EAB41F671A70A4018C0A5E197730B5",
+      "https://talent.hikvision.com/home/socity/position?postId=80502AA3E5832BA4F5943E81EA0A8605",
+      "https://talent.hikvision.com/society/index",
+      "https://talent.hikvision.com/home/socity/position?postId=91EAB41F671A70A4018C0A5E197730B5",
+      "https://talent.hikvision.com/home/socity/position?postId=F321CA200A57CAD79B1538007308D0BD",
+      "https://myjob.dlmu.edu.cn/teachin/view/id/150130",
+      "https://job.hikrobotics.com/society/position?postId=BA501B019F958D04A92C3A53791A7E46",
+      "https://job.hikrobotics.com/society/position?postId=A755F010E0B5FB3F8E274F17FA7A9BEA",
+      "https://job.hikrobotics.com/society/position?postId=0238B878256E945315E0AB41F8FB56E4",
+      "https://www.hikrobotics.com/cn",
+      "https://offers.51mee.com/offer-detail/U6VTGUYP.html",
+      "https://www.ahjzu.edu.cn/_upload/article/files/2f/48/e655b81d4c3f89d3d909c3e696f5/fe0b973b-e473-46c4-b4f2-db9601a6d2da.pdf",
+      "https://smeei.cug.edu.cn/__local/B/83/71/1C400D2115F9D9040ACF0BD0A39_D45DC87C_B35BD.pdf",
+      "https://wjbobs.hope55.com/db/UploadFile/2025/5/25/82712256-a296-41f1-b869-e737b430b9b6.pdf",
+      "https://pdf.dfcfw.com/pdf/H2_AN202308031593184648_1.pdf"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/102-search-A-hikrobot.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/113-open-A-hikrobot-channel.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/102-search-A-hikrobot.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "海康机器人 招聘 销售经理"
+            }
+          ],
+          "response_length": "long"
+        }
+      },
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/113-open-A-hikrobot-channel.json",
+        "status": "technical_failure",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "turn120search1"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "technical_failure",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "部分详情读取失败，未当作无岗位。已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "优必选",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "优必选 招聘 渠道 销售"
+    ],
+    "urls": [
+      "https://www.zhaopin.com/zhaopin/90a32c3d8bd84b1c81ed4d034f78c8e2/",
+      "https://www.zhipin.com/zhaopin/bc13ed9b01c112870XF_2Ni_/",
+      "https://m.zhipin.com/zhaopin/bc13ed9b01c112870XF_2Ni_/",
+      "https://career.hebut.edu.cn/correcruit/content/id/79619.html",
+      "https://career.hebut.edu.cn/correcruit/content/id/75365.html",
+      "https://m.zhipin.com/zhaopin/33a083b72c0ac4e90XV90tm5/",
+      "https://www.job5156.com/gongsi/gs6e978b208026e1d9ba061651d70ece4d/",
+      "https://www.zhaopin.com/companydetail/jobs-CZ494367020/",
+      "https://www.zhaopin.com/zhaopin/345c060f080143cc802382c62f3fd748/",
+      "https://aeo.uibe.edu.cn/front/zpxx.jspa?tid=2094665226703126530",
+      "https://career.uibe.edu.cn/front/zpxx.jspa?tid=2094665226703126530",
+      "https://www.ubtrobot.com/cn/about/company-profile",
+      "https://static.cninfo.com.cn/finalpage/2025-04-30/1223446571.PDF",
+      "https://pdf.dfcfw.com/pdf/H3_AP202403271628297419_1.pdf%3F1711534041000.pdf",
+      "https://tyb.bbmu.edu.cn/__local/9/FC/BA/9CAEE2030A4BEB8CA25272225DA_501E4D60_220B71.pdf",
+      "https://career.cuhk.edu.cn/attachment/careercuhk/ueditor/file/20251219/9931_%E5%8D%9A%E9%81%93%E5%9F%BA%E9%87%912026%E6%A0%A1%E6%8B%9B%E5%AE%A3%E4%BC%A0%20251218%E6%9B%B4%E6%96%B0.pdf",
+      "https://pdf.dfcfw.com/pdf/H3_AP201807111165372510_1.pdf",
+      "https://www.reddit.com/r/u_yilus5/comments/11y49nn",
+      "https://www.reddit.com/r/u_yilus5/comments/11y4b03"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/103-search-A-ubtech.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/103-search-A-ubtech.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "优必选 招聘 渠道 销售"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "赛意信息",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "赛意信息 招聘 行业销售"
+    ],
+    "urls": [
+      "https://www.jing-tong.com/join_us/",
+      "https://www.chinasie.com/join_us/",
+      "https://xiaozhaobao.com.cn/job/1736182",
+      "https://www.chinasie.com/",
+      "https://www.jobui.com/company/12806964/salary/j/ruanjianxiaoshoujingli/",
+      "https://campus.51job.com/sie2022/jobus.html",
+      "https://career.wyu.edu.cn/detail/job?career_id=646531&id=2686225",
+      "https://career.wyu.edu.cn/detail/career?id=646531",
+      "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12259063",
+      "https://m.yingjiesheng.com/ypyear.php?ID=wh8uc666fv",
+      "https://www.job5156.com/comp/66197",
+      "https://www.jobui.com/company/12806964/",
+      "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-29/d6c489a0-939a-4394-b78b-cba269fb6ec1.PDF",
+      "https://static.cninfo.com.cn/finalpage/2025-04-25/1223280370.PDF",
+      "https://static.cninfo.com.cn/finalpage/2018-04-25/1204741814.PDF",
+      "https://notice.10jqka.com.cn/api/pdf/ee2a5796e0807c59.pdf",
+      "https://static.cninfo.com.cn/finalpage/2023-04-28/1216659656.PDF",
+      "https://www.reddit.com/r/u_Stephen1573/comments/1ue10yl/%E6%96%B0%E5%8A%A0%E5%9D%A1%E4%BA%A7%E5%93%81%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%81%8C%E4%BD%8D%E6%8B%9B%E8%81%98/"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/104-search-A-saiyi.json",
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/114-open-A-saiyi-careers.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/104-search-A-saiyi.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "赛意信息 招聘 行业销售"
+            }
+          ],
+          "response_length": "long"
+        }
+      },
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/114-open-A-saiyi-careers.json",
+        "status": "technical_failure",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "turn122search0"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "technical_failure",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "部分详情读取失败，未当作无岗位。已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "鼎捷数智",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "鼎捷数智 招聘 客户经理"
+    ],
+    "urls": [
+      "https://www.digiwin.com/",
+      "https://www.deizao.net/m/index/shixixq/jobid/163604",
+      "https://www.tanzhi.cn/companies/2d5bba12-298d-4c3a-a803-87c0c9a64d0f/",
+      "https://www.digiwin.com/software/HR.html",
+      "https://jy.slu.edu.cn/2025/0911/c556a53674/page.htm",
+      "https://www.zhaopin.com/companydetail/jobs-CZL1490926270/",
+      "https://www.tanzhi.cn/companies/d9d553dc-24b8-4292-aefb-33e6440a1265/",
+      "https://www.pyrc.com.cn/jobfair/jobInfo.jsp?apply_no=15307580&recruit_no=256272602",
+      "https://www.digiwin.com/other/channel/channel.html",
+      "https://www.zhipin.com/zhaopin/90deb19d6f213dee1Hd629m-/",
+      "https://campus.niuqizp.com/job-vsk5ZMtt5.html",
+      "https://jobs.blcu.edu.cn/front/zpxx.jspa?tid=111570",
+      "https://pdf.dfcfw.com/pdf/H2_AN202512101797762561_1.pdf",
+      "https://disc.static.szse.cn/disc/disk03/finalpage/2025-04-14/590726c1-3ae7-4e07-b8a4-6346cca75126.PDF",
+      "https://disc.static.szse.cn/disc/disk03/finalpage/2025-09-17/72e5ca7f-b288-4862-9b92-aeaa484223fe.PDF",
+      "https://static.cninfo.com.cn/finalpage/2025-12-11/1224867609.PDF",
+      "https://static.cninfo.com.cn/finalpage/2025-08-25/1224570085.PDF",
+      "https://zh.wikipedia.org/wiki/%E9%BC%8E%E6%8D%B7%E6%95%B0%E6%99%BA"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/105-search-A-digiwin.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/105-search-A-digiwin.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "鼎捷数智 招聘 客户经理"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "联友科技",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [
+      "联友科技 招聘 汽车 销售"
+    ],
+    "urls": [
+      "https://aeo.uibe.edu.cn/front/zpxx.jspa?tid=2041810163521814530",
+      "https://www.wenda.edu.cn/jy/display_2400.html",
+      "https://www.tanzhi.cn/companies/a4c0418f-7d15-435d-83b7-f9e582546c26/",
+      "https://www.pyrc.com.cn/jobfair/jobInfo.jsp?apply_no=15308967&recruit_no=258253602",
+      "https://www.job5156.com/gongsi/gs954f1c291931b8d901dc28f23f46fb57/",
+      "https://www.job168.com/jobfair/jobInfo.jsp?apply_no=15315442&recruit_no=262235602",
+      "https://www.liepin.com/company/1680117/",
+      "https://www.wondercv.com/xiaozhao/lianyou-2027-campus-recruitment-13938-eaa514/",
+      "https://www.szlanyou.com/",
+      "https://www.szlanyou.com/index.aspx",
+      "https://www.szlanyou.com/AboutAssociates/index.aspx",
+      "https://xsjyc.chd.edu.cn/Files/Umeditor/file/20211009/6376938724736893502201220.pdf",
+      "https://jdjyw.jlu.edu.cn/portal/jyzp/recruit/details?id=e1574adf077141beaec88d6c0d859d06",
+      "https://static.cninfo.com.cn/finalpage/2019-03-26/1205938914.PDF",
+      "https://bys.hqu.edu.cn/virtual_attach_file.vsb?afc=un7lUbMz9PUmC4Ln7lDMlL4nNMfUzQSfLzLiM4-aLmWkUlU0gihFp2hmCIa0Lkhfn1y8nkybUz7iL7LDL8UioR-4L8CYUmvPUmv4LzW7L4TFUz9bU4CPolrFLzNZMzNJv2nto4OeoDXb_tnE_VhJQ5v0qIbtpYyPMRNPg47aLzCYMR7Jqdznx"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/106-search-A-liankyou.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/106-search-A-liankyou.json",
+        "status": "search_result",
+        "operation": "search",
+        "request": {
+          "search_query": [
+            {
+              "q": "联友科技 招聘 汽车 销售"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "A"
+    ],
+    "status": "controller_search_only",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "ADXJ 蓝鲸出海",
+    "entity_kind": "company",
+    "attempted": true,
+    "queries": [],
+    "urls": [
+      "https://adxj.com/join/"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/115-open-B-adxj-channel.json"
+    ],
+    "source_outcomes": [
+      {
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/115-open-B-adxj-channel.json",
+        "status": "page_read",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "turn127search0"
+            }
+          ],
+          "response_length": "long"
+        }
+      }
+    ],
+    "route": [
+      "B"
+    ],
+    "status": "captured_filtered",
+    "full_jd_count": 15,
+    "search_index_count": 0,
+    "job_count": 15,
+    "formal_job_count": 15,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "取得15条完整职责及要求。已执行有原始请求记录的检索或页面访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "沃丰科技",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [
+      "https://m.liepin.com/zpqykhcgzj5i2q/"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/009-search-B-customer-success.json"
+    ],
+    "source_outcomes": [],
+    "route": [
+      "B"
+    ],
+    "status": "search_index_only",
+    "full_jd_count": 0,
+    "search_index_count": 1,
+    "job_count": 1,
+    "formal_job_count": 1,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "保留1条索引线索，尚未核验原站及薪资构成。未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "猎豹移动",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [
+      "https://m.liepin.com/zpkhcgfzr4e3l/"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/009-search-B-customer-success.json"
+    ],
+    "source_outcomes": [],
+    "route": [
+      "B"
+    ],
+    "status": "search_index_only",
+    "full_jd_count": 0,
+    "search_index_count": 1,
+    "job_count": 1,
+    "formal_job_count": 1,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "保留1条索引线索，尚未核验原站及薪资构成。未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "SparkX 邑炎科技",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [
+      "https://m.liepin.com/zpkhcgfzr4e3l/"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/009-search-B-customer-success.json"
+    ],
+    "source_outcomes": [],
+    "route": [
+      "B"
+    ],
+    "status": "search_index_only",
+    "full_jd_count": 0,
+    "search_index_count": 1,
+    "job_count": 1,
+    "formal_job_count": 1,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "保留1条索引线索，尚未核验原站及薪资构成。未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "杭州正马软件科技有限公司",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [
+      "https://m.liepin.com/zpkhcgfzr4e3l/"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/009-search-B-customer-success.json"
+    ],
+    "source_outcomes": [],
+    "route": [
+      "B"
+    ],
+    "status": "search_index_only",
+    "full_jd_count": 0,
+    "search_index_count": 1,
+    "job_count": 1,
+    "formal_job_count": 1,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "保留1条索引线索，尚未核验原站及薪资构成。未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "深圳胖柴点书科技有限公司广州分公司",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [
+      "https://m.liepin.com/zpkhcgfzr4e3l/"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/009-search-B-customer-success.json"
+    ],
+    "source_outcomes": [],
+    "route": [
+      "B"
+    ],
+    "status": "search_index_only",
+    "full_jd_count": 0,
+    "search_index_count": 1,
+    "job_count": 1,
+    "formal_job_count": 1,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "保留1条索引线索，尚未核验原站及薪资构成。未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "金千枝(深圳)软件技术有限公司",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [
+      "https://m.liepin.com/zpkhcgfzr4e3l/"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/009-search-B-customer-success.json"
+    ],
+    "source_outcomes": [],
+    "route": [
+      "B"
+    ],
+    "status": "search_index_only",
+    "full_jd_count": 0,
+    "search_index_count": 1,
+    "job_count": 1,
+    "formal_job_count": 1,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "保留1条索引线索，尚未核验原站及薪资构成。未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "中企动力",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [
+      "https://m.liepin.com/zpqykhcgzj5i2q/"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/009-search-B-customer-success.json"
+    ],
+    "source_outcomes": [],
+    "route": [
+      "B"
+    ],
+    "status": "search_index_only",
+    "full_jd_count": 0,
+    "search_index_count": 1,
+    "job_count": 1,
+    "formal_job_count": 1,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "保留1条索引线索，尚未核验原站及薪资构成。未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "领充新能源",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [
+      "https://m.liepin.com/zpqykhcgzj5i2q/"
+    ],
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-13/raw/009-search-B-customer-success.json"
+    ],
+    "source_outcomes": [],
+    "route": [
+      "B"
+    ],
+    "status": "search_index_only",
+    "full_jd_count": 0,
+    "search_index_count": 1,
+    "job_count": 1,
+    "formal_job_count": 1,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "保留1条索引线索，尚未核验原站及薪资构成。未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "用友",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [],
+    "source_outcomes": [],
+    "route": [],
+    "status": "unscanned",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "明源云",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [],
+    "source_outcomes": [],
+    "route": [],
+    "status": "unscanned",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "帆软",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [],
+    "source_outcomes": [],
+    "route": [],
+    "status": "unscanned",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "简道云",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [],
+    "source_outcomes": [],
+    "route": [],
+    "status": "unscanned",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "来也科技",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [],
+    "source_outcomes": [],
+    "route": [],
+    "status": "unscanned",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "影刀",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [],
+    "source_outcomes": [],
+    "route": [],
+    "status": "unscanned",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "实在智能",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [],
+    "source_outcomes": [],
+    "route": [],
+    "status": "unscanned",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "容联云",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [],
+    "source_outcomes": [],
+    "route": [],
+    "status": "unscanned",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "七牛云",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [],
+    "source_outcomes": [],
+    "route": [],
+    "status": "unscanned",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "声网",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [],
+    "source_outcomes": [],
+    "route": [],
+    "status": "unscanned",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "网易数帆",
+    "entity_kind": "company",
+    "attempted": false,
+    "queries": [],
+    "urls": [],
+    "evidence_files": [],
+    "source_outcomes": [],
+    "route": [],
+    "status": "unscanned",
+    "full_jd_count": 0,
+    "search_index_count": 0,
+    "job_count": 0,
+    "formal_job_count": 0,
+    "source_scope_complete": false,
+    "current_hiring_verified": false,
+    "reason": "未执行这家公司的专门检索/详情访问。未完成全公司招聘分页，不代表当前仍在招。"
+  },
+  {
+    "company": "BOSS直聘、猎聘",
+    "entity_kind": "paused_source_group",
+    "attempted": false,
+    "status": "known_restricted_source_not_retried",
+    "job_count": 0,
+    "reason": "既有平台暂停，本轮只可能从外部搜索看到索引，未访问平台或解除限制。",
+    "queries": [],
+    "urls": [],
+    "evidence_files": []
+  },
+  {
+    "company": "MiniMax、月之暗面、智谱、第四范式",
+    "entity_kind": "paused_source_group",
+    "attempted": false,
+    "status": "known_restricted_source_not_retried",
+    "job_count": 0,
+    "reason": "既有隔离或停源保持；未通过新账号、同租户其他地址或其他工具绕过。",
+    "queries": [],
+    "urls": [],
+    "evidence_files": []
+  }
+]

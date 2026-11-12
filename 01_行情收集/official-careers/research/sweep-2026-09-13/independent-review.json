@@ -1,0 +1,452 @@
+{
+  "schema_version": 1,
+  "run_id": "sweep-2026-09-13",
+  "status": "review_complete_one_priority_revision_required",
+  "reviewer_role": "independent_offline_acceptance_reviewer_not_implementation_author",
+  "reviewed_at": "2026-09-12T20:19:27.745Z",
+  "reviewer_work_complete": true,
+  "scope": "前轮来源验收保留，本轮追加17项推荐边界复核、原优先4项逐条原文细读及role-policy v4漏筛修复的限定复核；不重做来源全量或全项目测试。不是全项目审计、全网调查、来源当前状态复验或整轮全通过证明。",
+  "allowed_output": "01_行情收集/official-careers/research/sweep-2026-09-13/independent-review.json",
+  "actions": {
+    "network_requests": 0,
+    "applications": 0,
+    "messages_to_recruiters": 0,
+    "resume_uploads": 0,
+    "core_or_input_data_modified": false
+  },
+  "input_snapshot": {
+    "jobs.json": "59ec93b4bca12619eb102c2a21b9f5782481040d80321144f5963cafaabad2d0",
+    "context.json": "ab9a761f450d0d1b3273abe2ac31599630fb452731b238d087020732e64f9a0b",
+    "extraction-specs.json": "1d0ddf6f30331b062058df68332825198bd00b60270ca4c6608011a255b55408",
+    "timing-audit.json": "4524dc89b369cfb8706863641c2a26e2a5656975db31b7c1d5538b6ab6fb001a",
+    "analysis.json": "798e24266d0023fd46abfb59a0c99b36d6dee3ff00a91a57ff9069e1953a13e4",
+    "coverage.json": "16f4d94ec583d59702d5a4f72386f7629d0f328a563e9b7ee4032d2abaceb659",
+    "run.json": "ed713bb6f6511df132e0095469f889d933518bbfb7e44f73c659a122fcf540bf"
+  },
+  "verdict": {
+    "new_source_blockers": 0,
+    "source_status": "no_new_blocker_in_reviewed_scope",
+    "bounded_source_first_edition": "acceptable_with_explicit_limitations",
+    "recommendation_status": "17_reviewed_one_priority_revision_required",
+    "new_recommendation_priority_findings": 1,
+    "recommendation_approved_as_submitted": false,
+    "recommendation_release_condition": "将探迹客户成功专员从优先核实降为相邻尝试中的低优先，同时更正摘要与展示分组；其余16项保留原分层和未决条件。源数据无需撤回。",
+    "whole_run_all_passed": false,
+    "summary": "来源仍为0新增阻断。17项推荐的引文、身份、事实分层、管理权限及固定薪边界未发现新增实质性错误；唯一需调整的是探迹客户成功专员的优先级。完成该项展示降级后，可有条件交付有限首版推荐；总控报告尚待重建回查，整轮时间审计仍未全通过。"
+  },
+  "findings": [
+    {
+      "id": "REC-P2-001",
+      "priority": 2,
+      "category": "recommendation_priority_alignment",
+      "status": "requires_controller_report_revision",
+      "job_id": "tungee-l182-20260913",
+      "file": "analysis.json",
+      "lines": [164, 203],
+      "primary_line": 175,
+      "related_summary_line": 13,
+      "title": "探迹客户成功专员应降为低优先相邻方向，不宜继续列优先第3项",
+      "detail": "管理优先不等于仅限管理岗，长期ToB转型路径允许保留该岗；但原文未披露直属团队或人事权限，岗位以配置培训、软件采纳及续约增购执行为主，门槛仅1年以上一般工作经验。固定20K、责任升级和管理晋升路径均未核实。当前把它与带队岗并列优先，未说明用户为何应接受职级/责任可能回落的取舍，现有证据不足以支撑该优先位置。这是排序判断需修正，不是错JD、个人事实造假或非管理岗一律排除。",
+      "evidence": [
+        {"file": "raw/017-open-A-tungee.json", "lines": "L182-L202", "note": "职责为客户软件配置、培训、经营建议、续约与二次销售，无直属人员管理要求。"},
+        {"file": "context.json", "pointer": "/preferences", "note": "management_priority=true，management_only=false，固定月薪最低20K且需明确构成。"},
+        {"file": "context.json", "pointer": "/career_strategy/priority_order", "note": "可行管理或长期ToB路径、收入可预期性优先；不能只按低准入门槛或AI标签排序。"}
+      ],
+      "required_change": "保留岗位与分析，展示分组改为相邻尝试，附低优先标记；移出优先4项并同步修改摘要。不补选替代项凑数，不改变原始JD或个人事实。",
+      "release_impact": "仅阻止原样签认可发布的优先排序，不阻止来源有限首版及其余16项带条件结果。",
+      "upgrade_conditions": [
+        "招聘方明确固定月薪达到20K并核清浮动、配额和收入风险。",
+        "取得实际管理职责，或可信且具体的客户经营责任升级/团队管理路径；问询和一般晋升承诺不是已获证据。",
+        "用户明确接受以可能降低职级/管理责任换取软件客户经营积累的路径；用户接受本身不等于薪资或履历已达标。"
+      ]
+    }
+  ],
+  "mechanical_checks": {
+    "job_records": 50,
+    "unique_ids": 50,
+    "evidence_sha256_checked": 50,
+    "evidence_sha256_mismatches": 0,
+    "full_responsibility_requirement_pairs_checked": 40,
+    "span_comparison": "按raw.result的L行号提取，逐段比较，允许空白差异；未发现缺行或正文不一致。此项不等于全页面或全站完整。",
+    "span_mismatches": 0,
+    "missing_mapped_lines": 0,
+    "index_quotes_checked": 10,
+    "index_exact_quote_matches": 10,
+    "index_quote_in_declared_source_url_result_block": 10,
+    "index_full_jd_flags": 0,
+    "index_nonnull_job_or_apply_urls": 0
+  },
+  "source_partition": {
+    "company_site_full_responsibilities_and_requirements": 23,
+    "brand_self_published_full_text_legal_employer_unknown": 15,
+    "third_party_republished_full_responsibilities_and_requirements": 2,
+    "salary_search_index_only": 10,
+    "note": "jobs.source_kind=official的38条须细分为探迹8、纷享8、神策7及ADXJ品牌自述15。ADXJ不等于法律主体已核验。40仅指取得职责和要求全文，不指薪资、招聘有效性、分页或雇佣关系完整核验。"
+  },
+  "source_checks": [
+    {
+      "job_ids": ["tungee-l85-20260913", "tungee-l104-20260913", "tungee-l144-20260913", "tungee-l206-20260913"],
+      "result": "source_fields_consistent_management_and_tenure_require_careful_matching",
+      "evidence_file": "raw/017-open-A-tungee.json",
+      "evidence_lines": ["L85-L100", "L104-L120", "L144-L158", "L206-L220", "L278-L280"],
+      "verified": "商务专家、电销经理为广州；渠道经理、城市经理原文为不限。公司页脚为广州探迹科技有限公司。商务专家为B2B生态合作及资源建设，原文未披露直属团队；渠道经理明确监督下属团队；电销经理明确人员配置、团队日常管理及KPI；城市经理明确区域经营、团队建设及销售目标。",
+      "recommendation_constraints": [
+        "商务专家的3-5年B端商务/渠道/生态经验及行业认知不可由一般汽车销售经历直接判达标；全日制学历表述本身不完整，需澄清，不补成本科已符合。",
+        "电销经理要求两年以上相关管理经验，同时列呼叫中心经验或6人以上团队管理的替代分支。context证明同期直管10人，但未提供足以确认管理年限的任期数据，不能判全部硬门槛通过，也不能误把呼叫中心经历当成唯一必选条件。",
+        "城市经理要求同岗位3年以上；软件/SaaS等背景在原文为优先，不升格为硬性必需，也不把门店经营直接写成已做软件城市经营。",
+        "岗位明确带队不证明组织编制、团队规模或全部人事预算权限；未披露部分继续待核。"
+      ]
+    },
+    {
+      "job_ids": ["fxiaoke-l441-20260913", "fxiaoke-l559-20260913", "fxiaoke-l474-20260913", "fxiaoke-l501-20260913"],
+      "result": "source_fields_consistent_keep_distinct_roles_and_employment_uncertainty",
+      "evidence_file": "raw/018-open-A-fxiaoke-official.json",
+      "evidence_lines": ["L441-L472", "L474-L499", "L501-L528", "L559-L590"],
+      "verified": "两条客户成功经理的职责要求和地点不同，冻结数据分别保留，无串段。渠道经理地点深圳、厦门，职责为渠道规划、合作及伙伴培训；未披露直属团队。城市后的研发中心字样来自原文，ownership_note已说明，不可自行认定所属业务线。",
+      "recommendation_constraints": [
+        "客户成功经理L441的3年以上企业客户维护/咨询/运营/实施经验，与L559的5年以上工作及3年以上ToB企业经验分开复核；不能因名字相同而合并门槛或覆盖记录。",
+        "软件、SaaS或CRM优先项不是所有客户成功经理的硬门槛；客户关系经营经验可迁移，不等于已实现SaaS续约率、ARR或企业软件交付。",
+        "渠道经理的3年渠道经历、相关专业要求不能被一般销售年限替代。伙伴培训和跨团队协调不等于直接人事管理。",
+        "渠道合伙人明确涉及代理商团队管理，但雇佣/代理关系、出资义务及固定底薪未知；jobs.scope_note已保留，不能包装成确定受雇管理岗位。"
+      ]
+    },
+    {
+      "job_ids": ["sensorsdata-l715-20260913", "sensorsdata-l417-20260913"],
+      "result": "source_fields_consistent_hard_gates_must_not_be_softened",
+      "evidence": [
+        {"file": "raw/006-open-A-sensorsdata.json", "lines": "L715-L728"},
+        {"file": "raw/027-open-A-sensorsdata-400.json", "lines": "L417-L431"}
+      ],
+      "verified": "两岗地点均为北京、上海、深圳。客户经理主线是老客续约增购；CSM主线是产品接入、需求与数据方案落地。两者没有明确直属团队证据。",
+      "recommendation_constraints": [
+        "客户经理明确要求两年以上软件或数据产品销售经验；汽车销售、平台商户经营及自建AI工具不自动满足。该岗理工科为优先。",
+        "CSM理工科等相关专业没有优先限定；context专业为行政管理，存在明确专业不匹配/豁免待确认。不能把客户经理的专业优先解释迁移到CSM。",
+        "CSM三年以上项目管理或客户服务经验需核年限；AI地图实践不等于数据工程项目交付。",
+        "027原文可做文本核对，但其缺失ledger admission的已知审计问题仍须随岗和总报告披露。"
+      ]
+    },
+    {
+      "job_ids": ["netease-ultraai-l6-20260913"],
+      "result": "third_party_only_location_conflict_preserved",
+      "evidence_file": "raw/033-open-B-ultraai-netease.json",
+      "evidence_lines": ["L6-L17", "L29-L39", "L85"],
+      "verified": "聚合页雇主为网易智企，标题深圳、地区广州市，jobs.attention已如实保留冲突。2026-08-03 15:56为聚合站收录时间，不是官网发布日。职责要求完整只指该第三方页面。",
+      "recommendation_constraints": [
+        "报告首要地点应写深圳/广州冲突待核，不能只展示city=广州市后省略attention。",
+        "job_url为第三方职位详情而非网易官网直链；035官网回查失败，不得写成官方确认当前在招。",
+        "专员岗位未披露团队管理权；SaaS等相关经历为原文优先项，不凭此补造个人经历。"
+      ]
+    },
+    {
+      "job_ids": ["zhongxiang-bebee-l7-20260913"],
+      "result": "third_party_only_material_hard_gaps_preserved",
+      "evidence_file": "raw/034-open-B-bebee-zhongxiang.json",
+      "evidence_lines": ["L7-L13", "L20-L46", "L53-L61", "L66-L71"],
+      "verified": "标题及正文一致指向湖南中项网科技有限公司客户成功总监、长期长沙工作并统筹长沙和北京团队。5年客户成功、其中3年SaaS客户成功团队管理、20-30人带队为明确硬性要求；另有0-1标准体系实战要求。",
+      "recommendation_constraints": [
+        "context仅证明同期10人直管、累计21人带教；不满足20-30人同期团队或3年SaaS管理证明。只能作为明确缺口样本/远期路径，不得标立即可投的高匹配推荐。",
+        "年薪25-40万包含未拆分的固定薪、绩效、团队提点和奖金等，固定月薪20K未确认。",
+        "页面显示截至2026/9/17及相对发布时间，均仅为转载页显示；不能由截止日期未来推断原始智联或雇主当前在招。"
+      ]
+    },
+    {
+      "job_ids": ["adxj-l335-20260913", "adxj-l360-20260913"],
+      "result": "brand_self_published_only_legal_employer_and_authority_unknown",
+      "evidence_file": "raw/115-open-B-adxj-channel.json",
+      "evidence_lines": ["L0-L32", "L335-L382"],
+      "verified": "商务经理及渠道经理的职责要求与行映射一致；八城Base有原文支持，具体安排以面试为准。品牌页自述不构成法律雇主主体核验。两岗未明确下属人员或人事权限。",
+      "recommendation_constraints": [
+        "将其作为广告/出海服务的商务渠道线索，法律用工主体、薪资和岗位有效性待核；不等于AI大模型厂商或行业大厂。",
+        "渠道/代理关系管理不是直属员工管理。商务推进合同回款是岗位职责，不是用户已取得的AI合同回款成果。",
+        "使用来源页定位，不补造岗位独立链接；公司品牌别名展示归一不能改变岗位或HR身份。"
+      ]
+    },
+    {
+      "job_ids": [
+        "index-009-search-B-customer-success-0", "index-009-search-B-customer-success-1",
+        "index-009-search-B-customer-success-2", "index-009-search-B-customer-success-3",
+        "index-009-search-B-customer-success-4", "index-009-search-B-customer-success-5",
+        "index-009-search-B-customer-success-6", "index-009-search-B-customer-success-7",
+        "index-009-search-B-customer-success-8", "index-009-search-B-customer-success-9"
+      ],
+      "result": "all_10_exact_search_index_quotes_no_full_jd_or_base_salary_confirmation",
+      "evidence_file": "raw/009-search-B-customer-success.json",
+      "verified": "十条公司、职位、薪资、地点和联系人组合均可在所声明source_url对应的结果块中找到连续原文。全部description_complete=false、requirements=null、job_url=null、apply_url=null。",
+      "recommendation_constraints": [
+        "23-35k等薪资区间、13/14/15薪及20K以上下界均不是固定底薪构成证明；十条固定20K资格全部未确认。",
+        "飞书客户成功负责人索引雇主为深圳胖柴点书科技有限公司广州分公司，不能改成字节跳动/飞书直聘。",
+        "慧策两条J14848分别显示李女士、冯女士，冻结数据保持两条；展示名不是唯一HR身份，不得合并或宣称已核验为两个唯一HR。",
+        "来源链接是搜索聚合回查入口，不是职位直链；不得因本次读到索引而标新发布、当前在招或正式推荐。"
+      ]
+    }
+  ],
+  "known_nonblocking_limitations": [
+    {
+      "id": "KNOWN-LEDGER-027",
+      "status": "retained_not_repaired",
+      "evidence": "timing-audit.json: status=failed; calls=49; minimum_cooldown_ms=12740",
+      "detail": "027神策raw缺ledger admission，028出现overlapping admitted capture，共两issue；50份raw与49成对回执不等价。12.740秒只是有回执调用的最小冷却，不是整轮全通过证明；不补写历史日志。"
+    },
+    {
+      "id": "KNOWN-FRESHNESS-COVERAGE",
+      "status": "retain_in_first_edition",
+      "detail": "未完成官方列表分页与详情全量对账，未独立确认当前在招；观察时间、索引抓取时间、聚合收录时间、原始发布时间和截止日必须分开。不能把本轮首次读取当新发布。"
+    },
+    {
+      "id": "KNOWN-TIER-SALARY",
+      "status": "retain_in_first_edition",
+      "detail": "全部行业地位待核；没有固定月薪人民币20K已确认岗位。优先研究顺序不是合格录用、薪资达标或投递授权。"
+    }
+  ],
+  "supplemental_role_recall_review": {
+    "status": "passed_bounded_offline_check",
+    "reviewed_at": "2026-09-12T20:19:27.745Z",
+    "policy_version": "2026-09-13-commercial-body-review-v4",
+    "policy_file": "careers/role-policy.mjs",
+    "policy_sha256": "f2f894153a0942c2855d0d9aaf57548452c8779ade4daa1e2e24d0b6d8c2b052",
+    "test_file": "careers/tests/role-policy.test.mjs",
+    "test_sha256": "97866a111bb245b24c9026fe26fbd79855c42fc42f216e70e91a7fc17f090e29",
+    "command_executed_by_reviewer": "node --test careers/tests/role-policy.test.mjs",
+    "exit_code": 0,
+    "tests": 9,
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0,
+    "findings": [],
+    "verified": [
+      "电销标题显式纳入销售召回；真实冻结探迹电销经理和城市经理两条均通过eligible门槛，真实JD回归未被skip。",
+      "城市经理/区域经理不是仅凭标题直接召回，需description_text、description或responsibilities中出现未被不负责/不涉及/无需承担否定的销售团队或销售目标语句。",
+      "fixture覆盖description、responsibilities字段；纯城市绿化建筑规划及不负责销售目标均不eligible。",
+      "技术研发、产品经理与校招等排除规则在新增城市/区域召回前执行；已有测试保留工程和产品反例。未将城市/区域经理泛化为任意规划或技术职位。",
+      "该修复仅解决商业视图的候选召回，不证明管理权限、任期、固定薪或个人匹配达标；原17项边界结论继续适用。",
+      "jobs、context、analysis、coverage、run和timing的SHA均与审核快照一致；本审核未修改上述文件或核心代码。"
+    ],
+    "scope_limit": "只运行现有role-policy单文件9项回归并读相关规则，不展开全项目测试、网络或UI操作。复杂同名技术/协作语境仍应由完整JD语义复核，不以词组命中自动推荐。",
+    "controller_validation_reported": {
+      "full_test_pass_count": 219,
+      "viewport_pass_count": 3,
+      "provenance": "用户本轮转述总控已执行完成",
+      "independently_rerun_by_reviewer": false,
+      "independent_report_visual_signoff": false
+    }
+  },
+  "remaining_nonblocking_followups": [
+    "固定月薪20K、当前在招、城市与实际权限仍待招聘方核实，不得阻碍带未知标记的有限首版交付，也不得据此直接投递。",
+    "用户具体管理任期、专门渠道年限、软件/SaaS经历与学历属性按已有17项逐岗问题补证，不在首版阶段推算或改写事实。",
+    "未分析23条职责要求及10条索引保留后续队列；本轮不为补齐20或优先4项而扩大分析。",
+    "总控按REC-P2-001调整CS专员展示层排序并重建报告；本审核不把总控219测试/3视口通过写成自身重跑或报告内容已独立签核。"
+  ],
+  "coverage_concurrency": {
+    "status": "frozen_by_controller_metadata_checked_no_full_reaudit",
+    "attempted_named_company_or_brand_targets": 25,
+    "seed_targets": 19,
+    "new_targets": 6,
+    "decomposition_basis": "19+6由用户本轮明确给定；离线仅核coverage中attempted公司/品牌目标为25，不重做覆盖全量审计。",
+    "source_scope_complete_claims": 0,
+    "current_hiring_verified_claims": 0,
+    "detail": "coverage已冻结；原始岗位仍为40条职责要求和10条索引。25为具名品牌/公司访问目标，不是25家已核验法律主体或当前在招雇主。别名展示归一不合并不同/未知HR入口。run和timing保持原快照。"
+  },
+  "recommendation_review": {
+    "status": "complete_with_one_priority_revision_required",
+    "reviewed_at": "2026-09-12T20:13:59.273Z",
+    "analysis_json_available_at_source_review": false,
+    "analysis_json_available_at_supplemental_review": true,
+    "analysis_sha256": "798e24266d0023fd46abfb59a0c99b36d6dee3ff00a91a57ff9069e1953a13e4",
+    "analysis_input_modified": false,
+    "reviewed_job_ids": [
+      "tungee-l144-20260913", "tungee-l104-20260913", "tungee-l182-20260913", "fxiaoke-l410-20260913",
+      "tungee-l206-20260913", "tungee-l85-20260913", "fxiaoke-l441-20260913", "fxiaoke-l474-20260913",
+      "sensorsdata-l715-20260913", "netease-ultraai-l6-20260913", "adxj-l360-20260913", "adxj-l385-20260913",
+      "adxj-l335-20260913", "fxiaoke-l501-20260913", "tungee-l224-20260913", "fxiaoke-l559-20260913",
+      "zhongxiang-bebee-l7-20260913"
+    ],
+    "reviewed_count": 17,
+    "retain_original_priority_with_conditions_count": 16,
+    "priority_revision_required_count": 1,
+    "deep_read_original_top_four_count": 4,
+    "finding_ids": ["REC-P2-001"],
+    "cross_record_checks": {
+      "input_jobs_and_context_hashes_match_frozen_files": true,
+      "distinct_analyzed_ids": 17,
+      "all_analyzed_records_are_complete_responsibility_requirement_records": true,
+      "all_job_quotes_found_in_mapped_jd_or_original_title": true,
+      "all_company_title_source_url_observed_at_evidence_file_and_sha_fields_match_jobs": true,
+      "all_referenced_fact_ids_exist_in_context": true,
+      "all_fixed_monthly_base_statuses_unknown": true,
+      "all_fixed_salary_eligible_flags_false": true,
+      "all_base_resume_reviewed_flags_false": true,
+      "scope_reconciles": "17已分析职责要求 + 23未分析职责要求 + 10未匹配索引 = 50；无重复或缺项。",
+      "source_live_hiring_not_inferred_from_observation_time": true,
+      "new_material_quote_identity_or_personal_fact_errors": 0,
+      "note": "已逐项读完17项判断，机械相等不替代语义复核。各项继续存在真实缺口和待核条件，边界通过不是候选人符合岗位。"
+    },
+    "original_priority_counts": {"优先核实": 4, "相邻尝试": 9, "暂不主攻": 4},
+    "required_display_priority_counts": {"优先核实": 3, "相邻尝试": 10, "暂不主攻": 4},
+    "report_overrides": [
+      {
+        "job_id": "tungee-l182-20260913",
+        "original_priority": "优先核实",
+        "required_priority": "相邻尝试",
+        "display_qualifier": "低优先；非管理岗，固定薪和责任升级路径待核",
+        "remove_from_top_priority_group": true,
+        "retain_original_analysis_and_raw_job": true,
+        "status": "required_not_applied_by_reviewer"
+      }
+    ],
+    "retained_top_priority_job_ids": ["tungee-l144-20260913", "tungee-l104-20260913", "fxiaoke-l410-20260913"],
+    "top_priority_group_note": "保留3项，不自动补第4项。探迹两岗有明确团队职责且现有带队/伙伴辅导案例可用于核实；纷享大客户为企业老板方案与新客商业收入的非管理相邻入口，只保留核查优先，不声称管理岗、软件经历已符合或收入稳定。低门槛、AI标签或经理称谓本身不构成加分依据。",
+    "per_item_checks": [
+      {
+        "job_id": "tungee-l144-20260913",
+        "analysis_start_line": 80,
+        "deep_read": true,
+        "source_lines": "raw/017-open-A-tungee.json L144-L158",
+        "reviewed_priority": "优先核实",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "人员配置、团队管理与KPI均有JD原文；context有同期10人直管及招聘、绩效、激励和辅导事实。没有把汽车管理改成SaaS或ToB电销。6人团队与呼叫中心为替代分支，管理任期和相关性待核的处理保守合理。统招属性、电话销售适配度、固定薪和实际权限继续未知。",
+        "fact_refs": ["EV-ONVO-MANAGEMENT", "EV-TESLA-MANAGEMENT", "EV-EDUCATION", "EV-CAREER-TENURE"]
+      },
+      {
+        "job_id": "tungee-l104-20260913",
+        "analysis_start_line": 122,
+        "deep_read": true,
+        "source_lines": "raw/017-open-A-tungee.json L104-L120",
+        "reviewed_priority": "优先核实",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "原文明确监督下属团队；3年以上渠道为实质要求，分析未用4年汽车从业充抵。服务商KPI和伙伴辅导有直接事实，软件代理招募授权仅可迁移。理工科/ToB经验/代理资源的优先属性识别正确；招聘审批、预算权、大数据知识和固定薪仍待核。",
+        "fact_refs": ["EV-TESLA-TRADEIN", "EV-ONVO-MANAGEMENT", "EV-CAREER-TENURE"]
+      },
+      {
+        "job_id": "tungee-l182-20260913",
+        "analysis_start_line": 164,
+        "deep_read": true,
+        "source_lines": "raw/017-open-A-tungee.json L182-L202",
+        "original_priority": "优先核实",
+        "reviewed_priority": "相邻尝试",
+        "reviewed_priority_qualifier": "低优先",
+        "status": "priority_revision_required",
+        "boundary_verdict": "具体JD、个人商户经营及210家口径无误，未伪称管理岗；1年一般工作与软件优先项识别正确。问题仅在优先排序：固定20K、管理职责和责任升级未证实，不能只因容易进入而置于用户管理优先的前列。可保留低优先软件客户经营入口，不应删除。",
+        "finding_id": "REC-P2-001",
+        "fact_refs": ["EV-DCD-ROI", "EV-DCD-COORDINATION", "EV-DCD-GROWTH"]
+      },
+      {
+        "job_id": "fxiaoke-l410-20260913",
+        "analysis_start_line": 205,
+        "deep_read": true,
+        "source_lines": "raw/018-open-A-fxiaoke-official.json L410-L437",
+        "reviewed_priority": "优先核实",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "老板面对面、方案销售及新客开发均有原文，直接对应商户老板ROI及开发案例；明确不是带队岗。25-35岁未推算，3年一般工作不替代软件/互联网/方案型销售属性。2年软件条款原文为此类人才优秀考虑，分析仅作带优先意味、另询硬筛的处理可接受，不能在报告中简化成无需软件经历。工作地及研发中心标签须保持待核，固定薪未达标。",
+        "fact_refs": ["EV-DCD-ROI", "EV-DCD-GROWTH", "EV-CAREER-TENURE"]
+      },
+      {
+        "job_id": "tungee-l206-20260913",
+        "analysis_start_line": 248,
+        "reviewed_priority": "相邻尝试",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "区域经营和团队建设有岗位证据，但3年同岗、损益和完整预算责任未证明。门店10人管理与跨区督办分别表述，不把后者升级为人事权；SaaS经历正确保留为优先。不限地点不代表用户接受调动。"
+      },
+      {
+        "job_id": "tungee-l85-20260913",
+        "analysis_start_line": 290,
+        "reviewed_priority": "相邻尝试",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "B2B商协会/讲师KOL生态主线正确；活动获客、企业员工订单不被包装为成熟软件生态。全日制层次缺漏、3-5年专门经验、资源和固定薪均未补造，未从商务专家推导带队权。"
+      },
+      {
+        "job_id": "fxiaoke-l441-20260913",
+        "analysis_start_line": 332,
+        "reviewed_priority": "相邻尝试",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "区域使用、续费增购与该版本JD一致，3年企业级相关经验待核，软件/SaaS为优先不强加硬门槛。持续消耗不转换为软件续约率或ARR；不与559版本合并，经理称谓不等于带人。"
+      },
+      {
+        "job_id": "fxiaoke-l474-20260913",
+        "analysis_start_line": 375,
+        "reviewed_priority": "相邻尝试",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "市场营销等相关专业并非优先项，行政管理是否相关已留待核；3年渠道拓展不能按一般销售年限补足。伙伴培训和陪访不等于直属人事管理，CRM/SaaS销售仅优先。深圳厦门及固定薪未知状态保留。"
+      },
+      {
+        "job_id": "sensorsdata-l715-20260913",
+        "analysis_start_line": 417,
+        "reviewed_priority": "相邻尝试",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "明确保留两年软件/数据产品销售硬要求及真实缺口；约一年汽车互联网商户经营和AI地图不充当该经历。理工科为优先，续约增购与一般客服分开；不得将相邻尝试简化成门槛通过。神策417 CSM未列本17项，不能把其强制相关专业结论与客户经理混用。"
+      },
+      {
+        "job_id": "netease-ultraai-l6-20260913",
+        "analysis_start_line": 459,
+        "reviewed_priority": "相邻尝试",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "第三方职先机而非官网验真、标题深圳/页面广州冲突、专员非管理岗全部保留。AI工具实践可对应优先项但不证明软件交付、POC或团队150%提效；3年相关经验原文为优先，未误判强制SaaS三年。原站招聘状态和固定薪仍未核。"
+      },
+      {
+        "job_id": "adxj-l360-20260913",
+        "analysis_start_line": 501,
+        "reviewed_priority": "相邻尝试",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "广告/出海渠道相邻定位正确，无AI厂商加分；法律雇主、劳动关系、地点、固定薪和直属权限未知。汽车服务商KPI只是迁移方法，不等于海外广告代理网络，未自设JD不存在的学历和年限。"
+      },
+      {
+        "job_id": "adxj-l385-20260913",
+        "analysis_start_line": 543,
+        "reviewed_priority": "相邻尝试",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "活动、线索与预算复盘是岗位要求，不被写成候选人已有完整市场预算权。自媒体和获客项目仅作可迁移案例；法律主体、劳动关系和固定薪未核，预算管理不推定预算审批或人员管理。"
+      },
+      {
+        "job_id": "adxj-l335-20260913",
+        "analysis_start_line": 585,
+        "reviewed_priority": "相邻尝试",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "互联网商户开发与ROI诊断事实正确；岗位合同回款职责不转换成用户已签约收入或海外客户。未把品牌页当已核验AI企业/雇主，带队、固定薪和实际签约用工主体继续未知。"
+      },
+      {
+        "job_id": "fxiaoke-l501-20260913",
+        "analysis_start_line": 626,
+        "reviewed_priority": "暂不主攻",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "代理商团队管理与直接任免权分开，劳动雇佣、合伙合作、出资和工资不由标题推断；3年渠道/销售管理任期尚未证实，不以总从业4年补齐。保持先核关系、不做定向对外材料的处理合理。"
+      },
+      {
+        "job_id": "tungee-l224-20260913",
+        "analysis_start_line": 668,
+        "reviewed_priority": "暂不主攻",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "5年解决方案销售、2年KA销售管理和全日制统招本科均明确复核；总从业约4年及汽车10人带队不能替代。未捏造企业IT采购、合同、POC或软件演示经历，北京驻地仍需用户确认。"
+      },
+      {
+        "job_id": "fxiaoke-l559-20260913",
+        "analysis_start_line": 710,
+        "reviewed_priority": "暂不主攻",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "该版本5年总工作、3年ToB条件与441版本分开；冻结事实约4年总体工作及约1年平台商户经营不足以支撑达标。经理称谓未推导人事权，无SaaS或续约数据夸大。"
+      },
+      {
+        "job_id": "zhongxiang-bebee-l7-20260913",
+        "analysis_start_line": 752,
+        "reviewed_priority": "暂不主攻",
+        "status": "retain_with_conditions",
+        "boundary_verdict": "5年CS、3年SaaS管理、20-30人团队及SaaS体系0-1要求均保留为缺口；没有用同期10人或累计带教21人拼成20-30人团队。年包25-40万不除以12判底薪，转载来源有效性与长沙意愿待核，仅为路径门槛对照。"
+      }
+    ],
+    "not_approved_claims": [
+      "这17项均适合直接投递、均具备管理权限、固定薪20K达标或可直接沿用原简历。",
+      "神策417 CSM或任何其他23条未分析完整职责要求已经完成本轮推荐匹配。",
+      "10条索引已经匹配、完整JD或当前在招；25目标为25家已核验法律雇主。",
+      "总控生成报告已经合入这17项分析、执行审查覆盖项并通过展示验收。"
+    ],
+    "report_handoff": {
+      "status": "controller_rebuild_and_readback_pending",
+      "report_json_reviewed": false,
+      "report_override_applied": false,
+      "required_checks_after_rebuild": [
+        "报告引用当前analysis SHA，并显示17分析、23完整职责要求待分析和10索引待核。",
+        "优先组仅探迹电销经理、探迹渠道经理、纷享大客户经理；探迹CS专员保留在低优先相邻组，摘要和计数同步。",
+        "个人事实边界、第三方/品牌自述身份、网易地点冲突和所有薪资未知提示不被报告压缩掉。",
+        "保留来源审查0新增阻断和推荐排序1项需修订的区别；run/timing的已知两issue不改写成全通过。"
+      ]
+    }
+  }
+}

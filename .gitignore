@@ -1,0 +1,86 @@
+# Dependencies
+node_modules/
+
+# Local browser profiles and server/auth runtime
+.career-browser-profile/
+.career-*-profile/
+.career-auth-browser.pid
+.career-auth-browser.log
+.career-server.pid
+.career-server.log
+*.log
+
+# Downloaded binaries / application drop zone
+01_行情收集/data/downloads/
+01_行情收集/official-careers/applications/
+
+# macOS metadata
+.DS_Store
+._*
+
+# Python / tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Scratch, font caches, local temp
+/tmp/
+**/*font-cache*/
+
+# Credentials and local secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*storage*state*
+*storage-state*
+cookies.json
+cookies.txt
+
+# Raw HTTP/browser captures (regenerable; may include response headers)
+01_行情收集/official-careers/raw/
+01_行情收集/official-careers/research/**/raw/
+
+# Runtime lock DB (not project data)
+01_行情收集/official-careers/control.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Regenerable matching cache
+01_行情收集/official-careers/matching/cache/
+
+# Third-party clones (include nested .git); re-clone from remotes if needed
+research/company-careers/vendor/
+
+# Zip packs that duplicate already-stored resume deliverables
+03_简历/**/*.zip
+
+# Large generated market artifacts (regenerable from the collection pipeline / sqlite)
+01_行情收集/official-careers/reports/decision-review.json
+01_行情收集/official-careers/reports/decision-review.html
+01_行情收集/official-careers/reports/decision-review.csv
+01_行情收集/official-careers/research/**/report-jobs.json
+01_行情收集/official-careers/research/**/enriched-report-jobs.json
+01_行情收集/official-careers/research/**/search-explorer.html
+01_行情收集/official-careers/research/**/search-index.json
+01_行情收集/official-careers/research/**/search-job-leads.json
+01_行情收集/official-careers/research/**/search-results.csv
+01_行情收集/official-careers/research/**/backlog.json
+01_行情收集/official-careers/research/**/source-candidates.json
+
+# Regenerable preview / QA screenshots (docx, pdf, and write-ups are kept)
+03_简历/**/*.png
+03_简历/**/png/
+01_行情收集/official-careers/reports/qa/
+outputs/**/preview_*.png
+outputs/**/*.inspect.ndjson
+outputs/**/final_resume_render/
+outputs/**/final_resume_render_v2/
+outputs/**/source_resume_render/
+outputs/**/cjk_font_render/
+outputs/**/cjk_font_render_sal/

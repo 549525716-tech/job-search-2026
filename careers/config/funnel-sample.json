@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "scope": "人工审核的小范围漏斗样本：1份历史政策、2家候选厂商、7条商业职能完整历史JD；公开薪资线索另列，不是本周政策全量扫描或公司排名。",
+  "policies": [{
+    "id": "ai-plus-2025",
+    "document_id": "policy-ai-plus-cac",
+    "title": "国务院关于深入实施“人工智能+”行动的意见",
+    "authority": "国务院",
+    "document_kind": "国发〔2025〕11号；中央网信办官方转载原文，非草案或解读",
+    "issued_at": "2025-08-21",
+    "published_at": "2025-08-27",
+    "effective_at": null,
+    "excerpt": "培育人工智能应用服务商，发展“模型即服务”、“智能体即服务”等，打造人工智能应用服务链。",
+    "risk_notes": ["发布日期是转载页日期；成文日期是文件落款。页面CMS生成日期不作为政策修订日期。", "首次纳入研究基线，不是本周新发布政策；政策支持不证明公司已有订单或职位收入稳定。"]
+  }],
+  "industries": [{
+    "id": "enterprise-ai-growth",
+    "name": "企业AI应用与B2B获客",
+    "policy_ids": ["ai-plus-2025"],
+    "demand_hypothesis": "商业假设：企业可能为客户优先级识别、线索拓展、销售协同和获客效率付费；须通过客户预算、付费与续约进一步验证。",
+    "limitations": ["这是研究判断，不是政策直接点名某家公司，也不是已验证客户采购需求。"]
+  }, {
+    "id": "model-platform-commercialization",
+    "name": "模型平台商业化与销售运营",
+    "policy_ids": ["ai-plus-2025"],
+    "demand_hypothesis": "商业假设：模型服务商需要把企业需求转化为可持续使用、销售经营机制与交付协同，技术销售和销售运营分别承担不同环节。",
+    "limitations": ["行业前景不能代替固定底薪、人员权限、收入结构和具体JD门槛的核验。"]
+  }],
+  "companies": [{
+    "id": "bailian-ai",
+    "name": "百炼智能",
+    "document_id": "bailian-home",
+    "industry_ids": ["enterprise-ai-growth"],
+    "business_excerpt": "拜访路线智能规划与销售协同",
+    "tier": "候选厂商，头腰部层级未验证",
+    "tier_basis": "只核验官网业务与招聘归属，未取得可比市场份额、收入或独立排名证据。",
+    "notes": ["客户地图、路线规划与B2B经营场景具有可迁移交集；不能据此声称用户有该公司产品销售经历。"]
+  }, {
+    "id": "minimax",
+    "name": "MiniMax",
+    "document_id": "minimax-home",
+    "industry_ids": ["model-platform-commercialization"],
+    "business_excerpt": "以及面向企业和开发者的开放平台",
+    "tier": "候选厂商，头腰部层级未验证",
+    "tier_basis": "官网自述证明产品与企业开发者平台方向；不将自称领先当作独立排名或薪酬稳定性证据。",
+    "notes": ["本轮仅更新官网业务证据。岗位使用此前完整采集记录；招聘浏览器适配器仍隔离，未重新访问。"]
+  }],
+  "opportunities": [
+    {"job_key": "minimax-public-browser:vrfi1sk8a0:7612560574200023323", "company_id": "minimax"},
+    {"job_key": "minimax-public-browser:vrfi1sk8a0:7208019802982598968", "company_id": "minimax"},
+    {"job_key": "minimax-public-browser:vrfi1sk8a0:7513910355632146698", "company_id": "minimax"},
+    {"job_key": "minimax-public-browser:vrfi1sk8a0:7545752001586825515", "company_id": "minimax"},
+    {"job_key": "minimax-public-browser:vrfi1sk8a0:7613358336667830554", "company_id": "minimax"},
+    {"job_key": "minimax-public-browser:vrfi1sk8a0:7647795653489527081", "company_id": "minimax"},
+    {"job_key": "minimax-public-browser:vrfi1sk8a0:7654858727463913771", "company_id": "minimax"}
+  ]
+}

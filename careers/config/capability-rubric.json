@@ -1,0 +1,31 @@
+{
+  "version": "2026-09-16-capability-v1",
+  "score_semantics": "JD能力要求的个人证据覆盖分，不是面试概率；权重由岗位决定，不为候选人调权",
+  "dimensions": [
+    {"id":"commercial","label":"目标与商业结果"},
+    {"id":"customer","label":"客户与行业场景"},
+    {"id":"solution","label":"问题诊断与方案价值"},
+    {"id":"execution","label":"项目协同与经营机制"},
+    {"id":"technical","label":"产品技术与系统能力"},
+    {"id":"replication","label":"增长验证与方法复制"}
+  ],
+  "profiles": {
+    "sales_operations": [20,15,25,20,10,10],
+    "industry_ka": [20,25,20,15,10,10],
+    "business_builder": [20,15,20,15,15,15],
+    "technical_sales": [15,20,20,15,25,5]
+  },
+  "anchors": {
+    "direct_full":{"score":100,"kind":"direct","label":"同类能力及结果证据完整"},
+    "direct_partial":{"score":80,"kind":"direct","label":"同类能力已做过，规模或结果证据仍不完整"},
+    "transfer_strong":{"score":60,"kind":"transferable","label":"业务机制相通，客户或产品链路不同"},
+    "transfer_partial":{"score":40,"kind":"transferable","label":"部分相邻实践，关键环节未证明"},
+    "gap":{"score":0,"kind":"gap","label":"已有确认表明缺少要求的经历/成果"},
+    "unknown":{"score":0,"kind":"unknown","label":"材料不足不能判断，按未举证计分，不代表没有能力"}
+  },
+  "subcriterion_weight_total":100,
+  "dimension_weight_total":100,
+  "hard_gates":"Separate met/unmet/unknown; scores never override a gate",
+  "resume_reuse":"Score >=80 alone never authorizes reuse, rewriting or sending",
+  "company_tiers":{"status":"deferred","trigger_more_than":100,"denominator":"distinct identity-reviewed employers with traceable job samples; seeds, brands and repeated observations do not count","auto_classify":false,"user_confirmation_required":true}
+}

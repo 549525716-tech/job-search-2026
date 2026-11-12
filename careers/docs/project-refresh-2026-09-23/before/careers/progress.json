@@ -1,0 +1,1384 @@
+{
+  "schema_version": 1,
+  "market_wide_scan_2026_09_22": {
+    "status": "declared_query_batch_verified_company_inventories_incomplete",
+    "scope": "01_行情收集/official-careers/research/market-wide-2026-09-22/scope.json",
+    "execution_plan": "01_行情收集/official-careers/research/market-wide-2026-09-22/execution-plan-v2.json",
+    "new_company_plan": "01_行情收集/official-careers/research/market-wide-2026-09-22/new-company-wave2-plan.json",
+    "checkpoint": {"company_queries_completed":275,"company_queries_planned":275,"new_company_queries_planned":40,"new_company_queries_completed":40,"industry_queries_completed":8,"cross_market_queries_completed":10,"recorded_web_calls":375,"searches":333,"page_reads":42,"timing_audit":"passed_for_recorded_calls","minimum_cooldown_ms":10082,"queue_closed":true,"note":"Declared query batch finished; source inventories and market breadth remain incomplete. No background collection is running."},
+    "evidence_directory": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw",
+    "search_result_index": "01_行情收集/official-careers/research/market-wide-2026-09-22/search-index.json",
+    "company_display_records": 312,
+    "distinct_normalized_company_queries": 275,
+    "anonymous_identity_pending": 7,
+    "counts_note": "Query coverage is not employer verification, active hiring or company-wide job completeness. Exact normalized query reuse does not merge employers or contact targets.",
+    "coverage_routes": ["industry_to_company_to_jobs", "role_and_body_keywords_to_jobs_to_company"],
+    "actual_dispatch": [{"id":"01a0c4f7-d532-7643-a09a-b5530f3ca759","model":"gpt-5.6-luna","reasoning_effort":"medium","role":"offline_catalog_source_index_and_evidence_extraction"},{"id":"01a0c52d-481f-7762-84c3-7eec34079950","model":"gpt-6-astra","reasoning_effort":"xhigh","role":"independent_data_and_lead_parser_QA"}],
+    "execution_note": "Tool requests are serialized by the controller. Data extraction scripts are deterministic local Node.js; no new external model API. Dispatch settings are accepted tool parameters, not independent billing telemetry. Parent authored targeted repairs, composition and local report exports.",
+    "qa_reports": ["01_行情收集/official-careers/research/market-wide-2026-09-22/data-qa.md","01_行情收集/official-careers/research/market-wide-2026-09-22/search-leads-qa.md","01_行情收集/official-careers/research/market-wide-2026-09-22/extra-boards-qa.md","01_行情收集/official-careers/research/market-wide-2026-09-22/report-render-qa.md"],
+    "counts": {"raw_search_results":4687,"distinct_discovered_urls":4381,"page_job_records":173,"complete_jds":109,"incomplete_page_jobs":64,"separate_search_job_leads":694,"combined_batch_records":867,"page_employer_display_names":52,"failed_page_reads":9,"new_display_names_pending":120},
+    "cumulative_report_counts": {"observations":1355,"company_names":333,"full_jd":331,"range_eligible":75,"fixed_base_confirmed":0,"historical_scores_retained":10,"new_scores":0,"note":"Includes historical records, aliases, different channels and search leads; not unique active jobs or verified legal employers."},
+    "outputs": {"main_report":"01_行情收集/official-careers/reports/decision-review.html","search_explorer":"01_行情收集/official-careers/research/market-wide-2026-09-22/search-explorer.html","execution_summary":"01_行情收集/official-careers/research/market-wide-2026-09-22/summary.md","coverage":"01_行情收集/official-careers/research/market-wide-2026-09-22/company-coverage.json","next_company_queue":"01_行情收集/official-careers/research/market-wide-2026-09-22/next-company-queue.json","backlog":"01_行情收集/official-careers/research/market-wide-2026-09-22/backlog.json"},
+    "validation": {"targeted_tests_passed":35,"targeted_tests_failed":0,"extraction_field_checks":1303,"extraction_quote_checks":1527,"search_lead_field_checks":2933,"search_capture_hash_checks":333,"search_segment_hash_checks":4687,"desktop_mobile_visual_passed":true,"salary_sort_regression_repaired":true,"test_counts_not_additive_with_prior_runs":true,"page_data_independent_review":"passed_limited_scope","render_independent_review":"passed_limited_scope_no_open_P1_P2","visual_receipts":["01_行情收集/official-careers/reports/qa/decision-review-visual.json","01_行情收集/official-careers/research/market-wide-2026-09-22/search-explorer-qa.json"]},
+    "remaining": ["BOSS and Liepin automated control remain isolated; ordinary tabs untouched and accounts not reverified", "Dynamic ATS and per-company full pagination are incomplete", "120 additional employer display names and 7 anonymous catalog names need follow-up", "Search-only records need full JD, employer, location, compensation and current-HC verification", "Policy research was not refreshed in this job-query batch", "No claim of full-market completeness or business acceptance"],
+    "public_source_stops": [{"host":"www.farben.com.cn","status":"403_access_restricted","capture":"o13","resume_requires_review":true},{"host":"www.zhaopin.com","status":"batch_timeout_stop","capture":"o08"},{"host":"www.hightorque.cn","status":"batch_timeout_stop","capture":"o14"},{"host":"www.gdcad.com","status":"batch_timeout_stop","capture":"o16"},{"host":"www.jbfsoft.com","status":"batch_timeout_stop","capture":"o19"},{"host":"www.kingdee.com","status":"batch_timeout_stop","capture":"o24"},{"host":"www.easemob.com","status":"tail_timeout_stop_partial_page_only","capture":"o21tail"}],
+    "main_model": "current Codex session; not independently verified in this run",
+    "source_restrictions_preserved": true,
+    "company_wide_scan_complete": false,
+    "market_scan_complete": false,
+    "external_applications": 0,
+    "scheduler_enabled": false
+  },
+  "source_fallback_2026_09_22": {
+    "status": "bounded_fallback_verified_platforms_still_quarantined",
+    "authorization": "User approved source-scoped fallback; continue independent collection without touching quarantined login tabs",
+    "supersedes": "Historical global market_work_paused flags in 2026-09-21 entries only; source restrictions remain",
+    "market_work_paused": false,
+    "boss_liepin_automated_control_paused": true,
+    "login_root_cause_fixed": false,
+    "desktop_browser_actions_allowed": false,
+    "scope": "01_行情收集/official-careers/research/fallback-2026-09-22/scope.json",
+    "policy": "careers/docs/source-fallback.md",
+    "actual_dispatch": [
+      {"id":"01a0c4d3-81b3-7bc3-8205-83298e53cacc","model":"gpt-5.6-terra","reasoning_effort":"medium","role":"bounded_fallback_orchestration_and_tests"},
+      {"id":"01a0c4dc-80b5-78a0-8549-183bed6441aa","model":"gpt-6-astra","reasoning_effort":"xhigh","role":"independent_QA"}
+    ],
+    "independent_qa": "passed_limited_scope_three_findings_closed",
+    "independent_qa_open_p1_p2": 0,
+    "independent_qa_report": "careers/docs/source-fallback-qa-2026-09-22.md",
+    "run_manifest": "01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/run.json",
+    "batch_report": "01_行情收集/official-careers/research/fallback-2026-09-22/report-run.json",
+    "data_evidence": "01_行情收集/official-careers/research/fallback-2026-09-22/live-verification.json",
+    "report": "01_行情收集/official-careers/reports/decision-review.html",
+    "live_counts": {"observations":54,"company_names":5,"full_source_descriptions":54,"separated_responsibilities_and_requirements":20,"full_source_not_split":34,"commercial_role_candidates":6,"body_review_pending":1,"commercial_range_eligible":2,"fixed_base_confirmed":0},
+    "validation": {"regression_tests_passed":306,"regression_tests_failed":0,"after_role_v10_targeted_tests_passed":29,"test_counts_overlap":true,"request_count":16,"minimum_finish_to_start_gap_ms":10729,"protected_platform_page_requests":0,"desktop_and_mobile_offline_visual_passed":true,"visual_receipt":"01_行情收集/official-careers/reports/qa/decision-review-visual.json"},
+    "source_outcomes": {"bailian-ai":"success_4","deepseek":"success_34","minimax":"blocked_no_requests","jd":"full_jd_1","hidongxin":"full_visible_jds_7","launchip":"full_visible_jds_8","firmior":"entry_only","juzibot":"fetch_failed_no_retry","haolietou_siliconflow":"fetch_failed_no_retry"},
+    "backlog": "01_行情收集/official-careers/research/fallback-2026-09-22/backlog.json",
+    "limits": ["Not full-market breadth acceptance", "BOSS and Liepin automation still quarantined", "Public web expansion requires a Codex session; no autonomous CLI search", "No new personal scores or resume changes", "No unattended interruption-resume acceptance"],
+    "external_applications": 0,
+    "scheduler_enabled": false
+  },
+  "in_app_login_handoff_2026_09_21": {
+    "status": "ordinary_pages_restored_control_path_quarantined_not_root_cause_fixed",
+    "project_repair_2026_09_21_2250": {
+      "report": "careers/docs/login-collection-audit-2026-09-21.md",
+      "ordinary_liepin_tab_id": "34974c6f-9e2f-4b63-af9c-91e89aa25c8d",
+      "ordinary_stable_observation_seconds": 103.439,
+      "ordinary_page_account_reverified": false,
+      "automated_collection_repaired": false,
+      "root_cause_proven": false,
+      "evidence": "01_行情收集/official-careers/research/login-audit-2026-09-21/raw/r01.json",
+      "local_regression_tests_passed": 288,
+      "subsequent_targeted_tests_passed": 23,
+      "legacy_entrypoint_regression_tests_passed": 52,
+      "test_counts_overlap": true,
+      "independent_qa_status": "limited_project_repairs_passed_platform_root_cause_unresolved",
+      "independent_qa_open_p1_p2_in_reviewed_code_scope": 0,
+      "final_legacy_guidance_targeted_tests_passed": 12,
+      "independent_final_guidance_targeted_tests_passed": 1,
+      "final_tab_inventory": {"browser":"iab","boss_url":"https://www.zhipin.com/web/geek/jobs","liepin_url":"https://c.liepin.com/","scope":"metadata_only_not_account_or_JD_verification","tabs_claimed":false},
+      "independent_qa_report": "careers/docs/login-collection-qa-2026-09-21.md",
+      "actual_dispatch": [
+        {"id":"01a0c46c-a45d-78c1-a75c-5685a6858859","model":"gpt-5.6-terra","reasoning_effort":"medium","role":"legacy_entrypoint_repairs"},
+        {"id":"01a0c470-b28c-7642-b28e-a9b0d931569d","model":"gpt-6-astra","reasoning_effort":"xhigh","role":"independent_QA"}
+      ]
+    },
+    "transport": "codex-in-app-browser",
+    "desktop_browser_actions_allowed": false,
+    "login_entry_mechanism": "codex_app.open_in_codex_ordinary_tab",
+    "automation_managed_login_tabs_allowed": false,
+    "post_login_automation_acceptance": {
+      "status": "failed",
+      "checked_at_utc": "2026-09-21T14:10:35.277Z",
+      "liepin_account_and_cards_readable_before_failure": true,
+      "liepin_cards_saved": 40,
+      "complete_jd_saved_this_batch": 0,
+      "detail_matching_and_market_expansion": "not_executed_after_failure",
+      "liepin_debugger_registered_at_utc": "2026-09-21T14:08:01.139Z",
+      "liepin_top_level_blank_at_utc": "2026-09-21T14:08:08.832Z",
+      "liepin_single_same_tab_restore": "homepage_14:10:32.955Z_then_blank_14:10:35.277Z",
+      "boss_prior_tab_disappeared": "application_log_closed_at_13:53:31Z_initiator_unknown",
+      "boss_ordinary_restored_tab_id": "a83a86d0-ed0e-478a-b6dd-0d39a49e6fb5",
+      "boss_restored_tab_not_claimed": true,
+      "precise_navigation_initiator": "unknown",
+      "automatic_retry_allowed": false,
+      "evidence_directory": "01_行情收集/official-careers/research/market-2026-09-21-resumed",
+      "execution": "current_conversation_and_deterministic_extraction_no_new_subagents",
+      "applications_sent": 0
+    },
+    "state_check_min_interval_ms": 10000,
+    "state_checks_during_login_handoff": false,
+    "page_interactions_paused": true,
+    "page_reload_min_interval_ms": 10000,
+    "reload_during_login_handoff": false,
+    "automatic_refresh_timer_started": false,
+    "market_work_paused": true,
+    "boss": {"ordinary_app_tab_id":"043520fc-a6bb-4f84-90d3-4b469d18e818","login_url_from_app_log":"https://www.zhipin.com/web/user/?ka=header-login","is_browser_use_tab":false,"account_verified":false,"detail_verified":false,"cross_turn_preservation_verified":false},
+    "liepin_in_app_verified_this_turn": false,
+    "evidence": "01_行情收集/official-careers/research/iab-reopen-2026-09-21",
+    "incident_report": "careers/docs/iab-refresh-incident-2026-09-21.md",
+    "fast_refresh_root_cause": "unconfirmed_repeated_dom_ready_without_page_tool_calls",
+    "ordinary_tab_observation": {"start_utc":"2026-09-21T13:46:40.000Z","end_utc":"2026-09-21T13:47:48.015Z","dom_ready_events":1,"repeated_dom_ready_events":0,"debugger_listener_registered_in_window":false,"user_visible_stability_confirmed":true,"user_confirmation":"已稳定，可以正常登录","scope":"login_page_stability_not_authenticated_account_or_collection_acceptance"},
+    "liepin_ordinary_handoff": {"url":"https://passport.liepin.com/login/","requested_at_utc":"2026-09-21T13:49:49Z","tool_status":"queued_then_open_confirmed_by_app_log","ordinary_app_tab_id":"2a969c3e-9b6e-4029-924a-81fd00c7f093","is_browser_use_tab":false,"last_observed_url":"https://c.liepin.com/?time=1789998594521","observed_until_utc":"2026-09-21T13:50:48.596Z","dom_ready_events":2,"pattern":"login_page_then_single_homepage_redirect_no_repeated_loop_in_observation_window","user_confirmation":false,"account_verified":false},
+    "passive_log_window": {"start_utc":"2026-09-21T13:40:15.000Z","end_utc":"2026-09-21T13:41:40.000Z","dom_ready_events":32,"min_gap_seconds":0.933,"max_gap_seconds":5.368,"scope":"events_not_verified_top_level_navigation_initiator"},
+    "prior_chrome_diagnosis_is_historical": true,
+    "cli_policy_validation": {"tests_passed":27,"tests_failed":0,"test_file":"06_自动化采集/tests/auth_transport_isolation.test.mjs","default_transport":"codex-in-app-browser","status_exit_code":2,"scope":"latest_ordinary_tab_handoff_policy_and_CLI_isolation_not_authenticated_session"}
+  },
+  "login_diagnosis_2026_09_21": {
+    "status": "partial_recovery_exact_root_cause_unconfirmed",
+    "priority": "login_before_any_market_work",
+    "market_work_paused": true,
+    "transport": "chrome_native_ui",
+    "debugger_transport": "quarantined_no_reattach",
+    "evidence_directory": "01_行情收集/official-careers/research/login-root-cause-2026-09-21",
+    "diagnosis": "careers/docs/login-diagnosis-2026-09-21.md",
+    "root_cause": "debug_control_path_compatibility_suspected_exact_top_level_navigation_initiator_unknown",
+    "liepin": {"account_visible":true,"list_readable":true,"one_full_jd_readable":true,"relogin_required":false},
+    "boss": {"homepage_readable":true,"login_page_readable":true,"account_verified":false,"authenticated_detail_verified":false,"qr_state":"expired_waiting_user_no_automatic_refresh"},
+    "cross_turn_reuse_verified": false,
+    "sleep_resume_verified": false,
+    "cli_isolation": "limited_independent_QA_passed_exit_2_native_UI_handoff",
+    "independent_qa": "careers/docs/login-transport-qa-2026-09-21.md",
+    "offline_tests": {"passed":32,"failed":0,"real_transport_handler_cases":19,"scope":"CLI_isolation_not_platform_login_or_exact_root_cause"},
+    "default_cli_status_checked": {"exit_code":2,"status":"NEEDS_NATIVE_UI_CHECK","loginState":"unknown"},
+    "cli_is_login_executor": false,
+    "request_receipts": {"begins":5,"finishes":5,"sha_verified":5,"unfinished":0},
+    "manual_BOSS_login_requested_after_stability_check": true,
+    "actual_dispatch": [
+      {"id":"01a0c40a-4e0e-74c1-8112-8b13b96f641b","model":"gpt-5.6-terra","reasoning_effort":"medium","role":"narrow_CLI_transport_isolation"},
+      {"id":"01a0c40e-adec-7333-b7c4-b6a616b933cb","model":"gpt-6-astra","reasoning_effort":"xhigh","role":"independent_login_transport_QA"}
+    ],
+    "cookie_copy_or_clear": false,
+    "browser_restart": false,
+    "platform_security_controls_changed": false,
+    "applications_sent": 0
+  },
+  "continuation_2026_09_21": {
+    "status": "market_paused_for_login_diagnosis_see_login_diagnosis_2026_09_21",
+    "browser_status": "native_Chrome_Liepin_authenticated_detail_readable_BOSS_normal_login_page",
+    "blank_root_cause": "debug_path_suspected_exact_initiator_unresolved",
+    "chrome_tabs_observed": {"boss": "2145441976", "liepin": "2145441979"},
+    "default_lifecycle_patch": "automatic_stop_restart_removed_additional_QA_findings_in_repair",
+    "independent_login_qa": "careers/docs/login-retention-qa-2026-09-21.md",
+    "market_batch": "01_行情收集/official-careers/research/market-2026-09-21",
+    "report": "01_行情收集/official-careers/reports/decision-review.html",
+    "new_observations": 81,
+    "new_complete_responsibilities_and_requirements": 63,
+    "company_display_names_in_new_batch": 11,
+    "prior_Liepin_cards_preserved_with_original_date": 40,
+    "hoteam_pages": 4,
+    "hoteam_observations": 28,
+    "new_capability_assessments": 3,
+    "refreshed_assessment_bindings": 1,
+    "market_semantic_qa": "limited_scope_passed_independent_review_not_current_hiring_or_full_market_acceptance",
+    "market_semantic_qa_evidence": "careers/docs/market-checkpoint-qa-2026-09-21.md",
+    "new_commercial_candidates": 31,
+    "report_cumulative_counts": {"observations":434,"company_or_brand_display_names":154,"salary_range_opportunities":65,"confirmed_fixed_base_20k":0},
+    "known_freshness_limit": "observed_at_is_tool_retrieval_not_verified_underlying_HTTP_freshness",
+    "request_audit": "partial_interrupted_admission_o19_without_result_o19r_separate_continuation",
+    "new_snapshot_replaces_historical_dates": false,
+    "unattended_session_reuse_verified": false,
+    "company_scope_is_full_market": false,
+    "actual_dispatch": [
+      {"id":"01a0c3de-03a8-7601-a811-706c79bb8357","model":"gpt-5.6-terra","reasoning_effort":"medium","role":"bounded_data_and_auth_repairs"},
+      {"id":"01a0c3de-cc30-7e82-a88b-b3a01f6a8703","model":"gpt-6-astra","reasoning_effort":"xhigh","role":"independent_QA"}
+    ],
+    "token_usage": null,
+    "applications_sent": 0,
+    "scheduler_enabled": false
+  },
+  "login_retention_2026_09_20": {
+    "status": "retention_marked_blank_recurrence_unresolved",
+    "browser": "Codex In-app Browser",
+    "tab_ids": { "boss": "3", "liepin": "4" },
+    "user_confirmed_both_logged_in": true,
+    "liepin_authenticated_list_read": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "boss_authenticated_homepage_after_single_restore": "01_行情收集/official-careers/research/market-2026-09-20/raw/b03.json",
+    "liepin_single_restore": "01_行情收集/official-careers/research/market-2026-09-20/raw/l03.json",
+    "liepin_blank_readback": "01_行情收集/official-careers/research/market-2026-09-20/raw/login-readback-liepin.json",
+    "final_observation": "Both original tabs still exist at about:blank, despite retention marks; root cause unknown",
+    "explicit_close_logout_cookie_clear": false,
+    "retention_rule": "careers/docs/browser-login-handoff.md",
+    "unattended_session_reuse_verified": false,
+    "platform_reads_paused": true,
+    "market_batch": "01_行情收集/official-careers/research/market-2026-09-20",
+    "market_batch_status": "checkpoint_only_not_integrated_or_accepted",
+    "public_search_interruption": "q11 admitted but interrupted without a completed capture; q12 not executed",
+    "next_action": "Diagnose page/session lifecycle without repeated refresh or new login tabs; resume from saved evidence after stable reuse is verified",
+    "applications_sent": 0,
+    "scheduler_activated": false
+  },
+  "business_acceptance": {
+    "status": "not_accepted",
+    "breadth_status": "not_passed",
+    "priority": "breadth_before_depth",
+    "basis": "User explicitly rejected current market coverage on 2026-09-16; check user standards before delivery",
+    "contract": "careers/docs/breadth-first-acceptance.md",
+    "artifact_status": "working_samples_not_formal_recommendations",
+    "latest_breadth_checkpoint": "01_行情收集/official-careers/research/market-wide-2026-09-22/report-run.json",
+    "current_stage": "industry_company_channel_and_role_coverage",
+    "deep_analysis_priority": "deferred_except_minimal_relevance_checks_or_explicit_user_selected_jobs",
+    "blocking_gaps": [
+      "industry_and_subsector_coverage_not_proven",
+      "company_catalog_not_equivalent_to_scanned_employers",
+      "multi_channel_company_inventory_and_route_A_incomplete",
+      "title_and_content_query_families_only_first_eight_sector_pass",
+      "new_company_frontier_followup_incomplete",
+      "historical_batch_request_admission_audit_gap_preserved"
+    ],
+    "user_approved_numeric_threshold": null,
+    "formal_review_evidence": [],
+    "rule_update_is_new_market_coverage": false
+  },
+  "breadth_expansion_2026_09_16": {
+    "status": "incremental_checkpoint_verified_breadth_not_accepted",
+    "directory": "01_行情收集/official-careers/research/breadth-2026-09-16",
+    "capture_count": 52,
+    "searches": 32,
+    "opens": 18,
+    "clicks": 2,
+    "timing_audit": "passed_for_recorded_calls",
+    "minimum_cooldown_ms": 10314,
+    "market_complete": false,
+    "breadth_accepted": false,
+    "independent_qa_agent": "01a0aaff-d4a2-7c41-9f41-d17fb889e774",
+    "independent_qa_model": "gpt-6-astra",
+    "independent_qa_reasoning_effort": "xhigh",
+    "independent_qa_result": "three_findings_resolved_scoped_retest_passed",
+    "independent_qa_evidence": "01_行情收集/official-careers/research/breadth-2026-09-16/qa-breadth-retest.json",
+    "counts": {
+      "observations": 144,
+      "company_display_names": 76,
+      "commercial_observations": 102,
+      "commercial_company_display_names": 58,
+      "full_jd": 34,
+      "commercial_full_jd": 22,
+      "salary_disclosed": 25,
+      "directory_display_names_not_verified_employers": 203
+    },
+    "deterministic_checks": "28 focused tests and batch evidence validation passed",
+    "visual_checks": "1440x1000 and 390x844 offline UI checks passed; no horizontal overflow",
+    "resume_from": "01_行情收集/official-careers/research/breadth-2026-09-16/frontier.json",
+    "limitations": [
+      "not_all_market_or_company_complete",
+      "historical_directory_names_not_current_hiring_proof",
+      "public_search_cached_results_not_live_hiring_confirmation",
+      "dynamic_ATS_and_native_pagination_pending",
+      "prior_BOSS_and_Liepin_halts_preserved_user_resume_confirmation_requested"
+    ],
+    "external_actions": 0,
+    "schedule_enabled": false
+  },
+  "funnel_report_2026_09_16": {
+    "status": "ui_verified_incremental_collection_delivered_with_timing_audit_gap",
+    "report": "01_行情收集/official-careers/reports/decision-review.html",
+    "scope": "Industry-company-job collapse controls, existing filter/sort preservation, explicit freshness, one bounded public-web expansion batch",
+    "main_model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "model_evidence": "Parent turn_context 2026-09-16T14:50:13.155Z",
+    "collection_agent": {
+      "agent_id": "01a0aab3-77d6-7bd2-a7e3-e53b52ccc8fb",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "runtime_verified": true,
+      "status": "delivered_closed",
+      "token_usage": null
+    },
+    "counts": {
+      "company_or_brand_display_names": 50,
+      "raw_observations": 169,
+      "new_observations": 6,
+      "new_complete_jds": 4,
+      "new_incomplete_leads": 2,
+      "scored_source_records": 6,
+      "new_scored_records": 0,
+      "salary_range_eligible": 22,
+      "fixed_base_confirmed": 0
+    },
+    "collection_receipt": "01_行情收集/official-careers/research/expansion-2026-09-16/run.json",
+    "verification": {
+      "targeted_tests_passed": 15,
+      "visual_viewports": ["1440x1000", "390x844"],
+      "visual_receipt": "01_行情收集/official-careers/reports/qa/decision-review-visual.json",
+      "source_manifest_hashes_checked": 50,
+      "source_manifest_failures": 0,
+      "new_vs_old_job_url_overlaps": 0,
+      "independent_qa": false,
+      "network_calls": 12,
+      "persisted_captures": 11,
+      "full_rate_limit_audit_passed": false
+    },
+    "remaining": [
+      "one_duplicate_search_has_no_separate_capture_and_admission_checks_were_incomplete; collection_branch_stopped",
+      "new_full_JDs_need_personal_capability_scoring; overseas_and_experience_gates_need_review",
+      "two_new_leads_need_stable_detail_pages",
+      "official_employer_attribution_and_chinese_company_expansion_need_continuation",
+      "full_market_size_unknown_and_company_lists_not_exhausted"
+    ],
+    "scheduler_activated": false,
+    "applications_sent": 0,
+    "messages_sent": 0
+  },
+  "operations_only_2026_09_14": {
+    "status": "partial_market_batch_delivered_source_checked_not_independent_QA",
+    "scope": "Authenticated BOSS/Liepin detail reads, one JD-derived keyword query and one newly discovered product-site career page; not full market or exhaustive pagination",
+    "source_code_changes": 0,
+    "child_agents_started": 0,
+    "actual_main_model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "model_verification": "Current local session turn_context at 2026-09-14T15:24:30.244Z; no model switch",
+    "full_jd_source_records": 6,
+    "company_display_names_with_full_jd": 5,
+    "lead_observations": 46,
+    "counts_overlap": "Lead observations overlap full-JD records; do not add as unique new jobs",
+    "fixed_base_20k_confirmed": 0,
+    "report": "01_行情收集/official-careers/reports/岗位收集与匹配_2026-09-14_执行版.md",
+    "data": "01_行情收集/official-careers/research/operations-2026-09-14/jobs-and-matches.json",
+    "validation": {
+      "source_hashes_valid": true,
+      "native_exact_field_checks": 5,
+      "web_source_quote_checks": 1,
+      "paired_capture_records": 11,
+      "minimum_timestamped_action_gap_ms": 41785,
+      "interrupted_navigation_timestamp_unknown": true
+    },
+    "independent_qa": false,
+    "browser_status": "Both platforms logged in and detail-readable this batch; later native control interrupted, user handoff requested",
+    "remaining": [
+      "iflytek_detail_not_read",
+      "new_company_and_keyword_leads_need_details",
+      "all_company_all_channel_pagination_not_complete",
+      "company_tiers_and_fixed_base_pending",
+      "policy_update_not_run",
+      "existing_report_interface_and_background_browser_issues_deferred_no_development"
+    ],
+    "resume_changes": 0,
+    "applications_sent": 0,
+    "messages_sent": 0,
+    "schedule_enabled": false
+  },
+  "login_and_matching_2026_09_14": {
+    "status": "paused_after_user_requested_agent_efficiency_audit",
+    "browser_handoff": "both_logged_in_homepages_readable_native_window_handoff_requested",
+    "login_evidence": "01_行情收集/official-careers/research/login-resume-2026-09-14/login-observations.json",
+    "detail_reads_completed": 0,
+    "interrupted_detail_attempts": 1,
+    "current_blocker": "Chrome background connection unstable; native window changed by user, waiting for a short handoff",
+    "matching_status": "12_analysis_drafts_saved_report_integration_and_independent_acceptance_incomplete",
+    "analysis_dispatch": "01_行情收集/official-careers/research/personal-matching-2026-09-14/dispatch.json",
+    "engineering_status": "report_module_saved_structured_analysis_compatibility_unresolved_agent_closed",
+    "independent_qa": "paused_without_passed_verdict_agent_closed",
+    "independent_qa_agent": "01a0a078-72cb-7fd2-b37a-b100b3f39c38",
+    "offline_tests": {
+      "command": "npm run careers:test",
+      "passed": 252,
+      "failed": 0,
+      "duration_ms": 29225.151958
+    },
+    "current_main_model": "Current Codex session; model switch not performed or independently verified",
+    "efficiency_audit": "careers/docs/agent-efficiency-audit-2026-09-14.md",
+    "actual_engineering_models": [
+      "gpt-5.6-terra/medium",
+      "gpt-6-astra/xhigh after resume; not continuously the assigned Terra model"
+    ],
+    "agents_closed": [
+      "01a0a069-567d-79a2-ba77-00a78a8064a4",
+      "01a0a06b-98b1-7861-b325-1bce11a5323a",
+      "01a0a078-72cb-7fd2-b37a-b100b3f39c38"
+    ],
+    "qa_handoff_findings_unresolved": [
+      "multiline_salary_conditions_may_be_missed",
+      "raw_evidence_sha_validation_missing",
+      "browser_capture_and_audit_contract_mismatch",
+      "structured_quote_report_integration_unverified"
+    ],
+    "legacy_halts_cleared": false,
+    "applications_sent": 0,
+    "schedule_enabled": false
+  },
+  "coverage_campaign_2026_09_14": {
+    "status": "expanded_partial_delivery_verified_remaining_market_coverage_open",
+    "scope_manifest": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/scope.json",
+    "company_global_cap": null,
+    "job_global_cap": null,
+    "market_complete": false,
+    "agents": [
+      {
+        "agent_id": "01a0a010-7c69-7ad1-b7e0-c18bfd002b1c",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "xhigh",
+        "role": "coverage_direction",
+        "status": "delivered_closed_not_final_QA"
+      },
+      {
+        "agent_id": "01a0a010-7ce4-75d0-9e40-9216034bb79a",
+        "model": "gpt-5.6-terra",
+        "reasoning_effort": "medium",
+        "role": "coverage_engineering",
+        "status": "F2_F4_fixed_targeted_tests_passed_closed"
+      },
+      {
+        "agent_id": "01a0a011-7114-7663-866b-67271ee52d07",
+        "model": "gpt-5.6-luna",
+        "reasoning_effort": "medium",
+        "role": "directory_extraction_after_failed_network_wrapper",
+        "status": "104_offline_records_delivered_closed"
+      },
+      {
+        "agent_id": "01a0a022-77e4-79a3-8707-87498495f00f",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "xhigh",
+        "role": "independent_QA",
+        "status": "F1_F6_verified_closed_agent_closed"
+      }
+    ],
+    "independent_review": {
+      "status": "F1_F6_verified_closed_with_market_runtime_gaps_preserved",
+      "report": "careers/docs/coverage-review-2026-09-14.md",
+      "initial_findings": [
+        "F1_raw_observation_loss",
+        "F2_cross_company_receipt_binding",
+        "F3_hardcoded_salary_zero",
+        "F4_custom_channel_routing"
+      ],
+      "controller_fixes": [
+        "F1",
+        "F3",
+        "writer_input_sha_binding",
+        "F5_same_result_URL_quote_binding",
+        "F6_missing_lines_and_shared_requirements"
+      ],
+      "executor_fixes": [
+        "F2",
+        "F4"
+      ],
+      "verified_closed": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "initial_independent_targeted_tests": 30,
+      "final_independent_targeted_tests": 2,
+      "corrected_directory_bindings": 31,
+      "corrected_job_records": 11,
+      "whole_market_accepted": false,
+      "independent_browser_visual_executed": false
+    },
+    "actual_main_model": "current session; no tool-supported switch or verification; not represented as Astra",
+    "collection": {
+      "started_calls": 23,
+      "persisted_raw": 22,
+      "completed_receipts": 21,
+      "main_valid_calls": 21,
+      "luna_early_calls": 2,
+      "directory_records": 104,
+      "new_job_observations": 36,
+      "new_job_employer_display_names": 7,
+      "suspected_same_page_variants": 8,
+      "failed_reads": 2,
+      "all_market_complete": false
+    },
+    "timing_audit": {
+      "status": "partial_failed_early_receipts",
+      "unfinished_ids": [
+        "unique001",
+        "002"
+      ],
+      "main_21_minimum_tool_interval_ms": 12000,
+      "no_historical_raw_or_ledger_rewrite": true
+    },
+    "coverage": {
+      "company_display_names": 156,
+      "verified_company_entities": null,
+      "company_channel_cells": 936,
+      "attempted_cells": 40,
+      "pending_cells": 582,
+      "blocked_cells": 314,
+      "complete_source_scopes": 0,
+      "cumulative_job_observations": 111,
+      "cumulative_complete_duties_requirements": 95
+    },
+    "discovery_feedback": {
+      "status": "corrected_inputs_imported_not_executed",
+      "queue_employer_records": 267,
+      "queue_channels": 36,
+      "superseded_records_annotated": 42,
+      "company_and_channel_annotations": 84,
+      "existing_batch_preserved": "discovery-00c508ff-75d8-4898-9693-f1755d202951",
+      "selected_in_historical_batch": 5,
+      "live_requests": 0,
+      "original_receipt": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/discovery-import-receipt.json",
+      "correction_receipt": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/discovery-correction-receipt.json"
+    },
+    "offline_validation": {
+      "command": "npm run careers:test",
+      "passed": 243,
+      "failed": 0,
+      "duration_ms": 27495.253125,
+      "later_targeted_regression_passed": 8,
+      "test_counts_overlap_do_not_add": true
+    },
+    "visual_validation": {
+      "passed": true,
+      "viewports": [
+        "1440x1000",
+        "390x844"
+      ],
+      "external_requests": 0,
+      "page_errors": 0,
+      "report_sha256": "dff181c933abc1a333a7a1a2fc1dd967262e70c918ad70e8f8f8e4638824c6cb",
+      "receipt": "01_行情收集/official-careers/reports/qa/coverage-visual-checks.json"
+    },
+    "report": "01_行情收集/official-careers/reports/coverage-campaign.html",
+    "run_notes": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/collection-notes.md",
+    "remaining": [
+      "automatic_industry_company_all_channel_research_not_complete",
+      "BOSS_Liepin_manual_verification_pending",
+      "native_pagination_and_all_details_not_proven",
+      "fixed_salary_and_new_job_matching_not_assessed",
+      "two_early_capture_receipt_failures",
+      "old_matching_validator_max_migration_pending"
+    ],
+    "doctor": {
+      "ok": true,
+      "node": "24.19.0",
+      "live_requests": 0
+    },
+    "source_halts_preserved": true,
+    "applications_sent": 0,
+    "schedule_enabled": false,
+    "actual_token_usage": null
+  },
+  "market_sweep_2026_09_13": {
+    "status": "bounded_first_edition_delivered_with_explicit_source_and_salary_gaps",
+    "data_directory": "01_行情收集/official-careers/research/sweep-2026-09-13",
+    "scope": "Five industry directions, two discovery routes, open source families; bounded first edition, not a market census",
+    "scope_manifest": "01_行情收集/official-careers/research/sweep-2026-09-13/scope.json",
+    "collect_executor": {
+      "agent_id": "01a09714-b7ae-77c2-8041-4c1ba9cdf571",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "status": "completed_closed_queue_process_exited"
+    },
+    "report_executor": {
+      "agent_id": "01a09716-45a3-7e53-a43a-8a022fdad605",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "status": "closed_main_integrated_and_fixed_filter_intersection"
+    },
+    "analysis": {
+      "status": "valid_17_completed_closed",
+      "maximum_candidates_per_batch": 20,
+      "agent_id": "01a09727-7105-7290-9e54-5cb1cc41090b",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "max",
+      "priorities": {
+        "verify_first": 3,
+        "adjacent": 10,
+        "not_primary": 4
+      }
+    },
+    "independent_review": {
+      "status": "17_reviewed_one_priority_issue_fixed_controller_verified_closed",
+      "agent_id": "01a09738-eba7-74a3-8e5f-c40aef452ec6",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "max",
+      "new_source_blockers": 0,
+      "priority_findings": 1,
+      "resolution": "01_行情收集/official-careers/research/sweep-2026-09-13/review-resolution.json",
+      "independent_final_visual_rerun": false
+    },
+    "collection": {
+      "web_tool_calls": 50,
+      "named_company_targets_attempted": 25,
+      "full_jd_sources": 6,
+      "job_observations": 50,
+      "complete_duties_and_requirements": 40,
+      "index_leads": 10,
+      "commercial_candidates": 32,
+      "fixed_base_20k_confirmed": 0
+    },
+    "offline_validation": {
+      "command": "npm run careers:test",
+      "tests_passed": 219,
+      "tests_failed": 0,
+      "tests_skipped": 0,
+      "duration_ms": 28434.870875,
+      "includes_real_tungee_tele_sales_city_manager_regressions": true
+    },
+    "discovery_feedback": {
+      "batch_id": "discovery-00c508ff-75d8-4898-9693-f1755d202951",
+      "imported_market_observations": 50,
+      "total_historical_and_unverified_employer_records": 85,
+      "unique_verified_company_count": null,
+      "next_wave_prepared_only": true,
+      "source_approvals_imported": false,
+      "live_requests": 0
+    },
+    "timing_audit": {
+      "status": "failed_with_explicit_027_ledger_gap",
+      "paired_capture_receipts": 49,
+      "minimum_verified_cooldown_ms": 12740,
+      "raw_capture_history_not_rewritten": true
+    },
+    "report": "01_行情收集/official-careers/reports/market-sweep.html",
+    "collection_notes": "01_行情收集/official-careers/research/sweep-2026-09-13/collection-notes.md",
+    "visual_validation": {
+      "passed": true,
+      "viewports": [
+        "1440x1000",
+        "820x1000",
+        "390x844"
+      ],
+      "external_requests": 0,
+      "page_errors": 0,
+      "report_sha256": "54c7af40cb8703dea98c564b3a81d100079e53f3528dd3ddae0b6b7f45278c46"
+    },
+    "collection_lock": "Shared SQLite queue with 10-20 second cooldown; web-session ledger and persisted full tool results",
+    "actual_token_usage": null,
+    "applications_sent": 0,
+    "schedule_enabled": false,
+    "next": "User reviews first edition; next authorized batch prioritizes fixed salary and current hiring checks, remaining industrial/hardware company JDs, source admission and ledger protocol repair. No automatic applications or schedule."
+  },
+  "discovery_repair_2026_09_13": {
+    "status": "incremental_prototype_delivered_offline_and_independent_case_recheck_passed",
+    "scope": "open_source_discovery_queue_channel_contact_identity_body_review_industry_report",
+    "agents": [
+      {
+        "agent_id": "01a096cd-26e5-7511-b257-276e4528e183",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "role": "discovery_runtime",
+        "status": "delivered_verified_and_closed"
+      },
+      {
+        "agent_id": "01a096cd-e7e4-7700-b502-f865846e0b3a",
+        "model": "gpt-5.6-luna",
+        "reasoning_effort": "medium",
+        "role": "industry_report",
+        "status": "delivered_closed_main_integrated_and_hardened"
+      },
+      {
+        "agent_id": "01a096d9-f264-71b2-9e28-4ab6af2787c0",
+        "model": "gpt-6-astra",
+        "reasoning_effort": "max",
+        "role": "independent_review",
+        "status": "completed_and_closed_incremental_cases_passed"
+      }
+    ],
+    "raw_records_deleted": 0,
+    "live_requests": 0,
+    "applications_sent": 0,
+    "schedule_enabled": false,
+    "actual_token_usage": null,
+    "offline_validation": {
+      "command": "npm run careers:test",
+      "tests_passed": 211,
+      "tests_failed": 0,
+      "tests_skipped": 0,
+      "duration_ms": 31052.291125,
+      "skill_validation": "passed",
+      "doctor": "passed_Node24_no_live_requests",
+      "legacy_boss_scripts": "syntax_only_not_live_platform_acceptance"
+    },
+    "visual_validation": {
+      "passed": true,
+      "viewports": [
+        "1440x1000",
+        "820x1000",
+        "390x844"
+      ],
+      "external_requests": 0,
+      "page_errors": 0,
+      "reports": [
+        "01_行情收集/official-careers/reports/qa/visual-checks.json",
+        "01_行情收集/official-careers/reports/qa/sweep-visual-checks.json"
+      ],
+      "scope": "local_rendering_filters_body_search_review_raw_views_not_network_acceptance"
+    },
+    "historical_cases": {
+      "report": "01_行情收集/official-careers/reports/qa/discovery-repair-cases.json",
+      "real_jd_replays": 3,
+      "original_official_rows_retained": 48,
+      "original_market_rows_retained": 25,
+      "market_jobs_sha256": "e0506c0a5cd941c81a72ef966d29c2d7523f8a04d43c008e981f5a67cdb9c5db",
+      "fresh_jobs": 0
+    },
+    "root_frontier_check": {
+      "initial_batch_id": "discovery-9ce7879b-a567-4a1c-aab8-e2e0602e9489",
+      "initial_execution_id": "5810b173-c314-4dad-ab0d-13f5d85462f0",
+      "followup_prepare_batch_id": "discovery-ccb2227a-7d64-4b6a-8f8c-8d4d00a881bb",
+      "automatic_market_input_records": 25,
+      "queue_employer_records": 35,
+      "channels": 12,
+      "needs_verification": 31,
+      "known_blocked": 4,
+      "approved_generic_sources": 0,
+      "network_requests": 0,
+      "not_a_verified_company_count_or_successful_scan": true,
+      "repeat_unchanged_pending_not_selected": true
+    },
+    "implemented": [
+      "open_channel_import_not_whitelist",
+      "automatic_sha_verified_current_market_feedback",
+      "persistent_frozen_discovery_waves_and_checkpoints",
+      "approved_generic_static_list_and_full_jd_reader",
+      "channel_company_title_verified_HR_identity",
+      "native_official_vacancy_identity_with_raw_preservation",
+      "complete_body_commercial_review",
+      "industry_tier_grouped_report",
+      "discovery_normalized_jobs_in_matching_and_report",
+      "no_progress_budget_stop_and_explicit_refreeze"
+    ],
+    "remaining_boundaries": [
+      "no_new_live_generic_source_acceptance",
+      "unknown_channels_need_verified_access_and_reader",
+      "dynamic_ATS_and_autonomous_market_search_not_implemented",
+      "real_company_tier_research_pending",
+      "existing_BOSS_Liepin_pause_and_MiniMax_quarantine_preserved",
+      "applications_and_schedule_disabled"
+    ],
+    "independent_review": {
+      "report": "careers/docs/review-2026-09-13.md",
+      "closed_initial_cases": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7"
+      ],
+      "closed_final_cases": [
+        "D1",
+        "D2",
+        "D3",
+        "opaque_identity"
+      ],
+      "final_recheck": "passed_for_incremental_case_scope",
+      "remaining_case_blockers": 0,
+      "reviewer_executed": {
+        "initial_targeted_tests": 41,
+        "final_identity_tests": 7,
+        "final_core_tests": 6,
+        "counts_overlap_not_summed": true
+      },
+      "live_acceptance": false
+    },
+    "next": "Run an explicitly scoped source-verification and market-discovery batch, prioritizing pending companies and new channel leads without removing access stops; real dynamic-source acceptance and autonomous research remain separate work."
+  },
+  "industry_tiers_sources_2026_09_11": {
+    "status": "rules_delivered_F2_independent_recheck_passed_runtime_gaps_explicit_no_scan",
+    "contract": "careers/docs/industry-tiers-and-sources.md",
+    "configs": [
+      "careers/config/company-tier-policy.json",
+      "careers/config/source-catalog.json"
+    ],
+    "runtime_audit": "careers/docs/source-runtime-audit-2026-09-11.md",
+    "audit_agent": {
+      "agent_id": "01a08ed4-d6aa-76d1-8681-5015213ae94d",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "status": "completed_refined_and_closed_main_integrated",
+      "actual_token_usage": null
+    },
+    "live_searches": 0,
+    "page_visits": 0,
+    "new_jobs": 0,
+    "historical_companies_reclassified": 0,
+    "applications_sent": 0,
+    "schedule_enabled": false,
+    "runtime_classification_and_grouped_ui_implemented": false,
+    "preserved_market_snapshot": {
+      "jobs_sha256": "e0506c0a5cd941c81a72ef966d29c2d7523f8a04d43c008e981f5a67cdb9c5db",
+      "context_sha256": "5119c0c0f972c0238ad11c9455fc340ab727c13bd7b478094f8f5d65d69c5946",
+      "unchanged_from_prior_turn": true
+    },
+    "offline_validation": {
+      "tests_passed": 163,
+      "tests_failed": 0,
+      "command": "npm run careers:test",
+      "skill_validation": "passed",
+      "scope": "post_F2_offline_contract_and_existing_regression_tests_not_live_acceptance"
+    },
+    "offline_doctor": {
+      "command": "npm run careers:doctor",
+      "ok": true,
+      "node": "v24.19.0",
+      "sqlite": "3.53.3",
+      "live_requests": 0,
+      "registered_company_sources": 3,
+      "configured_enabled_sources": [
+        "bailian-ai",
+        "deepseek"
+      ],
+      "quarantined": [
+        "minimax"
+      ],
+      "current_source_access_verified": false,
+      "note": "Offline sandboxed DOM capability check only; no recruitment-site navigation or collection."
+    },
+    "independent_review": {
+      "agent_id": "01a08eda-cabd-7762-b3bb-5d57edf2b2e5",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "max",
+      "model_evidence": "Main-controller spawn_agent tool accepted these explicit parameters and returned this agent ID; worker self-introspection unavailable; billing not measured",
+      "status": "F2_rule_scope_passed_after_narrow_recheck_completed_and_closed",
+      "initial_findings": {
+        "P1": 1,
+        "P2": 2
+      },
+      "rule_finding": "F2_top5_is_only_a_candidate_signal_requires_leading_cohort_evidence",
+      "resolved_rule_findings": [
+        "F2"
+      ],
+      "remaining_rule_delivery_blockers": 0,
+      "runtime_findings_left_open": [
+        "F1_unified_source_and_dual_route_runtime",
+        "F3_unknown_title_commercial_body_review_queue"
+      ],
+      "live_execution_acceptance": false,
+      "report": "careers/docs/industry-sources-review-2026-09-11.md",
+      "actual_token_usage": null
+    },
+    "post_F2_targeted_tests": {
+      "passed": 13,
+      "failed": 0,
+      "runtime": "Node24",
+      "scope": "industry-source and discovery rule contracts, not a production tier classifier"
+    },
+    "next": "Later authorized scan first declares source entry and A/B scope with all four industry-position buckets, leaving unknown evidence unclassified. Connect task/coverage records, commercial-body review queue and evidence-backed grouped report; keep restricted adapters isolated."
+  },
+  "dual_route_rules_2026_09_11": {
+    "status": "rules_delivered_offline_checks_and_independent_review_passed_no_scan",
+    "contract": "careers/docs/dual-route-discovery.md",
+    "configuration": "careers/config/discovery-policy.json",
+    "route_A": "industry_to_company_to_job_to_keywords",
+    "route_B": "title_and_content_keywords_to_jobs_to_verified_employers_to_A",
+    "live_searches": 0,
+    "page_visits": 0,
+    "new_jobs": 0,
+    "applications_sent": 0,
+    "schedule_enabled": false,
+    "runtime_implemented": false,
+    "offline_validation": {
+      "tests_passed": 156,
+      "tests_failed": 0,
+      "command": "npm run careers:test",
+      "skill_validation": "passed"
+    },
+    "independent_review": {
+      "status": "passed_rules_scope_after_cold_start_clarification",
+      "agent_id": "01a08ebd-3350-72f0-8cad-b00548372d7c",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "max",
+      "initial_p2": 1,
+      "resolved": 1,
+      "remaining_blockers": 0,
+      "report": "careers/docs/dual-route-discovery-review.md",
+      "live_discovery_acceptance": false
+    },
+    "next": "Await a later explicit scan request; freeze industry/company/query scope and bootstrap from current verified JDs, with resumable A/B discovery records"
+  },
+  "market_sweep_2026_09_11": {
+    "status": "bounded_market_sweep_delivered_with_explicit_source_and_salary_limits",
+    "scope": "One bounded broad public-market sweep; official company pages first; not an exhaustive market census",
+    "data_directory": "01_行情收集/official-careers/research/sweep-2026-09-11",
+    "context_snapshot": "01_行情收集/official-careers/research/sweep-2026-09-11-context.json",
+    "collect_executor": {
+      "agent_id": "01a08c2b-dc71-7421-a833-b432b3b9592a",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    },
+    "report_executor": {
+      "agent_id": "01a08c2c-fdb3-7682-a9b9-9e75b172270f",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    },
+    "analysis": {
+      "status": "completed_19_full_jds_source_checked_dispatch_and_hash_bound",
+      "agent_id": "01a08c48-6ac2-7a10-9d1c-bb55f82826b1",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "max",
+      "priorities": {
+        "verify_first": 4,
+        "adjacent": 6,
+        "not_primary": 9
+      },
+      "formal_application_approval": false
+    },
+    "baseline_tests": {
+      "passed": 141,
+      "failed": 0
+    },
+    "current_tests": {
+      "passed": 150,
+      "failed": 0,
+      "command": "npm run careers:test"
+    },
+    "collection": {
+      "companies_searched": 20,
+      "web_tool_calls": 38,
+      "luna_executor_calls": 29,
+      "controller_supplement_calls": 9,
+      "job_records": 25,
+      "full_jds": 19,
+      "full_jd_companies": 5,
+      "index_only": 6,
+      "confirmed_fixed_monthly_base_20k": 0,
+      "not_a_market_census": true
+    },
+    "source_evidence": "01_行情收集/official-careers/research/sweep-2026-09-11/source-review.md",
+    "timing_audit": {
+      "status": "partial",
+      "unverified_early_timestamps": 4,
+      "historical_http_audit_does_not_cover_this_web_sweep": true
+    },
+    "report": "01_行情收集/official-careers/reports/market-sweep.html",
+    "visual_qa": {
+      "passed": true,
+      "viewports": [
+        "1440x1000",
+        "820x1000",
+        "390x844"
+      ],
+      "external_requests": 0,
+      "evidence": "01_行情收集/official-careers/reports/qa/sweep-visual-checks.json"
+    },
+    "actual_token_usage": null,
+    "applications_sent": 0,
+    "schedule_enabled": false,
+    "next": "Confirm salary components and hiring validity for four priority roles; next bounded batch should add market/commercial operations management sources and finish Microsoft extraction without retrying blocked sources"
+  },
+  "commercial_ui_revision": {
+    "date": "2026-09-10",
+    "status": "manual_prototype_delivered_incremental_independent_review_passed",
+    "scope": "Compact report, commercial role policy, independent headhunter team and separate public salary leads",
+    "primary_functions": [
+      "marketing",
+      "sales_and_KA",
+      "BD_channels_ecosystem",
+      "sales_and_commercial_operations"
+    ],
+    "product_manager_excluded": true,
+    "full_historical_jds": 48,
+    "current_role_candidates": 7,
+    "new_salary_index_leads": 15,
+    "new_salary_lead_companies": 8,
+    "new_full_jds": 0,
+    "confirmed_fixed_base_20k": 0,
+    "registered_business_roles": 4,
+    "role_registry": "careers/agent-outputs/registry.json",
+    "team_contract": "careers/docs/headhunter-team.md",
+    "synthesis": "01_行情收集/official-careers/reports/headhunter.md",
+    "offline_tests": {
+      "passed": 141,
+      "failed": 0
+    },
+    "visual_qa": {
+      "passed": true,
+      "viewports": [
+        "1440x1000",
+        "820x1000",
+        "390x844"
+      ],
+      "mobile_first_job_top_px": 315,
+      "external_requests": 0,
+      "evidence": "01_行情收集/official-careers/reports/qa/visual-checks.json"
+    },
+    "independent_review": {
+      "status": "passed_for_incremental_scope",
+      "role": "gpt-6-astra/max",
+      "findings": 3,
+      "resolved": 3,
+      "remaining_blockers": 0,
+      "targeted_tests_passed": 10,
+      "artifact": "careers/agent-outputs/independent-review.json",
+      "not_a_job_recommendation_approval": true
+    },
+    "external_source_stop": {
+      "source": "liepin.com",
+      "reason": "captcha_redirect",
+      "attempts_after_stop": 0,
+      "evidence": "01_行情收集/official-careers/research/headhunter-search-04.json"
+    },
+    "cache_fix": "SQLite agent inputs use stable read-only logical snapshots, ignoring WAL/no-op physical changes while invalidating on actual data changes",
+    "applications_sent": 0,
+    "schedule_enabled": false
+  },
+  "implementation_started_on": "2026-09-09",
+  "current_stage": 4,
+  "delivery_mode": "usable_manual_prototype_with_isolated_known_issues",
+  "funnel_sample": {
+    "status": "usable_manual_sample_independent_semantic_acceptance_deferred",
+    "scope": "One verified historical national AI policy; two company business sources; three selected full JDs; not a complete weekly policy report",
+    "policy_capture": "passed_CAC_official_republication",
+    "company_business_capture": "passed_bailian_and_minimax_homepages",
+    "skipped_sources": [
+      "NDA robots 404: ROBOTS_UNKNOWN",
+      "NDRC robots 403: HTTP_ACCESS_STOP"
+    ],
+    "matching": "three_new_strategy_assessments_imported_pending_independent_review",
+    "match_batch": "bd0bf400-e2cc-4e09-857c-261fcc4035d1",
+    "cache_repeat": {
+      "cached": 3,
+      "remaining_candidates_prepared": 12,
+      "additional_model_calls": 0
+    },
+    "report": "01_行情收集/official-careers/reports/overview.html",
+    "verified_traceable_jobs": 3,
+    "initial_offline_tests_passed": 120,
+    "latest_offline_tests": {
+      "passed": 130,
+      "failed": 0,
+      "command": "node careers/run.mjs test"
+    },
+    "visual_qa": {
+      "passed": true,
+      "viewports": [
+        "1440x1000",
+        "390x844"
+      ],
+      "expanded_jds": 3,
+      "external_requests": 0,
+      "evidence": "01_行情收集/official-careers/reports/qa/visual-checks.json",
+      "note": "Screenshot timing corrected after main visually found an empty search view; corrected funnel and JD screenshots visually inspected."
+    },
+    "offline_rebuild": {
+      "command": "node careers/run.mjs funnel:build",
+      "passed": true,
+      "unchanged_input_same_snapshot": true
+    },
+    "http_audit": {
+      "passed": true,
+      "requests": 89,
+      "minimum_shared_cooldown_ms": 10717
+    },
+    "bailian_repeat_run": "bailian-ai-6abf6279-4c75-458d-bfd5-5c9f4eeb8313",
+    "independent_review": {
+      "status": "deferred_no_valid_receipt_returned",
+      "agent_id": "01a08780-3131-73f2-8087-2a30f50dc903",
+      "reviewed_assessments": 0,
+      "note": "Bounded follow-ups did not produce a report or signed reviews; stopped the reviewer for prototype handover. All three current analyses remain drafts. Do not equate deterministic tests with independent semantic acceptance."
+    },
+    "next": "Independently review the three saved drafts; add salary evidence and company-tier evidence; then extend the verified funnel. Weekly discovery and application driver remain unimplemented.",
+    "applications_sent": 0,
+    "schedule_enabled": false
+  },
+  "latest_user_priority": "Private headhunter: policy/industry -> commercial demand -> company -> job -> career fit -> user-selected authorized applications -> feedback. Prioritize real management or durable ToB paths and fixed monthly CNY base >=20000. Deliver a prototype first; isolate unresolved root causes after at most three repair rounds; access denials stop immediately.",
+  "issue_register": "careers/docs/known-issues.md",
+  "full_acceptance_passed": false,
+  "matching_review": {
+    "scope": "historical_pre_private_headhunter_preferences",
+    "approved": 3,
+    "revision_required": 1,
+    "pending": 11,
+    "all_resume_reuse_eligible": false,
+    "current_strategy_valid": false
+  },
+  "strategy_revision": {
+    "date": "2026-09-10",
+    "scope": "Architecture, project rules, strategy/authorization configuration, next-match inputs and fixed-base report filter; no external application or scheduled task",
+    "architecture": "careers/docs/private-headhunter.md",
+    "config": [
+      "careers/config/career-strategy.json",
+      "careers/config/application-policy.json",
+      "careers/config/policy-sources.json",
+      "careers/config/preferences.json"
+    ],
+    "facts_changed": false,
+    "raw_job_records_changed": false,
+    "historical_report_snapshot": "01_行情收集/official-careers/reports/overview.strategy-v2-2026-09-09.json",
+    "next_batch": "01_行情收集/official-careers/matching/batches/bd0bf400-e2cc-4e09-857c-261fcc4035d1.json",
+    "current_assessed_candidates": 0,
+    "pending_new_strategy_candidates": 15,
+    "fixed_base_eligible_candidates": 0,
+    "salary_pending_candidates": 15,
+    "deterministic_tests": {
+      "passed": 117,
+      "failed": 0,
+      "command": "npm run careers:test",
+      "runtime": "Node24 via project launcher"
+    },
+    "post_review_targeted_regression": {
+      "passed": 31,
+      "failed": 0,
+      "scope": "salary-target, overview, matching, config after fixed-base amount-binding correction"
+    },
+    "visual_qa": {
+      "passed": true,
+      "viewports": [
+        "1440x1000",
+        "390x844"
+      ],
+      "evidence": "01_行情收集/official-careers/reports/qa/visual-checks.json"
+    },
+    "skill_validation": "passed",
+    "independent_review": "One P2 amount-binding false positive found and fixed conservatively. Independent Node24 recheck passed: three original counterexamples pending, two simple fixed-base positives eligible; salary-target v2 participates in match-cache hash. Scope limited to this revision, not full project acceptance.",
+    "independent_review_evidence": "careers/docs/private-headhunter-review.md",
+    "not_implemented": [
+      "weekly_policy_pipeline",
+      "dynamic_industry_company_discovery",
+      "selected_application_driver",
+      "application_feedback_pipeline"
+    ]
+  },
+  "verification_after_last_full_suite": {
+    "scope": "matching and overview after explicit rejected-review presentation",
+    "passed": 14,
+    "failed": 0
+  },
+  "stages": [
+    {
+      "id": 1,
+      "name": "One official source to raw JD and minimum report",
+      "status": "complete",
+      "evidence": [
+        "01_行情收集/official-careers/reports/bailian-f9e68c64-1dc9-4b20-9d58-568eeeddb010.json",
+        "01_行情收集/official-careers/reports/bailian-f9e68c64-1dc9-4b20-9d58-568eeeddb010.md"
+      ],
+      "verified_job_count": 4,
+      "hiring_active": "unknown"
+    },
+    {
+      "id": 2,
+      "name": "Three companies and two source types",
+      "status": "real_data_gate_passed_browser_adapter_quarantined",
+      "evidence": [
+        "01_行情收集/official-careers/reports/deepseek-a0149d8d-fc16-49b2-b1b0-1cb599fd4e46.json",
+        "01_行情收集/official-careers/reports/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8.json",
+        "01_行情收集/official-careers/reports/minimax-85d3f00e-3d1a-478b-94e0-6466ad029e5e.json"
+      ],
+      "companies_with_full_jd": 3,
+      "full_jd_count": 48,
+      "source_types": 3,
+      "coverage_note": "Bailian full board; DeepSeek33 full plus1 missing-JD placeholder, partial; MiniMax two complete keyword result sets11 distinct fullJD, partial. Final MiniMax CLI failed on a verified detector false positive; browser adapter is quarantined pending redirect-boundary work, not accepted for live reuse."
+    },
+    {
+      "id": 3,
+      "name": "Evidence-based matching and dual reports",
+      "status": "usable_imported_analysis_semantic_review_partial",
+      "evidence": [
+        "01_行情收集/official-careers/matching/batches/9efac8a7-3403-40e0-bb0d-17c125ed4b31.import.json",
+        "01_行情收集/official-careers/matching/batches/7a888806-4c18-48f5-9e8a-8e3a5ab5bd69.json",
+        "01_行情收集/official-careers/reports/overview.html"
+      ],
+      "candidate_count": 15,
+      "imported_analyses": 15,
+      "cache_hits_on_repeat_prepare": 15,
+      "new_analysis_requests_on_repeat_prepare": 0
+    },
+    {
+      "id": 4,
+      "name": "Independent audit and manual delivery",
+      "status": "prototype_handover_full_acceptance_deferred",
+      "evidence": [
+        "careers/docs/independent-review.md",
+        "careers/docs/known-issues.md",
+        "01_行情收集/official-careers/reports/qa/http-audit.json",
+        "01_行情收集/official-careers/reports/qa/visual-checks.json"
+      ],
+      "latest_main_unit_pass_count": 104,
+      "browser_live_revalidation": "deferred_with_adapter_quarantined",
+      "open_issue_policy": "Do not block usable prototype on isolated defects; never relabel pending or failed verification as passed."
+    }
+  ],
+  "agents": [
+    {
+      "id": "01a08be0-6dd1-70c2-acc8-2185e90ede28",
+      "role": "compact_ui_and_visual_tests",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "dispatch": "complete_and_closed_with_main_final_integration",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a08be2-f427-7713-9fde-883681c35e1b",
+      "role": "candidate_advisor",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "max",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a08be4-9c93-7cf3-87b5-65249d1c2c80",
+      "role": "job_scout",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a08bec-642c-7f62-967e-41a61f4334b6",
+      "role": "compensation_reviewer",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a08bef-d2b5-7243-9c59-13639957e2af",
+      "role": "industry_company_researcher",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a08bf6-3788-78b0-9b15-e94d497afa8e",
+      "role": "independent_commercial_revision_review",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "max",
+      "dispatch": "complete_and_closed_three_findings_resolved",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a08771-ac1c-70b3-b1f4-a62fef78b07b",
+      "role": "funnel_renderer_and_deterministic_tests",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a08776-4ec9-7f30-b97e-85270f6352c5",
+      "role": "three_selected_jobs_new_strategy_matching",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "max",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a08780-3131-73f2-8087-2a30f50dc903",
+      "role": "independent_funnel_review",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "max",
+      "dispatch": "closed_without_final_review_artifact",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a0873e-8f1c-70e2-a2e6-e30d95429017",
+      "role": "fixed_base_salary_rule",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a08749-0b88-7a12-bb86-b6b8fcfcdfc7",
+      "role": "independent_salary_and_authorization_review",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "max",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a08674-7dbb-7f01-ac6a-351a53068335",
+      "role": "core_phase1",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "max",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a08674-7e29-7a33-ae87-04b30ad4f3f5",
+      "role": "company_entry_research",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a08686-05d9-78b1-820f-8ce5b3f42a42",
+      "role": "data_stage2",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "max",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a086a5-5b5b-7522-a6d1-7674145d21ad",
+      "role": "independent_review",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "max",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a086c3-f330-7422-82e3-1364f5f9a66b",
+      "role": "first_batch_matching",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "max",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    },
+    {
+      "id": "01a086d4-7887-76b0-9d4a-f9cf8d6407e5",
+      "role": "browser_fixture_regressions",
+      "requested_model": "gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "dispatch": "complete_and_closed",
+      "actual_token_usage": null
+    }
+  ],
+  "automation_enabled": false,
+  "applications_enabled": false,
+  "usage_note": "Model and effort are the accepted spawn parameters, not independently measured billing. Unknown token use remains null.",
+  "iteration_2026_09_16": {
+    "status": "delivered_scoped_iteration_with_remaining_collection_work",
+    "scope": "Evidence-based capability scoring, keyword axes, company facts, grouped report; existing samples only",
+    "main_model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "model_verification": "Current session turn_context 2026-09-15T17:31:59.779Z",
+    "qa": {
+      "agent_id": "01a0a62f-4134-7c22-baa9-92067d322d8e",
+      "nickname": "Pasteur",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "resumed_model_verified": true,
+      "report": "careers/docs/capability-review-qa-2026-09-16.md",
+      "status": "three_P2_closed_scope_retest_passed_not_all_market_semantic_approval"
+    },
+    "new_network_requests": 0,
+    "company_names": 44,
+    "raw_observations": 163,
+    "scored_source_records": 6,
+    "company_tiers": "deferred until >100 distinct evidence-and-identity reviewed employers; then ask user",
+    "report": "01_行情收集/official-careers/reports/decision-review.html",
+    "rules": "careers/docs/capability-translation.md",
+    "verification": {
+      "full_tests_passed": 263,
+      "csv_rows": 163,
+      "csv_columns": 24,
+      "visual_viewports": [
+        "1440x1000",
+        "390x844"
+      ],
+      "visual_receipt": "01_行情收集/official-careers/reports/qa/decision-review-visual.json",
+      "post_fix_targeted_tests_passed": 31,
+      "test_counts_overlap": true,
+      "source_manifests_checked": 41
+    },
+    "remaining": [
+      "remaining_jobs_need_capability_assessments",
+      "company_labels_and_legal_identity_need_enrichment",
+      "new_query_queue_not_executed",
+      "legacy_coarse_match_scores_not_migrated"
+    ],
+    "external_actions": 0,
+    "scheduler_activated": false,
+    "scored_results": {
+      "tidong": 86,
+      "bytedance_auto": 68.5,
+      "miaowa": 62,
+      "moonshot": 55.5,
+      "minimax": 41
+    },
+    "salary_pool_records": 22,
+    "fixed_base_confirmed": 0,
+    "reusable_command": "npm run careers:decision:report"
+  }
+}

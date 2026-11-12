@@ -1,0 +1,26 @@
+{
+  "data_kind": "synthetic_demo_only",
+  "input_sha256": "e8472ca0a327c3b14b3b70f503febda95867b4c38df0e020d4c964344e80bb10",
+  "rule": "有效余额/正数日均消耗；不超过3天优先核实，缺值或无效值转人工确认",
+  "scope": "合成数据上的规则演示；没有调用AI、连接客户系统或发送消息",
+  "rows": [
+    {
+      "id": "演示A",
+      "days_remaining": 1.5,
+      "status": "优先核实",
+      "action": "确认预算及是否需要沟通"
+    },
+    {
+      "id": "演示B",
+      "days_remaining": 25,
+      "status": "正常观察",
+      "action": "下次例行复查"
+    },
+    {
+      "id": "演示C",
+      "days_remaining": null,
+      "status": "数据待确认",
+      "action": "补齐数据，不推算为零"
+    }
+  ]
+}

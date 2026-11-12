@@ -1,0 +1,153 @@
+{
+  "runId": "2026-06-29T17-26-31-160Z",
+  "createdAt": "2026-06-29T17:26:31.161Z",
+  "args": {
+    "city": "广州",
+    "companyFile": "/Users/MR/Documents/职场/06_自动化采集/config/ai_full_company_targets.txt",
+    "industryFile": "/Users/MR/Documents/职场/06_自动化采集/config/industry_targets.txt",
+    "rolesFile": "/Users/MR/Documents/职场/06_自动化采集/config/sales_management_roles.txt",
+    "batchSize": 4,
+    "maxBatches": 12,
+    "startOffset": 0,
+    "delayMs": 5000,
+    "cooldownMs": 60000,
+    "cardsPerSearch": 8,
+    "detailLimit": 0,
+    "maxJobsPerBatch": 30,
+    "phases": [
+      "company",
+      "industry"
+    ],
+    "dryRun": true
+  },
+  "totals": {
+    "companies": 121,
+    "industries": 59,
+    "roles": 29,
+    "plannedBatches": 12
+  },
+  "tasks": [
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "智谱AI",
+        "月之暗面",
+        "MiniMax",
+        "DeepSeek"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "阶跃星辰",
+        "百川智能",
+        "零一万物",
+        "面壁智能"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "商汤科技",
+        "昆仑万维",
+        "百度智能云",
+        "阿里云"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "腾讯云",
+        "火山引擎",
+        "华为云",
+        "京东云"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "科大讯飞",
+        "金山云",
+        "移动云",
+        "天翼云"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "第四范式",
+        "Zilliz",
+        "明略科技",
+        "神策数据"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "沃丰科技",
+        "Udesk",
+        "智齿科技",
+        "百应科技"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "实在智能",
+        "来也科技",
+        "影刀RPA",
+        "树根互联"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "格创东智",
+        "创新奇智",
+        "黑湖科技",
+        "寒武纪"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "海光信息",
+        "摩尔线程",
+        "壁仞科技",
+        "燧原科技"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "沐曦集成电路",
+        "浪潮信息",
+        "新华三",
+        "联想"
+      ]
+    },
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "中科曙光",
+        "华为昇腾",
+        "海思",
+        "天数智芯"
+      ]
+    }
+  ],
+  "results": [],
+  "status": "planned"
+}

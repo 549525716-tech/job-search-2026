@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-08T17:12:54.271Z",
+  "exports": [
+    {
+      "format": "html",
+      "status": 200,
+      "bytes": 14662362,
+      "sha256": "b184270d1dd48914c15ef8bc484042b7c0cfa6ea661f8af0844c48304836a685"
+    },
+    {
+      "format": "json",
+      "status": 200,
+      "bytes": 72583483,
+      "sha256": "5bb2f25090815c31caa0755bb9dfa353802e063f4953710b057cf5b5df3c77fa"
+    },
+    {
+      "format": "csv",
+      "status": 200,
+      "bytes": 6553832,
+      "sha256": "aff9e86445719e2e3db282c1204f358521b679712d5528d4332f88e8f2d4c505"
+    },
+    {
+      "format": "md",
+      "status": 200,
+      "bytes": 2862027,
+      "sha256": "b390c1cd5c766bae89eac62128b58cfc6c0dd11cdd00b95a8b2b3a89b7e2b537"
+    }
+  ],
+  "local_server": "127.0.0.1:8787",
+  "independent_qa": false
+}

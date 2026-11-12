@@ -1,0 +1,690 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "file": "001-search-volcengine.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:jobs.bytedance.com 火山引擎 销售 商务 渠道 客户成功 岗位"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": null,
+      "timestamp_status": "unverified_placeholder_preserved_in_raw",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "002-search-salesforce.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:careers.salesforce.com/en/jobs China Account Executive sales"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": null,
+      "timestamp_status": "unverified_placeholder_preserved_in_raw",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "003-open-salesforce.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://careers.salesforce.com/en/jobs/jr317761/named-account-executive/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": null,
+      "timestamp_status": "unverified_placeholder_preserved_in_raw",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "004-open-salesforce-ref.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn47search0"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": null,
+      "timestamp_status": "unverified_placeholder_preserved_in_raw",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "005-search-tungee.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "探迹科技 官方 招聘 销售 商务 客户成功 社招"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:46:03.615Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "006-open-tungee-join-us.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn51search0"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:46:03.615Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "007-open-tungee-mobile.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn51search5"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:46:03.615Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "008-search-shence.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "神策数据 加入我们 招聘 销售"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:50:11.776Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "009-open-shence.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn54search0"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:50:11.776Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "010-search-growingio.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "GrowingIO 加入我们 招聘 销售 客户成功 官网"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:51:08.611Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "011-open-growingio.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn56search0"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:51:08.611Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "012-search-fxiaoke.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "纷享销客 招聘 加入我们 销售 官网"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:52:07.592Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "013-open-fxiaoke.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn58search1"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:52:07.592Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "014-search-sensetime.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "商汤 招聘 社会招聘 销售 官网"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:53:57.420Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "015-open-sensetime.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn60search0"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:53:57.420Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "016-search-huaweicloud.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "华为云 招聘 销售 客户经理 解决方案 官网"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:55:29.740Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "017-open-huaweicloud.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn67search9"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:55:29.740Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "018-search-iflytek.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "科大讯飞 招聘 销售 商务 售前 官网 社会招聘"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:56:43.219Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "019-open-iflytek.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn69search0"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:56:43.219Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "020-search-lianyou.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "联友科技 加入我们 招聘 销售 商务 官网"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:58:06.205Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "021-open-lianyou.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn73search4"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:58:06.205Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "022-search-microsoft.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:careers.microsoft.com China sales account executive commercial Microsoft 招聘"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:59:00.492Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "023-open-microsoft.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn76search1"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T16:59:00.492Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "024-search-aws.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:amazon.jobs China sales account manager AWS commercial jobs"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T17:00:00.264Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "025-open-aws.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn78search2"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T17:00:00.264Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "026-search-360.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "360公司 招聘 销售 商务 BD AI 官网 社会招聘"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T17:00:54.224Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "027-open-360.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn80search0"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T17:00:54.224Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "028-search-salesyi.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "销售易 加入我们 招聘 销售 客户成功 官网"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T17:03:24.461Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "029-open-salesyi.json",
+      "execution": "gpt-5.6-luna / medium",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn82search7"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": null,
+      "observed_at": "2026-09-10T17:03:24.461Z",
+      "timestamp_status": "result_persistence_time_only",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "pm-001-tencent.json",
+      "execution": "controller",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:careers.tencent.com 销售 运营 腾讯云 -实习"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": "2026-09-10T16:44:20.121Z",
+      "observed_at": "2026-09-10T16:44:23.398Z",
+      "timestamp_status": "call_start_recorded",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "pm-002-baidu.json",
+      "execution": "controller",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:talent.baidu.com \"销售\" \"智能云\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": "2026-09-10T16:52:54.826Z",
+      "observed_at": "2026-09-10T16:52:56.764Z",
+      "timestamp_status": "call_start_recorded",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "pm-003-aliyun.json",
+      "execution": "controller",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:careers.aliyun.com 销售 社会招聘"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": "2026-09-10T16:53:38.120Z",
+      "observed_at": "2026-09-10T16:53:39.742Z",
+      "timestamp_status": "call_start_recorded",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "pm-004-meituan.json",
+      "execution": "controller",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:zhaopin.meituan.com \"大模型\" \"销售\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": "2026-09-10T16:54:11.064Z",
+      "observed_at": "2026-09-10T16:54:12.755Z",
+      "timestamp_status": "call_start_recorded",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "pm-005-kingdee.json",
+      "execution": "controller",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:kingdee.com \"招聘\" \"销售经理\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": "2026-09-10T16:54:29.100Z",
+      "observed_at": "2026-09-10T16:54:30.938Z",
+      "timestamp_status": "call_start_recorded",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "pm-006-yonyou.json",
+      "execution": "controller",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:yonyou.com \"加入我们\" \"销售\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": "2026-09-10T16:54:47.281Z",
+      "observed_at": "2026-09-10T16:54:49.046Z",
+      "timestamp_status": "call_start_recorded",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "pm-open-baidu-j100045.json",
+      "execution": "controller",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://talent.baidu.com/jobs/detail/SOCIAL/031a8cb6-36b7-42c9-8f9e-bbafd8b71194"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": "2026-09-10T16:56:15.631Z",
+      "observed_at": "2026-09-10T16:56:17.026Z",
+      "timestamp_status": "call_start_recorded",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "pm-open-baidu-j101343.json",
+      "execution": "controller",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://talent.baidu.com/jobs/detail/SOCIAL/91fc2cef-4b6d-4127-b9cb-2e1266b9670f"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": "2026-09-10T16:56:58.368Z",
+      "observed_at": "2026-09-10T16:56:59.830Z",
+      "timestamp_status": "call_start_recorded",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    },
+    {
+      "file": "pm-open-baidu-j98717.json",
+      "execution": "controller",
+      "operation": "open",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://talent.baidu.com/jobs/detail/SOCIAL/108d7efe-441e-48b0-b5e4-a2434a806d3f"
+          }
+        ],
+        "response_length": "long"
+      },
+      "started_at": "2026-09-10T16:57:36.163Z",
+      "observed_at": "2026-09-10T16:57:37.668Z",
+      "timestamp_status": "call_start_recorded",
+      "evidence_kind": "web_tool_result_not_raw_http",
+      "direct_http_audit": false
+    }
+  ],
+  "timing_audit_status": "partial_not_passed_full_call_interval_audit"
+}

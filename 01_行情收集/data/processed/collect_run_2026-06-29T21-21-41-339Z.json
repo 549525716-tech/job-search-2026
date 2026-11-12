@@ -1,0 +1,71 @@
+{
+  "runId": "2026-06-29T21-21-41-339Z",
+  "createdAt": "2026-06-29T21:21:41.381Z",
+  "cdpUrl": "http://127.0.0.1:9333",
+  "args": {
+    "source": "BOSS直聘",
+    "city": "广州",
+    "maxSearches": 1,
+    "maxJobs": 3,
+    "cardsPerSearch": 2,
+    "detailLimit": 0,
+    "delayMs": 600000,
+    "minRequestIntervalMs": 600000,
+    "jitterMs": 180000,
+    "resumeAfterRisk": true,
+    "allowCdpNavigation": false,
+    "dryRun": false,
+    "groups": [
+      "AI销售"
+    ],
+    "manualNavigationOnly": true,
+    "keywords": [],
+    "companies": [],
+    "industries": [],
+    "roles": []
+  },
+  "safetyLimits": {
+    "before": {
+      "maxSearches": 1,
+      "maxJobs": 3,
+      "cardsPerSearch": 2,
+      "detailLimit": 0,
+      "delayMs": 600000,
+      "minRequestIntervalMs": 600000,
+      "jitterMs": 180000,
+      "resumeAfterRisk": true,
+      "allowCdpNavigation": false,
+      "manualNavigationOnly": false
+    },
+    "after": {
+      "maxSearches": 1,
+      "maxJobs": 3,
+      "cardsPerSearch": 2,
+      "detailLimit": 0,
+      "delayMs": 600000,
+      "minRequestIntervalMs": 600000,
+      "jitterMs": 180000,
+      "resumeAfterRisk": true,
+      "allowCdpNavigation": false,
+      "allowCdpNavigationIgnored": false,
+      "manualNavigationOnly": true
+    }
+  },
+  "searchPlan": [
+    {
+      "query": "AI销售",
+      "queryKind": "group",
+      "roleFamily": "销售",
+      "group": "AI销售",
+      "source": "BOSS直聘",
+      "city": "广州",
+      "url": "https://www.zhipin.com/web/geek/jobs?query=AI%E9%94%80%E5%94%AE&city=101280100"
+    }
+  ],
+  "status": "manual_navigation_required",
+  "savedCount": 0,
+  "message": "BOSS手动导航保护：未检测到现有 zhipin.com 标签页，脚本不会自动新建或跳转 BOSS 页面。",
+  "manualUrls": [
+    "https://www.zhipin.com/web/geek/jobs?query=AI%E9%94%80%E5%94%AE&city=101280100"
+  ]
+}

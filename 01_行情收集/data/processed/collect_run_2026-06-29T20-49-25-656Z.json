@@ -1,0 +1,100 @@
+{
+  "runId": "2026-06-29T20-49-25-656Z",
+  "createdAt": "2026-06-29T20:49:25.707Z",
+  "cdpUrl": "http://127.0.0.1:9333",
+  "args": {
+    "source": "BOSS直聘",
+    "city": "广州",
+    "maxSearches": 1,
+    "maxJobs": 3,
+    "cardsPerSearch": 2,
+    "detailLimit": 0,
+    "delayMs": 600000,
+    "minRequestIntervalMs": 600000,
+    "jitterMs": 180000,
+    "resumeAfterRisk": true,
+    "allowCdpNavigation": false,
+    "dryRun": false,
+    "companies": [
+      "智谱AI"
+    ],
+    "roles": [
+      "AI销售"
+    ],
+    "manualNavigationOnly": true,
+    "keywords": [],
+    "industries": []
+  },
+  "safetyLimits": {
+    "before": {
+      "maxSearches": 1,
+      "maxJobs": 3,
+      "cardsPerSearch": 2,
+      "detailLimit": 0,
+      "delayMs": 600000,
+      "minRequestIntervalMs": 600000,
+      "jitterMs": 180000,
+      "resumeAfterRisk": true,
+      "allowCdpNavigation": false,
+      "manualNavigationOnly": false
+    },
+    "after": {
+      "maxSearches": 1,
+      "maxJobs": 3,
+      "cardsPerSearch": 2,
+      "detailLimit": 0,
+      "delayMs": 600000,
+      "minRequestIntervalMs": 600000,
+      "jitterMs": 180000,
+      "resumeAfterRisk": true,
+      "allowCdpNavigation": false,
+      "manualNavigationOnly": true
+    }
+  },
+  "searchPlan": [
+    {
+      "query": "智谱AI AI销售",
+      "queryKind": "company",
+      "company": "智谱AI",
+      "role": "AI销售",
+      "roleFamily": "销售/商务",
+      "source": "BOSS直聘",
+      "city": "广州",
+      "url": "https://www.zhipin.com/web/geek/jobs?query=%E6%99%BA%E8%B0%B1AI%20AI%E9%94%80%E5%94%AE&city=101280100"
+    }
+  ],
+  "status": "manual_navigation_required",
+  "savedCount": 0,
+  "pageStats": [
+    {
+      "query": "智谱AI AI销售",
+      "url": "https://www.zhipin.com/guangzhou/?seoRefer=index",
+      "title": "BOSS直聘-找工作BOSS直聘直接谈！招聘求职找工作！",
+      "cards": 0,
+      "fallbackTextLength": 0,
+      "manualNavigationRequired": true,
+      "manualUrl": "https://www.zhipin.com/web/geek/jobs?query=%E6%99%BA%E8%B0%B1AI%20AI%E9%94%80%E5%94%AE&city=101280100",
+      "error": "BOSS手动导航保护：本次不会通过协议自动打开、刷新或跳转 BOSS 页面。\n当前页面：https://www.zhipin.com/guangzhou/?seoRefer=index\n请先在登录态 Chrome 地址栏手动打开：https://www.zhipin.com/web/geek/jobs?query=%E6%99%BA%E8%B0%B1AI%20AI%E9%94%80%E5%94%AE&city=101280100\n页面稳定后再运行同一条 collect:jobs 命令。"
+    }
+  ],
+  "blocked": [
+    {
+      "planItem": {
+        "query": "智谱AI AI销售",
+        "queryKind": "company",
+        "company": "智谱AI",
+        "role": "AI销售",
+        "roleFamily": "销售/商务",
+        "source": "BOSS直聘",
+        "city": "广州",
+        "url": "https://www.zhipin.com/web/geek/jobs?query=%E6%99%BA%E8%B0%B1AI%20AI%E9%94%80%E5%94%AE&city=101280100"
+      },
+      "pageStatus": {
+        "manualNavigationRequired": true,
+        "url": "https://www.zhipin.com/guangzhou/?seoRefer=index",
+        "manualUrl": "https://www.zhipin.com/web/geek/jobs?query=%E6%99%BA%E8%B0%B1AI%20AI%E9%94%80%E5%94%AE&city=101280100"
+      }
+    }
+  ],
+  "savedIds": []
+}

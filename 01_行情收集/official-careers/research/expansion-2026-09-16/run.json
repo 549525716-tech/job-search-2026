@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "run_id": "expansion-2026-09-16",
+  "started_at": "2026-09-16T14:52:08.384Z",
+  "finished_at": "2026-09-16T14:55:34.762Z",
+  "timestamp_semantics": "result_recorded_at_not_actual_start_end",
+  "session_status": "closed; web-session process exited after close command",
+  "scope": "一波新增AI企业服务/云/SaaS/营销科技销售、商业运营、生态BD方向岗位；公开官网/官方ATS优先；不解除BOSS/猎聘halt；最多16次主动搜索或打开调用。",
+  "routes": {
+    "A": "本批主要沿关键词命中的公司岗位直链读取；未完成逐家公司官网入口、列表分页到详情的完整路线A。品牌归属链仍须补核。",
+    "B": "跨市场关键词发现：AI enterprise sales jobs China official careers cloud SaaS；site:careers.microsoft.com Partner Development Manager China；site:job-boards.greenhouse.io China Account Executive SaaS AI"
+  },
+  "queries": [
+    {
+      "id": "q01",
+      "route": "B",
+      "query": "AI enterprise sales jobs China official careers cloud SaaS",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/q01.json",
+      "status": "executed",
+      "note": "搜索结果含Amazon、Google、Microsoft、Figma、Cloudflare等线索；索引仅作lead。实际web工具调用发生2次，均未再追加。"
+    },
+    {
+      "id": "q05",
+      "route": "B",
+      "query": "site:careers.microsoft.com \"Partner Development Manager\" China Microsoft Careers",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/q05.json",
+      "status": "executed"
+    },
+    {
+      "id": "q06",
+      "route": "B",
+      "query": "site:job-boards.greenhouse.io China \"Account Executive\" SaaS AI",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/q06.json",
+      "status": "executed",
+      "note": "发现Adjust、Figma、AI Squared、Cloudflare及其他跨市场线索；未将索引摘要直接写成完整JD。"
+    }
+  ],
+  "opened_urls": [
+    {
+      "url": "https://amazon.jobs/en/jobs/10525885/ai-sales-specialist-sso-genai-team",
+      "status": "complete",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/p02.json"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/135702720513221318-head-of-sales-product-sales-google-cloud-english-mandarin?employment_type=FULL_TIME&q=china",
+      "status": "job_not_found_search_page",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/p03.json"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/altium/jobs/4055503006",
+      "status": "official_board_no_current_openings",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/p04.json"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/adjustjobs/jobs/4707988006",
+      "status": "complete",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/p07.json"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/cloudflare/jobs/7405387",
+      "status": "redirected_no_jd",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/p08.json"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/figma/jobs/6161021004",
+      "status": "complete",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/p09.json"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/aisquared/jobs/4621297006",
+      "status": "complete",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/p10.json"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/corestory/jobs/4985920007",
+      "status": "technical_timeout",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/p11.json"
+    },
+    {
+      "url": "https://careers.microsoft.com/v2/global/en/locations/shenzhen.html",
+      "status": "embedded_role_readable_detail_url_missing",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/q05.json"
+    }
+  ],
+  "request_count": {
+    "web_tool_actual_calls": 12,
+    "unique_queries": 3,
+    "page_open_calls": 8,
+    "budget_max": 16,
+    "budget_remaining_at_most": 4,
+    "ledger_finish_count": 11,
+    "unledgered_calls": [
+      {
+        "call": "q01 duplicate web__run",
+        "reason": "实际工具历史确认发生，但没有独立 capture 文件或 begin/finish 回执；不补造原始结果。"
+      }
+    ],
+    "admission_timing_status": "not_fully_verified",
+    "admission_timing_note": "begin 后使用 write_stdin yield 1000ms 即调用 web__run，未在每次调用前确认 status admitted；完整限速验收未通过。"
+  },
+  "counts": {
+    "new": 6,
+    "refreshed": 0,
+    "restricted": 0,
+    "pending_or_incomplete": 2,
+    "complete_jd": 4,
+    "index_only_leads_not_in_jobs": 0,
+    "not_jobs_or_failed": 3
+  },
+  "execution": {
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "medium",
+    "agent_id": "01a0aab3-77d6-7bd2-a7e3-e53b52ccc8fb",
+    "dispatch_model": "gpt-5.6-luna",
+    "dispatch_reasoning_effort": "medium",
+    "dispatch_agent_id": "01a0aab3-77d6-7bd2-a7e3-e53b52ccc8fb",
+    "turn_context": "2026-09-16T14:51:26.715Z",
+    "actual_runtime_model": "gpt-5.6-luna",
+    "actual_runtime_reasoning_effort": "medium",
+    "role": "唯一联网执行者；主线程不联网；no additional agents"
+  },
+  "queued_urls": [
+    {
+      "url": "https://job-boards.greenhouse.io/corestory/jobs/4985920007",
+      "reason": "official ATS timeout; one attempt only"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/cloudflare/jobs/7405387",
+      "reason": "redirected to careers home; detail recheck required"
+    },
+    {
+      "url": "https://careers.microsoft.com/v2/global/en/locations/shenzhen.html",
+      "reason": "embedded Partner Development Manager card readable but stable detail URL/complete card fields not exposed"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/135702720513221318-head-of-sales-product-sales-google-cloud-english-mandarin?employment_type=FULL_TIME&q=china",
+      "reason": "target detail reported job not found; result page exposes other Google China sales roles needing separate detail URLs"
+    }
+  ],
+  "company_facts": [
+    {
+      "company": "Amazon Web Services / Amazon Information Service (Beijing) Co., Ltd. (Shanghai Branch)",
+      "quote": "AWS Global Sales drives adoption of the AWS cloud worldwide, enabling customers of all sizes to innovate and expand in the cloud.",
+      "source_url": "https://amazon.jobs/en/jobs/10525885/ai-sales-specialist-sso-genai-team",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/p02.json"
+    },
+    {
+      "company": "Adjust",
+      "quote": "Adjust works with companies at every stage of the app marketing journey, from fast-growing digital brands to brick-and-mortar companies launching their first apps.",
+      "source_url": "https://job-boards.greenhouse.io/adjustjobs/jobs/4707988006",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/p07.json"
+    },
+    {
+      "company": "Figma",
+      "quote": "Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI.",
+      "source_url": "https://job-boards.greenhouse.io/figma/jobs/6161021004",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/p09.json"
+    },
+    {
+      "company": "AI Squared",
+      "quote": "In this role, you will help large, complex organizations adopt and scale our cutting-edge data, AI, and analytics platform to drive transformation at scale.",
+      "source_url": "https://job-boards.greenhouse.io/aisquared/jobs/4621297006",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/p10.json"
+    },
+    {
+      "company": "Microsoft",
+      "quote": "With a vision to \"Build and sell Microsoft AI, Cloud applications, services, and devices with partners, empowering people and organizations to achieve more,\" SME&C Channel Partner Sales (CPS) is responsible for driving revenue outcomes with partners through innovative solutions–at scale.",
+      "source_url": "https://careers.microsoft.com/v2/global/en/locations/shenzhen.html",
+      "evidence_file": "01_行情收集/official-careers/research/expansion-2026-09-16/raw/q05.json"
+    }
+  ],
+  "extraction": {
+    "status": "offline_structured_extraction_complete",
+    "jobs_file": "01_行情收集/official-careers/research/expansion-2026-09-16/jobs.json",
+    "complete_jd_count": 4,
+    "incomplete_records_retained": 2,
+    "salary_policy": "salary_raw empty where not disclosed; no fixed-base inference; range eligibility not asserted",
+    "source_text_policy": "full web tool results retained in raw captures; search-index summaries not treated as complete JD"
+  }
+}

@@ -1,0 +1,778 @@
+{
+  "schema_version": 2,
+  "mode": "deterministic_offline",
+  "batch": "market-wide-2026-09-22",
+  "network_requests": 0,
+  "browser_operations": 0,
+  "external_actions": 0,
+  "model_calls_by_script": 0,
+  "requested_executor": {
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "medium"
+  },
+  "actual_execution": {
+    "original_code_author": {
+      "agent_id": "01a0c4f7-d532-7643-a09a-b5530f3ca759",
+      "dispatch_model": "gpt-5.6-luna",
+      "dispatch_reasoning_effort": "medium",
+      "basis": "Parent session accepted model-specific subagent dispatch; not independently verified billing telemetry."
+    },
+    "follow_up_repair_author": {
+      "actor": "parent_codex_session",
+      "model": "not_independently_verified",
+      "scope": "Source education conflicts and execution attribution metadata."
+    },
+    "runtime": "Node.js deterministic local extraction",
+    "model_calls": 0,
+    "subagents_dispatched_by_script": 0,
+    "billing_model_verification": "unknown",
+    "independent_review": "See data-qa.json for separate reviewer findings and reviewed artifact hashes."
+  },
+  "input_snapshot": [
+    "d01.json",
+    "d01tail.json",
+    "d02.json",
+    "d02tail.json",
+    "d03.json",
+    "d03tail.json",
+    "d04.json",
+    "d04tail.json",
+    "d05.json",
+    "d05tail.json",
+    "d06.json",
+    "d07.json",
+    "d08.json",
+    "d09.json",
+    "o01.json",
+    "o01b.json",
+    "o02.json",
+    "o03.json",
+    "o04.json",
+    "o05.json",
+    "o06.json",
+    "o07.json",
+    "o08.json",
+    "o10.json"
+  ],
+  "input_manifest_sha256": "cfa4af4b9e5a0d4558751b365e7c240b0b762d7ab8fadd0af34b6c6c58b89a2a",
+  "helper_source": "01_行情收集/official-careers/research/market-2026-09-21/build.mjs#captureLines,captureRange",
+  "reviewed_templates": [
+    "www.qingcloud.com/jobs[/role]",
+    "www.digitforce.com/jobs + /jobinfo/id",
+    "www.noumena.com.cn/career/",
+    "www.hegongsoft.com/about/joinus",
+    "www.yonchang.cn/Contact/hr",
+    "maker.haier.net/client/job/detail/",
+    "www.zhaopin.com/jobdetail/ primary + separate similar cards",
+    "in-equal.com/careers"
+  ],
+  "files": [
+    {
+      "capture_id": "d01",
+      "source_url": "https://www.qingcloud.com/jobs/%E6%99%BA%E7%AE%97%E5%94%AE%E5%89%8D%E6%8A%80%E6%9C%AF%E9%A1%BE%E9%97%AE/",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn331view0",
+            "id": 152
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d01.json",
+      "evidence_sha256": "72c08fe958c08a05115ee8b8548cf24fd4b8387ed8a473749bed8056dabbcca5",
+      "result_sha256": "7e35d453e4d8b8cb7afd3714bf31dac13c83993f6c47ebbad5f22f7418c3faac",
+      "observed_at": "2026-09-21T17:59:55.121Z",
+      "available_line_count": 694,
+      "reported_total_lines": 838,
+      "status": "detail_body_not_in_capture",
+      "reason": "Navigation alone is not a job; a numbered body/tail capture is required.",
+      "extracted_jobs": 0,
+      "complete_jds": 0,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d01tail",
+      "source_url": "https://www.qingcloud.com/jobs/%E6%99%BA%E7%AE%97%E5%94%AE%E5%89%8D%E6%8A%80%E6%9C%AF%E9%A1%BE%E9%97%AE/",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs/%E6%99%BA%E7%AE%97%E5%94%AE%E5%89%8D%E6%8A%80%E6%9C%AF%E9%A1%BE%E9%97%AE/",
+            "lineno": 694
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d01tail.json",
+      "evidence_sha256": "f435a50c9a8496d1022bb93c7a9897735ea975fb099d499152ebdd290d7344ff",
+      "result_sha256": "082f96a725bdacbd5d48b17120d3f17cad6d02febb114f1d5d82e95aac2380c7",
+      "observed_at": "2026-09-21T18:00:19.082Z",
+      "available_line_count": 679,
+      "reported_total_lines": 838,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "reason": null,
+      "extracted_jobs": 1,
+      "complete_jds": 1,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d02",
+      "source_url": "https://www.qingcloud.com/jobs/%E6%B8%A0%E9%81%93%E7%BB%8F%E7%90%86/",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn331view0",
+            "id": 154
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d02.json",
+      "evidence_sha256": "1e577edeb9e8c4c3ab6498a822fef922caaaf93766437a37d4771628843d6114",
+      "result_sha256": "153fdb6db6cdddac98c8cd7f3eb740c4af8827c4a26572da6904d7a058df9cb8",
+      "observed_at": "2026-09-21T18:00:43.080Z",
+      "available_line_count": 695,
+      "reported_total_lines": 837,
+      "status": "detail_body_not_in_capture",
+      "reason": "Navigation alone is not a job; a numbered body/tail capture is required.",
+      "extracted_jobs": 0,
+      "complete_jds": 0,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d02tail",
+      "source_url": "https://www.qingcloud.com/jobs/%E6%B8%A0%E9%81%93%E7%BB%8F%E7%90%86/",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs/%E6%B8%A0%E9%81%93%E7%BB%8F%E7%90%86/",
+            "lineno": 694
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d02tail.json",
+      "evidence_sha256": "1d8359856b6ce2685f0bcb8ee021980a398a80d3fa458406310cb51ea5d70294",
+      "result_sha256": "0da2e06a4f1a55b1a2f5d0ec9bc07a210f14fcd539dee3559d9dce2509867776",
+      "observed_at": "2026-09-21T18:01:07.143Z",
+      "available_line_count": 691,
+      "reported_total_lines": 837,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "reason": null,
+      "extracted_jobs": 1,
+      "complete_jds": 1,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d03",
+      "source_url": "https://www.qingcloud.com/jobs/ai%E4%BA%A7%E5%93%81%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5/",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn331view0",
+            "id": 158
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d03.json",
+      "evidence_sha256": "d19f8a70b323399254f0fb174ac5ff6da796774a3d7ec00664efce50facffcd7",
+      "result_sha256": "469b3b8a69fc20608c9b7e744b9b12d31fc0ee67fa4269158303e66df285cba9",
+      "observed_at": "2026-09-21T18:01:31.686Z",
+      "available_line_count": 695,
+      "reported_total_lines": 838,
+      "status": "detail_body_not_in_capture",
+      "reason": "Navigation alone is not a job; a numbered body/tail capture is required.",
+      "extracted_jobs": 0,
+      "complete_jds": 0,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d03tail",
+      "source_url": "https://www.qingcloud.com/jobs/ai%E4%BA%A7%E5%93%81%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5/",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs/ai%E4%BA%A7%E5%93%81%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5/",
+            "lineno": 694
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d03tail.json",
+      "evidence_sha256": "b17df17ed1e3bfe4f860c2d77733518fcddfecc84b1a00d6067afaf56e7d37b4",
+      "result_sha256": "a4d2982e7516a0920d2f2dff2f15b53d5b5c744ee79804f7027b0e427e205c9e",
+      "observed_at": "2026-09-21T18:01:55.865Z",
+      "available_line_count": 688,
+      "reported_total_lines": 838,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "reason": null,
+      "extracted_jobs": 1,
+      "complete_jds": 1,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d04",
+      "source_url": "https://www.qingcloud.com/jobs/%E5%AE%A2%E6%88%B7%E7%BB%8F%E7%90%86/",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn331view0",
+            "id": 159
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d04.json",
+      "evidence_sha256": "643a95ee3166300f28eb22f36ead27f78770c5bd98f343167c6bb8b5b3f20123",
+      "result_sha256": "895a0f74f0a1dca66494f4373d692610deaad0dac351fc0b0fa5d7f8e1d45249",
+      "observed_at": "2026-09-21T18:02:19.921Z",
+      "available_line_count": 695,
+      "reported_total_lines": 837,
+      "status": "detail_body_not_in_capture",
+      "reason": "Navigation alone is not a job; a numbered body/tail capture is required.",
+      "extracted_jobs": 0,
+      "complete_jds": 0,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d04tail",
+      "source_url": "https://www.qingcloud.com/jobs/%E5%AE%A2%E6%88%B7%E7%BB%8F%E7%90%86/",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs/%E5%AE%A2%E6%88%B7%E7%BB%8F%E7%90%86/",
+            "lineno": 694
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d04tail.json",
+      "evidence_sha256": "d5178c3a57bd5d88b6bde4c328de97ae5b09a1b3530fb13c3eff077cf5eb4e01",
+      "result_sha256": "656f8dd4f7b4eaec28ff2c58770309d1e4a19795bbc78f3ffae5d1317dfd8e3f",
+      "observed_at": "2026-09-21T18:02:43.801Z",
+      "available_line_count": 684,
+      "reported_total_lines": 837,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "reason": null,
+      "extracted_jobs": 1,
+      "complete_jds": 1,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d05",
+      "source_url": "https://www.qingcloud.com/jobs/%E9%87%91%E8%9E%8D%E4%BA%91%E8%AE%A1%E7%AE%97%E9%94%80%E5%94%AE/",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn331view0",
+            "id": 160
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d05.json",
+      "evidence_sha256": "01bdbd0c39cb525ecf02f869feb38cdf7571eea4e44a366ef264878a2ef8940e",
+      "result_sha256": "9144dc97012eea92aef6cc516fb6e44a8ff16a3027ae4110ecbc3039c9250466",
+      "observed_at": "2026-09-21T18:03:07.890Z",
+      "available_line_count": 695,
+      "reported_total_lines": 840,
+      "status": "detail_body_not_in_capture",
+      "reason": "Navigation alone is not a job; a numbered body/tail capture is required.",
+      "extracted_jobs": 0,
+      "complete_jds": 0,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d05tail",
+      "source_url": "https://www.qingcloud.com/jobs/%E9%87%91%E8%9E%8D%E4%BA%91%E8%AE%A1%E7%AE%97%E9%94%80%E5%94%AE/",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs/%E9%87%91%E8%9E%8D%E4%BA%91%E8%AE%A1%E7%AE%97%E9%94%80%E5%94%AE/",
+            "lineno": 694
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d05tail.json",
+      "evidence_sha256": "be2d3d81a874dadd852678174b1c35222f1d56e2790117eed6c4c95cbde5a4a6",
+      "result_sha256": "4945217a4ecd68e40ff649c8aa13f5a29675ec2c5fade6fa480284bad175d278",
+      "observed_at": "2026-09-21T18:03:31.903Z",
+      "available_line_count": 692,
+      "reported_total_lines": 840,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "reason": null,
+      "extracted_jobs": 1,
+      "complete_jds": 1,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d06",
+      "source_url": null,
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn331view0",
+            "id": 161
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d06.json",
+      "evidence_sha256": "2517302eff22cc0ac2dc99ee9de30476344e627d039a8a5e71d607398db6c78b",
+      "result_sha256": "447ba234d4111e48c342b8aed3d3b1a154f52406a18f679545ca8bc46862c24e",
+      "observed_at": "2026-09-21T18:03:55.700Z",
+      "available_line_count": 1,
+      "reported_total_lines": 1,
+      "status": "fetch_timeout_no_retry",
+      "reason": null,
+      "extracted_jobs": 0,
+      "complete_jds": 0,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d07",
+      "source_url": "https://www.digitforce.com/jobinfo/10",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn332view0",
+            "id": 27
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "数势科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d07.json",
+      "evidence_sha256": "be2cf69be97fbe8c64bff4a0a26825791d35ed2f2cc7ce0e7ba53264eb76f872",
+      "result_sha256": "d42448f0201e9001e01971b3a9cf44e6e9bae955e74422825b9f1e89413a64a8",
+      "observed_at": "2026-09-21T18:04:19.538Z",
+      "available_line_count": 134,
+      "reported_total_lines": 134,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "reason": null,
+      "extracted_jobs": 1,
+      "complete_jds": 1,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d08",
+      "source_url": "https://www.digitforce.com/jobinfo/11",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn332view0",
+            "id": 28
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "数势科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d08.json",
+      "evidence_sha256": "10dfdc77a3b2a7fc7da12706be8f134033fb9a0e808f8f6b0a2089ecf5a32999",
+      "result_sha256": "0a078c9d69a429264e0b0f98def06e4c09cdd8f82b09ea95f1c8440fb0d6b55f",
+      "observed_at": "2026-09-21T18:04:44.518Z",
+      "available_line_count": 137,
+      "reported_total_lines": 137,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "reason": null,
+      "extracted_jobs": 1,
+      "complete_jds": 1,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "d09",
+      "source_url": null,
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn332view0",
+            "id": 36
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "数势科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d09.json",
+      "evidence_sha256": "40837235525436bb84cd1f0ec3f403450d8b42182cf3250ed7081569f821a493",
+      "result_sha256": "d65637ed56db16ac1f28465f560665d62b658f2273b4f9906f1db2befaefaac5",
+      "observed_at": "2026-09-21T18:05:10.422Z",
+      "available_line_count": 1,
+      "reported_total_lines": 1,
+      "status": "fetch_timeout_no_retry",
+      "reason": null,
+      "extracted_jobs": 0,
+      "complete_jds": 0,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "o01",
+      "source_url": "https://www.qingcloud.com/jobs",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs"
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o01.json",
+      "evidence_sha256": "54256c662f09b73810b8902b1e2cd1517a919dd316c57078562388f3638240dd",
+      "result_sha256": "a51acf5674fe77b83cfdb3a2ca6ca8f56debaf0bbeed6e43bb05a9112424a913",
+      "observed_at": "2026-09-21T17:53:44.795Z",
+      "available_line_count": 696,
+      "reported_total_lines": 896,
+      "status": "readable_fragment_without_visible_job_cards",
+      "reason": null,
+      "extracted_jobs": 0,
+      "complete_jds": 0,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "o01b",
+      "source_url": "https://www.qingcloud.com/jobs",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs",
+            "lineno": 696
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "青云科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o01b.json",
+      "evidence_sha256": "69574b89064ee7b90c1dace3d0a5327fe02d8414d6954bded3ecd9f2dd1d0cfb",
+      "result_sha256": "0f0d967d20d4cc4d0f2fb1246d3ea66ea4ffd28397f5939dd83d92a64820ac10",
+      "observed_at": "2026-09-21T17:54:22.877Z",
+      "available_line_count": 737,
+      "reported_total_lines": 896,
+      "status": "title_list_partial",
+      "reason": null,
+      "extracted_jobs": 11,
+      "complete_jds": 0,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "o02",
+      "source_url": "https://www.digitforce.com/jobs",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.digitforce.com/jobs"
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "数势科技",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o02.json",
+      "evidence_sha256": "77af689c7148ea9275335c49eb7208bea855b6cd20d2151a26b99331b06d9db1",
+      "result_sha256": "20478dd9bea4819bb20852664466e03d4d19bac03fd241cb2ab77220e05fd135",
+      "observed_at": "2026-09-21T17:54:56.701Z",
+      "available_line_count": 221,
+      "reported_total_lines": 221,
+      "status": "summary_list_partial",
+      "reason": null,
+      "extracted_jobs": 13,
+      "complete_jds": 0,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "o03",
+      "source_url": "https://www.noumena.com.cn/career/",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.noumena.com.cn/career/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "物自体（上海）科技有限公司",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o03.json",
+      "evidence_sha256": "facd11679a3bff1e24e3c1a6df88594c1ab3ecd96bdfb1c6f43bd4a42f2f8c9a",
+      "result_sha256": "d5e6abb08d74d717903fbbb4fdc9f87c029e463a31d0ff992731d1308b9cda6d",
+      "observed_at": "2026-09-21T17:55:30.727Z",
+      "available_line_count": 235,
+      "reported_total_lines": 235,
+      "status": "inline_roles_extracted_not_site_complete",
+      "reason": null,
+      "extracted_jobs": 9,
+      "complete_jds": 9,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "o04",
+      "source_url": "https://www.hegongsoft.com/about/joinus",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.hegongsoft.com/about/joinus"
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "合共软件",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+      "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+      "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+      "observed_at": "2026-09-21T17:56:04.651Z",
+      "available_line_count": 597,
+      "reported_total_lines": 597,
+      "status": "inline_roles_extracted_not_site_complete",
+      "reason": null,
+      "extracted_jobs": 12,
+      "complete_jds": 12,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "o05",
+      "source_url": "https://www.yonchang.cn/Contact/hr",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.yonchang.cn/Contact/hr"
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "上海用畅信息科技有限公司",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o05.json",
+      "evidence_sha256": "d8bebde6b5a5c310c25d8e57724832943b9c596fd2cb1fc62e17cf64e4fbd3d5",
+      "result_sha256": "3a33e7cf0e45ddcda0b7f6ce4feee16c2d8cb648db18090b06db1774f0db7c4a",
+      "observed_at": "2026-09-21T17:56:38.819Z",
+      "available_line_count": 295,
+      "reported_total_lines": 295,
+      "status": "inline_roles_extracted_not_site_complete",
+      "reason": null,
+      "extracted_jobs": 10,
+      "complete_jds": 10,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "o06",
+      "source_url": "https://maker.haier.net/client/job/detail/id/10230413/recommend_record/1",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://maker.haier.net/client/job/detail/id/10230413/recommend_record/1"
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "卡奥斯",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o06.json",
+      "evidence_sha256": "10565ea29255620cd998974d8cb4157792febbbb8677806688575b7bf44e870f",
+      "result_sha256": "ee0bd23f12ada0126b35a546afb3598230f7cd958208fcf641be8353184b4f4c",
+      "observed_at": "2026-09-21T17:57:13.943Z",
+      "available_line_count": 75,
+      "reported_total_lines": 75,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "reason": null,
+      "extracted_jobs": 1,
+      "complete_jds": 1,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "o07",
+      "source_url": "https://www.zhaopin.com/jobdetail/CC679989880J40893200705.htm",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhaopin.com/jobdetail/CC679989880J40893200705.htm"
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "东风奕境",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o07.json",
+      "evidence_sha256": "dddc2b0dc3fb53a748beaa00e9e83d849c3ce90cb12a81908632f3625f6013ee",
+      "result_sha256": "0aa629f7e22886d85ba98bd4831dc2e19413d5c9fcac59b7236154a3b54f5335",
+      "observed_at": "2026-09-21T17:57:48.762Z",
+      "available_line_count": 326,
+      "reported_total_lines": 326,
+      "status": "primary_detail_and_separate_similar_list_only",
+      "reason": null,
+      "extracted_jobs": 37,
+      "complete_jds": 1,
+      "source_scope_complete": false,
+      "primary_block_line_range": [
+        16,
+        116
+      ],
+      "similar_block_line_range": [
+        117,
+        257
+      ]
+    },
+    {
+      "capture_id": "o08",
+      "source_url": null,
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.zhaopin.com/jobdetail/CCL1352323920J40859332303.htm"
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "阿加犀",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o08.json",
+      "evidence_sha256": "b42e5ef6f6022209eb62655dcf4879a5968b3b0eb6a508ce8b123df651ad02eb",
+      "result_sha256": "c6e14054cbc592e0327d25eb4f33d9546d3aaa3aeae8661c5d757a58e62bea54",
+      "observed_at": "2026-09-21T17:58:24.718Z",
+      "available_line_count": 1,
+      "reported_total_lines": 1,
+      "status": "fetch_timeout_no_retry",
+      "reason": null,
+      "extracted_jobs": 0,
+      "complete_jds": 0,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    },
+    {
+      "capture_id": "o10",
+      "source_url": "https://in-equal.com/careers",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://in-equal.com/careers"
+          }
+        ],
+        "response_length": "long"
+      },
+      "query_target_company": "不等式",
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o10.json",
+      "evidence_sha256": "59d9c1633862e74fedbfe9f527aa3ae9c25dc9b47ff267565ba371f0f8ecde64",
+      "result_sha256": "5cea480e0f361990e014db102a8d3cd0182edffcd1c86040824d9f38be43ead3",
+      "observed_at": "2026-09-21T17:58:58.522Z",
+      "available_line_count": 45,
+      "reported_total_lines": 45,
+      "status": "title_list_partial",
+      "reason": null,
+      "extracted_jobs": 2,
+      "complete_jds": 0,
+      "source_scope_complete": false,
+      "primary_block_line_range": null,
+      "similar_block_line_range": null
+    }
+  ],
+  "missing_planned_captures": [
+    "o09"
+  ],
+  "detail_capture_status": "see_files",
+  "counts": {
+    "captures": 24,
+    "job_observations": 102,
+    "jobs": 95,
+    "main_jobs": 59,
+    "similar_list_only_jobs": 36,
+    "linked_duplicate_observations": 7,
+    "complete_jds": 40,
+    "incomplete_jobs": 55,
+    "company_display_names": 44,
+    "unknown_company_jobs": 0,
+    "pending_planned_captures": 1,
+    "detail_backlog_jobs": 55,
+    "main_detail_backlog_jobs": 19,
+    "similar_detail_backlog_jobs": 36,
+    "pending_format_captures": 0,
+    "timeout_captures": 3
+  },
+  "validation": {
+    "field_evidence_checks": 729,
+    "nested_quote_sha_checks": 858,
+    "all_passed": true
+  },
+  "market_scan_complete": false,
+  "entity_deduplication_claim": false,
+  "unknown_field_counts": {
+    "company": 0,
+    "employer_legal_entity": 95,
+    "job_url": 86,
+    "location": 46,
+    "salary_raw": 52,
+    "salary_currency": 95,
+    "salary_period": 95,
+    "salary_fixed_base": 95,
+    "published_at": 83
+  },
+  "evidence_policy": "Every populated field binds to numbered source text, the response URL header or observed_at metadata. Query target never proves employer. Brand/footer claims are not legal verification.",
+  "completeness_policy": "Visible, bounded responsibilities AND requirements; list summaries never complete. Unknown/new templates stay pending; no source-wide completeness inferred.",
+  "salary_policy": "Salary strings retained literally, including annual pay, K, yuan/wan and negotiable. Currency/period and monthly conversion remain unknown unless explicitly parsed; no fixed-base inference.",
+  "retention_policy": "All visible roles in reviewed templates retained, including engineering, product, internships and customer success. No matching or ranking; per-capture observations retained.",
+  "job_count_policy": "jobs.json is a canonical-job array with all source observations embedded. Main count excludes similar-list-only leads; 1 list plus 1 matched detail is 1 job. No cross-employer/title heuristic merge.",
+  "self_test": {
+    "deterministic_rebuild": true,
+    "query_target_never_employer": true,
+    "title_list_not_jd": true,
+    "detail_link_ids_bound": true,
+    "noncommercial_retained": true,
+    "truncated_sections_incomplete": true,
+    "missing_company_unknown": true,
+    "unknown_templates_pending": true,
+    "all_field_sha_quotes_checked": true,
+    "similar_cards_isolated": true,
+    "navigation_not_jd": true,
+    "header_detail_url_preserved": true,
+    "list_detail_native_link_dedup": true,
+    "unknown_salary_not_base": true,
+    "timeout_not_empty_or_retried": true
+  }
+}

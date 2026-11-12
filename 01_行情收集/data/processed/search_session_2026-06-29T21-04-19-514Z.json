@@ -1,0 +1,21 @@
+{
+  "createdAt": "2026-06-29T21:04:19.515Z",
+  "dryRun": false,
+  "pausedByRiskRecovery": false,
+  "manualOnlyBossOpen": true,
+  "profileDir": "/Users/MR/Documents/职场/.career-browser-profile",
+  "requestedLimit": 1,
+  "effectiveLimit": 1,
+  "count": 1,
+  "urls": [
+    {
+      "source": "BOSS直聘",
+      "group": "AI销售",
+      "roleFamily": "销售",
+      "keyword": "AI销售",
+      "city": "广州",
+      "cityCode": "101280100",
+      "url": "https://www.zhipin.com/web/geek/jobs?query=AI%E9%94%80%E5%94%AE&city=101280100"
+    }
+  ]
+}

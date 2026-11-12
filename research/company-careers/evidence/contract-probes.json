@@ -1,0 +1,54 @@
+{
+  "audited_at": "2026-09-08T15:56:41.592Z",
+  "scope": "Independent synthetic offline probes, not the complete upstream Bun test suite or live site validation",
+  "probes": [
+    {
+      "name": "ats-jobs maps Greenhouse updated_at into publishedAt when publication is absent",
+      "classification": "gap",
+      "reproduced": true,
+      "network": false
+    },
+    {
+      "name": "ats-jobs drops Lever responsibilities/requirements lists",
+      "classification": "gap",
+      "reproduced": true,
+      "network": false
+    },
+    {
+      "name": "ats-jobs drops Ashby compensation and does not exclude unlisted postings",
+      "classification": "gap",
+      "reproduced": true,
+      "network": false
+    },
+    {
+      "name": "Offer Harvester Feishu fixture retains duties, requirements and city",
+      "classification": "capability",
+      "reproduced": true,
+      "network": false
+    },
+    {
+      "name": "Offer Harvester page limit is explicitly partial",
+      "classification": "capability",
+      "reproduced": true,
+      "network": false
+    },
+    {
+      "name": "Offer Harvester source failure differs from successful empty result",
+      "classification": "capability",
+      "reproduced": true,
+      "network": false
+    },
+    {
+      "name": "Offer Harvester stops on robots disallow without API request",
+      "classification": "capability",
+      "reproduced": true,
+      "network": false
+    },
+    {
+      "name": "Offer Harvester company adapter drops Ashby compensation",
+      "classification": "gap",
+      "reproduced": true,
+      "network": false
+    }
+  ]
+}

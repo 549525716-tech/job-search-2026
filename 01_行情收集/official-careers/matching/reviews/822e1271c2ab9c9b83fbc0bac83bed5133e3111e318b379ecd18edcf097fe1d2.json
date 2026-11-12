@@ -1,0 +1,11 @@
+{
+  "cache_key": "822e1271c2ab9c9b83fbc0bac83bed5133e3111e318b379ecd18edcf097fe1d2",
+  "analysis_sha256": "0f84abcd00c5b8326dab5588553a51837151026943aff078efa6113c4f6a8c72",
+  "reviewer_id": "01a086a5-5b5b-7522-a6d1-7674145d21ad",
+  "verdict": "approved",
+  "facts_checked": true,
+  "hard_gates_checked": true,
+  "source_quotes_checked": true,
+  "reviewed_at": "2026-09-09T15:58:00.439Z",
+  "notes": "MiniMax 大模型销售运营，原生ID 7612560574200023323。独立核对保存原始JSON、6项JD引用、个人映射及当前原简历，作者Raman与reviewer不同。R5本科及R6三年以上销售管理或相关工作有直接依据，JD没有要求三年大模型任职；R1/R2/R3的规则、指标系统和资源冲突仅列可迁移，未把参与政策改版扩为公司终审权。R4财务与业绩勾稽仍unknown。150%严格保留个人测量，210家是个人客户，跨区域督办不等于大区人事权限。建议优先转译经营机制但明确补公司级规则、数据治理及财务材料，未虚构财务系统或AI合同。批准的是忠实的tailor建议，不是胜任全部门槛、面试概率、20K薪资或reuse；个人事实未做雇主独立审计。"
+}

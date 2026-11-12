@@ -1,0 +1,1527 @@
+{
+  "status": "passed_for_recorded_calls",
+  "calls": 190,
+  "minimum_cooldown_ms": 14571,
+  "receipts": [
+    {
+      "id": "c001",
+      "started_at": "2026-09-22T16:32:17.992Z",
+      "finished_at": "2026-09-22T16:32:19.842Z",
+      "cooldown_ms": null,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c001.json",
+      "evidence_sha256": "6c27d06379d90dcfc170deeded272d9f0bef817fb3612d509c75308ba9b547a8"
+    },
+    {
+      "id": "c002",
+      "started_at": "2026-09-22T16:33:03.376Z",
+      "finished_at": "2026-09-22T16:33:05.395Z",
+      "cooldown_ms": 43534,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c002.json",
+      "evidence_sha256": "ee0a34c20ab9cf9a20babba137415c300decf4ed8807f464b8cb469d07c06165"
+    },
+    {
+      "id": "c003",
+      "started_at": "2026-09-22T16:33:27.720Z",
+      "finished_at": "2026-09-22T16:33:29.785Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c003.json",
+      "evidence_sha256": "b7a0bb1bc8e1fd8c2a6590d88a678c4b5ff7f3606ef1f7f6f004834092df46ab"
+    },
+    {
+      "id": "c004",
+      "started_at": "2026-09-22T16:33:52.110Z",
+      "finished_at": "2026-09-22T16:33:53.876Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c004.json",
+      "evidence_sha256": "f111b9fd3c07b09308ee65fb7de58a4b1b185374623988e0ff3e25781dc31706"
+    },
+    {
+      "id": "c005",
+      "started_at": "2026-09-22T16:34:16.202Z",
+      "finished_at": "2026-09-22T16:34:18.011Z",
+      "cooldown_ms": 22326,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c005.json",
+      "evidence_sha256": "6634625d5e931ccf53baed852eb1332648332fc24ebbb99293e0caa501e9d970"
+    },
+    {
+      "id": "c006",
+      "started_at": "2026-09-22T16:34:40.344Z",
+      "finished_at": "2026-09-22T16:34:42.256Z",
+      "cooldown_ms": 22333,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c006.json",
+      "evidence_sha256": "ca280082ef062c5c6efb892fcd8e1876162e40d72ac652cb67d6f7185bae488b"
+    },
+    {
+      "id": "c007",
+      "started_at": "2026-09-22T16:35:04.576Z",
+      "finished_at": "2026-09-22T16:35:06.613Z",
+      "cooldown_ms": 22320,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c007.json",
+      "evidence_sha256": "26088b3f6939a20d1baed4f8468db19c683d7954ae0b31da336570597d5c3fbc"
+    },
+    {
+      "id": "c008",
+      "started_at": "2026-09-22T16:35:28.938Z",
+      "finished_at": "2026-09-22T16:35:30.929Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c008.json",
+      "evidence_sha256": "c2c7c6329bcdb48d66f12f66473c6bbf89fe3da052251ea6ed6bab8837969d74"
+    },
+    {
+      "id": "c009",
+      "started_at": "2026-09-22T16:35:53.262Z",
+      "finished_at": "2026-09-22T16:35:55.289Z",
+      "cooldown_ms": 22333,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c009.json",
+      "evidence_sha256": "7fe184d113a63a7e298941ea65cca839a4aa74a8f9fa573f66b8c9146118caa3"
+    },
+    {
+      "id": "c010",
+      "started_at": "2026-09-22T16:36:17.620Z",
+      "finished_at": "2026-09-22T16:36:19.474Z",
+      "cooldown_ms": 22331,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c010.json",
+      "evidence_sha256": "f1423ae1ffb7ec1ac6867598374bffdb65f20c2877dd6fa7c0544dc30630cb05"
+    },
+    {
+      "id": "c011",
+      "started_at": "2026-09-22T16:36:41.808Z",
+      "finished_at": "2026-09-22T16:36:43.742Z",
+      "cooldown_ms": 22334,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c011.json",
+      "evidence_sha256": "721ec3ecdf49691e915f598c3cce5f0faa6ff8fe69898c4c577cb46baf048133"
+    },
+    {
+      "id": "c012",
+      "started_at": "2026-09-22T16:37:12.950Z",
+      "finished_at": "2026-09-22T16:37:16.358Z",
+      "cooldown_ms": 29208,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c012.json",
+      "evidence_sha256": "6804d4efe4c48c9db81f7d21d346786ddcbd41b16b29b3b1e05081176b95fa1d"
+    },
+    {
+      "id": "c013",
+      "started_at": "2026-09-22T16:37:38.683Z",
+      "finished_at": "2026-09-22T16:37:40.574Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c013.json",
+      "evidence_sha256": "8a31d0228b1eb6e5a79e1e94032e30332c30a1c18496c5f4098e93aef63b5a09"
+    },
+    {
+      "id": "c014",
+      "started_at": "2026-09-22T16:38:02.894Z",
+      "finished_at": "2026-09-22T16:38:04.865Z",
+      "cooldown_ms": 22320,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c014.json",
+      "evidence_sha256": "4555560ad5a5a19347f8d76aa8a458ba10ed801f47ab0b59d8868e5abc4c8a5e"
+    },
+    {
+      "id": "c015",
+      "started_at": "2026-09-22T16:38:27.183Z",
+      "finished_at": "2026-09-22T16:38:29.265Z",
+      "cooldown_ms": 22318,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c015.json",
+      "evidence_sha256": "22817d63777dcd550c7a34c08037c49bc1ce44b5ed625c096efecb3b18e2f324"
+    },
+    {
+      "id": "c016",
+      "started_at": "2026-09-22T16:38:51.590Z",
+      "finished_at": "2026-09-22T16:38:53.479Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c016.json",
+      "evidence_sha256": "267e044792c711c9f1df60cc3355755ddb44b94ae7f5fbfe0abaed21ff614aec"
+    },
+    {
+      "id": "c017",
+      "started_at": "2026-09-22T16:39:15.803Z",
+      "finished_at": "2026-09-22T16:39:17.771Z",
+      "cooldown_ms": 22324,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c017.json",
+      "evidence_sha256": "37b376b5ac8cf14f07129a0d0f60688871f862f63518b37aa446a00f0566a773"
+    },
+    {
+      "id": "c018",
+      "started_at": "2026-09-22T16:39:40.098Z",
+      "finished_at": "2026-09-22T16:39:42.350Z",
+      "cooldown_ms": 22327,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c018.json",
+      "evidence_sha256": "05ee84baaceb3b58050562ba8a2962c9b4ab029d0a9e9f3b5b5656f0094c0b14"
+    },
+    {
+      "id": "c019",
+      "started_at": "2026-09-22T16:40:04.666Z",
+      "finished_at": "2026-09-22T16:40:06.581Z",
+      "cooldown_ms": 22316,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c019.json",
+      "evidence_sha256": "8f40a6a8039d0ea2e0129f5cf16a023dcfbe1d90e66a58db10b51db8512eb775"
+    },
+    {
+      "id": "c020",
+      "started_at": "2026-09-22T16:40:28.899Z",
+      "finished_at": "2026-09-22T16:40:30.880Z",
+      "cooldown_ms": 22318,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c020.json",
+      "evidence_sha256": "7850227ddfbbd8e1cd8ccdd264f7dd515e493c018026e61c986ed52376df2760"
+    },
+    {
+      "id": "c021",
+      "started_at": "2026-09-22T16:40:53.198Z",
+      "finished_at": "2026-09-22T16:40:55.355Z",
+      "cooldown_ms": 22318,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c021.json",
+      "evidence_sha256": "126578948cea02cef27bca2d0c10aa3a1f0dc33adf543faa83a2d4bd30f88f28"
+    },
+    {
+      "id": "c022",
+      "started_at": "2026-09-22T16:41:17.676Z",
+      "finished_at": "2026-09-22T16:41:19.616Z",
+      "cooldown_ms": 22321,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c022.json",
+      "evidence_sha256": "0be009a74393ba5ff8cf1182ce170bec97f7d896d0b347629494ef541690df1b"
+    },
+    {
+      "id": "c023",
+      "started_at": "2026-09-22T16:41:41.939Z",
+      "finished_at": "2026-09-22T16:41:43.877Z",
+      "cooldown_ms": 22323,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c023.json",
+      "evidence_sha256": "d352711d3b35607584f522fd946c7b112e0b2e54280e012cc3b1863ca48ea8b4"
+    },
+    {
+      "id": "c024",
+      "started_at": "2026-09-22T16:42:06.217Z",
+      "finished_at": "2026-09-22T16:42:08.143Z",
+      "cooldown_ms": 22340,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c024.json",
+      "evidence_sha256": "a283413e9cddda406bc7a3f5c55a52c73c7cd8ec2a8ad408bfb3eee02170389d"
+    },
+    {
+      "id": "c025",
+      "started_at": "2026-09-22T16:42:30.471Z",
+      "finished_at": "2026-09-22T16:42:32.728Z",
+      "cooldown_ms": 22328,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c025.json",
+      "evidence_sha256": "c6be28f2c337a3b48a6623830d8488cd6c0256589378adb535ce4a906676366b"
+    },
+    {
+      "id": "c026",
+      "started_at": "2026-09-22T16:42:55.053Z",
+      "finished_at": "2026-09-22T16:42:56.978Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c026.json",
+      "evidence_sha256": "f9fc6d06e77fe266a9f125c9b353838d5d9148cdf0302e216ccd86ee12a700ed"
+    },
+    {
+      "id": "c027",
+      "started_at": "2026-09-22T16:43:17.543Z",
+      "finished_at": "2026-09-22T16:43:19.424Z",
+      "cooldown_ms": 20565,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c027.json",
+      "evidence_sha256": "f752cb29c27380383d296094cd8c17ef1def2188aa497860dce88dba2818fbfc"
+    },
+    {
+      "id": "c028",
+      "started_at": "2026-09-22T16:43:41.754Z",
+      "finished_at": "2026-09-22T16:43:43.775Z",
+      "cooldown_ms": 22330,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c028.json",
+      "evidence_sha256": "fee5972a17affa45a7dd5bb8f615d3c871252cc6ae8faf3a4341b6ad0746d8e7"
+    },
+    {
+      "id": "c029",
+      "started_at": "2026-09-22T16:44:06.129Z",
+      "finished_at": "2026-09-22T16:44:08.285Z",
+      "cooldown_ms": 22354,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c029.json",
+      "evidence_sha256": "2369cad013d3ce385de09cf6d6418211db11a44f5d45c05b89351ca03fe1325a"
+    },
+    {
+      "id": "c030",
+      "started_at": "2026-09-22T16:44:30.610Z",
+      "finished_at": "2026-09-22T16:44:32.472Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c030.json",
+      "evidence_sha256": "0452ce2a0111329fc405b124e9bddd27ae04f84d388d3429e70106980045eacc"
+    },
+    {
+      "id": "c031",
+      "started_at": "2026-09-22T16:44:54.795Z",
+      "finished_at": "2026-09-22T16:44:56.675Z",
+      "cooldown_ms": 22323,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c031.json",
+      "evidence_sha256": "61d93f824b27e8b34eae1f2511eb1bbb80d9dae10c663b780facb03afd7bf8d4"
+    },
+    {
+      "id": "c032",
+      "started_at": "2026-09-22T16:45:19.002Z",
+      "finished_at": "2026-09-22T16:45:21.106Z",
+      "cooldown_ms": 22327,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c032.json",
+      "evidence_sha256": "ad133202f99f7a88cb1bcda3ecbd32cef44683155e9026abdac5545887f5f5df"
+    },
+    {
+      "id": "c033",
+      "started_at": "2026-09-22T16:45:43.595Z",
+      "finished_at": "2026-09-22T16:45:45.601Z",
+      "cooldown_ms": 22489,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c033.json",
+      "evidence_sha256": "e9839758f019d49e2b9901650160f75edf66e682e5eeba0ae5b83e07d4e6cff0"
+    },
+    {
+      "id": "c034",
+      "started_at": "2026-09-22T16:46:07.926Z",
+      "finished_at": "2026-09-22T16:46:09.934Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c034.json",
+      "evidence_sha256": "888b077ed39a3c807a2ff0acd0724b4ba6d7bedcf28e95b146ebf61f8b0ac702"
+    },
+    {
+      "id": "c035",
+      "started_at": "2026-09-22T16:46:32.262Z",
+      "finished_at": "2026-09-22T16:46:34.115Z",
+      "cooldown_ms": 22328,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c035.json",
+      "evidence_sha256": "2261a1977de9b24ab2e1910904f0a4670066c1b15350e267db179a823ce84b78"
+    },
+    {
+      "id": "c036",
+      "started_at": "2026-09-22T16:46:56.440Z",
+      "finished_at": "2026-09-22T16:46:58.419Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c036.json",
+      "evidence_sha256": "91ec761c91fd0022d060a2ab6a0396fc5f1eafd1d7bb8695bc002edd8f2b19f4"
+    },
+    {
+      "id": "c037",
+      "started_at": "2026-09-22T16:47:20.774Z",
+      "finished_at": "2026-09-22T16:47:22.715Z",
+      "cooldown_ms": 22355,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c037.json",
+      "evidence_sha256": "417c3b65b80610b84ea8f8de64f82e511e0d9b6e196daa0c941a72e194f7f5f3"
+    },
+    {
+      "id": "c038",
+      "started_at": "2026-09-22T16:47:45.040Z",
+      "finished_at": "2026-09-22T16:47:46.902Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c038.json",
+      "evidence_sha256": "3ba3b49af12f07e63697974a4a73c704c81a2a90bef5caa83a6e172148990ac5"
+    },
+    {
+      "id": "c039",
+      "started_at": "2026-09-22T16:48:09.222Z",
+      "finished_at": "2026-09-22T16:48:11.393Z",
+      "cooldown_ms": 22320,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c039.json",
+      "evidence_sha256": "4ddcbeaa74c2079dba31ec357b3b375856883aa599adf438d1a34ea56fd008e7"
+    },
+    {
+      "id": "c040",
+      "started_at": "2026-09-22T16:48:33.721Z",
+      "finished_at": "2026-09-22T16:48:35.511Z",
+      "cooldown_ms": 22328,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c040.json",
+      "evidence_sha256": "e5e01504a8cffa8b9f079edb570ec52b1f018a2f91b5cbe2454493a4de36a04e"
+    },
+    {
+      "id": "c041",
+      "started_at": "2026-09-22T16:48:57.836Z",
+      "finished_at": "2026-09-22T16:49:01.151Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c041.json",
+      "evidence_sha256": "4da2863be03a74d88da244a16cdcd3eb975410d098cc4df8502d3636b4039931"
+    },
+    {
+      "id": "c042",
+      "started_at": "2026-09-22T16:49:23.464Z",
+      "finished_at": "2026-09-22T16:49:25.280Z",
+      "cooldown_ms": 22313,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c042.json",
+      "evidence_sha256": "5dde88decdcb51896dbe3d47fc8c3ebe140ac1bba306ed3eac1460d04e7a2ae4"
+    },
+    {
+      "id": "c043",
+      "started_at": "2026-09-22T16:49:47.607Z",
+      "finished_at": "2026-09-22T16:49:49.510Z",
+      "cooldown_ms": 22327,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c043.json",
+      "evidence_sha256": "2ea99e4cc9dc8b5c1c2129d1f938547d5dd94cf8616c98f212966c6894885537"
+    },
+    {
+      "id": "c044",
+      "started_at": "2026-09-22T16:50:11.834Z",
+      "finished_at": "2026-09-22T16:50:13.610Z",
+      "cooldown_ms": 22324,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c044.json",
+      "evidence_sha256": "269f094b1ce3e837ba1fa4065358006ac37a5d4fec6be9788fc980fe695c7b8b"
+    },
+    {
+      "id": "c045",
+      "started_at": "2026-09-22T16:50:35.928Z",
+      "finished_at": "2026-09-22T16:50:38.152Z",
+      "cooldown_ms": 22318,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c045.json",
+      "evidence_sha256": "d9c6c6f3c275f13393b783e0fd993ded31e99955e7fc0814a07f88f2889e773e"
+    },
+    {
+      "id": "c046",
+      "started_at": "2026-09-22T16:51:00.494Z",
+      "finished_at": "2026-09-22T16:51:02.373Z",
+      "cooldown_ms": 22342,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c046.json",
+      "evidence_sha256": "fa8c1b67a7a47c6097e93f7657f4444e746e7295b84a68e541d1b20e7f11cf85"
+    },
+    {
+      "id": "c047",
+      "started_at": "2026-09-22T16:51:26.522Z",
+      "finished_at": "2026-09-22T16:51:28.402Z",
+      "cooldown_ms": 24149,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c047.json",
+      "evidence_sha256": "67aed9593b1274c6d7e50ec65355349a030607215a611490b10fc5f3ded767b9"
+    },
+    {
+      "id": "c048",
+      "started_at": "2026-09-22T16:51:50.722Z",
+      "finished_at": "2026-09-22T16:51:52.562Z",
+      "cooldown_ms": 22320,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c048.json",
+      "evidence_sha256": "c56e201e6e15e9209872d974b7af4f554e68e20b45a64c7d95bd29804a9cd52c"
+    },
+    {
+      "id": "c049",
+      "started_at": "2026-09-22T16:52:14.886Z",
+      "finished_at": "2026-09-22T16:52:16.931Z",
+      "cooldown_ms": 22324,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c049.json",
+      "evidence_sha256": "7eb381556777325cf9b85434c20e421c4ce4eabcb2ca0598093e5dc5664c2351"
+    },
+    {
+      "id": "c050",
+      "started_at": "2026-09-22T16:52:39.254Z",
+      "finished_at": "2026-09-22T16:52:41.266Z",
+      "cooldown_ms": 22323,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c050.json",
+      "evidence_sha256": "a1809fc49b025e2b5f2051ae81905502e38b14fdf7209db1f0604bfc0fe56e88"
+    },
+    {
+      "id": "c051",
+      "started_at": "2026-09-22T16:53:03.587Z",
+      "finished_at": "2026-09-22T16:53:05.531Z",
+      "cooldown_ms": 22321,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c051.json",
+      "evidence_sha256": "47da9be81b1dfb7184efa8a2a9e8d127c2f506d5c4036eac99c8d0532a4a8d79"
+    },
+    {
+      "id": "c052",
+      "started_at": "2026-09-22T16:53:27.856Z",
+      "finished_at": "2026-09-22T16:53:29.825Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c052.json",
+      "evidence_sha256": "b97c496e2329f9144b54ccbfc3617bf72cd0fcf62873699797cbee53df8fd9a0"
+    },
+    {
+      "id": "c053",
+      "started_at": "2026-09-22T16:53:52.145Z",
+      "finished_at": "2026-09-22T16:53:55.118Z",
+      "cooldown_ms": 22320,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c053.json",
+      "evidence_sha256": "ecfba5bd9e0ef5ce0fbd649159f4303e3278f926c00116d33f7908cd1faaf41e"
+    },
+    {
+      "id": "c054",
+      "started_at": "2026-09-22T16:54:17.446Z",
+      "finished_at": "2026-09-22T16:54:19.496Z",
+      "cooldown_ms": 22328,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c054.json",
+      "evidence_sha256": "affab965eeb78ce03ff04d860274f9d07d0d13662081f60b5dbee0113ff3ae96"
+    },
+    {
+      "id": "c055",
+      "started_at": "2026-09-22T16:54:41.815Z",
+      "finished_at": "2026-09-22T16:54:43.708Z",
+      "cooldown_ms": 22319,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c055.json",
+      "evidence_sha256": "0bd8a031305906e0ebfdff25f9909a87dff3ac0e422ebf32796a4bf388db7f0e"
+    },
+    {
+      "id": "c056",
+      "started_at": "2026-09-22T16:55:06.036Z",
+      "finished_at": "2026-09-22T16:55:07.907Z",
+      "cooldown_ms": 22328,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c056.json",
+      "evidence_sha256": "f219dedf4ae396bf84080a53fe842f2c0d7fdf8d3b663302f088bd205a863e99"
+    },
+    {
+      "id": "c057",
+      "started_at": "2026-09-22T16:55:30.230Z",
+      "finished_at": "2026-09-22T16:55:32.018Z",
+      "cooldown_ms": 22323,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c057.json",
+      "evidence_sha256": "a303a5f8a1be250a26c3f6c0cd6d8bce37aab5415ed8dffef146bee585be6ec8"
+    },
+    {
+      "id": "c058",
+      "started_at": "2026-09-22T16:55:54.347Z",
+      "finished_at": "2026-09-22T16:55:56.206Z",
+      "cooldown_ms": 22329,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c058.json",
+      "evidence_sha256": "47218ef0771db99daf97a2377db944a063ef70aacb2fd899ca2d3af2c3d370d5"
+    },
+    {
+      "id": "c059",
+      "started_at": "2026-09-22T16:56:18.511Z",
+      "finished_at": "2026-09-22T16:56:20.716Z",
+      "cooldown_ms": 22305,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c059.json",
+      "evidence_sha256": "5f74b38f494c17d6c00f58ec28b95df585a6a0cb150e4393a863421cbceaf0f4"
+    },
+    {
+      "id": "c060",
+      "started_at": "2026-09-22T16:56:43.047Z",
+      "finished_at": "2026-09-22T16:56:44.847Z",
+      "cooldown_ms": 22331,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c060.json",
+      "evidence_sha256": "53f8a709ea579821c477fff64922d1f9af8ba04ed48d28771933fd89919d06fe"
+    },
+    {
+      "id": "c061",
+      "started_at": "2026-09-22T16:57:07.186Z",
+      "finished_at": "2026-09-22T16:57:09.416Z",
+      "cooldown_ms": 22339,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c061.json",
+      "evidence_sha256": "1c21eefe4c46ff079cfa37380b23a2fbca40cf483dc3670c78d05e5d553a0563"
+    },
+    {
+      "id": "c062",
+      "started_at": "2026-09-22T16:57:31.751Z",
+      "finished_at": "2026-09-22T16:57:33.684Z",
+      "cooldown_ms": 22335,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c062.json",
+      "evidence_sha256": "a3def1cec0ae08dc83da185cbd709abf3b1f36f1a53a963204b8fbcf3e7977b4"
+    },
+    {
+      "id": "c063",
+      "started_at": "2026-09-22T16:57:56.037Z",
+      "finished_at": "2026-09-22T16:57:58.179Z",
+      "cooldown_ms": 22353,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c063.json",
+      "evidence_sha256": "638830d729fe790c464943b5b29bbdc703e06b4ced8a3008e4ef8b950a98aba3"
+    },
+    {
+      "id": "c064",
+      "started_at": "2026-09-22T16:58:20.508Z",
+      "finished_at": "2026-09-22T16:58:22.917Z",
+      "cooldown_ms": 22329,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c064.json",
+      "evidence_sha256": "64d051e22883430350067c4e516fc914c6a80d801e3de858898b571139165d94"
+    },
+    {
+      "id": "c065",
+      "started_at": "2026-09-22T16:58:45.237Z",
+      "finished_at": "2026-09-22T16:58:47.802Z",
+      "cooldown_ms": 22320,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c065.json",
+      "evidence_sha256": "8f40aeae0963a26bbd83a1c9d28a8f68ce1bd08c55d9bc3918e4f651c33c0ac0"
+    },
+    {
+      "id": "c066",
+      "started_at": "2026-09-22T16:59:10.128Z",
+      "finished_at": "2026-09-22T16:59:11.977Z",
+      "cooldown_ms": 22326,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c066.json",
+      "evidence_sha256": "21309a80a4d0c157bb8a72cefe15ad155177bd0f42ca11e87291a73de252b0bf"
+    },
+    {
+      "id": "c067",
+      "started_at": "2026-09-22T16:59:39.719Z",
+      "finished_at": "2026-09-22T16:59:41.643Z",
+      "cooldown_ms": 27742,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c067.json",
+      "evidence_sha256": "8c8302a0dd44006eec8f6abd210d5a51effeac309b46aed3793c201e389da080"
+    },
+    {
+      "id": "c068",
+      "started_at": "2026-09-22T17:00:03.973Z",
+      "finished_at": "2026-09-22T17:00:06.064Z",
+      "cooldown_ms": 22330,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c068.json",
+      "evidence_sha256": "891109c178f3fdda918c63879fe7e02efae382223da90d2de3a514ca6656577a"
+    },
+    {
+      "id": "c069",
+      "started_at": "2026-09-22T17:00:28.421Z",
+      "finished_at": "2026-09-22T17:00:30.226Z",
+      "cooldown_ms": 22357,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c069.json",
+      "evidence_sha256": "1512242e05a056024cb2bb0450eed5d46c58725df7d996abeb6777903acc14a5"
+    },
+    {
+      "id": "c070",
+      "started_at": "2026-09-22T17:00:52.544Z",
+      "finished_at": "2026-09-22T17:00:54.684Z",
+      "cooldown_ms": 22318,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c070.json",
+      "evidence_sha256": "b75d64b57080558c369c51b2d00d7345ad13b7462948d24a9b46f3739bcf9aef"
+    },
+    {
+      "id": "c071",
+      "started_at": "2026-09-22T17:01:17.010Z",
+      "finished_at": "2026-09-22T17:01:19.138Z",
+      "cooldown_ms": 22326,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c071.json",
+      "evidence_sha256": "4f39b78c27f4669b048ce347221ee0d49440749d557c8aec680c9d38e38d4b1d"
+    },
+    {
+      "id": "c072",
+      "started_at": "2026-09-22T17:01:41.495Z",
+      "finished_at": "2026-09-22T17:01:43.341Z",
+      "cooldown_ms": 22357,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c072.json",
+      "evidence_sha256": "6ceb5a69d16d1b35ebffa047471071b8f5b5fb9e0bc42813e0b9844f4aa3e2eb"
+    },
+    {
+      "id": "c073",
+      "started_at": "2026-09-22T17:02:05.656Z",
+      "finished_at": "2026-09-22T17:02:07.697Z",
+      "cooldown_ms": 22315,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c073.json",
+      "evidence_sha256": "8c852e014e12ba78f977c8ee223b682104a4670d3bd11d378acbf808dd59943e"
+    },
+    {
+      "id": "c074",
+      "started_at": "2026-09-22T17:02:30.028Z",
+      "finished_at": "2026-09-22T17:02:31.843Z",
+      "cooldown_ms": 22331,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c074.json",
+      "evidence_sha256": "535c69e44baec7536f8fc2d815dfb3f1f38826ff060f9e7af33b173157480843"
+    },
+    {
+      "id": "c075",
+      "started_at": "2026-09-22T17:02:54.194Z",
+      "finished_at": "2026-09-22T17:02:56.078Z",
+      "cooldown_ms": 22351,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c075.json",
+      "evidence_sha256": "c9a7177e6416ebccda05b56a53d6306074b956d73742cf5dd56a2dd665519978"
+    },
+    {
+      "id": "c076",
+      "started_at": "2026-09-22T17:03:18.400Z",
+      "finished_at": "2026-09-22T17:03:21.098Z",
+      "cooldown_ms": 22322,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c076.json",
+      "evidence_sha256": "7c33d96ddedb5ffc4d70e9ad06ed819de325b58ccbf23e1a78916130e46a53b2"
+    },
+    {
+      "id": "c077",
+      "started_at": "2026-09-22T17:03:43.417Z",
+      "finished_at": "2026-09-22T17:03:45.278Z",
+      "cooldown_ms": 22319,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c077.json",
+      "evidence_sha256": "32518294c5c5bbbfacf2f818d6c207b5eee3eabdf028412eedfab07d59021a92"
+    },
+    {
+      "id": "c078",
+      "started_at": "2026-09-22T17:04:07.635Z",
+      "finished_at": "2026-09-22T17:04:10.026Z",
+      "cooldown_ms": 22357,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c078.json",
+      "evidence_sha256": "4aaa4a50b1211c6328ae31ce9ef53247f5464ca6deaaa810e32e9be69f161f0d"
+    },
+    {
+      "id": "c079",
+      "started_at": "2026-09-22T17:04:32.349Z",
+      "finished_at": "2026-09-22T17:04:34.338Z",
+      "cooldown_ms": 22323,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c079.json",
+      "evidence_sha256": "7c2be7b6ebe730f6770ef5524676c633e86b9eb02b6cc023bec35c08b6663441"
+    },
+    {
+      "id": "c080",
+      "started_at": "2026-09-22T17:04:56.665Z",
+      "finished_at": "2026-09-22T17:04:58.524Z",
+      "cooldown_ms": 22327,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c080.json",
+      "evidence_sha256": "c0e6a5f1e2912e162c159f81d4c6258ffd94cb4530d71fff128a09eb8408403e"
+    },
+    {
+      "id": "c081",
+      "started_at": "2026-09-22T17:05:20.878Z",
+      "finished_at": "2026-09-22T17:05:22.794Z",
+      "cooldown_ms": 22354,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c081.json",
+      "evidence_sha256": "228404456201617058e3e77c299b364612c82be2c2414449fac45c913e980372"
+    },
+    {
+      "id": "c082",
+      "started_at": "2026-09-22T17:05:45.120Z",
+      "finished_at": "2026-09-22T17:05:47.025Z",
+      "cooldown_ms": 22326,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c082.json",
+      "evidence_sha256": "939bba329ca587f1d3f1ff0d7adada636c67a6699fa5e8020e5cfafb802e216e"
+    },
+    {
+      "id": "c083",
+      "started_at": "2026-09-22T17:06:09.351Z",
+      "finished_at": "2026-09-22T17:06:11.350Z",
+      "cooldown_ms": 22326,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c083.json",
+      "evidence_sha256": "8ab077c7b2160568ef69eb3895247aab3cc8564192e45cf4de11e54f6d5ce160"
+    },
+    {
+      "id": "c084",
+      "started_at": "2026-09-22T17:06:33.685Z",
+      "finished_at": "2026-09-22T17:06:35.497Z",
+      "cooldown_ms": 22335,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c084.json",
+      "evidence_sha256": "ed63c9fab0ab7887bf19a9dada74421c0e2fc37a72dcff061e48406f590a5995"
+    },
+    {
+      "id": "c085",
+      "started_at": "2026-09-22T17:06:57.828Z",
+      "finished_at": "2026-09-22T17:06:59.816Z",
+      "cooldown_ms": 22331,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c085.json",
+      "evidence_sha256": "fc61dae94f8f542c6743936b664a1bf5dcc29490e921788d40b6a5827594f78c"
+    },
+    {
+      "id": "c086",
+      "started_at": "2026-09-22T17:07:22.155Z",
+      "finished_at": "2026-09-22T17:07:23.982Z",
+      "cooldown_ms": 22339,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c086.json",
+      "evidence_sha256": "21ecf2e1ae0fb4b0bff1916763221108a1a04f37fb0d4536615df056ae34faf7"
+    },
+    {
+      "id": "c087",
+      "started_at": "2026-09-22T17:07:38.553Z",
+      "finished_at": "2026-09-22T17:07:41.002Z",
+      "cooldown_ms": 14571,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c087.json",
+      "evidence_sha256": "74eb635905e12aebeaea2182d3e43d87c8487f1fdfdae804229b8b926c5f79a4"
+    },
+    {
+      "id": "c088",
+      "started_at": "2026-09-22T17:08:03.326Z",
+      "finished_at": "2026-09-22T17:08:05.180Z",
+      "cooldown_ms": 22324,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c088.json",
+      "evidence_sha256": "a189e950875a7a59f7cc8a942f58e78f6ea067c5fe0e8cc1116aa06302790fc5"
+    },
+    {
+      "id": "c089",
+      "started_at": "2026-09-22T17:08:27.505Z",
+      "finished_at": "2026-09-22T17:08:29.652Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c089.json",
+      "evidence_sha256": "02faf6f08878ae304101336e4649095a49879ec127bdccfadce37f5f435a945d"
+    },
+    {
+      "id": "c090",
+      "started_at": "2026-09-22T17:08:51.973Z",
+      "finished_at": "2026-09-22T17:08:54.161Z",
+      "cooldown_ms": 22321,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c090.json",
+      "evidence_sha256": "bed33e1d68da14edde6eedab5fae31a6cf2918053d3026513cabe5c0973f5236"
+    },
+    {
+      "id": "c091",
+      "started_at": "2026-09-22T17:09:16.488Z",
+      "finished_at": "2026-09-22T17:09:18.301Z",
+      "cooldown_ms": 22327,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c091.json",
+      "evidence_sha256": "ea62e156fd1d042bbfe7f1e923bb48b8ccc378c693abd1f7507f6d2a0c8e7053"
+    },
+    {
+      "id": "c092",
+      "started_at": "2026-09-22T17:09:40.629Z",
+      "finished_at": "2026-09-22T17:09:42.490Z",
+      "cooldown_ms": 22328,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c092.json",
+      "evidence_sha256": "327d6c9e76922e7bf7d917f7fd4d8c24cd00f6450204b645e40872e4bc257abf"
+    },
+    {
+      "id": "c093",
+      "started_at": "2026-09-22T17:10:04.814Z",
+      "finished_at": "2026-09-22T17:10:06.686Z",
+      "cooldown_ms": 22324,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c093.json",
+      "evidence_sha256": "8e728fba099f8dc8a15f73a3faed4daa968dd9deefa270d93329618dbb199d9d"
+    },
+    {
+      "id": "c094",
+      "started_at": "2026-09-22T17:10:29.014Z",
+      "finished_at": "2026-09-22T17:10:30.880Z",
+      "cooldown_ms": 22328,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c094.json",
+      "evidence_sha256": "098562c47868ad320d9e9d8378a77e5e696711100cbd465c6dad201af67e426f"
+    },
+    {
+      "id": "c095",
+      "started_at": "2026-09-22T17:10:53.203Z",
+      "finished_at": "2026-09-22T17:10:55.034Z",
+      "cooldown_ms": 22323,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c095.json",
+      "evidence_sha256": "795279f022ddce95e6e15a133ca5f6dd3fc257df8c921dd92a349f02897649c3"
+    },
+    {
+      "id": "c096",
+      "started_at": "2026-09-22T17:11:17.370Z",
+      "finished_at": "2026-09-22T17:11:19.178Z",
+      "cooldown_ms": 22336,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c096.json",
+      "evidence_sha256": "96f425a23d5b1115032b95eb4a8be7163b6d7f2e22fcd97b19b586df499373e6"
+    },
+    {
+      "id": "c097",
+      "started_at": "2026-09-22T17:11:41.536Z",
+      "finished_at": "2026-09-22T17:11:44.071Z",
+      "cooldown_ms": 22358,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c097.json",
+      "evidence_sha256": "0cd74b1333fae13e3f83807da06de29b124bb5b25d1a37d5e1de75ada4a58586"
+    },
+    {
+      "id": "c098",
+      "started_at": "2026-09-22T17:12:06.393Z",
+      "finished_at": "2026-09-22T17:12:08.632Z",
+      "cooldown_ms": 22322,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c098.json",
+      "evidence_sha256": "d4eec0fdc155c194cf8f8ff9cc60b44f2af7209e13ec7fe8fb9d501367989396"
+    },
+    {
+      "id": "c099",
+      "started_at": "2026-09-22T17:12:30.968Z",
+      "finished_at": "2026-09-22T17:12:32.818Z",
+      "cooldown_ms": 22336,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c099.json",
+      "evidence_sha256": "2f8fcea54ddcebaabf4a2febfbf2f77762a1775cdfd7efe7e6ee48bd26a0bd73"
+    },
+    {
+      "id": "c100",
+      "started_at": "2026-09-22T17:12:55.147Z",
+      "finished_at": "2026-09-22T17:12:57.254Z",
+      "cooldown_ms": 22329,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c100.json",
+      "evidence_sha256": "26dd6f35cf1a586ff6a7faeb4bd5197eb789373ec6931148c7d61fa5eada8ed0"
+    },
+    {
+      "id": "c101",
+      "started_at": "2026-09-22T17:13:19.578Z",
+      "finished_at": "2026-09-22T17:13:21.565Z",
+      "cooldown_ms": 22324,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c101.json",
+      "evidence_sha256": "5361a905a1f738a136e8ad8e02ef60787625df939f04db82a10f632346fff5d3"
+    },
+    {
+      "id": "c102",
+      "started_at": "2026-09-22T17:13:43.928Z",
+      "finished_at": "2026-09-22T17:13:45.804Z",
+      "cooldown_ms": 22363,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c102.json",
+      "evidence_sha256": "0d8a8619827dd05cc0fc08df59d8ab8bf9cbe7399296ac09b7ced2becd7b58bd"
+    },
+    {
+      "id": "c103",
+      "started_at": "2026-09-22T17:14:08.132Z",
+      "finished_at": "2026-09-22T17:14:10.165Z",
+      "cooldown_ms": 22328,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c103.json",
+      "evidence_sha256": "aba6fe1f7ede4142dabf79b88da5fa09f8ba204ef845bbebdd011f57bd070e63"
+    },
+    {
+      "id": "c104",
+      "started_at": "2026-09-22T17:14:32.494Z",
+      "finished_at": "2026-09-22T17:14:34.373Z",
+      "cooldown_ms": 22329,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c104.json",
+      "evidence_sha256": "a42046cbe985745b6c188c0298af24fe0206342fb7e8620d8d448f3f1227e675"
+    },
+    {
+      "id": "c105",
+      "started_at": "2026-09-22T17:14:56.739Z",
+      "finished_at": "2026-09-22T17:14:58.732Z",
+      "cooldown_ms": 22366,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c105.json",
+      "evidence_sha256": "0f31574f59d1dc528725b611163447461a210d0b91c7b2eafdd5a2f1b41d888e"
+    },
+    {
+      "id": "c106",
+      "started_at": "2026-09-22T17:15:21.043Z",
+      "finished_at": "2026-09-22T17:15:22.878Z",
+      "cooldown_ms": 22311,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c106.json",
+      "evidence_sha256": "d1f2252fa42940566097b83c717a050fd5b4a12f5eb7b53a04b386139c1900c4"
+    },
+    {
+      "id": "c107",
+      "started_at": "2026-09-22T17:15:51.014Z",
+      "finished_at": "2026-09-22T17:15:52.985Z",
+      "cooldown_ms": 28136,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c107.json",
+      "evidence_sha256": "8cfad10910c7c13ca9b6c8ddb18b2fa8f99cdeee0febdec477257e20a5254e3e"
+    },
+    {
+      "id": "c108",
+      "started_at": "2026-09-22T17:16:15.312Z",
+      "finished_at": "2026-09-22T17:16:17.364Z",
+      "cooldown_ms": 22327,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c108.json",
+      "evidence_sha256": "d07bc56b32c09d696e4b5f7b03fe1445b4adf9e7d41479dcb48d61556f239d67"
+    },
+    {
+      "id": "c109",
+      "started_at": "2026-09-22T17:16:39.681Z",
+      "finished_at": "2026-09-22T17:16:43.544Z",
+      "cooldown_ms": 22317,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c109.json",
+      "evidence_sha256": "a5c8bedb3300b55e17eb90d93efc62c85e916019e843a1e67855ec8f23c8ca1d"
+    },
+    {
+      "id": "c110",
+      "started_at": "2026-09-22T17:17:05.906Z",
+      "finished_at": "2026-09-22T17:17:07.901Z",
+      "cooldown_ms": 22362,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c110.json",
+      "evidence_sha256": "c126a78363c84a9fb0c74417e592d78904d7c85ca7edb271e4f7647be3b48286"
+    },
+    {
+      "id": "c111",
+      "started_at": "2026-09-22T17:17:30.238Z",
+      "finished_at": "2026-09-22T17:17:32.562Z",
+      "cooldown_ms": 22337,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c111.json",
+      "evidence_sha256": "61b08711ee3ae7dade173df5ce857e81a3da8dfddf13796ba1f6925a36ed1aa4"
+    },
+    {
+      "id": "c112",
+      "started_at": "2026-09-22T17:17:54.893Z",
+      "finished_at": "2026-09-22T17:17:56.970Z",
+      "cooldown_ms": 22331,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c112.json",
+      "evidence_sha256": "bd448f23b15fe22b39b8f94d490f74922fad08629a2a91113954e040e96ea51c"
+    },
+    {
+      "id": "c113",
+      "started_at": "2026-09-22T17:18:19.299Z",
+      "finished_at": "2026-09-22T17:18:21.437Z",
+      "cooldown_ms": 22329,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c113.json",
+      "evidence_sha256": "f1285df517d3513d19b387f7f15c6ab990220ec332e2df17028181b79766ab20"
+    },
+    {
+      "id": "c114",
+      "started_at": "2026-09-22T17:18:43.766Z",
+      "finished_at": "2026-09-22T17:18:45.784Z",
+      "cooldown_ms": 22329,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c114.json",
+      "evidence_sha256": "3253e1eb846d74d911cb7aeb3e33784572fd8925b3aef380a9ac6af025b0329c"
+    },
+    {
+      "id": "c115",
+      "started_at": "2026-09-22T17:19:08.145Z",
+      "finished_at": "2026-09-22T17:19:10.635Z",
+      "cooldown_ms": 22361,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c115.json",
+      "evidence_sha256": "6326427a998905376d5a524331133a21fa610688900f11366f0c67cf4751b2ee"
+    },
+    {
+      "id": "c116",
+      "started_at": "2026-09-22T17:19:32.957Z",
+      "finished_at": "2026-09-22T17:19:34.993Z",
+      "cooldown_ms": 22322,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c116.json",
+      "evidence_sha256": "510fb98ec4589dddfbb48d57b5658a96675c56b81aa49d807f69e1e6e2d40038"
+    },
+    {
+      "id": "c117",
+      "started_at": "2026-09-22T17:19:57.319Z",
+      "finished_at": "2026-09-22T17:19:59.230Z",
+      "cooldown_ms": 22326,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c117.json",
+      "evidence_sha256": "b0ed0bfe7889ee4295a8970d44d3117227cbf190c55b791cc98a3d60ccbfa1a4"
+    },
+    {
+      "id": "c118",
+      "started_at": "2026-09-22T17:20:21.552Z",
+      "finished_at": "2026-09-22T17:20:23.387Z",
+      "cooldown_ms": 22322,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c118.json",
+      "evidence_sha256": "0369151d0beb98d710cf38e7f84416b741942c2610c05c3cef47971944bb5d62"
+    },
+    {
+      "id": "c119",
+      "started_at": "2026-09-22T17:20:45.712Z",
+      "finished_at": "2026-09-22T17:20:47.607Z",
+      "cooldown_ms": 22325,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c119.json",
+      "evidence_sha256": "94000da3334fae20daca9ca57f58e7251dcdc3b7e0374200b821fa38f8e67c50"
+    },
+    {
+      "id": "c120",
+      "started_at": "2026-09-22T17:21:09.928Z",
+      "finished_at": "2026-09-22T17:21:11.985Z",
+      "cooldown_ms": 22321,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/c120.json",
+      "evidence_sha256": "d0d60c9fd4ff14f2ae1d45879d5503a38ca47815219cc4b117ed673b9e516bf4"
+    },
+    {
+      "id": "k01",
+      "started_at": "2026-09-22T17:21:34.307Z",
+      "finished_at": "2026-09-22T17:21:36.159Z",
+      "cooldown_ms": 22322,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k01.json",
+      "evidence_sha256": "aa024619052101254af6b683636880e48cabd983b7ef57469801d5aa1b65a87d"
+    },
+    {
+      "id": "k02",
+      "started_at": "2026-09-22T17:21:58.482Z",
+      "finished_at": "2026-09-22T17:22:00.346Z",
+      "cooldown_ms": 22323,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k02.json",
+      "evidence_sha256": "fb2a623e8d201854e0f6db83eb7b0c076ae291a571fed17f30026cb5c0cf6edd"
+    },
+    {
+      "id": "k03",
+      "started_at": "2026-09-22T17:22:22.702Z",
+      "finished_at": "2026-09-22T17:22:24.641Z",
+      "cooldown_ms": 22356,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k03.json",
+      "evidence_sha256": "3c68ff2c1f58684a42381863f180e73079721ad5b601daaf299bb6451a2c348a"
+    },
+    {
+      "id": "k04",
+      "started_at": "2026-09-22T17:22:46.989Z",
+      "finished_at": "2026-09-22T17:22:50.017Z",
+      "cooldown_ms": 22348,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k04.json",
+      "evidence_sha256": "2698c53c8fc4323da74daf3a97df26b5e62722807faa202696b70570540eeecf"
+    },
+    {
+      "id": "k05",
+      "started_at": "2026-09-22T17:23:12.343Z",
+      "finished_at": "2026-09-22T17:23:14.474Z",
+      "cooldown_ms": 22326,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k05.json",
+      "evidence_sha256": "4b2187373a42ade32a69c84ecf3f4e0c53c6a9d6a40b48fa86c6ed8c8dcc3426"
+    },
+    {
+      "id": "k06",
+      "started_at": "2026-09-22T17:23:36.834Z",
+      "finished_at": "2026-09-22T17:23:38.712Z",
+      "cooldown_ms": 22360,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k06.json",
+      "evidence_sha256": "7672167f0d9db8dd8e7b8d99c7e9dbba156dca2041ac6d19443a1678a7108769"
+    },
+    {
+      "id": "k07",
+      "started_at": "2026-09-22T17:24:01.036Z",
+      "finished_at": "2026-09-22T17:24:03.022Z",
+      "cooldown_ms": 22324,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k07.json",
+      "evidence_sha256": "e197a75ef2b79cdccc85bb83f9e8f364d9eb282ff1fbf9964d3c1d18915ed64d"
+    },
+    {
+      "id": "k08",
+      "started_at": "2026-09-22T17:24:25.380Z",
+      "finished_at": "2026-09-22T17:24:27.523Z",
+      "cooldown_ms": 22358,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k08.json",
+      "evidence_sha256": "c1c74ffe02b9dcd0922f162a1d54be58a7dc4bd37e677dd60e397bee050637a7"
+    },
+    {
+      "id": "k09",
+      "started_at": "2026-09-22T17:24:49.847Z",
+      "finished_at": "2026-09-22T17:24:51.700Z",
+      "cooldown_ms": 22324,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k09.json",
+      "evidence_sha256": "ca20eb068cfa2ea435d749bc6b3806cd8b52e32f5efa35550ef584637c36f5f2"
+    },
+    {
+      "id": "k10",
+      "started_at": "2026-09-22T17:25:14.022Z",
+      "finished_at": "2026-09-22T17:25:15.951Z",
+      "cooldown_ms": 22322,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k10.json",
+      "evidence_sha256": "088af465fffa1bfccc96775acf94d21a3d09e6ecaab3fd0ccdb7ee27f3556116"
+    },
+    {
+      "id": "k11",
+      "started_at": "2026-09-22T17:25:38.277Z",
+      "finished_at": "2026-09-22T17:25:40.434Z",
+      "cooldown_ms": 22326,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k11.json",
+      "evidence_sha256": "15a5b83a652c5fd29174c5150eddfefc14debfcc1c35c9d57120363ca1cf5458"
+    },
+    {
+      "id": "k12",
+      "started_at": "2026-09-22T17:26:02.772Z",
+      "finished_at": "2026-09-22T17:26:04.647Z",
+      "cooldown_ms": 22338,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k12.json",
+      "evidence_sha256": "e0a3988fc3a1ce4efa4827bd4512f4a5c3d2a1d39b4a747ce586008908474d37"
+    },
+    {
+      "id": "k13",
+      "started_at": "2026-09-22T17:26:26.965Z",
+      "finished_at": "2026-09-22T17:26:28.855Z",
+      "cooldown_ms": 22318,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k13.json",
+      "evidence_sha256": "729f80ed267f579de7afa3b7d55780dc71637f6880c1b565747dcbcf0dba2bb2"
+    },
+    {
+      "id": "k14",
+      "started_at": "2026-09-22T17:26:51.173Z",
+      "finished_at": "2026-09-22T17:26:53.079Z",
+      "cooldown_ms": 22318,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k14.json",
+      "evidence_sha256": "af1551fb4d15fe2599b400a8464f46145f6568a678dbc9670d35cc20418c4a1d"
+    },
+    {
+      "id": "k15",
+      "started_at": "2026-09-22T17:27:15.403Z",
+      "finished_at": "2026-09-22T17:27:17.806Z",
+      "cooldown_ms": 22324,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k15.json",
+      "evidence_sha256": "f5fc985f2077cc83a7730bb8bcd789a80bf2b174bcc7602b1bcfe77512278ee5"
+    },
+    {
+      "id": "k16",
+      "started_at": "2026-09-22T17:27:40.134Z",
+      "finished_at": "2026-09-22T17:27:42.661Z",
+      "cooldown_ms": 22328,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/k16.json",
+      "evidence_sha256": "57bc0803ac5dddcd405a3fad654a5efe556fcf89806811dba003783253556a75"
+    },
+    {
+      "id": "o01",
+      "started_at": "2026-09-22T17:30:08.402Z",
+      "finished_at": "2026-09-22T17:30:09.997Z",
+      "cooldown_ms": 145741,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o01.json",
+      "evidence_sha256": "593b7e6fd8d5f3e3af883e67d5ddc8a1f999ab59aae8882733ad442d0eb3e2f5"
+    },
+    {
+      "id": "o02",
+      "started_at": "2026-09-22T17:30:32.323Z",
+      "finished_at": "2026-09-22T17:30:33.698Z",
+      "cooldown_ms": 22326,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o02.json",
+      "evidence_sha256": "4f4204a15182e3edf7d16053a95f62b0382aa27417a1e1ca6e07fd67af23661c"
+    },
+    {
+      "id": "o03",
+      "started_at": "2026-09-22T17:30:56.022Z",
+      "finished_at": "2026-09-22T17:30:57.292Z",
+      "cooldown_ms": 22324,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o03.json",
+      "evidence_sha256": "174197edf5792c8e2897a2f3c73660db132274b8e7714d17dab5aa01da89efea"
+    },
+    {
+      "id": "o04",
+      "started_at": "2026-09-22T17:31:19.590Z",
+      "finished_at": "2026-09-22T17:31:21.212Z",
+      "cooldown_ms": 22298,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o04.json",
+      "evidence_sha256": "3e21eddaa0e9dcc45bb35f3d15b8df6d713b4a783f6be7c977e2b3c3fdf446f8"
+    },
+    {
+      "id": "o05",
+      "started_at": "2026-09-22T17:31:43.509Z",
+      "finished_at": "2026-09-22T17:31:46.332Z",
+      "cooldown_ms": 22297,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o05.json",
+      "evidence_sha256": "a04c8d5868a8dc03e5e99886e7d609f3baa2f7ad8562dbbaf41f86b2f4aa23c5"
+    },
+    {
+      "id": "o06",
+      "started_at": "2026-09-22T17:32:08.629Z",
+      "finished_at": "2026-09-22T17:32:10.547Z",
+      "cooldown_ms": 22297,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o06.json",
+      "evidence_sha256": "6b87c2f661d26c44a30cb7aacaf349f35a2f62a0529952511d46ca25a03bf336"
+    },
+    {
+      "id": "o07",
+      "started_at": "2026-09-22T17:32:32.852Z",
+      "finished_at": "2026-09-22T17:32:34.138Z",
+      "cooldown_ms": 22305,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o07.json",
+      "evidence_sha256": "e6b2ece81f60f6d0625557bae85a674f9dc456ddeddb9e681a5cf8de3d1e9b06"
+    },
+    {
+      "id": "o08",
+      "started_at": "2026-09-22T17:32:56.444Z",
+      "finished_at": "2026-09-22T17:32:57.895Z",
+      "cooldown_ms": 22306,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o08.json",
+      "evidence_sha256": "18f6476eb1e7689fc01b28f61df3f66ccb99c47a34947007ecb109e24a26c511"
+    },
+    {
+      "id": "o09",
+      "started_at": "2026-09-22T17:33:20.232Z",
+      "finished_at": "2026-09-22T17:33:21.629Z",
+      "cooldown_ms": 22337,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o09.json",
+      "evidence_sha256": "cb5ab15419c37f90857de3d0bed95013d096973a6b81f66de8dfd49d57b45cd3"
+    },
+    {
+      "id": "o10",
+      "started_at": "2026-09-22T17:33:43.943Z",
+      "finished_at": "2026-09-22T17:33:47.124Z",
+      "cooldown_ms": 22314,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o10.json",
+      "evidence_sha256": "7e4c31393062ec147310738447dfbbb6cbccb52b708be33e3914af17aff27f59"
+    },
+    {
+      "id": "o11",
+      "started_at": "2026-09-22T17:34:09.438Z",
+      "finished_at": "2026-09-22T17:34:11.011Z",
+      "cooldown_ms": 22314,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o11.json",
+      "evidence_sha256": "e3e407c32c50956453d6f34adc95f89bdde657151b67f57927a2b1467339be0e"
+    },
+    {
+      "id": "o12",
+      "started_at": "2026-09-22T17:34:33.317Z",
+      "finished_at": "2026-09-22T17:34:35.096Z",
+      "cooldown_ms": 22306,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o12.json",
+      "evidence_sha256": "fc7b2eb51091917f13cd05be48c24c88f7e2afdbc8686ba8b61a0152ed727a8a"
+    },
+    {
+      "id": "o13",
+      "started_at": "2026-09-22T17:34:57.396Z",
+      "finished_at": "2026-09-22T17:34:59.070Z",
+      "cooldown_ms": 22300,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o13.json",
+      "evidence_sha256": "cb9c983f80574f33919ad43fe823831eb769ccb99a59a217d6668f34891a34cb"
+    },
+    {
+      "id": "o14",
+      "started_at": "2026-09-22T17:35:21.379Z",
+      "finished_at": "2026-09-22T17:35:23.035Z",
+      "cooldown_ms": 22309,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o14.json",
+      "evidence_sha256": "338fb89cc0dd9f462d051e9c7db63947dad65d6355cdadd558f7c871d7ec5509"
+    },
+    {
+      "id": "o15",
+      "started_at": "2026-09-22T17:35:45.352Z",
+      "finished_at": "2026-09-22T17:35:47.335Z",
+      "cooldown_ms": 22317,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o15.json",
+      "evidence_sha256": "7104df5fca58f6b6a3b1a4d6a735c97ffc5f79f16f91b8713d9a8c62a458224e"
+    },
+    {
+      "id": "o16",
+      "started_at": "2026-09-22T17:36:22.242Z",
+      "finished_at": "2026-09-22T17:36:23.680Z",
+      "cooldown_ms": 34907,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o16.json",
+      "evidence_sha256": "bd49995c818c84d31c52ac04dd117d3477551e1ac908ab060df22f661e68d3d8"
+    },
+    {
+      "id": "o17",
+      "started_at": "2026-09-22T17:36:46.000Z",
+      "finished_at": "2026-09-22T17:36:47.377Z",
+      "cooldown_ms": 22320,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o17.json",
+      "evidence_sha256": "81659d4c5b1bc84771959415547095deb5df4547e45e21ada3a8fb23b7f60500"
+    },
+    {
+      "id": "o18",
+      "started_at": "2026-09-22T17:37:09.680Z",
+      "finished_at": "2026-09-22T17:37:13.288Z",
+      "cooldown_ms": 22303,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o18.json",
+      "evidence_sha256": "de8de43a625ab7cf5c06c0dc9e2188924a05307ecc8fe86578f66440cae781ef"
+    },
+    {
+      "id": "o19",
+      "started_at": "2026-09-22T17:37:35.623Z",
+      "finished_at": "2026-09-22T17:37:37.196Z",
+      "cooldown_ms": 22335,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o19.json",
+      "evidence_sha256": "6525e182f6ef7467da7622ad21c85146b3ccf3f5d42fb295b50f1a0d30ff2302"
+    },
+    {
+      "id": "o20",
+      "started_at": "2026-09-22T17:37:59.523Z",
+      "finished_at": "2026-09-22T17:38:02.018Z",
+      "cooldown_ms": 22327,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o20.json",
+      "evidence_sha256": "cb164a7a547fd0143f383dac74b6fb5d88c80fcf23fa988c86cccb90a995eea0"
+    },
+    {
+      "id": "o21",
+      "started_at": "2026-09-22T17:38:24.346Z",
+      "finished_at": "2026-09-22T17:38:25.770Z",
+      "cooldown_ms": 22328,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o21.json",
+      "evidence_sha256": "f98f8703c1dbac7d9e0b61b7d452940f46618e400db268bd9f421541289f3811"
+    },
+    {
+      "id": "o22",
+      "started_at": "2026-09-22T17:38:48.116Z",
+      "finished_at": "2026-09-22T17:38:49.555Z",
+      "cooldown_ms": 22346,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o22.json",
+      "evidence_sha256": "4d64553e30ba8c2b704c83c2c8d012ac84e23f45a619e989a7ec2b44ff5f0458"
+    },
+    {
+      "id": "o23",
+      "started_at": "2026-09-22T17:39:11.877Z",
+      "finished_at": "2026-09-22T17:39:13.353Z",
+      "cooldown_ms": 22322,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o23.json",
+      "evidence_sha256": "60d20fd314a43475b4492897d0ef378d71cbc064db506731313e3df8c5acf840"
+    },
+    {
+      "id": "o24",
+      "started_at": "2026-09-22T17:39:35.692Z",
+      "finished_at": "2026-09-22T17:39:37.239Z",
+      "cooldown_ms": 22339,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o24.json",
+      "evidence_sha256": "22c9d44bdbf3b90f12bfff45c9ecadb9a3a6c7dbde1118bbcdb65b3c55521b4f"
+    },
+    {
+      "id": "o25",
+      "started_at": "2026-09-22T17:39:59.580Z",
+      "finished_at": "2026-09-22T17:40:02.306Z",
+      "cooldown_ms": 22341,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o25.json",
+      "evidence_sha256": "267e353c02b0245be52d32df5a488e0e05b70f74fc11229eed7236b2b95f439f"
+    },
+    {
+      "id": "o26",
+      "started_at": "2026-09-22T17:40:24.646Z",
+      "finished_at": "2026-09-22T17:40:25.992Z",
+      "cooldown_ms": 22340,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o26.json",
+      "evidence_sha256": "71dd2fda1d11eae06cdd1c939784ac5cc688745493ce91975146680afe7f1988"
+    },
+    {
+      "id": "o27",
+      "started_at": "2026-09-22T17:40:48.308Z",
+      "finished_at": "2026-09-22T17:40:50.100Z",
+      "cooldown_ms": 22316,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o27.json",
+      "evidence_sha256": "e83942cc73301d66060be88334cfdb4a343c23800010b847da1144bb2a487583"
+    },
+    {
+      "id": "o28",
+      "started_at": "2026-09-22T17:41:12.449Z",
+      "finished_at": "2026-09-22T17:41:13.831Z",
+      "cooldown_ms": 22349,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o28.json",
+      "evidence_sha256": "2ede576761dd04617bf05c0f78fd40cf7cfd89e9406c0a8c946724ee570d43ca"
+    },
+    {
+      "id": "o29",
+      "started_at": "2026-09-22T17:41:36.173Z",
+      "finished_at": "2026-09-22T17:41:37.716Z",
+      "cooldown_ms": 22342,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o29.json",
+      "evidence_sha256": "18c26d85191fdcd12fae03abdfebb016e0b27eb2762c14f048c3a21b061e76a4"
+    },
+    {
+      "id": "o30",
+      "started_at": "2026-09-22T17:42:00.023Z",
+      "finished_at": "2026-09-22T17:42:01.545Z",
+      "cooldown_ms": 22307,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o30.json",
+      "evidence_sha256": "c9c615f5765a158ee8084ac32399b4cc0b028e7f01304ecd82b8d55ef5a24f60"
+    },
+    {
+      "id": "o31",
+      "started_at": "2026-09-22T17:42:34.711Z",
+      "finished_at": "2026-09-22T17:42:37.610Z",
+      "cooldown_ms": 33166,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o31.json",
+      "evidence_sha256": "048a76ca21e620e246ad07a72c5887ca6dff2e59eed2b9e1145f70ce2769aabe"
+    },
+    {
+      "id": "o32",
+      "started_at": "2026-09-22T17:42:59.933Z",
+      "finished_at": "2026-09-22T17:43:02.405Z",
+      "cooldown_ms": 22323,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o32.json",
+      "evidence_sha256": "5ca417f4c5f95cb2b0a64d15ab42651bbb79d29c1c378f609c5f3546252dfa71"
+    },
+    {
+      "id": "o33",
+      "started_at": "2026-09-22T17:43:24.714Z",
+      "finished_at": "2026-09-22T17:43:26.417Z",
+      "cooldown_ms": 22309,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o33.json",
+      "evidence_sha256": "6161364563388f740cb75ab3cedacc79b46c1ca19a10a65d9e2a733eb47a2cc4"
+    },
+    {
+      "id": "o34",
+      "started_at": "2026-09-22T17:43:48.725Z",
+      "finished_at": "2026-09-22T17:43:50.252Z",
+      "cooldown_ms": 22308,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o34.json",
+      "evidence_sha256": "361024f36c029d722210be5f8bc2fa3761a0dec1618837d9bfac1959d49ecb72"
+    },
+    {
+      "id": "o35",
+      "started_at": "2026-09-22T17:44:12.572Z",
+      "finished_at": "2026-09-22T17:44:15.693Z",
+      "cooldown_ms": 22320,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o35.json",
+      "evidence_sha256": "67109380179df4d3761dd0f654c8715b72a94196544dde65bfa0f3b2a1d9df09"
+    },
+    {
+      "id": "o36",
+      "started_at": "2026-09-22T17:44:38.041Z",
+      "finished_at": "2026-09-22T17:44:39.639Z",
+      "cooldown_ms": 22348,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o36.json",
+      "evidence_sha256": "5305aae7e26b3bc9bcb7a8b67d563aead0154847fc399e4cf35613724a60f8c3"
+    },
+    {
+      "id": "o37",
+      "started_at": "2026-09-22T17:45:01.947Z",
+      "finished_at": "2026-09-22T17:45:03.392Z",
+      "cooldown_ms": 22308,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o37.json",
+      "evidence_sha256": "3652c23987d99c58f1356c0168e82d0e4ea96d0b59a921a4da6108817e0829f6"
+    },
+    {
+      "id": "o38",
+      "started_at": "2026-09-22T17:45:25.711Z",
+      "finished_at": "2026-09-22T17:45:27.064Z",
+      "cooldown_ms": 22319,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o38.json",
+      "evidence_sha256": "a482827ae068d6e7393a298ed4d84e4b7288798aca6dab6248b473ac5ba4da1e"
+    },
+    {
+      "id": "o39",
+      "started_at": "2026-09-22T17:45:49.405Z",
+      "finished_at": "2026-09-22T17:45:52.062Z",
+      "cooldown_ms": 22341,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o39.json",
+      "evidence_sha256": "2880e2b9c50c7d35cb9bcf950409c5fdff40c1c9a9827c3cc26b3abfa6110661"
+    },
+    {
+      "id": "o40",
+      "started_at": "2026-09-22T17:46:14.373Z",
+      "finished_at": "2026-09-22T17:46:16.042Z",
+      "cooldown_ms": 22311,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o40.json",
+      "evidence_sha256": "259c20cda8159bfce095038cf7eb7295679f2ca54460690274af65364659f85c"
+    },
+    {
+      "id": "o41",
+      "started_at": "2026-09-22T17:46:38.395Z",
+      "finished_at": "2026-09-22T17:46:39.728Z",
+      "cooldown_ms": 22353,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o41.json",
+      "evidence_sha256": "073411fc6358435e3414d1343739e63eb49b49ca3d6b624bacd2d0ffb9d92984"
+    },
+    {
+      "id": "o42",
+      "started_at": "2026-09-22T17:47:02.092Z",
+      "finished_at": "2026-09-22T17:47:03.691Z",
+      "cooldown_ms": 22364,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o42.json",
+      "evidence_sha256": "46a064509718265c929417e94d1bb26e5c75be829a8274e74f56bc3f78e7c724"
+    },
+    {
+      "id": "o43",
+      "started_at": "2026-09-22T17:47:26.012Z",
+      "finished_at": "2026-09-22T17:47:28.361Z",
+      "cooldown_ms": 22321,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o43.json",
+      "evidence_sha256": "2c6ef4016271a0ff1b93876dc877b02e16ff8ef9350a6d673761724eb4a386e8"
+    },
+    {
+      "id": "o44",
+      "started_at": "2026-09-22T17:47:50.705Z",
+      "finished_at": "2026-09-22T17:47:52.059Z",
+      "cooldown_ms": 22344,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o44.json",
+      "evidence_sha256": "26ed920963fa72dac04d50f3fbdd68c61477875c5490f9ed3405eb1c950e7088"
+    },
+    {
+      "id": "o45",
+      "started_at": "2026-09-22T17:48:14.362Z",
+      "finished_at": "2026-09-22T17:48:15.889Z",
+      "cooldown_ms": 22303,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o45.json",
+      "evidence_sha256": "ecb9a8a97661316c90308714a86745242257db4821d086341d9a483e1d7894ce"
+    },
+    {
+      "id": "o06tail",
+      "started_at": "2026-09-22T17:49:43.937Z",
+      "finished_at": "2026-09-22T17:49:45.642Z",
+      "cooldown_ms": 88048,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o06tail.json",
+      "evidence_sha256": "9d729625bf9b4f906ace5c6848a8acda051a3026cad77f3ec59d7a430f0bc2e4"
+    },
+    {
+      "id": "o14tail",
+      "started_at": "2026-09-22T17:50:07.953Z",
+      "finished_at": "2026-09-22T17:50:10.304Z",
+      "cooldown_ms": 22311,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o14tail.json",
+      "evidence_sha256": "6fb32c371cc59e3b7a190a96007d2fa6d5f95aa6c1d35ca3795d5c55b0eee1e2"
+    },
+    {
+      "id": "o15tail",
+      "started_at": "2026-09-22T17:50:32.641Z",
+      "finished_at": "2026-09-22T17:50:33.939Z",
+      "cooldown_ms": 22337,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o15tail.json",
+      "evidence_sha256": "50268da571253ea24eec5229c66f482684cd07819e9ec332730858be02adc46a"
+    },
+    {
+      "id": "o32tail",
+      "started_at": "2026-09-22T17:50:56.246Z",
+      "finished_at": "2026-09-22T17:50:57.854Z",
+      "cooldown_ms": 22307,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/o32tail.json",
+      "evidence_sha256": "f154b8ec1809e4da5939c333e713fcb0d41c789dfeb39110c6742833e3d4d77a"
+    },
+    {
+      "id": "d01",
+      "started_at": "2026-09-22T17:51:20.195Z",
+      "finished_at": "2026-09-22T17:51:23.601Z",
+      "cooldown_ms": 22341,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/d01.json",
+      "evidence_sha256": "ba5584f5eb47ee86d6561da92099747bb8e832b985a7426c4527ba6bcbb6404b"
+    },
+    {
+      "id": "d08",
+      "started_at": "2026-09-22T17:51:48.459Z",
+      "finished_at": "2026-09-22T17:51:53.264Z",
+      "cooldown_ms": 24858,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/d08.json",
+      "evidence_sha256": "8849af2647c71632c370c6394d63bd2e189d9e818f90877b9c88623699abced2"
+    },
+    {
+      "id": "d09",
+      "started_at": "2026-09-22T17:52:15.570Z",
+      "finished_at": "2026-09-22T17:52:17.046Z",
+      "cooldown_ms": 22306,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/d09.json",
+      "evidence_sha256": "10194b341853accbddd6c700c590342d1453e3e4786efec7299a2c5a36169cb8"
+    },
+    {
+      "id": "d10",
+      "started_at": "2026-09-22T17:52:39.363Z",
+      "finished_at": "2026-09-22T17:52:40.676Z",
+      "cooldown_ms": 22317,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/d10.json",
+      "evidence_sha256": "e7235ac741a664a74d888c8ec86f7e626dad05474f35f7042e0b45cddab7fffa"
+    },
+    {
+      "id": "d11",
+      "started_at": "2026-09-22T17:53:02.978Z",
+      "finished_at": "2026-09-22T17:53:04.561Z",
+      "cooldown_ms": 22302,
+      "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-23/raw/d11.json",
+      "evidence_sha256": "e1faba92e41cef3c1633db941bd555c1a997524dc6ac5cedcb2ac2eac192204a"
+    }
+  ]
+}

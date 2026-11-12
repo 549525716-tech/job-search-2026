@@ -1,0 +1,704 @@
+[
+  {
+    "company": "某杭州互联网上市公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "互联网已上市10000人以上",
+    "source_url": "https://www.liepin.com/a/79609533.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%401_79609533%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=79609533&job_kind=1&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=0",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "某深圳互联网上市公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "互联网已上市10000人以上",
+    "source_url": "https://www.liepin.com/a/79887237.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%401_79887237%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=79887237&job_kind=1&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=1",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "强生(中国)投资有限公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "制药10000人以上",
+    "source_url": "https://www.liepin.com/job/1985297533.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_85297533%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=85297533&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=2",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "某广州大型整车制造公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "整车制造B轮500-999人",
+    "source_url": "https://www.liepin.com/a/79139401.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%401_79139401%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=79139401&job_kind=1&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=3",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "某上海人力资源服务公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "人力资源服务融资未公开100-499人",
+    "source_url": "https://www.liepin.com/a/79981131.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%401_79981131%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=79981131&job_kind=1&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=4",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "某广州大型人工智能公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "人工智能C轮1000-2000人",
+    "source_url": "https://www.liepin.com/a/79867821.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%401_79867821%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=79867821&job_kind=1&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=5",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "京东物流",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "货运/物流/仓储港股上市10000人以上",
+    "source_url": "https://www.liepin.com/job/1970662471.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_70662471%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=70662471&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=6",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "某IT服务公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "IT服务",
+    "source_url": "https://www.liepin.com/a/79904751.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%401_79904751%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=79904751&job_kind=1&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=7",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "某上海仪器仪表公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "仪器仪表50-99人",
+    "source_url": "https://www.liepin.com/a/78587689.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%401_78587689%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=78587689&job_kind=1&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=8",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "京东物流",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "货运/物流/仓储港股上市10000人以上",
+    "source_url": "https://www.liepin.com/job/1973112379.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_73112379%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=73112379&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=9",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "艾利丹尼森(中国)",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "印刷/包装/造纸5000-10000人",
+    "source_url": "https://www.liepin.com/job/1985427469.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_85427469%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=85427469&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=10",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "特斯拉中国",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "新能源汽车10000人以上",
+    "source_url": "https://www.liepin.com/job/1965064795.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_65064795%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=65064795&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=11",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "长城智选信息科技(保定)有限公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "新零售",
+    "source_url": "https://www.liepin.com/job/1983265261.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_83265261%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=83265261&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=12",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "尚品宅配集团",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "家具/家居沪深A股上市10000人以上",
+    "source_url": "https://www.liepin.com/job/1984460339.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_84460339%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=84460339&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=13",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "远海国际旅游集团",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "旅游A轮500-999人",
+    "source_url": "https://www.liepin.com/job/1983447197.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_83447197%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=83447197&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=14",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "字节跳动",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "互联网其他10000人以上",
+    "source_url": "https://www.liepin.com/job/1985293143.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_85293143%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=85293143&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=15",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "特斯拉中国",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "新能源汽车10000人以上",
+    "source_url": "https://www.liepin.com/job/1965064793.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_65064793%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=65064793&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=16",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "辉瑞中国",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "制药10000人以上",
+    "source_url": "https://www.liepin.com/job/1985238135.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_85238135%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=85238135&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=17",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "特斯拉中国",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "新能源汽车10000人以上",
+    "source_url": "https://www.liepin.com/job/1941262805.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_41262805%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=41262805&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=18",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "京东物流",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "货运/物流/仓储港股上市10000人以上",
+    "source_url": "https://www.liepin.com/job/1973460913.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_73460913%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=73460913&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=19",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "长城智选信息科技(保定)有限公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "新零售",
+    "source_url": "https://www.liepin.com/job/1985348437.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_85348437%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=85348437&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=20",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "长城智选信息科技(保定)有限公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "新零售",
+    "source_url": "https://www.liepin.com/job/1982713851.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_82713851%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=82713851&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=21",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "特斯拉中国",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "新能源汽车10000人以上",
+    "source_url": "https://www.liepin.com/job/1965064689.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_65064689%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=65064689&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=22",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "华为终端有限公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "电子/半导体/集成电路",
+    "source_url": "https://www.liepin.com/job/1982984467.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_82984467%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=82984467&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=23",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "欣旺达动力科技股份有限公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "新能源融资未公开10000人以上",
+    "source_url": "https://www.liepin.com/job/1978158743.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_78158743%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=78158743&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=24",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "利真汽车",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "基金/证券/期货1000-2000人",
+    "source_url": "https://www.liepin.com/job/1984974905.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_84974905%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=84974905&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=25",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "字节跳动",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "互联网其他10000人以上",
+    "source_url": "https://www.liepin.com/job/1984826601.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_84826601%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=84826601&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=26",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "特斯拉中国",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "新能源汽车10000人以上",
+    "source_url": "https://www.liepin.com/job/1930653521.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_30653521%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=30653521&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=27",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "京东商城",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "互联网已上市10000人以上",
+    "source_url": "https://www.liepin.com/job/1984709989.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_84709989%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=84709989&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=28",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "华为终端有限公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "电子/半导体/集成电路",
+    "source_url": "https://www.liepin.com/job/1981245943.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_81245943%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=81245943&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=29",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "字节跳动",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "互联网其他10000人以上",
+    "source_url": "https://www.liepin.com/job/1983638689.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_83638689%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=83638689&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=30",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "法本信息",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "IT服务已上市10000人以上",
+    "source_url": "https://www.liepin.com/job/1965654711.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_65654711%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=65654711&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=31",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "字节跳动",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "互联网其他10000人以上",
+    "source_url": "https://www.liepin.com/job/1984639723.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_84639723%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=84639723&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=32",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "钛动科技",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "互联网B轮500-999人",
+    "source_url": "https://www.liepin.com/job/1984887787.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_84887787%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=84887787&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=33",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "东风汽车",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "整车制造港股上市10000人以上",
+    "source_url": "https://www.liepin.com/job/1983718853.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_83718853%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=83718853&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=34",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "启境汽车",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "汽车500-999人",
+    "source_url": "https://www.liepin.com/job/1984949067.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_84949067%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=84949067&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=35",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "岚图汽车",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "新能源汽车港股上市5000-10000人",
+    "source_url": "https://www.liepin.com/job/1982068483.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_82068483%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=82068483&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=36",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "京东物流",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "货运/物流/仓储港股上市10000人以上",
+    "source_url": "https://www.liepin.com/job/1966853787.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_66853787%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=66853787&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=37",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "货拉拉",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "生活服务O2OD轮及以上5000-10000人",
+    "source_url": "https://www.liepin.com/job/1984923217.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_84923217%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=84923217&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=38",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "智马达汽车有限公司",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "整车制造1000-2000人",
+    "source_url": "https://www.liepin.com/job/1975303437.shtml?pgRef=c_pc_home_page%3Ac_pc_home_hp_job_listcard%402_75303437%3A1%3Ad3c34b7f-78ae-4a7e-bf50-56f8e24b9760&d_sfrom=pc_hp_mix&head_id=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&as_from=pc_hp_mix&job_id=75303437&job_kind=2&d_ckId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_headId=phMlyVFzfH7MYfqph2SutJn4WmBLOPXU&d_posi=39",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-20/raw/l01.json",
+    "evidence_sha256": "dbb550802b4395ae33de2450d0c58cadfb87cea2b57612e68850c7b9b8fbd326",
+    "observation_dates": [
+      "2026-09-20T15:33:45.396Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "Noumena（物自体）",
+    "industry": "AI 科技公司",
+    "discovery_industry": "AI 科技公司",
+    "company_facts_quote": "Who We Are\n\nNoumena（物自体）是一家聚焦品牌增长智能（Growth Intelligence）的 AI 科技公司。我们把大模型、AI Agent 与自动化工作流，做成能真正进入企业营销与增长场景、可落地、可交付的解决方案，代表产品与方向包括 GrowClaw、OpenClaw 与企业级 AI Agent 工作流。\n\n我们正处在业务快速推进期，与多家头部品牌客户深度共创：每一个重点客户，都是一次把 AI 能力打磨成真实业务结果的机会。团队不大、节奏很快、每个人都在一线，你做的事会直接影响业务，而不会被流程稀释。\n\n如果你相信 AI 正在重写营销和增长的做法，并且想亲手参与这件事，欢迎加入我们。",
+    "source_url": "https://www.noumena.com.cn/career/",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o02.json",
+    "evidence_sha256": "77d00e6e69531fcae37e4d3e03c5a350b882f8d1afb7919adc2c41806d8f3fec",
+    "observation_dates": [
+      "2026-09-21T02:18:14.972Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "字节跳动",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": "飞书商业化团队（Go to Market）负责将飞书先进产品和服务全面推向中国和国际市场，通过制定精准的业务战略，进行破圈的市场营销，深入理解不同行业的趋势和特点，传递飞书的理念和价值给不同行业的企业客户并达成业务合作，帮助客户加强使用深度和广度，最终让飞书成为各行各业先进企业的首选、持续助力企业组织升级。目前已在中国、新加坡、美国、日本等国家和地区建立了商业化团队，开启了为全球各行各业组织和个人提升创造力和效率的历程。",
+    "source_url": "https://jobs.ultraai.site/jobs/bytedance/7673717322767501621",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o03.json",
+    "evidence_sha256": "3f6408d0c0d910a27baf598d6060516e8937ae50134de220d059cdc477991a5a",
+    "observation_dates": [
+      "2026-09-21T02:18:38.579Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "网易智企",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": null,
+    "source_url": "https://jobs.ultraai.site/jobs/netease/77241",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o04.json",
+    "evidence_sha256": "a4a8dd564c8a3fabda97f4f9e7dcab83baffca8c115908a669bc9291b6385435",
+    "observation_dates": [
+      "2026-09-21T02:19:02.486Z"
+    ],
+    "company_facts_status": "unknown"
+  },
+  {
+    "company": "飞轮科技",
+    "industry": "实时数据仓库技术",
+    "discovery_industry": "实时数据仓库技术",
+    "company_facts_quote": "## 年轻且充满活力的团队\n\n飞轮科技，致力于打造全球领先的实时数据仓库技术，推崇基于开源的商业化模式。\n\n在这里，你可以全身心投入最前沿的世界级开源技术的创新研发。\n\n在这里，你可以构建企业级的数据仓库软件和面向未来的云原生数据仓库服务，与中国企业一起创新未来。\n\n在这里，我们鼓励各种形式的创新，推崇极致文化，无论你是哪种风格的专业人士，我们都很欢迎你走进飞轮科技，了解它，并将它打造的更好。\n\n如果你也不甘平庸，对未来抱有理想，欢迎加入200多人的飞轮科技大家庭。",
+    "source_url": "https://www.selectdb.com/join-us",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o05.json",
+    "evidence_sha256": "ea130dfcc5528bb0637e4d7483923fab6bd5b0007da8f680af208bae57f58030",
+    "observation_dates": [
+      "2026-09-21T02:19:26.435Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "YMatrix",
+    "industry": "数据库/实时分析数仓",
+    "discovery_industry": "数据库/实时分析数仓",
+    "company_facts_quote": null,
+    "source_url": "https://www.ymatrix.ai/joinus",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o06.json",
+    "evidence_sha256": "52c1a2d354d32cecae27534efa2d46b4acb470d01a64f03e53d9c2c93854be1f",
+    "observation_dates": [
+      "2026-09-21T02:19:50.660Z"
+    ],
+    "company_facts_status": "unknown"
+  },
+  {
+    "company": "联想懂的通信",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": null,
+    "source_url": "https://www.lenovoconnect.com/cn/contactus/recruit/detail?id=43",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o07.json",
+    "evidence_sha256": "bb55bfa2dfb9f79391121f36f33287c5793e9dc39764a1bb427457347bc54f80",
+    "observation_dates": [
+      "2026-09-21T02:20:14.681Z"
+    ],
+    "company_facts_status": "unknown"
+  },
+  {
+    "company": "妙蛙 GEO",
+    "industry": "AI 搜索/GEO",
+    "discovery_industry": "AI 搜索/GEO",
+    "company_facts_quote": "妙蛙 GEO\n\n天津思必得科技有限公司旗下产品 · 把 AI 搜索里的变化，变成企业下一步能做的事。",
+    "source_url": "https://miaowageo.com/careers/revenue-operations-manager",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o09.json",
+    "evidence_sha256": "a9b9950504a28ae7a43621887943ac5adcbbdf7ba115afcb7524cc893acf6ccd",
+    "observation_dates": [
+      "2026-09-21T02:21:02.755Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "百度",
+    "industry": null,
+    "discovery_industry": null,
+    "company_facts_quote": null,
+    "source_url": "https://talent.baidu.com/jobs/detail/SOCIAL/86016799-d234-4a3e-bb9c-917d0a355ef9",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o10.json",
+    "evidence_sha256": "a4c78c19d155b39f02e9255162e851baa9926d5cb31da3463d02da582a3a820f",
+    "observation_dates": [
+      "2026-09-21T02:21:26.689Z"
+    ],
+    "company_facts_status": "unknown"
+  },
+  {
+    "company": "Airwallex",
+    "industry": "全球支付与金融平台",
+    "discovery_industry": "全球支付与金融平台",
+    "company_facts_quote": "Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale.\nProudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood Ventures, Sequoia, Salesforce Ventures, DST Global, and Lone Pine Capital, Airwallex is leading the charge in building the global payments and financial platform of the future. If you’re ready to do the most ambitious work of your career, join us.\n## Attributes We Value\n\nWe hire successful builders with founder-like energy who want real impact, accelerated learning, and true ownership. You bring strong role-related expertise and sharp thinking, and you’re motivated by our mission and cite11†operating principles†www.airwallex.com . You move fast with good judgment, dig deep with curiosity, and make decisions from first principles, balancing speed and rigor.\nYou’re humble and collaborative; turn zero‑to‑one ideas into real products, and you “get stuff done” end-to-end. You use AI to work smarter and solve problems faster. Here, you’ll tackle complex, high‑visibility problems with exceptional teammates and grow your career as we build the future of global banking. If that sounds like you, let’s build what’s next.",
+    "source_url": "https://careers.airwallex.com/job/0014706e-279e-4a19-8d55-7dd5cdacc51b/gtm-partnerships-manager-b2b-sme-growth/",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o13.json",
+    "evidence_sha256": "5a2c1ce487c017331be9cc410c994f20397659f0675a94c1d7b321cc30381723",
+    "observation_dates": [
+      "2026-09-21T02:24:03.852Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "正航软件",
+    "industry": "企业管理/工业软件",
+    "discovery_industry": "企业管理/工业软件",
+    "company_facts_quote": null,
+    "source_url": "https://www.chixm.com/job/",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o14.json",
+    "evidence_sha256": "d8924bc7528ab6b275e9c76ae9422c3fdc340eb4da849503863af286867aad0f",
+    "observation_dates": [
+      "2026-09-21T02:24:27.725Z"
+    ],
+    "company_facts_status": "unknown"
+  },
+  {
+    "company": "华天软件",
+    "industry": "智能制造软件",
+    "discovery_industry": "智能制造软件",
+    "company_facts_quote": "山东山大华天软件股份有限公司 Copyright© 2023 Hoteamsoft. cite124†鲁ICP备13032030号†www.beian.miit.gov.cn cite125†Powered by Yongsy†www.yongsy.com cite126†隐私政策 | cite127†SiteMap",
+    "source_url": "https://www.hoteamsoft.com/join-us?slid=1",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o16.json",
+    "evidence_sha256": "dadda1f0890ce678e5c196e98b4767a55f6fdb4df0510862e3ff2a6e61f45fd3",
+    "observation_dates": [
+      "2026-09-21T02:25:16.235Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "华天软件",
+    "industry": "智能制造软件",
+    "discovery_industry": "智能制造软件",
+    "company_facts_quote": "山东山大华天软件股份有限公司 Copyright© 2023 Hoteamsoft. cite121†鲁ICP备13032030号†www.beian.miit.gov.cn cite122†Powered by Yongsy†www.yongsy.com cite123†隐私政策 | cite124†SiteMap",
+    "source_url": "https://www.hoteamsoft.com/join-us_2?slid=1",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o17.json",
+    "evidence_sha256": "22ca1b32dfe56ec391941a910dea35094502ded745574557b59703799c37ebf2",
+    "observation_dates": [
+      "2026-09-21T02:26:50.469Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "华天软件",
+    "industry": "智能制造软件",
+    "discovery_industry": "智能制造软件",
+    "company_facts_quote": "山东山大华天软件股份有限公司 Copyright© 2023 Hoteamsoft. cite121†鲁ICP备13032030号†www.beian.miit.gov.cn cite122†Powered by Yongsy†www.yongsy.com cite123†隐私政策 | cite124†SiteMap",
+    "source_url": "https://www.hoteamsoft.com/join-us_3?slid=1",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o18.json",
+    "evidence_sha256": "e010bc33ef065f9a359e727e04a35070bc3cb6f6ca70d39c97202cd46b6ea486",
+    "observation_dates": [
+      "2026-09-21T02:27:14.347Z"
+    ],
+    "company_facts_status": "self_described_not_independently_verified"
+  },
+  {
+    "company": "华天软件",
+    "industry": "智能制造软件",
+    "discovery_industry": "智能制造软件",
+    "company_facts_quote": null,
+    "source_url": "https://www.hoteamsoft.com/join-us_4?slid=1",
+    "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o19r.json",
+    "evidence_sha256": "57676edec142be1075dc7f03a4de7f982af17a940c35debdeb584cbbb32ebeb1",
+    "observation_dates": [
+      "2026-09-21T12:09:24.682Z"
+    ],
+    "company_facts_status": "unknown"
+  }
+]

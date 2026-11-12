@@ -1,0 +1,30 @@
+C3.ai AI Sales Engineer
+Company: C3.ai
+Category: Enterprise AI
+OTE: $155K to $230K
+Work model: Hybrid (Redwood City)
+Estimated SE team size: 25 to 40 SEs
+
+Company positioning
+C3.ai builds enterprise AI application software for large organizations in industries like manufacturing, energy, defense, and financial services. The company's platform enables customers to build, deploy, and operate AI applications at scale without building custom ML infrastructure from scratch. C3.ai differentiates from horizontal AI platforms by providing pre-built AI applications for specific industry use cases, which accelerates time to value for customers who want AI outcomes without a multi-year development investment.
+
+AI products and platform
+C3.ai's product line includes the C3 AI Platform (the core application development platform), C3 Generative AI (enterprise search and generation powered by LLMs), and over 40 pre-built AI applications spanning predictive maintenance, fraud detection, supply chain optimization, energy management, and defense readiness. The platform supports both no-code configuration for business users and custom development for data science teams. C3 Generative AI allows customers to search across enterprise data using natural language and generate insights without writing SQL or Python.
+
+Role details
+Sales Engineers at C3.ai help enterprise customers evaluate and implement AI applications for their specific industry use cases. A typical engagement involves understanding the customer's operational challenges (equipment failures, supply chain disruptions, fraud patterns), matching those challenges to C3.ai's pre-built applications, configuring a proof-of-concept on customer data, and presenting measurable ROI projections. You would demo C3 Generative AI's natural language search across enterprise data, walk through predictive maintenance models using the customer's IoT sensor data, and show how the platform integrates with existing ERP and operational systems. The role requires understanding industrial operations alongside AI/ML concepts, because C3.ai customers are often manufacturers, utilities, and defense organizations rather than technology companies.
+
+Technical skills and requirements
+- Understanding of enterprise AI application architecture
+- Python skills and familiarity with data integration patterns
+- Knowledge of industry-specific use cases (manufacturing, energy, or defense)
+- Experience with time-series data, IoT, and operational technology
+- Ability to quantify AI ROI in business terms (cost reduction, yield improvement)
+
+Interview process
+C3.ai interviews run three to four weeks. The process includes a recruiter screen, hiring manager conversation, a technical assessment on AI/ML concepts and platform architecture, a demo exercise where you present a C3.ai solution for a customer scenario, and a final round with leadership. C3.ai values candidates who can translate AI capabilities into industry-specific business outcomes. The demo exercise should show how a pre-built C3.ai application solves a concrete operational problem with measurable ROI. Industry domain knowledge (manufacturing, energy, defense) differentiates candidates beyond pure technical skills.
+
+Salary and compensation
+OTE for C3.ai SEs ranges from $155,000 to $230,000, with base salaries between $115,000 and $150,000. C3.ai stock (AI) provides publicly traded equity. RSU grants vest over four years. The stock has been volatile, reflecting broader AI market sentiment. Benefits include health insurance, 401(k), flexible PTO, and professional development stipends. The company's enterprise customer base and government contracts provide revenue stability.
+
+Source URL: https://aisepulse.com/companies/c3ai/

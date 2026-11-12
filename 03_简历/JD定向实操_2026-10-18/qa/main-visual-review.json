@@ -1,0 +1,25 @@
+{
+  "status": "passed_for_ten_local_draft_documents",
+  "reviewer": "main conversation model, also material author; not independent visual QA",
+  "documents": 10,
+  "pages_inspected": 20,
+  "render_directory": "qa/variants",
+  "checks": {
+    "all_pages_visually_inspected": true,
+    "chinese_glyphs_present": true,
+    "original_photo_present": true,
+    "no_text_overlap_or_clipping_seen": true,
+    "numbered_results_readable": true,
+    "no_footer_watermark_version_date_or_page_number": true,
+    "two_pages_per_variant": true
+  },
+  "font_repair": "Task-local FONTCONFIG_FILE with macOS system fonts. Initial reference render had missing Chinese glyphs; repaired reference and all variants were rendered again. No global font configuration or source DOCX change.",
+  "browser_verification": "qa/comparison-visual.json",
+  "artifact_integrity_verification": "qa/delivery-check.json",
+  "independent_semantic_review": "careers/docs/qa/resume-tailoring-2026-10-18-independent.md",
+  "ready_to_submit": false,
+  "remaining": [
+    "Current hiring and salary composition are not live-verified.",
+    "Final target/contact, authorization and upload/receipt verification are not implemented in this material batch."
+  ]
+}

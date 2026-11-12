@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "role_id": "compensation_reviewer",
+  "execution": {
+    "agent_id": null,
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "medium"
+  },
+  "completed_at": "2026-09-10T15:33:46.155Z",
+  "status": "complete",
+  "scope": "只核验本地 market-leads.json 中的15条公开薪资线索、当前固定月薪至少CNY20000规则及其本地evidence；不联网、不投递、不修改主文件。",
+  "summary": "15条线索均为公开招聘索引或摘要证据，未发现可将公开区间明确认定为固定月薪底薪至少CNY20000的条目。薪资区间、薪数和职位索引不能替代固定底薪或完整JD核验。最值得继续核底薪的是公开区间下限达到20k的AI销售、生态渠道、B2B销售管理、模型商务/业务运营、AI解决方案顾问和销售运营类别，但当前都只能标为待核。",
+  "findings": [
+    {
+      "title": "固定月薪规则需要明确底薪绑定",
+      "conclusion": "当前规则是CNY、按月、固定月薪/底薪至少20000，并要求原文明确识别固定底薪；普通薪资区间、OTE、提成总包或年薪不能直接达标。",
+      "evidence": [
+        {
+          "path": "careers/config/preferences.json",
+          "quote": "\"salary\": {\"mode\": \"fixed_monthly_base_minimum\", \"currency\": \"CNY\", \"period\": \"month\", \"min_fixed_monthly_base\": 20000, \"require_explicit_base_disclosure\": true"
+        },
+        {
+          "path": "careers/salary-target.mjs",
+          "quote": "// Only a complete, simple base-pay statement can bind the amount to fixed pay."
+        }
+      ],
+      "risk": "把25-30k、20-30k·15薪等公开区间当作固定底薪，会把未知薪资构成误判为达标。",
+      "next_action": "后续仅在原始职位材料明确写出固定月薪/底薪金额并绑定月度口径时再复核。"
+    },
+    {
+      "title": "15条公开线索没有一条完成固定底薪达标证明",
+      "conclusion": "15条lead均保留为待核，不判定达标；其中公开区间下限达到20k的候选类别也只代表核验优先级，不代表个人推荐或公司稳定性。",
+      "evidence": [
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "公开招聘索引线索，与完整官网JD隔离。薪资区间不等于固定底薪；详情受限后停止，不虚构JD或职位直链。"
+        },
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "\"salary_raw\": \"25-30k\""
+        },
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "\"salary_raw\": \"20-30k·15薪\""
+        }
+      ],
+      "risk": "区间下限或薪数可能对应总包、浮动或未披露结构；公开索引也不等于当前在招或完整JD。",
+      "next_action": "把所有lead的薪资状态维持为unknown/pending，待有可审计的固定底薪原文后再更新核验结果。"
+    },
+    {
+      "title": "最值得优先核底薪的类别已识别",
+      "conclusion": "优先核验lead_id：360-ai-sales、360-agent-channel-gz、360-agent-channel-sh、360-overseas-channel、360-product-marketing、360-social-ops、meituan-model-sales、meituan-model-ops、tungee-sales-manager、wanxiang-solutions、ruijie-channel-ops；这些条目的公开区间下限为20k或更高，但目前仍不等于固定底薪达标。",
+      "evidence": [
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "\"lead_id\": \"meituan-model-sales\""
+        },
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "\"salary_raw\": \"25-40k·15薪\""
+        },
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "\"lead_id\": \"ruijie-channel-ops\""
+        },
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "\"salary_raw\": \"20-30k·14薪\""
+        }
+      ],
+      "risk": "这是薪资核验排序，不是匹配分、推荐结论或独立审批JD；完整职责、底薪构成和在招状态仍未核实。",
+      "next_action": "若后续获得合法可读的原始职位材料，按上述类别优先查找固定底薪、绩效条件、提成及年薪/薪数口径。"
+    },
+    {
+      "title": "来源完整性与职位直链边界",
+      "conclusion": "百度条目是本批唯一记录职位级job_url的线索；其余条目只有公司页或搜索结果页，不应冒充职位直链。公开索引证据仍不能替代在招状态核验。",
+      "evidence": [
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "\"lead_id\": \"baidu-cloud-ops\""
+        },
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "\"job_url\": \"https://www.liepin.com/job/1985206063.shtml\""
+        },
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "\"job_url\": null"
+        }
+      ],
+      "risk": "把公司页、关键词搜索页或索引摘要写成职位直链，会造成来源可追溯性错误。",
+      "next_action": "保留非百度条目的job_url为null，除非本地后续证据明确取得对应职位级URL。"
+    },
+    {
+      "title": "猎聘详情已按验证码停源，海外产品营销不作个人推荐",
+      "conclusion": "猎聘详情访问因验证码失败后已停止；360-product-marketing的标题是海外产品营销（3C消费电子），不能改写成产品经理。该条已列中国工作地点深圳-南山区，海外产品营销不代表工作地点在境外。英文/海外市场能力未知，现有证据不足以作个人推荐，也不能据此新增英文或海外经验硬门槛；仅当实际工作地在境外时另核当地工作许可。",
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/research/headhunter-search-04.json",
+          "quote": "Direct Liepin page blocked by captcha; source stopped without retry"
+        },
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "\"title\": \"海外产品营销（3C消费电子）\""
+        },
+        {
+          "path": "careers/config/market-leads.json",
+          "quote": "\"location_raw\": \"深圳-南山区\""
+        }
+      ],
+      "risk": "将海外市场职责误读为境外工作地点，会错误增加工作许可门槛；将未知的英文/海外市场能力写成已具备或不具备，也会导致个人推荐失真。",
+      "next_action": "保持验证码停源；后续取得完整JD时再核岗位职能及其实际列明的要求，并结合个人证据核验英文/海外市场能力；仅当实际工作地在境外时另核当地工作许可，不由岗位标题新增要求。"
+    }
+  ],
+  "questions": [],
+  "input_files": [
+    "careers/config/market-leads.json",
+    "careers/config/preferences.json",
+    "careers/salary-target.mjs",
+    "01_行情收集/official-careers/research/headhunter-search-02.json",
+    "01_行情收集/official-careers/research/headhunter-search-03.json",
+    "01_行情收集/official-careers/research/headhunter-search-04.json"
+  ],
+  "not_covered": [
+    "未联网，未重新访问任何招聘页面。",
+    "未核验完整官网JD、当前在招状态、固定底薪组成、绩效条件、提成或福利。",
+    "未进行个人岗位匹配、匹配分计算、独立审批JD、推荐或投递。",
+    "未对海外产品营销的英文能力、海外行业经验或工作授权作事实判断。"
+  ]
+}

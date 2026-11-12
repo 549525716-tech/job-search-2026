@@ -1,0 +1,795 @@
+{
+  "schema_version": 1,
+  "input_sha256": "59ec93b4bca12619eb102c2a21b9f5782481040d80321144f5963cafaabad2d0",
+  "context_sha256": "ab9a761f450d0d1b3273abe2ac31599630fb452731b238d087020732e64f9a0b",
+  "execution": {
+    "agent_id": "01a09727-7105-7290-9e54-5cb1cc41090b",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "max",
+    "dispatch_file": "analysis-dispatch.json",
+    "dispatch_sha256": "db33fe84c4b9c1f5f10bc1e25b60616d55aa3e3e4537117a29301dd1abc287b7",
+    "network_used": false
+  },
+  "summary": "优先核实探迹电销与渠道管理、纷享大客户；其余分层尝试。17条均未确认固定底薪20K，高年限KA及大团队SaaS总监暂不主攻。",
+  "market_summary": [
+    "本批完整JD的主要转型入口是CRM、销售工具和客户经营，不是已证实的大模型企业销售管理。",
+    "续约增购、伙伴赋能和团队KPI反复出现；长期ToB积累需核客户关系归属、产品成熟度及实际经营压力，不能推定稳定。",
+    "探迹有AI拓客/CRM产品场景；纷享及神策的所选JD未明确AI专属职责，网易聚合JD明列AI工具实践优先。",
+    "管理岗看人员配置、绩效和资源权限；客户成功经理或渠道经理称谓本身不证明带队。",
+    "ADXJ仅3条广告出海相邻尝试，法律雇主和劳动雇佣未核，不按AI厂商加分。"
+  ],
+  "limitations": [
+    "只依据冻结50条及context离线研判：17条完整JD作匹配，23条完整JD和10条索引未逐岗分析；不代表市场覆盖或其余岗位均不适合。",
+    "优先核实表示核查顺序，不是已达标或投递授权；0条确认固定底薪20K，收入区间、年包和多薪均不能替代固定月薪。",
+    "个人事实来自用户与简历陈述，未独立审计；约4年汽车及平台经历不是4年SaaS，合同金额、ARR、POC和企业IT采购链均缺证。",
+    "同期直管10人、累计带教21人、210家个人商户分别保留；跨区域督办不等人事权，150%效率提升仅个人测量。",
+    "网易与中项为聚合来源，未核原站当前招聘；网易标题深圳与页面广州冲突；所有观察时间均非新增发布日期。",
+    "行政管理不是理工或CS；专业优先与硬性专业分开。原简历未重新读取，不判可直接沿用；本轮仅写分析，无网络、改简历或投递。"
+  ],
+  "priority_definitions": {
+    "优先核实": "业务衔接或管理证据相对更强，先核固定底薪及未决条件，非合格结论。",
+    "相邻尝试": "行业、特定年限或来源仍有缺口，须雇主确认可迁移路径后再投入材料。",
+    "暂不主攻": "明确关键门槛不足或劳动雇佣不明，保留作边界对照，不凑数量推荐。"
+  },
+  "scope": {
+    "total_observations": 50,
+    "complete_jds": 40,
+    "index_only": 10,
+    "analyzed_complete_jds": 17,
+    "revision": "总控取舍：用户管理优先且要求固定底薪20K；tungee-l182虽能力迁移较近，但无明确带队且薪资未知，由优先核实降为相邻尝试。17条现为3优先核实、10相邻尝试、4暂不主攻；原证据、输入快照和派发记录不变。",
+    "selection_basis": "按管理职责、可迁移客户经营及可持续ToB路径挑选；保留用户点名的高门槛和用工风险案例，未填满20。",
+    "not_analyzed_complete_job_ids": [
+      "adxj-l35-20260913",
+      "adxj-l60-20260913",
+      "adxj-l85-20260913",
+      "adxj-l110-20260913",
+      "adxj-l135-20260913",
+      "adxj-l160-20260913",
+      "adxj-l185-20260913",
+      "adxj-l210-20260913",
+      "adxj-l235-20260913",
+      "adxj-l260-20260913",
+      "adxj-l285-20260913",
+      "adxj-l310-20260913",
+      "tungee-l124-20260913",
+      "tungee-l162-20260913",
+      "fxiaoke-l384-20260913",
+      "fxiaoke-l530-20260913",
+      "fxiaoke-l592-20260913",
+      "sensorsdata-l465-20260913",
+      "sensorsdata-l509-20260913",
+      "sensorsdata-l404-20260913",
+      "sensorsdata-l417-20260913",
+      "sensorsdata-l433-20260913",
+      "sensorsdata-l644-20260913"
+    ],
+    "index_job_ids_not_matched": [
+      "index-009-search-B-customer-success-0",
+      "index-009-search-B-customer-success-1",
+      "index-009-search-B-customer-success-2",
+      "index-009-search-B-customer-success-3",
+      "index-009-search-B-customer-success-4",
+      "index-009-search-B-customer-success-5",
+      "index-009-search-B-customer-success-6",
+      "index-009-search-B-customer-success-7",
+      "index-009-search-B-customer-success-8",
+      "index-009-search-B-customer-success-9"
+    ]
+  },
+  "priorities": [
+    {
+      "job_id": "tungee-l144-20260913",
+      "review_order": 1,
+      "company": "探迹科技",
+      "title": "电销经理",
+      "source_url": "https://m.tungee.com/about/join-us/",
+      "observed_at": "2026-09-12T19:36:12.516Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+      "evidence_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "优先核实",
+      "role_mission": "以人员配置、销售辅导和月度考核提升电话销售团队产能，承担真实带队责任；先核固定薪和获客强度。",
+      "job_quotes": [
+        "负责电话销售团队的日常管理、监督、指导、培训和工作评估",
+        "挑选和配备各个岗位人员",
+        "两年以上相关工作管理经验，具备至少两年以上呼叫中心经验或6人以上团队管理经验",
+        "统招大专及以上学历，专业不限"
+      ],
+      "direct_evidence": [
+        "EV-ONVO-MANAGEMENT、EV-TESLA-MANAGEMENT：同期直管10人，有招聘、绩效评价、激励分配及员工辅导事实。"
+      ],
+      "transferable_evidence": [
+        "汽车销售过程管理可迁移到团队漏斗与培训；不是已管理ToB电销团队的证据。"
+      ],
+      "gaps": [
+        "无呼叫中心运营、电话销售团队产能及企业软件成交记录；收入和团队留存情况未知。"
+      ],
+      "hard_gates": [
+        "学历：有行政管理本科及金融管理专科，专业不限；统招属性待本人确认。",
+        "经验：10人管理规模覆盖6人门槛的规模部分；相关管理任期须核实，呼叫中心经验与团队经验为或关系，不误判两项都必需。",
+        "固定底薪：unknown，不判人民币20K达标。"
+      ],
+      "resume_advice": [
+        "前置带队目标、招聘考核权限及辅导结果，明确管理行业和10人同期口径；不改成SaaS管理。"
+      ],
+      "questions": [
+        "固定月薪、浮动占比、团队人数、有效线索供给及日均电话量分别是多少？",
+        "汽车销售管理是否认可为相关管理经验，岗位实际有哪些招聘、考核与激励决策权？"
+      ]
+    },
+    {
+      "job_id": "tungee-l104-20260913",
+      "review_order": 2,
+      "company": "探迹科技",
+      "title": "渠道经理",
+      "source_url": "https://m.tungee.com/about/join-us/",
+      "observed_at": "2026-09-12T19:36:12.516Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+      "evidence_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "优先核实",
+      "role_mission": "开发代理商并用渠道政策、团队辅导和流程管理扩大区域收入；组织管理与代理商经营权限要分别核实。",
+      "job_quotes": [
+        "负责公司代理商开发，行业资源的整合及维护工作",
+        "监督下属团队渠道计划的执行情况",
+        "本科及以上学历，理工科相关专业优先",
+        "3年以上渠道经验，有To B企业销售经验者优先，有代理商资源者优先"
+      ],
+      "direct_evidence": [
+        "EV-TESLA-TRADEIN：有置换服务商KPI、培训和联合复盘；EV-ONVO-MANAGEMENT：有团队带教与资源统筹。"
+      ],
+      "transferable_evidence": [
+        "服务商辅导、下沉市场渠道搭建可迁移为伙伴经营方法，但不等同软件代理招募和授权管理。"
+      ],
+      "gaps": [
+        "未证明累计3年专门渠道经验、大数据产品知识及软件代理商资源。"
+      ],
+      "hard_gates": [
+        "学历：本科有证据，行政管理不获理工科优先项；该专业要求不是硬排除。",
+        "3年以上渠道经验为实质门槛，不能用4年汽车从业自动满足；ToB经验及代理商资源属于优先项。",
+        "固定底薪：unknown；下属监督不能推出招聘审批或预算权。"
+      ],
+      "resume_advice": [
+        "用服务商KPI、渠道项目及实际管理权限证明伙伴经营，补项目起止时间，不自称成熟软件渠道负责人。"
+      ],
+      "questions": [
+        "是否接受汽车渠道及服务商管理经历，3年经验如何核定？",
+        "区域、直管人数、代理商存量、渠道政策权及固定月薪分别是什么？"
+      ]
+    },
+    {
+      "job_id": "tungee-l182-20260913",
+      "review_order": 17,
+      "company": "探迹科技",
+      "title": "客户成功专员",
+      "source_url": "https://m.tungee.com/about/join-us/",
+      "observed_at": "2026-09-12T19:36:12.516Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+      "evidence_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "相邻尝试",
+      "role_mission": "低优先转型备选：帮助付费客户把销售软件用出经营价值，再推动续约和二次销售；是长期ToB转型入口，不是已确认管理岗。",
+      "job_quotes": [
+        "客户运营：针对客户的经营业务，主动建议和推荐使用方案，提升客户对产品的使用能力从而提升经营业绩",
+        "提升付费客户的使用满意度和续约率",
+        "本科及上学历，1年以上工作经验",
+        "有销售管理经验者优先；有CRM、OA、ERP等企业管理专业软件或互联网客户服务经验优先"
+      ],
+      "direct_evidence": [
+        "EV-DCD-ROI、EV-DCD-COORDINATION：商户经营诊断、使用问题闭环及老板沟通有事实；个人经营210家客户。"
+      ],
+      "transferable_evidence": [
+        "经营建议、数据复盘和管理经验可迁移到软件采纳与客户培训；持续消耗不能直接充当续费率。"
+      ],
+      "gaps": [
+        "CRM配置、软件续约增购、ARR及客户AI POC证据缺失；专员职级能否承接收入目标未知。"
+      ],
+      "hard_gates": [
+        "本科和1年以上一般工作经验有事实；软件经验为优先项，不能改判硬性SaaS年限。",
+        "固定底薪：unknown；JD没有明确人事管理职责。"
+      ],
+      "resume_advice": [
+        "前置客户价值诊断和持续经营机制，AI地图仅作为个人业务实践，不写软件交付或客户POC。"
+      ],
+      "questions": [
+        "固定月薪能否达到20K，客户规模、续约指标和增购提成如何设置？",
+        "是否提供产品培训，能否逐步承担客户经营机制或团队管理职责？"
+      ]
+    },
+    {
+      "job_id": "fxiaoke-l410-20260913",
+      "review_order": 4,
+      "company": "纷享销客",
+      "title": "大客户经理",
+      "source_url": "https://www.fxiaoke.com/crm/about-join/",
+      "observed_at": "2026-09-12T19:36:34.341Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/018-open-A-fxiaoke-official.json",
+      "evidence_sha256": "91ecfcddbd5439de4411cfb92ba5c42cce4bf3b906121e42a61ac1d17b4c0486",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "优先核实",
+      "role_mission": "面向企业老板诊断需求并销售CRM解决方案，承担新客户开发与成交；不是带队经理。",
+      "job_quotes": [
+        "跟企业老板面对面沟通",
+        "为客户提供解决方案",
+        "年龄25-35周岁，男女不限",
+        "3年以上工作经验，在软件、互联网、解决方案型公司从事销售岗工作",
+        "具备或者了解CRM及相关产品专业知识，从事相关软件销售工作2年以上，此类人才优秀考虑"
+      ],
+      "direct_evidence": [
+        "EV-DCD-ROI、EV-DCD-GROWTH：有老板层面ROI沟通、陌拜开发及商户增长；一般从业约4年。"
+      ],
+      "transferable_evidence": [
+        "经营问题诊断及方案推进适合咨询式销售，不能等同企业软件签约、招投标或完整IT采购链。"
+      ],
+      "gaps": [
+        "CRM产品知识、合同回款及软件销售年限缺证；互联网商户经营是否算相关销售待招聘方核定。"
+      ],
+      "hard_gates": [
+        "年龄25-35：unknown，不从毕业年份推算；JD未列专业限制。",
+        "一般3年以上工作经验有事实，但行业/销售属性待核；相关软件2年条款带优先意味，不伪造已满足。",
+        "固定底薪：unknown；官网多城市及研发中心标注须核实实际销售团队。"
+      ],
+      "resume_advice": [
+        "以老板经营诊断、获客转化和客户推进组织材料，明确汽车互联网场景，删除无证据的软件成交表述。"
+      ],
+      "questions": [
+        "能否接受汽车互联网商户经营背景，行业经验条款是硬筛还是可迁移？",
+        "实际工作城市、固定月薪、新客配额及合同回款责任是什么？"
+      ]
+    },
+    {
+      "job_id": "tungee-l206-20260913",
+      "review_order": 5,
+      "company": "探迹科技",
+      "title": "城市经理",
+      "source_url": "https://m.tungee.com/about/join-us/",
+      "observed_at": "2026-09-12T19:36:12.516Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+      "evidence_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "相邻尝试",
+      "role_mission": "统筹区域市场开发、团队建设与销售考核，接近经营管理目标，但不能把门店管理直接等同城市负责人经历。",
+      "job_quotes": [
+        "全面负责区域的日常经营内外业务沟通协调工作",
+        "负责团队组织和建设",
+        "同岗位工作经验3年以上",
+        "具有管理软件、SaaS、阿里、百度、金蝶、用友等销售经验的从业背景优先"
+      ],
+      "direct_evidence": [
+        "EV-ONVO-MANAGEMENT：下沉市场开拓、10人直管及门店资源统筹；EV-DCD-BIZOPS：跨区域复盘分工和督办。"
+      ],
+      "transferable_evidence": [
+        "目标拆解、区域行动规划及经营工具可迁移到区域经营；懂车帝跨区协同不构成对同事的人事权。"
+      ],
+      "gaps": [
+        "未证明3年城市经理同岗经历、区域损益责任、软件城市业务经营及完整预算权。"
+      ],
+      "hard_gates": [
+        "行政管理本科有证据；原文本科以上的含本科口径须确认。",
+        "同岗位3年以上未获支持；SaaS背景是优先项，不能用4年汽车年限代替同岗要求。",
+        "固定底薪：unknown；工作地不限不是用户已接受任意调动。"
+      ],
+      "resume_advice": [
+        "区分门店经营责任和跨区域协同，突出可复制经营机制，不升级成大区人事或损益负责人。"
+      ],
+      "questions": [
+        "门店管理能否折算同岗经验，区域收入、预算和人事权限到哪一级？",
+        "落地城市、出差频率、固定薪及城市团队经营现状是什么？"
+      ]
+    },
+    {
+      "job_id": "tungee-l85-20260913",
+      "review_order": 6,
+      "company": "探迹科技",
+      "title": "商务专家",
+      "source_url": "https://m.tungee.com/about/join-us/",
+      "observed_at": "2026-09-12T19:36:12.516Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+      "evidence_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "相邻尝试",
+      "role_mission": "通过企业服务及制造业商协会生态合作批量获取线索并推动区域转化，核心是伙伴网络而非单客销售。",
+      "job_quotes": [
+        "聚焦企业服务、制造行业商协会等优质第三方机构，拓展并深化生态合作",
+        "批量挖掘精准市场线索",
+        "全日制及以上学历，3-5年B端商务拓展/渠道开发/生态合作相关实战经验",
+        "搭建并运营第三方大咖讲师、行业 KOL 资源库"
+      ],
+      "direct_evidence": [
+        "EV-ONVO-MARKET、EV-TESLA-SALES：有企业活动、自媒体矩阵及获客项目事实。"
+      ],
+      "transferable_evidence": [
+        "活动获客、渠道项目和老板沟通可迁移；企业员工购车活动不是商协会生态合作或企业软件商务。"
+      ],
+      "gaps": [
+        "3-5年B端商务/生态年限、企业服务或制造协会资源、讲师KOL运营成果未证实。"
+      ],
+      "hard_gates": [
+        "原文全日制及以上学历表述缺少明确层次；本人全日制属性及雇主学历口径待核，行政管理不伪装技术专业。",
+        "指定B端商务/渠道/生态3-5年尚不满足证据标准；互联网软件资源是优先项。",
+        "固定底薪：unknown；主导合作不代表人事管理。"
+      ],
+      "resume_advice": [
+        "展示合作对象、获客机制及个人职责，保留汽车场景，不把活动合作改写为成熟软件生态网络。"
+      ],
+      "questions": [
+        "是否接受汽车行业合作项目替代部分B端生态年限，现有商协会资源是否必需？",
+        "岗位是个人贡献者还是带队，线索转化目标与固定薪如何约定？"
+      ]
+    },
+    {
+      "job_id": "fxiaoke-l441-20260913",
+      "review_order": 7,
+      "company": "纷享销客",
+      "title": "客户成功经理",
+      "source_url": "https://www.fxiaoke.com/crm/about-join/",
+      "observed_at": "2026-09-12T19:36:34.341Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/018-open-A-fxiaoke-official.json",
+      "evidence_sha256": "91ecfcddbd5439de4411cfb92ba5c42cce4bf3b906121e42a61ac1d17b4c0486",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "相邻尝试",
+      "role_mission": "负责区域客户使用、续费和增购，以客户经营价值维持CRM收入；经理称谓未证明带人。",
+      "job_quotes": [
+        "负责区域客户运维，提高客户产品使用率",
+        "负责区域客户续费工作",
+        "负责区域客户增购工作",
+        "本科及以上学历",
+        "3年以上企业级客户维护、顾问咨询、客户运营、软件实施等工作经验"
+      ],
+      "direct_evidence": [
+        "EV-DCD-ROI、EV-DCD-COORDINATION：有商户经营建议、产品使用问题闭环及业务负责人沟通。"
+      ],
+      "transferable_evidence": [
+        "客户使用深度与持续消耗经营可迁移；不等于软件订阅续约增购及客户成功任职。"
+      ],
+      "gaps": [
+        "3年企业级客户相关经验尚未证明，汽车零售和企业员工购车不能直接补足；无软件续费率或ARR。"
+      ],
+      "hard_gates": [
+        "行政管理本科满足所列学历层次，JD未强制理工科。",
+        "3年以上企业级相关经验待核；SaaS背景为优先项，不必虚构软件实施经历。",
+        "固定底薪：unknown；区域岗位工作地和客户交接资源待核。"
+      ],
+      "resume_advice": [
+        "前置经营诊断、问题闭环和老板沟通，明确客户规模属于个人；续费结果未有证据不得填写。"
+      ],
+      "questions": [
+        "是否认可现有汽车商户经营经验，3年门槛能否接受跨行业案例？",
+        "固定薪、续费增购指标、产品培训与客户存量如何安排？"
+      ]
+    },
+    {
+      "job_id": "fxiaoke-l474-20260913",
+      "review_order": 8,
+      "company": "纷享销客",
+      "title": "渠道经理",
+      "source_url": "https://www.fxiaoke.com/crm/about-join/",
+      "observed_at": "2026-09-12T19:36:34.341Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/018-open-A-fxiaoke-official.json",
+      "evidence_sha256": "91ecfcddbd5439de4411cfb92ba5c42cce4bf3b906121e42a61ac1d17b4c0486",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "相邻尝试",
+      "role_mission": "搭建区域渠道体系，以政策共建、伙伴培训和客户陪访带动CRM销售；伙伴协作不等于直属团队管理。",
+      "job_quotes": [
+        "布局区域，做公司的区域渠道规划，搭建区域渠道体系",
+        "负责渠道伙伴培训，客户陪访，销售扶持等工作",
+        "本科及以上学历，市场营销等相关专业",
+        "3年以上渠道拓展经验，具有传统软件、CRM或SaaS软件销售经验优先"
+      ],
+      "direct_evidence": [
+        "EV-TESLA-TRADEIN：服务商KPI、联合复盘与销售培训；EV-ONVO-MANAGEMENT：渠道搭建和团队辅导。"
+      ],
+      "transferable_evidence": [
+        "服务商赋能可迁移到伙伴陪访和渠道经营，但没有软件代理体系建设或渠道签约证据。"
+      ],
+      "gaps": [
+        "专门渠道拓展累计3年及CRM渠道商务经验未证实。"
+      ],
+      "hard_gates": [
+        "本科有证据；行政管理是否属于市场营销等相关专业待雇主确认，该专业条款未写优先，不能忽略。",
+        "3年渠道拓展须逐项目核年限；CRM/SaaS销售仅优先项。",
+        "固定底薪：unknown；已列深圳、厦门，跨城意愿仍待本人确认。"
+      ],
+      "resume_advice": [
+        "突出伙伴培训、KPI和项目复盘，注明服务商而非软件代理；补各渠道项目起止和职责。"
+      ],
+      "questions": [
+        "行政管理专业及汽车渠道经验能否通过筛选，3年如何认定？",
+        "渠道资源、签约责任、管理权限及固定月薪分别是什么？"
+      ]
+    },
+    {
+      "job_id": "sensorsdata-l715-20260913",
+      "review_order": 9,
+      "company": "神策数据",
+      "title": "客户经理",
+      "source_url": "https://www.sensorsdata.cn/about/joinus.html",
+      "observed_at": "2026-09-12T19:32:05.833Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/006-open-A-sensorsdata.json",
+      "evidence_sha256": "156837d9d3bf5f528eff6296070ed3327627051b64415bb83056a841add56aa2",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "相邻尝试",
+      "role_mission": "经营存量软件或数据产品客户，通过需求挖掘和协同解决高阶问题实现续约增购，而非纯客服。",
+      "job_quotes": [
+        "针对已经合作的客户，持续提升服务水平并维护客户关系，保证客户完成续约",
+        "挖掘客户深层次需求，完成增购任务",
+        "本科及以上学历，理工科等相关专业优先",
+        "两年以上软件或数据产品销售经验"
+      ],
+      "direct_evidence": [
+        "EV-DCD-ROI、EV-DCD-COORDINATION：客户经营复盘、诉求处理及跨团队问题闭环有事实。"
+      ],
+      "transferable_evidence": [
+        "客户诊断和关系经营可迁移；EV-AI-OPS能说明业务数据应用，不证明数据产品销售或项目交付。"
+      ],
+      "gaps": [
+        "软件或数据产品销售满2年未获支持，相关续约合同、ARR及企业采购链记录缺失。"
+      ],
+      "hard_gates": [
+        "行政管理本科满足学历，理工科为优先而非强制。",
+        "两年软件/数据产品销售是实质要求；约一年汽车互联网商户经营不能视作已满足。",
+        "固定底薪：unknown；无直接人员管理职责证据。"
+      ],
+      "resume_advice": [
+        "按客户问题、经营建议和协同闭环组织案例；明确数据工具是内部业务实践，不自称软件客户经理经验。"
+      ],
+      "questions": [
+        "能否接受跨行业客户经营者，2年软件销售门槛是否有替代通道？",
+        "客户行业、续约增购压力、支持团队及固定薪构成是什么？"
+      ]
+    },
+    {
+      "job_id": "netease-ultraai-l6-20260913",
+      "review_order": 10,
+      "company": "网易智企",
+      "title": "云商-客户成功专员（深圳）",
+      "source_url": "https://jobs.ultraai.site/jobs/netease/73335",
+      "observed_at": "2026-09-12T19:47:55.153Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/033-open-B-ultraai-netease.json",
+      "evidence_sha256": "db8adfe21cd1f3746783ac9bd457b0fb3222e2574139fadcfaafb20b01d5bb5c",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "相邻尝试",
+      "role_mission": "围绕中大客户业务目标推进软件使用、项目落地及续费增购；AI工具实践有对应优先项，但岗位为专员且来源待原站核实。",
+      "job_quotes": [
+        "云商-客户成功专员（深圳）",
+        "负责公司中大客户的全生命周期管理",
+        "具备3年以上SaaS项目交付管理、SaaS类客户成功、产品运营或销售管理类相关工作经验者优先",
+        "对AI技术及AI 商业应用领域发展趋势有持续关注和独立思考者优先，有AI工具实践经验者优先"
+      ],
+      "direct_evidence": [
+        "EV-AI-OPS：有AI地图和经营数据实践；EV-DCD-ROI：有客户负责人沟通、方案和业务复盘。"
+      ],
+      "transferable_evidence": [
+        "软件业务价值解释、客户问题闭环可迁移；汽车销售管理不是3年SaaS交付或客户成功经验。"
+      ],
+      "gaps": [
+        "无企业软件实施、客户POC和软件续约合同证据；不能承诺已能独立交付。"
+      ],
+      "hard_gates": [
+        "行政管理本科有证据，原文本科以上的含本科口径待核；3年相关经历写为优先，非全部候选的强制SaaS门槛。",
+        "地点冲突：标题深圳，页面工作地广州市；必须核对网易原始岗位及当前有效性。",
+        "来源为职先机聚合页，不冒充网易官网已验真；固定底薪unknown，无带队证据。"
+      ],
+      "resume_advice": [
+        "前置AI工具如何支持真实经营决策与客户方案；150%只作个人测量，不写团队提效或企业AI交付。"
+      ],
+      "questions": [
+        "原始招聘岗位ID、深圳或广州实际驻地、招聘状态及用工主体是什么？",
+        "是否接受汽车互联网客户经营背景，交付技术边界、产品培训及固定月薪是多少？"
+      ]
+    },
+    {
+      "job_id": "adxj-l360-20260913",
+      "review_order": 11,
+      "company": "ADXJ 蓝鲸出海",
+      "title": "渠道经理",
+      "source_url": "https://adxj.com/join/",
+      "observed_at": "2026-09-12T19:59:41.609Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/115-open-B-adxj-channel.json",
+      "evidence_sha256": "050fa99cffd3757c3bf90d53266d5fbae522015d8a230f1c796fb35e65ffb7db",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "相邻尝试",
+      "role_mission": "拓展出海广告及开发者服务的渠道伙伴，用合作机制与质量评估推进线索转化；是相邻渠道方向，不是AI厂商销售。",
+      "job_quotes": [
+        "拓展行业渠道、代理商、服务商、社区、展会和区域合作伙伴",
+        "沉淀渠道数据，评估渠道质量、合作效率和复购潜力",
+        "有渠道拓展、生态合作、代理管理或区域市场经验",
+        "熟悉出海行业、广告投放、社群资源或开发者生态优先"
+      ],
+      "direct_evidence": [
+        "EV-ONVO-MANAGEMENT、EV-TESLA-TRADEIN：区域市场渠道建设、服务商KPI和联合复盘有事实。"
+      ],
+      "transferable_evidence": [
+        "伙伴质量评估与渠道辅导可迁移，汽车服务商关系不等同海外广告代理网络。"
+      ],
+      "gaps": [
+        "出海广告、开发者生态、语言水平及渠道合同回款证据缺失。"
+      ],
+      "hard_gates": [
+        "JD未披露硬性学历、专业或年限，不能自行补设；行业熟悉度为优先项。",
+        "法律雇主主体、劳动雇佣、实际城市和代理管理权限unknown；品牌自述页不等于主体已核验。",
+        "固定底薪unknown，不判20K；未证实AI业务，不赋予AI优先。"
+      ],
+      "resume_advice": [
+        "只呈现汽车渠道方法及可迁移项目，不自称出海广告渠道专家；主体核实前不准备对外材料。"
+      ],
+      "questions": [
+        "法律雇主及签约实体、固定薪、社保和实际办公城市分别是什么？",
+        "客户买什么服务、代理商来源和账期如何，岗位是否带直属团队？"
+      ]
+    },
+    {
+      "job_id": "adxj-l385-20260913",
+      "review_order": 12,
+      "company": "ADXJ 蓝鲸出海",
+      "title": "市场运营经理",
+      "source_url": "https://adxj.com/join/",
+      "observed_at": "2026-09-12T19:59:41.609Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/115-open-B-adxj-channel.json",
+      "evidence_sha256": "050fa99cffd3757c3bf90d53266d5fbae522015d8a230f1c796fb35e65ffb7db",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "相邻尝试",
+      "role_mission": "把活动、新媒体、商务和投放组织为获客闭环，管理预算与线索质量；是市场运营相邻机会，不是已确认AI或带人岗位。",
+      "job_quotes": [
+        "策划线上线下市场活动、行业专题、沙龙、联合传播和线索增长项目",
+        "管理市场预算、活动节奏、线索质量和转化复盘",
+        "有市场运营、活动策划、增长运营、品牌合作或 B2B 市场经验",
+        "能独立完成从策划、执行到数据复盘的完整流程"
+      ],
+      "direct_evidence": [
+        "EV-ONVO-MARKET、EV-TESLA-SALES：有自媒体矩阵、企业活动和渠道订单项目；EV-AI-OPS：漏斗诊断有事实。"
+      ],
+      "transferable_evidence": [
+        "营销活动复盘、线索转化管理可迁移；未证明跨平台出海获客和完整市场预算负责人经历。"
+      ],
+      "gaps": [
+        "市场预算规模、投入产出归因、海外投放协作和B2B市场体系经验待补。"
+      ],
+      "hard_gates": [
+        "学历及年限未在JD硬性列示；独立策划至复盘能力要以具体项目核验。",
+        "法律雇主主体、用工关系及真实城市unknown；管理预算不等于预算审批或人员管理权。",
+        "固定底薪unknown；非已核验AI厂商，仅相邻尝试。"
+      ],
+      "resume_advice": [
+        "用获客目标、渠道动作、转化复盘和订单结果组织案例；不得把参与资源配置写成独立掌握市场预算。"
+      ],
+      "questions": [
+        "用工主体、固定月薪、实际地点以及市场预算规模和审批权是什么？",
+        "核心客户与付费服务是什么，线索质量、转化和收入归因如何考核？"
+      ]
+    },
+    {
+      "job_id": "adxj-l335-20260913",
+      "review_order": 13,
+      "company": "ADXJ 蓝鲸出海",
+      "title": "商务经理",
+      "source_url": "https://adxj.com/join/",
+      "observed_at": "2026-09-12T19:59:41.609Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/115-open-B-adxj-channel.json",
+      "evidence_sha256": "050fa99cffd3757c3bf90d53266d5fbae522015d8a230f1c796fb35e65ffb7db",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "相邻尝试",
+      "role_mission": "开发出海广告主及服务商合作，以方案、合同、回款和复购形成商务收入；业务链相邻，但身份和收款模式先核。",
+      "job_quotes": [
+        "挖掘并跟进出海企业、项目方、广告主、开发者和服务商合作机会",
+        "维护客户关系，推进合同、回款、复购和长期合作",
+        "具备 B2B 商务拓展、广告销售、出海服务或互联网客户开发经验"
+      ],
+      "direct_evidence": [
+        "EV-DCD-GROWTH、EV-DCD-ROI：有互联网商户开发、广告投放经营诊断及老板沟通事实。"
+      ],
+      "transferable_evidence": [
+        "客户需求诊断与长期经营可迁移；不等于出海广告销售或已承担完整合同回款链。"
+      ],
+      "gaps": [
+        "海外广告资源、出海行业产品知识、商务语言和合同回款金额记录缺失。"
+      ],
+      "hard_gates": [
+        "JD列多种相关经验路径，未规定计算机专业或软件年限；现有互联网客户开发需确认业务认可度。",
+        "法律雇主主体、劳动合同关系、实际驻地unknown；不得因品牌招聘页推定AI厂商或用工已核验。",
+        "固定底薪unknown；商务经理未明确带队。"
+      ],
+      "resume_advice": [
+        "前置汽车商户获客、ROI和经营推进，限定真实业务边界；不得新增签约额、ARR或海外客户。"
+      ],
+      "questions": [
+        "法律雇主、劳动合同主体、固定薪及产品服务合同的收款方是谁？",
+        "实际客户、复购机制、回款责任、资源要求和出差语言要求是什么？"
+      ]
+    },
+    {
+      "job_id": "fxiaoke-l501-20260913",
+      "review_order": 14,
+      "company": "纷享销客",
+      "title": "渠道合伙人",
+      "source_url": "https://www.fxiaoke.com/crm/about-join/",
+      "observed_at": "2026-09-12T19:36:34.341Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/018-open-A-fxiaoke-official.json",
+      "evidence_sha256": "91ecfcddbd5439de4411cfb92ba5c42cce4bf3b906121e42a61ac1d17b4c0486",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "暂不主攻",
+      "role_mission": "辅导区域代理商并管理伙伴团队产能；先查清受雇管理岗还是商业合作，避免把合作机会当稳定工资岗位。",
+      "job_quotes": [
+        "负责代理商的团队组建和日常管理，带领团队完成公司目标",
+        "根据渠道政策制定合作伙伴业绩目标并负责落实",
+        "3年以上渠道或销售管理经验",
+        "能适应一定频率的出差"
+      ],
+      "direct_evidence": [
+        "EV-ONVO-MANAGEMENT、EV-TESLA-MANAGEMENT：10人销售团队管理、培训与考核；EV-TESLA-TRADEIN：服务商复盘。"
+      ],
+      "transferable_evidence": [
+        "销售辅导和伙伴目标管理可迁移；管理代理商团队不等于拥有其人事任免权。"
+      ],
+      "gaps": [
+        "渠道/销售管理满3年的精确任期未证实；软件代理体系、合伙收益及用工机制缺证。"
+      ],
+      "hard_gates": [
+        "劳动雇佣unknown：不能从官网或合伙人称谓推定劳动合同、社保、固定工资或必须出资。",
+        "3年渠道或销售管理要按真实任期核，不以4年从业或储备区域经理职称充抵；SaaS经验为优先。",
+        "固定底薪unknown；列明多个异地城市，出差意愿待确认。"
+      ],
+      "resume_advice": [
+        "先不做定向材料；核明受雇关系后再按伙伴辅导和团队管理写，不包装成合伙经营者。"
+      ],
+      "questions": [
+        "是劳动合同还是合作协议，签约主体、社保、固定工资分别怎样约定？",
+        "是否需出资、垫资或自带团队，招聘考核权限、区域和出差频率是什么？"
+      ]
+    },
+    {
+      "job_id": "tungee-l224-20260913",
+      "review_order": 15,
+      "company": "探迹科技",
+      "title": "大客户销售主管/总监",
+      "source_url": "https://m.tungee.com/about/join-us/",
+      "observed_at": "2026-09-12T19:36:12.516Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+      "evidence_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "暂不主攻",
+      "role_mission": "带队向企业客户销售智能销售解决方案，承担方案演示与KA收入；岗位要求已有解决方案销售管理积累，非直接转型入口。",
+      "job_quotes": [
+        "项目方案讲解、系统应用演示等工作",
+        "带领团队完成公司给定的业绩指标",
+        "全日制统招类本科及以上学历，2年以上大客户销售管理经验",
+        "具有5年以上解决方案销售经验，有大数据产品解决方案销售经验者优先"
+      ],
+      "direct_evidence": [
+        "EV-ONVO-MANAGEMENT：有10人销售管理；EV-DCD-ROI：有商户诊断和老板层方案沟通。"
+      ],
+      "transferable_evidence": [
+        "带队方法和经营方案表达可迁移，但不构成企业软件KA销售管理或系统演示项目履历。"
+      ],
+      "gaps": [
+        "约4年总体从业不足以证明5年解决方案销售；2年企业KA管理、采购链、AI合同及POC均缺证。"
+      ],
+      "hard_gates": [
+        "5年以上解决方案销售：现有事实不满足；2年以上大客户销售管理：未证明。",
+        "本科学历有证据，全日制统招属性unknown；未要求CS专业，不额外设置专业阻碍。",
+        "固定底薪unknown；岗位北京，不能以全国开放发现代替本人迁居确认。"
+      ],
+      "resume_advice": [
+        "暂不制作主管/总监定向稿；不要把门店销售管理升级为企业软件KA管理，保留可迁移案例作降级职位讨论。"
+      ],
+      "questions": [
+        "是否另有允许跨行业进入、较低软件年限要求的销售岗位？",
+        "上述年限是否硬筛，北京驻地、人员责任与固定薪是什么？"
+      ]
+    },
+    {
+      "job_id": "fxiaoke-l559-20260913",
+      "review_order": 16,
+      "company": "纷享销客",
+      "title": "客户成功经理",
+      "source_url": "https://www.fxiaoke.com/crm/about-join/",
+      "observed_at": "2026-09-12T19:36:34.341Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/018-open-A-fxiaoke-official.json",
+      "evidence_sha256": "91ecfcddbd5439de4411cfb92ba5c42cce4bf3b906121e42a61ac1d17b4c0486",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "暂不主攻",
+      "role_mission": "为客户销售管理层提供CRM经营咨询，并承担续约和二次销售；业务主线契合，但该版本的总年限和ToB经验要求更高。",
+      "job_quotes": [
+        "为客户方销售管理层提供贴合业务模式的销售管理方面的咨询建议",
+        "指导客户将销售运营与CRM软件使用进行有效的结合",
+        "跟进客户续约，完成续约率目标",
+        "本科以上学历，5年以上工作经验，3年以上toB企业工作经验"
+      ],
+      "direct_evidence": [
+        "EV-DCD-ROI、EV-TESLA-MANAGEMENT：有经营诊断及销售管理方法，不是软件客户成功任职。"
+      ],
+      "transferable_evidence": [
+        "销售流程诊断和客户高层沟通可迁移为CRM价值咨询；同名441版本不代表同一门槛。"
+      ],
+      "gaps": [
+        "约4年总从业不满足5年；3年ToB企业经验、CRM应用与软件续约证据不足。"
+      ],
+      "hard_gates": [
+        "5年以上工作经验：按冻结个人事实不满足；3年以上ToB企业工作经验：不能以4年汽车经历替代。",
+        "本科学历有证据，原文本科以上口径待核；无强制理工/CS条款。",
+        "固定底薪unknown；经理标题没有人员管理证据。"
+      ],
+      "resume_advice": [
+        "优先讨论441版本的较低年限路径，不把两个同名JD混用；客户经营方法可保留但不添加SaaS年限。"
+      ],
+      "questions": [
+        "441与559是否为不同业务线或职级，5年和3年ToB条件是否硬筛？",
+        "有无接受现有经验的岗位，固定薪及客户责任如何区分？"
+      ]
+    },
+    {
+      "job_id": "zhongxiang-bebee-l7-20260913",
+      "review_order": 17,
+      "company": "湖南中项网科技有限公司",
+      "title": "客户成功总监（base长沙-擅长体系搭建）",
+      "source_url": "https://bebee.com/cn/jobs/base--techmap_cn_CCL1247354440J40854760510",
+      "observed_at": "2026-09-12T19:48:16.898Z",
+      "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/034-open-B-bebee-zhongxiang.json",
+      "evidence_sha256": "0d3fcc51d9d2d7a61568a341301362470645f989a37bd8aa64dd65dfaa9d59e2",
+      "fixed_monthly_base_status": "unknown",
+      "fixed_salary_eligible": false,
+      "base_resume_reviewed": false,
+      "priority": "暂不主攻",
+      "role_mission": "统筹长沙和北京客户成功体系、20至30人团队及续约增购指标，组织级SaaS履历是核心要求；仅作管理路径门槛对照。",
+      "job_quotes": [
+        "全面统筹客户成功团队（长沙+北京）的管理与运营",
+        "5年以上客户成功相关工作经验，其中3年以上SaaS行业客户成功团队管理经验，曾带领20-30人规模团队",
+        "具备0-1搭建客户成功标准化体系、服务SOP、运营知识库的实战经验",
+        "大专及以上学历，市场营销、工商管理、计算机相关专业优先"
+      ],
+      "direct_evidence": [
+        "EV-ONVO-MANAGEMENT、EV-DCD-BIZOPS：有10人直管、招聘考核及经营复盘机制，事实限于汽车和商户经营。"
+      ],
+      "transferable_evidence": [
+        "目标拆解、培训和客户分层方法可迁移，不足以证明跨城SaaS客户成功体系负责人能力。"
+      ],
+      "gaps": [
+        "5年客户成功、3年SaaS团队管理、20至30人同期带队及SaaS体系从0到1均无证据。"
+      ],
+      "hard_gates": [
+        "明确硬门槛不满足：4年汽车从业不是5年CS；10人汽车队不是20至30人CS队；累计带教21人不能换算同期人数。",
+        "学历层次满足，相关专业仅优先，行政管理非CS；问题主要在行业年限和团队规模。",
+        "年薪区间25-40万（无上限）不是固定月薪20K证明，不除以12换算；聚合来源招聘有效性及长期长沙意愿待核。"
+      ],
+      "resume_advice": [
+        "不作总监投递稿或SaaS履历包装；仅把该JD作为未来需积累的软件客户经营和组织规模标尺。"
+      ],
+      "questions": [
+        "年包中固定工资、浮动与考核条件怎样构成，原始招聘是否仍有效？",
+        "是否存在匹配现有管理规模的下一级商业或客户经营岗位？"
+      ]
+    }
+  ]
+}

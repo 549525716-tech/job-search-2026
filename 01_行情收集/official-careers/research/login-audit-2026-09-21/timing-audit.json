@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "audited_at": "2026-09-21T15:14:44.303Z",
+  "status": "passed_for_recorded_calls",
+  "scope": "Checks recorded evidence and admission timing only. Blank/error/diagnostic outcomes are not successful collection. No proof of login stability, complete JD, HTTP freshness or unrecorded activity.",
+  "calls": 4,
+  "searches": 1,
+  "opens": 2,
+  "clicks": 0,
+  "routes": [
+    "login_diagnosis",
+    "diagnostic"
+  ],
+  "minimum_cooldown_ms": 17515,
+  "issues": [],
+  "warnings": [
+    "r01: browser outcome diagnostic_only; not proof of login stability or complete JD",
+    "r01: agent identity relies on controller dispatch receipt",
+    "diag01: agent identity relies on controller dispatch receipt",
+    "diag02: agent identity relies on controller dispatch receipt",
+    "diag03: agent identity relies on controller dispatch receipt"
+  ],
+  "receipts": [
+    {
+      "id": "r01",
+      "kind": "browser_visible_page_capture",
+      "outcome": "diagnostic_only",
+      "operation": "ordinary-page-open",
+      "route": "login_diagnosis",
+      "company": "猎聘",
+      "cooldown_ms": null,
+      "started_at": "2026-09-21T14:48:56.795Z",
+      "observed_at": "2026-09-21T14:50:41.274Z",
+      "evidence_file": "01_行情收集/official-careers/research/login-audit-2026-09-21/raw/r01.json",
+      "evidence_sha256": "be3bb32cde7c33e520333e806599752b873428e48d096a558cf579615dd82980"
+    },
+    {
+      "id": "diag01",
+      "kind": "web_tool_result_not_raw_http",
+      "outcome": "web_tool_result_recorded",
+      "operation": "search",
+      "route": "diagnostic",
+      "company": null,
+      "cooldown_ms": 1323535,
+      "started_at": "2026-09-21T15:12:56.914Z",
+      "observed_at": "2026-09-21T15:13:00.833Z",
+      "evidence_file": "01_行情收集/official-careers/research/login-audit-2026-09-21/raw/diag01.json",
+      "evidence_sha256": "eec04a6bce6ddbfbfce8f63a5d717e6c371741965eeede3a3c9997a1f99410cb"
+    },
+    {
+      "id": "diag02",
+      "kind": "web_tool_result_not_raw_http",
+      "outcome": "web_tool_result_recorded",
+      "operation": "open",
+      "route": "diagnostic",
+      "company": null,
+      "cooldown_ms": 17515,
+      "started_at": "2026-09-21T15:13:31.374Z",
+      "observed_at": "2026-09-21T15:13:33.061Z",
+      "evidence_file": "01_行情收集/official-careers/research/login-audit-2026-09-21/raw/diag02.json",
+      "evidence_sha256": "43490335f9ed9c3b8c8358f2bc83aab27e70d68ff0e00c9f42bb6ac85b1f16cc"
+    },
+    {
+      "id": "diag03",
+      "kind": "web_tool_result_not_raw_http",
+      "outcome": "web_tool_result_recorded",
+      "operation": "open",
+      "route": "diagnostic",
+      "company": null,
+      "cooldown_ms": 33846,
+      "started_at": "2026-09-21T15:14:22.242Z",
+      "observed_at": "2026-09-21T15:14:24.684Z",
+      "evidence_file": "01_行情收集/official-careers/research/login-audit-2026-09-21/raw/diag03.json",
+      "evidence_sha256": "420e81e43d7f8569e5ce74fe1c15eda3377929ae5e92968cb91bb9006609b8fb"
+    }
+  ]
+}

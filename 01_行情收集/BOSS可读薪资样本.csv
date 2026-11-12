@@ -1,0 +1,3 @@
+id,collectedAt,segment,rolePosition,company,title,city,bossSalaryRaw,readableSalary,salaryLowK,salaryHighK,salarySource,salaryVisibility,url
+d9e1db3ccf3c,2026-06-29T17:14:09.844Z,云计算/大模型平台,销售管理,科大讯飞,教育销售经理-广州,广州,-K,10-15K,10,15,detail_salary_range,可读,https://www.zhipin.com/job_detail/31ab2b83243a70a30ndy3d20FlZQ.html
+5c8da4034637,2026-06-29T17:14:12.716Z,云计算/大模型平台,销售管理,科大讯飞,海外广告销售（可base上海、广州、深圳）,广州,-K,17-30K,17,30,detail_salary_range,可读,https://www.zhipin.com/job_detail/40d7b705bf2494350nV52t2-FVpV.html

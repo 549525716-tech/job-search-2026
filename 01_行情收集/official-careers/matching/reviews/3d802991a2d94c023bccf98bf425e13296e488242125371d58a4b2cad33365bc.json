@@ -1,0 +1,11 @@
+{
+  "cache_key": "3d802991a2d94c023bccf98bf425e13296e488242125371d58a4b2cad33365bc",
+  "analysis_sha256": "4e14df9b1602f162656628ad83eb06104c896ec084053d7138fd887274002e87",
+  "reviewer_id": "01a086a5-5b5b-7522-a6d1-7674145d21ad",
+  "verdict": "approved",
+  "facts_checked": true,
+  "hard_gates_checked": true,
+  "source_quotes_checked": true,
+  "reviewed_at": "2026-09-09T15:58:00.439Z",
+  "notes": "MiniMax 大模型技术销售工程师，原生ID 7208019802982598968。独立核对保存原始JSON、6项JD引用、个人原文、简历绑定的本科及一般任职年限；作者为Raman，与本reviewer不同。R1/R2/R4仅承认可迁移的汽车KA经营、ROI诊断和产品客服运营协同；R3技术Demo/客户POC与R6三年云/MaaS销售均缺证，unknown不是通过。R5行政管理本科满足未限定专业的本科要求。建议先核实行业年限能否放宽，并补真实演示材料，没有补造AI合同、POC或IT采购经历。批准的是证据映射和有条件的tailor建议忠实，不是面试、录用概率、薪资20K或简历reuse批准；薪资与招聘有效性仍未知，个人事实仍为用户提供而非雇主审计。"
+}

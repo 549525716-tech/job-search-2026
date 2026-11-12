@@ -1,0 +1,32 @@
+{
+  "updatedAt": "2026-06-30",
+  "purpose": "Boss风控保护。采集脚本必须以这里的值作为安全下限/上限，避免误操作高频请求。当前处于风控恢复期，优先人工复制导入。",
+  "boss": {
+    "riskRecoveryMode": "manual_first",
+    "browserMode": "human_no_cdp",
+    "disableCdpRead": true,
+    "manualNavigationOnly": true,
+    "requireResumeFlag": true,
+    "openSearchIntervalMs": 10000,
+    "openSearchJitterMs": 10000,
+    "maxOpenSearchesPerRun": 5,
+    "minRequestIntervalMs": 600000,
+    "defaultJitterMs": 180000,
+    "maxSearchesPerRun": 1,
+    "maxCardsPerSearch": 2,
+    "maxJobsPerRun": 3,
+    "maxDetailPagesPerRun": 0,
+    "overnightBatchSize": 1,
+    "overnightMaxBatches": 8,
+    "overnightCooldownMs": 1800000,
+    "recoveryPauseMinutesMin": 120,
+    "recoveryPauseMinutesMax": 180
+  },
+  "pulse": {
+    "source": "AISE Pulse",
+    "riskMode": "public_low_frequency",
+    "minRequestIntervalMs": 15000,
+    "defaultJitterMs": 10000,
+    "maxCompanyProfilesPerRun": 4
+  }
+}

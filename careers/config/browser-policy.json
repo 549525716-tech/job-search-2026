@@ -1,0 +1,17 @@
+{
+  "version": "2026-09-09-public-browser-v1",
+  "enabled": true,
+  "purpose": "Normal unauthenticated public recruiting-page reading when static HTTP cannot represent the official UI",
+  "company_ids": ["minimax", "moonshot"],
+  "origins": ["https://vrfi1sk8a0.jobs.feishu.cn", "https://app.mokahr.com"],
+  "require_verified_official_link": true,
+  "ephemeral_context_only": true,
+  "max_contexts": 1,
+  "shared_collection_lease": true,
+  "active_navigation_and_action_interval_ms": [10000, 20000],
+  "automatic_subresources": "Browser-managed loading is separately identified, not represented as actively paced collector requests",
+  "stop_on": ["HTTP_401", "HTTP_403", "HTTP_429", "captcha", "challenge", "login_required"],
+  "forbid": ["no-sandbox", "stealth", "signature_emulation", "CSRF_token_emulation", "persistent_profile", "personal_cookies", "resume_upload", "application_submit", "messages", "challenge_bypass"],
+  "cookie_policy": "Normal anonymous session cookies may be handled inside the disposable browser; never imported, exported, logged or persisted",
+  "fallback_refresh_retries": 0
+}

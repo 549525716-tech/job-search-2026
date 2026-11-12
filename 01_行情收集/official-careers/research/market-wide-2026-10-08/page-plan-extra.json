@@ -1,0 +1,17 @@
+[
+  {
+    "id": "d01",
+    "route": "B-detail",
+    "company": "中兴新云",
+    "operation": "click",
+    "request": {
+      "click": [
+        {
+          "ref_id": "turn989view0",
+          "id": 168
+        }
+      ],
+      "response_length": "long"
+    }
+  }
+]

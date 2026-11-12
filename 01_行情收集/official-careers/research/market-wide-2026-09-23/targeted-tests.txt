@@ -1,0 +1,44 @@
+✔ unknown employers retain source-specific groups instead of a shared null employer (0.469917ms)
+✔ salary sort value is rendered directly and does not depend on search excerpt matching (0.824208ms)
+✔ complete source text and separately extracted requirements are distinct (0.073916ms)
+✔ missing, rejected or unsupported breadth acceptance cannot label a formal delivery (0.070625ms)
+✔ industry grouping preserves every company, observation and HR entrance exactly once (0.507875ms)
+✔ conflicting or missing sector evidence stays pending; no company-name inference (0.1425ms)
+✔ profile classification takes precedence and source labels are preserved (0.073708ms)
+✔ query direction is not promoted to verified company industry (0.251083ms)
+✔ platform contact targets retain different companies, HRs and channels (1.287292ms)
+✔ unknown HR and display-name-only HR do not silently collapse separate opportunities (0.40425ms)
+✔ official same native vacancy ignores HR but keeps different vacancies and tenants (0.316333ms)
+✔ official detail URL groups repeated capture, not board pages, different cities without IDs or hash routes (1.004291ms)
+✔ unmarked shared list URL without board_url cannot prove a unique vacancy (0.179958ms)
+✔ unknown channels are admissible observations, not an allowed-source whitelist (0.1175ms)
+✔ opaque source identities remain case-sensitive and structured employers cannot stringify into equality (0.364584ms)
+✔ fallback real operations director is recalled by title plus commercial responsibilities (4.947875ms)
+✔ APUS commercial titles from the breadth scan are not lost to title aliases (0.321209ms)
+✔ tele-sales and regional sales management remain visible without promoting civic roles (0.133042ms)
+✔ real Tungee tele-sales and city-manager JDs pass the commercial presentation gate (1.906542ms)
+✔ real preserved MiniMax B-end analytics JD reaches review while its SQL/Python gates remain intact (1.478792ms)
+✔ unfamiliar names enter body review without becoming recommendations (0.385834ms)
+✔ body mentions do not promote engineers, product managers or generic soft skills (0.132125ms)
+✔ partial responsibilities do not shadow the complete body, and marketing engineering stays technical (0.076916ms)
+✔ commercial policy excludes product managers and engineering without deleting product marketing (0.12425ms)
+✔ adjacent solutions and opt-in FDE are distinct; hiring state overrides title (0.137958ms)
+✔ English sales management is recalled without widening product or technical roles (0.089417ms)
+✔ real range plus commission enters the opportunity pool without confirming fixed base (7.307542ms)
+✔ explicit fixed base at 20K and 20-30K passes (1.685667ms)
+✔ ordinary 20-30K/month without fixed-base wording stays pending (0.327584ms)
+✔ legacy field cannot make ordinary monthly salary pass the new rule (0.099583ms)
+✔ OTE, commission, total package, annual, foreign and unknown salaries remain pending (0.199875ms)
+✔ crossing range needs confirmation, while fully below target is below_target (0.697208ms)
+✔ negative, conditional and unclear fixed-base wording cannot pass (0.145458ms)
+✔ invalid numeric bounds are rejected without coercion (0.129792ms)
+✔ a base-pay keyword cannot establish which amount is guaranteed (0.298875ms)
+✔ invalid rule does not widen eligibility and no mode keeps overview legacy behavior (0.211916ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 236.836791

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-02T09:31:48.456Z",
+  "live_collection_success": false,
+  "runs": [
+    {
+      "schema_version": 1,
+      "run_id": "deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451",
+      "company_id": "deepseek",
+      "company_name": "DeepSeek",
+      "source_id": "deepseek-official",
+      "provider": "official-embedded-json-v1",
+      "tenant": "talent.deepseek.com",
+      "started_at": "2026-11-02T09:31:17.085Z",
+      "finished_at": "2026-11-02T09:31:48.448Z",
+      "status": "failed",
+      "complete": false,
+      "scope": {
+        "kind": "official_board",
+        "board_url": "https://talent.deepseek.com/",
+        "query": null,
+        "keywords": [],
+        "filters": {},
+        "coverage": "all jobs on this single official board only",
+        "company_wide": false,
+        "closure_eligible": false,
+        "pagination": null
+      },
+      "ownership": {
+        "status": "unverified",
+        "chain": []
+      },
+      "jobs": [],
+      "evidence": [
+        {
+          "run_id": "deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451",
+          "source_id": "deepseek-official",
+          "company_id": "deepseek",
+          "sequence": 1,
+          "url": "https://www.deepseek.com/robots.txt",
+          "method": "GET",
+          "purpose": "robots",
+          "started_at": "2026-11-02T09:31:28.333Z",
+          "finished_at": "2026-11-02T09:31:48.358Z",
+          "status": null,
+          "headers": {},
+          "body_path": "01_行情收集/official-careers/raw/deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451/001.body",
+          "metadata_path": "01_行情收集/official-careers/raw/deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451/001.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": false,
+          "error": "EAI_AGAIN",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "errors": [
+        {
+          "code": "NETWORK_FAILED",
+          "message": "EAI_AGAIN",
+          "evidence": "01_行情收集/official-careers/raw/deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451/001.response.json"
+        }
+      ],
+      "permission_basis": "explicit_user_stage2_target",
+      "source_health": "stopped",
+      "artifacts": {
+        "database": "01_行情收集/official-careers/careers.sqlite",
+        "report_json": "01_行情收集/official-careers/reports/deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451.json",
+        "report_markdown": "01_行情收集/official-careers/reports/deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451.md"
+      },
+      "reused_evidence": [],
+      "scope_fingerprint": "6f083a2cbb1e7650f4e7a4060210fa8a0f41401ab796b10858aaff820f439be5",
+      "observation_kind": "subsequent_observation",
+      "change_detection": "scope_aware_incremental_v2; newly_observed_is_not_publication; absence_requires_review",
+      "baseline_run_id": "deepseek-fc9fd81b-abc4-4800-803e-7492514ed213",
+      "events": []
+    }
+  ],
+  "artifacts": {
+    "database": "01_行情收集/official-careers/careers.sqlite",
+    "report_json": "01_行情收集/official-careers/reports/deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451.json",
+    "report_markdown": "01_行情收集/official-careers/reports/deepseek-500348b3-2fdb-46ef-9cf0-ab4aa6390451.md"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "version": "2026-09-09-v1",
+  "reviewers": [
+    {"agent_id": "01a086a5-5b5b-7522-a6d1-7674145d21ad", "model": "gpt-6-astra", "reasoning_effort": "max", "basis": "Accepted independent reviewer spawn in this Codex task; not an implementation or matching worker"}
+  ]
+}

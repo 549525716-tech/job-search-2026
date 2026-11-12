@@ -1,0 +1,18 @@
+{
+  "version": "2026-09-21-resumed-v1",
+  "purpose": "登录恢复后的真实采集续接；不是全市场完成声明",
+  "transport": "codex-in-app-browser",
+  "routes": {
+    "A": ["当前推荐中的AI/汽车/企业服务公司，查看实际JD与公司标签", "MiniMax", "月之暗面"],
+    "B": ["大模型", "具身智能 商务", "销售运营", "企业服务 销售"]
+  },
+  "sources": ["用户已登录BOSS", "用户已登录猎聘"],
+  "scope_limit": "本批保全实际展示记录，查询/分页未完成保留待续；不是公司或市场总量上限",
+  "raw_before_filter": true,
+  "salary_policy": "人民币月薪广告区间上界至少20K为机会；固定底薪另核",
+  "contact_policy": "公司、标题相同但HR或原生岗位ID不同不删除联系入口",
+  "access_policy": "共享串行10-20秒队列；验证码或拒绝首次即停；不保活刷新",
+  "external_actions": false,
+  "execution": "本会话执行+确定性解析；未派发其他模型，不声称独立验收",
+  "acceptance": "阶段数据，市场宽度尚未验收"
+}

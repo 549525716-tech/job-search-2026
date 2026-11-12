@@ -1,0 +1,436 @@
+{
+  "run_id": "breadth-2026-09-16",
+  "frozen_at": "2026-09-16T15:26:18.971Z",
+  "priority": "breadth_before_depth",
+  "industries": [
+    {
+      "id": "models",
+      "label": "基础大模型与开放平台"
+    },
+    {
+      "id": "infrastructure",
+      "label": "云、算力与AI基础设施"
+    },
+    {
+      "id": "data-platforms",
+      "label": "数据与AI开发平台"
+    },
+    {
+      "id": "business-software",
+      "label": "企业软件与营销数字化"
+    },
+    {
+      "id": "ai-applications",
+      "label": "AI企业应用"
+    },
+    {
+      "id": "mobility",
+      "label": "汽车与智能出行数字化"
+    },
+    {
+      "id": "industrial",
+      "label": "制造与工业智能化"
+    },
+    {
+      "id": "robotics",
+      "label": "机器人与智能硬件"
+    }
+  ],
+  "query_tasks": [
+    {
+      "id": "q01",
+      "industry_id": "models",
+      "industry": "基础大模型与开放平台",
+      "axis": "industry_company",
+      "route": "A-discovery",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "中国 大模型 开放平台 厂商 公司 名单"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q02",
+      "industry_id": "models",
+      "industry": "基础大模型与开放平台",
+      "axis": "title",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "大模型 销售 大客户 商务 生态 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q03",
+      "industry_id": "models",
+      "industry": "基础大模型与开放平台",
+      "axis": "content",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "大模型 商业化 客户 拓展 方案 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q04",
+      "industry_id": "infrastructure",
+      "industry": "云、算力与AI基础设施",
+      "axis": "industry_company",
+      "route": "A-discovery",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "中国 云计算 算力 服务商 企业 厂商"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q05",
+      "industry_id": "infrastructure",
+      "industry": "云、算力与AI基础设施",
+      "axis": "title",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "云服务 销售经理 渠道经理 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q06",
+      "industry_id": "infrastructure",
+      "industry": "云、算力与AI基础设施",
+      "axis": "content",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "云计算 销售运营 商机 经营分析 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q07",
+      "industry_id": "data-platforms",
+      "industry": "数据与AI开发平台",
+      "axis": "industry_company",
+      "route": "A-discovery",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "中国 数据智能 数据库 AI 平台 企业 厂商"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q08",
+      "industry_id": "data-platforms",
+      "industry": "数据与AI开发平台",
+      "axis": "title",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "数据平台 数据库 销售 售前 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q09",
+      "industry_id": "data-platforms",
+      "industry": "数据与AI开发平台",
+      "axis": "content",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "数据治理 解决方案 客户 商务 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q10",
+      "industry_id": "business-software",
+      "industry": "企业软件与营销数字化",
+      "axis": "industry_company",
+      "route": "A-discovery",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "中国 企业软件 SaaS 营销科技 公司 厂商"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q11",
+      "industry_id": "business-software",
+      "industry": "企业软件与营销数字化",
+      "axis": "title",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "SaaS 销售运营 商业运营 总监 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q12",
+      "industry_id": "business-software",
+      "industry": "企业软件与营销数字化",
+      "axis": "content",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "营销科技 客户分层 商机 经营分析 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q13",
+      "industry_id": "ai-applications",
+      "industry": "AI企业应用",
+      "axis": "industry_company",
+      "route": "A-discovery",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "中国 企业级AI 应用 智能体 Agent 厂商 企业"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q14",
+      "industry_id": "ai-applications",
+      "industry": "AI企业应用",
+      "axis": "title",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "AI 市场营销 生态 商务 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q15",
+      "industry_id": "ai-applications",
+      "industry": "AI企业应用",
+      "axis": "content",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "智能体 企业 客户 解决方案 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q16",
+      "industry_id": "mobility",
+      "industry": "汽车与智能出行数字化",
+      "axis": "industry_company",
+      "route": "A-discovery",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "中国 汽车数字化 车联网 软件 企业 厂商"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q17",
+      "industry_id": "mobility",
+      "industry": "汽车与智能出行数字化",
+      "axis": "title",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "汽车 行业运营 大客户经理 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q18",
+      "industry_id": "mobility",
+      "industry": "汽车与智能出行数字化",
+      "axis": "content",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "智能座舱 车联网 商务 渠道 销售 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q19",
+      "industry_id": "industrial",
+      "industry": "制造与工业智能化",
+      "axis": "industry_company",
+      "route": "A-discovery",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "中国 工业互联网 工业软件 智能制造 厂商 公司"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q20",
+      "industry_id": "industrial",
+      "industry": "制造与工业智能化",
+      "axis": "title",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "工业软件 大客户 区域销售 经理 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q21",
+      "industry_id": "industrial",
+      "industry": "制造与工业智能化",
+      "axis": "content",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "智能制造 解决方案 销售 售前 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q22",
+      "industry_id": "robotics",
+      "industry": "机器人与智能硬件",
+      "axis": "industry_company",
+      "route": "A-discovery",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "中国 机器人 机器视觉 智能硬件 厂商 名单"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q23",
+      "industry_id": "robotics",
+      "industry": "机器人与智能硬件",
+      "axis": "title",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "机器人 机器视觉 大客户 渠道 销售 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "id": "q24",
+      "industry_id": "robotics",
+      "industry": "机器人与智能硬件",
+      "axis": "content",
+      "route": "B",
+      "operation": "search",
+      "request": {
+        "search_query": [
+          {
+            "q": "智能硬件 行业 解决方案 BD 商务 招聘"
+          }
+        ],
+        "response_length": "long"
+      }
+    }
+  ],
+  "initial_query_count": 24,
+  "followup_request_budget": 24,
+  "company_global_cap": null,
+  "job_global_cap": null,
+  "depth_scoring": false,
+  "domestic_priority": true,
+  "overseas_separate": true,
+  "source_whitelist": false,
+  "all_market_complete": false,
+  "access": "Prior BOSS/Liepin/adapter halts preserved. Query index leads are not platform detail reads. No external messaging, uploads, applications, schedules.",
+  "method": "Main thread orchestrates serial admitted tool calls and deterministic persistence; one offline extraction worker may handle saved responses."
+}

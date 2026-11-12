@@ -1,0 +1,283 @@
+[
+  {
+    "company": "杭州智思达科技有限责任公司",
+    "source_url": "https://www.zhaopin.com/jobdetail/CCL1489865290J40839403809.htm",
+    "source_kind": "recruitment_platform",
+    "status": "partial",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/203.json"
+    ],
+    "source_outcomes": [
+      {
+        "id": "203",
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/203.json",
+        "evidence_sha256": "3ca008537865a221c8bac83006108d395020d03a7959319240b25271711b5386",
+        "company": "杭州智思达科技有限责任公司",
+        "status": "partial",
+        "observed_at": "2026-09-14T13:39:28Z",
+        "timing_valid": true,
+        "source_kind": "recruitment_platform",
+        "source_purpose": "job_content",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "https://www.zhaopin.com/jobdetail/CCL1489865290J40839403809.htm"
+            }
+          ],
+          "response_length": "long"
+        },
+        "native_pagination_complete": false,
+        "detail_completion_complete": false
+      }
+    ],
+    "source_scope_complete": false,
+    "extracted_observations": 1
+  },
+  {
+    "company": "广东创云科技有限公司",
+    "source_url": "https://www.zhaopin.com/jobdetail/CC484812680J40913048612.htm",
+    "source_kind": "recruitment_platform",
+    "status": "partial",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/204.json"
+    ],
+    "source_outcomes": [
+      {
+        "id": "204",
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/204.json",
+        "evidence_sha256": "3091796178f77570bda1ee96843ba83743982e915b3de3aae49e8c93f74426c8",
+        "company": "广东创云科技有限公司",
+        "status": "partial",
+        "observed_at": "2026-09-14T13:39:42Z",
+        "timing_valid": true,
+        "source_kind": "recruitment_platform",
+        "source_purpose": "job_content",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "https://www.zhaopin.com/jobdetail/CC484812680J40913048612.htm"
+            }
+          ],
+          "response_length": "long"
+        },
+        "native_pagination_complete": false,
+        "detail_completion_complete": false
+      }
+    ],
+    "source_scope_complete": false,
+    "extracted_observations": 1
+  },
+  {
+    "company": "物自体（上海）科技有限公司",
+    "source_url": "https://www.noumena.com.cn/career/",
+    "source_kind": "official",
+    "status": "partial",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/205.json"
+    ],
+    "source_outcomes": [
+      {
+        "id": "205",
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/205.json",
+        "evidence_sha256": "7f1fe019f16fc753e04b809f14f8068c48804d9dfbb3a270e294908154e8c873",
+        "company": "Noumena",
+        "status": "partial",
+        "observed_at": "2026-09-14T13:39:58Z",
+        "timing_valid": true,
+        "source_kind": "official",
+        "source_purpose": "job_content",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "https://www.noumena.com.cn/career/"
+            }
+          ],
+          "response_length": "long"
+        },
+        "native_pagination_complete": false,
+        "detail_completion_complete": false
+      }
+    ],
+    "source_scope_complete": false,
+    "extracted_observations": 9
+  },
+  {
+    "company": "非与智能",
+    "source_url": "https://firmior.cn/careers",
+    "source_kind": "official",
+    "status": "partial",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/206.json"
+    ],
+    "source_outcomes": [
+      {
+        "id": "206",
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/206.json",
+        "evidence_sha256": "03bae51503cea64145966aef60acc7a7a05bdced9e20120e9478f3cfa1e9312b",
+        "company": "非与智能",
+        "status": "partial",
+        "observed_at": "2026-09-14T13:40:17Z",
+        "timing_valid": true,
+        "source_kind": "official",
+        "source_purpose": "job_content",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "https://firmior.cn/careers"
+            }
+          ],
+          "response_length": "long"
+        },
+        "native_pagination_complete": false,
+        "detail_completion_complete": false
+      }
+    ],
+    "source_scope_complete": false,
+    "extracted_observations": 10
+  },
+  {
+    "company": "京东",
+    "source_url": "https://zhaopin.jd.com/web/job-info-detail?requementId=219504",
+    "source_kind": "official",
+    "status": "partial",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/207.json"
+    ],
+    "source_outcomes": [
+      {
+        "id": "207",
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/207.json",
+        "evidence_sha256": "e25b0a3d6043435c720cc4496a348e75b91724d228bda52bd5f3a350733607d4",
+        "company": "京东",
+        "status": "partial",
+        "observed_at": "2026-09-14T13:40:36Z",
+        "timing_valid": true,
+        "source_kind": "official",
+        "source_purpose": "job_content",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "https://zhaopin.jd.com/web/job-info-detail?requementId=219504"
+            }
+          ],
+          "response_length": "long"
+        },
+        "native_pagination_complete": false,
+        "detail_completion_complete": false
+      }
+    ],
+    "source_scope_complete": false,
+    "extracted_observations": 1
+  },
+  {
+    "company": "北京华征科技有限公司",
+    "source_url": "https://www.huazheng-ai.com/",
+    "source_kind": "official",
+    "status": "partial",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/209.json"
+    ],
+    "source_outcomes": [
+      {
+        "id": "209",
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/209.json",
+        "evidence_sha256": "ed95a029fb4a84e3a1ccc962b2017d3e4d3e4a1e1bb37bbcb6548bd0c444daad",
+        "company": "北京华征科技有限公司",
+        "status": "partial",
+        "observed_at": "2026-09-14T13:41:14Z",
+        "timing_valid": true,
+        "source_kind": "official",
+        "source_purpose": "job_content",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "https://www.huazheng-ai.com/"
+            }
+          ],
+          "response_length": "long"
+        },
+        "native_pagination_complete": false,
+        "detail_completion_complete": false
+      }
+    ],
+    "source_scope_complete": false,
+    "extracted_observations": 5
+  },
+  {
+    "company": "网易智企",
+    "source_url": "https://jobs.ultraai.site/jobs/netease/77241",
+    "source_kind": "recruitment_platform",
+    "status": "partial",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/210.json"
+    ],
+    "source_outcomes": [
+      {
+        "id": "210",
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/210.json",
+        "evidence_sha256": "9b5087876f8fd25a89f1de80f7cfec05f555440d269848f99c9cd46cc3037600",
+        "company": "网易智企",
+        "status": "partial",
+        "observed_at": "2026-09-14T13:41:37Z",
+        "timing_valid": true,
+        "source_kind": "recruitment_platform",
+        "source_purpose": "job_content",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "https://jobs.ultraai.site/jobs/netease/77241"
+            }
+          ],
+          "response_length": "long"
+        },
+        "native_pagination_complete": false,
+        "detail_completion_complete": false
+      }
+    ],
+    "source_scope_complete": false,
+    "extracted_observations": 1
+  },
+  {
+    "company": "非与智能",
+    "source_url": "https://firmior.cn/careers",
+    "source_kind": "official",
+    "status": "partial",
+    "evidence_files": [
+      "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/211.json"
+    ],
+    "source_outcomes": [
+      {
+        "id": "211",
+        "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-14-coverage/raw/211.json",
+        "evidence_sha256": "4ecdcfb68c7f59a5aee4a0f1273b98a77edfa4c6ca4f936f95e2d06b76d1dc13",
+        "company": "非与智能",
+        "status": "partial",
+        "observed_at": "2026-09-14T13:45:57Z",
+        "timing_valid": true,
+        "source_kind": "official",
+        "source_purpose": "job_content",
+        "operation": "open",
+        "request": {
+          "open": [
+            {
+              "ref_id": "https://firmior.cn/careers",
+              "lineno": 470
+            }
+          ],
+          "response_length": "long"
+        },
+        "native_pagination_complete": false,
+        "detail_completion_complete": false
+      }
+    ],
+    "source_scope_complete": false,
+    "extracted_observations": 8
+  }
+]

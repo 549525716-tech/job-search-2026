@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "run_id": "fallback-2026-09-22",
+  "started_at": "2026-09-21T16:38:07.326Z",
+  "finished_at": "2026-09-21T16:48:04.770Z",
+  "status": "partial",
+  "scope": "来源级兜底验证：3个固定适配器及A/B两次搜索、6次独立公开页面读取；不是完整行情扫描，也未修复BOSS/猎聘。",
+  "counts": {
+    "observations": 54,
+    "complete_jd": 20,
+    "full_source_descriptions": 54,
+    "full_source_not_split": 34,
+    "companies": 5
+  },
+  "request_count": {
+    "web_tool_actual_calls": 8,
+    "http_requests": 8,
+    "admission_timing_status": "passed_for_recorded_calls"
+  },
+  "http_evidence": [
+    {
+      "started_at": "2026-09-21T16:46:20.511Z",
+      "finished_at": "2026-09-21T16:46:21.341Z",
+      "url": "https://www.bailian-ai.com/robots.txt",
+      "status": 200,
+      "metadata_path": "01_行情收集/official-careers/raw/bailian-ai-7fe56bc5-31e4-41de-8dbf-4f648a37c9e7/001.response.json"
+    },
+    {
+      "started_at": "2026-09-21T16:46:37.053Z",
+      "finished_at": "2026-09-21T16:46:37.463Z",
+      "url": "https://www.bailian-ai.com/about",
+      "status": 200,
+      "metadata_path": "01_行情收集/official-careers/raw/bailian-ai-7fe56bc5-31e4-41de-8dbf-4f648a37c9e7/002.response.json"
+    },
+    {
+      "started_at": "2026-09-21T16:46:56.381Z",
+      "finished_at": "2026-09-21T16:46:56.718Z",
+      "url": "https://www.bailian-ai.com/joinus",
+      "status": 200,
+      "metadata_path": "01_行情收集/official-careers/raw/bailian-ai-7fe56bc5-31e4-41de-8dbf-4f648a37c9e7/003.response.json"
+    },
+    {
+      "started_at": "2026-09-21T16:47:08.824Z",
+      "finished_at": "2026-09-21T16:47:09.065Z",
+      "url": "https://www.deepseek.com/robots.txt",
+      "status": 200,
+      "metadata_path": "01_行情收集/official-careers/raw/deepseek-fc9fd81b-abc4-4800-803e-7492514ed213/001.response.json"
+    },
+    {
+      "started_at": "2026-09-21T16:47:21.078Z",
+      "finished_at": "2026-09-21T16:47:21.236Z",
+      "url": "https://www.deepseek.com/",
+      "status": 200,
+      "metadata_path": "01_行情收集/official-careers/raw/deepseek-fc9fd81b-abc4-4800-803e-7492514ed213/002.response.json"
+    },
+    {
+      "started_at": "2026-09-21T16:47:31.965Z",
+      "finished_at": "2026-09-21T16:47:32.273Z",
+      "url": "https://talent.deepseek.com/robots.txt",
+      "status": 200,
+      "metadata_path": "01_行情收集/official-careers/raw/deepseek-fc9fd81b-abc4-4800-803e-7492514ed213/003.response.json"
+    },
+    {
+      "started_at": "2026-09-21T16:47:50.281Z",
+      "finished_at": "2026-09-21T16:47:50.500Z",
+      "url": "https://talent.deepseek.com/",
+      "status": 200,
+      "metadata_path": "01_行情收集/official-careers/raw/deepseek-fc9fd81b-abc4-4800-803e-7492514ed213/004.response.json"
+    },
+    {
+      "started_at": "2026-09-21T16:48:03.809Z",
+      "finished_at": "2026-09-21T16:48:04.237Z",
+      "url": "https://talent.deepseek.com/static/main.e17afdc8bc.js",
+      "status": 200,
+      "metadata_path": "01_行情收集/official-careers/raw/deepseek-fc9fd81b-abc4-4800-803e-7492514ed213/005.response.json"
+    }
+  ],
+  "queries": [
+    {
+      "query": "硅基流动 面壁智能 招聘 销售 商务 官网",
+      "status": "searched_not_exhaustive"
+    },
+    {
+      "query": "企业服务 AI 销售 商务 运营 招聘 加入我们 工作职责",
+      "status": "searched_not_exhaustive"
+    }
+  ],
+  "source_results": [
+    {
+      "capture": "o01",
+      "company": "京东",
+      "url": "https://zhaopin.jd.com/web/job-info-detail?requementId=219504",
+      "status": "full_jd",
+      "complete_jd": 1,
+      "company_wide_complete": false,
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/o01.json",
+      "evidence_sha256": "982972f2215b4b697b879060dff64d86a2b21055b8de3025c93bd1b0356d6e16"
+    },
+    {
+      "capture": "o02",
+      "company": "非与智能",
+      "url": "https://firmior.cn/careers",
+      "status": "recruitment_entry_only",
+      "complete_jd": 0,
+      "company_wide_complete": false,
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/o02.json",
+      "evidence_sha256": "f6dd030c64bac3b44872260e525a48ad53707cf421ddba186188335745af918b"
+    },
+    {
+      "capture": "o03",
+      "company": "句子互动",
+      "url": "https://www.juzibot.com/careers/index.html",
+      "status": "fetch_failed",
+      "complete_jd": 0,
+      "company_wide_complete": false,
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/o03.json",
+      "evidence_sha256": "160959e0b528d216534c04d06d6415407327a810dbc42c18061d56d514a3be30"
+    },
+    {
+      "capture": "o04",
+      "company": "动鑫科技",
+      "url": "https://www.hidongxin.com/careers/",
+      "status": "full_visible_jds",
+      "complete_jd": 7,
+      "company_wide_complete": false,
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/o04.json",
+      "evidence_sha256": "f111c4eff25dcde155e109f17efd1cf7c9a81acaa87c818646b3e04e51a1065a"
+    },
+    {
+      "capture": "o05",
+      "company": "朗矽科技",
+      "url": "https://www.launchip.com.cn/contact/jobs/",
+      "status": "full_visible_jds",
+      "complete_jd": 8,
+      "company_wide_complete": false,
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/o05.json",
+      "evidence_sha256": "7555c63dd42040cad62e31af88f6bcf7a9419851f8e707c9b7d800d437bfacad"
+    },
+    {
+      "capture": "o06",
+      "company": "硅基流动",
+      "url": "https://www.haolietou.com/j_296373",
+      "status": "fetch_failed",
+      "complete_jd": 0,
+      "company_wide_complete": false,
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/o06.json",
+      "evidence_sha256": "14d90071b28a67b07c7c44c51f36c3b2704e97f6f52534e4272720f94dfc4fc3"
+    },
+    {
+      "company_id": "minimax",
+      "run_id": null,
+      "status": "blocked",
+      "complete": false,
+      "jobs": 0,
+      "errors": [
+        {
+          "code": "BROWSER_ADAPTER_QUARANTINED",
+          "message": "Public-browser redirect-hop boundary pending independent verification; existing evidence remains available; no navigation or automatic retry."
+        }
+      ],
+      "started_at": "2026-09-21T16:46:19.885Z",
+      "finished_at": "2026-09-21T16:46:19.886Z",
+      "report_paths": {
+        "fallback_run_json": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/run.json",
+        "fallback_summary_markdown": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/summary.md"
+      },
+      "company_wide_complete": false
+    },
+    {
+      "company_id": "bailian-ai",
+      "run_id": "bailian-ai-7fe56bc5-31e4-41de-8dbf-4f648a37c9e7",
+      "status": "success",
+      "complete": true,
+      "jobs": 4,
+      "errors": [],
+      "started_at": "2026-09-21T16:46:19.892Z",
+      "finished_at": "2026-09-21T16:47:05.863Z",
+      "report_paths": {
+        "database": "01_行情收集/official-careers/careers.sqlite",
+        "report_json": "01_行情收集/official-careers/reports/bailian-ai-7fe56bc5-31e4-41de-8dbf-4f648a37c9e7.json",
+        "report_markdown": "01_行情收集/official-careers/reports/bailian-ai-7fe56bc5-31e4-41de-8dbf-4f648a37c9e7.md",
+        "fallback_run_json": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/run.json",
+        "fallback_summary_markdown": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/summary.md"
+      },
+      "company_wide_complete": false
+    },
+    {
+      "company_id": "deepseek",
+      "run_id": "deepseek-fc9fd81b-abc4-4800-803e-7492514ed213",
+      "status": "success",
+      "complete": true,
+      "jobs": 34,
+      "errors": [],
+      "started_at": "2026-09-21T16:47:05.883Z",
+      "finished_at": "2026-09-21T16:48:04.715Z",
+      "report_paths": {
+        "database": "01_行情收集/official-careers/careers.sqlite",
+        "report_json": "01_行情收集/official-careers/reports/deepseek-fc9fd81b-abc4-4800-803e-7492514ed213.json",
+        "report_markdown": "01_行情收集/official-careers/reports/deepseek-fc9fd81b-abc4-4800-803e-7492514ed213.md",
+        "fallback_run_json": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/run.json",
+        "fallback_summary_markdown": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/summary.md"
+      },
+      "company_wide_complete": false
+    }
+  ],
+  "queued_urls": [
+    {
+      "url": "https://www.zhipin.com/web/geek/jobs",
+      "reason": "BOSS内置自动接管隔离；本轮未操作，完整JD/HR入口待补",
+      "status": "blocked"
+    },
+    {
+      "url": "https://c.liepin.com/",
+      "reason": "猎聘内置自动接管隔离；本轮未操作，完整JD/HR入口待补",
+      "status": "blocked"
+    },
+    {
+      "url": "https://firmior.cn/careers",
+      "reason": "搜索摘要含高级销售经理，打开官网只取得招聘入口，不能确认仍展示该JD；需核验新ATS",
+      "status": "detail_pending"
+    },
+    {
+      "url": "https://www.juzibot.com/careers/index.html",
+      "reason": "本次读取超时，未重试；搜索摘要不是完整JD",
+      "status": "failed"
+    },
+    {
+      "url": "https://www.haolietou.com/j_296373",
+      "reason": "硅基流动大客户销售详情读取超时；索引刷新日期2025-06-10，15-25万周期未确认，不作当前完整JD",
+      "status": "failed"
+    },
+    {
+      "url": "https://modelbest.cn/",
+      "reason": "本次仅发现公司官网，招聘入口与岗位待续",
+      "status": "not_scanned"
+    },
+    {
+      "url": "https://www.siliconflow.cn/",
+      "reason": "公司官网已由搜索发现，官方招聘入口待续；与招聘平台同名主体未独立核验",
+      "status": "not_scanned"
+    },
+    {
+      "url": "https://www2.siliconflow.cn/brand",
+      "title": "品牌解读 - 硅基流动 SiliconFlow",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q01.json",
+      "evidence_sha256": "31d6bcf133140a3050a0fa49ed5c5e5a94c48107d518a8a86b46602b8e201b8e"
+    },
+    {
+      "url": "https://www.siliconflowcn.com/",
+      "title": "SiliconFlow硅基流动官网",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q01.json",
+      "evidence_sha256": "31d6bcf133140a3050a0fa49ed5c5e5a94c48107d518a8a86b46602b8e201b8e"
+    },
+    {
+      "url": "https://siliconflow.cn/enterprise",
+      "title": "硅基流动企业级MaaS平台",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q01.json",
+      "evidence_sha256": "31d6bcf133140a3050a0fa49ed5c5e5a94c48107d518a8a86b46602b8e201b8e"
+    },
+    {
+      "url": "https://siliconflow.cn/zh-cn/models",
+      "title": "SiliconFlow",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q01.json",
+      "evidence_sha256": "31d6bcf133140a3050a0fa49ed5c5e5a94c48107d518a8a86b46602b8e201b8e"
+    },
+    {
+      "url": "https://m.zhipin.com/companys/181bb2e3cb5890d403F90t65EVU~.html",
+      "title": "「北京硅基流动科技有限公司招聘」-BOSS直聘",
+      "status": "blocked",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q01.json",
+      "evidence_sha256": "31d6bcf133140a3050a0fa49ed5c5e5a94c48107d518a8a86b46602b8e201b8e"
+    },
+    {
+      "url": "https://www.jobui.com/company/22399369/",
+      "title": "「硅基流动怎么样」北京硅基流动科技有限公司 - 职友集",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q01.json",
+      "evidence_sha256": "31d6bcf133140a3050a0fa49ed5c5e5a94c48107d518a8a86b46602b8e201b8e"
+    },
+    {
+      "url": "https://www.cmmizw.com/Company_43430.html",
+      "title": "北京硅基流动科技有限公司-CMMI中文网",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q01.json",
+      "evidence_sha256": "31d6bcf133140a3050a0fa49ed5c5e5a94c48107d518a8a86b46602b8e201b8e"
+    },
+    {
+      "url": "https://www.haolietou.com/j_296377",
+      "title": "渠道销售（移动）_北京硅基流动科技有限公司招聘渠道销售（移动）",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q01.json",
+      "evidence_sha256": "31d6bcf133140a3050a0fa49ed5c5e5a94c48107d518a8a86b46602b8e201b8e"
+    },
+    {
+      "url": "https://www.noumena.com.cn/career/",
+      "title": "加入我们 · Noumena",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://jobs.ultraai.site/jobs/tencent/2100068989031067648",
+      "title": "企业微信-企业客户AI解决方案（社招）- WXG | 职先机",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://www.zhaopin.com/jobdetail/CC406882580J40914342302.htm",
+      "title": "企业服务销售顾问招聘_探迹科技招聘 - 智联招聘",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://www.xingguangai.cn/careers/",
+      "title": "加入我们 - 星光标答 | 与AI时代同步成长",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://www.zhaopin.com/jobdetail/CC406882580J40901989402.htm",
+      "title": "ToB大模型销售-阿里投资/大厂团队招聘_探迹科技招聘 - 智联招聘",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://www.tangdao.vip/careers",
+      "title": "加入我们 | 广州唐道科技有限公司",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://www.xunhe-ai.com/careers",
+      "title": "招贤纳士 | 宁夏迅合人工智能科技有限公司",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://www.zhaopin.com/jobdetail/CC396661010J40859591805.htm",
+      "title": "sass软件销售/ai人工智能（可接受应届生）招聘_万商云集(成都)科技股份有限公司招聘 - 智联招聘",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://img1.icswb.com/site_14_2025/2025/07/17/contribution/sub_105/104297/20250717/material_68786a7f50536.pdf",
+      "title": "长沙市 2025 年三季度企业岗位需求表",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://rsj.sh.gov.cn/dzb/rsj/2026-02-05/pdf/03.pdf",
+      "title": "Untitiled",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://www.tjftz.gov.cn/upload/files/2024/8/2024%E5%B9%B4%E4%BF%9D%E7%A8%8E%E5%8C%BA%E6%80%A5%E9%9C%80%E7%B4%A7%E7%BC%BA%E5%B2%97%E4%BD%8D%E4%BA%BA%E6%89%8D%E7%9B%AE%E5%BD%95.pdf",
+      "title": "<table id=\"e1\">",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://rsj.nanjing.gov.cn/hdjl/dczj/202410/P020241031552474019505.pdf",
+      "title": "02 软件与信息服务业",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://www.gongzhao.net/files/ckeditor/files/2024-01-04/270ed2bb-f7ae-4152-9192-22816d1132e4.pdf",
+      "title": "附件1",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    },
+    {
+      "url": "https://www.reddit.com/r/u_Stephen1573/comments/1ue10yl/%E6%96%B0%E5%8A%A0%E5%9D%A1%E4%BA%A7%E5%93%81%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%81%8C%E4%BD%8D%E6%8B%9B%E8%81%98/",
+      "title": "新加坡产品工程师职位招聘",
+      "status": "not_scanned",
+      "reason": "搜索发现待核，不是岗位全文；入口归属、招聘有效期与采集准入尚未核验",
+      "evidence_file": "01_行情收集/official-careers/research/fallback-2026-09-22/raw/q02.json",
+      "evidence_sha256": "2e8d11ef6dc2af17b10c43e1c9c2e468fc43c0dfa6834870ef5d4ba590e8fb38"
+    }
+  ],
+  "adapter_run": "/Users/MR/Documents/职场/01_行情收集/official-careers/reports/fallback-runs/fallback-221a2908-0e82-4991-a300-5088f1a6f131/run.json",
+  "market_scan_complete": false,
+  "login_repaired": false,
+  "external_applications": 0
+}

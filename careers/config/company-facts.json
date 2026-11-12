@@ -1,0 +1,446 @@
+{
+  "version": "2026-09-22-market-wide-company-facts-v1",
+  "required_fields": [
+    "legal_name",
+    "industry",
+    "business_line",
+    "product",
+    "customer",
+    "organization_size",
+    "financing_round",
+    "listed_status",
+    "qualifications",
+    "office_location",
+    "source_url",
+    "observed_at",
+    "verification_status",
+    "conflicts"
+  ],
+  "companies": [
+    {
+      "entity_id": "tidong",
+      "name": "钛动科技",
+      "legal_name": "钛动科技股份有限公司",
+      "job_ids": [
+        "boss-tidong",
+        "liepin-tidong-verified"
+      ],
+      "identity_reviewed": true,
+      "identity_note": "两端同公司、办公楼、同销售管理职责；仅并排展示入口，不判定HR同一人。",
+      "industry": "AI应用 / 营销科技",
+      "facts": [
+        {
+          "file": "01_行情收集/official-careers/research/operations-2026-09-14/raw/boss-tidong.json",
+          "quote": "跨境营销",
+          "label": "业务场景",
+          "value": "AI营销、跨境营销、广告主",
+          "status": "company_self_description",
+          "observed_at": "2026-09-14"
+        },
+        {
+          "file": "01_行情收集/official-careers/research/operations-2026-09-14/raw/liepin-tidong-verified.json",
+          "quote": "500-999人",
+          "label": "人数（猎聘）",
+          "value": "500–999人",
+          "status": "platform_reported",
+          "observed_at": "2026-09-14"
+        },
+        {
+          "file": "01_行情收集/official-careers/research/operations-2026-09-14/raw/liepin-tidong-verified.json",
+          "quote": "BOSS1000-9999人",
+          "label": "人数（BOSS）",
+          "value": "1000–9999人",
+          "status": "cross_source_observation",
+          "observed_at": "2026-09-14"
+        },
+        {
+          "label": "融资轮次",
+          "value": "B轮",
+          "status": "user_reported_pending_platform_capture",
+          "source": "用户2026-09-16本轮补充",
+          "observed_at": "2026-09-16"
+        },
+        {
+          "label": "企业标签",
+          "value": "高新技术企业 / 科技型中小企业 / 专精特新企业",
+          "status": "user_reported_pending_certificate_verification",
+          "source": "用户2026-09-16本轮补充：BOSS展示标签",
+          "observed_at": "2026-09-16"
+        }
+      ],
+      "attention": "人数范围跨平台冲突；标签和B轮目前有用户补充，未重新取得平台截图或官方资质名录。不据此定大厂。"
+    },
+    {
+      "entity_id": "moonshot",
+      "name": "月之暗面",
+      "legal_name": "北京月之暗面科技股份有限公司",
+      "job_ids": [
+        "boss-moonshot-full"
+      ],
+      "identity_reviewed": true,
+      "identity_note": "保存页面法律雇主；搜索中的宁波/泉州同名主体不并入。",
+      "industry": "AI基础模型 / 商业化生态",
+      "facts": [
+        {
+          "file": "01_行情收集/official-careers/research/operations-2026-09-14/raw/boss-moonshot-full.json",
+          "quote": "AI商业化路径",
+          "label": "业务场景",
+          "value": "AI商业化路径与生态合作",
+          "status": "JD_derived",
+          "observed_at": "2026-09-14"
+        }
+      ],
+      "attention": "融资、人数、资质标签待补。页面5–10年与正文开放背景有张力，需招聘方确认。"
+    },
+    {
+      "entity_id": "minimax-platform",
+      "name": "MiniMax",
+      "legal_name": null,
+      "job_ids": [
+        "boss-minimax-search"
+      ],
+      "identity_reviewed": false,
+      "identity_note": "平台显示品牌；法律主体与合同签约主体待核。",
+      "industry": "AI基础模型 / MaaS技术销售",
+      "facts": [],
+      "attention": "当前是技术销售工程师，不是旧版普通KA；公司规模、融资和资质未在本轮快照中取得。"
+    },
+    {
+      "entity_id": "bytedance-platform",
+      "name": "字节跳动",
+      "legal_name": null,
+      "job_ids": [
+        "liepin-bytedance-auto"
+      ],
+      "identity_reviewed": false,
+      "identity_note": "猎聘平台品牌和抖音业务线；具体签约主体待核。",
+      "industry": "互联网 / 汽车本地生活",
+      "facts": [],
+      "attention": "汽车行业直接相关，但岗位并非AI产品销售，未披露人员管理权限。公司标签待补。"
+    },
+    {
+      "entity_id": "miaowa-self",
+      "name": "天津思必得科技有限公司 / 妙蛙GEO",
+      "legal_name": "天津思必得科技有限公司（网站自述）",
+      "job_ids": [
+        "keyword-geo-revops"
+      ],
+      "identity_reviewed": false,
+      "identity_note": "产品网站自行标注主体，尚无独立归属核验。",
+      "industry": "AI应用 / GEO营销",
+      "facts": [],
+      "attention": "薪资12–22K仅上界达到目标；公司归属、体量、融资和标签都需要进一步核实。"
+    },
+    {
+      "entity_id": "market-wide-display-qingcloud",
+      "name": "青云科技",
+      "legal_name": null,
+      "job_ids": [
+        "job:6fc86541663dc5031aff853d",
+        "job:a559d529ff063a8e029d5b71",
+        "job:cf3698a9a087543d83a3fe6c",
+        "job:7faaf5cfd3dbc7527baa0f9c",
+        "job:d20ee294cc537892e10d9797",
+        "job:e3b5727c4756aaf91b20ce9b",
+        "job:414da51b8f73fa6f908ea744",
+        "job:902c2e070103345900dd73dd",
+        "job:5ac315227bf7fe5270b0a66c",
+        "job:2d89311b443cd00be2c4cc1e",
+        "job:7c672968d0ecf73c2c487cdd"
+      ],
+      "identity_reviewed": false,
+      "identity_note": "按同站品牌、招聘页或平台展示归组；未独立核验法律雇主，不合并跨平台联系人。",
+      "industry": "云计算与AI基础设施",
+      "industry_basis": "页面业务自述或JD场景分类，不是第三方行业排名",
+      "facts": [
+        {
+          "label": "业务方向",
+          "value": "企业级AI基础设施与解决方案",
+          "quote": "企业级 AI 基础设施（AI Infra）与解决方案提供商",
+          "status": "company_self_description",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o01b.json",
+          "source_url": "https://www.qingcloud.com/jobs",
+          "evidence_sha256": "69574b89064ee7b90c1dace3d0a5327fe02d8414d6954bded3ecd9f2dd1d0cfb",
+          "observed_at": "2026-09-21T17:54:22.877Z"
+        },
+        {
+          "label": "股票代码（官网展示）",
+          "value": "688316",
+          "quote": "股票代码：688316",
+          "status": "company_self_description",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o01b.json",
+          "source_url": "https://www.qingcloud.com/jobs",
+          "evidence_sha256": "69574b89064ee7b90c1dace3d0a5327fe02d8414d6954bded3ecd9f2dd1d0cfb",
+          "observed_at": "2026-09-21T17:54:22.877Z"
+        }
+      ],
+      "attention": "业务/人数/融资按注明来源展示，不证明行业地位或最终合同主体；未披露字段保持未知。薪资与当前HC需另核。"
+    },
+    {
+      "entity_id": "market-wide-display-digitforce",
+      "name": "数势科技",
+      "legal_name": null,
+      "job_ids": [
+        "job:cf1333655d9061fd4ddd8962",
+        "job:de733a375dbe9e15014839bd",
+        "job:773b434c669ef5f7bbcca68a",
+        "job:5a8d832c5ffa360c60918a77",
+        "job:e7eb17802814133521341af2",
+        "job:8719b67b80924755a8e1585f",
+        "job:4c1599f281527aa0cc671345",
+        "job:328b70027484c6290681bd26",
+        "job:b5fce5de71d0f36b9f492538",
+        "job:56a1dd13c28cdfb9e28f733a",
+        "job:f945329154233507e576d909",
+        "job:32c1c2eee8f134d234e26040",
+        "job:4430f529869ee6e526173aff"
+      ],
+      "identity_reviewed": false,
+      "identity_note": "按同站品牌、招聘页或平台展示归组；未独立核验法律雇主，不合并跨平台联系人。",
+      "industry": "数据智能与AI企业应用",
+      "industry_basis": "页面业务自述或JD场景分类，不是第三方行业排名",
+      "facts": [
+        {
+          "label": "业务方向",
+          "value": "企业数据智能、AI Agent与产品交付",
+          "quote": "AI Agent / 数据智能 / 产品交付",
+          "status": "company_self_description",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o02.json",
+          "source_url": "https://www.digitforce.com/jobs",
+          "evidence_sha256": "77af689c7148ea9275335c49eb7208bea855b6cd20d2151a26b99331b06d9db1",
+          "observed_at": "2026-09-21T17:54:56.701Z"
+        }
+      ],
+      "attention": "业务/人数/融资按注明来源展示，不证明行业地位或最终合同主体；未披露字段保持未知。薪资与当前HC需另核。"
+    },
+    {
+      "entity_id": "market-wide-display-noumena",
+      "name": "物自体（上海）科技有限公司",
+      "legal_name": "物自体（上海）科技有限公司",
+      "job_ids": [
+        "job:5731bee9a593e6454b63fabb",
+        "job:8771414eea8ec24345dcedd0",
+        "job:fdbe17092441810d839682ec",
+        "job:115593bca5c008acddeb3709",
+        "job:c25744d09d9ce5d97c91bcd5",
+        "job:afc3232f8dc845f7f9172f3b",
+        "job:93f2f8e1069091780df155e8",
+        "job:bffafdbe1319a51d60f8269a",
+        "job:f56c1b79cccfc7d9bba7b0b3"
+      ],
+      "identity_reviewed": false,
+      "identity_note": "按同站品牌、招聘页或平台展示归组；未独立核验法律雇主，不合并跨平台联系人。",
+      "industry": "营销科技 / AI企业应用",
+      "industry_basis": "页面业务自述或JD场景分类，不是第三方行业排名",
+      "facts": [
+        {
+          "label": "业务方向",
+          "value": "品牌增长智能与企业营销AI工作流",
+          "quote": "聚焦品牌增长智能（Growth Intelligence）的 AI 科技公司",
+          "status": "company_self_description",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o03.json",
+          "source_url": "https://www.noumena.com.cn/career/",
+          "evidence_sha256": "facd11679a3bff1e24e3c1a6df88594c1ab3ecd96bdfb1c6f43bd4a42f2f8c9a",
+          "observed_at": "2026-09-21T17:55:30.727Z"
+        },
+        {
+          "label": "官网页脚主体",
+          "value": "物自体（上海）科技有限公司",
+          "quote": "物自体（上海）科技有限公司",
+          "status": "company_self_description",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o03.json",
+          "source_url": "https://www.noumena.com.cn/career/",
+          "evidence_sha256": "facd11679a3bff1e24e3c1a6df88594c1ab3ecd96bdfb1c6f43bd4a42f2f8c9a",
+          "observed_at": "2026-09-21T17:55:30.727Z"
+        }
+      ],
+      "attention": "业务/人数/融资按注明来源展示，不证明行业地位或最终合同主体；未披露字段保持未知。薪资与当前HC需另核。"
+    },
+    {
+      "entity_id": "market-wide-display-hegong",
+      "name": "上海合共软件科技有限公司",
+      "legal_name": "上海合共软件科技有限公司",
+      "job_ids": [
+        "job:1614b334b0b94c9927916e5a",
+        "job:9b266fe5a373446629cb15dc",
+        "job:a830907a8a58905193c2e647",
+        "job:b6e61c1892fff8117d1f348f",
+        "job:6ca4bcb0788d3eba477bfa25",
+        "job:6d3eff17f0af457e746681a6",
+        "job:c7c4005a51a01fd8c8ddd014",
+        "job:8896b1ef45790cb129019c96",
+        "job:41f8107ea9e391a97cef28b5",
+        "job:b2512237bee1f5cde4b555bb",
+        "job:cee0edd47ad21c29e71fd57a",
+        "job:0038410fe8bfece47cc54ecd"
+      ],
+      "identity_reviewed": false,
+      "identity_note": "按同站品牌、招聘页或平台展示归组；未独立核验法律雇主，不合并跨平台联系人。",
+      "industry": "工业软件 / 智能制造",
+      "industry_basis": "页面业务自述或JD场景分类，不是第三方行业排名",
+      "facts": [
+        {
+          "label": "招聘业务场景",
+          "value": "MES与制造业经营数字化",
+          "quote": "MES系统销售经理",
+          "status": "JD_derived",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+          "source_url": "https://www.hegongsoft.com/about/joinus",
+          "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+          "observed_at": "2026-09-21T17:56:04.651Z"
+        }
+      ],
+      "attention": "业务/人数/融资按注明来源展示，不证明行业地位或最终合同主体；未披露字段保持未知。薪资与当前HC需另核。"
+    },
+    {
+      "entity_id": "market-wide-display-yonchang",
+      "name": "上海用畅信息科技有限公司",
+      "legal_name": "上海用畅信息科技有限公司",
+      "job_ids": [
+        "job:ecd37d32a5edd45dce9a06a9",
+        "job:7fc62a23d6a002e3ceba726b",
+        "job:fa4b1d98375e4e9e1aa7b01e",
+        "job:595278fab3083e4efcecc059",
+        "job:210e338ef52bc695969e22e4",
+        "job:57439376ffe3414eb2455f93",
+        "job:98a77b349637ab30473ef88d",
+        "job:be672716af23f79c6de18b76",
+        "job:f388884d455239bc9ba72e9a",
+        "job:8a611d70546db8ce11d7af7f"
+      ],
+      "identity_reviewed": false,
+      "identity_note": "按同站品牌、招聘页或平台展示归组；未独立核验法律雇主，不合并跨平台联系人。",
+      "industry": "企业软件 / SaaS",
+      "industry_basis": "页面业务自述或JD场景分类，不是第三方行业排名",
+      "facts": [
+        {
+          "label": "业务方向",
+          "value": "用友ERP与企业管理软件服务",
+          "quote": "用友ERP",
+          "status": "company_self_description",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o05.json",
+          "source_url": "https://www.yonchang.cn/Contact/hr",
+          "evidence_sha256": "d8bebde6b5a5c310c25d8e57724832943b9c596fd2cb1fc62e17cf64e4fbd3d5",
+          "observed_at": "2026-09-21T17:56:38.819Z"
+        }
+      ],
+      "attention": "业务/人数/融资按注明来源展示，不证明行业地位或最终合同主体；未披露字段保持未知。薪资与当前HC需另核。"
+    },
+    {
+      "entity_id": "market-wide-display-cosmoplat",
+      "name": "卡奥斯",
+      "legal_name": null,
+      "job_ids": [
+        "job:086da497f488a98bce26231e"
+      ],
+      "identity_reviewed": false,
+      "identity_note": "按同站品牌、招聘页或平台展示归组；未独立核验法律雇主，不合并跨平台联系人。",
+      "industry": "工业互联网 / 智能制造",
+      "industry_basis": "页面业务自述或JD场景分类，不是第三方行业排名",
+      "facts": [
+        {
+          "label": "招聘所属平台",
+          "value": "海尔招聘页：卡奥斯平台",
+          "quote": "卡奥斯平台",
+          "status": "company_self_description",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o06.json",
+          "source_url": "https://maker.haier.net/client/job/detail/id/10230413/recommend_record/1",
+          "evidence_sha256": "10565ea29255620cd998974d8cb4157792febbbb8677806688575b7bf44e870f",
+          "observed_at": "2026-09-21T17:57:13.943Z"
+        },
+        {
+          "label": "JD覆盖领域",
+          "value": "工业互联网、智能制造、人工智能",
+          "quote": "工业互联网、智能制造、人工智能领域",
+          "status": "JD_derived",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o06.json",
+          "source_url": "https://maker.haier.net/client/job/detail/id/10230413/recommend_record/1",
+          "evidence_sha256": "10565ea29255620cd998974d8cb4157792febbbb8677806688575b7bf44e870f",
+          "observed_at": "2026-09-21T17:57:13.943Z"
+        }
+      ],
+      "attention": "业务/人数/融资按注明来源展示，不证明行业地位或最终合同主体；未披露字段保持未知。薪资与当前HC需另核。"
+    },
+    {
+      "entity_id": "market-wide-display-dongfeng",
+      "name": "东风汽车",
+      "legal_name": "东风汽车集团有限公司",
+      "job_ids": [
+        "job:99a291f70dd787c186d3385d"
+      ],
+      "identity_reviewed": false,
+      "identity_note": "按同站品牌、招聘页或平台展示归组；未独立核验法律雇主，不合并跨平台联系人。",
+      "industry": "智能汽车 / 汽车科技",
+      "industry_basis": "页面业务自述或JD场景分类，不是第三方行业排名",
+      "facts": [
+        {
+          "label": "人数（智联展示）",
+          "value": "10000人以上",
+          "quote": "10000人以上",
+          "status": "platform_reported",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o07.json",
+          "source_url": "https://www.zhaopin.com/jobdetail/CC679989880J40893200705.htm",
+          "evidence_sha256": "dddc2b0dc3fb53a748beaa00e9e83d849c3ce90cb12a81908632f3625f6013ee",
+          "observed_at": "2026-09-21T17:57:48.762Z"
+        },
+        {
+          "label": "融资（智联展示）",
+          "value": "未融资",
+          "quote": "未融资",
+          "status": "platform_reported",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o07.json",
+          "source_url": "https://www.zhaopin.com/jobdetail/CC679989880J40893200705.htm",
+          "evidence_sha256": "dddc2b0dc3fb53a748beaa00e9e83d849c3ce90cb12a81908632f3625f6013ee",
+          "observed_at": "2026-09-21T17:57:48.762Z"
+        },
+        {
+          "label": "平台工商名称",
+          "value": "东风汽车集团有限公司",
+          "quote": "企业名称 东风汽车集团有限公司",
+          "status": "platform_reported",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o07.json",
+          "source_url": "https://www.zhaopin.com/jobdetail/CC679989880J40893200705.htm",
+          "evidence_sha256": "dddc2b0dc3fb53a748beaa00e9e83d849c3ce90cb12a81908632f3625f6013ee",
+          "observed_at": "2026-09-21T17:57:48.762Z"
+        }
+      ],
+      "attention": "业务/人数/融资按注明来源展示，不证明行业地位或最终合同主体；未披露字段保持未知。薪资与当前HC需另核。"
+    },
+    {
+      "entity_id": "market-wide-display-ineq",
+      "name": "北京不等式科技有限公司",
+      "legal_name": "北京不等式科技有限公司",
+      "job_ids": [
+        "job:92f88c328693acec6f8d6265",
+        "job:9bf32b14ee735b6116c0311d"
+      ],
+      "identity_reviewed": false,
+      "identity_note": "按同站品牌、招聘页或平台展示归组；未独立核验法律雇主，不合并跨平台联系人。",
+      "industry": "工业智能化 / AI企业应用",
+      "industry_basis": "页面业务自述或JD场景分类，不是第三方行业排名",
+      "facts": [
+        {
+          "label": "业务方向",
+          "value": "AI智能体、工厂数据基础设施、B2B销售工具",
+          "quote": "AI 智能体、工厂数据基础设施、B2B 销售工具",
+          "status": "company_self_description",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o10.json",
+          "source_url": "https://in-equal.com/careers",
+          "evidence_sha256": "59d9c1633862e74fedbfe9f527aa3ae9c25dc9b47ff267565ba371f0f8ecde64",
+          "observed_at": "2026-09-21T17:58:58.522Z"
+        },
+        {
+          "label": "官网页脚主体",
+          "value": "北京不等式科技有限公司",
+          "quote": "© 2026 北京不等式科技有限公司",
+          "status": "company_self_description",
+          "file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o10.json",
+          "source_url": "https://in-equal.com/careers",
+          "evidence_sha256": "59d9c1633862e74fedbfe9f527aa3ae9c25dc9b47ff267565ba371f0f8ecde64",
+          "observed_at": "2026-09-21T17:58:58.522Z"
+        }
+      ],
+      "attention": "业务/人数/融资按注明来源展示，不证明行业地位或最终合同主体；未披露字段保持未知。薪资与当前HC需另核。"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "version": "2026-09-21-axes-v2",
+  "axes": [
+    {
+      "id": "industry_and_value_chain",
+      "label": "行业与产业链",
+      "terms": [
+        "大模型",
+        "MaaS",
+        "云计算",
+        "智能硬件",
+        "企业服务",
+        "营销科技",
+        "跨境营销",
+        "汽车",
+        "制造",
+        "零售",
+        "金融",
+        "GEO",
+        "数据智能",
+        "SaaS",
+        "实时数据仓库",
+        "智能制造",
+        "跨境支付",
+        "算力"
+      ],
+      "default_status": "discovery_hypothesis_until_exact_source_match"
+    },
+    {
+      "id": "trend_and_policy",
+      "label": "趋势与政策",
+      "terms": [
+        "数字化转型",
+        "出海",
+        "AI Native",
+        "国产替代",
+        "人工智能+",
+        "十五五"
+      ],
+      "default_status": "discovery_hypothesis_until_exact_source_match"
+    },
+    {
+      "id": "company_brand_product",
+      "label": "公司、品牌与产品",
+      "terms": [
+        "MiniMax",
+        "月之暗面",
+        "钛动科技",
+        "钛极",
+        "飞书",
+        "抖音",
+        "探迹",
+        "销售易",
+        "纷享销客",
+        "Noumena",
+        "飞轮科技",
+        "YMatrix",
+        "华天软件",
+        "Airwallex"
+      ],
+      "default_status": "discovery_hypothesis_until_exact_source_match"
+    },
+    {
+      "id": "job_title",
+      "label": "岗位名称",
+      "terms": [
+        "销售管理",
+        "销售运营",
+        "商业化运营",
+        "大客户销售",
+        "Business Builder",
+        "技术销售",
+        "营收运营",
+        "商务",
+        "生态",
+        "渠道",
+        "GTM",
+        "AI 转型专家",
+        "企业AI落地专家",
+        "售前咨询",
+        "ERP销售顾问"
+      ],
+      "default_status": "discovery_hypothesis_until_exact_source_match"
+    },
+    {
+      "id": "customer_and_scenario",
+      "label": "客户与应用场景",
+      "terms": [
+        "商户",
+        "广告主",
+        "文娱游戏",
+        "本地生活",
+        "智能硬件",
+        "客户决策",
+        "开发者",
+        "零售",
+        "KA",
+        "SMB",
+        "客户画像",
+        "整车",
+        "零部件"
+      ],
+      "default_status": "discovery_hypothesis_until_exact_source_match"
+    },
+    {
+      "id": "responsibilities",
+      "label": "职责与经营方法",
+      "terms": [
+        "目标拆解",
+        "客户分层",
+        "经营分析",
+        "PDCA",
+        "漏斗",
+        "归因",
+        "资源统筹",
+        "客户生命周期",
+        "业务诊断",
+        "方案设计",
+        "培训"
+      ],
+      "default_status": "discovery_hypothesis_until_exact_source_match"
+    },
+    {
+      "id": "business_outcomes",
+      "label": "业务结果",
+      "terms": [
+        "GMV",
+        "ROI",
+        "revenue",
+        "pipeline",
+        "quota",
+        "回款",
+        "续约",
+        "消耗",
+        "转化"
+      ],
+      "default_status": "discovery_hypothesis_until_exact_source_match"
+    },
+    {
+      "id": "management_and_collaboration",
+      "label": "管理与决策关系",
+      "terms": [
+        "销售团队",
+        "招聘",
+        "绩效",
+        "高管",
+        "产品",
+        "研发",
+        "财务",
+        "跨部门",
+        "跨团队"
+      ],
+      "default_status": "discovery_hypothesis_until_exact_source_match"
+    },
+    {
+      "id": "technical_and_hard_gates",
+      "label": "技术与门槛",
+      "terms": [
+        "Demo",
+        "POC",
+        "API",
+        "SQL",
+        "CRM",
+        "技术架构",
+        "技术栈",
+        "全日制",
+        "Agent",
+        "MCP",
+        "ERP",
+        "PLM",
+        "MES"
+      ],
+      "default_status": "discovery_hypothesis_until_exact_source_match"
+    },
+    {
+      "id": "business_model_and_go_to_market",
+      "label": "商业模式与获客方式",
+      "terms": [
+        "生态共建",
+        "非标准交易",
+        "订阅",
+        "效果",
+        "渠道",
+        "合作伙伴",
+        "增购",
+        "定价",
+        "内容运营",
+        "转介绍",
+        "渠道推荐"
+      ],
+      "default_status": "discovery_hypothesis_until_exact_source_match"
+    }
+  ],
+  "notes": [
+    "原文命中不代表政策已核验、公司资质成立或当前在招。",
+    "跨公司共性仅按身份已核的独立雇主计数；同公司多渠道不增加公司数。",
+    "无命中启动词保留为待研究假设，不伪装本轮提炼的新词。",
+    "每次选择行业/场景词与职能词组合检索，不要求所有关键词同时出现。"
+  ]
+}

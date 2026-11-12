@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "role_id": "independent_reviewer",
+  "execution": {
+    "agent_id": null,
+    "model": "gpt-6-astra",
+    "reasoning_effort": "max"
+  },
+  "completed_at": "2026-09-10T15:51:41Z",
+  "status": "complete",
+  "scope": "仅复验 independent-review-initial.json 中3项P2的修复区域、原反例及受影响正例：英文销售分类与ROLE_POLICY_VERSION进入matching缓存键、同岗位标题薪资绑定、Liepin职位链接身份约束。运行指定headhunter/market-leads/role-policy的10项定向测试，但不重复四角色语义审核、角色输出复验、历史48条JD研究、全量架构或UI验收。最终登记审计依赖采用 review-registry-snapshot-v2.json；仅核对该快照的新版role-policy输入SHA及原始market-leads配置SHA，不绑定live registry或本审核输出自身。先前广范围结论仅作为已归档历史，不在本次重新背书。反例在内存模块及自动清理的测试临时目录运行；只更新本审核JSON，未联网、未投递、未修改代码。本次通过不构成具体JD推荐、匹配或投递审批。",
+  "summary": "原3项P2全部resolved；本次限定复验未发现新问题，剩余无阻塞。实际运行 node --test careers/tests/headhunter.test.mjs careers/tests/market-leads.test.mjs careers/tests/role-policy.test.mjs，10/10通过；另独立断言12个职称分类正反例及8组真实线索/内存变体，全部符合预期。Sales Manager、Enterprise Sales Director、Head of Sales进入primary；Sales Engineer仍adjacent，Sales Operations保留运营分类，Salesforce Developer排除，Product Marketing保留且Product Manager排除。360相邻岗位80-110k薪资串用、公司页、搜索页及其他职位链接均拒绝；360原始25-30k、百度独立职位页面、带城市标签的美团线索通过。15条原始数据仍通过，固定底薪确认0、完整JD0、职位链接1，全部薪资待核、在招未知、无外发授权。静态核对ROLE_POLICY_VERSION=v2已进入preferences_hash并参与matchCacheKey；该版本源码SHA与v2登记快照一致，原始线索配置SHA未变。本次无需进一步修复。",
+  "findings": [
+    {
+      "title": "[P2] 英文销售管理标题被误排除出主攻方向",
+      "priority": 2,
+      "status": "resolved",
+      "blocking": false,
+      "conclusion": "已解决。直接重放原Sales Manager、Enterprise Sales Director、Head of Sales反例，均为eligible:true、tier:primary；VP of Sales、Sales Executive同样通过。受影响正反例中Sales Engineer仍adjacent，Sales Operations Manager仍属于销售及商业化运营，Salesforce Developer为excluded，Product Marketing Manager为primary，Senior Product Manager为excluded；中文销售经理和Account Executive仍primary。ROLE_POLICY_VERSION为2026-09-10-commercial-functions-v2；代码阅读确认该版本进入preferences_hash，matchCacheKey继续使用此哈希，不沿用旧方向的同键缓存。",
+      "evidence": [
+        {
+          "path": "careers/role-policy.mjs",
+          "quote": "if (/销售|大客户|客户经理|商业化|account executive|account manager|\\bKA\\b|regional general manager|country manager|\\bsales\\s+(?:manager|director|executive|representative|lead|specialist|consultant|supervisor)\\b|\\b(?:head|vp|vice president|director)\\s+(?:of\\s+)?sales\\b/i.test(title)) return result('primary', '销售与大客户', '客户拓展、经营与商业化主线，需区分一线配额岗与实际带队岗。');"
+        },
+        {
+          "path": "careers/role-policy.mjs",
+          "quote": "export const ROLE_POLICY_VERSION = '2026-09-10-commercial-functions-v2';"
+        },
+        {
+          "path": "careers/matching.mjs",
+          "quote": "preferences_hash: hash({ preferences, career_strategy: careerStrategy, salary_target_version: SALARY_TARGET_VERSION, role_policy_version: ROLE_POLICY_VERSION }), rules_hash: hash(rules), base_resume_hash: baseResumeHash };"
+        },
+        {
+          "path": "careers/matching.mjs",
+          "quote": "profile: context.profile_hash, preferences: context.preferences_hash, rules: context.rules_hash,"
+        }
+      ],
+      "risk": "原英文销售漏召回缺陷在本次复验范围内已消除。职能纳入不等于真实带队权限、个人胜任证据或薪酬达标。",
+      "next_action": "关闭此项；保留英文Sales边界、技术销售及产品营销正反例回归测试。"
+    },
+    {
+      "title": "[P2] 同一来源块内仍能串用相邻岗位薪资",
+      "priority": 2,
+      "status": "resolved",
+      "blocking": false,
+      "conclusion": "已解决。使用真实360-ai-sales及其原始长quote，只在内存中把25-30k改成相邻岗位的80-110k·15薪，加载器现抛出Public-lead quote or provenance mismatch。保持原始25-30k则通过；美团大模型业务运营标题与25-35k·15薪之间的〖城市〗标签正例通过，15条原始数据全量加载成功。新检查同时要求来源块与连续quote中的目标标题后只隔空白或可选城市标签便出现该薪资，不再依靠标题和金额分别包含。",
+      "evidence": [
+        {
+          "path": "careers/market-leads.mjs",
+          "quote": "function titleSalaryBound(lead, block) {\n  // List evidence must place the salary directly after this title, with only an optional location label between them.\n  const pattern = new RegExp(`${literal(lead.title)}\\\\s*(?:〖[^〗\\\\n]{0,100}〗\\\\s*)?${literal(lead.salary_raw)}(?=\\\\s|$)`);\n  return pattern.test(block) && pattern.test(lead.evidence.quote);\n}"
+        },
+        {
+          "path": "careers/market-leads.mjs",
+          "quote": "|| !titleSalaryBound(lead, sourceBlock) || !jobLinkBound(lead, sourceBlock)) throw new Error('Public-lead quote or provenance mismatch');"
+        }
+      ],
+      "risk": "原同页相邻岗位串薪反例已拒绝，原始线索金额和固定底薪待核语义未被改写。本次仅验证既定索引格式及原反例，不宣称已核实真实固定底薪。",
+      "next_action": "关闭此项；保留真实360长quote的串薪拒绝测试及城市标签正例。"
+    },
+    {
+      "title": "[P2] 公司来源页仍可被提升为职位直链",
+      "priority": 2,
+      "status": "resolved",
+      "blocking": false,
+      "conclusion": "已解决。真实360-ai-sales内存副本的job_url=source_url公司页原反例现被拒绝；搜索页https://m.liepin.com/s/search/及借用百度https://www.liepin.com/job/1985206063.shtml也均被拒绝。百度原始source_url=job_url且独立取得的该职位结果仍通过，360原始job_url:null也通过。新约束要求Liepin /job/数字.shtml、无query/hash、source_url与job_url一致并出现在该来源块标题链接形式中。15条原始数据仍仅有1个职位级索引链接，其余不被提升为职位直链。",
+      "evidence": [
+        {
+          "path": "careers/market-leads.mjs",
+          "quote": "function jobLinkBound(lead, block) {\n  if (!lead.job_url) return true;\n  const url = new URL(lead.job_url);\n  // This index adapter only accepts a separately observed Liepin job-page result, never a list-page link.\n  return /^(?:www\\.|m\\.)?liepin\\.com$/.test(url.hostname) && /^\\/job\\/\\d+\\.shtml$/.test(url.pathname)\n    && !url.search && !url.hash && lead.source_url === lead.job_url && block.includes(`(${lead.job_url})`);\n}"
+        },
+        {
+          "path": "careers/market-leads.mjs",
+          "quote": "|| !titleSalaryBound(lead, sourceBlock) || !jobLinkBound(lead, sourceBlock)) throw new Error('Public-lead quote or provenance mismatch');"
+        }
+      ],
+      "risk": "原公司页冒充职位直链反例已拒绝，现有百度职位级索引入口未受损。索引职位链接仍不代表完整JD或当前在招已确认。",
+      "next_action": "关闭此项；保留公司页、搜索页、其他职位链接的拒绝测试及百度独立职位页面正例。"
+    }
+  ],
+  "questions": [],
+  "input_files": [
+    "01_行情收集/official-careers/research/headhunter-search-02.json",
+    "01_行情收集/official-careers/research/headhunter-search-03.json",
+    "careers/agent-outputs/independent-review-initial.json",
+    "careers/agent-outputs/review-registry-snapshot-v2.json",
+    "careers/config/market-leads.json",
+    "careers/config/preferences.json",
+    "careers/headhunter.mjs",
+    "careers/market-leads.mjs",
+    "careers/matching.mjs",
+    "careers/paths.mjs",
+    "careers/role-policy.mjs",
+    "careers/salary-target.mjs",
+    "careers/salary.mjs",
+    "careers/tests/headhunter.test.mjs",
+    "careers/tests/market-leads.test.mjs",
+    "careers/tests/role-policy.test.mjs"
+  ],
+  "not_covered": []
+}

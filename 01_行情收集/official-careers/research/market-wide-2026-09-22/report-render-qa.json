@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-21T20:13:00.568Z",
+  "verdict": "passed_limited_offline_render_review",
+  "blocking": false,
+  "open_p1": 0,
+  "open_p2": 0,
+  "findings": [],
+  "reviewmetadata": {
+    "reviewer": {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh",
+      "basis": "accepted parent dispatch supplied in task",
+      "billing_verification": "unknown_not_independently_verified"
+    },
+    "implementation_author": "parent repair per task; QA did not modify implementation"
+  },
+  "scope": {
+    "reviewed": [
+      "careers/decision-review.mjs:104-107",
+      "careers/decision-review.mjs:254-256",
+      "careers/tests/decision-review.test.mjs:5-18"
+    ],
+    "supporting_contract": "HTML escaping and numeric salary parser/comparability only",
+    "offline_only": true,
+    "network_requests": 0,
+    "browser_operations": 0,
+    "raw_files_read": 0,
+    "data_reaudit": false,
+    "report_build_executed": false,
+    "implementation_writes": 0,
+    "write_allowlist": [
+      "report-render-qa.md",
+      "report-render-qa.json"
+    ]
+  },
+  "tests": {
+    "regression": {
+      "command": "node --test --test-name-pattern='^salary sort value' careers/tests/decision-review.test.mjs",
+      "passed": 1,
+      "failed": 0,
+      "exit_code": 0,
+      "full_35_test_suite": "parent-reported; not repeated or independently accepted here"
+    },
+    "independent_salary_boundaries": [
+      {
+        "case": "known",
+        "data_salary": 25000,
+        "comparable": true,
+        "sort_value": 25000
+      },
+      {
+        "case": "null",
+        "data_salary": -1,
+        "comparable": false,
+        "sort_value": -1
+      },
+      {
+        "case": "missing",
+        "data_salary": -1,
+        "comparable": false,
+        "sort_value": -1
+      },
+      {
+        "case": "negotiable",
+        "data_salary": -1,
+        "comparable": false,
+        "sort_value": -1
+      },
+      {
+        "case": "invalid",
+        "data_salary": -1,
+        "comparable": false,
+        "sort_value": -1
+      },
+      {
+        "case": "untrusted_salary",
+        "data_salary": -1,
+        "comparable": false,
+        "sort_value": -1
+      },
+      {
+        "case": "annual",
+        "data_salary": 300000,
+        "comparable": false,
+        "sort_value": -1
+      },
+      {
+        "case": "foreign",
+        "data_salary": 25000,
+        "comparable": false,
+        "sort_value": -1
+      },
+      {
+        "case": "period_unknown",
+        "data_salary": 25000,
+        "comparable": false,
+        "sort_value": -1
+      },
+      {
+        "case": "zero",
+        "data_salary": 0,
+        "comparable": true,
+        "sort_value": 0
+      }
+    ],
+    "additional_excerpt_cases": {
+      "count": 4,
+      "cases": [
+        "missing",
+        "empty",
+        "pre-encoded quote with attribute-like text",
+        "closing pre plus SVG event-like text"
+      ],
+      "passed": 4
+    },
+    "escape_contexts": [
+      "data-search quoted attribute",
+      "search excerpt pre",
+      "salary display"
+    ],
+    "implementation_checks": {
+      "direct_row_data_salary": true,
+      "old_per_row_search_replace_removed": true,
+      "exactly_one_finite_data_salary_per_article": true,
+      "numeric_zero_preserved": true,
+      "unknown_nullish_minimum_sentinel": -1,
+      "noncomparable_salary_sort_value": -1
+    },
+    "numeric_boundary": "data-salary is supplied by the internal numeric parser, not raw salary text; parser-to-render tests included hostile/invalid text. Arbitrarily forged salary_opportunity objects are outside this tested input contract.",
+    "visual": "not_run_or_independently_verified_by_this_reviewer; parent visual work is not counted as a pass",
+    "tested_input_hashes_unchanged": true
+  },
+  "sha256": [
+    {
+      "file": "careers/decision-review.mjs",
+      "sha256": "00e6d73c498b7d5005ccde295f581deffc4316905e6512db1c99bdf6a4c57ecc"
+    },
+    {
+      "file": "careers/tests/decision-review.test.mjs",
+      "sha256": "780eb99464c38f009cf9dbaeaf55ad9b0b6a7b7b4266c3a441f213188527b4d6"
+    },
+    {
+      "file": "careers/salary.mjs",
+      "sha256": "64e9675449db5f57c9b6434a68c625d7cfdb8457a3c04bd6390564c48efedfdf"
+    },
+    {
+      "file": "careers/salary-target.mjs",
+      "sha256": "f4d07dd7a4969260ad42525a9c2d2e4bbb5f75bae6b4374591111934d674380d"
+    }
+  ],
+  "boundaries": [
+    "This closes only the salary-attribute render defect and escaping/unknown-salary checks.",
+    "No full visual acceptance, data re-audit, source access, current-hiring verification or all-market acceptance."
+  ]
+}

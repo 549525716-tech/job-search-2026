@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "version": "2026-09-23-market-breadth-incremental-v4",
+  "contract": "careers/docs/dual-route-discovery.md",
+  "company_tier_policy_ref": "careers/config/company-tier-policy.json",
+  "source_catalog_ref": "careers/config/source-catalog.json",
+  "status": "rules_defined_scan_not_started",
+  "runtime": {
+    "automatic_discovery_implemented": false,
+    "keyword_engine_implemented": false,
+    "coverage_scheduler_implemented": false,
+    "activate_on_rule_edit": false,
+    "schedule_enabled": false,
+    "persistent_discovery_frontier_implemented": true,
+    "approved_static_source_followup_implemented": true,
+    "body_review_queue_implemented": true
+  },
+  "preferences_ref": "careers/config/preferences.json",
+  "roles_ref": "careers/config/agent-team.json",
+  "strategy": {
+    "ai_is_priority_not_exclusive": true,
+    "policy_evidence_required_for_every_job": false,
+    "company_seed_whitelist": false,
+    "unknown_salary_kept": true,
+    "profile_score_is_collection_gate": false,
+    "title_only_recall_is_sufficient": false,
+    "company_tier_requires_evidence": true
+  },
+  "market_objective": {
+    "label": "全市场已收齐",
+    "kind": "business_target_not_completion_claim",
+    "every_update_closing_line": "目标：全市场已收齐",
+    "required_before_closing": [
+      "actual_new_coverage_with_evidence",
+      "reused_tasks_and_duplicate_basis",
+      "remaining_unscanned_partial_and_blocked_scopes",
+      "next_wave_frontier"
+    ],
+    "fixed_count_is_completion": false,
+    "batch_finished_is_market_complete": false,
+    "unknown_market_denominator_allows_coverage_percentage": false
+  },
+  "incremental_triage": {
+    "status": "execution_contract_not_new_scheduler",
+    "quick_queue_labels": [
+      "新增行业/公司/来源/关键词",
+      "到期复查",
+      "待翻页/补正文",
+      "内容变化",
+      "已核重复",
+      "受限待恢复"
+    ],
+    "tag_equality_is_job_identity": false,
+    "task_identity_fields": [
+      "source",
+      "industry_or_employer_scope",
+      "query_verbatim",
+      "filters",
+      "geography",
+      "language",
+      "page_or_cursor",
+      "rules_version"
+    ],
+    "request_reuse_requires": [
+      "same_batch",
+      "exact_task_identity",
+      "successful_persisted_raw_receipt",
+      "preserved_route_provenance_and_reuse_reference"
+    ],
+    "partial_task_counts_as_complete": false,
+    "unknown_identity_can_be_skipped": false,
+    "previously_seen_company_skips_next_update": false,
+    "job_lists_rechecked_each_update": true,
+    "unchanged_requires_current_source_evidence": true,
+    "analysis_reuse_requires": [
+      "same_jd_hash",
+      "same_profile_hash",
+      "same_rules_version",
+      "same_evidence_context"
+    ],
+    "delete_raw_observations": false,
+    "identity_contract_ref": "careers/docs/open-discovery-and-identity.md",
+    "source_halts_preserved": true
+  },
+  "industry_research_groups": [
+    {
+      "id": "models",
+      "label": "基础大模型与开放平台",
+      "status": "research_hypothesis"
+    },
+    {
+      "id": "infrastructure",
+      "label": "云、算力与AI基础设施",
+      "status": "research_hypothesis"
+    },
+    {
+      "id": "data-platforms",
+      "label": "数据与AI开发平台",
+      "status": "research_hypothesis"
+    },
+    {
+      "id": "business-software",
+      "label": "企业软件与营销数字化",
+      "status": "research_hypothesis"
+    },
+    {
+      "id": "ai-applications",
+      "label": "AI企业应用",
+      "status": "research_hypothesis"
+    },
+    {
+      "id": "mobility",
+      "label": "汽车与智能出行数字化",
+      "status": "research_hypothesis"
+    },
+    {
+      "id": "industrial",
+      "label": "制造与工业智能化",
+      "status": "research_hypothesis"
+    },
+    {
+      "id": "robotics",
+      "label": "机器人与智能硬件",
+      "status": "research_hypothesis"
+    }
+  ],
+  "allow_new_industries": true,
+  "routes": [
+    {
+      "id": "A",
+      "steps": [
+        "industry_and_demand",
+        "company_discovery",
+        "official_ownership",
+        "company_job_inventory",
+        "full_jd",
+        "keyword_extraction"
+      ],
+      "origin": "industry_company",
+      "requires_seed_company_membership": false
+    },
+    {
+      "id": "B",
+      "steps": [
+        "reviewed_keywords_or_labelled_bootstrap",
+        "market_title_and_content_queries",
+        "job_evidence",
+        "employer_verification",
+        "company_frontier_for_A"
+      ],
+      "origin": "keyword_job",
+      "requires_seed_company_membership": false
+    }
+  ],
+  "cross_feed": {
+    "a_to_b": "evidence_bound_keyword_versions",
+    "b_to_a": "new_employer_pending_verification",
+    "new_terms_require_review": true,
+    "new_items_enter_next_wave": true,
+    "preserve_all_discovery_routes": true
+  },
+  "cold_start": {
+    "trigger": "route_A_no_usable_full_jd",
+    "route": "B",
+    "allowed_term_states": [
+      "bootstrap_hypothesis",
+      "historical_reference",
+      "inferred_alias"
+    ],
+    "gpt6_reviews_alias_ambiguity": true,
+    "uses_declared_batch_budget": true,
+    "terms_are_latest_demand_evidence": false,
+    "after_full_jd": "gpt6_evidence_bound_extraction_and_employer_verification_then_backfill_A",
+    "without_full_jd_generate_common_demand_or_full_match": false
+  },
+  "sources": [
+    "official_careers",
+    "official_ats",
+    "permitted_recruitment_platform",
+    "verified_recruitment_announcement",
+    "search_index_discovery_only"
+  ],
+  "keyword_policy": {
+    "dimensions": [
+      "title",
+      "customer_and_scenario",
+      "responsibilities",
+      "business_outcomes",
+      "management_and_collaboration",
+      "technical_and_hard_gates"
+    ],
+    "states": [
+      "bootstrap_hypothesis",
+      "historical_reference",
+      "observed_niche",
+      "shared_verified",
+      "inferred_alias",
+      "retired"
+    ],
+    "evidence_fields": [
+      "company_id",
+      "job_id",
+      "source_field",
+      "verbatim_quote",
+      "source_url",
+      "content_sha256",
+      "observed_at",
+      "published_at_semantics"
+    ],
+    "shared_min_independent_employers": 2,
+    "single_source_niche_discovery_allowed": true,
+    "counts_deduplicate_employers_and_jobs": true,
+    "aliases_require_semantic_review": true,
+    "generic_soft_skills_as_standalone_queries": false,
+    "all_keywords_required_on_one_job": false,
+    "unknown_title_with_commercial_content": "review_queue_not_auto_excluded",
+    "existing_title_classifier_is_not_full_content_recall": true,
+    "source_text_is_instruction": false
+  },
+  "query_policy": {
+    "axes": [
+      "title",
+      "content"
+    ],
+    "breadth": [
+      "precise",
+      "expanded"
+    ],
+    "company_restricted_only": false,
+    "industry_required_for_every_query": false,
+    "ai_word_required_for_every_query": false,
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "record_actual_query_filters_and_source_capabilities": true,
+    "unsupported_content_search_state": "not_supported_needs_other_discovery_source",
+    "one_query_means_company_complete": false,
+    "unexecuted_query_state": "pending"
+  },
+  "freshness": {
+    "recent_publication_priority_days": 90,
+    "older_than_window_is_closed": false,
+    "undated_jobs_kept": true,
+    "recheck_at_next_scan": true,
+    "search_crawl_date_is_job_publication": false,
+    "file_mtime_is_job_observation": false,
+    "historical_samples_are_latest_standards": false
+  },
+  "scope": {
+    "freeze_company_and_query_denominators": true,
+    "new_items_do_not_silently_change_denominator": true,
+    "company_global_cap": null,
+    "job_collection_global_cap": null,
+    "request_budget_requires_checkpoint": true,
+    "analysis_batch_max": 20,
+    "analysis_cap_stops_collection": false,
+    "market_total_known": false,
+    "global_market_exhaustion_claim_allowed": false
+  },
+  "coverage": {
+    "statuses": [
+      "unscanned",
+      "query_only",
+      "partial_list",
+      "pagination_pending",
+      "details_missing",
+      "source_scope_complete",
+      "verified_empty",
+      "access_blocked",
+      "technical_failure",
+      "explicitly_closed"
+    ],
+    "complete_requires": [
+      "declared_scope",
+      "successful_access",
+      "native_pagination_end",
+      "native_count_reconciled_if_available",
+      "all_relevant_details_accounted_for"
+    ],
+    "empty_requires": [
+      "successful_access",
+      "declared_scope",
+      "native_zero_evidence",
+      "no_truncation_or_loading_failure"
+    ],
+    "search_results_can_prove_company_empty": false,
+    "blocked_counts_as_complete": false,
+    "metrics": [
+      "companies_verified_over_catalog",
+      "companies_attempted_over_scope",
+      "complete_source_scopes_over_planned",
+      "queries_executed_over_planned",
+      "full_jds_over_candidates",
+      "route_a_unique_jobs",
+      "route_b_unique_jobs",
+      "route_overlap_jobs",
+      "route_b_new_employers",
+      "pending_and_blocked"
+    ]
+  },
+  "network": {
+    "shared_serial_queue": true,
+    "min_interval_ms": 10000,
+    "max_interval_ms": 20000,
+    "stricter_source_policy_wins": true,
+    "access_denial_stop_first": true,
+    "ordinary_root_cause_max_repair_rounds": 3,
+    "preserve_existing_source_halts": true,
+    "record_actual_start_and_finish": true,
+    "invent_missing_timestamps": false
+  },
+  "models": {
+    "execution": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    },
+    "keyword_and_industry_judgment": {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh"
+    },
+    "matching": {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh"
+    },
+    "independent_review": {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "xhigh"
+    },
+    "fixed_data_processing_calls_model": false,
+    "new_external_llm_api_billing": false,
+    "silently_substitute_unavailable_model": false
+  },
+  "required_outputs": [
+    "industry_company_catalog",
+    "evidence_bound_title_and_content_keywords",
+    "job_observations",
+    "query_call_evidence",
+    "route_contribution",
+    "coverage_and_frontier",
+    "candidate_assessments",
+    "consolidated_report"
+  ],
+  "current_turn_actions": {
+    "searches": 0,
+    "page_visits": 0,
+    "new_jobs": 0,
+    "applications": 0,
+    "scheduled_tasks": 0
+  },
+  "keyword_axes": [
+    "industry_and_value_chain",
+    "trend_and_policy",
+    "company_brand_product",
+    "job_title",
+    "customer_and_scenario",
+    "responsibilities",
+    "business_outcomes",
+    "management_and_collaboration",
+    "technical_and_hard_gates",
+    "business_model_and_go_to_market"
+  ],
+  "keyword_catalog_ref": "careers/config/keyword-axes.json",
+  "company_tiers": "low_priority_deferred_not_scan_gate"
+}

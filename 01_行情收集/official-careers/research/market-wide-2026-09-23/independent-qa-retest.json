@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "status": "passed_scoped_retest",
+  "review_type": "independent_read_only_focused_retest",
+  "frozen_at": "2026-09-22T18:14:32.050Z",
+  "reviewed_at": "2026-09-22T18:19:48.543Z",
+  "workspace": "/Users/MR/Documents/职场",
+  "directory": "01_行情收集/official-careers/research/market-wide-2026-09-23",
+  "scope": {
+    "retested_findings": [
+      "QA-01",
+      "QA-02",
+      "QA-03",
+      "QA-04",
+      "QA-05",
+      "QA-06",
+      "QA-07",
+      "QA-08"
+    ],
+    "additional_authorized_check": "o34 full employer display name",
+    "priority": "eight_data_fixes_and_affected_evidence_only",
+    "writes": [
+      "independent-qa-retest.json",
+      "independent-qa-retest.md"
+    ],
+    "first_round_files_preserved": true,
+    "network_used": false,
+    "browser_used": false,
+    "new_tasks_created": 0,
+    "extractor_executed": false,
+    "implementation_or_data_modified": false,
+    "full_market_research_repeated": false,
+    "report_format_changes_reviewed": false,
+    "report_format_validation_owner": "主控；按用户最新要求由其完成单测和真实报告生成验证",
+    "online_full_validation": false,
+    "market_complete": false
+  },
+  "reviewer": {
+    "role": "independent QA",
+    "implementation_participation": false,
+    "model": "not_exposed_in_auditable_runtime_metadata",
+    "reasoning_effort": "not_exposed_in_auditable_runtime_metadata"
+  },
+  "baseline": {
+    "jobs_sha256": "fb93789cabc677c7ba683d9bc2263542d4cc8f71539de3a1f4047d9a683d98ac",
+    "qa_json_sha256": "77da4011078ba42a66777a32f64e31e3e59bbc5b920196841f706f141a06ee9c",
+    "qa_md_sha256": "0af57c61701fe15b3abbd1f574f43918bb68ef5e1dfcce103d6a4a390da922e4"
+  },
+  "snapshot": {
+    "manifest": [
+      {
+        "file": "extract-page-jobs.mjs",
+        "sha256": "b9f3692eadeb89befaa63e02521c57084a0d086d7473b22a439279bed0af12b7",
+        "bytes": 28905
+      },
+      {
+        "file": "jobs.json",
+        "sha256": "64e54e11b177a44d7bab038deaf1484c2aee0aa0bd827f8e0d981e44c7cb3658",
+        "bytes": 2636664
+      },
+      {
+        "file": "extraction-audit.json",
+        "sha256": "2461bf0dbe9df78391959c4fb0d3ee226fb4f6993f47d39cb69704d17b927c8f",
+        "bytes": 19266
+      },
+      {
+        "file": "independent-qa.json",
+        "sha256": "77da4011078ba42a66777a32f64e31e3e59bbc5b920196841f706f141a06ee9c",
+        "bytes": 78577
+      },
+      {
+        "file": "independent-qa.md",
+        "sha256": "0af57c61701fe15b3abbd1f574f43918bb68ef5e1dfcce103d6a4a390da922e4",
+        "bytes": 11297
+      },
+      {
+        "file": "raw/o06.json",
+        "sha256": "6b87c2f661d26c44a30cb7aacaf349f35a2f62a0529952511d46ca25a03bf336",
+        "bytes": 27308
+      },
+      {
+        "file": "raw/o06tail.json",
+        "sha256": "9d729625bf9b4f906ace5c6848a8acda051a3026cad77f3ec59d7a430f0bc2e4",
+        "bytes": 27530
+      },
+      {
+        "file": "raw/o13.json",
+        "sha256": "cb9c983f80574f33919ad43fe823831eb769ccb99a59a217d6668f34891a34cb",
+        "bytes": 25777
+      },
+      {
+        "file": "raw/o14.json",
+        "sha256": "338fb89cc0dd9f462d051e9c7db63947dad65d6355cdadd558f7c871d7ec5509",
+        "bytes": 27291
+      },
+      {
+        "file": "raw/o15.json",
+        "sha256": "7104df5fca58f6b6a3b1a4d6a735c97ffc5f79f16f91b8713d9a8c62a458224e",
+        "bytes": 27239
+      },
+      {
+        "file": "raw/o16.json",
+        "sha256": "bd49995c818c84d31c52ac04dd117d3477551e1ac908ab060df22f661e68d3d8",
+        "bytes": 12620
+      },
+      {
+        "file": "raw/o27.json",
+        "sha256": "e83942cc73301d66060be88334cfdb4a343c23800010b847da1144bb2a487583",
+        "bytes": 24728
+      },
+      {
+        "file": "raw/o34.json",
+        "sha256": "361024f36c029d722210be5f8bc2fa3761a0dec1618837d9bfac1959d49ecb72",
+        "bytes": 16370
+      }
+    ],
+    "prewrite_drift": []
+  },
+  "summary": {
+    "original_findings_passed": 8,
+    "original_findings_failed": 0,
+    "additional_company_check_passed": 1,
+    "repair_assertions": 32,
+    "repair_assertions_failed": 0,
+    "changed_or_new_field_evidence_checks": 237,
+    "other_evidence_checks": 103,
+    "total_evidence_checks": 340,
+    "evidence_errors": [],
+    "raw_files_reread": 8,
+    "jobs": 231,
+    "complete_jd_flag_count": 144,
+    "records_added": 34,
+    "records_removed": 0,
+    "completeness_delta": [
+      {
+        "id": "market-wide-2026-09-23:o15:l498",
+        "from": true,
+        "to": false
+      },
+      {
+        "id": "market-wide-2026-09-23:o14:l312",
+        "from": false,
+        "to": true
+      }
+    ],
+    "parser_audit_hash_matches": true
+  },
+  "method": {
+    "field_retest": "独立比较首轮冻结jobs与新版jobs，仅对新增或字段值/引用变化的证据重建raw.result行范围、SHA256、字面值、字符切片和元数据JSON Pointer；新增o06同时验证链接证据与tail关联。",
+    "source_snapshot": "只重读8个受影响raw，哈希均与首轮相同；未重新开展外部或全量市场研究。",
+    "qa07": "检查25条发布日期状态及144条完整性状态；完整性变化仅为指定两条，未重新宣称144条全部语义或在线验收。",
+    "format_scope": "用户新增说明的rowHTML、CSV及Markdown改动只记录主控负责验证，本QA未扩展至输出管线。"
+  },
+  "cases": [
+    {
+      "id": "QA-01",
+      "status": "passed",
+      "checks": [
+        {
+          "name": "新增34条且link149..182各一条",
+          "passed": true
+        },
+        {
+          "name": "原文链接标签及身份逐项对应",
+          "passed": true
+        },
+        {
+          "name": "tail原文相同且关联SHA，不增加记录",
+          "passed": true
+        },
+        {
+          "name": "同名174/176独立保留",
+          "passed": true
+        },
+        {
+          "name": "未知正文/URL与猎聘限制保留",
+          "passed": true
+        },
+        {
+          "name": "审计不再错误记为仅入口",
+          "passed": true
+        }
+      ],
+      "record_ids": [
+        "market-wide-2026-09-23:o06:link149",
+        "market-wide-2026-09-23:o06:link150",
+        "market-wide-2026-09-23:o06:link151",
+        "market-wide-2026-09-23:o06:link152",
+        "market-wide-2026-09-23:o06:link153",
+        "market-wide-2026-09-23:o06:link154",
+        "market-wide-2026-09-23:o06:link155",
+        "market-wide-2026-09-23:o06:link156",
+        "market-wide-2026-09-23:o06:link157",
+        "market-wide-2026-09-23:o06:link158",
+        "market-wide-2026-09-23:o06:link159",
+        "market-wide-2026-09-23:o06:link160",
+        "market-wide-2026-09-23:o06:link161",
+        "market-wide-2026-09-23:o06:link162",
+        "market-wide-2026-09-23:o06:link163",
+        "market-wide-2026-09-23:o06:link164",
+        "market-wide-2026-09-23:o06:link165",
+        "market-wide-2026-09-23:o06:link166",
+        "market-wide-2026-09-23:o06:link167",
+        "market-wide-2026-09-23:o06:link168",
+        "market-wide-2026-09-23:o06:link169",
+        "market-wide-2026-09-23:o06:link170",
+        "market-wide-2026-09-23:o06:link171",
+        "market-wide-2026-09-23:o06:link172",
+        "market-wide-2026-09-23:o06:link173",
+        "market-wide-2026-09-23:o06:link174",
+        "market-wide-2026-09-23:o06:link175",
+        "market-wide-2026-09-23:o06:link176",
+        "market-wide-2026-09-23:o06:link177",
+        "market-wide-2026-09-23:o06:link178",
+        "market-wide-2026-09-23:o06:link179",
+        "market-wide-2026-09-23:o06:link180",
+        "market-wide-2026-09-23:o06:link181",
+        "market-wide-2026-09-23:o06:link182"
+      ],
+      "source_lines": [
+        "raw/o06.json result L517-L524",
+        "raw/o06tail.json result L517-L524"
+      ],
+      "result": "34条链接观察已补入，不能据此称34个独立或当前在招岗位。"
+    },
+    {
+      "id": "QA-02",
+      "status": "passed",
+      "checks": [
+        {
+          "name": "错误能力清单隔离且保留原文",
+          "passed": true
+        },
+        {
+          "name": "不伪造能力或确定地点",
+          "passed": true
+        },
+        {
+          "name": "不计完整JD",
+          "passed": true
+        }
+      ],
+      "record_ids": [
+        "market-wide-2026-09-23:o15:l498"
+      ],
+      "source_lines": [
+        "raw/o15.json result L509-L513"
+      ],
+      "result": "地名原文转入异常字段，不再进入任职要求或完整JD计数。"
+    },
+    {
+      "id": "QA-03",
+      "status": "passed",
+      "checks": [
+        {
+          "name": "销售经理地点覆盖三行",
+          "passed": true
+        },
+        {
+          "name": "客服主管地点覆盖三行",
+          "passed": true
+        },
+        {
+          "name": "不吸入邮箱或下一岗",
+          "passed": true
+        }
+      ],
+      "record_ids": [
+        "market-wide-2026-09-23:o15:l399",
+        "market-wide-2026-09-23:o15:l473"
+      ],
+      "source_lines": [
+        "raw/o15.json result L418-L420",
+        "raw/o15.json result L490-L492"
+      ],
+      "result": "地点均保全原文多行范围，包含浙江、上海和江苏。"
+    },
+    {
+      "id": "QA-04",
+      "status": "passed",
+      "checks": [
+        {
+          "name": "七条保留编号正文摘要",
+          "passed": true
+        },
+        {
+          "name": "未知要求不补造，不升完整",
+          "passed": true
+        },
+        {
+          "name": "摘要无内推链接或滑动提示",
+          "passed": true
+        }
+      ],
+      "record_ids": [
+        "market-wide-2026-09-23:o16:l90",
+        "market-wide-2026-09-23:o16:l101",
+        "market-wide-2026-09-23:o16:l111",
+        "market-wide-2026-09-23:o16:l122",
+        "market-wide-2026-09-23:o16:l132",
+        "market-wide-2026-09-23:o16:l142",
+        "market-wide-2026-09-23:o16:l153"
+      ],
+      "source_lines": [
+        "raw/o16.json result L92-L95,L103-L105,L112-L116,L124-L126,L133-L136,L144-L147,L154-L157"
+      ],
+      "result": "七条从title_only改为有原文摘要的partial，未编造任职要求。"
+    },
+    {
+      "id": "QA-05",
+      "status": "passed",
+      "checks": [
+        {
+          "name": "六条薪资原文逐字保留",
+          "passed": true
+        },
+        {
+          "name": "状态表示已披露未核构成",
+          "passed": true
+        },
+        {
+          "name": "币种周期固定保障仍未知",
+          "passed": true
+        }
+      ],
+      "record_ids": [
+        "market-wide-2026-09-23:o27:l113",
+        "market-wide-2026-09-23:o27:l153",
+        "market-wide-2026-09-23:o27:l234",
+        "market-wide-2026-09-23:o27:l355",
+        "market-wide-2026-09-23:o27:l384",
+        "market-wide-2026-09-23:o27:l503"
+      ],
+      "source_lines": [
+        "raw/o27.json result L143,L180-L182,L265,L380,L415,L532-L534"
+      ],
+      "result": "六条薪资原文均已结构化，不将底薪、提成和月均收入混为已确认固定月薪。"
+    },
+    {
+      "id": "QA-06",
+      "status": "passed",
+      "checks": [
+        {
+          "name": "两条原始截止时间完整",
+          "passed": true
+        },
+        {
+          "name": "过期和当前未知分开",
+          "passed": true
+        }
+      ],
+      "record_ids": [
+        "market-wide-2026-09-23:o13:l338",
+        "market-wide-2026-09-23:o13:l362"
+      ],
+      "source_lines": [
+        "raw/o13.json result L342,L366"
+      ],
+      "result": "按招聘时间标签保存了截止期，没有混写成发布日期。"
+    },
+    {
+      "id": "QA-07",
+      "status": "passed",
+      "checks": [
+        {
+          "name": "25条已披露日期状态同步",
+          "passed": true
+        },
+        {
+          "name": "144条完整状态与字段一致",
+          "passed": true
+        },
+        {
+          "name": "partial未硬升完整",
+          "passed": true
+        },
+        {
+          "name": "完整性变更仅两项已审记录",
+          "passed": true
+        },
+        {
+          "name": "汇总独立复算一致",
+          "passed": true
+        }
+      ],
+      "record_ids": [
+        "market-wide-2026-09-23:o10:l110",
+        "market-wide-2026-09-23:o10:l133",
+        "market-wide-2026-09-23:o10:l158",
+        "market-wide-2026-09-23:o10:l199",
+        "market-wide-2026-09-23:o10:l230",
+        "market-wide-2026-09-23:o10:l269",
+        "market-wide-2026-09-23:o12:l212",
+        "market-wide-2026-09-23:o22:l65",
+        "market-wide-2026-09-23:o22:l67",
+        "market-wide-2026-09-23:o22:l69",
+        "market-wide-2026-09-23:o22:l71",
+        "market-wide-2026-09-23:o22:l73",
+        "market-wide-2026-09-23:o22:l75",
+        "market-wide-2026-09-23:o32:l129",
+        "market-wide-2026-09-23:o32:l137",
+        "market-wide-2026-09-23:o32:l144",
+        "market-wide-2026-09-23:o32:l151",
+        "market-wide-2026-09-23:o32:l160",
+        "market-wide-2026-09-23:o32:l169",
+        "market-wide-2026-09-23:o32:l178",
+        "market-wide-2026-09-23:o32:l187",
+        "market-wide-2026-09-23:o32:l198",
+        "market-wide-2026-09-23:o32:l208",
+        "market-wide-2026-09-23:d10:l31",
+        "market-wide-2026-09-23:d11:l97"
+      ],
+      "complete_status_records_checked": 144,
+      "result": "25条日期状态、144条完整边界状态已同步；仅核对受影响状态与此前证据连续性，不重新验收所有JD语义。"
+    },
+    {
+      "id": "QA-08",
+      "status": "passed",
+      "checks": [
+        {
+          "name": "312恢复完整并去掉虚假截断声明",
+          "passed": true
+        },
+        {
+          "name": "要求止于福利前，保留优先条件",
+          "passed": true
+        },
+        {
+          "name": "348真实截断仍partial",
+          "passed": true
+        },
+        {
+          "name": "乐言540截断状态未回归",
+          "passed": true
+        }
+      ],
+      "record_ids": [
+        "market-wide-2026-09-23:o14:l312",
+        "market-wide-2026-09-23:o14:l348",
+        "market-wide-2026-09-23:o15:l540"
+      ],
+      "source_lines": [
+        "raw/o14.json result L319-L326,L348-L355",
+        "raw/o15.json result L540-L556"
+      ],
+      "result": "312依据当前闭合块恢复，福利已剔除；348与540仍partial。"
+    },
+    {
+      "id": "o34-company",
+      "status": "passed",
+      "checks": [
+        {
+          "name": "11条使用页面完整公司名称",
+          "passed": true
+        },
+        {
+          "name": "名称来自页面原文非query推测",
+          "passed": true
+        },
+        {
+          "name": "未据此宣布法律实体独立核验",
+          "passed": true
+        }
+      ],
+      "record_ids": [
+        "market-wide-2026-09-23:o34:l16",
+        "market-wide-2026-09-23:o34:l38",
+        "market-wide-2026-09-23:o34:l60",
+        "market-wide-2026-09-23:o34:l81",
+        "market-wide-2026-09-23:o34:l104",
+        "market-wide-2026-09-23:o34:l124",
+        "market-wide-2026-09-23:o34:l144",
+        "market-wide-2026-09-23:o34:l169",
+        "market-wide-2026-09-23:o34:l191",
+        "market-wide-2026-09-23:o34:l216",
+        "market-wide-2026-09-23:o34:l238"
+      ],
+      "source_lines": [
+        "raw/o34.json result L275,L291"
+      ],
+      "result": "11条公司显示全称已保留；这是页面自述，不扩大为独立法律主体认证。"
+    }
+  ],
+  "regression_guards": {
+    "old_records_preserved": true,
+    "unique_ids": true,
+    "all_hiring_unknown": true,
+    "all_scope_incomplete": true,
+    "all_fixed_base_unconfirmed": true,
+    "source_complete_false": true,
+    "affected_raws_unchanged_from_first_round": true
+  },
+  "closed_finding_ids": [
+    "QA-01",
+    "QA-02",
+    "QA-03",
+    "QA-04",
+    "QA-05",
+    "QA-06",
+    "QA-07",
+    "QA-08"
+  ],
+  "remaining_blocking_findings_in_retest_scope": [],
+  "retained_boundaries": [
+    "本轮8项修复已关闭，不覆盖首轮非阻塞备注或新增未审模块。",
+    "231为观察记录数，不是独立岗位数；144为本文件完整标志复算数，不代表全市场完整JD验收。",
+    "公司全称属于页面声明，法律实体/站点归属/当前在招/固定底薪未独立核验。",
+    "o06链接仍受历史准入限制，URL/HR/详情未知；未访问猎聘。",
+    "本次未复验报告格式、浏览器展示或主控自动测试结果，不能为其出具通过结论。",
+    "本地修复复验通过不等于业务宽度通过或全市场完成。"
+  ],
+  "handoff": {
+    "data_retest": "passed",
+    "report_integration": "owned_by_main_controller_not_reviewed_here",
+    "business_acceptance": "not_granted_by_this_retest",
+    "market_status": "not_complete",
+    "goal_label": "目标：全市场已收齐（本次未验收该目标）"
+  }
+}

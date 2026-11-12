@@ -1,0 +1,26 @@
+{
+  "captured_at": "2026-09-22T17:51:40.151442+00:00",
+  "sha256": {
+    "README.md": "e80462f2e7ea9034950037c417049088729263335f16b59dd473227df39bec91",
+    "careers/README.md": "570f7b6d11b80f85c79c2132a2705be9c98573683f09927043fa30ddf3eda137",
+    "careers/config/career-strategy.json": "e23afeb3529525f7b90e3b2af90b9d0dfd2d10f1bb7a294cecefa763863b98b8",
+    "careers/config/matching-rules.json": "ac305f761e973a6104c40d50a0aabdac47aa135050d245c040cac0ac5b187887",
+    "careers/config/reviewers.json": "57413bf989082d7a0883240ad61e23a4e96fbb6cef21268ba91d64d1b4a99324",
+    "careers/discovery.mjs": "50c6b1036d419db4d90e6c2f2d1b328e969ad61be21cb82317f7df64e73dccf2",
+    "careers/matching.mjs": "e2a9eebc69088bb18c15f3af875bb6719ab8cd7f182d14ead222e22e82264992",
+    "careers/tests/discovery-runtime.test.mjs": "3783851bd57ce721b52ddaa66541e34920d4f50113f257a6aecb697b80767adb",
+    "careers/tests/matching.test.mjs": "4b3dd42e69b8a2769bb2f56ecbfac0869a5f9dba65c95df99c8777011036cef3",
+    "outputs/职场方向与机会_最新版.md": "599a8877fae4864a926fafeba601935fe25b6494f3c3ed49416d099d26c16698",
+    "outputs/副业获客执行包_2026-09-23.md": "30170b3bb77d66f9c34108e036f9cf164397f4ffcf8648ddaae9d5087048642c",
+    "07_副业验证/验证台账.json": "b168eb4d8a450e4b96c2d56bad52b01025a2d2b15b4d33ccb660649a6ab917ef",
+    "07_副业验证/demo/README.md": "146724350b261a79bb1ab49f41d8ccbfe42912af8389346d60dc78a8959baac6",
+    "07_副业验证/demo/input.json": "e8472ca0a327c3b14b3b70f503febda95867b4c38df0e020d4c964344e80bb10",
+    "07_副业验证/demo/run.mjs": "e7e51ab3de9f0df98cea82fb2dd3f81e0e4be68cb2516a19402a68e88d969a18",
+    "07_副业验证/demo/output.json": "5d87fce676b68bff994e7b9c58570b7f37cfd65300eabc9555fd3ab3a7aaea39"
+  },
+  "mutable_status_files": [
+    "careers/progress.json",
+    "careers/docs/project-refresh-2026-09-23/summary.md",
+    "careers/docs/project-refresh-2026-09-23/independent-qa.md"
+  ]
+}

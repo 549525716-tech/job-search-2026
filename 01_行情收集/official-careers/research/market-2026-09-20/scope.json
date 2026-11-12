@@ -1,0 +1,21 @@
+{
+  "run_id": "market-2026-09-20",
+  "mode": "user_requested_manual_update",
+  "priority": "breadth_before_depth",
+  "phases": ["current_platform_preferences", "cross_keyword_discovery", "company_and_source_backfill"],
+  "source_scope": "Open discovery; BOSS and Liepin user confirmed login, visible-page checks required before resuming reads. Public official and other recruitment sources remain available subject to access rules.",
+  "request_checkpoint_budget": 60,
+  "company_global_cap": null,
+  "job_global_cap": null,
+  "preset_scope": "Capture each visible preset and its current loaded results; record pagination and recommendation-feed limits. Do not change saved preferences or describe recommendation feeds as exhaustive.",
+  "expansion_axes": ["industry", "company", "title", "responsibility", "customer_scene", "business_outcome", "management", "technical_boundary", "commercial_model"],
+  "bootstrap_terms": ["大模型", "AI 销售", "渠道生态", "商业化运营", "销售运营", "营销数字化", "汽车数字化", "工业软件", "机器人 渠道", "GTM", "Business Builder"],
+  "bootstrap_status": "Hypotheses and historical references; not current verified market keywords until bound to this run's evidence.",
+  "access_authorization": "User confirmed both platform logins on 2026-09-20; only current visible browser session is checked, old adapter restrictions and other credentials are not changed.",
+  "min_interval_ms": 10000,
+  "max_jitter_interval_ms": 20000,
+  "stop_on_challenge": true,
+  "external_actions": false,
+  "scheduling": false,
+  "market_complete": false
+}

@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "run_id": "market-2026-09-21",
+  "deterministic": true,
+  "network_requests": 0,
+  "browser_requests": 0,
+  "offline_only": true,
+  "source_scan_status": [
+    {
+      "file": "o01.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o01.json",
+      "evidence_sha256": "b86aafa63a4f05bcb1ed658bfe0061e67f16ba3b08be421da1ace7c79f191cd0",
+      "observed_at": "2026-09-21T02:17:50.967Z",
+      "status": "not_recruitment_document",
+      "extracted_jobs": 0,
+      "application_url": null,
+      "reason": "OpenAI product diagnostic document; not a recruitment source and not an unscanned job page"
+    },
+    {
+      "file": "o02.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o02.json",
+      "evidence_sha256": "77d00e6e69531fcae37e4d3e03c5a350b882f8d1afb7919adc2c41806d8f3fec",
+      "observed_at": "2026-09-21T02:18:14.972Z",
+      "status": "success",
+      "extracted_jobs": 9,
+      "application_url": null,
+      "reason": null
+    },
+    {
+      "file": "o03.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o03.json",
+      "evidence_sha256": "3f6408d0c0d910a27baf598d6060516e8937ae50134de220d059cdc477991a5a",
+      "observed_at": "2026-09-21T02:18:38.579Z",
+      "status": "partial",
+      "extracted_jobs": 1,
+      "application_url": null,
+      "reason": "third-party page explicitly incomplete"
+    },
+    {
+      "file": "o04.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o04.json",
+      "evidence_sha256": "a4a8dd564c8a3fabda97f4f9e7dcab83baffca8c115908a669bc9291b6385435",
+      "observed_at": "2026-09-21T02:19:02.486Z",
+      "status": "partial",
+      "extracted_jobs": 1,
+      "application_url": null,
+      "reason": "third-party source, source scope not market-complete"
+    },
+    {
+      "file": "o05.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o05.json",
+      "evidence_sha256": "ea130dfcc5528bb0637e4d7483923fab6bd5b0007da8f680af208bae57f58030",
+      "observed_at": "2026-09-21T02:19:26.435Z",
+      "status": "success",
+      "extracted_jobs": 15,
+      "application_url": null,
+      "reason": null
+    },
+    {
+      "file": "o06.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o06.json",
+      "evidence_sha256": "52c1a2d354d32cecae27534efa2d46b4acb470d01a64f03e53d9c2c93854be1f",
+      "observed_at": "2026-09-21T02:19:50.660Z",
+      "status": "partial",
+      "extracted_jobs": 17,
+      "application_url": null,
+      "reason": "official page exposes names only; BOSS links are not job detail URLs"
+    },
+    {
+      "file": "o07.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o07.json",
+      "evidence_sha256": "bb55bfa2dfb9f79391121f36f33287c5793e9dc39764a1bb427457347bc54f80",
+      "observed_at": "2026-09-21T02:20:14.681Z",
+      "status": "success",
+      "extracted_jobs": 1,
+      "application_url": null,
+      "reason": null
+    },
+    {
+      "file": "o08.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o08.json",
+      "evidence_sha256": "89d11ccdba132bafa71e561b1535e1a78a18e19f29663c18890fa2e7e9c0ff32",
+      "observed_at": "2026-09-21T02:20:38.614Z",
+      "status": "failed",
+      "extracted_jobs": 0,
+      "application_url": null,
+      "reason": "source timeout; no zero-job inference"
+    },
+    {
+      "file": "o09.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o09.json",
+      "evidence_sha256": "a9b9950504a28ae7a43621887943ac5adcbbdf7ba115afcb7524cc893acf6ccd",
+      "observed_at": "2026-09-21T02:21:02.755Z",
+      "status": "success",
+      "extracted_jobs": 1,
+      "application_url": null,
+      "reason": null
+    },
+    {
+      "file": "o10.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o10.json",
+      "evidence_sha256": "a4c78c19d155b39f02e9255162e851baa9926d5cb31da3463d02da582a3a820f",
+      "observed_at": "2026-09-21T02:21:26.689Z",
+      "status": "success",
+      "extracted_jobs": 1,
+      "application_url": null,
+      "reason": null
+    },
+    {
+      "file": "o11.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o11.json",
+      "evidence_sha256": "da5d24dc45248fe78fdc11e159cee92ef1c9d27d103a20beee2630c1e6f8c20f",
+      "observed_at": "2026-09-21T02:23:15.467Z",
+      "status": "partial",
+      "extracted_jobs": 0,
+      "application_url": "https://jobs.bytedance.com/experienced/position/7673717322767501621/detail",
+      "reason": "official ByteDance entry returned zero lines; not confirmation of JD"
+    },
+    {
+      "file": "o12.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o12.json",
+      "evidence_sha256": "4a55c2cfd1de083fa210a44232e9d9fd3798ca95bbbbe7872993af09b8862839",
+      "observed_at": "2026-09-21T02:23:39.094Z",
+      "status": "failed",
+      "extracted_jobs": 0,
+      "application_url": "https://hr.163.com/job-detail.html?id=77241",
+      "reason": "official NetEase entry refused/non-retryable read; application URL observed but current detail not verified"
+    },
+    {
+      "file": "o13.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o13.json",
+      "evidence_sha256": "5a2c1ce487c017331be9cc410c994f20397659f0675a94c1d7b321cc30381723",
+      "observed_at": "2026-09-21T02:24:03.852Z",
+      "status": "success",
+      "extracted_jobs": 1,
+      "application_url": null,
+      "reason": null
+    },
+    {
+      "file": "o14.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o14.json",
+      "evidence_sha256": "d8924bc7528ab6b275e9c76ae9422c3fdc340eb4da849503863af286867aad0f",
+      "observed_at": "2026-09-21T02:24:27.725Z",
+      "status": "success",
+      "extracted_jobs": 6,
+      "application_url": null,
+      "reason": "official recruitment page six explicit roles"
+    },
+    {
+      "file": "o15.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o15.json",
+      "evidence_sha256": "a20ad216481f6e16e85dceb0f3624a26623d55951a51bee3dfcdf7db6298e279",
+      "observed_at": "2026-09-21T02:24:52.003Z",
+      "status": "failed",
+      "extracted_jobs": 0,
+      "application_url": null,
+      "reason": "source timeout; no zero-job inference"
+    },
+    {
+      "file": "o16.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o16.json",
+      "evidence_sha256": "dadda1f0890ce678e5c196e98b4767a55f6fdb4df0510862e3ff2a6e61f45fd3",
+      "observed_at": "2026-09-21T02:25:16.235Z",
+      "status": "success",
+      "extracted_jobs": 7,
+      "application_url": null,
+      "reason": "official recruitment page o16.json; 7 explicit jobs"
+    },
+    {
+      "file": "o17.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o17.json",
+      "evidence_sha256": "22ca1b32dfe56ec391941a910dea35094502ded745574557b59703799c37ebf2",
+      "observed_at": "2026-09-21T02:26:50.469Z",
+      "status": "success",
+      "extracted_jobs": 7,
+      "application_url": null,
+      "reason": "official recruitment page o17.json; 7 explicit jobs"
+    },
+    {
+      "file": "o18.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o18.json",
+      "evidence_sha256": "e010bc33ef065f9a359e727e04a35070bc3cb6f6ca70d39c97202cd46b6ea486",
+      "observed_at": "2026-09-21T02:27:14.347Z",
+      "status": "success",
+      "extracted_jobs": 7,
+      "application_url": null,
+      "reason": "official recruitment page o18.json; 7 explicit jobs"
+    },
+    {
+      "file": "o19r.json",
+      "evidence_file": "01_行情收集/official-careers/research/market-2026-09-21/raw/o19r.json",
+      "evidence_sha256": "57676edec142be1075dc7f03a4de7f982af17a940c35debdeb584cbbb32ebeb1",
+      "observed_at": "2026-09-21T12:09:24.682Z",
+      "status": "success",
+      "extracted_jobs": 7,
+      "application_url": null,
+      "reason": "official recruitment page o19r.json; 7 explicit jobs"
+    },
+    {
+      "file": "o19.json",
+      "evidence_file": null,
+      "evidence_sha256": null,
+      "observed_at": null,
+      "status": "interrupted_unknown",
+      "extracted_jobs": 0,
+      "application_url": null,
+      "reason": "original operation began without a completed raw result; o19r is a separate completed fourth-page receipt and does not repair or replace o19"
+    }
+  ],
+  "unscanned_files": [],
+  "interrupted_inputs": [
+    "o19.json"
+  ],
+  "market_scan_complete": false,
+  "market_coverage_claim": false,
+  "merged_previous_observations": 40,
+  "extracted_new_jobs": 81,
+  "total_jobs": 121,
+  "execution": {
+    "prior_extraction": {
+      "executor": "gpt-5.6-luna",
+      "reasoning_effort": "medium",
+      "role": "offline extraction"
+    },
+    "revision_receipt": {
+      "executor": "gpt-5.6-terra",
+      "reasoning_effort": "medium",
+      "role": "offline boundary repair"
+    },
+    "integration_revision": {
+      "executor": "current Codex main session; model not independently verified",
+      "role": "synthetic native ID and company evidence corrections"
+    },
+    "network_requests": 0,
+    "browser_requests": 0
+  },
+  "notes": [
+    "只解析明确规格；未知o文件保留为待核，不推断岗位。",
+    "o01是产品诊断文档，不是招聘源，单独标记为not_recruitment_document。",
+    "o19是中断未知；o19r是独立完成的第四页回执，二者不合并。",
+    "纯数据合并不等于今天重新采集；上期40张观察保留旧日期及HR/标签。",
+    "未分析打分、未联网、未使用浏览器。"
+  ]
+}

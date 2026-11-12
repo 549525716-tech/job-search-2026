@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "role_id": "job_scout",
+  "execution": {
+    "agent_id": "01a08be4-9c93-7cf3-87b5-65249d1c2c80",
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "medium"
+  },
+  "completed_at": "2026-09-10T15:19:17.300Z",
+  "status": "complete",
+  "scope": "已取得7条符合职能方向的历史官网JD，不是新采集",
+  "summary": "离线读取CareersStore并按classifyRole筛出7条MiniMax完整历史JD，覆盖销售运营、生态渠道、华南负责人、KA技术销售、全球KA及电商运营。MiniMax适配器当前隔离，原文真实但不代表本轮新采集；不做个人匹配、分数或在招确认。",
+  "findings": [
+    {
+      "title": "大模型销售运营",
+      "conclusion": "核心产出是把销售规则、指标、资源流转和风险控制变成可追踪的商业运营机制，地点为北京/上海。",
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "负责商业管理、客户管理、业绩管理等方向的数据体系建设与分析，具备构建销售指标底层逻辑及配套在线化系统的能力"
+        },
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "确保决策前后数据可追踪，推动数据看板线上化。"
+        }
+      ],
+      "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；该岗位招聘状态为unknown。岗位强调数据、财务指标和规则落地，不能仅按销售经历视为同类。",
+      "next_action": "后续若进入岗位评估，单独核验销售运营系统、指标口径、资源冲突处理和财务协同案例；不在本产物中做个人匹配。",
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7612560574200023323"
+    },
+    {
+      "title": "大模型生态渠道经理",
+      "conclusion": "核心产出是搭建AI伙伴体系、制定渠道政策、整合云厂资源并承接伙伴收入或Token等漏斗指标，地点为北京/上海/深圳。",
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "从 0 到 1 或从 1 到 N 搭建 AI 伙伴体系（如：ISV 独立软件开发商、咨询实施伙伴、代销/电销渠道）；"
+        },
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "直接背负伙伴贡献的年度收入（ARR/MRR）、消耗量（Token Usage）或活跃开发者数等硬指标；"
+        }
+      ],
+      "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；该岗位的资源、人脉和渠道业绩门槛较强，招聘状态为unknown。标题不等于团队管理权。",
+      "next_action": "后续若进入岗位评估，分别核验伙伴类型、渠道政策设计、云厂商决策链和ARR/Token/开发者指标的实际责任边界。",
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7613358336667830554"
+    },
+    {
+      "title": "大模型销售负责人-华南",
+      "conclusion": "核心产出是华南区域营收、客户数和续约率达成，同时搭建销售团队、主导关键客户技术方案并推动POC商业化，地点为广州/深圳。",
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "全面负责华南区域大模型业务的营收目标，制定并执行区域销售策略与年度作战计划，确保收入、客户数、续约率等核心指标达成"
+        },
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "团队搭建与管理：负责华南销售团队的组建、培养与绩效管理，建立可复制的销售方法论与打法体系，提升团队整体的技术方案能力和客户经营水平；"
+        }
+      ],
+      "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；招聘状态为unknown。团队管理、华南资源和可量化区域业绩是明确门槛，不能由负责人标题单独证明。",
+      "next_action": "后续若进入岗位评估，优先核验区域盘子、直管人数、绩效权限、华南客户资源以及POC到商业化的真实结果。",
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7647795653489527081"
+    },
+    {
+      "title": "大模型技术销售工程师",
+      "conclusion": "核心产出是头部KA深耕、客户决策地图、技术Demo/POC推进和AI应用规模化复制，地点为深圳/北京/上海/广州/中国香港。",
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "负责泛互联网、智能硬件、文娱游戏、广告媒体等行业的头部 KA 开拓与深耕，建立并维护产品、技术、业务、高管等多层次客户关系；"
+        },
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "具备技术方案能力，独立制作并演示技术 Demo，将模型能力直观呈现给客户，推动 POC 快速推进；"
+        }
+      ],
+      "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；招聘状态为unknown。该岗不是默认FDE，而是带KA、Demo、POC和技术沟通门槛的技术销售岗位。",
+      "next_action": "后续若进入岗位评估，单独核验Demo/POC、研发沟通、ROI场景识别和上线复制证据，不把一般销售经历直接替代技术交付证据。",
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7208019802982598968"
+    },
+    {
+      "title": "Global Account Executive",
+      "conclusion": "核心产出是国际客户获取与经营、销售策略、项目执行、端到端谈判签约和全球业务增长，地点覆盖北京、上海、中国香港及多个海外城市。",
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "responsible for developing and executing sales strategies, driving project implementation, and achieving sales targets."
+        },
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "leading end-to-end business negotiations, finalizing contracts, and designing innovative product promotion strategies to expand our global footprint."
+        }
+      ],
+      "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；招聘状态为unknown。海外工作授权、英语实际工作能力和关键客户资源均未由本岗位记录解决。",
+      "next_action": "后续若进入岗位评估，核验目标区域、英语业务沟通、合同谈判和国际KA资源；不做薪资或个人适配推断。",
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7513910355632146698"
+    },
+    {
+      "title": "Regional General Manager",
+      "conclusion": "核心产出是目标区域业务开发与整体运营、区域战略、销售系统、关键客户/伙伴和重大项目推进；地点为旧金山、迪拜、柏林、东京、伦敦、新加坡、中国香港、首尔、墨西哥城。",
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "Oversee business development and overall operations in the target regional market, including but not limited to sales system setup, market expansion, customer relationship management, team building, and daily operations"
+        },
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "Lead, develop, and motivate the sales team, clearly communicate performance objectives, and drive sales breakthroughs and sustainable business growth."
+        }
+      ],
+      "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；招聘状态为unknown。不能按Regional General Manager标题直接判定直管，仍需核验团队规模、汇报线、招聘/绩效权限和区域经营权。",
+      "next_action": "后续若进入岗位评估，优先补充组织权限证据，再区分区域经营负责人和实际直管销售管理岗。",
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7545752001586825515"
+    },
+    {
+      "title": "电商运营经理（天猫/京东/抖音）",
+      "conclusion": "核心产出是AI数字商品在电商平台的店铺经营、流量转化和商业指标提升，目标包括GMV、付费用户、ROI、复购率和LTV，地点为上海。",
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "负责公司AI产品（会员订阅、Token套餐等数字商品）在天猫、京东、抖音等平台的运营工作；"
+        },
+        {
+          "path": "01_行情收集/official-careers/raw/minimax-browser-c3b01ddc-0b77-481f-99b1-d21d3a95bce8/browser-004.dom.html",
+          "quote": "通过搜索优化、内容运营、平台活动等方式提升店铺流量和转化率；"
+        }
+      ],
+      "risk": "MiniMax public-browser适配器已隔离，source_health为halted_pending_review；招聘状态为unknown。该岗属于商业化运营，但平台电商经验、数字商品和订阅/充值模式是特定门槛。",
+      "next_action": "后续若进入岗位评估，核验店铺从0到1、平台规则、投放/转化数据和数字商品经营闭环；不扩展为产品经理判断。",
+      "job_key": "minimax-public-browser:vrfi1sk8a0:7654858727463913771"
+    }
+  ],
+  "questions": [],
+  "input_files": [
+    "careers/config/preferences.json",
+    "careers/role-policy.mjs",
+    "01_行情收集/official-careers/careers.sqlite"
+  ],
+  "not_covered": [
+    "独立个人匹配",
+    "公开薪资核验",
+    "当前仍在招聘的确认"
+  ]
+}

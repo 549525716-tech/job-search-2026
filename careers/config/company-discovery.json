@@ -1,0 +1,286 @@
+[
+  {
+    "id": "minimax",
+    "name": "MiniMax",
+    "aliases": ["MiniMax", "稀宇科技"],
+    "sector": "基础大模型与AI原生产品",
+    "ai_related": true,
+    "why_relevant": "基础模型、AI原生产品与开放平台，适合观察AI产品、运营、商业化和企业服务岗位。",
+    "homepage": "https://www.minimax.cn/",
+    "careers_url": "https://www.minimax.cn/careers",
+    "headquarters": "上海（总部口径；不是岗位城市字段）",
+    "attribution_evidence": [
+      {
+        "url": "https://www.minimax.cn/careers",
+        "quote": "加入 MiniMax",
+        "evidence_kind": "official_link",
+        "checked_at": "2026-09-09"
+      },
+      {
+        "url": "https://vrfi1sk8a0.jobs.feishu.cn/index/",
+        "quote": "查看所有职位",
+        "evidence_kind": "official_link",
+        "checked_at": "2026-09-09"
+      }
+    ],
+    "provider_hint": "feishu",
+    "status": "verified",
+    "notes": "官网招聘页直接链接飞书招聘；已保存Business和销售两组公开检索的11条去重完整JD及DOM截图，不代表全公司扫描。后续CLI暴露检测误报；浏览器适配器另有重定向边界待验收，雏形阶段隔离，保留历史证据。"
+  },
+  {
+    "id": "moonshot",
+    "name": "月之暗面",
+    "aliases": ["Moonshot AI", "Kimi", "月之暗面科技"],
+    "sector": "基础大模型与AI应用",
+    "ai_related": true,
+    "why_relevant": "Kimi及大模型产品面向消费者和开发者，适合观察产品、运营、市场、商业化与客户方向。",
+    "homepage": "https://www.moonshot.ai/",
+    "careers_url": "https://careers.kimi.ai/",
+    "headquarters": "北京（总部口径；不是岗位城市字段）",
+    "attribution_evidence": [
+      {
+        "url": "https://careers.kimi.com/social",
+        "quote": "月之暗面社会招聘 | Kimi 社招",
+        "evidence_kind": "official_search_result",
+        "checked_at": "2026-09-09"
+      },
+      {
+        "url": "https://careers.kimi.com/social",
+        "quote": "加入我们 关于我们 招聘流程 Kimi K3",
+        "evidence_kind": "official_link",
+        "checked_at": "2026-09-09"
+      }
+    ],
+    "provider_hint": "moka_or_custom",
+    "status": "verified",
+    "notes": "本轮moonshot.ai首页已直接链接careers.kimi.ai，继而读取社招展示页；16张职业介绍卡不是完整JD。Moka申请列表入口返回同地址302，协议采集已停止，未将类别卡当岗位。",
+    "collection_approval": "official_chain_verified_collection_stopped",
+    "preflight_check": {"status": "stopped", "checked_at": "2026-09-09T14:59:04.999Z", "reason": "官方招聘链已核验；Moka公开列表HTTP302指回自身，尚未取得完整岗位JD。", "evidence": "01_行情收集/official-careers/raw/preflight-moonshot-moka-10767d30-1584-4b81-b9a1-99ad51578d53/002.response.json"}
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "aliases": ["深度求索", "杭州深度求索人工智能基础技术研究有限公司"],
+    "sector": "基础大模型与开发者平台",
+    "ai_related": true,
+    "why_relevant": "基础模型、API开放平台和开发者生态，适合观察AI产品、平台、商业化和解决方案岗位。",
+    "homepage": "https://www.deepseek.com/zh/",
+    "careers_url": "https://talent.deepseek.com/",
+    "headquarters": "杭州（官网主体口径；不是岗位城市字段）",
+    "attribution_evidence": [
+      {
+        "url": "https://www.deepseek.com/zh/",
+        "quote": "加入我们",
+        "evidence_kind": "official_link",
+        "checked_at": "2026-09-09"
+      },
+      {
+        "url": "https://talent.deepseek.com/",
+        "quote": "热招中加入 DeepSeek 共赴星辰大海",
+        "evidence_kind": "official_link",
+        "checked_at": "2026-09-09"
+      }
+    ],
+    "provider_hint": "custom",
+    "status": "verified",
+    "notes": "官网直接链接talent.deepseek.com；本轮取得33条完整JD。另有1条只有占位说明，整源诚实标记partial；页面内数据快照日期不是岗位发布日期。"
+  },
+  {
+    "id": "zhipu",
+    "name": "智谱",
+    "aliases": ["智谱AI", "Zhipu AI", "Z.ai", "北京智谱华章科技股份有限公司"],
+    "sector": "基础大模型、MaaS与AI应用",
+    "ai_related": true,
+    "why_relevant": "GLM、MaaS及AI应用覆盖企业与开发者场景，官网招聘分类直接包含销售、产品和项目方向。",
+    "homepage": "https://www.zhipuai.cn/",
+    "careers_url": "https://www.zhipuai.cn/zh/joinus",
+    "headquarters": "北京（官网联系地址口径；不是岗位城市字段）",
+    "attribution_evidence": [
+      {
+        "url": "https://www.zhipuai.cn/zh/joinus",
+        "quote": "加入我们",
+        "evidence_kind": "official_search_result",
+        "checked_at": "2026-09-09"
+      },
+      {
+        "url": "https://www.zhipuai.cn/zh/joinus",
+        "quote": "销售（社招）",
+        "evidence_kind": "official_link",
+        "checked_at": "2026-09-09"
+      }
+    ],
+    "provider_hint": "custom",
+    "status": "verified",
+    "notes": "官网招聘页及其静态脚本已核验当前Moka入口zphz/148983；6个招聘类别不是完整JD。Moka列表同地址重定向，停止采集。",
+    "preflight_check": {"status": "stopped", "checked_at": "2026-09-09T14:22:20.695Z", "reason": "官网与Moka归属链已核验；Moka列表同地址重定向，未取得完整JD。", "evidence": "01_行情收集/official-careers/raw/preflight-zhipu-moka-fcfdc2b9-64e3-4c11-9c90-026ec2fa0723/004.response.json"}
+  },
+  {
+    "id": "bailian-ai",
+    "name": "百炼智能",
+    "aliases": ["百炼", "北京百炼智能科技有限公司"],
+    "sector": "企业AI、B2B营销获客与智能招投标",
+    "ai_related": true,
+    "why_relevant": "产品聚焦B2B获客、商业情报和招投标，和企业服务销售、解决方案、项目交付及客户成功高度相关。",
+    "homepage": "https://www.bailian-ai.com/",
+    "careers_url": "https://www.bailian-ai.com/joinus",
+    "headquarters": "北京（官网办公地址口径；不是岗位城市字段）",
+    "attribution_evidence": [
+      {
+        "url": "https://www.bailian-ai.com/",
+        "quote": "关于百炼智能 加入我们",
+        "evidence_kind": "official_link",
+        "checked_at": "2026-09-09"
+      },
+      {
+        "url": "https://www.bailian-ai.com/joinus",
+        "quote": "加入我们",
+        "evidence_kind": "official_link",
+        "checked_at": "2026-09-09"
+      }
+    ],
+    "provider_hint": "custom",
+    "status": "verified",
+    "notes": "招聘页存在历史职位日期（如2025-01-17、2023-08-23），只能证明官方入口与历史岗位页面，不能证明当前岗位仍开放。"
+  },
+  {
+    "id": "4paradigm",
+    "name": "第四范式",
+    "aliases": ["4Paradigm", "第四范式（北京）技术有限公司"],
+    "sector": "企业AI与行业智能化",
+    "ai_related": true,
+    "why_relevant": "面向企业数字化和行业智能化转型，适合观察企业AI销售、解决方案、交付和客户经营岗位。",
+    "homepage": "https://www.4paradigm.com/",
+    "careers_url": "https://www.4paradigm.com/about/hr.html",
+    "headquarters": "北京（官网主体口径；不是岗位城市字段）",
+    "attribution_evidence": [
+      {
+        "url": "https://www.4paradigm.com/about/hr.html",
+        "quote": "第四范式招聘官网",
+        "evidence_kind": "official_search_result",
+        "checked_at": "2026-09-09"
+      },
+      {
+        "url": "https://www.4paradigm.com/about/hr.html",
+        "quote": "社会招聘",
+        "evidence_kind": "official_search_result",
+        "checked_at": "2026-09-09"
+      }
+    ],
+    "provider_hint": "custom",
+    "status": "candidate",
+    "notes": "搜索摘要找到官网社会招聘候选入口；实际请求robots.txt返回HTTP566，已停止，没有职位数据。",
+    "preflight_check": {"status": "stopped", "checked_at": "2026-09-09T14:31:38.614Z", "reason": "官网robots.txt HTTP566，来源未获可解释访问结果，停止；不是无招聘岗位。", "evidence": "01_行情收集/official-careers/raw/preflight-4paradigm-58a0d101-3951-42e1-88ab-48b54fc50a68/001.response.json"}
+  },
+  {
+    "id": "iflytek",
+    "name": "科大讯飞",
+    "aliases": ["讯飞", "iFlytek", "科大讯飞股份有限公司"],
+    "sector": "语音AI、行业智能化与企业服务",
+    "ai_related": true,
+    "why_relevant": "语音与认知智能产品覆盖教育、办公和行业解决方案，适合观察企业服务、行业销售、售前与交付岗位。",
+    "homepage": "https://www.iflytek.com/cn/",
+    "careers_url": "https://sp.wintalent.cn/iflytek/index.html",
+    "headquarters": "合肥（官网及招聘页地址口径；不是岗位城市字段）",
+    "attribution_evidence": [
+      {
+        "url": "https://www.iflytek.com/cn/",
+        "quote": "科大讯飞 - 用人工智能建设美好世界",
+        "evidence_kind": "official_search_result",
+        "checked_at": "2026-09-09"
+      },
+      {
+        "url": "https://sp.wintalent.cn/iflytek/index.html",
+        "quote": "科大讯飞招聘",
+        "evidence_kind": "official_search_result",
+        "checked_at": "2026-09-09"
+      }
+    ],
+    "provider_hint": "wintalent_or_custom",
+    "status": "candidate",
+    "notes": "招聘承接页与公司名称匹配，但本轮无法从官网正文读取直接跳转链；需后续人工确认该承接页仍是官方授权入口。"
+  },
+  {
+    "id": "volcengine",
+    "name": "火山引擎",
+    "aliases": ["Volcengine", "字节跳动火山引擎"],
+    "sector": "云计算、企业AI与开发者服务",
+    "ai_related": true,
+    "why_relevant": "面向企业提供云、数据、AI和增长能力，适合观察大客户销售、解决方案、生态与客户成功岗位。",
+    "homepage": "https://www.volcengine.com/",
+    "careers_url": "https://www.volcengine.com/jobs",
+    "headquarters": "北京（公司主体/业务口径；不是岗位城市字段）",
+    "attribution_evidence": [
+      {
+        "url": "https://www.volcengine.com/jobs",
+        "quote": "火山引擎招聘",
+        "evidence_kind": "official_search_result",
+        "checked_at": "2026-09-09"
+      },
+      {
+        "url": "https://www.volcengine.com/jobs",
+        "quote": "字节跳动旗下的云服务平台",
+        "evidence_kind": "official_link",
+        "checked_at": "2026-09-09"
+      }
+    ],
+    "provider_hint": "custom",
+    "status": "verified",
+    "notes": "官方jobs页确认火山引擎招聘及字节跳动归属；页面需要JavaScript，未读取岗位详情。"
+  },
+  {
+    "id": "aliyun",
+    "name": "阿里云",
+    "aliases": ["Alibaba Cloud", "阿里云智能"],
+    "sector": "云计算、企业AI与基础设施",
+    "ai_related": true,
+    "why_relevant": "企业云、数据与AI基础设施，是观察大客户销售、云解决方案、生态伙伴和行业数字化岗位的核心入口。",
+    "homepage": "https://www.aliyun.com/",
+    "careers_url": "https://careers.aliyun.com/home?lang=zh",
+    "headquarters": "杭州（总部口径；不是岗位城市字段）",
+    "attribution_evidence": [
+      {
+        "url": "https://careers.aliyun.com/home?lang=zh",
+        "quote": "阿里云招聘官网",
+        "evidence_kind": "official_search_result",
+        "checked_at": "2026-09-09"
+      },
+      {
+        "url": "https://careers.aliyun.com/home?lang=zh",
+        "quote": "招聘官网 社会招聘 校园招聘",
+        "evidence_kind": "official_link",
+        "checked_at": "2026-09-09"
+      }
+    ],
+    "provider_hint": "custom",
+    "status": "verified",
+    "notes": "阿里云官方招聘域名已确认；页面重定向到无lang参数主页不影响入口归属。"
+  },
+  {
+    "id": "tencent-cloud",
+    "name": "腾讯云",
+    "aliases": ["Tencent Cloud", "腾讯云计算"],
+    "sector": "云计算、企业AI与开发者服务",
+    "ai_related": true,
+    "why_relevant": "云、AI和企业数字化服务覆盖广，适合观察大客户销售、解决方案、生态伙伴、售前和客户成功岗位。",
+    "homepage": "https://cloud.tencent.com/",
+    "careers_url": "https://careers.tencent.com/jobopportunity.html",
+    "headquarters": "深圳（腾讯集团总部口径；不是岗位城市字段）",
+    "attribution_evidence": [
+      {
+        "url": "https://cloud.tencent.com/",
+        "quote": "腾讯云 助力企业实现 AI 转型",
+        "evidence_kind": "official_link",
+        "checked_at": "2026-09-09"
+      },
+      {
+        "url": "https://hr.tencent.com/zh-cn/jobopportunity.html",
+        "quote": "社会招聘 | 腾讯招聘",
+        "evidence_kind": "official_search_result",
+        "checked_at": "2026-09-09"
+      }
+    ],
+    "provider_hint": "tencent_custom",
+    "status": "candidate",
+    "notes": "腾讯云主页与腾讯官方社会招聘入口分别找到，但所列careers.tencent.com与证据hr.tencent.com不一致，重定向归属待采集复核。集团岗位须根据部门和JD确认腾讯云及AI归属，不能全部归为腾讯云AI岗位。"
+  }
+]

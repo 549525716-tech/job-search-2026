@@ -1,0 +1,77 @@
+{
+  "runId": "2026-06-29T21-22-42-595Z",
+  "createdAt": "2026-06-29T21:22:42.606Z",
+  "cdpUrl": "http://127.0.0.1:9333",
+  "args": {
+    "source": "BOSS直聘",
+    "city": "广州",
+    "maxSearches": 1,
+    "maxJobs": 3,
+    "cardsPerSearch": 2,
+    "detailLimit": 0,
+    "delayMs": 600000,
+    "minRequestIntervalMs": 600000,
+    "jitterMs": 180000,
+    "resumeAfterRisk": true,
+    "allowCdpNavigation": false,
+    "dryRun": false,
+    "groups": [
+      "AI销售"
+    ],
+    "manualNavigationOnly": true,
+    "keywords": [],
+    "companies": [],
+    "industries": [],
+    "roles": []
+  },
+  "safetyLimits": {
+    "before": {
+      "maxSearches": 1,
+      "maxJobs": 3,
+      "cardsPerSearch": 2,
+      "detailLimit": 0,
+      "delayMs": 600000,
+      "minRequestIntervalMs": 600000,
+      "jitterMs": 180000,
+      "resumeAfterRisk": true,
+      "allowCdpNavigation": false,
+      "manualNavigationOnly": false
+    },
+    "after": {
+      "maxSearches": 1,
+      "maxJobs": 3,
+      "cardsPerSearch": 2,
+      "detailLimit": 0,
+      "delayMs": 600000,
+      "minRequestIntervalMs": 600000,
+      "jitterMs": 180000,
+      "resumeAfterRisk": true,
+      "allowCdpNavigation": false,
+      "allowCdpNavigationIgnored": false,
+      "manualNavigationOnly": true
+    }
+  },
+  "searchPlan": [
+    {
+      "query": "AI销售",
+      "queryKind": "group",
+      "roleFamily": "销售",
+      "group": "AI销售",
+      "source": "BOSS直聘",
+      "city": "广州",
+      "url": "https://www.zhipin.com/web/geek/jobs?query=AI%E9%94%80%E5%94%AE&city=101280100"
+    }
+  ],
+  "status": "manual_navigation_required",
+  "savedCount": 0,
+  "message": "BOSS手动导航保护：未检测到现有 zhipin.com 标签页，脚本不会自动新建或跳转 BOSS 页面。",
+  "currentTabs": [
+    {
+      "title": "Career Auth Browser",
+      "url": "data:text/html;charset=utf-8,%3Ctitle%3ECareer%20Auth%20Browser%3C%2Ftitle%3E%3Cmain%20style%3D%22font-family%3Asystem-ui%2Csans-serif%3Bpadding%3A24px%3Bcolor%3A%23222%22%3E%3Ch1%20style%3D%22font-size%3A18px%3Bmargin%3A0%200%208px%22%3ECareer%20Auth%20Browser%3C%2Fh1%3E%3Cp%20style%3D%22margin%3A0%22%3EReady.%20Open%20recruitment%20platforms%20manually%20in%20this%20Chrome%20profile.%3C%2Fp%3E%3C%2Fmain%3E"
+    }
+  ],
+  "manualUrls": [
+    "https://www.zhipin.com/web/geek/jobs?query=AI%E9%94%80%E5%94%AE&city=101280100"
+  ]
+}

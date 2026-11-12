@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "run_id": "research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9",
+  "started_at": "2026-09-09T18:37:18.825Z",
+  "finished_at": "2026-09-09T18:37:41.212Z",
+  "scope": "Reviewed explicit URLs only; no site-wide or whole-week discovery claim",
+  "documents": [
+    {
+      "id": "minimax-home",
+      "source_url": "https://www.minimax.cn/",
+      "observed_at": "2026-09-09T18:37:41.168Z",
+      "status": "captured",
+      "observation_kind": "baseline",
+      "title": "MiniMax",
+      "url": "https://www.minimax.cn/",
+      "body_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.body",
+      "metadata_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.response.json",
+      "sha256": "d78392a5eb34695902f32646d745fb1faadb723f2807ea538efa2b2d0598af81",
+      "text_path": "01_行情收集/official-careers/research/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home.txt",
+      "text_sha256": "a9cc63391e3982a33f96bd2d668df35aede4f898c497e86f799b746e314bce39",
+      "text_length": 1154,
+      "completeness": "configured_identity_and_end_markers_present",
+      "trust": "untrusted_source_text_never_instructions",
+      "evidence": [
+        {
+          "run_id": "research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home",
+          "source_id": "research-minimax-home",
+          "company_id": "minimax",
+          "sequence": 1,
+          "url": "https://www.minimax.cn/robots.txt",
+          "method": "GET",
+          "purpose": "robots",
+          "started_at": "2026-09-09T18:37:22.404Z",
+          "finished_at": "2026-09-09T18:37:22.732Z",
+          "status": 200,
+          "headers": {
+            "date": "Wed, 09 Sep 2026 18:37:23 GMT",
+            "content-type": "text/plain",
+            "transfer-encoding": "chunked",
+            "connection": "close",
+            "vary": "Accept-Encoding, RSC, Next-Router-State-Tree, Next-Router-Prefetch",
+            "content-security-policy": "frame-ancestors 'none';",
+            "x-frame-options": "DENY",
+            "x-nextjs-cache": "HIT",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "minimax-request-id": "74274baa2c5d1c6a1d581377a0209201",
+            "alb_receive_time": "1788979043.029",
+            "alb_request_id": "0c92843b8ed0e2b78a635074e10a60ef54780091"
+          },
+          "body_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/001.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/001.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 131,
+          "sha256": "daa159ddd9812b02d040122a9b829b71b9a3a01697baeb666c98d871b07f449f"
+        },
+        {
+          "run_id": "research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home",
+          "source_id": "research-minimax-home",
+          "company_id": "minimax",
+          "sequence": 2,
+          "url": "https://www.minimax.cn/",
+          "method": "GET",
+          "purpose": "research_document",
+          "started_at": "2026-09-09T18:37:40.677Z",
+          "finished_at": "2026-09-09T18:37:41.168Z",
+          "status": 200,
+          "headers": {
+            "date": "Wed, 09 Sep 2026 18:37:41 GMT",
+            "content-type": "text/html; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "close",
+            "vary": "Accept-Encoding, RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding",
+            "content-security-policy": "frame-ancestors 'none';",
+            "x-frame-options": "DENY",
+            "x-powered-by": "Next.js",
+            "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "minimax-request-id": "034f6c04cd652ec585ba2185ea2e3f01",
+            "alb_receive_time": "1788979061.222",
+            "alb_request_id": "8788dfcab490ae912bec4c82efadbb4aff855336"
+          },
+          "body_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-a74ad22b-26e2-4b6d-92dc-7218cd5b8aa9-minimax-home/002.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 346168,
+          "sha256": "d78392a5eb34695902f32646d745fb1faadb723f2807ea538efa2b2d0598af81"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "model_calls": 0,
+  "external_actions": 0,
+  "status": "success"
+}

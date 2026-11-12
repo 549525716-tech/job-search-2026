@@ -1,0 +1,11 @@
+{
+  "version": "2026-10-18-resume-facts-v3",
+  "source": "03_简历/贺文杰_销售与商业化管理.docx",
+  "source_sha256": "61381e35edef30600d945af4bdcf906ec2735b7925a0b92d3c04e0a2f50a80a5",
+  "verification": "Re-read current DOCX using textutil and OOXML; education paragraphs 65-66, summary 2 and employment headings 13/32/48 checked on 2026-10-18. Resume-reported facts, not independent degree or employer verification.",
+  "attributes": {"degree_level": "bachelor", "major": "行政管理", "computer_science_degree": false, "overseas_work_authorization": "unknown"},
+  "evidence": [
+    {"id": "EV-EDUCATION", "project": "教育经历", "action": "2020.09—2022.06 广东培正学院 行政管理 本科；2016.09—2019.06 广东工商学院 金融管理 专科。", "result": "已提供本科学历经历；不是计算机专业，也没有硕博证据，全日制口径未单独确认。", "status": "resume_reported", "provenance": "当前销售与商业化管理简历教育经历，2026-10-18重新读取，与原学历记录一致"},
+    {"id": "EV-CAREER-TENURE", "project": "职业年限及任职时间", "action": "4年汽车行业销售管理与互联网平台商业化经营经验。特斯拉｜销售主管｜2022.07—2023.12；乐道汽车｜店长｜2024.03—2025.06；字节跳动｜储备区域经理｜2025.07—至今。", "result": "一般销售和管理工作年限可据简历核验；不等于4年企业软件、大模型或ToB KA经验。当前简历雇主表述为字节跳动；业务历史为懂车帝，法律用工主体未独立验证。", "status": "resume_reported", "provenance": "当前销售与商业化管理简历职业概述及三段任职时间，2026-10-18重新读取"}
+  ]
+}

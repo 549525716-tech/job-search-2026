@@ -1,0 +1,33 @@
+{
+  "source": "/Users/MR/Library/Logs/com.openai.codex/2026/09/21/codex-desktop-5f9a2237-6410-4075-80ff-2c14485c8aec-92438-t0-i1-120201-0.log",
+  "rows": [
+    {
+      "line_number": 2714,
+      "text": "2026-09-21T13:53:31.682Z info [browser-use-iab-api] IAB_LIFECYCLE unregistered debugger listener pageKey=1:019f13ff-181a-7900-9662-86b3f5815b23:043520fc-a6bb-4f84-90d3-4b469d18e818 reason=webcontents-destroyed routeKey=1:019f13ff-181a-7900-9662-86b3f5815b23 tabId=3 webContentsDestroyed=true webContentsId=8"
+    },
+    {
+      "line_number": 2726,
+      "text": "2026-09-21T13:53:31.764Z info [browser-session-registry] IAB_LIFECYCLE closed browser sidebar page browserTabId=043520fc-a6bb-4f84-90d3-4b469d18e818 conversationId=019f13ff-181a-7900-9662-86b3f5815b23 windowId=1"
+    },
+    {
+      "line_number": 2727,
+      "text": "2026-09-21T13:53:31.765Z info [browser-sidebar-manager] IAB_TAB_ANALYTICS browser tab lifecycle action=closed appBrowserTabCount=1 appBrowserUseTabCount=0 browserTabId=043520fc-a6bb-4f84-90d3-4b469d18e818 conversationId=019f13ff-181a-7900-9662-86b3f5815b23 isBrowserUseTab=true ownerWebContentsId=1 threadBrowserTabCount=1 threadBrowserUseTabCount=0"
+    },
+    {
+      "line_number": 2768,
+      "text": "2026-09-21T14:08:01.139Z info [browser-use-iab-api] IAB_LIFECYCLE registered debugger listener pageKey=1:019f13ff-181a-7900-9662-86b3f5815b23:2a969c3e-9b6e-4029-924a-81fd00c7f093 routeKey=1:019f13ff-181a-7900-9662-86b3f5815b23 tabId=4 webContentsId=9"
+    },
+    {
+      "line_number": 2773,
+      "text": "2026-09-21T14:08:08.832Z info [browser-sidebar-manager] browser sidebar dom-ready conversationId=019f13ff-181a-7900-9662-86b3f5815b23 interactionMode=browse url=about:blank"
+    },
+    {
+      "line_number": 2833,
+      "text": "2026-09-21T14:10:32.955Z info [browser-sidebar-manager] browser sidebar dom-ready conversationId=019f13ff-181a-7900-9662-86b3f5815b23 interactionMode=browse url=https://c.liepin.com/"
+    },
+    {
+      "line_number": 2834,
+      "text": "2026-09-21T14:10:35.277Z info [browser-sidebar-manager] browser sidebar dom-ready conversationId=019f13ff-181a-7900-9662-86b3f5815b23 interactionMode=browse url=about:blank"
+    }
+  ]
+}

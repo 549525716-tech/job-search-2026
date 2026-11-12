@@ -1,0 +1,69 @@
+{
+  "scope": "四条完整JD的证据覆盖初评，不是录用概率或独立验收；未读取基础简历，不建议直接沿用。",
+  "results": [
+    {
+      "id": "market-wide-2026-10-08:p31:l16",
+      "company": "MiniMax",
+      "title": "大模型销售运营",
+      "score": 56,
+      "hard_gate_status": "unknown",
+      "unknown_weight": 10,
+      "mission": "把大模型销售从个人跟单转为规则、指标、资源和风险可管理的经营体系；这比技术售前更接近当前经历。",
+      "translation": {
+        "capability": "把区域经营经验转成销售运营机制能力",
+        "example": "主导目标拆解、客户分层和周月复盘，用经营数据判断资源优先级，再以AI客户地图把客户选择、拜访动作与复盘形成可复用工作流。",
+        "boundary": "不宣称已建立AI厂商收入、合同、财务或风险管理体系；薪资周期和原厂在招状态均待核。",
+        "proof_needed": "脱敏展示一份目标拆解表、客户优先级规则和复盘行动闭环；补充真实财务分析样例，明确你参与政策调整的决策边界。"
+      },
+      "source": "https://hireportal.us.com/cn/job/wbxgpj9xdbvv/job"
+    },
+    {
+      "id": "market-wide-2026-10-08:p32:l16",
+      "company": "MiniMax",
+      "title": "大模型技术销售工程师",
+      "score": 34,
+      "hard_gate_status": "unmet",
+      "unknown_weight": 12.5,
+      "mission": "面向头部客户完成从AI场景识别、技术演示到POC和规模化商业落地的技术销售闭环，当前不是高匹配主攻岗。",
+      "translation": {
+        "capability": "业务场景诊断是切入点，技术销售闭环仍有明显缺口",
+        "example": "展示如何将分散的商业消耗、客户位置和线索表现转成可执行客户优先级规则，说明问题定义、工具验证与团队采用过程。",
+        "boundary": "不把内部工具称为客户级POC，不补造云厂商年限、API签约和AI回款。",
+        "proof_needed": "先补一个可运行API Demo与评价指标，并形成客户试点设计；即使补作品，也不能消除三年行业年限门槛。"
+      },
+      "source": "https://hireportal.us.com/cn/job/zddnmgv1wk6f/job"
+    },
+    {
+      "id": "market-wide-2026-10-08:o03:l43",
+      "company": "Noumena",
+      "title": "AI 转型专家 / 咨询顾问",
+      "score": 67,
+      "hard_gate_status": "met",
+      "unknown_weight": 0,
+      "mission": "理解客户业务并把AI变为可执行的改造方案和项目成果，而不只是介绍AI工具；适合以真实行业案例探索转型。",
+      "translation": {
+        "capability": "行业知识驱动的AI业务改造",
+        "example": "从汽车商户经营中的信息分散和客户优先级判断出发，设计客户地图与车型分析流程，把诊断转换为每日客户选择、拜访动作和商户经营建议，推动团队采用。",
+        "boundary": "个人测量的效率提升不推广为团队或客户ROI；不宣称外部AI付费交付、合同或财务收益。",
+        "proof_needed": "一份脱敏案例：业务问题、原流程、AI介入点、人工校验、使用记录和前后对比；明确上海工作意愿、薪资与项目职责。"
+      },
+      "source": "https://www.noumena.com.cn/career/"
+    },
+    {
+      "id": "market-wide-2026-10-08:p05:l566",
+      "company": "Naddod",
+      "title": "区域销售经理",
+      "score": 49,
+      "hard_gate_status": "unknown",
+      "unknown_weight": 10,
+      "mission": "在AI数据中心及网络产品市场开拓区域客户，联动售前与渠道，完成方案推进、回款和行业标杆。",
+      "translation": {
+        "capability": "区域客户经营和售前协同",
+        "example": "用客户分层、优先级地图及经营复盘证明能管理区域客户覆盖和行动节奏，再解释如何与售前共同把需求变成方案。",
+        "boundary": "不声称已有GPU销售、数据中心投标、教科研资源或设备回款经验。",
+        "proof_needed": "准备区域拓客案例、客户决策链和跟进计划；补产品线与典型客户场景学习，确认薪资构成。"
+      },
+      "source": "https://cn.naddod.com/about-us/talent-recruitment"
+    }
+  ]
+}

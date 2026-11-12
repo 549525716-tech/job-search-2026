@@ -1,0 +1,3116 @@
+{
+  "schema_version": 1,
+  "batch": "market-wide-2026-09-22",
+  "reviewed_at": "2026-09-21T18:32:50.528Z",
+  "timezone": "Asia/Shanghai",
+  "role": "independent_offline_data_qa_not_implementation",
+  "reviewer": {
+    "implementation_participation": false,
+    "new_agents_dispatched": 0,
+    "model": "not_exposed_to_this_reviewer_use_parent_dispatch_receipt",
+    "reasoning_effort": null,
+    "model_note": "独立性来自本会话未参与本批实现；不伪造未见的QA模型运行元数据。"
+  },
+  "executor_identity_from_task": {
+    "agent_id": "01a0c4f7-d532-7643-a09a-b5530f3ca759",
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "medium",
+    "evidence_basis": "本次任务由父线程明确提供其先前已接受调度的信息；本QA未另行读取调度工具回执"
+  },
+  "scope": {
+    "reviewed_artifacts": [
+      "jd-extract.mjs",
+      "jobs.json",
+      "extraction-audit.json",
+      "detail-backlog.json"
+    ],
+    "raw_capture_ids": [
+      "d01",
+      "d01tail",
+      "d02",
+      "d02tail",
+      "d03",
+      "d03tail",
+      "d04",
+      "d04tail",
+      "d05",
+      "d05tail",
+      "d06",
+      "d07",
+      "d08",
+      "d09",
+      "o01",
+      "o01b",
+      "o02",
+      "o03",
+      "o04",
+      "o05",
+      "o06",
+      "o07",
+      "o08",
+      "o10"
+    ],
+    "raw_capture_count": 24,
+    "write_allowlist": [
+      "01_行情收集/official-careers/research/market-wide-2026-09-22/data-qa.md",
+      "01_行情收集/official-careers/research/market-wide-2026-09-22/data-qa.json"
+    ],
+    "network_requests": 0,
+    "browser_operations": 0,
+    "external_actions": 0,
+    "implementation_edits": 0,
+    "raw_jobs_config_progress_edits": 0,
+    "company_search_fulltexts_read": 0,
+    "full_project_regression_run": false,
+    "supporting_source_read": "market-2026-09-21/build.mjs only for imported line helpers and import-side-effect inspection",
+    "helper_sha256": "2ef798282836cae9ced19a4ab042f0d1cf03c08d84e5700516a3135f31152ec6",
+    "supplemental_static_files": [
+      "company-enrichment.json",
+      "integrate.mjs"
+    ],
+    "latest_retest": {
+      "requested_scope": "P2-01 P2-02 counts new evidence o09 attribution only",
+      "network_requests": 0,
+      "browser_operations": 0,
+      "c_series_files_read": 0,
+      "implementation_edits": 0,
+      "full_extractor_rerun_by_reviewer": false,
+      "full_project_regression_run": false,
+      "raw_semantic_review": "raw/o04.json only for the five affected education claims",
+      "other_raw_access": "Only hash the explicit previous 24-file o/d input_snapshot to carry forward prior QA; no raw directory discovery or c-series reads."
+    }
+  },
+  "verdict": {
+    "overall": "passed_frozen_data_qa_after_limited_retest",
+    "p1_count": 0,
+    "p2_count": 0,
+    "new_data_issue_count": 0,
+    "known_parent_provenance_issue_count": 0,
+    "hash_and_literal_binding": "passed_initial_review_plus_unchanged_content_proof_and_repaired_evidence_retest",
+    "visible_jd_completeness": "passed_40_prior_semantic_review_content_proven_unchanged",
+    "list_detail_associations": "passed_7_prior_review_unchanged_data",
+    "board_recall": "passed_12_plus_10_prior_review_unchanged_data",
+    "all_market_acceptance": "not_assessed_no_acceptance_claim",
+    "current_hiring_verification": "not_performed_unknown_for_all_95",
+    "hr_contact_identity_acceptance": "not_testable_no_boss_liepin_or_same_role_distinct_hr_samples",
+    "resolved_p2_count": 2,
+    "acceptance_note": "已关闭的是结构化冲突标注与执行归属元数据缺陷；页内学历真值仍待招聘方确认，不能因此将单值本科当确定硬门槛。"
+  },
+  "count_semantics": {
+    "jobs": 95,
+    "observations": 102,
+    "complete": 40,
+    "main": 59,
+    "similar": 36,
+    "merges": 7,
+    "backlog": 65,
+    "observations_before_association": 102,
+    "groups_after_association": 95,
+    "main_groups": 59,
+    "similar_list_only_groups": 36,
+    "complete_jd_groups": 40,
+    "incomplete_groups": 55,
+    "main_incomplete": 19,
+    "similar_incomplete": 36,
+    "pending_source_timeouts": 3,
+    "planned_not_executed": 1,
+    "head_fragments_with_companion": 6,
+    "backlog_entries": 65,
+    "warning": "95是本冻结批次的关联后记录组，不是95条新增岗位、95个已核雇主或95条当前在招；102才是所保存的原始岗位观察条数。"
+  },
+  "input_manifest_sha256": "cfa4af4b9e5a0d4558751b365e7c240b0b762d7ab8fadd0af34b6c6c58b89a2a",
+  "input_files": [
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/jd-extract.mjs",
+      "sha256": "ca54b3945cf6869fda4d270b0c055e77b2e3269d1a6d43d0d38045415f96bb5e",
+      "bytes": 51589
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/jobs.json",
+      "sha256": "1400835040ce435f7e5a4345b71c8c528934a1b300007b014ac25402603ef67f",
+      "bytes": 2233730
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/extraction-audit.json",
+      "sha256": "04306496a6051fa007cd1d02580cc03e0accf9be08b718b1cfcf0a8298ee850f",
+      "bytes": 29477
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/detail-backlog.json",
+      "sha256": "9cfeb91fd696aaf508ab75d61ca1e1fb48c929e705cbb8bd1858414778a94034",
+      "bytes": 205661
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d01.json",
+      "sha256": "72c08fe958c08a05115ee8b8548cf24fd4b8387ed8a473749bed8056dabbcca5",
+      "bytes": 26844
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d01tail.json",
+      "sha256": "f435a50c9a8496d1022bb93c7a9897735ea975fb099d499152ebdd290d7344ff",
+      "bytes": 27047
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d02.json",
+      "sha256": "1e577edeb9e8c4c3ab6498a822fef922caaaf93766437a37d4771628843d6114",
+      "bytes": 26804
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d02tail.json",
+      "sha256": "1d8359856b6ce2685f0bcb8ee021980a398a80d3fa458406310cb51ea5d70294",
+      "bytes": 27033
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d03.json",
+      "sha256": "d19f8a70b323399254f0fb174ac5ff6da796774a3d7ec00664efce50facffcd7",
+      "bytes": 26828
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d03tail.json",
+      "sha256": "b17df17ed1e3bfe4f860c2d77733518fcddfecc84b1a00d6067afaf56e7d37b4",
+      "bytes": 27153
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d04.json",
+      "sha256": "643a95ee3166300f28eb22f36ead27f78770c5bd98f343167c6bb8b5b3f20123",
+      "bytes": 26804
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d04tail.json",
+      "sha256": "d5178c3a57bd5d88b6bde4c328de97ae5b09a1b3530fb13c3eff077cf5eb4e01",
+      "bytes": 27233
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d05.json",
+      "sha256": "01bdbd0c39cb525ecf02f869feb38cdf7571eea4e44a366ef264878a2ef8940e",
+      "bytes": 26840
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d05tail.json",
+      "sha256": "be2d3d81a874dadd852678174b1c35222f1d56e2790117eed6c4c95cbde5a4a6",
+      "bytes": 27085
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d06.json",
+      "sha256": "2517302eff22cc0ac2dc99ee9de30476344e627d039a8a5e71d607398db6c78b",
+      "bytes": 644
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d07.json",
+      "sha256": "be2cf69be97fbe8c64bff4a0a26825791d35ed2f2cc7ce0e7ba53264eb76f872",
+      "bytes": 7563
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d08.json",
+      "sha256": "10dfdc77a3b2a7fc7da12706be8f134033fb9a0e808f8f6b0a2089ecf5a32999",
+      "bytes": 7719
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/d09.json",
+      "sha256": "40837235525436bb84cd1f0ec3f403450d8b42182cf3250ed7081569f821a493",
+      "bytes": 605
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o01.json",
+      "sha256": "54256c662f09b73810b8902b1e2cd1517a919dd316c57078562388f3638240dd",
+      "bytes": 26994
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o01b.json",
+      "sha256": "69574b89064ee7b90c1dace3d0a5327fe02d8414d6954bded3ecd9f2dd1d0cfb",
+      "bytes": 26950
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o02.json",
+      "sha256": "77af689c7148ea9275335c49eb7208bea855b6cd20d2151a26b99331b06d9db1",
+      "bytes": 9864
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o03.json",
+      "sha256": "facd11679a3bff1e24e3c1a6df88594c1ab3ecd96bdfb1c6f43bd4a42f2f8c9a",
+      "bytes": 14855
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+      "sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+      "bytes": 25670
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o05.json",
+      "sha256": "d8bebde6b5a5c310c25d8e57724832943b9c596fd2cb1fc62e17cf64e4fbd3d5",
+      "bytes": 16779
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o06.json",
+      "sha256": "10565ea29255620cd998974d8cb4157792febbbb8677806688575b7bf44e870f",
+      "bytes": 5024
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o07.json",
+      "sha256": "dddc2b0dc3fb53a748beaa00e9e83d849c3ce90cb12a81908632f3625f6013ee",
+      "bytes": 27781
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o08.json",
+      "sha256": "b42e5ef6f6022209eb62655dcf4879a5968b3b0eb6a508ce8b123df651ad02eb",
+      "bytes": 693
+    },
+    {
+      "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o10.json",
+      "sha256": "59d9c1633862e74fedbfe9f527aa3ae9c25dc9b47ff267565ba371f0f8ecde64",
+      "bytes": 2554
+    }
+  ],
+  "input_hashes_rechecked_before_write": true,
+  "input_drift_before_write": false,
+  "validation": {
+    "phase": "limited_independent_retest_after_parent_repairs",
+    "status": "passed",
+    "counts": {
+      "job_observations": 102,
+      "jobs": 95,
+      "complete_jds": 40,
+      "incomplete_jobs": 55,
+      "main_jobs": 59,
+      "similar_list_only_jobs": 36,
+      "field_evidence_entries": 729,
+      "nested_quote_objects": 858
+    },
+    "education_evidence_checks": 30,
+    "count_note": "729/858 independently recounted from observations; only repaired evidence revalidated semantically in this retest, not all858 quotes",
+    "prior_full_validation": "See review_history[0].validation; not rerun as part of this limited retest.",
+    "changes_isolated_to_declared_repairs": true,
+    "errors": [],
+    "error_count": 0
+  },
+  "findings": [
+    {
+      "id": "P2-01",
+      "priority": "P2",
+      "category": "source_internal_conflict_not_exposed",
+      "title": "五个合共岗位的结构化学历未标注页内冲突",
+      "status": "resolved_independent_retest_passed",
+      "blocks_collection": false,
+      "blocks_affected_education_hard_gating": false,
+      "summary": "原始职责与要求均保留，但 education 一律取顶部元数据的本科，field_conflicts 为空；同页正文对五岗给出专科或硕士要求。不是 SHA 失败或正文缺失，而是下游结构化门槛的证据边界缺失。",
+      "implementation_reference": {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/jd-extract.mjs",
+        "line_ranges": [
+          [
+            239,
+            251
+          ],
+          [
+            512,
+            516
+          ]
+        ]
+      },
+      "evidence": [
+        {
+          "job_id": "job:9b266fe5a373446629cb15dc",
+          "title": "MES系统售前顾问",
+          "education": "本科",
+          "metadata": {
+            "line": 216,
+            "quote": "部门：市场销售部 地点：上海 学历：本科 发布时间：2026.01.12"
+          },
+          "requirements": {
+            "line": 234,
+            "quote": "1、专科及以上学历，2年以上MES等系统的专职售前经历，独立售前签约项目1个以上；"
+          },
+          "field_conflicts": [],
+          "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+          "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+          "output_pointers": {
+            "id": "job:9b266fe5a373446629cb15dc",
+            "pointer": "/65/education",
+            "conflicts_pointer": "/65/field_conflicts"
+          }
+        },
+        {
+          "job_id": "job:6ca4bcb0788d3eba477bfa25",
+          "title": "系统架构师",
+          "education": "本科",
+          "metadata": {
+            "line": 298,
+            "quote": "部门：研发中心 地点：上海 学历：本科 发布时间：2025.11.10"
+          },
+          "requirements": {
+            "line": 315,
+            "quote": "1、计算机相关专业，硕士及以上学历，5年以上.NET开发经验、3年以上架构设计经验；"
+          },
+          "field_conflicts": [],
+          "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+          "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+          "output_pointers": {
+            "id": "job:6ca4bcb0788d3eba477bfa25",
+            "pointer": "/68/education",
+            "conflicts_pointer": "/68/field_conflicts"
+          }
+        },
+        {
+          "job_id": "job:c7c4005a51a01fd8c8ddd014",
+          "title": ".NET开发工程师",
+          "education": "本科",
+          "metadata": {
+            "line": 355,
+            "quote": "部门：研发中心 地点：上海 学历：本科 发布时间：2025.06.18"
+          },
+          "requirements": {
+            "line": 370,
+            "quote": "1、专科以上学历，1年或以上.Net开发经验；"
+          },
+          "field_conflicts": [],
+          "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+          "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+          "output_pointers": {
+            "id": "job:c7c4005a51a01fd8c8ddd014",
+            "pointer": "/70/education",
+            "conflicts_pointer": "/70/field_conflicts"
+          }
+        },
+        {
+          "job_id": "job:8896b1ef45790cb129019c96",
+          "title": "WEB开发工程师",
+          "education": "本科",
+          "metadata": {
+            "line": 380,
+            "quote": "部门：研发中心 地点：上海 学历：本科 发布时间：2025.06.18"
+          },
+          "requirements": {
+            "line": 404,
+            "quote": "7、专科以上学历，1年以上互联网行业前端开发经验；"
+          },
+          "field_conflicts": [],
+          "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+          "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+          "output_pointers": {
+            "id": "job:8896b1ef45790cb129019c96",
+            "pointer": "/71/education",
+            "conflicts_pointer": "/71/field_conflicts"
+          }
+        },
+        {
+          "job_id": "job:0038410fe8bfece47cc54ecd",
+          "title": "MES系统交付顾问",
+          "education": "本科",
+          "metadata": {
+            "line": 490,
+            "quote": "部门：交付中心 地点：上海 学历：本科 发布时间：2025.06.18"
+          },
+          "requirements": {
+            "line": 509,
+            "quote": "5、专科以上学历，工业自动化、计算机、信息管理等相关专业。"
+          },
+          "field_conflicts": [],
+          "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+          "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+          "output_pointers": {
+            "id": "job:0038410fe8bfece47cc54ecd",
+            "pointer": "/75/education",
+            "conflicts_pointer": "/75/field_conflicts"
+          }
+        }
+      ],
+      "impact": "直接用 education 过滤会误排专科学历候选人，或把系统架构师正文的硕士要求降成仅本科。全文仍可回查，故不撤销40份正文完整性结论。",
+      "minimal_fix": "只给这5条记录补页内学历冲突提示，分别绑定顶部与正文原句；保留两个原值，不自行选真值。下游硬门槛暂标待核。无需重采raw、改写正文或重跑全市场。",
+      "acceptance": "5条受影响记录均有双原句证据和冲突状态；不以单一education作确定筛选；其余35份complete及95组/102观察计数不变。",
+      "original_status": "open",
+      "finding_evidence_phase": "initial_review_before_repair",
+      "remaining_source_uncertainty": "原站学历冲突仍客观存在，education_status明确禁止按单值筛除；关闭标注缺陷不是确认任一学历真值，也不是验收下游筛选器/UI已消费该状态。",
+      "resolution": {
+        "reviewed_at": "2026-09-21T18:32:50.528Z",
+        "status": "passed",
+        "records": [
+          {
+            "job_id": "job:9b266fe5a373446629cb15dc",
+            "title": "MES系统售前顾问",
+            "education": "本科",
+            "education_status": "conflicting_source_claims_do_not_hard_filter",
+            "attention": "学历信息冲突：标题栏为本科，正文为“1、专科及以上学历，2年以上MES等系统的专职售前经历，独立售前签约项目1个以上；”。需向招聘方确认，不能据单一字段筛除。",
+            "conflict_evidence": [
+              {
+                "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+                "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+                "capture_id": "o04",
+                "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+                "line_range": [
+                  216,
+                  216
+                ],
+                "quote": "部门：市场销售部 地点：上海 学历：本科 发布时间：2026.01.12",
+                "quote_sha256": "c18bfc8a49d0e112fccbd6ef70c179834f2c54512424c0670718e2c291ef6fa9",
+                "value_char_range": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+                "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+                "capture_id": "o04",
+                "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+                "line_range": [
+                  234,
+                  234
+                ],
+                "quote": "1、专科及以上学历，2年以上MES等系统的专职售前经历，独立售前签约项目1个以上；",
+                "quote_sha256": "021643751eb582614fe0af767ea771cd883ed1d1432f1ea0b866e9f8ece085cf",
+                "value_char_range": [
+                  0,
+                  41
+                ]
+              }
+            ],
+            "canonical_observation_equal": true,
+            "status": "passed"
+          },
+          {
+            "job_id": "job:6ca4bcb0788d3eba477bfa25",
+            "title": "系统架构师",
+            "education": "本科",
+            "education_status": "conflicting_source_claims_do_not_hard_filter",
+            "attention": "学历信息冲突：标题栏为本科，正文为“1、计算机相关专业，硕士及以上学历，5年以上.NET开发经验、3年以上架构设计经验；”。需向招聘方确认，不能据单一字段筛除。",
+            "conflict_evidence": [
+              {
+                "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+                "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+                "capture_id": "o04",
+                "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+                "line_range": [
+                  298,
+                  298
+                ],
+                "quote": "部门：研发中心 地点：上海 学历：本科 发布时间：2025.11.10",
+                "quote_sha256": "abcefbacb179ab373abb78658ca7ef8d2d3badc791f2f1e9992d8e6412a7bf99",
+                "value_char_range": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+                "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+                "capture_id": "o04",
+                "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+                "line_range": [
+                  315,
+                  315
+                ],
+                "quote": "1、计算机相关专业，硕士及以上学历，5年以上.NET开发经验、3年以上架构设计经验；",
+                "quote_sha256": "5cd9bc1b1823ff31076c9b8bf58768adb4d92a36562d8503139cc1f40a3c4654",
+                "value_char_range": [
+                  0,
+                  42
+                ]
+              }
+            ],
+            "canonical_observation_equal": true,
+            "status": "passed"
+          },
+          {
+            "job_id": "job:c7c4005a51a01fd8c8ddd014",
+            "title": ".NET开发工程师",
+            "education": "本科",
+            "education_status": "conflicting_source_claims_do_not_hard_filter",
+            "attention": "学历信息冲突：标题栏为本科，正文为“1、专科以上学历，1年或以上.Net开发经验；”。需向招聘方确认，不能据单一字段筛除。",
+            "conflict_evidence": [
+              {
+                "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+                "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+                "capture_id": "o04",
+                "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+                "line_range": [
+                  355,
+                  355
+                ],
+                "quote": "部门：研发中心 地点：上海 学历：本科 发布时间：2025.06.18",
+                "quote_sha256": "b842d7d923c36fc476707cf8c353311ebf524c022eb99a6101b5ba6cb3507be3",
+                "value_char_range": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+                "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+                "capture_id": "o04",
+                "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+                "line_range": [
+                  370,
+                  370
+                ],
+                "quote": "1、专科以上学历，1年或以上.Net开发经验；",
+                "quote_sha256": "3f04b98ec328e20d3009b67f3154b4c15ba91e2b0ea2f652bc303ba07f7b8fe5",
+                "value_char_range": [
+                  0,
+                  23
+                ]
+              }
+            ],
+            "canonical_observation_equal": true,
+            "status": "passed"
+          },
+          {
+            "job_id": "job:8896b1ef45790cb129019c96",
+            "title": "WEB开发工程师",
+            "education": "本科",
+            "education_status": "conflicting_source_claims_do_not_hard_filter",
+            "attention": "学历信息冲突：标题栏为本科，正文为“7、专科以上学历，1年以上互联网行业前端开发经验；”。需向招聘方确认，不能据单一字段筛除。",
+            "conflict_evidence": [
+              {
+                "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+                "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+                "capture_id": "o04",
+                "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+                "line_range": [
+                  380,
+                  380
+                ],
+                "quote": "部门：研发中心 地点：上海 学历：本科 发布时间：2025.06.18",
+                "quote_sha256": "b842d7d923c36fc476707cf8c353311ebf524c022eb99a6101b5ba6cb3507be3",
+                "value_char_range": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+                "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+                "capture_id": "o04",
+                "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+                "line_range": [
+                  404,
+                  404
+                ],
+                "quote": "7、专科以上学历，1年以上互联网行业前端开发经验；",
+                "quote_sha256": "706a482b9c140c1da91fc537375b9852fc282fcaab8c48bfedbd73d2d3ee28fc",
+                "value_char_range": [
+                  0,
+                  25
+                ]
+              }
+            ],
+            "canonical_observation_equal": true,
+            "status": "passed"
+          },
+          {
+            "job_id": "job:0038410fe8bfece47cc54ecd",
+            "title": "MES系统交付顾问",
+            "education": "本科",
+            "education_status": "conflicting_source_claims_do_not_hard_filter",
+            "attention": "学历信息冲突：标题栏为本科，正文为“5、专科以上学历，工业自动化、计算机、信息管理等相关专业。”。需向招聘方确认，不能据单一字段筛除。",
+            "conflict_evidence": [
+              {
+                "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+                "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+                "capture_id": "o04",
+                "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+                "line_range": [
+                  490,
+                  490
+                ],
+                "quote": "部门：交付中心 地点：上海 学历：本科 发布时间：2025.06.18",
+                "quote_sha256": "e065953848abbdaffcdc16893d14f56b8bbcb0b6d45ddd2861e70bdbc6f44b7e",
+                "value_char_range": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+                "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+                "capture_id": "o04",
+                "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+                "line_range": [
+                  509,
+                  509
+                ],
+                "quote": "5、专科以上学历，工业自动化、计算机、信息管理等相关专业。",
+                "quote_sha256": "15e1633be210840a0eb09e3fe908d59761a45193e4417aa9654f5097edb6d5b4",
+                "value_char_range": [
+                  0,
+                  29
+                ]
+              }
+            ],
+            "canonical_observation_equal": true,
+            "status": "passed"
+          }
+        ],
+        "checks": 30,
+        "canonical_observation_conflict_preservation": true,
+        "code_references": {
+          "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/jd-extract.mjs",
+          "line_ranges": [
+            [
+              249,
+              261
+            ],
+            [
+              523,
+              533
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "P2-02",
+      "priority": "P2",
+      "category": "execution_provenance_metadata",
+      "title": "审计混淆子代理自身调度能力与父线程实际调度",
+      "status": "resolved_independent_retest_passed",
+      "blocks_collection": false,
+      "evidence": [
+        {
+          "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/extraction-audit.json",
+          "json_pointer": "/actual_execution",
+          "physical_lines": [
+            13,
+            19
+          ],
+          "quote": "No callable model-specific subagent scheduler; requested Luna medium not independently verified. Deterministic extraction runs in Node.js."
+        },
+        {
+          "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/jd-extract.mjs",
+          "physical_lines": [
+            570,
+            572
+          ]
+        }
+      ],
+      "parent_dispatch": {
+        "agent_id": "01a0c4f7-d532-7643-a09a-b5530f3ca759",
+        "model": "gpt-5.6-luna",
+        "reasoning_effort": "medium",
+        "evidence_basis": "本次任务由父线程明确提供其先前已接受调度的信息；本QA未另行读取调度工具回执"
+      },
+      "impact": "现有actual_execution缺少真实作者agent ID，且不能用子代理没有scheduler否定父线程已接受的Luna medium调度。这不影响本批字段和正文正确性。",
+      "minimal_fix": "由主控用真实调度回执修正作者身份、模型与档位；将脚本运行引擎Node、脚本模型调用0、子代理本身新增调度0另列。不要让下次extract重新覆盖已核验的作者记录。",
+      "acceptance": "审计作者绑定真实agent ID及父线程回执；保留脚本运行与作者模型的区分。QA不越权改实现或audit。",
+      "original_status": "known_parent_correction_pending",
+      "finding_evidence_phase": "initial_review_before_repair",
+      "resolution": {
+        "reviewed_at": "2026-09-21T18:32:50.528Z",
+        "status": "passed",
+        "actual_execution": {
+          "original_code_author": {
+            "agent_id": "01a0c4f7-d532-7643-a09a-b5530f3ca759",
+            "dispatch_model": "gpt-5.6-luna",
+            "dispatch_reasoning_effort": "medium",
+            "basis": "Parent session accepted model-specific subagent dispatch; not independently verified billing telemetry."
+          },
+          "follow_up_repair_author": {
+            "actor": "parent_codex_session",
+            "model": "not_independently_verified",
+            "scope": "Source education conflicts and execution attribution metadata."
+          },
+          "runtime": "Node.js deterministic local extraction",
+          "model_calls": 0,
+          "subagents_dispatched_by_script": 0,
+          "billing_model_verification": "unknown",
+          "independent_review": "See data-qa.json for separate reviewer findings and reviewed artifact hashes."
+        },
+        "code_reference": {
+          "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/jd-extract.mjs",
+          "physical_lines": [
+            581,
+            591
+          ]
+        },
+        "billing_verified_by_reviewer": false,
+        "original_dispatch_tool_receipt_retrieved_by_reviewer": false,
+        "note": "已核验元数据准确反映父线程提供的已接受调度，同时保留计费遥测未知及父线程修复归属；未把此复验包装成计费/模型后台证明。"
+      }
+    }
+  ],
+  "complete_jd_review": [
+    {
+      "job_id": "job:086da497f488a98bce26231e",
+      "capture_id": "o06",
+      "title": "销售总监（渠道/直销）",
+      "company": "卡奥斯平台",
+      "location": "青岛市",
+      "description_range": [
+        30,
+        45
+      ],
+      "requirements_range": [
+        48,
+        61
+      ],
+      "block_range": [
+        17,
+        62
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:32c1c2eee8f134d234e26040",
+      "capture_id": "d07",
+      "title": "产品交付经理",
+      "company": "数势科技",
+      "location": "北京、武汉",
+      "description_range": [
+        71,
+        74
+      ],
+      "requirements_range": [
+        78,
+        80
+      ],
+      "block_range": [
+        49,
+        81
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:4430f529869ee6e526173aff",
+      "capture_id": "d08",
+      "title": "销售顾问",
+      "company": "数势科技",
+      "location": "北京、上海、广州、深圳",
+      "description_range": [
+        71,
+        75
+      ],
+      "requirements_range": [
+        79,
+        83
+      ],
+      "block_range": [
+        49,
+        84
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:414da51b8f73fa6f908ea744",
+      "capture_id": "d04tail",
+      "title": "客户经理",
+      "company": "青云QingCloud",
+      "location": "深圳",
+      "description_range": [
+        758,
+        761
+      ],
+      "requirements_range": [
+        764,
+        768
+      ],
+      "block_range": [
+        753,
+        768
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:902c2e070103345900dd73dd",
+      "capture_id": "d01tail",
+      "title": "智算售前技术顾问",
+      "company": "青云QingCloud",
+      "location": "北京",
+      "description_range": [
+        758,
+        762
+      ],
+      "requirements_range": [
+        765,
+        769
+      ],
+      "block_range": [
+        753,
+        769
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:5ac315227bf7fe5270b0a66c",
+      "capture_id": "d02tail",
+      "title": "渠道经理",
+      "company": "青云QingCloud",
+      "location": "北京",
+      "description_range": [
+        758,
+        761
+      ],
+      "requirements_range": [
+        764,
+        767
+      ],
+      "block_range": [
+        753,
+        768
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:2d89311b443cd00be2c4cc1e",
+      "capture_id": "d05tail",
+      "title": "金融云计算销售",
+      "company": "青云QingCloud",
+      "location": "北京",
+      "description_range": [
+        758,
+        762
+      ],
+      "requirements_range": [
+        765,
+        770
+      ],
+      "block_range": [
+        753,
+        771
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:7c672968d0ecf73c2c487cdd",
+      "capture_id": "d03tail",
+      "title": "AI产品内容运营",
+      "company": "青云QingCloud",
+      "location": "北京",
+      "description_range": [
+        758,
+        762
+      ],
+      "requirements_range": [
+        765,
+        768
+      ],
+      "block_range": [
+        753,
+        769
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:99a291f70dd787c186d3385d",
+      "capture_id": "o07",
+      "title": "全国区域销售总监-奕境汽车 (MJ002034)",
+      "company": "东风汽车",
+      "location": "成都",
+      "description_range": [
+        51,
+        64
+      ],
+      "requirements_range": [
+        66,
+        70
+      ],
+      "block_range": [
+        16,
+        116
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:1614b334b0b94c9927916e5a",
+      "capture_id": "o04",
+      "title": "MES系统销售经理",
+      "company": "上海合共软件科技有限公司",
+      "location": "上海",
+      "description_range": [
+        196,
+        200
+      ],
+      "requirements_range": [
+        205,
+        210
+      ],
+      "block_range": [
+        186,
+        211
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:9b266fe5a373446629cb15dc",
+      "capture_id": "o04",
+      "title": "MES系统售前顾问",
+      "company": "上海合共软件科技有限公司",
+      "location": "上海",
+      "description_range": [
+        224,
+        229
+      ],
+      "requirements_range": [
+        234,
+        239
+      ],
+      "block_range": [
+        214,
+        240
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:a830907a8a58905193c2e647",
+      "capture_id": "o04",
+      "title": "新媒体策划运营",
+      "company": "上海合共软件科技有限公司",
+      "location": "上海",
+      "description_range": [
+        252,
+        257
+      ],
+      "requirements_range": [
+        263,
+        265
+      ],
+      "block_range": [
+        243,
+        266
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:b6e61c1892fff8117d1f348f",
+      "capture_id": "o04",
+      "title": "MES产品经理",
+      "company": "上海合共软件科技有限公司",
+      "location": "上海",
+      "description_range": [
+        278,
+        281
+      ],
+      "requirements_range": [
+        286,
+        292
+      ],
+      "block_range": [
+        269,
+        293
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:6ca4bcb0788d3eba477bfa25",
+      "capture_id": "o04",
+      "title": "系统架构师",
+      "company": "上海合共软件科技有限公司",
+      "location": "上海",
+      "description_range": [
+        305,
+        310
+      ],
+      "requirements_range": [
+        315,
+        322
+      ],
+      "block_range": [
+        296,
+        323
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:6d3eff17f0af457e746681a6",
+      "capture_id": "o04",
+      "title": "高级软件工程师",
+      "company": "上海合共软件科技有限公司",
+      "location": "上海",
+      "description_range": [
+        334,
+        339
+      ],
+      "requirements_range": [
+        345,
+        349
+      ],
+      "block_range": [
+        326,
+        350
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:c7c4005a51a01fd8c8ddd014",
+      "capture_id": "o04",
+      "title": ".NET开发工程师",
+      "company": "上海合共软件科技有限公司",
+      "location": "上海",
+      "description_range": [
+        362,
+        364
+      ],
+      "requirements_range": [
+        370,
+        374
+      ],
+      "block_range": [
+        353,
+        375
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:8896b1ef45790cb129019c96",
+      "capture_id": "o04",
+      "title": "WEB开发工程师",
+      "company": "上海合共软件科技有限公司",
+      "location": "上海",
+      "description_range": [
+        388,
+        393
+      ],
+      "requirements_range": [
+        398,
+        404
+      ],
+      "block_range": [
+        378,
+        405
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:41f8107ea9e391a97cef28b5",
+      "capture_id": "o04",
+      "title": "UI设计师",
+      "company": "上海合共软件科技有限公司",
+      "location": "上海",
+      "description_range": [
+        418,
+        420
+      ],
+      "requirements_range": [
+        425,
+        429
+      ],
+      "block_range": [
+        408,
+        430
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:b2512237bee1f5cde4b555bb",
+      "capture_id": "o04",
+      "title": "测试工程师",
+      "company": "上海合共软件科技有限公司",
+      "location": "上海",
+      "description_range": [
+        443,
+        447
+      ],
+      "requirements_range": [
+        452,
+        458
+      ],
+      "block_range": [
+        433,
+        459
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:cee0edd47ad21c29e71fd57a",
+      "capture_id": "o04",
+      "title": "MES系统项目经理",
+      "company": "上海合共软件科技有限公司",
+      "location": "上海",
+      "description_range": [
+        471,
+        475
+      ],
+      "requirements_range": [
+        480,
+        484
+      ],
+      "block_range": [
+        462,
+        485
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:0038410fe8bfece47cc54ecd",
+      "capture_id": "o04",
+      "title": "MES系统交付顾问",
+      "company": "上海合共软件科技有限公司",
+      "location": "上海",
+      "description_range": [
+        497,
+        500
+      ],
+      "requirements_range": [
+        505,
+        509
+      ],
+      "block_range": [
+        488,
+        510
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:5731bee9a593e6454b63fabb",
+      "capture_id": "o03",
+      "title": "研发实习生（AI Agent 方向）",
+      "company": "Noumena（物自体）",
+      "location": "上海",
+      "description_range": [
+        112,
+        113
+      ],
+      "requirements_range": [
+        117,
+        120
+      ],
+      "block_range": [
+        106,
+        120
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:8771414eea8ec24345dcedd0",
+      "capture_id": "o03",
+      "title": "AI 产品运营实习生",
+      "company": "Noumena（物自体）",
+      "location": "上海",
+      "description_range": [
+        127,
+        129
+      ],
+      "requirements_range": [
+        132,
+        136
+      ],
+      "block_range": [
+        121,
+        143
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:fdbe17092441810d839682ec",
+      "capture_id": "o03",
+      "title": "招聘经理 / TA（社媒营销 & 商业化方向）",
+      "company": "Noumena（物自体）",
+      "location": "上海",
+      "description_range": [
+        151,
+        154
+      ],
+      "requirements_range": [
+        158,
+        165
+      ],
+      "block_range": [
+        146,
+        166
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:115593bca5c008acddeb3709",
+      "capture_id": "o03",
+      "title": "出海商业化 BD 负责人",
+      "company": "Noumena（物自体）",
+      "location": "深圳 / 广州 / 上海",
+      "description_range": [
+        175,
+        178
+      ],
+      "requirements_range": [
+        181,
+        190
+      ],
+      "block_range": [
+        169,
+        191
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:c25744d09d9ce5d97c91bcd5",
+      "capture_id": "o03",
+      "title": "小红书线索广告投放专员",
+      "company": "Noumena（物自体）",
+      "location": "上海",
+      "description_range": [
+        197,
+        201
+      ],
+      "requirements_range": [
+        204,
+        213
+      ],
+      "block_range": [
+        192,
+        213
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:afc3232f8dc845f7f9172f3b",
+      "capture_id": "o03",
+      "title": "AI 转型专家 / 咨询顾问",
+      "company": "Noumena（物自体）",
+      "location": "上海",
+      "description_range": [
+        49,
+        51
+      ],
+      "requirements_range": [
+        55,
+        57
+      ],
+      "block_range": [
+        43,
+        58
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:93f2f8e1069091780df155e8",
+      "capture_id": "o03",
+      "title": "资深商务拓展经理 / Sales（解决方案方向）",
+      "company": "Noumena（物自体）",
+      "location": "上海",
+      "description_range": [
+        64,
+        66
+      ],
+      "requirements_range": [
+        70,
+        72
+      ],
+      "block_range": [
+        59,
+        73
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:bffafdbe1319a51d60f8269a",
+      "capture_id": "o03",
+      "title": "AI 产品经理 / AI 产品专家",
+      "company": "Noumena（物自体）",
+      "location": "上海",
+      "description_range": [
+        82,
+        84
+      ],
+      "requirements_range": [
+        87,
+        89
+      ],
+      "block_range": [
+        76,
+        90
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:f56c1b79cccfc7d9bba7b0b3",
+      "capture_id": "o03",
+      "title": "AI Agent 全栈工程师",
+      "company": "Noumena（物自体）",
+      "location": "上海",
+      "description_range": [
+        97,
+        99
+      ],
+      "requirements_range": [
+        103,
+        105
+      ],
+      "block_range": [
+        91,
+        105
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:ecd37d32a5edd45dce9a06a9",
+      "capture_id": "o05",
+      "title": "ERP售前顾问",
+      "company": "上海用畅信息科技有限公司",
+      "location": null,
+      "description_range": [
+        119,
+        122
+      ],
+      "requirements_range": [
+        124,
+        128
+      ],
+      "block_range": [
+        117,
+        128
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:7fc62a23d6a002e3ceba726b",
+      "capture_id": "o05",
+      "title": "大客户经理/销售顾问",
+      "company": "上海用畅信息科技有限公司",
+      "location": null,
+      "description_range": [
+        131,
+        134
+      ],
+      "requirements_range": [
+        136,
+        140
+      ],
+      "block_range": [
+        129,
+        140
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:fa4b1d98375e4e9e1aa7b01e",
+      "capture_id": "o05",
+      "title": "协同产品大客户经理",
+      "company": "上海用畅信息科技有限公司",
+      "location": null,
+      "description_range": [
+        143,
+        146
+      ],
+      "requirements_range": [
+        148,
+        151
+      ],
+      "block_range": [
+        141,
+        151
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:595278fab3083e4efcecc059",
+      "capture_id": "o05",
+      "title": "客户经理",
+      "company": "上海用畅信息科技有限公司",
+      "location": null,
+      "description_range": [
+        154,
+        156
+      ],
+      "requirements_range": [
+        158,
+        160
+      ],
+      "block_range": [
+        152,
+        160
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:210e338ef52bc695969e22e4",
+      "capture_id": "o05",
+      "title": "销售顾问(常规业务销售2名+云业务销售3名)",
+      "company": "上海用畅信息科技有限公司",
+      "location": null,
+      "description_range": [
+        163,
+        166
+      ],
+      "requirements_range": [
+        168,
+        171
+      ],
+      "block_range": [
+        161,
+        176
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:57439376ffe3414eb2455f93",
+      "capture_id": "o05",
+      "title": "客户经营代表（2名）",
+      "company": "上海用畅信息科技有限公司",
+      "location": null,
+      "description_range": [
+        179,
+        183
+      ],
+      "requirements_range": [
+        185,
+        188
+      ],
+      "block_range": [
+        177,
+        188
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:98a77b349637ab30473ef88d",
+      "capture_id": "o05",
+      "title": "客户运营专员",
+      "company": "上海用畅信息科技有限公司",
+      "location": null,
+      "description_range": [
+        191,
+        197
+      ],
+      "requirements_range": [
+        199,
+        203
+      ],
+      "block_range": [
+        189,
+        203
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:be672716af23f79c6de18b76",
+      "capture_id": "o05",
+      "title": "BD专员",
+      "company": "上海用畅信息科技有限公司",
+      "location": null,
+      "description_range": [
+        206,
+        210
+      ],
+      "requirements_range": [
+        212,
+        217
+      ],
+      "block_range": [
+        204,
+        217
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:f388884d455239bc9ba72e9a",
+      "capture_id": "o05",
+      "title": "实施顾问",
+      "company": "上海用畅信息科技有限公司",
+      "location": null,
+      "description_range": [
+        220,
+        221
+      ],
+      "requirements_range": [
+        223,
+        228
+      ],
+      "block_range": [
+        218,
+        228
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    },
+    {
+      "job_id": "job:8a611d70546db8ce11d7af7f",
+      "capture_id": "o05",
+      "title": "运维服务",
+      "company": "上海用畅信息科技有限公司",
+      "location": null,
+      "description_range": [
+        231,
+        234
+      ],
+      "requirements_range": [
+        236,
+        240
+      ],
+      "block_range": [
+        229,
+        240
+      ],
+      "status": "pass_visible_responsibilities_and_requirements_not_live_hiring"
+    }
+  ],
+  "complete_jd_review_note": "逐条查看源块与前后标题/职责/要求/申请或下一岗位边界，未发现职责要求截断、导航污染或相似职位串入。complete只代表保存快照中职责与要求正文完整；职位使命前言、福利与联系人可能另在raw，不等于全网页字段已结构化。",
+  "board_recall": {
+    "o04": {
+      "count": 12,
+      "status": "pass_all_twelve_visible_roles_retained",
+      "source_body_range": [
+        186,
+        511
+      ]
+    },
+    "o05": {
+      "count": 10,
+      "status": "pass_all_ten_visible_roles_retained",
+      "source_body_range": [
+        117,
+        240
+      ]
+    },
+    "other_visible_boards": {
+      "o01b": 11,
+      "o02": 13,
+      "o03": 9,
+      "o10": 2
+    }
+  },
+  "list_detail_associations": [
+    {
+      "job_id": "job:32c1c2eee8f134d234e26040",
+      "title": "产品交付经理",
+      "company": "数势科技",
+      "location": "北京、武汉",
+      "list_capture_id": "o02",
+      "list_title_line": 87,
+      "list_ref_id": "turn332view0",
+      "list_link_id": 27,
+      "click_capture_id": "d07",
+      "detail_capture_id": "d07",
+      "tail_request": {
+        "click": [
+          {
+            "ref_id": "turn332view0",
+            "id": 27
+          }
+        ],
+        "response_length": "long"
+      },
+      "job_url": "https://www.digitforce.com/jobinfo/10",
+      "status": "pass_same_host_click_response_and_matching_title_company_location"
+    },
+    {
+      "job_id": "job:4430f529869ee6e526173aff",
+      "title": "销售顾问",
+      "company": "数势科技",
+      "location": "北京、上海、广州、深圳",
+      "list_capture_id": "o02",
+      "list_title_line": 95,
+      "list_ref_id": "turn332view0",
+      "list_link_id": 28,
+      "click_capture_id": "d08",
+      "detail_capture_id": "d08",
+      "tail_request": {
+        "click": [
+          {
+            "ref_id": "turn332view0",
+            "id": 28
+          }
+        ],
+        "response_length": "long"
+      },
+      "job_url": "https://www.digitforce.com/jobinfo/11",
+      "status": "pass_same_host_click_response_and_matching_title_company_location"
+    },
+    {
+      "job_id": "job:414da51b8f73fa6f908ea744",
+      "title": "客户经理",
+      "company": "青云QingCloud",
+      "location": "深圳",
+      "list_capture_id": "o01b",
+      "list_title_line": 812,
+      "list_ref_id": "turn331view0",
+      "list_link_id": 159,
+      "click_capture_id": "d04",
+      "detail_capture_id": "d04tail",
+      "tail_request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs/%E5%AE%A2%E6%88%B7%E7%BB%8F%E7%90%86/",
+            "lineno": 694
+          }
+        ],
+        "response_length": "long"
+      },
+      "job_url": "https://www.qingcloud.com/jobs/%E5%AE%A2%E6%88%B7%E7%BB%8F%E7%90%86/",
+      "status": "pass_same_host_click_response_and_matching_title_company_location"
+    },
+    {
+      "job_id": "job:902c2e070103345900dd73dd",
+      "title": "智算售前技术顾问",
+      "company": "青云QingCloud",
+      "location": "北京",
+      "list_capture_id": "o01b",
+      "list_title_line": 770,
+      "list_ref_id": "turn331view0",
+      "list_link_id": 152,
+      "click_capture_id": "d01",
+      "detail_capture_id": "d01tail",
+      "tail_request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs/%E6%99%BA%E7%AE%97%E5%94%AE%E5%89%8D%E6%8A%80%E6%9C%AF%E9%A1%BE%E9%97%AE/",
+            "lineno": 694
+          }
+        ],
+        "response_length": "long"
+      },
+      "job_url": "https://www.qingcloud.com/jobs/%E6%99%BA%E7%AE%97%E5%94%AE%E5%89%8D%E6%8A%80%E6%9C%AF%E9%A1%BE%E9%97%AE/",
+      "status": "pass_same_host_click_response_and_matching_title_company_location"
+    },
+    {
+      "job_id": "job:5ac315227bf7fe5270b0a66c",
+      "title": "渠道经理",
+      "company": "青云QingCloud",
+      "location": "北京",
+      "list_capture_id": "o01b",
+      "list_title_line": 782,
+      "list_ref_id": "turn331view0",
+      "list_link_id": 154,
+      "click_capture_id": "d02",
+      "detail_capture_id": "d02tail",
+      "tail_request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs/%E6%B8%A0%E9%81%93%E7%BB%8F%E7%90%86/",
+            "lineno": 694
+          }
+        ],
+        "response_length": "long"
+      },
+      "job_url": "https://www.qingcloud.com/jobs/%E6%B8%A0%E9%81%93%E7%BB%8F%E7%90%86/",
+      "status": "pass_same_host_click_response_and_matching_title_company_location"
+    },
+    {
+      "job_id": "job:2d89311b443cd00be2c4cc1e",
+      "title": "金融云计算销售",
+      "company": "青云QingCloud",
+      "location": "北京",
+      "list_capture_id": "o01b",
+      "list_title_line": 818,
+      "list_ref_id": "turn331view0",
+      "list_link_id": 160,
+      "click_capture_id": "d05",
+      "detail_capture_id": "d05tail",
+      "tail_request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs/%E9%87%91%E8%9E%8D%E4%BA%91%E8%AE%A1%E7%AE%97%E9%94%80%E5%94%AE/",
+            "lineno": 694
+          }
+        ],
+        "response_length": "long"
+      },
+      "job_url": "https://www.qingcloud.com/jobs/%E9%87%91%E8%9E%8D%E4%BA%91%E8%AE%A1%E7%AE%97%E9%94%80%E5%94%AE/",
+      "status": "pass_same_host_click_response_and_matching_title_company_location"
+    },
+    {
+      "job_id": "job:7c672968d0ecf73c2c487cdd",
+      "title": "AI产品内容运营",
+      "company": "青云QingCloud",
+      "location": "北京",
+      "list_capture_id": "o01b",
+      "list_title_line": 806,
+      "list_ref_id": "turn331view0",
+      "list_link_id": 158,
+      "click_capture_id": "d03",
+      "detail_capture_id": "d03tail",
+      "tail_request": {
+        "open": [
+          {
+            "ref_id": "https://www.qingcloud.com/jobs/ai%E4%BA%A7%E5%93%81%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5/",
+            "lineno": 694
+          }
+        ],
+        "response_length": "long"
+      },
+      "job_url": "https://www.qingcloud.com/jobs/ai%E4%BA%A7%E5%93%81%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5/",
+      "status": "pass_same_host_click_response_and_matching_title_company_location"
+    }
+  ],
+  "identity_review": {
+    "same_title_different_employers_retained": [
+      {
+        "id": "job:0c4d04ef1b9f56b9d41619f0",
+        "company": "四川知周科技有限责任公司",
+        "observations": 1
+      },
+      {
+        "id": "job:32fd2710ee8d130badc94e4a",
+        "company": "成都正西智能装备集团股份有限公司",
+        "observations": 1
+      },
+      {
+        "id": "job:5c8dd2562c0ae3b11237be27",
+        "company": "四川省天府名优酒研究中心",
+        "observations": 1
+      },
+      {
+        "id": "job:ee1223963aeda7deb4a90d49",
+        "company": "成都乡王食品有限公司",
+        "observations": 1
+      },
+      {
+        "id": "job:33cdd107f808b48c79337caf",
+        "company": "成都凤升汽车销售有限公司",
+        "observations": 1
+      },
+      {
+        "id": "job:aaa727b0fdbc29cadf552183",
+        "company": "麻辣空间",
+        "observations": 1
+      }
+    ],
+    "all_36_similar_cards_separate": true,
+    "title_company_fuzzy_merge_observed": false,
+    "boss_liepin_records": 0,
+    "same_company_title_distinct_hr_samples": 0,
+    "limitation": "本批未发现错误合并；未覆盖BOSS/猎聘同岗不同HR，不得宣传跨HR身份规则已通过。通用合并键只使用精确URL/ref-link/page-slot，不能把本批成功扩大为跨雇主或HR场景认证。",
+    "minimum_future_gate": "接入含HR来源时保留所有观察，未知/仅展示名HR不作同一联系人；平台+雇主+职位+已识别HR分开，并针对同标题不同HR、同URL不同雇主增加针对性检查。"
+  },
+  "critical_risks": {
+    "zhaopin_primary": {
+      "job_id": "job:99a291f70dd787c186d3385d",
+      "company": "东风汽车",
+      "company_evidence_line": 87,
+      "city": "成都",
+      "city_evidence_line": 24,
+      "salary_raw": null,
+      "salary_masked_evidence_line": 22,
+      "description_range": [
+        51,
+        64
+      ],
+      "requirements_range": [
+        66,
+        70
+      ],
+      "main_block_range": [
+        16,
+        116
+      ],
+      "similar_boundary": 117,
+      "status": "pass_primary_not_contaminated",
+      "note": "salary_status仍为unknown_not_disclosed，但遮挡原文另有salary_unavailable_evidence；消费端应按masked未知显示，不推定薪资。L34的已发送UI文案不构成本次投递证据。"
+    },
+    "zhaopin_similar": {
+      "count": 36,
+      "range": [
+        121,
+        257
+      ],
+      "company_salary_title_same_card_checked": true,
+      "complete": false,
+      "location_inherited": false,
+      "primary_company_inherited": false,
+      "status": "pass_leads_only"
+    },
+    "salary": {
+      "populated_raw_count": 43,
+      "annual_records": [
+        {
+          "id": "job:ecd37d32a5edd45dce9a06a9",
+          "title": "ERP售前顾问",
+          "salary_raw": "年薪20-30万",
+          "range": [
+            117,
+            117
+          ]
+        },
+        {
+          "id": "job:7fc62a23d6a002e3ceba726b",
+          "title": "大客户经理/销售顾问",
+          "salary_raw": "年薪20-30万",
+          "range": [
+            129,
+            129
+          ]
+        },
+        {
+          "id": "job:fa4b1d98375e4e9e1aa7b01e",
+          "title": "协同产品大客户经理",
+          "salary_raw": "年薪15-20万",
+          "range": [
+            141,
+            141
+          ]
+        },
+        {
+          "id": "job:595278fab3083e4efcecc059",
+          "title": "客户经理",
+          "salary_raw": "年薪10-15万",
+          "range": [
+            152,
+            152
+          ]
+        }
+      ],
+      "monthly_conversions": 0,
+      "fixed_base_confirmed": 0,
+      "period_field": null,
+      "note": "4条年薪保持年薪原文；95条月薪换算、固定底薪均未知，不以万元区间推月薪。"
+    },
+    "qingcloud_navigation": {
+      "head_ids": [
+        "d01",
+        "d02",
+        "d03",
+        "d04",
+        "d05"
+      ],
+      "head_jobs": 0,
+      "tail_ids": [
+        "d01tail",
+        "d02tail",
+        "d03tail",
+        "d04tail",
+        "d05tail"
+      ],
+      "tail_complete": 5,
+      "tail_job_body_start": 753,
+      "status": "pass_head_not_jd_tail_bounded"
+    },
+    "failures": {
+      "timeout_ids": [
+        "o08",
+        "d06",
+        "d09"
+      ],
+      "timeout_jobs": 0,
+      "timeout_count_means_no_readable_result_not_zero_jobs": true,
+      "not_executed_ids": [
+        "o09"
+      ],
+      "retry_performed_by_qa": false,
+      "retry_authorized_by_qa": false,
+      "o09_attribution": {
+        "status_source": "controller_batch_stop_2026-09-22",
+        "reason": "Controller stopped the Zhaopin branch before o09 after a source timeout; no capture or zero-result claim.",
+        "qa_result": "passed_corrected_controller_attribution_still_not_executed"
+      }
+    },
+    "url_native": {
+      "source_urls": 95,
+      "literal_job_urls": 9,
+      "unknown_job_urls": 86,
+      "native_ids": [
+        {
+          "id": "job:086da497f488a98bce26231e",
+          "native_id": "JD10230413",
+          "range": [
+            15,
+            15
+          ]
+        }
+      ],
+      "note": "其余native_id保留null，不以合成job哈希冒充原生ID；列表ref/link可追溯，不把公司来源页当详情直链。官网路径内数字未额外结构化为已核native_id，不影响已保存精确URL。"
+    }
+  },
+  "noncommercial_retention": {
+    "role_filter_applied": false,
+    "examples": [
+      {
+        "id": "job:6fc86541663dc5031aff853d",
+        "capture_id": "o01b",
+        "title": "AI智算产品经理"
+      },
+      {
+        "id": "job:a559d529ff063a8e029d5b71",
+        "capture_id": "o01b",
+        "title": "客户成功经理"
+      },
+      {
+        "id": "job:cf1333655d9061fd4ddd8962",
+        "capture_id": "o02",
+        "title": "算法工程师"
+      },
+      {
+        "id": "job:92f88c328693acec6f8d6265",
+        "capture_id": "o10",
+        "title": "高级 AI Agent 工程师"
+      },
+      {
+        "id": "job:41f8107ea9e391a97cef28b5",
+        "capture_id": "o04",
+        "title": "UI设计师"
+      },
+      {
+        "id": "job:b2512237bee1f5cde4b555bb",
+        "capture_id": "o04",
+        "title": "测试工程师"
+      },
+      {
+        "id": "job:5731bee9a593e6454b63fabb",
+        "capture_id": "o03",
+        "title": "研发实习生（AI Agent 方向）"
+      },
+      {
+        "id": "job:bffafdbe1319a51d60f8269a",
+        "capture_id": "o03",
+        "title": "AI 产品经理 / AI 产品专家"
+      }
+    ],
+    "scope": "本24份快照可见职位，不代表所有方向或全市场覆盖验收。"
+  },
+  "capture_review": [
+    {
+      "id": "d01",
+      "range": [
+        0,
+        693
+      ],
+      "lines": 694,
+      "jobs": 0,
+      "complete": 0,
+      "status": "detail_body_not_in_capture",
+      "observed_at": "2026-09-21T17:59:55.121Z"
+    },
+    {
+      "id": "d01tail",
+      "range": [
+        159,
+        837
+      ],
+      "lines": 679,
+      "jobs": 1,
+      "complete": 1,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "observed_at": "2026-09-21T18:00:19.082Z"
+    },
+    {
+      "id": "d02",
+      "range": [
+        0,
+        694
+      ],
+      "lines": 695,
+      "jobs": 0,
+      "complete": 0,
+      "status": "detail_body_not_in_capture",
+      "observed_at": "2026-09-21T18:00:43.080Z"
+    },
+    {
+      "id": "d02tail",
+      "range": [
+        123,
+        836
+      ],
+      "lines": 691,
+      "jobs": 1,
+      "complete": 1,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "observed_at": "2026-09-21T18:01:07.143Z"
+    },
+    {
+      "id": "d03",
+      "range": [
+        0,
+        694
+      ],
+      "lines": 695,
+      "jobs": 0,
+      "complete": 0,
+      "status": "detail_body_not_in_capture",
+      "observed_at": "2026-09-21T18:01:31.686Z"
+    },
+    {
+      "id": "d03tail",
+      "range": [
+        150,
+        837
+      ],
+      "lines": 688,
+      "jobs": 1,
+      "complete": 1,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "observed_at": "2026-09-21T18:01:55.865Z"
+    },
+    {
+      "id": "d04",
+      "range": [
+        0,
+        694
+      ],
+      "lines": 695,
+      "jobs": 0,
+      "complete": 0,
+      "status": "detail_body_not_in_capture",
+      "observed_at": "2026-09-21T18:02:19.921Z"
+    },
+    {
+      "id": "d04tail",
+      "range": [
+        150,
+        836
+      ],
+      "lines": 684,
+      "jobs": 1,
+      "complete": 1,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "observed_at": "2026-09-21T18:02:43.801Z"
+    },
+    {
+      "id": "d05",
+      "range": [
+        0,
+        694
+      ],
+      "lines": 695,
+      "jobs": 0,
+      "complete": 0,
+      "status": "detail_body_not_in_capture",
+      "observed_at": "2026-09-21T18:03:07.890Z"
+    },
+    {
+      "id": "d05tail",
+      "range": [
+        123,
+        839
+      ],
+      "lines": 692,
+      "jobs": 1,
+      "complete": 1,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "observed_at": "2026-09-21T18:03:31.903Z"
+    },
+    {
+      "id": "d06",
+      "range": [
+        0,
+        0
+      ],
+      "lines": 1,
+      "jobs": 0,
+      "complete": 0,
+      "status": "fetch_timeout_no_retry",
+      "observed_at": "2026-09-21T18:03:55.700Z"
+    },
+    {
+      "id": "d07",
+      "range": [
+        0,
+        133
+      ],
+      "lines": 134,
+      "jobs": 1,
+      "complete": 1,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "observed_at": "2026-09-21T18:04:19.538Z"
+    },
+    {
+      "id": "d08",
+      "range": [
+        0,
+        136
+      ],
+      "lines": 137,
+      "jobs": 1,
+      "complete": 1,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "observed_at": "2026-09-21T18:04:44.518Z"
+    },
+    {
+      "id": "d09",
+      "range": [
+        0,
+        0
+      ],
+      "lines": 1,
+      "jobs": 0,
+      "complete": 0,
+      "status": "fetch_timeout_no_retry",
+      "observed_at": "2026-09-21T18:05:10.422Z"
+    },
+    {
+      "id": "o01",
+      "range": [
+        0,
+        695
+      ],
+      "lines": 696,
+      "jobs": 0,
+      "complete": 0,
+      "status": "readable_fragment_without_visible_job_cards",
+      "observed_at": "2026-09-21T17:53:44.795Z"
+    },
+    {
+      "id": "o01b",
+      "range": [
+        159,
+        895
+      ],
+      "lines": 737,
+      "jobs": 11,
+      "complete": 0,
+      "status": "title_list_partial",
+      "observed_at": "2026-09-21T17:54:22.877Z"
+    },
+    {
+      "id": "o02",
+      "range": [
+        0,
+        220
+      ],
+      "lines": 221,
+      "jobs": 13,
+      "complete": 0,
+      "status": "summary_list_partial",
+      "observed_at": "2026-09-21T17:54:56.701Z"
+    },
+    {
+      "id": "o03",
+      "range": [
+        0,
+        234
+      ],
+      "lines": 235,
+      "jobs": 9,
+      "complete": 9,
+      "status": "inline_roles_extracted_not_site_complete",
+      "observed_at": "2026-09-21T17:55:30.727Z"
+    },
+    {
+      "id": "o04",
+      "range": [
+        0,
+        596
+      ],
+      "lines": 597,
+      "jobs": 12,
+      "complete": 12,
+      "status": "inline_roles_extracted_not_site_complete",
+      "observed_at": "2026-09-21T17:56:04.651Z"
+    },
+    {
+      "id": "o05",
+      "range": [
+        0,
+        294
+      ],
+      "lines": 295,
+      "jobs": 10,
+      "complete": 10,
+      "status": "inline_roles_extracted_not_site_complete",
+      "observed_at": "2026-09-21T17:56:38.819Z"
+    },
+    {
+      "id": "o06",
+      "range": [
+        0,
+        74
+      ],
+      "lines": 75,
+      "jobs": 1,
+      "complete": 1,
+      "status": "detail_extracted_not_live_hiring_verified",
+      "observed_at": "2026-09-21T17:57:13.943Z"
+    },
+    {
+      "id": "o07",
+      "range": [
+        0,
+        325
+      ],
+      "lines": 326,
+      "jobs": 37,
+      "complete": 1,
+      "status": "primary_detail_and_separate_similar_list_only",
+      "observed_at": "2026-09-21T17:57:48.762Z"
+    },
+    {
+      "id": "o08",
+      "range": [
+        0,
+        0
+      ],
+      "lines": 1,
+      "jobs": 0,
+      "complete": 0,
+      "status": "fetch_timeout_no_retry",
+      "observed_at": "2026-09-21T17:58:24.718Z"
+    },
+    {
+      "id": "o10",
+      "range": [
+        0,
+        44
+      ],
+      "lines": 45,
+      "jobs": 2,
+      "complete": 0,
+      "status": "title_list_partial",
+      "observed_at": "2026-09-21T17:58:58.522Z"
+    }
+  ],
+  "limitations": [
+    "仅验证保存的web工具文本及其证据链，不证明原始网站当时/当前真实在招、官网归属或法律雇主身份。",
+    "无需且未读取数百公司搜索全文；未联网、未接管浏览器、未做全项目回归。",
+    "观察时间为2026-09-22中国时区凌晨，不能当职位发布日期；合共较早发布日期照录而非当日新增。",
+    "本QA仅更新两份报告；两项P2已限定复验关闭，未修改实现/raw/jobs/config/progress，未运行integrate或验收下游配置/UI。"
+  ],
+  "minimal_repair_and_retest": [
+    "两项P2修复已通过本次限定复验，无新增实现修改要求。",
+    "学历源文本仍冲突，保持待核/不可单值硬筛边界。",
+    "本结论仅绑定当前tested_hashes；不验收全市场、在招、HR入口、计费遥测或整合后展示。"
+  ],
+  "supplemental_company_display_review": {
+    "reviewed_at": "2026-09-21T18:23:34.292Z",
+    "scope": "仅新增公司展示定义与整合脚本的静态离线检查，不重复主批全量QA",
+    "files": [
+      {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/company-enrichment.json",
+        "sha256": "b23a25430c670c37befba4db8859343d441b6810f4d3efec43334e7033aac6b9"
+      },
+      {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/integrate.mjs",
+        "sha256": "0fbcea01ec5ec8d1f16a87c4cb3be24d9374dcc6831f31f91dabcd548fc32764"
+      }
+    ],
+    "integrate_executed": false,
+    "config_outputs_read_or_verified": false,
+    "verdict": "passed_frozen_definition_and_static_mapping_no_new_p1_p2",
+    "counts": {
+      "definitions": 8,
+      "facts": 14,
+      "quotes_found_in_designated_raw_result": 14,
+      "grouped_job_id_references": 59,
+      "unique_grouped_job_ids": 59
+    },
+    "identity_status": {
+      "definition_identity_reviewed": "字段未出现在company-enrichment定义中；不是8个已落盘false的profile",
+      "planned_profiles_identity_reviewed": false,
+      "evidence": "integrate.mjs L20-24 对每个profile显式设置identity_reviewed:false；脚本未运行，不验收最终config状态。"
+    },
+    "attribute_boundaries": {
+      "job_fields_written_by_script": false,
+      "job_mutation_evidence": "integrate.mjs L10只读取jobs，L22按精确company展示名引用job_ids；L42-43只计划写company-facts及review-input配置，不写jobs、观察或联系目标。",
+      "grouped_main_jobs": 59,
+      "similar_list_only_jobs_grouped": 0,
+      "addresses": "新增定义未填公司地址/岗位城市；没有把页脚地址、集团总部武汉或法律主体中的地域转成岗位工作地。",
+      "headcount": "仅东风一条10000人以上，来自o07 L89平台公司展示块。不是奕境团队、该岗位所辖团队或招聘HC；未写岗位属性。",
+      "financing": "仅东风未融资，来自o07 L89，status=platform_reported；其余7组没有融资结论，不把未知补成未融资。",
+      "legal_names": "5个legal_name均能在指定raw.result找到，但只属页脚或平台展示名；identity_reviewed计划为false，不证明劳动合同主体或集团子公司关系。",
+      "contact_targets": "只建立company profile的job_ids引用，未删除/合并原始岗位观察或联系人；未执行后续展示渲染，故不验收UI标签实际呈现。"
+    },
+    "checks": [
+      {
+        "id": "qingcloud",
+        "capture": "o01b",
+        "raw_sha256": "69574b89064ee7b90c1dace3d0a5327fe02d8414d6954bded3ecd9f2dd1d0cfb",
+        "definition_identity_reviewed": "absent_in_definition",
+        "planned_identity_reviewed": false,
+        "planned_source_url": "https://www.qingcloud.com/jobs",
+        "response_header": "加入我们 | 青云QingCloud (https://www.qingcloud.com/jobs)",
+        "legal_name": null,
+        "legal_name_in_result": true,
+        "facts": [
+          {
+            "label": "业务方向",
+            "value": "企业级AI基础设施与解决方案",
+            "quote": "企业级 AI 基础设施（AI Infra）与解决方案提供商",
+            "status": "company_self_description",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 748,
+                "text": "青云QingCloud 是一家全栈自研的企业级 AI 基础设施（AI Infra）与解决方案提供商，覆盖 AI 算力、云计算、云原生、超融合、信创等领域，交付一致功能与体验的私有化部署产品与云服务，构建起端到端的 AI 场景解决方案，推动 AI 技术在百行千业落地。"
+              }
+            ],
+            "header_match": false
+          },
+          {
+            "label": "股票代码（官网展示）",
+            "value": "688316",
+            "quote": "股票代码：688316",
+            "status": "company_self_description",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 831,
+                "text": "股票代码：688316"
+              }
+            ],
+            "header_match": false
+          }
+        ],
+        "grouped_job_ids": [
+          "job:6fc86541663dc5031aff853d",
+          "job:a559d529ff063a8e029d5b71",
+          "job:cf3698a9a087543d83a3fe6c",
+          "job:7faaf5cfd3dbc7527baa0f9c",
+          "job:d20ee294cc537892e10d9797",
+          "job:e3b5727c4756aaf91b20ce9b",
+          "job:414da51b8f73fa6f908ea744",
+          "job:902c2e070103345900dd73dd",
+          "job:5ac315227bf7fe5270b0a66c",
+          "job:2d89311b443cd00be2c4cc1e",
+          "job:7c672968d0ecf73c2c487cdd"
+        ]
+      },
+      {
+        "id": "digitforce",
+        "capture": "o02",
+        "raw_sha256": "77af689c7148ea9275335c49eb7208bea855b6cd20d2151a26b99331b06d9db1",
+        "definition_identity_reviewed": "absent_in_definition",
+        "planned_identity_reviewed": false,
+        "planned_source_url": "https://www.digitforce.com/jobs",
+        "response_header": "加入数势科技 | AI Native 数据智能团队招聘 (https://www.digitforce.com/jobs)",
+        "legal_name": null,
+        "legal_name_in_result": true,
+        "facts": [
+          {
+            "label": "业务方向",
+            "value": "企业数据智能、AI Agent与产品交付",
+            "quote": "AI Agent / 数据智能 / 产品交付",
+            "status": "company_self_description",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 61,
+                "text": "AI Agent / 数据智能 / 产品交付"
+              }
+            ],
+            "header_match": false
+          }
+        ],
+        "grouped_job_ids": [
+          "job:cf1333655d9061fd4ddd8962",
+          "job:de733a375dbe9e15014839bd",
+          "job:773b434c669ef5f7bbcca68a",
+          "job:5a8d832c5ffa360c60918a77",
+          "job:e7eb17802814133521341af2",
+          "job:8719b67b80924755a8e1585f",
+          "job:4c1599f281527aa0cc671345",
+          "job:328b70027484c6290681bd26",
+          "job:b5fce5de71d0f36b9f492538",
+          "job:56a1dd13c28cdfb9e28f733a",
+          "job:f945329154233507e576d909",
+          "job:32c1c2eee8f134d234e26040",
+          "job:4430f529869ee6e526173aff"
+        ]
+      },
+      {
+        "id": "noumena",
+        "capture": "o03",
+        "raw_sha256": "facd11679a3bff1e24e3c1a6df88594c1ab3ecd96bdfb1c6f43bd4a42f2f8c9a",
+        "definition_identity_reviewed": "absent_in_definition",
+        "planned_identity_reviewed": false,
+        "planned_source_url": "https://www.noumena.com.cn/career/",
+        "response_header": "加入我们 · Noumena (https://www.noumena.com.cn/career/)",
+        "legal_name": "物自体（上海）科技有限公司",
+        "legal_name_in_result": true,
+        "facts": [
+          {
+            "label": "业务方向",
+            "value": "品牌增长智能与企业营销AI工作流",
+            "quote": "聚焦品牌增长智能（Growth Intelligence）的 AI 科技公司",
+            "status": "company_self_description",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 6,
+                "text": "Noumena（物自体）是一家聚焦品牌增长智能（Growth Intelligence）的 AI 科技公司。我们把大模型、AI Agent 与自动化工作流，做成能真正进入企业营销与增长场景、可落地、可交付的解决方案，代表产品与方向包括 GrowClaw、OpenClaw 与企业级 AI Agent 工作流。"
+              }
+            ],
+            "header_match": false
+          },
+          {
+            "label": "官网页脚主体",
+            "value": "物自体（上海）科技有限公司",
+            "quote": "物自体（上海）科技有限公司",
+            "status": "company_self_description",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 229,
+                "text": "  * 物自体（上海）科技有限公司"
+              }
+            ],
+            "header_match": false
+          }
+        ],
+        "grouped_job_ids": [
+          "job:5731bee9a593e6454b63fabb",
+          "job:8771414eea8ec24345dcedd0",
+          "job:fdbe17092441810d839682ec",
+          "job:115593bca5c008acddeb3709",
+          "job:c25744d09d9ce5d97c91bcd5",
+          "job:afc3232f8dc845f7f9172f3b",
+          "job:93f2f8e1069091780df155e8",
+          "job:bffafdbe1319a51d60f8269a",
+          "job:f56c1b79cccfc7d9bba7b0b3"
+        ]
+      },
+      {
+        "id": "hegong",
+        "capture": "o04",
+        "raw_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+        "definition_identity_reviewed": "absent_in_definition",
+        "planned_identity_reviewed": false,
+        "planned_source_url": "https://www.hegongsoft.com/about/joinus",
+        "response_header": "加入合共软件_上海MES软件招聘与智能制造岗位_合共软件 (https://www.hegongsoft.com/about/joinus)",
+        "legal_name": "上海合共软件科技有限公司",
+        "legal_name_in_result": true,
+        "facts": [
+          {
+            "label": "招聘业务场景",
+            "value": "MES与制造业经营数字化",
+            "quote": "MES系统销售经理",
+            "status": "JD_derived",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 186,
+                "text": "  * MES系统销售经理"
+              }
+            ],
+            "header_match": false
+          }
+        ],
+        "grouped_job_ids": [
+          "job:1614b334b0b94c9927916e5a",
+          "job:9b266fe5a373446629cb15dc",
+          "job:a830907a8a58905193c2e647",
+          "job:b6e61c1892fff8117d1f348f",
+          "job:6ca4bcb0788d3eba477bfa25",
+          "job:6d3eff17f0af457e746681a6",
+          "job:c7c4005a51a01fd8c8ddd014",
+          "job:8896b1ef45790cb129019c96",
+          "job:41f8107ea9e391a97cef28b5",
+          "job:b2512237bee1f5cde4b555bb",
+          "job:cee0edd47ad21c29e71fd57a",
+          "job:0038410fe8bfece47cc54ecd"
+        ]
+      },
+      {
+        "id": "yonchang",
+        "capture": "o05",
+        "raw_sha256": "d8bebde6b5a5c310c25d8e57724832943b9c596fd2cb1fc62e17cf64e4fbd3d5",
+        "definition_identity_reviewed": "absent_in_definition",
+        "planned_identity_reviewed": false,
+        "planned_source_url": "https://www.yonchang.cn/Contact/hr",
+        "response_header": "人才招聘_上海用畅用友软件官网｜用友ERP,用友BIP,用友YonSuite,用友云SaaS,用友服务,用友开发,用友实施,用友接口 (https://www.yonchang.cn/Contact/hr)",
+        "legal_name": "上海用畅信息科技有限公司",
+        "legal_name_in_result": true,
+        "facts": [
+          {
+            "label": "业务方向",
+            "value": "用友ERP与企业管理软件服务",
+            "quote": "用友ERP",
+            "status": "company_self_description",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 231,
+                "text": "1、 从事用友ERP的售后技术维护工作；"
+              }
+            ],
+            "header_match": true
+          }
+        ],
+        "grouped_job_ids": [
+          "job:ecd37d32a5edd45dce9a06a9",
+          "job:7fc62a23d6a002e3ceba726b",
+          "job:fa4b1d98375e4e9e1aa7b01e",
+          "job:595278fab3083e4efcecc059",
+          "job:210e338ef52bc695969e22e4",
+          "job:57439376ffe3414eb2455f93",
+          "job:98a77b349637ab30473ef88d",
+          "job:be672716af23f79c6de18b76",
+          "job:f388884d455239bc9ba72e9a",
+          "job:8a611d70546db8ce11d7af7f"
+        ]
+      },
+      {
+        "id": "cosmoplat",
+        "capture": "o06",
+        "raw_sha256": "10565ea29255620cd998974d8cb4157792febbbb8677806688575b7bf44e870f",
+        "definition_identity_reviewed": "absent_in_definition",
+        "planned_identity_reviewed": false,
+        "planned_source_url": "https://maker.haier.net/client/job/detail/id/10230413/recommend_record/1",
+        "response_header": "海尔社会招聘官网--海尔招聘-海尔官方招聘网站 (https://maker.haier.net/client/job/detail/id/10230413/recommend_record/1)",
+        "legal_name": null,
+        "legal_name_in_result": true,
+        "facts": [
+          {
+            "label": "招聘所属平台",
+            "value": "海尔招聘页：卡奥斯平台",
+            "quote": "卡奥斯平台",
+            "status": "company_self_description",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 13,
+                "text": "全部机会 / 新事业生态圈 / 卡奥斯平台 / 产品研发中心 / 销售总监（渠道/直销）"
+              }
+            ],
+            "header_match": false
+          },
+          {
+            "label": "JD覆盖领域",
+            "value": "工业互联网、智能制造、人工智能",
+            "quote": "工业互联网、智能制造、人工智能领域",
+            "status": "JD_derived",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 43,
+                "text": "持续跟踪工业互联网、智能制造、人工智能领域的政策动态、技术趋势与市场竞争态势；"
+              }
+            ],
+            "header_match": false
+          }
+        ],
+        "grouped_job_ids": [
+          "job:086da497f488a98bce26231e"
+        ]
+      },
+      {
+        "id": "dongfeng",
+        "capture": "o07",
+        "raw_sha256": "dddc2b0dc3fb53a748beaa00e9e83d849c3ce90cb12a81908632f3625f6013ee",
+        "definition_identity_reviewed": "absent_in_definition",
+        "planned_identity_reviewed": false,
+        "planned_source_url": "https://www.zhaopin.com/jobdetail/CC679989880J40893200705.htm",
+        "response_header": "全国区域销售总监-奕境汽车 (MJ002034)招聘_东风汽车集团招聘 - 智联招聘 (https://www.zhaopin.com/jobdetail/CC679989880J40893200705.htm)",
+        "legal_name": "东风汽车集团有限公司",
+        "legal_name_in_result": true,
+        "facts": [
+          {
+            "label": "人数（智联展示）",
+            "value": "10000人以上",
+            "quote": "10000人以上",
+            "status": "platform_reported",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 89,
+                "text": "未融资 · 10000人以上 · 新能源/燃油整车研发制造 cite23†Image: 已审核†fecdn3.zhaopin.cn 已审核"
+              },
+              {
+                "line": 287,
+                "text": "  * 10000人以上"
+              }
+            ],
+            "header_match": false
+          },
+          {
+            "label": "融资（智联展示）",
+            "value": "未融资",
+            "quote": "未融资",
+            "status": "platform_reported",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 89,
+                "text": "未融资 · 10000人以上 · 新能源/燃油整车研发制造 cite23†Image: 已审核†fecdn3.zhaopin.cn 已审核"
+              },
+              {
+                "line": 286,
+                "text": "  * 未融资"
+              }
+            ],
+            "header_match": false
+          },
+          {
+            "label": "平台工商名称",
+            "value": "东风汽车集团有限公司",
+            "quote": "企业名称 东风汽车集团有限公司",
+            "status": "platform_reported",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 98,
+                "text": "企业名称 东风汽车集团有限公司"
+              }
+            ],
+            "header_match": false
+          }
+        ],
+        "grouped_job_ids": [
+          "job:99a291f70dd787c186d3385d"
+        ]
+      },
+      {
+        "id": "ineq",
+        "capture": "o10",
+        "raw_sha256": "59d9c1633862e74fedbfe9f527aa3ae9c25dc9b47ff267565ba371f0f8ecde64",
+        "definition_identity_reviewed": "absent_in_definition",
+        "planned_identity_reviewed": false,
+        "planned_source_url": "https://in-equal.com/careers",
+        "response_header": "加入我们 — 不等式 INEQ (https://in-equal.com/careers)",
+        "legal_name": "北京不等式科技有限公司",
+        "legal_name_in_result": true,
+        "facts": [
+          {
+            "label": "业务方向",
+            "value": "AI智能体、工厂数据基础设施、B2B销售工具",
+            "quote": "AI 智能体、工厂数据基础设施、B2B 销售工具",
+            "status": "company_self_description",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 13,
+                "text": "工程主导、人人亲手操刀的研发节奏。我们正在招聘把 AI 智能体、工厂数据基础设施、B2B 销售工具做到产线水准的人。"
+              }
+            ],
+            "header_match": false
+          },
+          {
+            "label": "官网页脚主体",
+            "value": "北京不等式科技有限公司",
+            "quote": "© 2026 北京不等式科技有限公司",
+            "status": "company_self_description",
+            "in_raw_bytes": true,
+            "in_result": true,
+            "line_matches": [
+              {
+                "line": 34,
+                "text": "© 2026 北京不等式科技有限公司"
+              }
+            ],
+            "header_match": false
+          }
+        ],
+        "grouped_job_ids": [
+          "job:92f88c328693acec6f8d6265",
+          "job:9bf32b14ee735b6116c0311d"
+        ]
+      }
+    ],
+    "nonblocking_notes": [
+      "对东风展示建议显式写成集团/平台公司信息，不代表奕境业务团队规模；未融资必须保留智联展示标签，不输出独立融资结论。",
+      "合共JD_derived的业务分类属于解释，短quote仅MES系统销售经理；若要将制造业经营数字化作为直接引述，应追加o04 L224-226等业务原句，不能把行业归类说成岗位新增要求。",
+      "本次quote查到网页result内，不仅检查原始JSON字节；原脚本bytes.includes不足以普遍保证未来quote来自网页，但当前14条不存在元数据冒充原文。",
+      "该补查只支持这8个展示组与当前59个job_id。script按company展示名匹配不构成法律雇主身份匹配；未来加入同名公司或跨站来源需单独验收。",
+      "未运行integrate、未读其写入目标配置或报告UI；后续落盘与展示不在本次验收范围。"
+    ],
+    "retest_scope_note": "Preserved prior static supplemental review; not rerun in the current two-finding retest. No new claim about integrate execution or output/UI acceptance."
+  },
+  "initial_reviewed_at": "2026-09-21T18:20:09.821Z",
+  "review_history": [
+    {
+      "phase": "initial_full_offline_data_review_and_company_display_supplement",
+      "reviewed_at": "2026-09-21T18:20:09.821Z",
+      "verdict": {
+        "overall": "needs_rework_p2_nonblocking_for_collection",
+        "p1_count": 0,
+        "p2_count": 2,
+        "new_data_issue_count": 1,
+        "known_parent_provenance_issue_count": 1,
+        "hash_and_literal_binding": "passed",
+        "visible_jd_completeness": "passed_40_of_40",
+        "list_detail_associations": "passed_7_of_7",
+        "board_recall": "passed_12_plus_10",
+        "all_market_acceptance": "not_assessed_no_acceptance_claim",
+        "current_hiring_verification": "not_performed_unknown_for_all_95",
+        "hr_contact_identity_acceptance": "not_testable_no_boss_liepin_or_same_role_distinct_hr_samples"
+      },
+      "artifact_hashes": [
+        {
+          "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/jd-extract.mjs",
+          "sha256": "26a484e393b741155b039bbf5cec408d6103a5fd98c849d1a383a16fd957797b",
+          "bytes": 49882
+        },
+        {
+          "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/jobs.json",
+          "sha256": "6446acaecb78c8bb4c5c6b0bce59b6be61fec1b950461e1c1e652b116c11d8e9",
+          "bytes": 2212143
+        },
+        {
+          "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/extraction-audit.json",
+          "sha256": "c77d844f3b351dd04354c6b938c1e0cafc157e1fd45be71cb0a8ce780e5337a4",
+          "bytes": 29048
+        },
+        {
+          "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/detail-backlog.json",
+          "sha256": "3e06b1dcf54d36c1cebaac74455af32298731e4f66e876e5fa1e5ffc3cd2afbe",
+          "bytes": 205654
+        }
+      ],
+      "validation": {
+        "runtime": "v22.22.0",
+        "independent_validator": "未调用实现中的validate；独立枚举源L行，按已声明trim规则复算文件/结果/引文SHA、连续行、JSON指针、literal切片和正文全文相等，再核对元数据及链接token。",
+        "counts": {
+          "file_sha_checks": 2300,
+          "result_sha_checks": 1829,
+          "quote_sha_checks": 1805,
+          "quote_source_checks": 1805,
+          "json_pointer_checks": 210,
+          "literal_field_checks": 961,
+          "whole_text_field_checks": 256,
+          "observation_count": 102,
+          "extra_link_token_checks": 98,
+          "title_raw_and_query_metadata_checks": 204
+        },
+        "count_note": "检查次数包含canonical代表、嵌套observations和backlog中的重复引用，不是独立岗位数。",
+        "errors": [],
+        "error_count": 0,
+        "deterministic_read_only_rebuild": "pass_exact_jobs_audit_backlog",
+        "rebuild_invocation": "import jd-extract.mjs; build({ selectedFiles: audit.input_snapshot, checkOnly: true }); deepEqual jobs/audit/backlog to persisted files",
+        "author_self_tests": {
+          "deterministic_rebuild": true,
+          "query_target_never_employer": true,
+          "title_list_not_jd": true,
+          "detail_link_ids_bound": true,
+          "noncommercial_retained": true,
+          "truncated_sections_incomplete": true,
+          "missing_company_unknown": true,
+          "unknown_templates_pending": true,
+          "all_field_sha_quotes_checked": true,
+          "similar_cards_isolated": true,
+          "navigation_not_jd": true,
+          "header_detail_url_preserved": true,
+          "list_detail_native_link_dedup": true,
+          "unknown_salary_not_base": true,
+          "timeout_not_empty_or_retried": true
+        },
+        "author_self_test_note": "只读运行原作者范围内自测，作为补充，不替代本次独立逐字段与40份正文语义审查。",
+        "harness_note": "QA探针的shell引号及captureRange首尾空白兼容已纠正后取得本计数；先前探针报错不是产品缺陷，未写入受审文件。"
+      },
+      "qa_artifacts": {
+        "markdown_sha256": "d982e07b89ad5be9797728bbc89a8c8f80344f07876f0ccd282a492848d803eb",
+        "json_sha256": "ea4c0f169414a260f5a458b288b541a9b9b4944f0324429714aa1a06d6bc7adc"
+      },
+      "note": "首次发现保留为历史；P2现状以顶层verdict/findings的限定复验结果为准。"
+    }
+  ],
+  "limited_retest": {
+    "status": "passed_limited_retest",
+    "reviewed_at": "2026-09-21T18:32:50.528Z",
+    "scope": "P2-01 P2-02 counts new evidence o09 attribution only",
+    "network_requests": 0,
+    "browser_operations": 0,
+    "c_series_files_read": 0,
+    "full_extractor_rerun_by_reviewer": false,
+    "full_project_regression_run": false,
+    "repaired": [
+      {
+        "job_id": "job:9b266fe5a373446629cb15dc",
+        "title": "MES系统售前顾问",
+        "education": "本科",
+        "education_status": "conflicting_source_claims_do_not_hard_filter",
+        "attention": "学历信息冲突：标题栏为本科，正文为“1、专科及以上学历，2年以上MES等系统的专职售前经历，独立售前签约项目1个以上；”。需向招聘方确认，不能据单一字段筛除。",
+        "conflict_evidence": [
+          {
+            "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+            "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+            "capture_id": "o04",
+            "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+            "line_range": [
+              216,
+              216
+            ],
+            "quote": "部门：市场销售部 地点：上海 学历：本科 发布时间：2026.01.12",
+            "quote_sha256": "c18bfc8a49d0e112fccbd6ef70c179834f2c54512424c0670718e2c291ef6fa9",
+            "value_char_range": [
+              18,
+              20
+            ]
+          },
+          {
+            "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+            "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+            "capture_id": "o04",
+            "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+            "line_range": [
+              234,
+              234
+            ],
+            "quote": "1、专科及以上学历，2年以上MES等系统的专职售前经历，独立售前签约项目1个以上；",
+            "quote_sha256": "021643751eb582614fe0af767ea771cd883ed1d1432f1ea0b866e9f8ece085cf",
+            "value_char_range": [
+              0,
+              41
+            ]
+          }
+        ],
+        "canonical_observation_equal": true,
+        "status": "passed"
+      },
+      {
+        "job_id": "job:6ca4bcb0788d3eba477bfa25",
+        "title": "系统架构师",
+        "education": "本科",
+        "education_status": "conflicting_source_claims_do_not_hard_filter",
+        "attention": "学历信息冲突：标题栏为本科，正文为“1、计算机相关专业，硕士及以上学历，5年以上.NET开发经验、3年以上架构设计经验；”。需向招聘方确认，不能据单一字段筛除。",
+        "conflict_evidence": [
+          {
+            "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+            "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+            "capture_id": "o04",
+            "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+            "line_range": [
+              298,
+              298
+            ],
+            "quote": "部门：研发中心 地点：上海 学历：本科 发布时间：2025.11.10",
+            "quote_sha256": "abcefbacb179ab373abb78658ca7ef8d2d3badc791f2f1e9992d8e6412a7bf99",
+            "value_char_range": [
+              17,
+              19
+            ]
+          },
+          {
+            "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+            "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+            "capture_id": "o04",
+            "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+            "line_range": [
+              315,
+              315
+            ],
+            "quote": "1、计算机相关专业，硕士及以上学历，5年以上.NET开发经验、3年以上架构设计经验；",
+            "quote_sha256": "5cd9bc1b1823ff31076c9b8bf58768adb4d92a36562d8503139cc1f40a3c4654",
+            "value_char_range": [
+              0,
+              42
+            ]
+          }
+        ],
+        "canonical_observation_equal": true,
+        "status": "passed"
+      },
+      {
+        "job_id": "job:c7c4005a51a01fd8c8ddd014",
+        "title": ".NET开发工程师",
+        "education": "本科",
+        "education_status": "conflicting_source_claims_do_not_hard_filter",
+        "attention": "学历信息冲突：标题栏为本科，正文为“1、专科以上学历，1年或以上.Net开发经验；”。需向招聘方确认，不能据单一字段筛除。",
+        "conflict_evidence": [
+          {
+            "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+            "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+            "capture_id": "o04",
+            "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+            "line_range": [
+              355,
+              355
+            ],
+            "quote": "部门：研发中心 地点：上海 学历：本科 发布时间：2025.06.18",
+            "quote_sha256": "b842d7d923c36fc476707cf8c353311ebf524c022eb99a6101b5ba6cb3507be3",
+            "value_char_range": [
+              17,
+              19
+            ]
+          },
+          {
+            "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+            "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+            "capture_id": "o04",
+            "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+            "line_range": [
+              370,
+              370
+            ],
+            "quote": "1、专科以上学历，1年或以上.Net开发经验；",
+            "quote_sha256": "3f04b98ec328e20d3009b67f3154b4c15ba91e2b0ea2f652bc303ba07f7b8fe5",
+            "value_char_range": [
+              0,
+              23
+            ]
+          }
+        ],
+        "canonical_observation_equal": true,
+        "status": "passed"
+      },
+      {
+        "job_id": "job:8896b1ef45790cb129019c96",
+        "title": "WEB开发工程师",
+        "education": "本科",
+        "education_status": "conflicting_source_claims_do_not_hard_filter",
+        "attention": "学历信息冲突：标题栏为本科，正文为“7、专科以上学历，1年以上互联网行业前端开发经验；”。需向招聘方确认，不能据单一字段筛除。",
+        "conflict_evidence": [
+          {
+            "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+            "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+            "capture_id": "o04",
+            "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+            "line_range": [
+              380,
+              380
+            ],
+            "quote": "部门：研发中心 地点：上海 学历：本科 发布时间：2025.06.18",
+            "quote_sha256": "b842d7d923c36fc476707cf8c353311ebf524c022eb99a6101b5ba6cb3507be3",
+            "value_char_range": [
+              17,
+              19
+            ]
+          },
+          {
+            "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+            "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+            "capture_id": "o04",
+            "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+            "line_range": [
+              404,
+              404
+            ],
+            "quote": "7、专科以上学历，1年以上互联网行业前端开发经验；",
+            "quote_sha256": "706a482b9c140c1da91fc537375b9852fc282fcaab8c48bfedbd73d2d3ee28fc",
+            "value_char_range": [
+              0,
+              25
+            ]
+          }
+        ],
+        "canonical_observation_equal": true,
+        "status": "passed"
+      },
+      {
+        "job_id": "job:0038410fe8bfece47cc54ecd",
+        "title": "MES系统交付顾问",
+        "education": "本科",
+        "education_status": "conflicting_source_claims_do_not_hard_filter",
+        "attention": "学历信息冲突：标题栏为本科，正文为“5、专科以上学历，工业自动化、计算机、信息管理等相关专业。”。需向招聘方确认，不能据单一字段筛除。",
+        "conflict_evidence": [
+          {
+            "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+            "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+            "capture_id": "o04",
+            "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+            "line_range": [
+              490,
+              490
+            ],
+            "quote": "部门：交付中心 地点：上海 学历：本科 发布时间：2025.06.18",
+            "quote_sha256": "e065953848abbdaffcdc16893d14f56b8bbcb0b6d45ddd2861e70bdbc6f44b7e",
+            "value_char_range": [
+              17,
+              19
+            ]
+          },
+          {
+            "evidence_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+            "evidence_sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+            "capture_id": "o04",
+            "result_sha256": "4e011fbc7d9a5cf8ebc5ac956ee3570e2f68bca4d492d1fd2407f8d7360332a8",
+            "line_range": [
+              509,
+              509
+            ],
+            "quote": "5、专科以上学历，工业自动化、计算机、信息管理等相关专业。",
+            "quote_sha256": "15e1633be210840a0eb09e3fe908d59761a45193e4417aa9654f5097edb6d5b4",
+            "value_char_range": [
+              0,
+              29
+            ]
+          }
+        ],
+        "canonical_observation_equal": true,
+        "status": "passed"
+      }
+    ],
+    "education_evidence_checks": 30,
+    "counts": {
+      "job_observations": 102,
+      "jobs": 95,
+      "complete_jds": 40,
+      "incomplete_jobs": 55,
+      "main_jobs": 59,
+      "similar_list_only_jobs": 36,
+      "field_evidence_entries": 729,
+      "nested_quote_objects": 858
+    },
+    "counts_note": "729/858 independently recounted from observations; only repaired evidence revalidated semantically in this retest, not all858 quotes",
+    "actual_execution": {
+      "original_code_author": {
+        "agent_id": "01a0c4f7-d532-7643-a09a-b5530f3ca759",
+        "dispatch_model": "gpt-5.6-luna",
+        "dispatch_reasoning_effort": "medium",
+        "basis": "Parent session accepted model-specific subagent dispatch; not independently verified billing telemetry."
+      },
+      "follow_up_repair_author": {
+        "actor": "parent_codex_session",
+        "model": "not_independently_verified",
+        "scope": "Source education conflicts and execution attribution metadata."
+      },
+      "runtime": "Node.js deterministic local extraction",
+      "model_calls": 0,
+      "subagents_dispatched_by_script": 0,
+      "billing_model_verification": "unknown",
+      "independent_review": "See data-qa.json for separate reviewer findings and reviewed artifact hashes."
+    },
+    "o09": {
+      "kind": "planned_capture",
+      "capture_id": "o09",
+      "status": "not_executed_batch_stopped_pending",
+      "expected_file": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o09.json",
+      "source_url": null,
+      "url": null,
+      "retry_allowed": false,
+      "execution_authorized": false,
+      "reason": "Controller stopped the Zhaopin branch before o09 after a source timeout; no capture or zero-result claim.",
+      "status_source": "controller_batch_stop_2026-09-22"
+    },
+    "raw_hash_continuity": {
+      "files": 24,
+      "manifest_sha256": "cfa4af4b9e5a0d4558751b365e7c240b0b762d7ab8fadd0af34b6c6c58b89a2a",
+      "all_unchanged": true,
+      "method": "explicit prior input_snapshot hashes only; no raw directory scan"
+    },
+    "delta_isolation": {
+      "normalized_jobs_equals_previous_sha": "6446acaecb78c8bb4c5c6b0bce59b6be61fec1b950461e1c1e652b116c11d8e9",
+      "normalized_backlog_equals_previous_sha": "3e06b1dcf54d36c1cebaac74455af32298731e4f66e876e5fa1e5ffc3cd2afbe",
+      "normalized_audit_equals_previous_sha": "c77d844f3b351dd04354c6b938c1e0cafc157e1fd45be71cb0a8ce780e5337a4",
+      "status": "no_other_persisted_data_changes"
+    },
+    "tested_hashes": [
+      {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/jd-extract.mjs",
+        "sha256": "ca54b3945cf6869fda4d270b0c055e77b2e3269d1a6d43d0d38045415f96bb5e",
+        "bytes": 51589
+      },
+      {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/jobs.json",
+        "sha256": "1400835040ce435f7e5a4345b71c8c528934a1b300007b014ac25402603ef67f",
+        "bytes": 2233730
+      },
+      {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/extraction-audit.json",
+        "sha256": "04306496a6051fa007cd1d02580cc03e0accf9be08b718b1cfcf0a8298ee850f",
+        "bytes": 29477
+      },
+      {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/detail-backlog.json",
+        "sha256": "9cfeb91fd696aaf508ab75d61ca1e1fb48c929e705cbb8bd1858414778a94034",
+        "bytes": 205661
+      },
+      {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+        "sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+        "bytes": 25670
+      }
+    ],
+    "prior_artifact_hashes": [
+      {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/jd-extract.mjs",
+        "sha256": "26a484e393b741155b039bbf5cec408d6103a5fd98c849d1a383a16fd957797b",
+        "bytes": 49882
+      },
+      {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/jobs.json",
+        "sha256": "6446acaecb78c8bb4c5c6b0bce59b6be61fec1b950461e1c1e652b116c11d8e9",
+        "bytes": 2212143
+      },
+      {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/extraction-audit.json",
+        "sha256": "c77d844f3b351dd04354c6b938c1e0cafc157e1fd45be71cb0a8ce780e5337a4",
+        "bytes": 29048
+      },
+      {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/detail-backlog.json",
+        "sha256": "3e06b1dcf54d36c1cebaac74455af32298731e4f66e876e5fa1e5ffc3cd2afbe",
+        "bytes": 205654
+      },
+      {
+        "path": "01_行情收集/official-careers/research/market-wide-2026-09-22/raw/o04.json",
+        "sha256": "7e35985b592bcfc7837e8fe67eebce5f3eafd5658bb231781f08304c76b4a9c5",
+        "bytes": 25670
+      }
+    ],
+    "normalization_method": "仅在内存中移除5岗新增的education_status/attention及页内冲突字段，恢复canonical field_conflicts原键顺序；将o09和actual_execution/848旧计数恢复为已知前值后重算序列化SHA。三份数据文件均精确回到首次受审SHA，证明其余持久化内容未变。",
+    "harness_note": "首次内存回退比较受到新增field_conflicts的JSON键位置变化影响；恢复原键顺序后SHA与旧版完全一致。该探针问题不是额外产品变更，也未写任何受审文件。"
+  }
+}

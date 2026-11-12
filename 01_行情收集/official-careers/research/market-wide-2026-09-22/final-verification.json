@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-09-21T20:15:12.395Z",
+  "passed": true,
+  "scope": "Final offline integration; not proof of current vacancies or complete market coverage",
+  "batch_records": 867,
+  "page_records": 173,
+  "old95_unchanged": 95,
+  "search_leads": 694,
+  "full_jd": 109,
+  "report_records": 1355,
+  "source_manifest_files_verified": 316,
+  "new_scores": 0,
+  "all_batch_rows_preserved": true,
+  "salary_sort_fields_finite": true,
+  "market_complete": false,
+  "report_sha256": "cb8153cdeb95236477f5125ba735cb796f01b5b9d9495ff8cb545e39410e205b"
+}

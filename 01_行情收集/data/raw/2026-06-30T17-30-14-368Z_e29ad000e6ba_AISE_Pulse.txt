@@ -1,0 +1,30 @@
+Palantir AI Sales Engineer
+Company: Palantir
+Category: Enterprise AI
+OTE: $165K to $255K
+Work model: Hybrid (Denver / Multiple)
+Estimated SE team size: 60 to 90 SEs
+
+Company positioning
+Palantir builds data integration and AI platforms for government and commercial customers. The company's AIP (Artificial Intelligence Platform) launched in 2023 and has been the primary growth driver, enabling organizations to deploy large language models on their own data within the Palantir Foundry or Gotham platforms. Palantir's approach to AI is distinctive: rather than selling a model or API, they sell an operating system for AI decision-making that connects LLMs to real-world operational workflows. This makes the SE role more consultative and solution-oriented than at most AI companies.
+
+AI products and platform
+The core products are Foundry (commercial data platform), Gotham (government intelligence platform), and AIP (the AI Platform layer that runs on both). AIP enables customers to deploy LLMs against their own ontology, an object model that represents their business entities, relationships, and actions. AIP supports chat-based interfaces, automated workflows triggered by AI, and human-in-the-loop decision systems. Palantir provides pre-built modules for supply chain, healthcare, manufacturing, and defense use cases.
+
+Role details
+Sales Engineers at Palantir (often titled Forward Deployed Engineers or Solutions Architects) are deeply embedded in customer engagements. The role goes beyond traditional pre-sales into implementation, making it one of the most technical SE positions in the industry. A typical engagement involves understanding a customer's operational workflow, mapping their data into the Palantir ontology, configuring AIP to connect an LLM to that ontology for decision support, and building a working prototype within days. You would demo AIP's ability to answer operational questions using the customer's own data, show how AI-driven actions connect to real systems, and present the governance controls that make AI safe for mission-critical decisions. The role requires strong software engineering skills alongside sales acumen, and travel is significant for customer-facing positions.
+
+Technical skills and requirements
+- Strong software engineering skills (Python, Java, or TypeScript)
+- Experience with data modeling and integration architecture
+- Understanding of LLMs and how to ground them in enterprise data
+- Comfort with complex enterprise environments and legacy systems
+- Willingness to travel significantly for customer engagements
+
+Interview process
+Palantir's interview process is known for being rigorous, running four to six weeks. It includes a recruiter screen, a technical assessment (often a coding exercise in Python or Java), a system design interview where you architect a data integration solution, a customer scenario exercise, and a final round with leadership. Palantir values candidates who can think in systems and connect technical capabilities to operational outcomes. The coding component is more substantive than at most SE interviews. They want to see that you can build, not just present. Preparation should include practicing data modeling, algorithm design, and the ability to explain complex systems clearly.
+
+Salary and compensation
+OTE for Palantir SEs ranges from $165,000 to $255,000, with base salaries between $125,000 and $170,000. Palantir stock (PLTR) has appreciated significantly, adding substantial value to RSU grants. Equity is a major component of total compensation. Performance bonuses and equity refreshers are available for strong performers. Total compensation including stock appreciation can exceed $400,000 for experienced hires. Benefits include health insurance, 401(k), and professional development stipends.
+
+Source URL: https://aisepulse.com/companies/palantir/

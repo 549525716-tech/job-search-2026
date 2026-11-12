@@ -1,0 +1,57 @@
+{
+  "createdAt": "2026-07-02T17:46:29.502Z",
+  "dryRun": true,
+  "pausedByRiskRecovery": false,
+  "manualOnlyBossOpen": false,
+  "bossStaggerOpen": false,
+  "allowBossStaggerOpen": false,
+  "profileDir": "/Users/MR/Documents/职场/.career-browser-profile",
+  "openIntervalMs": 15000,
+  "openJitterMs": 5000,
+  "requestedLimit": 2,
+  "effectiveLimit": 2,
+  "count": 2,
+  "urls": [
+    {
+      "source": "BOSS直聘",
+      "group": "AI销售",
+      "roleFamily": "销售",
+      "keyword": "AI销售",
+      "city": "广州",
+      "cityCode": "101280100",
+      "url": "https://www.zhipin.com/web/geek/jobs?query=AI%E9%94%80%E5%94%AE&city=101280100"
+    },
+    {
+      "source": "BOSS直聘",
+      "group": "AI销售",
+      "roleFamily": "销售",
+      "keyword": "大模型销售",
+      "city": "广州",
+      "cityCode": "101280100",
+      "url": "https://www.zhipin.com/web/geek/jobs?query=%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%94%80%E5%94%AE&city=101280100"
+    }
+  ],
+  "openedUrls": [],
+  "manualSearchInstructions": [
+    {
+      "source": "BOSS直聘",
+      "group": "AI销售",
+      "keyword": "AI销售",
+      "city": "广州",
+      "cityCode": "101280100",
+      "safeHomeUrl": "https://www.zhipin.com/",
+      "instruction": "先进入 BOSS 首页，登录态稳定后在站内搜索框输入 keyword；不要直接粘贴完整搜索 URL。",
+      "referenceUrl": "https://www.zhipin.com/web/geek/jobs?query=AI%E9%94%80%E5%94%AE&city=101280100"
+    },
+    {
+      "source": "BOSS直聘",
+      "group": "AI销售",
+      "keyword": "大模型销售",
+      "city": "广州",
+      "cityCode": "101280100",
+      "safeHomeUrl": "https://www.zhipin.com/",
+      "instruction": "先进入 BOSS 首页，登录态稳定后在站内搜索框输入 keyword；不要直接粘贴完整搜索 URL。",
+      "referenceUrl": "https://www.zhipin.com/web/geek/jobs?query=%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%94%80%E5%94%AE&city=101280100"
+    }
+  ]
+}

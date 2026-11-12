@@ -1,0 +1,30 @@
+AWS AI Sales Engineer
+Company: AWS
+Category: Data & Infrastructure
+OTE: $160K to $245K
+Work model: Hybrid (Seattle / Multiple)
+Estimated SE team size: 250+ SEs (AI/ML focused)
+
+Company positioning
+Amazon Web Services operates the largest cloud platform in the world, and its AI/ML services span the full stack from infrastructure (custom Trainium and Inferentia chips) to managed services (SageMaker, Bedrock) to application-layer AI (Amazon Q, CodeWhisperer). The AI SE organization at AWS is large and segmented by customer size, industry vertical, and product specialization. AWS differentiates on breadth of services, global infrastructure footprint, and the ability to run AI workloads at any scale.
+
+AI products and platform
+AWS AI products include Amazon SageMaker for end-to-end ML (training, tuning, deployment, monitoring), Amazon Bedrock for accessing foundation models from Anthropic, Meta, Mistral, and others through a single API, Amazon Q for enterprise AI assistants, Amazon Comprehend for NLP, Amazon Rekognition for computer vision, Amazon Textract for document extraction, and Amazon Personalize for recommendation systems. Custom silicon (Trainium for training, Inferentia for inference) provides cost-optimized compute for large model workloads.
+
+Role details
+AI Sales Engineers at AWS (often titled Solutions Architects or Specialist Solutions Architects) work across the AI/ML service portfolio. Depending on your specialization, you might focus on SageMaker for custom ML, Bedrock for generative AI, or industry solutions for sectors like healthcare or financial services. A typical engagement involves conducting a Well-Architected Review for AI workloads, designing a SageMaker training pipeline or Bedrock integration architecture, building a proof-of-concept, and presenting findings alongside cost optimization recommendations. You would demo Bedrock's model selection and RAG capabilities, walk through SageMaker Canvas for no-code ML, explain Trainium cost advantages for large-scale training, and help architects design multi-model inference pipelines. AWS's size means the role is more structured than at startups, with clear engagement frameworks and established sales processes.
+
+Technical skills and requirements
+- Deep experience with AWS cloud services, especially SageMaker and Bedrock
+- Python skills and familiarity with ML frameworks (PyTorch, TensorFlow)
+- Understanding of distributed training and inference optimization
+- Knowledge of AWS Well-Architected Framework principles
+- Experience with infrastructure-as-code (CloudFormation, CDK, Terraform)
+
+Interview process
+AWS interviews for SE (Solutions Architect) roles run four to six weeks. The process includes a recruiter screen, a technical phone screen, and a full loop with five to six interviews covering technical depth, customer obsession, and Amazon Leadership Principles. Every interview at Amazon ties back to the Leadership Principles, so preparation must include specific examples mapped to each principle. The technical interviews include a system design session (designing an AI/ML architecture on AWS) and a coding or technical problem-solving exercise. AWS interviews are among the most structured in the industry. The Leadership Principles component catches many candidates off guard if they do not prepare behavioral stories using the STAR format.
+
+Salary and compensation
+AWS Solutions Architects earn OTE between $160,000 and $245,000, with base salaries from $120,000 to $165,000. Compensation includes Amazon RSUs vesting over four years with a back-loaded schedule (5% year 1, 15% year 2, then 40% each in years 3 and 4). Sign-on bonuses help offset the back-loaded vesting in the first two years. Total compensation for senior architects (L7+) can exceed $400,000. Benefits include health insurance, 401(k) match, employee stock purchase plan, and relocation assistance.
+
+Source URL: https://aisepulse.com/companies/aws/

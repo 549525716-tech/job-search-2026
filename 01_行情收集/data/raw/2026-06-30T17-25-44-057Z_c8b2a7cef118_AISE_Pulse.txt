@@ -1,0 +1,30 @@
+Google AI Sales Engineer
+Company: Google
+Category: Big Tech AI
+OTE: $175K to $280K
+Work model: Hybrid (Multiple Locations)
+Estimated SE team size: 200+ SEs (AI/ML focused)
+
+Company positioning
+Google operates one of the broadest AI product portfolios in the industry, spanning Google Cloud AI/ML services, Gemini (its frontier model family), Vertex AI (the managed ML platform), and a growing suite of AI-powered Workspace features. The Cloud AI sales organization is large and well-established, with dedicated SE teams for different AI product areas. Google's AI strategy covers everything from foundation models and custom training to pre-built industry solutions for healthcare, retail, and financial services.
+
+AI products and platform
+The AI product surface at Google is enormous. Vertex AI is the unified ML platform for training, tuning, and deploying models. Gemini is the frontier model family competing directly with GPT-4 and Claude. Google Cloud also offers Document AI for document processing, Contact Center AI for customer service automation, AutoML for no-code model training, BigQuery ML for in-database machine learning, and the Generative AI Studio for prompt-based application development. Enterprise customers can access Gemini through the Vertex AI platform alongside open-source models from the Model Garden.
+
+Role details
+AI-focused Sales Engineers at Google Cloud work within vertical or product-aligned teams. Depending on your specialization, you might focus on Vertex AI and custom model training, Gemini API integrations, or industry-specific AI solutions. A typical engagement involves assessing a customer's data infrastructure readiness, recommending an AI architecture on Google Cloud, building proof-of-concept demos using Vertex AI notebooks or the Generative AI Studio, and presenting findings to technical and executive stakeholders. You would demo Vertex AI pipelines, walk through Gemini API capabilities, explain model selection between Google's own models and open-source alternatives in the Model Garden, and help customers understand cost structures for training and inference. The role requires navigating a large organization, working with product managers and customer engineers alongside the core sales team.
+
+Technical skills and requirements
+- Experience with Google Cloud Platform (GCP), especially Vertex AI and BigQuery
+- Understanding of ML model lifecycle: training, evaluation, deployment, monitoring
+- Python skills and familiarity with ML frameworks (TensorFlow, PyTorch, JAX)
+- Ability to design end-to-end ML architectures on cloud infrastructure
+- Experience with enterprise data platforms and integration patterns
+
+Interview process
+Google's interview process for SE roles is structured and typically takes five to seven weeks. It includes a recruiter screen, a technical phone screen with a Google engineer, a virtual or on-site loop with four to five interviews covering technical depth, solution design, customer-facing communication, and Googleyness (culture fit). One interview is usually a whiteboard-style architecture session where you design an AI solution for a hypothetical customer scenario. Google also conducts a separate hiring committee review after the interviews, which adds time but provides a consistent evaluation bar. Preparation should include practicing system design for ML workloads and reviewing Google Cloud AI product documentation.
+
+Salary and compensation
+Google uses a leveled compensation system. AI Sales Engineers typically fall between L5 and L7, with OTE ranging from $175,000 to $280,000. Base salaries range from $130,000 to $190,000. RSU grants vest over four years and are in publicly traded Alphabet stock, providing real liquidity. Performance bonuses and equity refreshers add to total compensation. Senior SEs at L7 and above can earn total compensation exceeding $400,000. Benefits include comprehensive health coverage, generous parental leave, on-site amenities, and an annual education stipend.
+
+Source URL: https://aisepulse.com/companies/google/

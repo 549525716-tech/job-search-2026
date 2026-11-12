@@ -1,0 +1,48 @@
+{
+  "version": "2026-09-09-v2",
+  "default": "require_interpretable_robots_or_stop",
+  "absent_robots_public_read_allowlist": [
+    {
+      "origin": "https://vrfi1sk8a0.jobs.feishu.cn",
+      "company_id": "minimax",
+      "required_status": 404,
+      "required_content_type": "text/plain",
+      "required_body": "Not Found",
+      "official_ownership_evidence": "01_行情收集/official-careers/raw/preflight-minimax-7accfa15-fdc4-419c-be5a-64fa8bd65926/002.response.json",
+      "absence_evidence": "01_行情收集/official-careers/raw/preflight-minimax-board-aaa9ccdd-cf46-4d04-80fa-3d53a913ac96/001.response.json",
+      "standard": "https://www.rfc-editor.org/rfc/rfc9309.html#section-2.3.1.3",
+      "reason": "Verified official public recruiting board; actual robots response explicitly says Not Found. This is not an authentication or access-denial bypass."
+    },
+    {
+      "origin": "https://lf-package-cn.feishucdn.com",
+      "company_id": "minimax",
+      "required_status": 404,
+      "required_content_type": "text/html",
+      "required_body_sha256": "b282ac8512c5e029959282e6fd450dc119f5db4a072869eabf45e31440596248",
+      "allowed_path_prefixes": ["/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/"],
+      "require_page_reference": true,
+      "official_ownership_evidence": "01_行情收集/official-careers/raw/preflight-minimax-approved-b60d22e6-233c-4a08-b247-8e750cf20e16/004.response.json",
+      "absence_evidence": "01_行情收集/official-careers/raw/preflight-minimax-cdn-7eca87f0-ec2f-4e1a-9bb8-97edb6cc93ee/001.response.json",
+      "standard": "https://www.rfc-editor.org/rfc/rfc9309.html#section-2.3.1.3",
+      "reason": "Reviewed ordinary missing robots response. Read only JavaScript assets directly referenced by the verified public board; never execute scripts."
+    },
+    {
+      "origin": "https://www.moonshot.ai",
+      "company_id": "moonshot",
+      "required_status": 404,
+      "required_content_type": "text/html",
+      "required_body_sha256": "28eb9c463b90bf6ef99c12c991435714f17c0f9adb31864a4ae0a7733ef5ba15",
+      "allowed_paths": ["/"],
+      "trusted_seed_homepage": true,
+      "official_ownership_evidence": "careers/config/company-discovery.json",
+      "absence_evidence": "01_行情收集/official-careers/raw/preflight-moonshot-d91d63ec-0682-4319-aed2-56ca34b0c166/001.response.json",
+      "standard": "https://www.rfc-editor.org/rfc/rfc9309.html#section-2.3.1.3",
+      "reason": "Reviewed ordinary nginx 404 with analytics beacon, no access challenge. Only the registered official homepage may be read to verify its public recruiting links."
+    }
+  ],
+  "always_stop": ["HTTP_401", "HTTP_403", "HTTP_429", "captcha", "challenge", "unknown_html_robots", "network_error", "unapproved_origin"],
+  "cookies": false,
+  "authentication": false,
+  "proxy_rotation": false,
+  "retry_access_denial": false
+}

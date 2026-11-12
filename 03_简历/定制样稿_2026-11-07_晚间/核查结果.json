@@ -1,0 +1,22 @@
+[
+  {
+    "file": "贺文杰_广州某大型汽车研发制造上市公司_汽车行业市场经理_标注版.docx",
+    "clean": false,
+    "check": "passed"
+  },
+  {
+    "file": "贺文杰_广州某大型汽车研发制造上市公司_汽车行业市场经理.docx",
+    "clean": true,
+    "check": "passed"
+  },
+  {
+    "file": "贺文杰_XTransfer_销售专员-B端外贸跨境支付方向.docx",
+    "clean": true,
+    "check": "passed"
+  },
+  {
+    "file": "贺文杰_XTransfer_销售专员-B端外贸跨境支付方向_标注版.docx",
+    "clean": false,
+    "check": "passed"
+  }
+]

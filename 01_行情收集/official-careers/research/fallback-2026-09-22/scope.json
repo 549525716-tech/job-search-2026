@@ -1,0 +1,18 @@
+{
+  "batch_id": "fallback-2026-09-22",
+  "purpose": "Live validation of source-scoped fallback, not full market coverage",
+  "official_adapters": ["minimax", "bailian-ai", "deepseek"],
+  "public_research": {
+    "max_web_tool_calls": 8,
+    "routes": ["A: AI infrastructure and enterprise software -> employers -> public careers", "B: sales, BD, commercial operations keywords -> public jobs -> employer"],
+    "initial_queries": ["硅基流动 面壁智能 招聘 销售 商务 官网", "企业服务 AI 销售 商务 运营 招聘 加入我们 工作职责"],
+    "remaining_calls": "Up to six public page captures from discovered independent sources; unresolved or new pages remain queued"
+  },
+  "rate_limit": "All active requests share existing serial 10-20 second queue, no retries",
+  "excluded_control_paths": ["BOSS IAB automated control", "Liepin IAB automated control", "MiniMax quarantined adapter", "Daily desktop Chrome"],
+  "raw_observations_before_role_filter": true,
+  "salary_policy": "RMB monthly advertised upper >=20K is opportunity; fixed base separately unverified",
+  "matching": "No new score without complete JD and evidence review",
+  "applications": 0,
+  "scheduler_enabled": false
+}

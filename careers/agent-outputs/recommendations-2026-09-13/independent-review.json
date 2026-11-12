@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "role_id": "independent_reviewer",
+  "execution": {
+    "agent_id": "/root/independent_reviewer",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "max"
+  },
+  "execution_metadata_note": "agent_id为真实工具canonical。model和reasoning_effort记录总控确认的成功派发请求值；工具未单独提供accepted-model telemetry，额外接受元数据未知，不生成UUID。",
+  "completed_at": "2026-09-12T18:26:36Z",
+  "status": "complete",
+  "scope": "独立审查outputs/简历隐藏能力与机会推荐_2026-09-13.md的个人能力推断、三份简历冲突处理、主业与副业建议及本轮市场样本证据边界。未参与报告撰写；市场判断仅对照总控保存的root-web-receipts.json原始工具返回，不采信市场代理未验收的官方、当前或时间标签。离线核对三份Word原生XML与resume-extracts的165段摘录及文件SHA。未联网、未投递、未修改原简历或报告，未运行软件测试。唯一写入为本文件。",
+  "summary": "未发现需修复的P1/P2问题，可交付为隐藏能力、方向取舍和有限岗位线索研究。报告正确区分同期直管10人、累计带教21人、210家个人客户、被辅导员工排名与个人AI提效；没有把内部工作流升级为软件合同、客户POC或商业交付。三份Word摘录全部可回查且SHA相符，但这不是雇主或学历认证。帆软9825保留探索、9584因明确专业及毕业年限门槛剔除，dLocal保留英语/Excel/CS及归属待核，智联薪资仅作搜索索引且详情隐藏；本轮固定月薪20K确认数为0。副业交付对象与验证步骤具体，没有价格、订单、获客量或收入编造。通过范围是本报告的证据一致性和建议边界，不是正式逐岗匹配、在招保证、岗位资格审批或投递许可。",
+  "findings": [],
+  "questions": [],
+  "input_files": [
+    "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+    "careers/config/preferences.json",
+    "careers/config/career-strategy.json",
+    "02_岗位画像/我的当前情况总结.md",
+    "02_岗位画像/data/我的能力画像.json",
+    "03_简历/懂车帝AI项目业务价值证据卡_V5.md",
+    "careers/agent-outputs/recommendations-2026-09-13/resume-extracts.json",
+    "03_简历/贺文杰_销售与商业化管理.docx",
+    "03_简历/贺文杰_商业化运营.docx",
+    "03_简历/贺文杰_AI商业化_BusinessBuilder定向优化版.docx",
+    "careers/agent-outputs/recommendations-2026-09-13/root-web-receipts.json",
+    "careers/agent-outputs/independent-review.json",
+    "careers/docs/headhunter-team.md",
+    ".agents/skills/official-career-intelligence/SKILL.md"
+  ],
+  "not_covered": [
+    "未向雇主、学校、客户或前同事核验个人事实；旧确认数字不代表9月新增或完整时间序列。",
+    "未独立联网重开来源；本次逐条核对的是总控本轮保存的原始web返回。搜索抓取日期未当作岗位发布日期。",
+    "固定月薪20K、试用期薪资结构、实际编制及人事直管权限均未确认；正式逐岗匹配还需完整硬门槛审批，包含dLocal出差要求等个人条件。",
+    "dLocal官网到Lever的归属链、智联雇主归属及最新薪资仍待核；没有公司完整分页扫描或行业竞位专项比较。",
+    "汽车或平台销售管理、销售运营仍是个人证据支持的方向，报告没有把它们声称为本轮已核实的具体合格岗位。",
+    "飞书服务类别仅按本轮搜索返回片段核对，未视为完整服务条款审阅或独立顾问订单证明。",
+    "没有副业真实支付、订单频次、获客成本、跨企业训练效果或持续交付数据；专家网络付费机制不证明用户会入选。",
+    "未重新审查市场代理全部内部材料或旧岗位匹配结果；本审核不为未引用来源、工具运行架构或软件实现背书。"
+  ],
+  "verification_evidence": [
+    {
+      "check": "个人职责与结果归属",
+      "conclusion": "报告采用最新本人确认边界，未将累计带教、员工结果、个人提效或协同权限升级。",
+      "evidence": [
+        {
+          "path": "02_岗位画像/我的当前情况总结.md",
+          "quote": "- **直接管理**：乐道/特斯拉任职期间同期直接管理10人，管理对象涵盖主管、业务主管与一线销售。累计带教21人是另一口径，不能写为同期直管21人。"
+        },
+        {
+          "path": "02_岗位画像/我的当前情况总结.md",
+          "quote": "- **特斯拉结果归属**：华南后10%提升至前30%指被辅导员工，不是团队整体排名。"
+        },
+        {
+          "path": "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+          "quote": "本次个人经历来源为简历和本人已确认陈述，没有进行雇主或学历第三方认证；采用同期直管10人、个人客户210家、员工排名改善和个人AI提效口径。未改写简历、发送材料或投递岗位。"
+        }
+      ]
+    },
+    {
+      "check": "AI内部实践与商业交付分开",
+      "conclusion": "把业务规则和内部采用视为可迁移证据，同时保留企业集成、运维和客户验收缺口。",
+      "evidence": [
+        {
+          "path": "03_简历/懂车帝AI项目业务价值证据卡_V5.md",
+          "quote": "- AI负责解释规则结果和生成建议，不修改业务阈值。"
+        },
+        {
+          "path": "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+          "quote": "内部实践和采用是证据；企业集成、权限治理、持续运维、客户验收未证明"
+        },
+        {
+          "path": "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+          "quote": "平台商业消耗不等于SaaS续费、ARR、NRR或软件合同回款"
+        }
+      ]
+    },
+    {
+      "check": "旧版简历冲突",
+      "conclusion": "未建议直接沿用商业化运营版或BusinessBuilder旧版，已知员工/团队口径错误未进入建议。",
+      "evidence": [
+        {
+          "path": "careers/agent-outputs/recommendations-2026-09-13/resume-extracts.json",
+          "quote": "团队排名由华南后10%提升至前30%。"
+        },
+        {
+          "path": "careers/agent-outputs/recommendations-2026-09-13/resume-extracts.json",
+          "quote": "被辅导员工排名由华南后10%提升至前30%；任期内培养5名员工顺利转正。"
+        },
+        {
+          "path": "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+          "quote": "存在个人提效口径不清、员工排名被写成团队排名等旧表述，不直接建议沿用。"
+        }
+      ]
+    },
+    {
+      "check": "薪酬与岗位门槛",
+      "conclusion": "面议、隐藏或索引薪资未当作固定薪20K；明确的理工科及毕业年限门槛未因职责相似被忽略。",
+      "evidence": [
+        {
+          "path": "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+          "quote": "本轮确认固定月薪20K达标的岗位为0。"
+        },
+        {
+          "path": "careers/agent-outputs/recommendations-2026-09-13/root-web-receipts.json",
+          "quote": "1.本科及以上学历，理工科背景优先；"
+        },
+        {
+          "path": "careers/agent-outputs/recommendations-2026-09-13/root-web-receipts.json",
+          "quote": "1.本科及以上学历，理工科背景，毕业3年以内；"
+        },
+        {
+          "path": "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+          "quote": "**明确剔除当前申请建议。** 页面要求理工科背景、毕业3年以内；与你的行政管理本科及2022年毕业时间不一致。"
+        }
+      ]
+    },
+    {
+      "check": "dLocal及受限薪资状态",
+      "conclusion": "dLocal保留为有条件探索；智联薪资索引和详情缺失分开，均没有虚假管理或薪酬达标结论。",
+      "evidence": [
+        {
+          "path": "careers/agent-outputs/recommendations-2026-09-13/root-web-receipts.json",
+          "quote": "Customer Success experience (B2B preferred)."
+        },
+        {
+          "path": "careers/agent-outputs/recommendations-2026-09-13/root-web-receipts.json",
+          "quote": "Fluent written and verbal English."
+        },
+        {
+          "path": "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+          "quote": "Lever全文和申请入口可见，官网到ATS的反向入口链仍待补核"
+        },
+        {
+          "path": "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+          "quote": "搜索索引显示7,000–12,000元，详情薪资被隐藏，固定构成未知；雇主归属未独立核验"
+        }
+      ]
+    },
+    {
+      "check": "副业机制与个人收入",
+      "conclusion": "专家网络机制有原文支持；辅导和工作流服务被保留为小范围验证，未用服务形式或历史互动推导个人成交。",
+      "evidence": [
+        {
+          "path": "careers/agent-outputs/recommendations-2026-09-13/root-web-receipts.json",
+          "quote": "Receive remuneration for your time and expertise."
+        },
+        {
+          "path": "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+          "quote": "销售职业辅导本轮没有取得同场景直接付费需求，因此列为基于履历的优先验证假设，不能说市场已验证。"
+        },
+        {
+          "path": "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+          "quote": "例如测试3个边界明确的付费辅导名额；这是实验规模，不是预计销量。"
+        },
+        {
+          "path": "outputs/简历隐藏能力与机会推荐_2026-09-13.md",
+          "quote": "内容账号可以成为上述服务的获客入口，但历史互动不是当前付费证明。"
+        }
+      ]
+    }
+  ]
+}

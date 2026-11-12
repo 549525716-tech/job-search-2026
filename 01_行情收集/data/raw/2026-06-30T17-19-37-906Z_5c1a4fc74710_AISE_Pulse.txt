@@ -1,0 +1,30 @@
+Anthropic AI Sales Engineer
+Company: Anthropic
+Category: Frontier AI
+OTE: $180K to $270K
+Work model: Hybrid (San Francisco)
+Estimated SE team size: 20 to 35 SEs
+
+Company positioning
+Anthropic is a frontier AI safety company that builds the Claude family of large language models. Founded by former OpenAI research leaders, the company differentiates on safety research, constitutional AI techniques, and building models that are helpful, harmless, and honest. The Claude API serves enterprise customers through both direct sales and partnerships with Amazon Web Services (via Amazon Bedrock) and Google Cloud. The enterprise sales team is growing rapidly as organizations adopt Claude for everything from customer support automation to code generation and document analysis.
+
+AI products and platform
+The product line centers on Claude, available in multiple tiers (Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku) optimized for different performance and cost tradeoffs. Enterprise customers access Claude through the Anthropic API, Amazon Bedrock, or Google Cloud Vertex AI. Key capabilities include long-context processing (up to 200K tokens), tool use for agentic workflows, vision for document and image analysis, and the Messages API for building conversational applications.
+
+Role details
+Sales Engineers at Anthropic work closely with enterprise accounts evaluating Claude for production use cases. The day-to-day involves running technical evaluations where customers compare Claude against competing models, building proof-of-concept applications that demonstrate Claude's strengths in areas like long-document analysis and multi-step reasoning, and guiding customers through API integration patterns. You would demo the Claude API, walk through prompt engineering best practices, explain constitutional AI and safety features to compliance-focused buyers, and help architects design systems that use Claude alongside existing infrastructure. The role also involves working with AWS and Google Cloud partner teams on joint customer engagements. Technical depth matters here. Anthropic hires SEs who can read research papers and translate findings into practical customer guidance.
+
+Technical skills and requirements
+- Python proficiency and experience building production API integrations
+- Deep understanding of LLM evaluation, benchmarking, and prompt engineering
+- Familiarity with AWS (Bedrock) or GCP (Vertex AI) for model deployment
+- Ability to discuss AI safety concepts and model limitations with credibility
+- Experience with enterprise security and compliance requirements
+
+Interview process
+Anthropic runs a thorough interview process that typically takes four to five weeks. It starts with a recruiter screen and hiring manager call, followed by a technical assessment where you solve a problem using the Claude API, a customer scenario role-play where you handle objections about model performance and safety, and a final round with senior leadership. Candidates report that Anthropic values intellectual curiosity and the ability to engage with technical nuance. They want SEs who can discuss model capabilities honestly, including limitations, rather than overselling. Familiarity with AI safety concepts and the ability to compare models objectively are differentiators.
+
+Salary and compensation
+Base salary for Sales Engineers at Anthropic typically ranges from $135,000 to $170,000, with OTE between $180,000 and $270,000. The equity component is meaningful given the company's rapid valuation growth, with recent funding rounds valuing Anthropic at over $18 billion. Benefits include comprehensive health coverage, 401(k), and learning stipends. The smaller team size means strong performers can move into leadership roles relatively quickly as the organization scales.
+
+Source URL: https://aisepulse.com/companies/anthropic/

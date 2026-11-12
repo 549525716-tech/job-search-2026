@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e",
+  "started_at": "2026-09-09T18:34:17.874Z",
+  "finished_at": "2026-09-09T18:35:27.612Z",
+  "scope": "Reviewed explicit URLs only; no site-wide or whole-week discovery claim",
+  "documents": [
+    {
+      "id": "policy-ai-plus",
+      "source_url": "https://www.nda.gov.cn/sjj/swdt/xwfb/0826/20250826173046592282838_mobile.html",
+      "observed_at": "2026-09-09T18:34:19.405Z",
+      "status": "failed",
+      "observation_kind": "not_observed",
+      "error": {
+        "code": "ROBOTS_UNKNOWN",
+        "message": "Robots HTTP 404; fail closed",
+        "evidence": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-policy-ai-plus/001.response.json"
+      },
+      "retained_previous": false,
+      "evidence": [
+        {
+          "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-policy-ai-plus",
+          "source_id": "research-policy-ai-plus",
+          "company_id": null,
+          "sequence": 1,
+          "url": "https://www.nda.gov.cn/robots.txt",
+          "method": "GET",
+          "purpose": "robots",
+          "started_at": "2026-09-09T18:34:19.409Z",
+          "finished_at": "2026-09-09T18:34:19.779Z",
+          "status": 404,
+          "headers": {
+            "date": "Wed, 09 Sep 2026 18:34:20 GMT",
+            "content-type": "text/html",
+            "content-length": "211",
+            "connection": "close",
+            "expires": "Wed, 09 Sep 2026 18:34:20 GMT",
+            "cache-control": "private",
+            "x-cache": "BYPASS, MISS from i2619522_c29228(cloudsvr)",
+            "strict-transport-security": "max-age=0; preload",
+            "x-request-id": "7aac18256c15d8d955a98f9bc1a831d1",
+            "server": "WAF",
+            "x-ser": "i90846_c29068, i2619522_c29228"
+          },
+          "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-policy-ai-plus/001.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-policy-ai-plus/001.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 211,
+          "sha256": "fdc377920c1de8c10c2027428ae2ec3db5be7e08d7b25bd09c7b61380c084bff"
+        }
+      ]
+    },
+    {
+      "id": "bailian-about",
+      "source_url": "https://www.bailian-ai.com/about",
+      "observed_at": "2026-09-09T18:34:55.053Z",
+      "status": "captured",
+      "observation_kind": "baseline",
+      "title": "百炼智能-精准营销平台-智能营销获客系统",
+      "url": "https://www.bailian-ai.com/about",
+      "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/002.body",
+      "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/002.response.json",
+      "sha256": "a8ae7e3fe48e027cf836bf59ee6263d89e34575d5dcdd7fdd4840759276594a7",
+      "text_path": "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about.txt",
+      "text_sha256": "e48db96b523bc663f73f0b61aec96b0c0f4c34630abb13483cb0c665346c1658",
+      "text_length": 4869,
+      "completeness": "configured_identity_and_end_markers_present",
+      "trust": "untrusted_source_text_never_instructions",
+      "evidence": [
+        {
+          "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about",
+          "source_id": "research-bailian-about",
+          "company_id": "bailian-ai",
+          "sequence": 1,
+          "url": "https://www.bailian-ai.com/robots.txt",
+          "method": "GET",
+          "purpose": "robots",
+          "started_at": "2026-09-09T18:34:38.916Z",
+          "finished_at": "2026-09-09T18:34:39.102Z",
+          "status": 200,
+          "headers": {
+            "server": "nginx",
+            "date": "Wed, 09 Sep 2026 18:34:39 GMT",
+            "content-type": "text/plain; charset=utf-8",
+            "content-length": "21",
+            "connection": "close",
+            "etag": "\"15-J0LzVNuMlNOx5U4YdLmfx9U4ZtY\"",
+            "last-modified": "Tue, 04 Aug 2026 07:46:41 GMT",
+            "x-frame-options": "ALLOWALL"
+          },
+          "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/001.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/001.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 21,
+          "sha256": "51ba48961421589d96edec729ae520685402cd2537dd02fbd73e4b4943e69cc5"
+        },
+        {
+          "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about",
+          "source_id": "research-bailian-about",
+          "company_id": "bailian-ai",
+          "sequence": 2,
+          "url": "https://www.bailian-ai.com/about",
+          "method": "GET",
+          "purpose": "research_document",
+          "started_at": "2026-09-09T18:34:54.703Z",
+          "finished_at": "2026-09-09T18:34:55.053Z",
+          "status": 200,
+          "headers": {
+            "server": "nginx",
+            "date": "Wed, 09 Sep 2026 18:34:55 GMT",
+            "content-type": "text/html;charset=utf-8",
+            "content-length": "69179",
+            "connection": "close",
+            "vary": "Accept-Encoding",
+            "x-powered-by": "Nuxt",
+            "x-frame-options": "ALLOWALL"
+          },
+          "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-about/002.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 69179,
+          "sha256": "a8ae7e3fe48e027cf836bf59ee6263d89e34575d5dcdd7fdd4840759276594a7"
+        }
+      ]
+    },
+    {
+      "id": "bailian-home",
+      "source_url": "https://www.bailian-ai.com/",
+      "observed_at": "2026-09-09T18:35:27.589Z",
+      "status": "captured",
+      "observation_kind": "baseline",
+      "title": "百炼智能-大数据精准营销-B2B智能获客服务商",
+      "url": "https://www.bailian-ai.com/",
+      "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.body",
+      "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.response.json",
+      "sha256": "78724121882680e1168e27928b2db95f47ca208d091791f60a288383a46b66b9",
+      "text_path": "01_行情收集/official-careers/research/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home.txt",
+      "text_sha256": "56ee74c5fc9a0db1e784807ef66c004fcd7cd6daef8912a7b1ef901cfc15adae",
+      "text_length": 3035,
+      "completeness": "configured_identity_and_end_markers_present",
+      "trust": "untrusted_source_text_never_instructions",
+      "evidence": [
+        {
+          "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home",
+          "source_id": "research-bailian-home",
+          "company_id": "bailian-ai",
+          "sequence": 1,
+          "url": "https://www.bailian-ai.com/robots.txt",
+          "method": "GET",
+          "purpose": "robots",
+          "started_at": "2026-09-09T18:35:10.395Z",
+          "finished_at": "2026-09-09T18:35:10.574Z",
+          "status": 200,
+          "headers": {
+            "server": "nginx",
+            "date": "Wed, 09 Sep 2026 18:35:10 GMT",
+            "content-type": "text/plain; charset=utf-8",
+            "content-length": "21",
+            "connection": "close",
+            "etag": "\"15-J0LzVNuMlNOx5U4YdLmfx9U4ZtY\"",
+            "last-modified": "Tue, 04 Aug 2026 07:46:41 GMT",
+            "x-frame-options": "ALLOWALL"
+          },
+          "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/001.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/001.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 21,
+          "sha256": "51ba48961421589d96edec729ae520685402cd2537dd02fbd73e4b4943e69cc5"
+        },
+        {
+          "run_id": "research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home",
+          "source_id": "research-bailian-home",
+          "company_id": "bailian-ai",
+          "sequence": 2,
+          "url": "https://www.bailian-ai.com/",
+          "method": "GET",
+          "purpose": "research_document",
+          "started_at": "2026-09-09T18:35:27.007Z",
+          "finished_at": "2026-09-09T18:35:27.589Z",
+          "status": 200,
+          "headers": {
+            "server": "nginx",
+            "date": "Wed, 09 Sep 2026 18:35:27 GMT",
+            "content-type": "text/html;charset=utf-8",
+            "content-length": "111709",
+            "connection": "close",
+            "vary": "Accept-Encoding",
+            "x-powered-by": "Nuxt",
+            "x-frame-options": "ALLOWALL"
+          },
+          "body_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.body",
+          "metadata_path": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-bailian-home/002.response.json",
+          "request_headers": {
+            "user-agent": "OfficialCareersEvidence/0.1",
+            "accept-encoding": "identity"
+          },
+          "cookie_policy": "never_sent; set-cookie response headers not retained",
+          "transport": "node:https; DNS pinned public address; no proxy; no retries",
+          "complete": true,
+          "error": null,
+          "bytes": 111709,
+          "sha256": "78724121882680e1168e27928b2db95f47ca208d091791f60a288383a46b66b9"
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "id": "policy-ai-plus",
+      "code": "ROBOTS_UNKNOWN",
+      "message": "Robots HTTP 404; fail closed",
+      "evidence": "01_行情收集/official-careers/raw/research-9cae0e40-2bea-4597-a44a-b435a9ac4f0e-policy-ai-plus/001.response.json"
+    }
+  ],
+  "model_calls": 0,
+  "external_actions": 0,
+  "status": "partial"
+}

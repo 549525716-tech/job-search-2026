@@ -1,0 +1,67 @@
+{
+  "runId": "2026-06-29T17-57-50-340Z",
+  "createdAt": "2026-06-29T17:57:50.340Z",
+  "args": {
+    "city": "广州",
+    "companyFile": "/Users/MR/Documents/职场/06_自动化采集/config/ai_full_company_targets.txt",
+    "industryFile": "/Users/MR/Documents/职场/06_自动化采集/config/industry_targets.txt",
+    "rolesFile": "/Users/MR/Documents/职场/06_自动化采集/config/sales_management_roles.txt",
+    "batchSize": 1,
+    "maxBatches": 1,
+    "startOffset": 0,
+    "delayMs": 600000,
+    "cooldownMs": 1800000,
+    "jitterMs": 180000,
+    "cardsPerSearch": 2,
+    "detailLimit": 0,
+    "maxJobsPerBatch": 3,
+    "phases": [
+      "company",
+      "industry"
+    ],
+    "resumeAfterRisk": false,
+    "dryRun": false
+  },
+  "safetyLimits": {
+    "before": {
+      "batchSize": 1,
+      "maxBatches": 1,
+      "delayMs": 600000,
+      "cooldownMs": 1800000,
+      "jitterMs": 180000,
+      "cardsPerSearch": 2,
+      "detailLimit": 0,
+      "maxJobsPerBatch": 30,
+      "resumeAfterRisk": false
+    },
+    "after": {
+      "batchSize": 1,
+      "maxBatches": 1,
+      "delayMs": 600000,
+      "cooldownMs": 1800000,
+      "jitterMs": 180000,
+      "cardsPerSearch": 2,
+      "detailLimit": 0,
+      "maxJobsPerBatch": 3,
+      "resumeAfterRisk": false
+    }
+  },
+  "totals": {
+    "companies": 121,
+    "industries": 59,
+    "roles": 29,
+    "plannedBatches": 1
+  },
+  "tasks": [
+    {
+      "kind": "company",
+      "role": "AI销售",
+      "items": [
+        "智谱AI"
+      ]
+    }
+  ],
+  "results": [],
+  "status": "paused_by_risk_recovery_mode",
+  "message": "BOSS风控恢复期：本次不会执行整晚自动采集。\n建议先暂停 120-180 分钟，并在浏览器中手动完成验证。\n恢复整晚低频采集时，命令需要显式追加 --resume-after-risk。\n恢复期更建议手动浏览岗位后使用 npm run import:manual 导入复制的岗位文本。"
+}

@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "review_type": "offline_keyword_review_only",
+  "model_provenance": "controller_spawn_record_only",
+  "scope": {
+    "input_file": "jobs.json",
+    "initial_read_sha256": "834b1037fb28b549a07d2f5ee80d59942685233310db3829a7455b09f6d6074e",
+    "review_read_sha256": "3b8053208f1f8022ed09ba20238e5da0ddb96b68796b1c64a8c1697bc65f467c",
+    "selected_jobs_sha256": "1f5e215a17ba5628cd0f90db7e16178fa46ee7ae3c094601aa110cc333e252d7",
+    "selected_jobs_hash_serialization": "JSON.stringify(scope_job_ids.map(id => jobs.find(job => job.id === id)))",
+    "context_file": "context.json",
+    "context_sha256": "ab9a761f450d0d1b3273abe2ac31599630fb452731b238d087020732e64f9a0b",
+    "reviewed_job_count": 19,
+    "sample_employer_count": 3,
+    "jobs_file_count_at_freeze": 23,
+    "scope_job_ids": [
+      "tungee-l85-20260913",
+      "tungee-l104-20260913",
+      "tungee-l124-20260913",
+      "tungee-l144-20260913",
+      "tungee-l162-20260913",
+      "tungee-l182-20260913",
+      "tungee-l206-20260913",
+      "tungee-l224-20260913",
+      "fxiaoke-l384-20260913",
+      "fxiaoke-l410-20260913",
+      "fxiaoke-l441-20260913",
+      "fxiaoke-l592-20260913",
+      "sensorsdata-l465-20260913",
+      "sensorsdata-l509-20260913",
+      "sensorsdata-l715-20260913",
+      "sensorsdata-l404-20260913",
+      "sensorsdata-l417-20260913",
+      "sensorsdata-l433-20260913",
+      "sensorsdata-l644-20260913"
+    ],
+    "note": "仅审列明19条；并发追加与注释变动不纳入；以JD核心字段及原文SHA锁定。",
+    "observation_semantics": "原始读取时间，非发布日期；本轮不核当前在招。",
+    "selected_jd_core_fields": [
+      "id",
+      "company",
+      "title",
+      "description",
+      "requirements",
+      "source_url",
+      "observed_at",
+      "evidence_file",
+      "evidence_sha256"
+    ],
+    "selected_jd_core_sha256": "dfc2b7145758167ee78b39e5583847ed67f5f62d29a9ef2e800a3435d50335fd",
+    "concurrent_metadata_change": "attention"
+  },
+  "summary": "2组为样本内跨公司共性，5组为单公司观察；所有搜索组合均为推断，非市场高频结论。",
+  "status_definitions": {
+    "shared_verified": "至少两家独立雇主的语义共性",
+    "observed_niche": "仅单公司证据",
+    "inferred_search_combination": "原词拼接用于搜索，非JD原句",
+    "inferred_alias": "推测名称，须复核正文"
+  },
+  "keywords": [
+    {
+      "term_id": "K1",
+      "keyword": "客户成功经理 续费 增购 招聘",
+      "expanded_query": "续约 增购 招聘",
+      "term_status": "shared_verified",
+      "shared_semantics": "续约增购",
+      "dimensions": [
+        "title",
+        "responsibilities",
+        "business_outcomes",
+        "customer_and_scenario"
+      ],
+      "priority": "first",
+      "fit": "商户经营可迁移，软件续约增购业绩未证实。",
+      "fact_ids": [
+        "EV-DCD-ROI",
+        "EV-DCD-COORDINATION"
+      ],
+      "combination_status": "inferred_search_combination",
+      "evidence_employer_count": 2,
+      "evidence": [
+        {
+          "job_id": "fxiaoke-l441-20260913",
+          "company": "纷享销客",
+          "source_field": "description",
+          "quote": "负责区域客户续费工作",
+          "source_url": "https://www.fxiaoke.com/crm/about-join/",
+          "observed_at": "2026-09-12T19:36:34.341Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/018-open-A-fxiaoke-official.json",
+          "content_sha256": "91ecfcddbd5439de4411cfb92ba5c42cce4bf3b906121e42a61ac1d17b4c0486",
+          "raw_line": 449
+        },
+        {
+          "job_id": "fxiaoke-l441-20260913",
+          "company": "纷享销客",
+          "source_field": "description",
+          "quote": "负责区域客户增购工作",
+          "source_url": "https://www.fxiaoke.com/crm/about-join/",
+          "observed_at": "2026-09-12T19:36:34.341Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/018-open-A-fxiaoke-official.json",
+          "content_sha256": "91ecfcddbd5439de4411cfb92ba5c42cce4bf3b906121e42a61ac1d17b4c0486",
+          "raw_line": 451
+        },
+        {
+          "job_id": "sensorsdata-l715-20260913",
+          "company": "神策数据",
+          "source_field": "description",
+          "quote": "保证客户完成续约",
+          "source_url": "https://www.sensorsdata.cn/about/joinus.html",
+          "observed_at": "2026-09-12T19:32:05.833Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/006-open-A-sensorsdata.json",
+          "content_sha256": "156837d9d3bf5f528eff6296070ed3327627051b64415bb83056a841add56aa2",
+          "raw_line": 718
+        },
+        {
+          "job_id": "sensorsdata-l715-20260913",
+          "company": "神策数据",
+          "source_field": "description",
+          "quote": "完成增购任务",
+          "source_url": "https://www.sensorsdata.cn/about/joinus.html",
+          "observed_at": "2026-09-12T19:32:05.833Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/006-open-A-sensorsdata.json",
+          "content_sha256": "156837d9d3bf5f528eff6296070ed3327627051b64415bb83056a841add56aa2",
+          "raw_line": 719
+        }
+      ]
+    },
+    {
+      "term_id": "K2",
+      "keyword": "大客户经理 解决方案 企业老板 招聘",
+      "expanded_query": "解决方案 销售 需求 招聘",
+      "term_status": "shared_verified",
+      "shared_semantics": "解决方案销售",
+      "dimensions": [
+        "title",
+        "responsibilities",
+        "customer_and_scenario"
+      ],
+      "priority": "first",
+      "fit": "老板沟通与ROI方案可迁移，企业软件签约证据缺失。",
+      "fact_ids": [
+        "EV-DCD-ROI",
+        "EV-DCD-SECONDHAND"
+      ],
+      "combination_status": "inferred_search_combination",
+      "evidence_employer_count": 2,
+      "evidence": [
+        {
+          "job_id": "fxiaoke-l410-20260913",
+          "company": "纷享销客",
+          "source_field": "description",
+          "quote": "为客户提供解决方案",
+          "source_url": "https://www.fxiaoke.com/crm/about-join/",
+          "observed_at": "2026-09-12T19:36:34.341Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/018-open-A-fxiaoke-official.json",
+          "content_sha256": "91ecfcddbd5439de4411cfb92ba5c42cce4bf3b906121e42a61ac1d17b4c0486",
+          "raw_line": 418
+        },
+        {
+          "job_id": "fxiaoke-l410-20260913",
+          "company": "纷享销客",
+          "source_field": "description",
+          "quote": "跟企业老板面对面沟通",
+          "source_url": "https://www.fxiaoke.com/crm/about-join/",
+          "observed_at": "2026-09-12T19:36:34.341Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/018-open-A-fxiaoke-official.json",
+          "content_sha256": "91ecfcddbd5439de4411cfb92ba5c42cce4bf3b906121e42a61ac1d17b4c0486",
+          "raw_line": 420
+        },
+        {
+          "job_id": "tungee-l224-20260913",
+          "company": "探迹科技",
+          "source_field": "description",
+          "quote": "为客户提供解决方案销售服务",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 231
+        }
+      ]
+    },
+    {
+      "term_id": "K3",
+      "keyword": "渠道经理 代理商开发 渠道政策 招聘",
+      "expanded_query": "渠道 代理商开发 招聘",
+      "term_status": "observed_niche",
+      "dimensions": [
+        "title",
+        "responsibilities",
+        "management_and_collaboration"
+      ],
+      "priority": "first",
+      "fit": "渠道搭建与辅导可迁移，3年渠道经验及代理商资源待核。",
+      "fact_ids": [
+        "EV-ONVO-MANAGEMENT",
+        "EV-TESLA-TRADEIN"
+      ],
+      "combination_status": "inferred_search_combination",
+      "evidence_employer_count": 1,
+      "evidence": [
+        {
+          "job_id": "tungee-l104-20260913",
+          "company": "探迹科技",
+          "source_field": "description",
+          "quote": "负责公司代理商开发",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 109
+        },
+        {
+          "job_id": "tungee-l104-20260913",
+          "company": "探迹科技",
+          "source_field": "description",
+          "quote": "执行公司渠道政策及流程",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 110
+        },
+        {
+          "job_id": "tungee-l104-20260913",
+          "company": "探迹科技",
+          "source_field": "description",
+          "quote": "监督下属团队渠道计划的执行情况",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 111
+        },
+        {
+          "job_id": "tungee-l104-20260913",
+          "company": "探迹科技",
+          "source_field": "requirements",
+          "quote": "3年以上渠道经验",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 117
+        }
+      ]
+    },
+    {
+      "term_id": "K4",
+      "keyword": "电销经理 团队KPI 考核 招聘",
+      "expanded_query": "销售团队 挑选和配备 招聘",
+      "term_status": "observed_niche",
+      "dimensions": [
+        "title",
+        "business_outcomes",
+        "management_and_collaboration",
+        "technical_and_hard_gates"
+      ],
+      "priority": "second",
+      "fit": "10人直管及招考权限有证据，相关管理年限、电话销售强度待核。",
+      "fact_ids": [
+        "EV-ONVO-MANAGEMENT",
+        "EV-TESLA-MANAGEMENT"
+      ],
+      "combination_status": "inferred_search_combination",
+      "evidence_employer_count": 1,
+      "evidence": [
+        {
+          "job_id": "tungee-l144-20260913",
+          "company": "探迹科技",
+          "source_field": "description",
+          "quote": "挑选和配备各个岗位人员",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 151
+        },
+        {
+          "job_id": "tungee-l144-20260913",
+          "company": "探迹科技",
+          "source_field": "description",
+          "quote": "完成每月团队KPI考核并指导团队达成指标",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 152
+        },
+        {
+          "job_id": "tungee-l144-20260913",
+          "company": "探迹科技",
+          "source_field": "requirements",
+          "quote": "具备至少两年以上呼叫中心经验或6人以上团队管理经验",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 157
+        }
+      ]
+    },
+    {
+      "term_id": "K5",
+      "keyword": "城市经理 区域 考核 招聘",
+      "expanded_query": "商业运营 区域 经营 招聘",
+      "term_status": "observed_niche",
+      "inferred_aliases": [
+        "商业运营"
+      ],
+      "alias_status": "inferred_alias",
+      "dimensions": [
+        "title",
+        "responsibilities",
+        "business_outcomes",
+        "management_and_collaboration"
+      ],
+      "priority": "first",
+      "fit": "经营复盘与带队可迁移，同岗3年待核，跨区域协同不等人事权。",
+      "fact_ids": [
+        "EV-DCD-BIZOPS",
+        "EV-ONVO-MANAGEMENT"
+      ],
+      "combination_status": "inferred_search_combination",
+      "evidence_employer_count": 1,
+      "evidence": [
+        {
+          "job_id": "tungee-l206-20260913",
+          "company": "探迹科技",
+          "source_field": "description",
+          "quote": "全面负责区域的日常经营内外业务沟通协调工作",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 212
+        },
+        {
+          "job_id": "tungee-l206-20260913",
+          "company": "探迹科技",
+          "source_field": "description",
+          "quote": "制定考核、监控指标",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 213
+        },
+        {
+          "job_id": "tungee-l206-20260913",
+          "company": "探迹科技",
+          "source_field": "requirements",
+          "quote": "同岗位工作经验3年以上",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 218
+        }
+      ]
+    },
+    {
+      "term_id": "K6",
+      "keyword": "商务专家 B2B 生态合作 商协会 招聘",
+      "expanded_query": "生态合作 商协会 招聘",
+      "term_status": "observed_niche",
+      "dimensions": [
+        "title",
+        "responsibilities",
+        "customer_and_scenario",
+        "business_outcomes"
+      ],
+      "priority": "second",
+      "fit": "渠道项目经验可迁移，企业服务生态合作年限及商协会资源待核。",
+      "fact_ids": [
+        "EV-ONVO-MARKET"
+      ],
+      "combination_status": "inferred_search_combination",
+      "evidence_employer_count": 1,
+      "evidence": [
+        {
+          "job_id": "tungee-l85-20260913",
+          "company": "探迹科技",
+          "source_field": "description",
+          "quote": "企业服务、制造行业商协会等优质第三方机构，拓展并深化生态合作",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 91
+        },
+        {
+          "job_id": "tungee-l85-20260913",
+          "company": "探迹科技",
+          "source_field": "description",
+          "quote": "批量挖掘精准市场线索",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 91
+        },
+        {
+          "job_id": "tungee-l85-20260913",
+          "company": "探迹科技",
+          "source_field": "requirements",
+          "quote": "3-5年B端商务拓展/渠道开发/生态合作相关实战经验",
+          "source_url": "https://m.tungee.com/about/join-us/",
+          "observed_at": "2026-09-12T19:36:12.516Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/017-open-A-tungee.json",
+          "content_sha256": "976d86a1f5c4af43076306d27a5b16075e330fef502b6a321114376ba9b0dbec",
+          "raw_line": 99
+        }
+      ]
+    },
+    {
+      "term_id": "K7",
+      "keyword": "大客户咨询顾问 企业级软件 决策链 招聘",
+      "expanded_query": "商务谈判 决策链 招聘",
+      "term_status": "observed_niche",
+      "dimensions": [
+        "title",
+        "responsibilities",
+        "customer_and_scenario",
+        "technical_and_hard_gates"
+      ],
+      "priority": "gate_reference_only",
+      "fit": "非计算机专业且缺企业软件销售与招投标证据，仅作门槛对照。",
+      "fact_ids": [
+        "EV-EDUCATION",
+        "EV-CAREER-TENURE"
+      ],
+      "combination_status": "inferred_search_combination",
+      "evidence_employer_count": 1,
+      "evidence": [
+        {
+          "job_id": "sensorsdata-l509-20260913",
+          "company": "神策数据",
+          "source_field": "description",
+          "quote": "项目答标、商务谈判及合同签订",
+          "source_url": "https://www.sensorsdata.cn/about/joinus.html",
+          "observed_at": "2026-09-12T19:32:05.833Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/006-open-A-sensorsdata.json",
+          "content_sha256": "156837d9d3bf5f528eff6296070ed3327627051b64415bb83056a841add56aa2",
+          "raw_line": 512
+        },
+        {
+          "job_id": "sensorsdata-l509-20260913",
+          "company": "神策数据",
+          "source_field": "requirements",
+          "quote": "计算机相关专业本科及以上学历，三年以上企业级软件应用及解决方案的销售经验",
+          "source_url": "https://www.sensorsdata.cn/about/joinus.html",
+          "observed_at": "2026-09-12T19:32:05.833Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/006-open-A-sensorsdata.json",
+          "content_sha256": "156837d9d3bf5f528eff6296070ed3327627051b64415bb83056a841add56aa2",
+          "raw_line": 516
+        },
+        {
+          "job_id": "sensorsdata-l509-20260913",
+          "company": "神策数据",
+          "source_field": "requirements",
+          "quote": "熟悉传统企业组织架构、采购流程、决策模 式和决策链，对招投标流程清晰了解",
+          "source_url": "https://www.sensorsdata.cn/about/joinus.html",
+          "observed_at": "2026-09-12T19:32:05.833Z",
+          "evidence_file": "01_行情收集/official-careers/research/sweep-2026-09-13/raw/006-open-A-sensorsdata.json",
+          "content_sha256": "156837d9d3bf5f528eff6296070ed3327627051b64415bb83056a841add56aa2",
+          "raw_line": 517
+        }
+      ]
+    }
+  ],
+  "guardrails": {
+    "salary": "19条固定月薪均未知，不判20K达标，不据此删线索。",
+    "management": "监督和协作不等人事权；直管、招聘审批、绩效及预算权限逐岗核。",
+    "roles": "排除产品经理；技术交付不作主攻，不因协作产品或经理头衔误判。",
+    "gates": "企业软件销售、计算机专业及招投标要求不能用个人AI工具经验替代。",
+    "handoff": "只交唯一Luna串行检索；精准与拓展分开，去公司限定，不强制AI词；保留完整JD及未扫状态。",
+    "no_network": true,
+    "no_applications": true,
+    "final_matching": "deferred"
+  }
+}
